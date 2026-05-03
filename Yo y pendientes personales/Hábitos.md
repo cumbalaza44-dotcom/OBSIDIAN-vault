@@ -1,0 +1,1 @@
+- [ ] Purgar teléfono de apps y videos 
