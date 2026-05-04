@@ -10,11 +10,8 @@ Un estilo racer: (aventura, táctico, enfocado  a la seguridad )
 ## tareas
 - [ ] Afeitarse 
 - [ ] Cortarse el cabello 
-
-# GYM
-## Tareas 
-- [ ] Definir esquema de entrenamiento 
-Y definir rutinas y avances para máximo rendimiento #gym 
+- [ ] Aumentar presupuesto alimentario personal
+- [ ] Balanceo de progreso y profundización de pilares a nucleos enfocados en ser vivir y hacer
 
 
 
