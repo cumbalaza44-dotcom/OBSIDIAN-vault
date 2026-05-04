@@ -11,4 +11,17 @@ Presente, Encontrar la manera de disfrutar la vida
 ## Chispa= = trascender = aprender y practicar
 
 
-# 
+# Procesamiento -accion 
+
+## Como 
+## Para que 
+## Porque 
+
+
+
+# Proyección realidad
+## Como 
+## Para que 
+## Porque
+## vivir = soy 
+## Aprender y practicar presente
