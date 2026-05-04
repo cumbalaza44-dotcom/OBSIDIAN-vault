@@ -4,3 +4,11 @@ Percepción de pensamientos  interna y externa como fenómenoa, haciendo que la 
 
 
 ## Solo existe el hoy y el ahora = PRESENTE
+Presente, Encontrar la manera de disfrutar la vida
+
+## Vivir =hacer= soy practicar
+
+## Chispa= = trascender = aprender y practicar
+
+
+# 
