@@ -7,11 +7,13 @@ Un estilo racer: (aventura, táctico, enfocado  a la seguridad )
 - Racer Boy
 - Tactic Boy
 - Heroico accesorizado 
-## afeitarse 
+## tareas
+- [ ] Afeitarse 
+- [ ] Cortarse el cabello 
 
-## Cortar el cabello 
 
 ## GYM
 - [ ] Definir esquema de entrenamiento 
-Y definir rutinas y avances para máximo rendimiento 
+Y definir rutinas y avances para máximo rendimiento #gym 
+
 
