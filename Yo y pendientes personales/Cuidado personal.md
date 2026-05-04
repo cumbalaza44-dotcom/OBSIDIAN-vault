@@ -3,7 +3,7 @@
 Vestir con moda y estilo actualmente se busca 
 Un estilo racer: (aventura, táctico, enfocado  a la seguridad )
 
- - Vestir con moda y estilo 
+- Vestir con moda y estilo 
 - Racer Boy
 - Tactic Boy
 - Heroico accesorizado 
@@ -12,6 +12,7 @@ Un estilo racer: (aventura, táctico, enfocado  a la seguridad )
 - [ ] Cortarse el cabello 
 - [ ] Aumentar presupuesto alimentario personal
 - [ ] Balanceo de progreso y profundización de pilares a nucleos enfocados en ser vivir y hacer
+
 
 
 
