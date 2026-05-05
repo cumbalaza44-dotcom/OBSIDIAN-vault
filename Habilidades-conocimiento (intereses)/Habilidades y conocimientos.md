@@ -2,5 +2,7 @@
 - [ ] Programación en inteligencia artificial 
 - [ ] Como funcióna nuevos modelos ia
 - [ ] Investigar ia diario 
-- [ ] Ciclo de trabajo 
-     () 
+- [ ] Ciclo de   Trabajo 
+      (Crear  flujo de trabajo continuo para desarrollar conocimiento e intereses de forma permanente)
+- [ ] Psicología de control de masas 
+- [ ] Meta ads 
