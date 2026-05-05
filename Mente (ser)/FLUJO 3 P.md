@@ -45,3 +45,4 @@ Habilidad de mejora y adaptabilidad mental para ser mejor ñ
 
 
 ## Ciclo de trabajo MENTE
+DESARROLLO de habilidades, conocimientos y comportamientos superiores 
