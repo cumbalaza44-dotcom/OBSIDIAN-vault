@@ -1,7 +1,8 @@
-|                              | Cron Pull                      | Heartbeat                         |
-| ---------------------------- | ------------------------------ | --------------------------------- |
-| Quién ejecuta                | El sistema (cron daemon)       | Yo (mi sesión en OpenClaw)        |
-| Cada cuánto                  | 5 min fijo                     | ~30-60 min (cuando estoy activo)  |
-| Gasta tokens de LLM?         | ❌ Cero                         | ✅ Sí, cada heartbeat me despierta |
-| Qué hace                     | git pull silencioso — solo red | Razona, analiza, decide si hablar |
-| Vive si no hay conversación? | Sí, siempre                    | No, solo si la sesión está activa |
+Tú editas en iOS
+  → plugin sync push cada 3 min (ya existe)
+    → cron pull en VPS cada 5 min (nuevo, 0 tokens)
+      → yo leo índice actualizado en heartbeat (1 read, ~200 tokens)
+Tú editas en iOS
+  → yo hago git fetch en heartbeat (gasta tokens en red + razonamiento)
+  → si hay cambios, leo índice (otro read)
+  
