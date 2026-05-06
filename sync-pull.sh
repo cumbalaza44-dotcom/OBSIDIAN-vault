@@ -40,4 +40,7 @@ if [ "$BEFORE" != "$AFTER" ]; then
     echo "files_changed=$CHANGED_FILES" >> "$FLAG_FILE"
     
     log "CHANGE DETECTED: $NEW_COMMITS commit(s), files: $CHANGED_FILES"
+    
+    # ── Generate LLM snapshot ──
+    bash "$VAULT_DIR/sync-snapshot.sh"
 fi
