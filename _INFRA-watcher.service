@@ -1,0 +1,14 @@
+[Unit]
+Description=Obsidian Vault File Watcher — reactive push on edit
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /root/.openclaw/workspace/obsidian-vault/watcher.sh
+Restart=always
+RestartSec=5
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target

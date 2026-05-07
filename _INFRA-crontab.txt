@@ -1,0 +1,5 @@
+0 0 * * * /root/.openclaw/workspace/backup-openclaw.sh >> /var/log/openclaw-backup.log 2>&1
+
+
+# Obsidian Vault sync pull + reactive flag (cada 5 min)
+*/5 * * * * /root/.openclaw/workspace/obsidian-vault/sync-pull.sh
