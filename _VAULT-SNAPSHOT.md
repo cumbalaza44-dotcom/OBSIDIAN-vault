@@ -1,8 +1,8 @@
 # VAULT SNAPSHOT
-> Generado: 2026-05-06 18:09 UTC-5
+> Generado: 2026-05-06 19:20 UTC-5
 
 ## 📊 Stats
-- Notas: **21** | Carpetas: **7** | Vacías: **6** | Tareas pendientes: **19**
+- Notas: **23** | Carpetas: **8** | Vacías: **6** | Tareas pendientes: **20**
 
 ## 📝 Tareas pendientes
 - [ ] Estudiar migración de trading assistant📅 2026-05-06   — *FINANZAS Y PROYECTOS/M/Bot MT5.md*
@@ -17,6 +17,7 @@
 - [ ] Psicología de control de masas   — *Habilidades-conocimiento (intereses)/Habilidades y conocimientos.md*
 - [ ] Meta ads   — *Habilidades-conocimiento (intereses)/Habilidades y conocimientos.md*
 - [ ] Estrategia de ahorro corto mediano y largo plazo  — *Mente (ser)/Habilidades.md*
+- [ ] Estudiar migración de trading assistant (Bot MT5) a n8n — aplicar framework de bloques  — *registro de progreso diario/2026-05-06.md*
 - [ ] Afeitarse   — *Yo y pendientes personales/Cuidado personal.md*
 - [ ] Cortarse el cabello   — *Yo y pendientes personales/Cuidado personal.md*
 - [ ] Aumentar presupuesto alimentario personal  — *Yo y pendientes personales/Cuidado personal.md*
@@ -26,9 +27,9 @@
 - [ ] Ciclo de habitos y pendientes   — *Yo y pendientes personales/Hábitos.md*
 
 ## 🆕 Cambios recientes
+- Notas somos.md
+- registro de progreso diario/2026-05-06.md
 - FINANZAS Y PROYECTOS/M/Bot MT5.md
-- Mente (ser)/Habilidades.md
-- FINANZAS Y PROYECTOS/Semillas y trabajos automatizados.md
 
 ## 📄 Notas vacías
 - FINANZAS Y PROYECTOS/Conocimientos financieros.md
