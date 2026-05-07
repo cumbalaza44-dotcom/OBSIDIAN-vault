@@ -3,8 +3,8 @@ Onfra estructura iluminación y alimentación
 Orden de estandar
 Documentación de profesor
 
-| Componente                | Función                     | Costo    |
-| ------------------------- | --------------------------- | -------- |
-| Cron #1 0 0 * * *         | Backup workspace            | 0 tokens |
-| Cron #2 */5 * * *         | Sync pull + flag + snapshot | 0 tokens |
-| Servicio obsidian-watcher | Push reactivo al            |          |
+| Ajuste                     | Impacto                                      | Tokens                         |
+| -------------------------- | -------------------------------------------- | ------------------------------ |
+| HEARTBEAT.md + vault check | Medio — detecto cambios aunque no hables     | ~50 tokens extra por heartbeat |
+| MEMORY.md con pipeline     | Bajo — ya está en AGENTS.md                  | 0 (solo escritura)             |
+| SOUL.md con pipeline       | No — SOUL.md es identidad, no procedimientos | —                              |
