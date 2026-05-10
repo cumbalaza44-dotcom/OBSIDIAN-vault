@@ -1,14 +1,14 @@
 # VAULT SNAPSHOT
-> Generado: 2026-05-10 15:15 UTC-5
+> Generado: 2026-05-10 18:45 UTC-5
 
 ## 📊 Stats
 - Notas: **28** | Carpetas: **9** | Vacías: **6** | Tareas pendientes: **22**
 
 ## 📝 Tareas pendientes
-- [ ] Estudiar migración de trading assistant📅 2026-05-06   — *FINANZAS Y PROYECTOS/Bot MT5.md*
-- [ ] musical  — *Ghost mode/identidad.md*
-- [ ] Aventura  — *Ghost mode/identidad.md*
-- [ ] estilo dark colorido vivido  — *Ghost mode/identidad.md*
+- [ ] Estudiar migración de trading assistant📅 2026-05-06   — *FINANZAS Y PROYECTOS/Bot mt5/Bot MT5.md*
+- [ ] musical  — *FINANZAS Y PROYECTOS/Ghost mode/identidad.md*
+- [ ] Aventura  — *FINANZAS Y PROYECTOS/Ghost mode/identidad.md*
+- [ ] estilo dark colorido vivido  — *FINANZAS Y PROYECTOS/Ghost mode/identidad.md*
 - [ ] Investigar programas de diseño 3d  — *HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Habilidades y conocimientos.md*
 - [ ] Programación en inteligencia artificial   — *HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Habilidades y conocimientos.md*
 - [ ] Como funcióna nuevos modelos ia  — *HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Habilidades y conocimientos.md*
@@ -29,12 +29,12 @@
 - [ ] Confirmar que el pipeline vault refleja cambios inmediatamente al editar  — *registro de progreso diario/2026-05-08.md*
 
 ## 🆕 Cambios recientes
+- FINANZAS Y PROYECTOS/Ghost mode/identidad.md
+- FINANZAS Y PROYECTOS/Bot mt5/Bot MT5.md
 - FINANZAS Y PROYECTOS/Finanzas y proyectos/Semillas y trabajos automatizados.md
-- FINANZAS Y PROYECTOS/Finanzas y proyectos/Conocimientos financieros.md
-- FINANZAS Y PROYECTOS/Finanzas y proyectos/Búsqueda de plataformas para estrategias de ahorro.md
 
 ## 📄 Notas vacías
-- FINANZAS Y PROYECTOS/Bot MT5.md
+- FINANZAS Y PROYECTOS/Bot mt5/Bot MT5.md
 - FINANZAS Y PROYECTOS/Finanzas y proyectos/Conocimientos financieros.md
 - FINANZAS Y PROYECTOS/Finanzas y proyectos/Plan de Acción.md
 - FINANZAS Y PROYECTOS/Finanzas y proyectos/Semillas y trabajos automatizados.md
