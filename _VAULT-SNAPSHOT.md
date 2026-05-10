@@ -1,8 +1,8 @@
 # VAULT SNAPSHOT
-> Generado: 2026-05-10 18:47 UTC-5
+> Generado: 2026-05-10 18:50 UTC-5
 
 ## 📊 Stats
-- Notas: **30** | Carpetas: **9** | Vacías: **6** | Tareas pendientes: **22**
+- Notas: **30** | Carpetas: **10** | Vacías: **6** | Tareas pendientes: **22**
 
 ## 📝 Tareas pendientes
 - [ ] Estudiar migración de trading assistant📅 2026-05-06   — *FINANZAS Y PROYECTOS/Bot mt5/Bot MT5.md*
@@ -29,9 +29,9 @@
 - [ ] Confirmar que el pipeline vault refleja cambios inmediatamente al editar  — *registro de progreso diario/2026-05-08.md*
 
 ## 🆕 Cambios recientes
+- System/_INFRA-RESTORE.md
+- System/Flujo de sincronización.md
 - registro de progreso diario/2026-05-10.md
-- HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/Recordatorio moto.md
-- FINANZAS Y PROYECTOS/Ghost mode/identidad.md
 
 ## 📄 Notas vacías
 - FINANZAS Y PROYECTOS/Bot mt5/Bot MT5.md
