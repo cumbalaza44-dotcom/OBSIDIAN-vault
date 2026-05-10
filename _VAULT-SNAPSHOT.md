@@ -1,11 +1,11 @@
 # VAULT SNAPSHOT
-> Generado: 2026-05-09 23:33 UTC-5
+> Generado: 2026-05-10 14:45 UTC-5
 
 ## 📊 Stats
 - Notas: **28** | Carpetas: **9** | Vacías: **6** | Tareas pendientes: **22**
 
 ## 📝 Tareas pendientes
-- [ ] Estudiar migración de trading assistant📅 2026-05-06   — *FINANZAS Y PROYECTOS/M/Bot MT5.md*
+- [ ] Estudiar migración de trading assistant📅 2026-05-06   — *FINANZAS Y PROYECTOS/PROYECTOS/Bot MT5.md*
 - [ ] musical  — *Ghost mode/identidad.md*
 - [ ] Aventura  — *Ghost mode/identidad.md*
 - [ ] estilo dark colorido vivido  — *Ghost mode/identidad.md*
@@ -29,14 +29,14 @@
 - [ ] Ciclo de habitos y pendientes   — *Yo y pendientes personales/Hábitos.md*
 
 ## 🆕 Cambios recientes
+- FINANZAS Y PROYECTOS/PROYECTOS/Bot MT5.md
+- FINANZAS Y PROYECTOS/lista de compras/lista de objetos.md
 - Flujo de sincronización.md
-- lista de compras/lista de objetos.md
-- registro de progreso diario/2026-05-09.md
 
 ## 📄 Notas vacías
 - FINANZAS Y PROYECTOS/Conocimientos financieros.md
-- FINANZAS Y PROYECTOS/M/Bot MT5.md
 - FINANZAS Y PROYECTOS/Plan de Acción.md
+- FINANZAS Y PROYECTOS/PROYECTOS/Bot MT5.md
 - FINANZAS Y PROYECTOS/Semillas y trabajos automatizados.md
 - registro de progreso diario/README.md
 - Yo y pendientes personales/Objetivo Personal corto.md
