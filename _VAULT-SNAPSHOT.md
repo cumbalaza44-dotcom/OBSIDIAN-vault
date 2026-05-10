@@ -1,8 +1,8 @@
 # VAULT SNAPSHOT
-> Generado: 2026-05-09 23:19 UTC-5
+> Generado: 2026-05-09 23:25 UTC-5
 
 ## 📊 Stats
-- Notas: **26** | Carpetas: **8** | Vacías: **6** | Tareas pendientes: **22**
+- Notas: **27** | Carpetas: **9** | Vacías: **6** | Tareas pendientes: **22**
 
 ## 📝 Tareas pendientes
 - [ ] Estudiar migración de trading assistant📅 2026-05-06   — *FINANZAS Y PROYECTOS/M/Bot MT5.md*
@@ -29,9 +29,9 @@
 - [ ] Ciclo de habitos y pendientes   — *Yo y pendientes personales/Hábitos.md*
 
 ## 🆕 Cambios recientes
+- lista de compras/lista de objetos.md
 - registro de progreso diario/2026-05-09.md
 - registro de progreso diario/2026-05-08.md
-- Notas somos.md
 
 ## 📄 Notas vacías
 - FINANZAS Y PROYECTOS/Conocimientos financieros.md
