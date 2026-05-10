@@ -1,5 +1,5 @@
 # VAULT SNAPSHOT
-> Generado: 2026-05-10 15:00 UTC-5
+> Generado: 2026-05-10 15:15 UTC-5
 
 ## 📊 Stats
 - Notas: **28** | Carpetas: **9** | Vacías: **6** | Tareas pendientes: **22**
@@ -29,15 +29,15 @@
 - [ ] Confirmar que el pipeline vault refleja cambios inmediatamente al editar  — *registro de progreso diario/2026-05-08.md*
 
 ## 🆕 Cambios recientes
-- FINANZAS Y PROYECTOS/Finanzas y proyectos/Plan de negocios 300MCop.md
-- FINANZAS Y PROYECTOS/Finanzas y proyectos/Plan de Acción.md
-- FINANZAS Y PROYECTOS/Finanzas y proyectos/Costos fijos.md
+- FINANZAS Y PROYECTOS/Finanzas y proyectos/Semillas y trabajos automatizados.md
+- FINANZAS Y PROYECTOS/Finanzas y proyectos/Conocimientos financieros.md
+- FINANZAS Y PROYECTOS/Finanzas y proyectos/Búsqueda de plataformas para estrategias de ahorro.md
 
 ## 📄 Notas vacías
 - FINANZAS Y PROYECTOS/Bot MT5.md
-- FINANZAS Y PROYECTOS/Conocimientos financieros.md
+- FINANZAS Y PROYECTOS/Finanzas y proyectos/Conocimientos financieros.md
 - FINANZAS Y PROYECTOS/Finanzas y proyectos/Plan de Acción.md
-- FINANZAS Y PROYECTOS/Semillas y trabajos automatizados.md
+- FINANZAS Y PROYECTOS/Finanzas y proyectos/Semillas y trabajos automatizados.md
 - HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/Objetivo Personal corto.md
 - registro de progreso diario/README.md
 
