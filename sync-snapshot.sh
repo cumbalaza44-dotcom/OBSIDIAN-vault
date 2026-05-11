@@ -65,9 +65,9 @@ done | sort -t'|' -k1 -rn | head -5)
 
 # ── Generate directory tree ──
 generate_tree() {
-    # Collect unique directory paths sorted
-    declare -A DIR_FILES
-    declare -A DIR_PARENT
+    # Build a flat list of entries (dir|file) sorted
+    local tmp_entries=$(mktemp)
+    local tmp_dirs=$(mktemp)
     
     for f in "${MD_FILES[@]}"; do
         relpath=$(echo "$f" | sed 's/^\.\///')
@@ -75,77 +75,65 @@ generate_tree() {
         base=$(basename "$relpath")
         
         if [ "$dir" = "." ]; then
-            dir=""
-        fi
-        DIR_FILES["$dir"]="${DIR_FILES["$dir"]}|$base"
-    done
-    
-    # Collect all directories including nested ones
-    declare -A ALL_DIRS
-    for dir in "${!DIR_FILES[@]}"; do
-        [ -z "$dir" ] && continue
-        ALL_DIRS["$dir"]=1
-        # Also register parent directories
-        parent="$dir"
-        while true; do
-            parent=$(dirname "$parent")
-            [ "$parent" = "." ] || [ -z "$parent" ] && break
-            ALL_DIRS["$parent"]=1
-        done
-    done
-    
-    # Sort directories (root first, then by path)
-    mapfile -t SORTED_DIRS < <(for d in "${!ALL_DIRS[@]}"; do echo "$d"; done | sort)
-    
-    # Helper: count indentation level
-    level_of() {
-        local d="$1"
-        [ -z "$d" ] && echo "0" && return
-        echo "$d" | tr -cd '/' | wc -c
-        # plus 1 since empty root is level 0, top-level dirs are level 1
-    }
-    
-    # Print files under root first (no directory prefix)
-    root_files="${DIR_FILES[""]}"
-    if [ -n "$root_files" ]; then
-        IFS='|' read -ra files <<< "$root_files"
-        # Remove empty first element from the split
-        local first=true
-        for rf in "${files[@]}"; do
-            [ -z "$rf" ] && continue
-            echo "📄 $rf"
-        done
-    fi
-    
-    # Print each directory and its files
-    local prev_level=0
-    for d in "${SORTED_DIRS[@]}"; do
-        [ -z "$d" ] && continue
-        
-        level=$(level_of "$d")
-        dirname=$(basename "$d")
-        indent=""
-        for ((i=0; i<level; i++)); do indent="${indent}  "; done
-        
-        echo "${indent}📁 $dirname/"
-        
-        # Print files in this directory
-        files="${DIR_FILES["$d"]}"
-        if [ -n "$files" ]; then
-            IFS='|' read -ra file_list <<< "$files"
-            local count=${#file_list[@]}
-            local idx=0
-            for rf in "${file_list[@]}"; do
-                [ -z "$rf" ] && continue
-                idx=$((idx+1))
-                if [ $idx -eq $count ]; then
-                    echo "${indent}  └── $rf"
-                else
-                    echo "${indent}  ├── $rf"
-                fi
+            echo "ROOT|$base" >> "$tmp_entries"
+        else
+            echo "$dir|$base" >> "$tmp_entries"
+            # Register directory and all parents
+            local pd="$dir"
+            while [ -n "$pd" ] && [ "$pd" != "." ]; do
+                echo "$pd" >> "$tmp_dirs"
+                pd=$(dirname "$pd")
             done
         fi
     done
+    
+    # Print root files
+    while IFS='|' read -r _ base; do
+        echo "📄 $base"
+    done < <(grep "^ROOT|" "$tmp_entries" | sort)
+    
+    # Get sorted unique directories (by path)
+    local sorted_dirs=$(sort -u "$tmp_dirs" | sort -t'/' -k1,10)
+    local printed=""
+    
+    while IFS= read -r d; do
+        [ -z "$d" ] && continue
+        # Check if already printed (parent would have printed it)
+        case " $printed " in
+            *" $d "*) continue ;;
+        esac
+        
+        local depth=$(echo "$d" | tr -cd '/' | wc -c)
+        local dname=$(basename "$d")
+        local indent=""
+        local i=0
+        while [ "$i" -lt "$depth" ]; do
+            indent="${indent}  "
+            i=$((i+1))
+        done
+        
+        echo "${indent}📁 $dname/"
+        printed="$printed $d "
+        
+        # Gather files in this directory
+        local dir_escaped=$(echo "$d" | sed 's|/|\\/|g')
+        local file_entries=$(grep "^$d_escaped|" "$tmp_entries" | sort)
+        local total=$(echo "$file_entries" | grep -c .)
+        [ "$total" -eq 0 ] && continue
+        
+        local idx=0
+        while IFS='|' read -r _ base; do
+            [ -z "$base" ] && continue
+            idx=$((idx+1))
+            if [ "$idx" -eq "$total" ]; then
+                echo "${indent}  └── $base"
+            else
+                echo "${indent}  ├── $base"
+            fi
+        done <<< "$file_entries"
+    done <<< "$sorted_dirs"
+    
+    rm -f "$tmp_entries" "$tmp_dirs"
 }
 
 # ── Build snapshot ──
