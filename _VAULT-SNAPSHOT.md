@@ -44,7 +44,7 @@
 
 ## 🆕 Cambios recientes
 - HOGAR/Mantenimiento moto/Mantenimiento Moto.md
-- Mantenimiento Moto.md
+
 - Notas somos.md
 
 ## 📄 Notas vacías
