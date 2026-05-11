@@ -1,8 +1,8 @@
 # VAULT SNAPSHOT
-> Generado: 2026-05-10 20:38 UTC-5
+> Generado: 2026-05-11 10:00 UTC-5
 
 ## 📊 Stats
-- Notas: **30** | Carpetas: **10** | Vacías: **6** | Tareas pendientes: **22**
+- Notas: **31** | Carpetas: **11** | Vacías: **6** | Tareas pendientes: **31**
 
 ## 📝 Tareas pendientes
 - [ ] Estudiar migración de trading assistant📅 2026-05-06   — *FINANZAS Y PROYECTOS/Bot mt5/Bot MT5.md*
@@ -24,14 +24,23 @@
 - [ ] Definir esquema de entrenamiento   — *HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/GYM.md*
 - [ ] Purgar teléfono de apps y videos   — *HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/Hábitos.md*
 - [ ] Ciclo de habitos y pendientes   — *HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/Hábitos.md*
+- [ ] Sartén   — *HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md*
+- [ ] organizar habitación   — *HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md*
+- [ ] ciclo de trabajo   — *HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md*
+- [ ] re diseño con la para plan de mejora  — *HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md*
+- [ ] ilu de resultado acojedor   — *HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md*
+- [ ] lavar prendas   — *HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md*
+- [ ] organizar y limpiar hogar   — *HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md*
+- [ ] organización rápida d e hogar   — *HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md*
+- [ ] anotar mejoras de hogar   — *HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md*
 - [ ] Estudiar migración de trading assistant (Bot MT5) a n8n — aplicar framework de bloques  — *registro de progreso diario/2026-05-06.md*
 - [ ] Verificar compactación Live→Archived en días densos  — *registro de progreso diario/2026-05-08.md*
 - [ ] Confirmar que el pipeline vault refleja cambios inmediatamente al editar  — *registro de progreso diario/2026-05-08.md*
 
 ## 🆕 Cambios recientes
+- HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md
 - registro de progreso diario/2026-05-10.md
 - System/_INFRA-RESTORE.md
-- System/Flujo de sincronización.md
 
 ## 📄 Notas vacías
 - FINANZAS Y PROYECTOS/Bot mt5/Bot MT5.md
