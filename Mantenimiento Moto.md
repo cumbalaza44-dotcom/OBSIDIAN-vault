@@ -1,2 +1,3 @@
-- [ ] Lavado y mantenimiento 
-- [ ] 
+- [ ] Lavado y mantenimiento
+- [ ] Documentar relación de distancia para alineamiento del eje trasero — tener en cuenta la alineación al hacer el apriete de la tijera
+- [ ] 📅 2026-05-11 19:00 — Bajar engrane y engrasar para verificar sonido de cocheo
