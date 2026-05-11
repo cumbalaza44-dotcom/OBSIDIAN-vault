@@ -1,8 +1,8 @@
 # VAULT SNAPSHOT
-> Generado: 2026-05-11 11:10 UTC-5
+> Generado: 2026-05-11 11:19 UTC-5
 
 ## 📊 Stats
-- Notas: **32** | Carpetas: **11** | Vacías: **6** | Tareas pendientes: **33**
+- Notas: **31** | Carpetas: **11** | Vacías: **6** | Tareas pendientes: **34**
 
 ## 📝 Tareas pendientes
 - [ ] Estudiar migración de trading assistant📅 2026-05-06   — *FINANZAS Y PROYECTOS/Bot mt5/Bot MT5.md*
@@ -33,15 +33,16 @@
 - [ ] organizar y limpiar hogar   — *HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md*
 - [ ] organización rápida d e hogar   — *HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md*
 - [ ] anotar mejoras de hogar   — *HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md*
-- [ ] Lavado y mantenimiento   — *Mantenimiento Moto.md*
-- [ ]   — *Mantenimiento Moto.md*
+- [ ] Lavado y mantenimiento  — *Mantenimiento Moto.md*
+- [ ] Documentar relación de distancia para alineamiento del eje trasero — tener en cuenta la alineación al hacer el apriete de la tijera  — *Mantenimiento Moto.md*
+- [ ] 📅 2026-05-11 19:00 — Bajar engrane y engrasar para verificar sonido de cocheo  — *Mantenimiento Moto.md*
 - [ ] Estudiar migración de trading assistant (Bot MT5) a n8n — aplicar framework de bloques  — *registro de progreso diario/2026-05-06.md*
 - [ ] Verificar compactación Live→Archived en días densos  — *registro de progreso diario/2026-05-08.md*
 - [ ] Confirmar que el pipeline vault refleja cambios inmediatamente al editar  — *registro de progreso diario/2026-05-08.md*
 
 ## 🆕 Cambios recientes
-- Notas somos.md
 - Mantenimiento Moto.md
+- Notas somos.md
 - HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md
 
 ## 📄 Notas vacías
