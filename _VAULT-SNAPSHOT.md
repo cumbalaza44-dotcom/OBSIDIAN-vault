@@ -1,5 +1,5 @@
 # VAULT SNAPSHOT
-> Generado: 2026-05-10 18:50 UTC-5
+> Generado: 2026-05-10 20:38 UTC-5
 
 ## 📊 Stats
 - Notas: **30** | Carpetas: **10** | Vacías: **6** | Tareas pendientes: **22**
@@ -29,9 +29,9 @@
 - [ ] Confirmar que el pipeline vault refleja cambios inmediatamente al editar  — *registro de progreso diario/2026-05-08.md*
 
 ## 🆕 Cambios recientes
+- registro de progreso diario/2026-05-10.md
 - System/_INFRA-RESTORE.md
 - System/Flujo de sincronización.md
-- registro de progreso diario/2026-05-10.md
 
 ## 📄 Notas vacías
 - FINANZAS Y PROYECTOS/Bot mt5/Bot MT5.md
