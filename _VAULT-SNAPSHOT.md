@@ -1,8 +1,8 @@
 # VAULT SNAPSHOT
-> Generado: 2026-05-11 10:30 UTC-5
+> Generado: 2026-05-11 10:40 UTC-5
 
 ## 📊 Stats
-- Notas: **32** | Carpetas: **11** | Vacías: **7** | Tareas pendientes: **31**
+- Notas: **32** | Carpetas: **11** | Vacías: **6** | Tareas pendientes: **33**
 
 ## 📝 Tareas pendientes
 - [ ] Estudiar migración de trading assistant📅 2026-05-06   — *FINANZAS Y PROYECTOS/Bot mt5/Bot MT5.md*
@@ -33,14 +33,16 @@
 - [ ] organizar y limpiar hogar   — *HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md*
 - [ ] organización rápida d e hogar   — *HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md*
 - [ ] anotar mejoras de hogar   — *HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md*
+- [ ] Lavado y mantenimiento   — *Mantenimiento Moto.md*
+- [ ]   — *Mantenimiento Moto.md*
 - [ ] Estudiar migración de trading assistant (Bot MT5) a n8n — aplicar framework de bloques  — *registro de progreso diario/2026-05-06.md*
 - [ ] Verificar compactación Live→Archived en días densos  — *registro de progreso diario/2026-05-08.md*
 - [ ] Confirmar que el pipeline vault refleja cambios inmediatamente al editar  — *registro de progreso diario/2026-05-08.md*
 
 ## 🆕 Cambios recientes
+- Notas somos.md
 - Mantenimiento Moto.md
 - HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md
-- registro de progreso diario/2026-05-10.md
 
 ## 📄 Notas vacías
 - FINANZAS Y PROYECTOS/Bot mt5/Bot MT5.md
@@ -48,7 +50,6 @@
 - FINANZAS Y PROYECTOS/Finanzas y proyectos/Plan de Acción.md
 - FINANZAS Y PROYECTOS/Finanzas y proyectos/Semillas y trabajos automatizados.md
 - HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/Objetivo Personal corto.md
-- Mantenimiento Moto.md
 - registro de progreso diario/README.md
 
 ---
