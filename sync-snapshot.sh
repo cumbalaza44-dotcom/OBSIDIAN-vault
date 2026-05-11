@@ -117,7 +117,7 @@ generate_tree() {
         
         # Gather files in this directory
         local dir_escaped=$(echo "$d" | sed 's|/|\\/|g')
-        local file_entries=$(grep "^$d_escaped|" "$tmp_entries" | sort)
+        local file_entries=$(grep "^$dir_escaped|" "$tmp_entries" | sort)
         local total=$(echo "$file_entries" | grep -c .)
         [ "$total" -eq 0 ] && continue
         
