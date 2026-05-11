@@ -1,0 +1,6 @@
+- [ ] Sartén 
+- [ ] organizar habitación 
+- [ ] ciclo de trabajo 
+- [ ] re diseño con la para plan de mejora
+- [ ] ilu de resultado acojedor 
+- [ ] 
