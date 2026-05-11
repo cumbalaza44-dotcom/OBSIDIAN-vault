@@ -11,6 +11,9 @@ log() {
 
 cd "$VAULT_DIR" || { log "PUSH ERROR: cannot cd to vault"; exit 1; }
 
+# Regenerate Hoy.md with today's tasks
+bash "$VAULT_DIR/sync-today.sh" 2>/dev/null
+
 # Check if there are local changes
 if git diff --quiet && git diff --cached --quiet; then
     # No changes - nothing to push

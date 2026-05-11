@@ -43,4 +43,13 @@ if [ "$BEFORE" != "$AFTER" ]; then
     
     # ── Generate LLM snapshot ──
     bash "$VAULT_DIR/sync-snapshot.sh"
+    
+    # ── Regenerate Hoy.md y sincronizarlo ──
+    bash "$VAULT_DIR/sync-today.sh" 2>/dev/null
+    if ! git diff --quiet -- "Hoy.md" 2>/dev/null; then
+        git add "Hoy.md" 2>/dev/null
+        git commit -m "Hoy update: $(date '+%Y-%m-%d %H:%M')" 2>/dev/null
+        git push --force-with-lease origin HEAD:main 2>/dev/null && \
+            log "HOY PUSH OK: Hoy.md updated for $TODAY"
+    fi
 fi
