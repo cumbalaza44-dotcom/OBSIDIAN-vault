@@ -1,8 +1,8 @@
 # VAULT SNAPSHOT
-> Generado: 2026-05-11 11:19 UTC-5
+> Generado: 2026-05-11 11:25 UTC-5
 
 ## 📊 Stats
-- Notas: **31** | Carpetas: **11** | Vacías: **6** | Tareas pendientes: **34**
+- Notas: **32** | Carpetas: **12** | Vacías: **6** | Tareas pendientes: **36**
 
 ## 📝 Tareas pendientes
 - [ ] Estudiar migración de trading assistant📅 2026-05-06   — *FINANZAS Y PROYECTOS/Bot mt5/Bot MT5.md*
@@ -24,6 +24,8 @@
 - [ ] Definir esquema de entrenamiento   — *HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/GYM.md*
 - [ ] Purgar teléfono de apps y videos   — *HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/Hábitos.md*
 - [ ] Ciclo de habitos y pendientes   — *HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/Hábitos.md*
+- [ ] Lavado y mantenimiento   — *HOGAR/Mantenimiento moto/Mantenimiento Moto.md*
+- [ ]   — *HOGAR/Mantenimiento moto/Mantenimiento Moto.md*
 - [ ] Sartén   — *HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md*
 - [ ] organizar habitación   — *HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md*
 - [ ] ciclo de trabajo   — *HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md*
@@ -41,9 +43,9 @@
 - [ ] Confirmar que el pipeline vault refleja cambios inmediatamente al editar  — *registro de progreso diario/2026-05-08.md*
 
 ## 🆕 Cambios recientes
+- HOGAR/Mantenimiento moto/Mantenimiento Moto.md
 - Mantenimiento Moto.md
 - Notas somos.md
-- HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md
 
 ## 📄 Notas vacías
 - FINANZAS Y PROYECTOS/Bot mt5/Bot MT5.md
