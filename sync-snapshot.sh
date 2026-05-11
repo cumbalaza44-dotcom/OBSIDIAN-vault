@@ -1,7 +1,7 @@
 #!/bin/bash
 # Vault Snapshot Generator — produce resumen LLM-legible del vault
 # Llamado por sync-pull.sh cuando detecta cambios.
-# Output: ~20 líneas de markdown puro. Sin Dataview. Sin queries.
+# Output: ~40 líneas de markdown. Sin Dataview. Sin queries.
 
 VAULT_DIR="/root/.openclaw/workspace/obsidian-vault"
 SNAPSHOT_FILE="/root/.openclaw/workspace/obsidian-vault/_VAULT-SNAPSHOT.md"
@@ -13,7 +13,7 @@ log() {
 
 cd "$VAULT_DIR" || { log "ERROR: cannot cd to vault"; exit 1; }
 
-# ── Gather all markdown files (exclude index/snapshot/git) ──
+# ── Gather all markdown files (exclude system files and git) ──
 mapfile -t MD_FILES < <(find . -name "*.md" \
   -not -name "_VAULT-INDEX.md" \
   -not -name "_VAULT-SNAPSHOT.md" \
@@ -47,7 +47,6 @@ for f in "${MD_FILES[@]}"; do
     # Task extraction
     while IFS= read -r line; do
         if echo "$line" | grep -qE '^\s*-\s*\[ \]'; then
-            # Clean up: remove leading - [ ] and trim
             task=$(echo "$line" | sed 's/^\s*-\s*\[ \]\s*//')
             filepath=$(echo "$f" | sed 's/^\.\///')
             TASKS+=("- [ ] $task  — *$filepath*")
@@ -55,13 +54,99 @@ for f in "${MD_FILES[@]}"; do
     done <<< "$content"
 done
 
-# ── Get last 3 created notes ──
-RECENT=()
-while IFS= read -r f; do
-    RECENT+=("$(echo "$f" | sed 's/^\.\///')")
+# ── Get recently modified notes (top 5 by mtime) ──
+RECENT_FILES=()
+while IFS= read -r line; do
+    RECENT_FILES+=("$line")
 done < <(for f in "${MD_FILES[@]}"; do
-    echo "$(stat -c '%Y' "$f" 2>/dev/null || echo 0)|$f"
-done | sort -t'|' -k1 -rn | head -3 | cut -d'|' -f2)
+    mtime=$(stat -c '%Y' "$f" 2>/dev/null || echo 0)
+    echo "$mtime|$(echo "$f" | sed 's/^\.\///')"
+done | sort -t'|' -k1 -rn | head -5)
+
+# ── Generate directory tree ──
+generate_tree() {
+    # Collect unique directory paths sorted
+    declare -A DIR_FILES
+    declare -A DIR_PARENT
+    
+    for f in "${MD_FILES[@]}"; do
+        relpath=$(echo "$f" | sed 's/^\.\///')
+        dir=$(dirname "$relpath")
+        base=$(basename "$relpath")
+        
+        if [ "$dir" = "." ]; then
+            dir=""
+        fi
+        DIR_FILES["$dir"]="${DIR_FILES["$dir"]}|$base"
+    done
+    
+    # Collect all directories including nested ones
+    declare -A ALL_DIRS
+    for dir in "${!DIR_FILES[@]}"; do
+        [ -z "$dir" ] && continue
+        ALL_DIRS["$dir"]=1
+        # Also register parent directories
+        parent="$dir"
+        while true; do
+            parent=$(dirname "$parent")
+            [ "$parent" = "." ] || [ -z "$parent" ] && break
+            ALL_DIRS["$parent"]=1
+        done
+    done
+    
+    # Sort directories (root first, then by path)
+    mapfile -t SORTED_DIRS < <(for d in "${!ALL_DIRS[@]}"; do echo "$d"; done | sort)
+    
+    # Helper: count indentation level
+    level_of() {
+        local d="$1"
+        [ -z "$d" ] && echo "0" && return
+        echo "$d" | tr -cd '/' | wc -c
+        # plus 1 since empty root is level 0, top-level dirs are level 1
+    }
+    
+    # Print files under root first (no directory prefix)
+    root_files="${DIR_FILES[""]}"
+    if [ -n "$root_files" ]; then
+        IFS='|' read -ra files <<< "$root_files"
+        # Remove empty first element from the split
+        local first=true
+        for rf in "${files[@]}"; do
+            [ -z "$rf" ] && continue
+            echo "📄 $rf"
+        done
+    fi
+    
+    # Print each directory and its files
+    local prev_level=0
+    for d in "${SORTED_DIRS[@]}"; do
+        [ -z "$d" ] && continue
+        
+        level=$(level_of "$d")
+        dirname=$(basename "$d")
+        indent=""
+        for ((i=0; i<level; i++)); do indent="${indent}  "; done
+        
+        echo "${indent}📁 $dirname/"
+        
+        # Print files in this directory
+        files="${DIR_FILES["$d"]}"
+        if [ -n "$files" ]; then
+            IFS='|' read -ra file_list <<< "$files"
+            local count=${#file_list[@]}
+            local idx=0
+            for rf in "${file_list[@]}"; do
+                [ -z "$rf" ] && continue
+                idx=$((idx+1))
+                if [ $idx -eq $count ]; then
+                    echo "${indent}  └── $rf"
+                else
+                    echo "${indent}  ├── $rf"
+                fi
+            done
+        fi
+    done
+}
 
 # ── Build snapshot ──
 {
@@ -71,7 +156,25 @@ done | sort -t'|' -k1 -rn | head -3 | cut -d'|' -f2)
     echo "## 📊 Stats"
     echo "- Notas: **$TOTAL** | Carpetas: **$FOLDER_COUNT** | Vacías: **${#EMPTY_FILES[@]}** | Tareas pendientes: **${#TASKS[@]}**"
     echo ""
+    
+    # ── Directory tree ──
+    echo "## 📁 Estructura del vault ($TOTAL archivos)"
+    generate_tree
+    echo ""
 
+    # ── Recently modified ──
+    if [ ${#RECENT_FILES[@]} -gt 0 ]; then
+        echo "## 🆕 Modificados recientemente"
+        for entry in "${RECENT_FILES[@]}"; do
+            mtime_epoch=$(echo "$entry" | cut -d'|' -f1)
+            filepath=$(echo "$entry" | cut -d'|' -f2-)
+            readable=$(date -d "@$mtime_epoch" '+%Y-%m-%d %H:%M' 2>/dev/null)
+            echo "- $filepath — *$readable*"
+        done
+        echo ""
+    fi
+
+    # ── Pending tasks ──
     if [ ${#TASKS[@]} -gt 0 ]; then
         echo "## 📝 Tareas pendientes"
         for t in "${TASKS[@]}"; do
@@ -80,14 +183,7 @@ done | sort -t'|' -k1 -rn | head -3 | cut -d'|' -f2)
         echo ""
     fi
 
-    if [ ${#RECENT[@]} -gt 0 ]; then
-        echo "## 🆕 Cambios recientes"
-        for r in "${RECENT[@]}"; do
-            echo "- $r"
-        done
-        echo ""
-    fi
-
+    # ── Empty notes ──
     if [ ${#EMPTY_FILES[@]} -gt 0 ]; then
         echo "## 📄 Notas vacías"
         for e in "${EMPTY_FILES[@]}"; do
