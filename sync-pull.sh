@@ -41,7 +41,6 @@ if [ "$BEFORE" != "$AFTER" ]; then
     
     log "CHANGE DETECTED: $NEW_COMMITS commit(s), files: $CHANGED_FILES"
     
-    # ── Generate LLM snapshot ──
+    # ── Generate LLM snapshot (incluye tareas del día) ──
     bash "$VAULT_DIR/sync-snapshot.sh"
 fi
-    
