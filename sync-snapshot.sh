@@ -61,6 +61,9 @@ done
 TODAY_PENDING=()
 TODAY_COMPLETED=()
 for f in "${MD_FILES[@]}"; do
+    relpath=$(echo "$f" | sed 's/^\.\///')
+    # Skip Hoy.md — it echoes vault tasks, would cause dupes
+    [ "$relpath" = "Hoy.md" ] && continue
     content=$(cat "$f")
     while IFS= read -r line; do
         if echo "$line" | grep -qE "📅[[:space:]]*$TODAY"; then
