@@ -1,11 +1,11 @@
-# 📋 Hoy — 11/05/2026
+# 📋 Hoy — 12/05/2026
 
-**⏳ 0 pendientes | ✅ 1 completadas**
+**⏳ 1 pendientes | ✅ 0 completadas**
 
-## ✅ Completadas
+## ⏳ Pendientes
 
-### 📁 HOGAR/Mantenimiento moto/Mantenimiento Moto.md
-- [x] 📅 2026-05-11 19:00 — Bajar engrane y engrasar para verificar sonido de cocheo
+### 📁 HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/GYM.md
+- [ ] 📅 2026-05-12 — Crear rutina de ejercicio para 5 días
 
 ---
 *Auto-generado: 2026-05-12 00:00 UTC-5*
