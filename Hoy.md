@@ -1,8 +1,8 @@
 # 📋 Hoy — 11/05/2026
 
-**1 tarea(s) pendiente(s)**
+**⏳ 0 pendientes | ✅ 1 completadas**
 
-## ✅ Por hacer
+## ✅ Completadas
 
 ### 📁 HOGAR/Mantenimiento moto/Mantenimiento Moto.md
 - [x] 📅 2026-05-11 19:00 — Bajar engrane y engrasar para verificar sonido de cocheo

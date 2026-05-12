@@ -1,6 +1,7 @@
 #!/bin/bash
 # Hoy.md Generator — produce lista de tareas del día actual
 # Escanea todas las notas del vault en busca de tareas con 📅 YYYY-MM-DD = hoy
+# Separa pendientes [ ] de completadas [x]
 # Output: /root/.openclaw/workspace/obsidian-vault/Hoy.md
 
 VAULT_DIR="/root/.openclaw/workspace/obsidian-vault"
@@ -16,7 +17,7 @@ cd "$VAULT_DIR" || { log "TODAY ERROR: cannot cd to vault"; exit 1; }
 TODAY=$(date '+%Y-%m-%d')
 TODAY_SHORT=$(date '+%d/%m/%Y')
 
-# ── Gather all markdown files (exclude system files and git) ──
+# ── Gather all markdown files ──
 mapfile -t MD_FILES < <(find . -name "*.md" \
   -not -name "_VAULT-INDEX.md" \
   -not -name "_VAULT-SNAPSHOT.md" \
@@ -24,28 +25,26 @@ mapfile -t MD_FILES < <(find . -name "*.md" \
   -not -path "./.git/*" \
   | sort)
 
-TODAY_TASKS=()
+# ── Scan: separate pending vs completed ──
+PENDING_ENTRIES=()
+COMPLETED_ENTRIES=()
 PENDING=0
 COMPLETED=0
 
 for f in "${MD_FILES[@]}"; do
     relpath=$(echo "$f" | sed 's/^\.\///')
-    content=$(cat "$f")
-    file_tasks=()
     
     while IFS= read -r line; do
-        # Match task lines with today's date: - [ ] ... 📅 2026-05-11 ...
         if echo "$line" | grep -qE "📅[[:space:]]*$TODAY"; then
-            # Clean the task text
-            task=$(echo "$line")
-            file_tasks+=("$task")
+            if echo "$line" | grep -qE '^- \[ \]'; then
+                PENDING_ENTRIES+=("$relpath|$(echo "$line" | sed 's/^- //')")
+                PENDING=$((PENDING + 1))
+            elif echo "$line" | grep -qE '^- \[x\]'; then
+                COMPLETED_ENTRIES+=("$relpath|$(echo "$line" | sed 's/^- //')")
+                COMPLETED=$((COMPLETED + 1))
+            fi
         fi
-    done <<< "$content"
-    
-    if [ ${#file_tasks[@]} -gt 0 ]; then
-        TODAY_TASKS+=("$(printf '%s\n' "${file_tasks[@]}")")
-        TOTAL_FOUND=$((TOTAL_FOUND + ${#file_tasks[@]}))
-    fi
+    done < "$f"
 done
 
 # ── Build Hoy.md ──
@@ -53,39 +52,45 @@ done
     echo "# 📋 Hoy — $TODAY_SHORT"
     echo ""
     
-    if [ "$TOTAL_FOUND" -eq 0 ]; then
+    if [ "$PENDING" -eq 0 ] && [ "$COMPLETED" -eq 0 ]; then
         echo "*Sin tareas programadas para hoy.* 🎯"
     else
-        echo "**$TOTAL_FOUND tarea(s) pendiente(s)**"
+        # ── Summary ──
+        echo "**⏳ $PENDING pendientes | ✅ $COMPLETED completadas**"
         echo ""
-        echo "## ✅ Por hacer"
-        echo ""
-        for f in "${MD_FILES[@]}"; do
-            relpath=$(echo "$f" | sed 's/^\.\///')
-            content=$(cat "$f")
-            source_printed=false
-            
-            while IFS= read -r line; do
-                if echo "$line" | grep -qE "📅[[:space:]]*$TODAY"; then
-                    if [ "$source_printed" = false ]; then
-                        echo "### 📁 $relpath"
-                        source_printed=true
-                    fi
-                    # Remove leading - if present to avoid double dash
-                    clean_line=$(echo "$line" | sed 's/^- //')
-                    echo "- $clean_line"
-                fi
-            done <<< "$content"
-            
-            if [ "$source_printed" = true ]; then
-                echo ""
-            fi
-        done
+        
+        # ── Pending section ──
+        if [ "$PENDING" -gt 0 ]; then
+            echo "## ⏳ Pendientes"
+            echo ""
+            last_src=""
+            for entry in "${PENDING_ENTRIES[@]}"; do
+                src="${entry%%|*}"
+                task="${entry#*|}"
+                [ "$src" != "$last_src" ] && echo "### 📁 $src" && last_src="$src"
+                echo "- $task"
+            done
+            echo ""
+        fi
+        
+        # ── Completed section ──
+        if [ "$COMPLETED" -gt 0 ]; then
+            echo "## ✅ Completadas"
+            echo ""
+            last_src=""
+            for entry in "${COMPLETED_ENTRIES[@]}"; do
+                src="${entry%%|*}"
+                task="${entry#*|}"
+                [ "$src" != "$last_src" ] && echo "### 📁 $src" && last_src="$src"
+                echo "- $task"
+            done
+            echo ""
+        fi
     fi
     
     echo "---"
     echo "*Auto-generado: $(date '+%Y-%m-%d %H:%M') UTC-5*"
 } > "$TODAY_FILE"
 
-log "HOY: $TOTAL_FOUND tareas para $TODAY"
-echo "[OK] Hoy.md generado — $TOTAL_FOUND tareas para $TODAY"
+log "HOY: $PENDING pendientes, $COMPLETED completadas para $TODAY"
+echo "[OK] Hoy.md generado — $PENDING pendientes, $COMPLETED completadas"
