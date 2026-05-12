@@ -1,8 +1,8 @@
 # VAULT SNAPSHOT
-> Generado: 2026-05-12 15:34 UTC-5
+> Generado: 2026-05-12 15:35 UTC-5
 
 ## 📊 Stats
-- Notas: **33** | Carpetas: **12** | Vacías: **6** | Tareas pendientes: **36**
+- Notas: **33** | Carpetas: **12** | Vacías: **6** | Tareas pendientes: **35**
 
 ## 📁 Estructura del vault (33 archivos)
 📄 Hoy.md
@@ -54,7 +54,7 @@
   └── _INFRA-RESTORE.md
 
 ## 🆕 Modificados recientemente
-- Hoy.md — *2026-05-12 15:33*
+- Hoy.md — *2026-05-12 15:34*
 - HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/GYM.md — *2026-05-11 23:29*
 - registro de progreso diario/2026-05-11.md — *2026-05-11 23:29*
 - HOGAR/Mantenimiento moto/Mantenimiento Moto.md — *2026-05-11 23:03*
@@ -93,7 +93,6 @@
 - [ ] organizar y limpiar hogar   — *HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md*
 - [ ] organización rápida d e hogar   — *HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md*
 - [ ] anotar mejoras de hogar   — *HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md*
-- [ ] 📅 2026-05-12 — Crear rutina de ejercicio para 5 días  — *Hoy.md*
 - [ ] Estudiar migración de trading assistant (Bot MT5) a n8n — aplicar framework de bloques  — *registro de progreso diario/2026-05-06.md*
 - [ ] Verificar compactación Live→Archived en días densos  — *registro de progreso diario/2026-05-08.md*
 - [ ] Confirmar que el pipeline vault refleja cambios inmediatamente al editar  — *registro de progreso diario/2026-05-08.md*
