@@ -44,5 +44,3 @@ if [ "$BEFORE" != "$AFTER" ]; then
     # ── Generate LLM snapshot ──
     bash "$VAULT_DIR/sync-snapshot.sh"
     
-
-fi
