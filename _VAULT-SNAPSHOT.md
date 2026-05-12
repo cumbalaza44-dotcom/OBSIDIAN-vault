@@ -99,11 +99,10 @@
 - [ ] Confirmar que el pipeline vault refleja cambios inmediatamente al editar  — *registro de progreso diario/2026-05-08.md*
 
 ## 📋 Tareas de hoy — 2026-05-12
-**⏳ 2 pendientes | ✅ 0 completadas**
+**⏳ 1 pendientes | ✅ 0 completadas**
 
 ### ⏳ Pendientes
 - [ ] 📅 2026-05-12 — Crear rutina de ejercicio para 5 días  — *HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/GYM.md*
-- [ ] 📅 2026-05-12 — Crear rutina de ejercicio para 5 días  — *Hoy.md*
 
 ## 📄 Notas vacías
 - FINANZAS Y PROYECTOS/Bot mt5/Bot MT5.md
