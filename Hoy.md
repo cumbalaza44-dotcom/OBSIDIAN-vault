@@ -5,7 +5,7 @@
 ## ✅ Por hacer
 
 ### 📁 HOGAR/Mantenimiento moto/Mantenimiento Moto.md
-- [ ] 📅 2026-05-11 19:00 — Bajar engrane y engrasar para verificar sonido de cocheo
+- [x] 📅 2026-05-11 19:00 — Bajar engrane y engrasar para verificar sonido de cocheo
 
 ---
 *Auto-generado: 2026-05-11 23:03 UTC-5*
