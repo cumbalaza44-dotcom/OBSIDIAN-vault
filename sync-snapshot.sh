@@ -7,6 +7,9 @@ VAULT_DIR="/root/.openclaw/workspace/obsidian-vault"
 SNAPSHOT_FILE="/root/.openclaw/workspace/obsidian-vault/_VAULT-SNAPSHOT.md"
 LOG_FILE="/var/log/obsidian-sync.log"
 
+# ── Today's date ──
+TODAY=$(date '+%Y-%m-%d')
+
 log() {
     echo "[$(date '+%Y-%m-%d %H:%M:%S')] $*" >> "$LOG_FILE"
 }
@@ -50,6 +53,26 @@ for f in "${MD_FILES[@]}"; do
             task=$(echo "$line" | sed 's/^\s*-\s*\[ \]\s*//')
             filepath=$(echo "$f" | sed 's/^\.\///')
             TASKS+=("- [ ] $task  — *$filepath*")
+        fi
+    done <<< "$content"
+done
+
+# ── Extract today's date-bound tasks ──
+TODAY_PENDING=()
+TODAY_COMPLETED=()
+for f in "${MD_FILES[@]}"; do
+    content=$(cat "$f")
+    while IFS= read -r line; do
+        if echo "$line" | grep -qE "📅[[:space:]]*$TODAY"; then
+            if echo "$line" | grep -qE '^\s*-\s*\[ \]'; then
+                task=$(echo "$line" | sed 's/^\s*-\s*\[ \]\s*//')
+                filepath=$(echo "$f" | sed 's/^\.\///')
+                TODAY_PENDING+=("- [ ] $task  — *$filepath*")
+            elif echo "$line" | grep -qE '^\s*-\s*\[x\]'; then
+                task=$(echo "$line" | sed 's/^\s*-\s*\[x\]\s*//')
+                filepath=$(echo "$f" | sed 's/^\.\///')
+                TODAY_COMPLETED+=("- [x] $task  — *$filepath*")
+            fi
         fi
     done <<< "$content"
 done
@@ -169,6 +192,28 @@ generate_tree() {
             echo "$t"
         done
         echo ""
+    fi
+
+    # ── Today's tasks ──
+    TODAY_TOTAL=$(( ${#TODAY_PENDING[@]} + ${#TODAY_COMPLETED[@]} ))
+    if [ "$TODAY_TOTAL" -gt 0 ]; then
+        echo "## 📋 Tareas de hoy — $TODAY"
+        echo "**⏳ ${#TODAY_PENDING[@]} pendientes | ✅ ${#TODAY_COMPLETED[@]} completadas**"
+        echo ""
+        if [ ${#TODAY_PENDING[@]} -gt 0 ]; then
+            echo "### ⏳ Pendientes"
+            for t in "${TODAY_PENDING[@]}"; do
+                echo "$t"
+            done
+            echo ""
+        fi
+        if [ ${#TODAY_COMPLETED[@]} -gt 0 ]; then
+            echo "### ✅ Completadas"
+            for t in "${TODAY_COMPLETED[@]}"; do
+                echo "$t"
+            done
+            echo ""
+        fi
     fi
 
     # ── Empty notes ──
