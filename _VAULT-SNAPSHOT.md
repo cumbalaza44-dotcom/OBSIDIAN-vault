@@ -1,8 +1,8 @@
 # VAULT SNAPSHOT
-> Generado: 2026-05-11 12:30 UTC-5
+> Generado: 2026-05-11 20:10 UTC-5
 
 ## 📊 Stats
-- Notas: **32** | Carpetas: **12** | Vacías: **6** | Tareas pendientes: **35**
+- Notas: **32** | Carpetas: **12** | Vacías: **6** | Tareas pendientes: **34**
 
 ## 📁 Estructura del vault (32 archivos)
 📄 Hoy.md
@@ -53,7 +53,7 @@
   └── _INFRA-RESTORE.md
 
 ## 🆕 Modificados recientemente
-- Hoy.md — *2026-05-11 12:30*
+- Hoy.md — *2026-05-11 20:10*
 - HOGAR/Mantenimiento moto/Mantenimiento Moto.md — *2026-05-11 11:32*
 - Notas somos.md — *2026-05-11 11:10*
 - HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md — *2026-05-11 10:00*
@@ -91,7 +91,6 @@
 - [ ] organizar y limpiar hogar   — *HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md*
 - [ ] organización rápida d e hogar   — *HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md*
 - [ ] anotar mejoras de hogar   — *HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md*
-- [ ] 📅 2026-05-11 19:00 — Bajar engrane y engrasar para verificar sonido de cocheo  — *Hoy.md*
 - [ ] Estudiar migración de trading assistant (Bot MT5) a n8n — aplicar framework de bloques  — *registro de progreso diario/2026-05-06.md*
 - [ ] Verificar compactación Live→Archived en días densos  — *registro de progreso diario/2026-05-08.md*
 - [ ] Confirmar que el pipeline vault refleja cambios inmediatamente al editar  — *registro de progreso diario/2026-05-08.md*
