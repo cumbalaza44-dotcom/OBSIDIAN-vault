@@ -25,7 +25,8 @@ mapfile -t MD_FILES < <(find . -name "*.md" \
   | sort)
 
 TODAY_TASKS=()
-TOTAL_FOUND=0
+PENDING=0
+COMPLETED=0
 
 for f in "${MD_FILES[@]}"; do
     relpath=$(echo "$f" | sed 's/^\.\///')
