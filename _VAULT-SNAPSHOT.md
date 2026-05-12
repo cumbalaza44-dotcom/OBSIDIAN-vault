@@ -1,10 +1,10 @@
 # VAULT SNAPSHOT
-> Generado: 2026-05-11 20:10 UTC-5
+> Generado: 2026-05-11 23:29 UTC-5
 
 ## 📊 Stats
-- Notas: **32** | Carpetas: **12** | Vacías: **6** | Tareas pendientes: **34**
+- Notas: **33** | Carpetas: **12** | Vacías: **6** | Tareas pendientes: **35**
 
-## 📁 Estructura del vault (32 archivos)
+## 📁 Estructura del vault (33 archivos)
 📄 Hoy.md
 📄 Notas somos.md
 📁 FINANZAS Y PROYECTOS/
@@ -47,17 +47,18 @@
   ├── 2026-05-08.md
   ├── 2026-05-09.md
   ├── 2026-05-10.md
+  ├── 2026-05-11.md
   └── README.md
 📁 System/
   ├── Flujo de sincronización.md
   └── _INFRA-RESTORE.md
 
 ## 🆕 Modificados recientemente
-- Hoy.md — *2026-05-11 20:10*
-- HOGAR/Mantenimiento moto/Mantenimiento Moto.md — *2026-05-11 11:32*
+- Hoy.md — *2026-05-11 23:29*
+- HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/GYM.md — *2026-05-11 23:29*
+- registro de progreso diario/2026-05-11.md — *2026-05-11 23:29*
+- HOGAR/Mantenimiento moto/Mantenimiento Moto.md — *2026-05-11 23:03*
 - Notas somos.md — *2026-05-11 11:10*
-- HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md — *2026-05-11 10:00*
-- registro de progreso diario/2026-05-10.md — *2026-05-10 20:38*
 
 ## 📝 Tareas pendientes
 - [ ] Estudiar migración de trading assistant📅 2026-05-06   — *FINANZAS Y PROYECTOS/Bot mt5/Bot MT5.md*
@@ -76,12 +77,13 @@
 - [ ] Cortarse el cabello   — *HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/Cuidado personal.md*
 - [ ] Aumentar presupuesto alimentario personal  — *HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/Cuidado personal.md*
 - [ ] Balanceo de progreso y profundización de pilares a nucleos enfocados en ser vivir y hacer  — *HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/Cuidado personal.md*
-- [ ] Definir esquema de entrenamiento   — *HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/GYM.md*
+- [ ] Definir esquema de entrenamiento  — *HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/GYM.md*
+- [ ] 📅 2026-05-12 — Crear rutina de ejercicio para 5 días  — *HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/GYM.md*
 - [ ] Purgar teléfono de apps y videos   — *HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/Hábitos.md*
 - [ ] Ciclo de habitos y pendientes   — *HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/Hábitos.md*
 - [ ] Lavado y mantenimiento  — *HOGAR/Mantenimiento moto/Mantenimiento Moto.md*
 - [ ] Documentar relación de distancia para alineamiento del eje trasero — tener en cuenta la alineación al hacer el apriete de la tijera  — *HOGAR/Mantenimiento moto/Mantenimiento Moto.md*
-- [ ] 📅 2026-05-11 19:00 — Bajar engrane y engrasar para verificar sonido de cocheo  — *HOGAR/Mantenimiento moto/Mantenimiento Moto.md*
+- [ ] 📅 2026-05-16 — Crear lista de trabajo y mejoras moto  — *HOGAR/Mantenimiento moto/Mantenimiento Moto.md*
 - [ ] Sartén   — *HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md*
 - [ ] organizar habitación   — *HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md*
 - [ ] ciclo de trabajo   — *HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md*
