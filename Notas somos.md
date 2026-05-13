@@ -12,4 +12,4 @@ Martes jueves
 100 sueches 
 7 terminales 
 
-Enchívese 
+- [ ] Terminar prueba📅 2026-05-13 
