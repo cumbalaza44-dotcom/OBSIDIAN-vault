@@ -1,6 +1,10 @@
 ---
-created: 2026-05-12
-tags: [hoy, dashboard, tareas, dinamico]
+created: 2026-05-13
+tags:
+  - hoy
+  - dashboard
+  - tareas
+  - dinamico
 ---
 
 # 📋 Hoy
