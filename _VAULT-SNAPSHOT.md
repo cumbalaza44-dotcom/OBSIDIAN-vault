@@ -1,10 +1,10 @@
 # VAULT SNAPSHOT
-> Generado: 2026-05-12 19:51 UTC-5
+> Generado: 2026-05-13 10:40 UTC-5
 
 ## 📊 Stats
-- Notas: **33** | Carpetas: **12** | Vacías: **6** | Tareas pendientes: **36**
+- Notas: **34** | Carpetas: **12** | Vacías: **6** | Tareas pendientes: **36**
 
-## 📁 Estructura del vault (33 archivos)
+## 📁 Estructura del vault (34 archivos)
 📄 Hoy.md
 📄 Notas somos.md
 📁 FINANZAS Y PROYECTOS/
@@ -51,14 +51,15 @@
   └── README.md
 📁 System/
   ├── Flujo de sincronización.md
-  └── _INFRA-RESTORE.md
+  ├── _INFRA-RESTORE.md
+  └── Instrucción agente.md
 
 ## 🆕 Modificados recientemente
+- System/Instrucción agente.md — *2026-05-12 20:17*
 - System/Flujo de sincronización.md — *2026-05-12 19:51*
 - Hoy.md — *2026-05-12 15:34*
 - HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/GYM.md — *2026-05-11 23:29*
 - registro de progreso diario/2026-05-11.md — *2026-05-11 23:29*
-- HOGAR/Mantenimiento moto/Mantenimiento Moto.md — *2026-05-11 23:03*
 
 ## 📝 Tareas pendientes
 - [ ] Estudiar migración de trading assistant📅 2026-05-06   — *FINANZAS Y PROYECTOS/Bot mt5/Bot MT5.md*
@@ -96,13 +97,6 @@
 - [ ] Estudiar migración de trading assistant (Bot MT5) a n8n — aplicar framework de bloques  — *registro de progreso diario/2026-05-06.md*
 - [ ] Verificar compactación Live→Archived en días densos  — *registro de progreso diario/2026-05-08.md*
 - [ ] Confirmar que el pipeline vault refleja cambios inmediatamente al editar  — *registro de progreso diario/2026-05-08.md*
-- [ ] 📅 2026-05-12 — Crear rutina de ejercicio  — *GYM.md*  — *System/Flujo de sincronización.md*
-
-## 📋 Tareas de hoy — 2026-05-12
-**⏳ 2 pendientes | ✅ 0 completadas**
-
-### ⏳ Pendientes
-- [ ] 📅 2026-05-12 — Crear rutina de ejercicio para 5 días  — *HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/GYM.md*
 - [ ] 📅 2026-05-12 — Crear rutina de ejercicio  — *GYM.md*  — *System/Flujo de sincronización.md*
 
 ## 📄 Notas vacías
