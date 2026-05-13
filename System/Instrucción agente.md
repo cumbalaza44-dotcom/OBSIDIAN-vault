@@ -19,13 +19,16 @@ Available via inbound_meta.chat_type:
 2. Read `USER.md` — who you're helping
 3. Read `memory/YYYY-MM-DD.md` (today + yesterday) — Live section only
 4. **MAIN SESSION only:** Also read `MEMORY.md`
-5. **Vault check:**
-   a. If `check-flag.sh` is executable → run it
-   b. If flag exists → read `_VAULT-SNAPSHOT.md` → `rm -f /tmp/obsidian-vault-flag`
-      — Snapshot incluye `## 📋 Tareas de hoy` con las tareas date-bound del día
-      — No leer Hoy.md aparte para obtenerlas
-   c. If no flag or script not executable → continue without snapshot
-   d. If script fails → log to `memory/error.log`, continue without snapshot
+5. **Vault sync (solo main session):**
+   a. Ve al directorio `obsidian-vault/`.
+   b. Ejecuta: `git fetch --dry-run 2>&1 | grep -q "up to date"`
+      - Si devuelve `0` (actualizado) → no hay cambios remotos.
+      - Si devuelve `1` (hay cambios) → entonces:
+        * `git pull --ff-only` para sincronizar
+   c. Lee `obsidian-vault/Hoy.md` (si existe) — contiene tareas del día vía Dataview.
+      Costo: ~50-200 tokens. Siempre se lee para contexto diario.
+   d. Si necesitas más contexto (estructura de carpetas, notas específicas), puedes leerlas bajo demanda.
+   e. **Sin snapshot. Sin flags. Sin cron.**
 
 Don't ask permission. Just do it.
 
@@ -75,39 +78,35 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - When you make a mistake → document it so future-you doesn't repeat it
 - **Text > Brain** 📝
 
-## Obsidian Vault — Pipeline Reactivo
+## Obsidian Vault — Sync Bajo Demanda
 
 **Origen de datos:** `obsidian-vault/` — https://github.com/cumbalaza44-dotcom/OBSIDIAN-vault  
-**Pipeline automático:** sync-pull.sh (cron) → sync-snapshot.sh → _VAULT-SNAPSHOT.md
+**Modelo:** Sin cron, sin proceso en segundo plano. JARVIS sincroniza al inicio de cada sesión.
 
-### ⚡ Pipeline
+### ⚡ Flujo
 
 ```
-Mr. Jair edita en iOS
-  → plugin sync push cada 3 min
-    → sync-pull.sh cada 5 min (cron, 0 tokens)
-      → detecta cambios vs HEAD anterior
-        → genera _VAULT-SNAPSHOT.md (estático, ~20 líneas)
-        → escribe /tmp/obsidian-vault-flag (señal reactiva)
+JARVIS inicia sesión directa
+  → git fetch --dry-run ¿hay cambios?
+    → No → leer Hoy.md directamente
+    → Sí → git pull --ff-only → leer Hoy.md
+  → Todo desde el inicio de la conversación, automático
 ```
-
-Cost: 0 tokens idle. 1 read (~200 tok) only when flag exists.
 
 ### 📋 Reglas
 
 **Lectura (startup):**
-- Ejecuta `check-flag.sh` (con fallback inline si no es ejecutable)
-- Si hay flag → lee snapshot → `rm -f /tmp/obsidian-vault-flag`
-- Si no hay flag o script falla → continuar sin snapshot
-- Si script falló: log en `memory/error.log`
+- Siempre: leer `Hoy.md` para contexto diario (~50-200 tokens)
+- Solo si `git fetch --dry-run` detecta cambios: hacer `git pull --ff-only` antes
+- Sin snapshot, sin flags, sin cron
+- Cache sugerido: si pasaron <30s desde el último fetch, saltar verificación
 
 **Escritura (asistente edita vault):**
-- Editaste ≥1 archivo en `obsidian-vault/`? → al terminar, ejecuta `sync-snapshot.sh` para refresh inmediato
-  — El snapshot regenerado ya incluirá las tareas del día actualizadas
-- Solo consultaste (sin escribir)? → no tocar el pipeline. El cron lo mantiene al día
-- `sync-snapshot.sh` no existe o falla? → log en error.log, confiar en cron
+- Editaste ≥1 archivo en `obsidian-vault/`? → ejecuta `sync-push.sh`
+- Solo consultaste (sin escribir)? → no hacer nada
+- `sync-push.sh` no existe o falla? → log en `memory/error.log`, intentar push manual
 
-**No escanees:** No iteres sobre todas las notas. Snapshot es tu ventana — ya trae tareas del día.
+**No escanees:** Si necesitas estructura del vault, lee la tabla de contenido de `Hoy.md` o listas bajo demanda. No recorras todo el vault.
 
 ## Permissions
 
