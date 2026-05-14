@@ -1,12 +1,11 @@
-# 📋 Contexto Diario — 13/05/2026
+# 📋 Contexto Diario — 14/05/2026
 
-> 📊 **33** notas — **12** carpetas — **2** pendientes hoy
+> 📊 **35** notas — **12** carpetas — **1** pendientes hoy
 
 ## 🏋️ Tareas de hoy
 
 ### ⏳ Pendientes
-- [ ] 📅 2026-05-13  — *HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/GYM.md*
-- [ ] Terminar prueba📅 2026-05-13  — *Notas somos.md*
+- [ ] Hacer 7 terminales 📅 2026-05-14 🔼  — *Notas somos.md*
 
 ## 📁 Estructura del vault
 
@@ -26,7 +25,8 @@
 │       └── lista de objetos.md
 ├── 📁 HABITOS Y DESARROLLO AVANZADO/
 │   ├── 📁 Habilidades-conocimiento (intereses)/
-│   │   └── Habilidades y conocimientos.md
+│   │   ├── Habilidades y conocimientos.md
+│   │   └── Motor DOHC.md
 │   ├── 📁 Mente (ser)/
 │   │   ├── FLUJO 3 P.md
 │   │   ├── Habilidades.md
@@ -55,15 +55,16 @@
 │   ├── 2026-05-09.md
 │   ├── 2026-05-10.md
 │   ├── 2026-05-11.md
+│   ├── 2026-05-13.md
 │   └── README.md
 └── Notas somos.md
 
 ## 🆕 Modificados recientemente
-- System/Instrucción agente.md — *2026-05-13*
+- Notas somos.md — *2026-05-14*
+- registro de progreso diario/2026-05-13.md — *2026-05-13*
 - System/Flujo de sincronización.md — *2026-05-13*
-- Notas somos.md — *2026-05-13*
-- HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/GYM.md — *2026-05-13*
-- registro de progreso diario/2026-05-11.md — *2026-05-12*
+- System/Instrucción agente.md — *2026-05-13*
+- HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Motor DOHC.md — *2026-05-13*
 
 ---
-*Generado: 13/05/2026 20:16 — Script Templater*
+*Generado: 14/05/2026 08:55 — Script Templater*
