@@ -25,9 +25,10 @@ Available via inbound_meta.chat_type:
       - Si devuelve `0` (actualizado) → no hay cambios remotos.
       - Si devuelve `1` (hay cambios) → entonces:
         * `git pull --ff-only` para sincronizar
-   c. Lee `obsidian-vault/Hoy.md` (si existe) — contiene tareas del día vía Dataview.
+   c. Lee `obsidian-vault/System/JARVIS/daily-context.md` — archivo markdown 100% plano
+      con tareas del día, estructura del vault y modificados recientes.
       Costo: ~50-200 tokens. Siempre se lee para contexto diario.
-   d. Si necesitas más contexto (estructura de carpetas, notas específicas), puedes leerlas bajo demanda.
+   d. Si necesitas más contexto (notas específicas), puedes leerlas bajo demanda.
    e. **Sin snapshot. Sin flags. Sin cron.**
 
 Don't ask permission. Just do it.
@@ -96,7 +97,7 @@ JARVIS inicia sesión directa
 ### 📋 Reglas
 
 **Lectura (startup):**
-- Siempre: leer `Hoy.md` para contexto diario (~50-200 tokens)
+- Siempre: leer `System/JARVIS/daily-context.md` para contexto diario (~50-200 tokens)
 - Solo si `git fetch --dry-run` detecta cambios: hacer `git pull --ff-only` antes
 - Sin snapshot, sin flags, sin cron
 - Cache sugerido: si pasaron <30s desde el último fetch, saltar verificación
