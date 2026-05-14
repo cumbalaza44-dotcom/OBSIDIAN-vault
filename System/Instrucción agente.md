@@ -89,8 +89,8 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 ```
 JARVIS inicia sesión directa
   → git fetch --dry-run ¿hay cambios?
-    → No → leer Hoy.md directamente
-    → Sí → git pull --ff-only → leer Hoy.md
+    → No → leer daily-context.md directamente
+    → Sí → git pull --ff-only → leer daily-context.md
   → Todo desde el inicio de la conversación, automático
 ```
 
@@ -107,7 +107,7 @@ JARVIS inicia sesión directa
 - Solo consultaste (sin escribir)? → no hacer nada
 - `sync-push.sh` no existe o falla? → log en `memory/error.log`, intentar push manual
 
-**No escanees:** Si necesitas estructura del vault, lee la tabla de contenido de `Hoy.md` o listas bajo demanda. No recorras todo el vault.
+**No escanees:** Si necesitas más contexto, lee notas específicas bajo demanda. `daily-context.md` ya trae tareas del día, estructura del vault y modificados recientes. No recorras todo el vault.
 
 ## Permissions
 
