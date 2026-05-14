@@ -5,11 +5,11 @@ Documentación de profesor
 
 Martes jueves
 
-75 orbs  25 por día
+75 orbs  50 listas 
 
-100 cajas 
+- [x] 100 cajas ✅ 2026-05-13
 100 parrilas
-100 sueches 
+- [x] 100 sueches 
 7 terminales 
 
 - [ ] Terminar prueba📅 2026-05-13 
