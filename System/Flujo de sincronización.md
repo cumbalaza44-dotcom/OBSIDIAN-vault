@@ -7,33 +7,45 @@
 Pipeline 100% reactivo a la conversación. JARVIS sincroniza el vault automáticamente al inicio de cada sesión directa. No hay procesos en segundo plano, no hay archivos intermedios, no hay flags.
 
 ```
-┌──────────────┐     ┌────────────┐     ┌──────────────┐
-│  Mr. Jair    │────→│  GitHub    │────→│  Servidor    │
-│  (iOS)       │     │  Repo      │     │  (VPS)       │
-└──────────────┘     └────────────┘     └──────────────┘
-       │                                     │
-       │ (edita en Obsidian)                 │ (inicia sesión directa)
-       ▼                                     ▼
-  ┌──────────┐                     ┌─────────────────────┐
-  │ Hoy.md   │                     │ git fetch --dry-run  │
-  │ Dataview │                     │ ¿cambios remotos?    │
-  │ nativo   │                     └─────────┬───────────┘
-  └──────────┘                               │
-       │                           ┌─────────┴─────────┐
-       │                           │                   │
-       │                           ▼                   ▼
-       │                    ┌────────────┐    ┌────────────────┐
-       │                    │ No → leer  │    │ Sí → git pull  │
-       │                    │ Hoy.md     │    │ → leer Hoy.md  │
-       │                    │ directo    │    │                │
-       │                    └────────────┘    └────────────────┘
-       │                           │                   │
-       └───────────────────────────┴───────────────────┘
-                                   ▼
-                        ┌──────────────────────┐
-                        │  JARVIS tiene el     │
-                        │  contexto del día    │
-                        └──────────────────────┘
+┌──────────────────┐
+│  Mr. Jair (iOS)  │
+└───────┬──────────┘
+        │
+        ├── 1. Edita tareas en cualquier nota
+        │    (con 📅 YYYY-MM-DD)
+        │
+        ├── 2. Ejecuta plantilla Templater
+        │    → genera System/JARVIS/daily-context.md
+        │    → markdown 100% plano (tareas + estructura)
+        │
+        ├── 3. Obsidian Git → push a GitHub (~3 min)
+        │
+        ▼
+  ┌───────────┐     ┌──────────────────────────────┐
+  │  GitHub   │────→│  JARVIS inicia sesión directa │
+  └───────────┘     └──────────┬───────────────────┘
+                               │
+                    ┌──────────┴──────────┐
+                    │ git fetch --dry-run  │
+                    │ ¿cambios remotos?    │
+                    └──────────┬──────────┘
+                               │
+                    ┌──────────┴──────────┐
+                    │                     │
+                    ▼                     ▼
+             ┌──────────┐      ┌──────────────────┐
+             │ No → leer│      │ Sí → git pull    │
+             │ daily-   │      │ → leer daily-    │
+             │ context  │      │   context        │
+             └──────────┘      └──────────────────┘
+                    │                     │
+                    └──────────┬──────────┘
+                               ▼
+                    ┌──────────────────────┐
+                    │  JARVIS tiene        │
+                    │  contexto completo   │
+                    │  del vault           │
+                    └──────────────────────┘
 ```
 
 ## 🔄 Flujo completo
@@ -41,15 +53,19 @@ Pipeline 100% reactivo a la conversación. JARVIS sincroniza el vault automátic
 ### 📥 Mr. Jair edita → JARVIS se entera
 
 1. **Mr. Jair** edita/crea/checkea tareas en Obsidian (iOS)
-   - `Hoy.md` con queries **Tasks + Dataview** nativos renderiza instantáneo
-   - Sin esperar al servidor
-2. Plugin **Obsidian Git** sincroniza a GitHub cada ~3 min
-3. **JARVIS** inicia una sesión directa → ejecuta automáticamente:
-   - `git fetch --dry-run` para detectar cambios remotos (<2s)
+   - Usa `📅 YYYY-MM-DD` para fechar tareas (Tasks + Dataview lo reconocen)
+   - `Hoy.md` se renderiza automáticamente en iOS para visualización
+2. **Mr. Jair ejecuta la plantilla Templater** (`Cmd+P` → Templater: Insert Template)
+   - Escanea todo el vault
+   - Extrae tareas del día, estructura de carpetas, archivos recientes
+   - Escribe `System/JARVIS/daily-context.md` en **markdown 100% plano**
+3. Plugin **Obsidian Git** sincroniza a GitHub (~3 min)
+4. **JARVIS** inicia una sesión directa → automáticamente:
+   - `git fetch --dry-run` (< 2 segundos)
    - Si hay cambios → `git pull --ff-only`
-   - Lee `Hoy.md` para contexto diario (~50-200 tokens)
-4. El usuario no pide nada. Ocurre automático en cada interacción.
-5. Costo en idle: **0** (nada corriendo). Costo por interacción: **~150 tokens**.
+   - Lee `System/JARVIS/daily-context.md` (~50-200 tokens)
+5. **No se lee Hoy.md** — contiene código Dataview no legible en texto plano
+6. Costo en idle: **0**. Costo por interacción: **~150 tokens**.
 
 ### 📤 JARVIS edita → Mr. Jair lo ve
 
@@ -59,57 +75,85 @@ Pipeline 100% reactivo a la conversación. JARVIS sincroniza el vault automátic
 3. **Mr. Jair** recibe los cambios vía plugin Obsidian Git en iOS
 4. Costo: **0 tokens**.
 
-### 🏠 Hoy.md — Nativo Obsidian (Dataview + Tasks)
+## 📁 Archivos clave
 
-```tasks
-due today
-not done
-group by filename
-sort by priority
+### `System/JARVIS/daily-context.md` — El archivo que lee JARVIS
+
+Generado por Templater desde iOS. Contiene:
+
+```markdown
+# 📋 Contexto Diario — 13/05/2026
+
+> 📊 33 notas — 12 carpetas — 2 pendientes hoy
+
+## 🏋️ Tareas de hoy
+### ⏳ Pendientes
+- [ ] Crear rutina de ejercicio  — *GYM.md*
+
+## 📁 Estructura del vault
+├── 📄 Hoy.md
+├── 📁 FINANZAS/
+│   └── Bot MT5.md
+...
+
+## 🆕 Modificados recientemente
+- GYM.md — *2026-05-13*
 ```
 
-Hoy.md se renderiza automáticamente en Obsidian iOS usando Dataview y Tasks. No depende del servidor para nada. JARVIS lo lee directamente desde el sistema de archivos en cada sesión.
+### `System/JARVIS/Plantilla - daily-context.md` — El generador
 
-## 🧩 Scripts involucrados
+Script Templater que escanea el vault y escribe `daily-context.md`.
+**Debe ejecutarse manualmente** (o vía atajo de teclado) después de editar tareas.
+
+### `Hoy.md` — Solo para visualización en iOS
+
+Usa Dataview + Tasks queries. **No es legible en texto plano**, por eso JARVIS no lo lee.
+
+## 🧩 Scripts involucrados (servidor)
 
 | Script | Trigger | Función |
 |--------|---------|---------|
 | `sync-push.sh` | Manual (JARVIS al editar) | Commit + push forzado de ediciones locales |
 
-**Eliminados (v1 → v2):**
+## 🧩 Plantillas involucradas (iOS)
+
+| Plantilla | Trigger | Función |
+|-----------|---------|---------|
+| `System/JARVIS/Plantilla - daily-context.md` | Manual (Templater) | Genera daily-context.md con tareas, estructura, recientes |
+
+**Eliminados (v1 → v2 → v2.1):**
 
 | ~~Script/Archivo~~ | ~~Razón~~ |
 |-------------------|-----------|
 | ~~sync-pull.sh~~ | Reemplazado por `git fetch --dry-run` bajo demanda |
-| ~~sync-snapshot.sh~~ | Reemplazado por lectura directa de `Hoy.md` |
-| ~~sync-today.sh~~ | Reemplazado por Dataview nativo en Obsidian |
-| ~~check-flag.sh~~ | Eliminado: sin flags que verificar |
-| ~~_VAULT-SNAPSHOT.md~~ | Eliminado: sin snapshot que leer |
-| ~~/tmp/obsidian-vault-flag~~ | Eliminado: sin señal reactiva |
-| ~~Cron cada 5 min~~ | Eliminado: sin heartbeat |
+| ~~sync-snapshot.sh~~ | Reemplazado por `daily-context.md` generado en iOS |
+| ~~sync-today.sh~~ | Reemplazado por Templater + `daily-context.md` |
+| ~~check-flag.sh~~ | Eliminado |
+| ~~_VAULT-SNAPSHOT.md~~ | Eliminado |
+| ~~/tmp/obsidian-vault-flag~~ | Eliminado |
+| ~~Cron cada 5 min~~ | Eliminado |
+| ~~Lectura de Hoy.md~~ | Reemplazado por `daily-context.md` (texto plano legible) |
 
 ## 📊 Costos
 
-| Concepto | Antes (v1) | Ahora (v2) |
-|----------|-----------|------------|
-| Idle | 0 tokens (pero proceso cada 5 min) | **0 tokens + 0 procesos** |
-| Startup (cambios) | ~200 tok (snapshot) | ~150 tok (Hoy.md) |
-| Startup (sin cambios) | ~200 tok (flag + snapshot) | ~50 tok (Hoy.md solo) |
-| Escritura | 0 tokens | 0 tokens |
-| Latencia cambios iOS→JARVIS | Hasta 8 min (cron 5 + push 3) | **~3 min** (solo push de iOS) |
+| Concepto | Costo |
+|----------|-------|
+| Idle | **0 tokens + 0 procesos** |
+| Startup (cambios) | ~150 tok (daily-context.md) |
+| Startup (sin cambios) | ~150 tok (daily-context.md, mismo contexto) |
+| Escritura | 0 tokens |
+| Latencia iOS→JARVIS | ~3 min (push GitHub) + tu próximo mensaje |
 
-## ✅ Cumplimiento de requisitos
+## 📖 Uso diario
 
-| Requisito | Cumplimiento |
-|-----------|-------------|
-| Sin cron (no heartbeat) | ✅ No hay procesos en segundo plano |
-| Detección reactiva | ✅ JARVIS detecta cambios en cada interacción automáticamente |
-| Cero costo idle | ✅ El servidor no hace nada entre conversaciones |
-| Alta sincronía | ✅ Latencia máxima de un `git fetch` (~2s) al hablar |
-| Sin snapshot | ✅ Eliminado por completo |
-| Estructura del vault en iOS | ✅ El vault ya existe en iOS; servidor solo clona |
-| Mantener sync-push.sh | ✅ Se conserva para escrituras de JARVIS |
+```
+1. Editas tareas en iOS (con 📅 fecha)
+2. Cmd+P → Templater: Insert Template → "Plantilla - daily-context"
+3. [Opcional: atajo Cmd+Shift+D]
+4. Obsidian Git sincroniza solo
+5. Hablas con JARVIS → ya tiene el contexto
+```
 
 ---
 
-*Documentación del pipeline v2 — Cero overhead, máxima eficiencia. Actualizado 2026-05-13.*
+*Documentación del pipeline v2.1 — Un archivo plano, todo el contexto. Actualizado 2026-05-13.*
