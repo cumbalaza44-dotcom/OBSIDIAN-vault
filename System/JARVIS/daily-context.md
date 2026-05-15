@@ -11,7 +11,7 @@
 
 ├── 📁 FINANZAS Y PROYECTOS/
 │   ├── 📁 Bot mt5/
-│   │   └── Bot MT5.md
+│   │   └── Evolución MT5.md
 │   ├── 📁 Finanzas y proyectos/
 │   │   ├── Búsqueda de plataformas para estrategias de ahorro.md
 │   │   ├── Conocimientos financieros.md
@@ -60,11 +60,11 @@
 └── Notas somos.md
 
 ## 🆕 Modificados recientemente
+- FINANZAS Y PROYECTOS/Bot mt5/Evolución MT5.md — *2026-05-15*
 - Notas somos.md — *2026-05-14*
 - HOGAR/Mantenimiento moto/Mantenimiento Moto.md — *2026-05-14*
 - HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Motor DOHC.md — *2026-05-14*
 - HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Habilidades y conocimientos.md — *2026-05-14*
-- registro de progreso diario/2026-05-13.md — *2026-05-13*
 
 ---
-*Generado: 15/05/2026 08:37 — Script Templater*
+*Generado: 15/05/2026 13:47 — Script Templater*
