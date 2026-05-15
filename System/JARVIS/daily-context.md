@@ -1,10 +1,11 @@
-# 📋 Contexto Diario — 14/05/2026
+# 📋 Contexto Diario — 15/05/2026
 
-> 📊 **35** notas — **12** carpetas — **0** pendientes hoy
+> 📊 **35** notas — **12** carpetas — **1** pendientes hoy
 
 ## 🏋️ Tareas de hoy
 
-*Sin tareas programadas para hoy.* 🎯
+### ⏳ Pendientes
+- [ ] Revisar cursos de aprendizaje interactivo de programación 📅 2026-05-15 ⏰ 07:00  — *HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Habilidades y conocimientos.md*
 
 ## 📁 Estructura del vault
 
@@ -66,4 +67,4 @@
 - registro de progreso diario/2026-05-13.md — *2026-05-13*
 
 ---
-*Generado: 14/05/2026 20:29 — Script Templater*
+*Generado: 15/05/2026 08:37 — Script Templater*

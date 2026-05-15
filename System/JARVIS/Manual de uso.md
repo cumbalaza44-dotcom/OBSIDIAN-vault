@@ -1,3 +1,8 @@
+---
+created: 2026-05-13
+type: template-script
+purpose: Generate System/JARVIS/daily-context.md
+---
 # 📖 Manual de uso — Sistema de contexto diario
 
 ## 🎯 ¿Qué es?
@@ -7,6 +12,10 @@ Un sistema que genera automáticamente un archivo **markdown 100% plano** (`dail
 **Reemplaza:** el antiguo snapshot + Hoy.md (Dataview no legible en texto plano).
 
 ## 📂 Archivos involucrados
+
+
+
+
 
 | Archivo | Rol |
 |---------|-----|
