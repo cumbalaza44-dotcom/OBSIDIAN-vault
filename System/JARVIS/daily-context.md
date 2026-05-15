@@ -60,11 +60,11 @@
 └── Notas somos.md
 
 ## 🆕 Modificados recientemente
+- HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Habilidades y conocimientos.md — *2026-05-14*
 - Notas somos.md — *2026-05-14*
 - registro de progreso diario/2026-05-13.md — *2026-05-13*
 - System/Flujo de sincronización.md — *2026-05-13*
 - System/Instrucción agente.md — *2026-05-13*
-- HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Motor DOHC.md — *2026-05-13*
 
 ---
-*Generado: 14/05/2026 08:55 — Script Templater*
+*Generado: 14/05/2026 19:26 — Script Templater*
