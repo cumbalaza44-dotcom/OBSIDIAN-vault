@@ -19,5 +19,5 @@ Martes jueves
 - [x] 100 cajas ✅ 2026-05-13
 100 parrilas
 - [x] 100 sueches 
-- [x] Hacer 7 terminales 🔼 📅 2026-05-14 ✅ 2026-05-14
+
 - [ ] 
