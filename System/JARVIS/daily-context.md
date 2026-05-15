@@ -3,6 +3,10 @@ created: 2026-05-13
 type: template-script
 purpose: Generate System/JARVIS/daily-context.md
 ---
+
+
+
+
 # 📋 Contexto Diario — 14/05/2026
 
 > 📊 **35** notas — **12** carpetas — **1** pendientes hoy
@@ -13,10 +17,6 @@ purpose: Generate System/JARVIS/daily-context.md
 - [ ] Hacer 7 terminales 📅 2026-05-14 🔼  — *Notas somos.md*
 
 ## 📁 Estructura del vault
-
-
-
-
 
 ├── 📁 FINANZAS Y PROYECTOS/
 │   ├── 📁 Bot mt5/
@@ -76,4 +76,4 @@ purpose: Generate System/JARVIS/daily-context.md
 - registro de progreso diario/2026-05-13.md — *2026-05-13*
 
 ---
-*Generado: 14/05/2026 19:52 — Script Templater*
+*Generado: 14/05/2026 19:53 — Script Templater*
