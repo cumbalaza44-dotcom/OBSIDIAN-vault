@@ -1,3 +1,8 @@
+---
+created: 2026-05-13
+type: template-script
+purpose: Generate System/JARVIS/daily-context.md
+---
 # 📋 Contexto Diario — 14/05/2026
 
 > 📊 **35** notas — **12** carpetas — **1** pendientes hoy
@@ -8,6 +13,10 @@
 - [ ] Hacer 7 terminales 📅 2026-05-14 🔼  — *Notas somos.md*
 
 ## 📁 Estructura del vault
+
+
+
+
 
 ├── 📁 FINANZAS Y PROYECTOS/
 │   ├── 📁 Bot mt5/
@@ -60,11 +69,11 @@
 └── Notas somos.md
 
 ## 🆕 Modificados recientemente
+- HOGAR/Mantenimiento moto/Mantenimiento Moto.md — *2026-05-14*
 - HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Motor DOHC.md — *2026-05-14*
 - HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Habilidades y conocimientos.md — *2026-05-14*
 - Notas somos.md — *2026-05-14*
 - registro de progreso diario/2026-05-13.md — *2026-05-13*
-- System/Flujo de sincronización.md — *2026-05-13*
 
 ---
-*Generado: 14/05/2026 19:36 — Script Templater*
+*Generado: 14/05/2026 19:52 — Script Templater*
