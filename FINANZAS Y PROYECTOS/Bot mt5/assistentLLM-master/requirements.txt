@@ -1,0 +1,40 @@
+# Trading Assistant - Sistema de Orquestación de Trading Asistido por LLM
+# Dependencias principales
+
+# FastAPI y servidor
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+websockets==12.0
+
+# Configuración y validación
+pydantic==2.5.0
+pydantic-settings==2.10.1
+python-dotenv==1.0.0
+
+# Google AI
+google-generativeai==0.3.2
+
+# MetaTrader 5
+MetaTrader5==5.0.5328
+
+# Procesamiento de datos
+pandas==2.1.4
+polars==0.20.2
+numpy==1.25.2
+numba==0.58.1
+
+# Redis (opcional)
+redis>=4.2.0
+
+# Utilidades
+python-multipart==0.0.6
+aiofiles==23.2.1
+
+# Desarrollo y testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
+
+# Logging y monitoreo
+structlog==23.2.0 
+prometheus-client==0.17.0

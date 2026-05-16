@@ -1,0 +1,1 @@
+# API Gateway - Punto de entrada para comunicación con clientes 
