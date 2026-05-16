@@ -21,15 +21,14 @@ Available via inbound_meta.chat_type:
 4. **MAIN SESSION only:** Also read `MEMORY.md`
 5. **Vault sync (solo main session):**
    a. Ve al directorio `obsidian-vault/`.
-   b. Ejecuta: `git fetch --dry-run 2>&1 | grep -q "up to date"`
-      - Si devuelve `0` (actualizado) → no hay cambios remotos.
-      - Si devuelve `1` (hay cambios) → entonces:
-        * `git pull --ff-only` para sincronizar
+   b. Ejecuta: `git pull --ff-only` en `obsidian-vault/` (sin lógica condicional previa)
+      - Si hubo cambios → el pull los trae directamente
+      - Si no hubo cambios → no imprime nada, overhead ~0.5s
    c. Lee `obsidian-vault/System/JARVIS/daily-context.md` — archivo markdown 100% plano
       con tareas del día, estructura del vault y modificados recientes.
       Costo: ~50-200 tokens. Siempre se lee para contexto diario.
    d. Si necesitas más contexto (notas específicas), puedes leerlas bajo demanda.
-   e. **Sin snapshot. Sin flags. Sin cron.**
+   e. **Sin snapshot. Sin flags. Sin cron.** — El fetch ligero en cada turno sí es intencional (ver abajo).
 
 Don't ask permission. Just do it.
 
@@ -82,7 +81,7 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 ## Obsidian Vault — Sync Bajo Demanda
 
 **Origen de datos:** `obsidian-vault/` — https://github.com/cumbalaza44-dotcom/OBSIDIAN-vault  
-**Modelo:** Sin cron, sin proceso en segundo plano. JARVIS sincroniza al inicio de cada sesión.
+**Modelo:** Sin cron, sin proceso en segundo plano. JARVIS sincroniza al inicio de cada sesión y con un fetch ligero en cada turno de conversación.
 
 ### ⚡ Flujo
 
@@ -94,13 +93,15 @@ JARVIS inicia sesión directa
   → Todo desde el inicio de la conversación, automático
 ```
 
+**En cada turno:** Se ejecuta `git pull --ff-only` en `obsidian-vault/` al inicio de cada respuesta. Sin dry-run, sin grep, sin condicionales — el pull directo es más confiable y la ~0.5s de overhead es insignificante.
+
 ### 📋 Reglas
 
 **Lectura (startup):**
 - Siempre: leer `System/JARVIS/daily-context.md` para contexto diario (~50-200 tokens)
-- Solo si `git fetch --dry-run` detecta cambios: hacer `git pull --ff-only` antes
+- Siempre ejecutar `git pull --ff-only` (reemplaza el fetch condicional)
 - Sin snapshot, sin flags, sin cron
-- Cache sugerido: si pasaron <30s desde el último fetch, saltar verificación
+
 
 **Escritura (asistente edita vault):**
 - Editaste ≥1 archivo en `obsidian-vault/`? → ejecuta `sync-push.sh`
