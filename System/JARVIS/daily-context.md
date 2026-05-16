@@ -11,9 +11,6 @@
 
 ├── 📁 FINANZAS Y PROYECTOS/
 │   ├── 📁 Bot mt5/
-│   │   ├── 📁 assistentLLM-master/
-│   │   │   ├── DOCUMENTACION_TECNICA.md
-│   │   │   └── README.md
 │   │   └── Evolución MT5.md
 │   ├── 📁 Finanzas y proyectos/
 │   │   ├── Búsqueda de plataformas para estrategias de ahorro.md
@@ -45,6 +42,10 @@
 │   │   └── Mantenimiento Moto.md
 │   └── 📁 Mantenimiento y mejoras hogar/
 │       └── Mantenimiento y mejoras hogar.md
+├── 📁 Prueba/
+│   └── 📁 assistentLLM-master/
+│       ├── DOCUMENTACION_TECNICA.md
+│       └── README.md
 ├── 📁 System/
 │   ├── Flujo de sincronización.md
 │   ├── Instrucción agente.md
@@ -70,4 +71,4 @@
 - HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Habilidades y conocimientos.md — *2026-05-14*
 
 ---
-*Generado: 15/05/2026 22:12 — Script Templater*
+*Generado: 15/05/2026 22:15 — Script Templater*
