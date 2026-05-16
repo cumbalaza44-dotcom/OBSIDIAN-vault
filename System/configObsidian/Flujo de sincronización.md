@@ -68,9 +68,9 @@ Pipeline 100% reactivo a la conversación. JARVIS sincroniza el vault automátic
 4. **JARVIS** inicia una sesión directa → automáticamente:
    - `git pull --ff-only` (~0.5s, directo, sin lógica condicional)
    - Lee `System/JARVIS/daily-context.md` (~50-200 tokens)
-5. **Cada turno:** Repite `git pull --ff-only` antes de procesar cualquier mensaje
 5. **No se lee Hoy.md** — contiene código Dataview no legible en texto plano
-6. Costo en idle: **0**. Costo por interacción: **~150 tokens**.
+6. **Cada turno:** `git pull --ff-only` antes de procesar cualquier mensaje
+7. Costo en idle: **0**. Costo por interacción: **~150 tokens**.
 
 ### 📤 JARVIS edita → Mr. Jair lo ve
 
