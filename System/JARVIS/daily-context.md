@@ -1,11 +1,12 @@
-# 📋 Contexto Diario — 15/05/2026
+# 📋 Contexto Diario — 16/05/2026
 
-> 📊 **37** notas — **13** carpetas — **1** pendientes hoy
+> 📊 **37** notas — **14** carpetas — **2** pendientes hoy
 
 ## 🏋️ Tareas de hoy
 
 ### ⏳ Pendientes
-- [ ] Revisar cursos de aprendizaje interactivo de programación 📅 2026-05-15 ⏰ 07:00  — *HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Habilidades y conocimientos.md*
+- [ ] Estudiar migración de trading assistant📅 2026-05-16  — *FINANZAS Y PROYECTOS/Bot mt5/Evolución MT5.md*
+- [ ] 📅 2026-05-16 — Crear lista de trabajo y mejoras moto  — *HOGAR/Mantenimiento moto/Mantenimiento Moto.md*
 
 ## 📁 Estructura del vault
 
@@ -47,9 +48,11 @@
 │       ├── DOCUMENTACION_TECNICA.md
 │       └── README.md
 ├── 📁 System/
-│   ├── Flujo de sincronización.md
-│   ├── Instrucción agente.md
-│   └── _INFRA-RESTORE.md
+│   ├── 📁 Copia data claw/
+│   │   └── Instrucción agente.md
+│   └── 📁 configObsidian/
+│       ├── Flujo de sincronización.md
+│       └── _INFRA-RESTORE.md
 ├── 📁 registro de progreso diario/
 │   ├── 2026-05-02.md
 │   ├── 2026-05-03.md
@@ -71,4 +74,4 @@
 - HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Habilidades y conocimientos.md — *2026-05-14*
 
 ---
-*Generado: 15/05/2026 22:15 — Script Templater*
+*Generado: 16/05/2026 07:47 — Script Templater*
