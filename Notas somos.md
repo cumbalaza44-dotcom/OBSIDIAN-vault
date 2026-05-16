@@ -20,4 +20,4 @@ Martes jueves
 100 parrilas
 - [x] 100 sueches 
 
-- [ ] Recordatorio prueba ajuste final 📅 2026-05-16 ⏫ 
+- [x] Recordatorio prueba ajuste final ⏫ 📅 2026-05-16 ✅ 2026-05-16
