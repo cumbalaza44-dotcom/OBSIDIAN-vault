@@ -25,18 +25,23 @@ Pipeline 100% reactivo a la conversación. JARVIS sincroniza el vault automátic
   │  GitHub   │────→│  JARVIS inicia sesión directa │
   └───────────┘     └──────────┬───────────────────┘
                                │
-                    ┌──────────┴──────────┐
-                    │ git fetch --dry-run  │
-                    │ ¿cambios remotos?    │
-                    └──────────┬──────────┘
+                    ┌──────────────────────┴──┐
+                    │ git pull --ff-only      │
+                    │ (sin dry-run, directo) │
+                    └──────────┬──────────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │  ¿Hubo cambios?      │
+                    └──────────┬───────────┘
                                │
                     ┌──────────┴──────────┐
                     │                     │
                     ▼                     ▼
              ┌──────────┐      ┌──────────────────┐
-             │ No → leer│      │ Sí → git pull    │
-             │ daily-   │      │ → leer daily-    │
-             │ context  │      │   context        │
+             │ No → leer│      │ Sí → ya están   │
+             │ daily-   │      │ descargados y   │
+             │ context  │      │ mergeados       │
              └──────────┘      └──────────────────┘
                     │                     │
                     └──────────┬──────────┘
@@ -61,9 +66,9 @@ Pipeline 100% reactivo a la conversación. JARVIS sincroniza el vault automátic
    - Escribe `System/JARVIS/daily-context.md` en **markdown 100% plano**
 3. Plugin **Obsidian Git** sincroniza a GitHub (~3 min)
 4. **JARVIS** inicia una sesión directa → automáticamente:
-   - `git fetch --dry-run` (< 2 segundos)
-   - Si hay cambios → `git pull --ff-only`
+   - `git pull --ff-only` (~0.5s, directo, sin lógica condicional)
    - Lee `System/JARVIS/daily-context.md` (~50-200 tokens)
+5. **Cada turno:** Repite `git pull --ff-only` antes de procesar cualquier mensaje
 5. **No se lee Hoy.md** — contiene código Dataview no legible en texto plano
 6. Costo en idle: **0**. Costo por interacción: **~150 tokens**.
 
@@ -125,7 +130,7 @@ Usa Dataview + Tasks queries. **No es legible en texto plano**, por eso JARVIS n
 
 | ~~Script/Archivo~~ | ~~Razón~~ |
 |-------------------|-----------|
-| ~~sync-pull.sh~~ | Reemplazado por `git fetch --dry-run` bajo demanda |
+| ~~sync-pull.sh~~ | Reemplazado por `git pull --ff-only` en startup y cada turno |
 | ~~sync-snapshot.sh~~ | Reemplazado por `daily-context.md` generado en iOS |
 | ~~sync-today.sh~~ | Reemplazado por Templater + `daily-context.md` |
 | ~~check-flag.sh~~ | Eliminado |
@@ -156,4 +161,4 @@ Usa Dataview + Tasks queries. **No es legible en texto plano**, por eso JARVIS n
 
 ---
 
-*Documentación del pipeline v2.1 — Un archivo plano, todo el contexto. Actualizado 2026-05-13.*
+*Documentación del pipeline v2.2 — Pull directo cada turno, sin dry-run ni condicionales. Actualizado 2026-05-16.*
