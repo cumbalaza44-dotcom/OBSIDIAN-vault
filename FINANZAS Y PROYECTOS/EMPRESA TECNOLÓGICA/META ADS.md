@@ -1,11 +1,10 @@
 ## paso a paso de preparación de campaña ADS
 ### paso 1 búsqueda de producto
 Productos que se puedan re vender o crear Definir  características que hacen un buen producto
-Crear contenido respaldo 
-Ideas de productos 
+Ideas de productos : 
 : ropa deportiva
 Licras deportivas 
-Productos dollar city 
+ Productos chiko
 Productos tecnología 
 Destilados 
 Suplementos 
@@ -16,4 +15,6 @@ Suplementos
 ## Paso 3 creación de contenido ( mensaje)
 - [ ] Aprender storytelling de venta 
 
+###  grabación de anuncio
+ Investigar y  Aplicar  fórmulas de viralidad 
 
