@@ -9,7 +9,49 @@
 - Bajo flotante 
 - Operaciones inteligentes 
 - Rendimiento seguro aceptable
+- determinar cuáles son las formas de construcción que nos permitan más herramientas de usuario
+- Motor de estrategia 
 ## métodos de operación 
 - señal 
 - Cobertura 
-## gestión de riesgo 
+## arquitectura 
+graph TD
+    subgraph "Usuario"
+        A[UI - Interfaz de Usuario]
+    end
+
+    subgraph "Núcleo / Cerebro del Sistema"
+        B(Orquestador Central)
+        C[Toolbox - Caja de Herramientas]
+        D[StateManager - Gestor de Estado]
+        E[LLMService - Servicio del LLM]
+    end
+
+    subgraph "Servicios Externos"
+        F[API de Deriv]
+        G[API del LLM]
+    end
+    
+    subgraph "Módulos Periféricos"
+        H[APIManager - Gestor de Conexión]
+    end
+
+    A -- "Evento: OnUserQuery" --> B
+    B -- 1. Coordina --> E
+    E -- 2. Llama --> G
+    G -- 3. Respuesta --> E
+    B -- 4. Ejecuta Herramienta --> C
+    C -- 5. Consulta Estado --> D
+    C -- 6. Ejecuta Acción --> H
+    H -- 7. Llama --> F
+    F -- 8. Resultado --> H
+    H -- "Evento: OnDataReceived" --> B
+    B -- 9. Actualiza Estado --> D
+    B -- 10
+U
+
+## plan de desarrollo 
+Que formas de construcción nos permiten un desarrollo de más herramientas para el usuario 
+## lógica de operación 
+Falsos cruces 
+Y scalping 
