@@ -4,7 +4,7 @@ Productos que se puedan re vender o crear Definir  características que hacen un
 Ideas de productos : 
 : ropa deportiva
 Licras deportivas 
- Productos chiko
+ Productos chinos 
 Productos tecnología 
 Destilados 
 Suplementos 
@@ -18,3 +18,7 @@ Suplementos
 ###  grabación de anuncio
  Investigar y  Aplicar  fórmulas de viralidad 
 
+## Paso 5 creación de landing page 
+Investigar como hacer la page Más vendible y luego automatizar para produccion
+## segmentación y presupuesto
+Investigar como segmentar 
