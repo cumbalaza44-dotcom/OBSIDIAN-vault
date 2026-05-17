@@ -14,6 +14,7 @@
 ## métodos de operación 
 - señal 
 - Cobertura 
+- Cerrar 
 ## arquitectura 
 graph TD
     subgraph "Usuario"
@@ -53,5 +54,3 @@ U
 ## plan de desarrollo 
 Que formas de construcción nos permiten un desarrollo de más herramientas para el usuario 
 ## lógica de operación 
-Falsos cruces 
-Y scalping 
