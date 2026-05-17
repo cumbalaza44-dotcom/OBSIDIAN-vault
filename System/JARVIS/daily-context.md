@@ -1,6 +1,6 @@
 # 📋 Contexto Diario — 17/05/2026
 
-> 📊 **38** notas — **14** carpetas — **1** pendientes hoy
+> 📊 **40** notas — **15** carpetas — **1** pendientes hoy
 
 ## 🏋️ Tareas de hoy
 
@@ -15,6 +15,10 @@
 │   │   │   ├── DOCUMENTACION_TECNICA.md
 │   │   │   └── README.md
 │   │   └── Evolución MT5.md
+│   ├── 📁 EMPRESA TECNOLÓGICA/
+│   │   ├── ESTAPA 1.md
+│   │   ├── Invocación en cada paso.md
+│   │   └── META ADS.md
 │   ├── 📁 Finanzas y proyectos/
 │   │   ├── Búsqueda de plataformas para estrategias de ahorro.md
 │   │   ├── Conocimientos financieros.md
@@ -62,15 +66,14 @@
 │   ├── 2026-05-11.md
 │   ├── 2026-05-13.md
 │   └── README.md
-├── ESTAPA 1.md
 └── Notas somos.md
 
 ## 🆕 Modificados recientemente
-- ESTAPA 1.md — *2026-05-17*
+- FINANZAS Y PROYECTOS/EMPRESA TECNOLÓGICA/META ADS.md — *2026-05-17*
+- FINANZAS Y PROYECTOS/EMPRESA TECNOLÓGICA/ESTAPA 1.md — *2026-05-17*
+- FINANZAS Y PROYECTOS/EMPRESA TECNOLÓGICA/Invocación en cada paso.md — *2026-05-17*
 - FINANZAS Y PROYECTOS/Bot mt5/Evolución MT5.md — *2026-05-16*
 - Notas somos.md — *2026-05-16*
-- System/configObsidian/Flujo de sincronización.md — *2026-05-16*
-- System/Copia data claw/Instrucción agente.md — *2026-05-16*
 
 ---
-*Generado: 17/05/2026 06:55 — Script Templater*
+*Generado: 17/05/2026 08:58 — Script Templater*
