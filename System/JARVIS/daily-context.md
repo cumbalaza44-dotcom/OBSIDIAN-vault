@@ -1,23 +1,19 @@
-# 📋 Contexto Diario — 16/05/2026
+# 📋 Contexto Diario — 17/05/2026
 
-> 📊 **37** notas — **14** carpetas — **3** pendientes hoy
+> 📊 **38** notas — **14** carpetas — **1** pendientes hoy
 
 ## 🏋️ Tareas de hoy
 
 ### ⏳ Pendientes
-- [ ] Estudiar migración de trading assistant📅 2026-05-16  — *FINANZAS Y PROYECTOS/Bot mt5/Evolución MT5.md*
-- [ ] Terminar migración manual recordatorios 📅 2026-05-16 ⏫  — *HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/Objetivo Personal corto.md*
-- [ ] 📅 2026-05-16 — Crear lista de trabajo y mejoras moto  — *HOGAR/Mantenimiento moto/Mantenimiento Moto.md*
-
-### ✅ Completadas
-- [x] Recordatorio de prueba 📅 2026-05-16 ✅ 2026-05-16  — *FINANZAS Y PROYECTOS/Bot mt5/Evolución MT5.md*
-- [x] 🔼 📅 2026-05-16 ✅ 2026-05-16  — *FINANZAS Y PROYECTOS/Bot mt5/Evolución MT5.md*
-- [x] Recordatorio prueba ajuste final ⏫ 📅 2026-05-16 ✅ 2026-05-16  — *Notas somos.md*
+- [ ] Ciclo de trabajo🔁 every day 📅 2026-05-17  — *FINANZAS Y PROYECTOS/Bot mt5/Evolución MT5.md*
 
 ## 📁 Estructura del vault
 
 ├── 📁 FINANZAS Y PROYECTOS/
 │   ├── 📁 Bot mt5/
+│   │   ├── 📁 assistentLLM-master/
+│   │   │   ├── DOCUMENTACION_TECNICA.md
+│   │   │   └── README.md
 │   │   └── Evolución MT5.md
 │   ├── 📁 Finanzas y proyectos/
 │   │   ├── Búsqueda de plataformas para estrategias de ahorro.md
@@ -49,10 +45,6 @@
 │   │   └── Mantenimiento Moto.md
 │   └── 📁 Mantenimiento y mejoras hogar/
 │       └── Mantenimiento y mejoras hogar.md
-├── 📁 Prueba/
-│   └── 📁 assistentLLM-master/
-│       ├── DOCUMENTACION_TECNICA.md
-│       └── README.md
 ├── 📁 System/
 │   ├── 📁 Copia data claw/
 │   │   └── Instrucción agente.md
@@ -70,14 +62,15 @@
 │   ├── 2026-05-11.md
 │   ├── 2026-05-13.md
 │   └── README.md
+├── ESTAPA 1.md
 └── Notas somos.md
 
 ## 🆕 Modificados recientemente
+- ESTAPA 1.md — *2026-05-17*
 - FINANZAS Y PROYECTOS/Bot mt5/Evolución MT5.md — *2026-05-16*
 - Notas somos.md — *2026-05-16*
 - System/configObsidian/Flujo de sincronización.md — *2026-05-16*
 - System/Copia data claw/Instrucción agente.md — *2026-05-16*
-- HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/Objetivo Personal corto.md — *2026-05-16*
 
 ---
-*Generado: 16/05/2026 10:05 — Script Templater*
+*Generado: 17/05/2026 06:55 — Script Templater*
