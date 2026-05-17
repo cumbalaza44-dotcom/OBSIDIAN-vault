@@ -6,5 +6,10 @@
 
 - [ ] Investigar campaña de meta ads 
 
-## objetivo estratégicos 
+## estrategias de marketing y objetivos 
+Pilar de marketing verse como marca de industrial de inovacion optimización y sofisticación 
+
+- ventande productos globalizados 
+
+
 
