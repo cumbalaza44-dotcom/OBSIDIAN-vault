@@ -1,1 +1,12 @@
-## paso a paso de preparación de ca
+## paso a paso de preparación de campaña ADS
+### paso 1 búsqueda de producto
+Productos que se puedan re vender o crear Definir  características que hacen un buen producto
+Crear contenido respaldo 
+Ideas de productos 
+: ropa deportiva
+Licras deportivas 
+Productos dollar city 
+Productos tecnología 
+Destilados 
+Suplementos 
+#### de servicio 
