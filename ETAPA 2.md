@@ -6,5 +6,9 @@ Presencia en redes sociales
 Venta 
 Interacción 
 ### formatos 
+Plasmar aquí formatos de contenido
+Tomas de productos 
+Broll
+Modelo con producto
 
 ## pilares y tipos de contenido 
