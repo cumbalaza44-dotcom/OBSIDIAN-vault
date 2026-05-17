@@ -53,4 +53,3 @@ U
 
 ## plan de desarrollo 
 Que formas de construcción nos permiten un desarrollo de más herramientas para el usuario 
-## lógica de operación 
