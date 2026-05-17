@@ -5,3 +5,6 @@
 - [ ] Curso de Shopify y e comerce
 
 - [ ] Investigar campaña de meta ads 
+
+## objetivo estratégicos 
+
