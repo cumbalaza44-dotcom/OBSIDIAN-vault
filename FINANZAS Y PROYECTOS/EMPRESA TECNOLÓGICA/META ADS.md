@@ -9,4 +9,11 @@ Productos dollar city
 Productos tecnología 
 Destilados 
 Suplementos 
-#### de servicio 
+#### ofrecer servicio, intermediar servicio
+
+## Paso 2 :crear un plan de marketing 1 página
+
+## Paso 3 creación de contenido ( mensaje)
+- [ ] Aprender storytelling de venta 
+
+
