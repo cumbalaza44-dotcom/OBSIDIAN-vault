@@ -11,6 +11,12 @@ Pilar de marketing verse como marca de industrial de inovacion optimización y s
 
 - ventande productos globalizados 
 
+## lista de proveedores 
+Dropi 
+Elenas
+(proveedores chinos )
+Productos de almacenes locales 
+
 
 
 
