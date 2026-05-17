@@ -40,16 +40,16 @@ Cliente WebSocket → API Gateway (FastAPI) → Orchestrator → LLM Service (Ge
 
 ### Lo que está sobreingenierizado o frágil
 
-| Problema | Severidad | Detalle |
-|----------|-----------|---------|
-| **Gemini como LLM único** | 🔴 Alto | Acoplado a Google Generative AI. Sin soporte para otros proveedores. `llm_service.py` no tiene abstracción de provider. |
-| **MT5 dependency** | 🔴 Alto | Todo el sistema depende de `MetaTrader5` que solo corre en Windows. `mt5_bridge.py` tiene modo simulado, pero no es realista para backtesting serio. |
-| **Gemini tool format** | 🟡 Medio | Las tools se definen en formato Google AI (Gemini), no en desuso), no en formato OpenAI/OpenClaw estándar. El `_process_response` parsea `function_call` manualmente. |
-| **Orquestador monolítico** | 🟡 Medio | `orchestrator.py` tiene demasiada lógica: routing de tools, manejo de errores, retries, compensators, métricas. ~400 líneas de responsabilidades mezcladas. |
-| **Doble implementación de tools** | 🟡 Medio | Algunas tools existen tanto en `app/tools/` (registradas vía decorador) como en `orchestrator.py` (hardcoded en `_execute_single_tool`). Duplicación. |
-| **Strategy Engine poco realista** | 🟡 Medio | `run_tick_evaluation()` duerme 60 segundos. No es tick real. El backtester es placeholder (profit_factor siempre 0.0). |
-| **Dependencias pesadas** | 🟢 Bajo | 21 dependencias incluyendo Numba, Polars, Prometheus, Redis, Gemini. Muchas no se usan en modo simulación. |
-| **Código muerto** | 🟢 Bajo | `app/api/gateway.py` tiene su propio `__main__` que nunca se ejecuta. La app se monta desde `main.py` pero gateway también crea su propia app FastAPI. |
+| Problema                          | Severidad | Detalle                                                                                                                                                               |
+| --------------------------------- | --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Gemini como LLM único**         | 🔴 Alto   | Acoplado a Google Generative AI. Sin soporte para otros proveedores. `llm_service.py` no tiene abstracción de provider.                                               |
+| **MT5 dependency**                | 🔴 Alto   | Todo el sistema depende de `MetaTrader5` que solo corre en Windows. `mt5_bridge.py` tiene modo simulado, pero no es realista para backtesting serio.                  |
+| **Gemini tool format**            | 🟡 Medio  | Las tools se definen en formato Google AI (Gemini), no en desuso), no en formato OpenAI/OpenClaw estándar. El `_process_response` parsea `function_call` manualmente. |
+| **Orquestador monolítico**        | 🟡 Medio  | `orchestrator.py` tiene demasiada lógica: routing de tools, manejo de errores, retries, compensators, métricas. ~400 líneas de responsabilidades mezcladas.           |
+| **Doble implementación de tools** | 🟡 Medio  | Algunas tools existen tanto en `app/tools/` (registradas vía decorador) como en `orchestrator.py` (hardcoded en `_execute_single_tool`). Duplicación.                 |
+| **Strategy Engine poco realista** | 🟡 Medio  | `run_tick_evaluation()` duerme 60 segundos. No es tick real. El backtester es placeholder (profit_factor siempre 0.0).                                                |
+| **Dependencias pesadas**          | 🟢 Bajo   | 21 dependencias incluyendo Numba, Polars, Prometheus, Redis, Gemini. Muchas no se usan en modo simulación.                                                            |
+| **Código muerto**                 | 🟢 Bajo   | `app/api/gateway.py` tiene su propio `__main__` que nunca se ejecuta. La app se monta desde `main.py` pero gateway también crea su propia app FastAPI.                |
 
 ---
 
