@@ -20,4 +20,5 @@ Martes jueves
 100 parrilas
 - [x] 100 sueches 
 
-- [x] Recordatorio prueba ajuste final ⏫ 📅 2026-05-16 ✅ 2026-05-16
+
+- [ ] Charla de sentimiento con Jarvis📅 2026-05-17 

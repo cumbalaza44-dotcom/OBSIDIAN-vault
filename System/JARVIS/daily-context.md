@@ -1,11 +1,12 @@
 # 📋 Contexto Diario — 17/05/2026
 
-> 📊 **43** notas — **15** carpetas — **1** pendientes hoy
+> 📊 **45** notas — **15** carpetas — **2** pendientes hoy
 
 ## 🏋️ Tareas de hoy
 
 ### ⏳ Pendientes
 - [ ] Ciclo de trabajo🔁 every day 📅 2026-05-17  — *FINANZAS Y PROYECTOS/Bot mt5/Evolución MT5.md*
+- [ ] Charla de sentimiento con Jarvis📅 2026-05-17  — *Notas somos.md*
 
 ## 📁 Estructura del vault
 
@@ -19,6 +20,7 @@
 │   │   └── Evolución MT5.md
 │   ├── 📁 EMPRESA TECNOLÓGICA/
 │   │   ├── ESTAPA 1.md
+│   │   ├── ETAPA 2.md
 │   │   ├── Invocación en cada paso.md
 │   │   └── META ADS.md
 │   ├── 📁 Finanzas y proyectos/
@@ -67,16 +69,17 @@
 │   ├── 2026-05-10.md
 │   ├── 2026-05-11.md
 │   ├── 2026-05-13.md
+│   ├── 2026-05-16.md
+│   ├── 2026-05-17.md
 │   └── README.md
-├── ETAPA 2.md
 └── Notas somos.md
 
 ## 🆕 Modificados recientemente
+- Notas somos.md — *2026-05-17*
+- registro de progreso diario/2026-05-16.md — *2026-05-17*
+- registro de progreso diario/2026-05-17.md — *2026-05-17*
 - FINANZAS Y PROYECTOS/Bot mt5/Arquitectura Ghost Trader.md — *2026-05-17*
 - FINANZAS Y PROYECTOS/Bot mt5/Análisis assistentLLM.md — *2026-05-17*
-- ETAPA 2.md — *2026-05-17*
-- FINANZAS Y PROYECTOS/EMPRESA TECNOLÓGICA/ESTAPA 1.md — *2026-05-17*
-- FINANZAS Y PROYECTOS/EMPRESA TECNOLÓGICA/META ADS.md — *2026-05-17*
 
 ---
-*Generado: 17/05/2026 19:34 — Script Templater*
+*Generado: 17/05/2026 22:43 — Script Templater*
