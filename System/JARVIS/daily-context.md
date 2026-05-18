@@ -1,6 +1,6 @@
 # 📋 Contexto Diario — 18/05/2026
 
-> 📊 **45** notas — **15** carpetas — **0** pendientes hoy
+> 📊 **46** notas — **16** carpetas — **0** pendientes hoy
 
 ## 🏋️ Tareas de hoy
 
@@ -51,6 +51,8 @@
 │   │   └── Mantenimiento Moto.md
 │   └── 📁 Mantenimiento y mejoras hogar/
 │       └── Mantenimiento y mejoras hogar.md
+├── 📁 HOY EN PERSONA/
+│   └── Actividades de entorno.md
 ├── 📁 System/
 │   ├── 📁 Copia data claw/
 │   │   └── Instrucción agente.md
@@ -73,11 +75,11 @@
 └── Notas somos.md
 
 ## 🆕 Modificados recientemente
+- HOY EN PERSONA/Actividades de entorno.md — *2026-05-18*
 - Notas somos.md — *2026-05-17*
 - registro de progreso diario/2026-05-16.md — *2026-05-17*
 - registro de progreso diario/2026-05-17.md — *2026-05-17*
 - FINANZAS Y PROYECTOS/Bot mt5/Arquitectura Ghost Trader.md — *2026-05-17*
-- FINANZAS Y PROYECTOS/Bot mt5/Análisis assistentLLM.md — *2026-05-17*
 
 ---
-*Generado: 18/05/2026 10:45 — Script Templater*
+*Generado: 18/05/2026 10:55 — Script Templater*
