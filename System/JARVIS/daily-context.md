@@ -1,6 +1,6 @@
 # 📋 Contexto Diario — 17/05/2026
 
-> 📊 **42** notas — **15** carpetas — **1** pendientes hoy
+> 📊 **43** notas — **15** carpetas — **1** pendientes hoy
 
 ## 🏋️ Tareas de hoy
 
@@ -15,6 +15,7 @@
 │   │   │   ├── DOCUMENTACION_TECNICA.md
 │   │   │   └── README.md
 │   │   ├── Análisis assistentLLM.md
+│   │   ├── Arquitectura Ghost Trader.md
 │   │   └── Evolución MT5.md
 │   ├── 📁 EMPRESA TECNOLÓGICA/
 │   │   ├── ESTAPA 1.md
@@ -71,11 +72,11 @@
 └── Notas somos.md
 
 ## 🆕 Modificados recientemente
+- FINANZAS Y PROYECTOS/Bot mt5/Arquitectura Ghost Trader.md — *2026-05-17*
 - FINANZAS Y PROYECTOS/Bot mt5/Análisis assistentLLM.md — *2026-05-17*
 - ETAPA 2.md — *2026-05-17*
 - FINANZAS Y PROYECTOS/EMPRESA TECNOLÓGICA/ESTAPA 1.md — *2026-05-17*
 - FINANZAS Y PROYECTOS/EMPRESA TECNOLÓGICA/META ADS.md — *2026-05-17*
-- FINANZAS Y PROYECTOS/EMPRESA TECNOLÓGICA/Invocación en cada paso.md — *2026-05-17*
 
 ---
-*Generado: 17/05/2026 09:54 — Script Templater*
+*Generado: 17/05/2026 19:18 — Script Templater*
