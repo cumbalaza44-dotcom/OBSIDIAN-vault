@@ -90,4 +90,4 @@
 - Notas somos.md — *2026-05-17*
 
 ---
-*Generado: 18/05/2026 13:51 — Script Templater*
+*Generado: 18/05/2026 13:53 — Script Templater*
