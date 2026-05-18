@@ -1,13 +1,15 @@
 # 📋 Contexto Diario — 18/05/2026
 
-> 📊 **46** notas — **16** carpetas — **3** pendientes hoy
+> 📊 **46** notas — **16** carpetas — **2** pendientes hoy
 
 ## 🏋️ Tareas de hoy
 
 ### ⏳ Pendientes
-- [ ] Organizar y limpiar habitación 🧹 📅 2026-05-18  — *HOY EN PERSONA/Actividades de entorno.md*
 - [ ] Revisión y limpieza moto 🏍️ 📅 2026-05-18  — *HOY EN PERSONA/Actividades de entorno.md*
 - [ ] Preparación de entorno OpenCode en PC local 💻 📅 2026-05-18  — *HOY EN PERSONA/Actividades de entorno.md*
+
+### ✅ Completadas
+- [x] Organizar y limpiar habitación 🧹 📅 2026-05-18 ✅ 2026-05-18  — *HOY EN PERSONA/Actividades de entorno.md*
 
 ## 📁 Estructura del vault
 
@@ -85,4 +87,4 @@
 - FINANZAS Y PROYECTOS/Bot mt5/Arquitectura Ghost Trader.md — *2026-05-17*
 
 ---
-*Generado: 18/05/2026 11:02 — Script Templater*
+*Generado: 18/05/2026 11:44 — Script Templater*
