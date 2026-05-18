@@ -133,13 +133,13 @@ Este es el camino que recorre CADA tick que entra al sistema:
 
 ### Resumen del pipeline de datos (por tick):
 
-| Etapa | Entrada | Procesamiento | Salida | Costo temporal |
-|-------|---------|---------------|--------|----------------|
-| **Connector** | JSON de Deriv | Parseo + validación | `TickEvent` | < 1ms |
-| **Data Engine** | `TickEvent` | Polars batch calc | `IndicatorSnapshot` | ~5ms |
-| **Strategy** | `IndicatorSnapshot` | Evaluación de reglas | `OrderSignal` o nada | < 1ms |
-| **Risk Engine** | `OrderSignal` | 5 reglas de seguridad | `ApprovedOrderSignal` o rechazo | < 1ms |
-| **Connector (out)** | `ApprovedOrderSignal` | JSON-RPC a Deriv | Confirmation | ~50ms (red) |
+| Etapa               | Entrada               | Procesamiento         | Salida                          | Costo temporal |
+| ------------------- | --------------------- | --------------------- | ------------------------------- | -------------- |
+| **Connector**       | JSON de Deriv         | Parseo + validación   | `TickEvent`                     | < 1ms          |
+| **Data Engine**     | `TickEvent`           | Polars batch calc     | `IndicatorSnapshot`             | ~5ms           |
+| **Strategy**        | `IndicatorSnapshot`   | Evaluación de reglas  | `OrderSignal` o nada            | < 1ms          |
+| **Risk Engine**     | `OrderSignal`         | 5 reglas de seguridad | `ApprovedOrderSignal` o rechazo | < 1ms          |
+| **Connector (out)** | `ApprovedOrderSignal` | JSON-RPC a Deriv      | Confirmation                    | ~50ms (red)    |
 
 **Total latencia tick → orden:** ~60ms en condiciones normales.
 
