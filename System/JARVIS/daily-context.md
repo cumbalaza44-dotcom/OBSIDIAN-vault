@@ -1,6 +1,6 @@
 # 📋 Contexto Diario — 18/05/2026
 
-> 📊 **46** notas — **16** carpetas — **2** pendientes hoy
+> 📊 **48** notas — **17** carpetas — **2** pendientes hoy
 
 ## 🏋️ Tareas de hoy
 
@@ -20,7 +20,8 @@
 │   │   │   └── README.md
 │   │   ├── Análisis assistentLLM.md
 │   │   ├── Arquitectura Ghost Trader.md
-│   │   └── Evolución MT5.md
+│   │   ├── Evolución MT5.md
+│   │   └── 🌀 Ghost Trader — Flujo de Datos (Arquitectura Limpia).md
 │   ├── 📁 EMPRESA TECNOLÓGICA/
 │   │   ├── ESTAPA 1.md
 │   │   ├── ETAPA 2.md
@@ -58,6 +59,8 @@
 │       └── Mantenimiento y mejoras hogar.md
 ├── 📁 HOY EN PERSONA/
 │   └── Actividades de entorno.md
+├── 📁 RECORDATORIOS/
+│   └── 2026-05-19 — Alcohol isopropilico.md
 ├── 📁 System/
 │   ├── 📁 Copia data claw/
 │   │   └── Instrucción agente.md
@@ -80,11 +83,11 @@
 └── Notas somos.md
 
 ## 🆕 Modificados recientemente
+- HOGAR/Mantenimiento moto/Mantenimiento Moto.md — *2026-05-18*
+- RECORDATORIOS/2026-05-19 — Alcohol isopropilico.md — *2026-05-18*
+- FINANZAS Y PROYECTOS/Bot mt5/🌀 Ghost Trader — Flujo de Datos (Arquitectura Limpia).md — *2026-05-18*
 - HOY EN PERSONA/Actividades de entorno.md — *2026-05-18*
 - Notas somos.md — *2026-05-17*
-- registro de progreso diario/2026-05-16.md — *2026-05-17*
-- registro de progreso diario/2026-05-17.md — *2026-05-17*
-- FINANZAS Y PROYECTOS/Bot mt5/Arquitectura Ghost Trader.md — *2026-05-17*
 
 ---
-*Generado: 18/05/2026 11:44 — Script Templater*
+*Generado: 18/05/2026 13:51 — Script Templater*
