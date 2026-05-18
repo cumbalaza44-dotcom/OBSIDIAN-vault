@@ -80,4 +80,4 @@
 - FINANZAS Y PROYECTOS/Bot mt5/Análisis assistentLLM.md — *2026-05-17*
 
 ---
-*Generado: 18/05/2026 09:15 — Script Templater*
+*Generado: 18/05/2026 10:45 — Script Templater*
