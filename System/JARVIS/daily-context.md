@@ -1,15 +1,15 @@
 # 📋 Contexto Diario — 18/05/2026
 
-> 📊 **48** notas — **17** carpetas — **2** pendientes hoy
+> 📊 **48** notas — **17** carpetas — **1** pendientes hoy
 
 ## 🏋️ Tareas de hoy
 
 ### ⏳ Pendientes
-- [ ] Revisión y limpieza moto 🏍️ 📅 2026-05-18  — *HOY EN PERSONA/Actividades de entorno.md*
 - [ ] Preparación de entorno OpenCode en PC local 💻 📅 2026-05-18  — *HOY EN PERSONA/Actividades de entorno.md*
 
 ### ✅ Completadas
 - [x] Organizar y limpiar habitación 🧹 📅 2026-05-18 ✅ 2026-05-18  — *HOY EN PERSONA/Actividades de entorno.md*
+- [x] Revisión y limpieza moto 🏍️ 📅 2026-05-18 ✅ 2026-05-18  — *HOY EN PERSONA/Actividades de entorno.md*
 
 ## 📁 Estructura del vault
 
@@ -83,11 +83,11 @@
 └── Notas somos.md
 
 ## 🆕 Modificados recientemente
+- HOY EN PERSONA/Actividades de entorno.md — *2026-05-18*
 - HOGAR/Mantenimiento moto/Mantenimiento Moto.md — *2026-05-18*
 - RECORDATORIOS/2026-05-19 — Alcohol isopropilico.md — *2026-05-18*
 - FINANZAS Y PROYECTOS/Bot mt5/🌀 Ghost Trader — Flujo de Datos (Arquitectura Limpia).md — *2026-05-18*
-- HOY EN PERSONA/Actividades de entorno.md — *2026-05-18*
 - Notas somos.md — *2026-05-17*
 
 ---
-*Generado: 18/05/2026 13:53 — Script Templater*
+*Generado: 18/05/2026 19:08 — Script Templater*
