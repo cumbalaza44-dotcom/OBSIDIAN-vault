@@ -1,6 +1,6 @@
 # 📋 Contexto Diario — 18/05/2026
 
-> 📊 **48** notas — **17** carpetas — **1** pendientes hoy
+> 📊 **51** notas — **17** carpetas — **1** pendientes hoy
 
 ## 🏋️ Tareas de hoy
 
@@ -63,7 +63,10 @@
 │   └── 2026-05-19 — Alcohol isopropilico.md
 ├── 📁 System/
 │   ├── 📁 Copia data claw/
-│   │   └── Instrucción agente.md
+│   │   ├── Instrucción agente.md
+│   │   ├── MEMORY.md
+│   │   ├── SOUL.md
+│   │   └── USER.md
 │   └── 📁 configObsidian/
 │       ├── Flujo de sincronización.md
 │       └── _INFRA-RESTORE.md
@@ -83,11 +86,11 @@
 └── Notas somos.md
 
 ## 🆕 Modificados recientemente
+- System/Copia data claw/MEMORY.md — *2026-05-18*
+- System/Copia data claw/USER.md — *2026-05-18*
+- System/Copia data claw/SOUL.md — *2026-05-18*
 - HOY EN PERSONA/Actividades de entorno.md — *2026-05-18*
 - HOGAR/Mantenimiento moto/Mantenimiento Moto.md — *2026-05-18*
-- RECORDATORIOS/2026-05-19 — Alcohol isopropilico.md — *2026-05-18*
-- FINANZAS Y PROYECTOS/Bot mt5/🌀 Ghost Trader — Flujo de Datos (Arquitectura Limpia).md — *2026-05-18*
-- Notas somos.md — *2026-05-17*
 
 ---
-*Generado: 18/05/2026 19:08 — Script Templater*
+*Generado: 18/05/2026 22:28 — Script Templater*
