@@ -5,9 +5,10 @@
 ## 🏋️ Tareas de hoy
 
 ### ⏳ Pendientes
-- [ ] Preparación de entorno OpenCode en PC local 💻 📅 2026-05-18  — *HOY EN PERSONA/Actividades de entorno.md*
+_No hay tareas pendientes del día anterior._
 
 ### ✅ Completadas
+- [x] Preparación de entorno OpenCode en PC local 💻 📅 2026-05-18 ✅ 2026-05-19  — *HOY EN PERSONA/Actividades de entorno.md*
 - [x] Organizar y limpiar habitación 🧹 📅 2026-05-18 ✅ 2026-05-18  — *HOY EN PERSONA/Actividades de entorno.md*
 - [x] Revisión y limpieza moto 🏍️ 📅 2026-05-18 ✅ 2026-05-18  — *HOY EN PERSONA/Actividades de entorno.md*
 
