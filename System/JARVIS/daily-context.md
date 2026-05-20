@@ -1,16 +1,10 @@
-# 📋 Contexto Diario — 18/05/2026
+# 📋 Contexto Diario — 20/05/2026
 
-> 📊 **51** notas — **17** carpetas — **1** pendientes hoy
+> 📊 **53** notas — **17** carpetas — **0** pendientes hoy
 
 ## 🏋️ Tareas de hoy
 
-### ⏳ Pendientes
-_No hay tareas pendientes del día anterior._
-
-### ✅ Completadas
-- [x] Preparación de entorno OpenCode en PC local 💻 📅 2026-05-18 ✅ 2026-05-19  — *HOY EN PERSONA/Actividades de entorno.md*
-- [x] Organizar y limpiar habitación 🧹 📅 2026-05-18 ✅ 2026-05-18  — *HOY EN PERSONA/Actividades de entorno.md*
-- [x] Revisión y limpieza moto 🏍️ 📅 2026-05-18 ✅ 2026-05-18  — *HOY EN PERSONA/Actividades de entorno.md*
+*Sin tareas programadas para hoy.* 🎯
 
 ## 📁 Estructura del vault
 
@@ -64,6 +58,7 @@ _No hay tareas pendientes del día anterior._
 │   └── 2026-05-19 — Alcohol isopropilico.md
 ├── 📁 System/
 │   ├── 📁 Copia data claw/
+│   │   ├── AGENTS.md
 │   │   ├── Instrucción agente.md
 │   │   ├── MEMORY.md
 │   │   ├── SOUL.md
@@ -83,15 +78,16 @@ _No hay tareas pendientes del día anterior._
 │   ├── 2026-05-13.md
 │   ├── 2026-05-16.md
 │   ├── 2026-05-17.md
+│   ├── 2026-05-19.md
 │   └── README.md
 └── Notas somos.md
 
 ## 🆕 Modificados recientemente
-- System/Copia data claw/MEMORY.md — *2026-05-18*
-- System/Copia data claw/USER.md — *2026-05-18*
+- registro de progreso diario/2026-05-19.md — *2026-05-20*
+- Notas somos.md — *2026-05-19*
+- HOY EN PERSONA/Actividades de entorno.md — *2026-05-19*
+- System/Copia data claw/AGENTS.md — *2026-05-18*
 - System/Copia data claw/SOUL.md — *2026-05-18*
-- HOY EN PERSONA/Actividades de entorno.md — *2026-05-18*
-- HOGAR/Mantenimiento moto/Mantenimiento Moto.md — *2026-05-18*
 
 ---
-*Generado: 18/05/2026 22:28 — Script Templater*
+*Generado: 20/05/2026 06:31 — Script Templater*
