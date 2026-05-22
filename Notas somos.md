@@ -21,7 +21,7 @@ Martes jueves
 - [x] 100 sueches 
 
 
-- [ ] Charla de sentimiento con Jarvis📅 2026-05-17 
+- [x] Charla de sentimiento con Jarvis 📅 2026-05-17 ✅ 2026-05-22
 
 | Aspecto                                 | Inline                                 | Skill                                      |
 | --------------------------------------- | -------------------------------------- | ------------------------------------------ |
