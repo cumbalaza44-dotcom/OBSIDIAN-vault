@@ -1,11 +1,10 @@
-# 📋 Contexto Diario — 20/05/2026
+# 📋 Contexto Diario — 22/05/2026
 
-> 📊 **53** notas — **17** carpetas — **1** pendientes hoy
+> 📊 **55** notas — **18** carpetas — **0** pendientes hoy
 
 ## 🏋️ Tareas de hoy
 
-### ⏳ Pendientes
-- [ ] Crear rutina de entrenamiento para 5 días 📅 2026-05-20  — *HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/GYM.md*
+*Sin tareas programadas para hoy.* 🎯
 
 ## 📁 Estructura del vault
 
@@ -55,6 +54,9 @@
 │       └── Mantenimiento y mejoras hogar.md
 ├── 📁 HOY EN PERSONA/
 │   └── Actividades de entorno.md
+├── 📁 Intereses/
+│   ├── Carburador Moto 150cc OHV.md
+│   └── Cómo funciona un carburador 150cc OHV.md
 ├── 📁 RECORDATORIOS/
 │   └── 2026-05-19 — Alcohol isopropilico.md
 ├── 📁 System/
@@ -84,11 +86,11 @@
 └── Notas somos.md
 
 ## 🆕 Modificados recientemente
+- Notas somos.md — *2026-05-21*
+- Intereses/Cómo funciona un carburador 150cc OHV.md — *2026-05-21*
+- Intereses/Carburador Moto 150cc OHV.md — *2026-05-21*
 - HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/GYM.md — *2026-05-20*
 - registro de progreso diario/2026-05-19.md — *2026-05-20*
-- Notas somos.md — *2026-05-19*
-- HOY EN PERSONA/Actividades de entorno.md — *2026-05-19*
-- System/Copia data claw/AGENTS.md — *2026-05-18*
 
 ---
-*Generado: 20/05/2026 13:37 — Script Templater*
+*Generado: 22/05/2026 10:34 — Script Templater*
