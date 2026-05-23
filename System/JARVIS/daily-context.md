@@ -9,7 +9,7 @@
 ## ⚠️ Tareas atrasadas
 
 - [ ] ## 📅 2026-05-22 — Balancear ingresos (7:00 PM)  — *FINANZAS Y PROYECTOS/Finanzas y proyectos/Recordatorios.md* *(📅 2026-05-22)*
-- [ ] Ciclo de trabajo 🔁 every day 📅 2026-05-20  — *FINANZAS Y PROYECTOS/Bot mt5/Evolución MT5.md* *(📅 2026-05-20)*
+- [ ] Ciclo de trabajo 🔁 every day 📅 2026-05-21  — *FINANZAS Y PROYECTOS/Bot mt5/Evolución MT5.md* *(📅 2026-05-21)*
 - [ ] Revisar cursos de aprendizaje interactivo de programación 📅 2026-05-15 ⏰ 07:00  — *HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Habilidades y conocimientos ( intereses).md* *(📅 2026-05-15)*
 - [ ] 📅 2026-05-16 — Crear lista de trabajo y mejoras moto  — *HOGAR/Mantenimiento moto/Mantenimiento Moto.md* *(📅 2026-05-16)*
 - [ ] 📅 2026-05-19 09:00 — Buscar alcohol isopropílico para limpiar  — *HOGAR/Mantenimiento moto/Mantenimiento Moto.md* *(📅 2026-05-19)*
@@ -92,11 +92,11 @@
 └── Notas somos.md
 
 ## 🆕 Modificados recientemente
+- FINANZAS Y PROYECTOS/Bot mt5/Evolución MT5.md — *2026-05-23*
+- registro de progreso diario/2026-05-08.md — *2026-05-23*
+- registro de progreso diario/2026-05-13.md — *2026-05-23*
 - HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/Objetivo Personal corto.md — *2026-05-23*
 - HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/GYM.md — *2026-05-23*
-- FINANZAS Y PROYECTOS/Bot mt5/Evolución MT5.md — *2026-05-23*
-- FINANZAS Y PROYECTOS/Finanzas y proyectos/Recordatorios.md — *2026-05-22*
-- Notas somos.md — *2026-05-22*
 
 ---
-*Generado: 23/05/2026 11:31 — Script Templater*
+*Generado: 23/05/2026 11:36 — Script Templater*
