@@ -1,5 +1,6 @@
 ---
 created: 2026-05-12
+modified: 2026-05-23
 tags:
   - hoy
   - dashboard
@@ -7,20 +8,43 @@ tags:
   - dinamico
 ---
 
-# 📋 Hoy
+# 📋 Panóptico de Tareas
 
 > **🔄 Actualización automática** — Tasks + Dataview integrados.  
 > Abre esta nota en Obsidian y los datos se refrescan solos.
 
 ---
 
-## ⏳ Pendientes
+## ⚠️ Atrasadas (vencieron antes de hoy)
+
+```tasks
+due before today
+not done
+group by filename
+sort by due reverse
+```
+
+---
+
+## ⏳ Hoy
 
 ```tasks
 due today
 not done
 group by filename
 sort by priority
+```
+
+---
+
+## 🔮 Próximas (vencen en los próximos 7 días)
+
+```tasks
+due after today
+due before in 7 days
+not done
+group by filename
+sort by due
 ```
 
 ---
@@ -35,18 +59,32 @@ sort by done
 
 ---
 
-## 📊 Resumen rápido
+## 📦 Sin fecha
 
-```dataview
-TABLE 
-  length(rows) AS "Cantidad"
-FROM ""
-WHERE !contains(file.path, ".git/") AND !contains(file.path, "_VAULT-")
-FLATTEN file.tasks AS t
-WHERE t.due = date(today) AND !t.completed
-GROUP BY "Pendientes hoy"
+```tasks
+no due date
+not done
+group by filename
 ```
 
 ---
 
-*Dinámico vía Tasks + Dataview — Sin sincronización externa.*
+## 📊 Resumen
+
+```dataviewjs
+const pending = dv.pages("").file.tasks
+  .where(t => !t.completed && t.due);
+
+const today = new Date();
+today.setHours(0, 0, 0, 0);
+
+const overdue = pending.where(t => t.due?.ts && t.due.ts < today);
+const todayTasks = pending.where(t => t.due?.ts && t.due.ts === today);
+const upcoming = pending.where(t => t.due?.ts && t.due.ts > today && t.due.ts <= (today + 7*86400000));
+
+dv.paragraph(`> 🗂️ **${dv.pages("").length}** notas — ${overdue.length} atrasadas — ${todayTasks.length} hoy — ${upcoming.length} próximas — ${pending.where(t => !t.due).length} sin fecha`);
+```
+
+---
+
+*Panel dinámico vía Tasks + Dataview.*
