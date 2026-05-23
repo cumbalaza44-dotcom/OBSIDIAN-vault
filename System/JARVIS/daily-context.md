@@ -1,6 +1,6 @@
-# 📋 Contexto Diario — 22/05/2026
+# 📋 Contexto Diario — 23/05/2026
 
-> 📊 **54** notas — **16** carpetas — **0** pendientes hoy
+> 📊 **55** notas — **16** carpetas — **0** pendientes hoy
 
 ## 🏋️ Tareas de hoy
 
@@ -28,6 +28,7 @@
 │   │   ├── Costos fijos.md
 │   │   ├── Plan de Acción.md
 │   │   ├── Plan de negocios 300MCop.md
+│   │   ├── Recordatorios.md
 │   │   └── Semillas y trabajos automatizados.md
 │   ├── 📁 Ghost mode/
 │   │   └── identidad.md
@@ -83,11 +84,11 @@
 └── Notas somos.md
 
 ## 🆕 Modificados recientemente
+- FINANZAS Y PROYECTOS/Finanzas y proyectos/Recordatorios.md — *2026-05-22*
 - Notas somos.md — *2026-05-22*
 - HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Cómo funciona un carburador 150cc OHV.md — *2026-05-21*
 - HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Carburador Moto 150cc OHV.md — *2026-05-21*
 - HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/GYM.md — *2026-05-20*
-- registro de progreso diario/2026-05-19.md — *2026-05-20*
 
 ---
-*Generado: 22/05/2026 20:49 — Script Templater*
+*Generado: 23/05/2026 11:14 — Script Templater*
