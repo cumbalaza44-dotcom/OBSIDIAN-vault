@@ -4,7 +4,7 @@
 
 - [ ] Curso de Shopify y e comerce
 
-- [ ] Investigar campaña de meta ads 
+- [ ] Investigar campaña de meta ads
 
 ## estrategias de marketing y objetivos 
 Pilar de marketing verse como marca de industrial de inovacion optimización y sofisticación 

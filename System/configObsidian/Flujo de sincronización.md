@@ -93,7 +93,7 @@ Generado por Templater desde iOS. Contiene:
 
 ## 🏋️ Tareas de hoy
 ### ⏳ Pendientes
-- [ ] Crear rutina de ejercicio  — *GYM.md*
+- [ ] Crear rutina de ejercicio — *GYM.md*
 
 ## 📁 Estructura del vault
 ├── 📄 Hoy.md

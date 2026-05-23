@@ -18,7 +18,7 @@ Martes jueves
 
 - [x] 100 cajas ✅ 2026-05-13
 100 parrilas
-- [x] 100 sueches 
+- [x] 100 sueches
 
 
 - [x] Charla de sentimiento con Jarvis 📅 2026-05-17 ✅ 2026-05-22

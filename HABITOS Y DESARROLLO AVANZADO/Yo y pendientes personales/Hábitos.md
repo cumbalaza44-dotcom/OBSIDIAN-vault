@@ -1,2 +1,2 @@
-- [ ] Purgar teléfono de apps y videos 
-- [ ] Ciclo de habitos y pendientes 
+- [ ] Purgar teléfono de apps y videos
+- [ ] Ciclo de habitos y pendientes

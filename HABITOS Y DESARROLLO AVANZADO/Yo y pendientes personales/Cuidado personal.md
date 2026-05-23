@@ -8,8 +8,8 @@ Un estilo racer: (aventura, táctico, enfocado  a la seguridad )
 - Tactic Boy
 - Heroico accesorizado 
 ## tareas
-- [ ] Afeitarse 
-- [ ] Cortarse el cabello 
+- [ ] Afeitarse
+- [ ] Cortarse el cabello
 - [ ] Aumentar presupuesto alimentario personal
 - [ ] Balanceo de progreso y profundización de pilares a nucleos enfocados en ser vivir y hacer
 

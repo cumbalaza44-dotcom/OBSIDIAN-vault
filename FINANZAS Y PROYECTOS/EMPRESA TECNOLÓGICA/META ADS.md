@@ -13,7 +13,7 @@ Suplementos
 ## Paso 2 :crear un plan de marketing 1 página
 
 ## Paso 3 creación de contenido ( mensaje)
-- [ ] Aprender storytelling de venta 
+- [ ] Aprender storytelling de venta
 
 ###  grabación de anuncio
  Investigar y  Aplicar  fórmulas de viralidad 

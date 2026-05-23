@@ -1,9 +1,9 @@
-- [ ] Sartén 
-- [ ] organizar habitación 
-- [ ] ciclo de trabajo 
+- [ ] Sartén
+- [ ] organizar habitación
+- [ ] ciclo de trabajo
 - [ ] re diseño con la para plan de mejora
-- [ ] ilu de resultado acojedor 
-- [ ] lavar prendas 
-- [ ] organizar y limpiar hogar 
-- [ ] organización rápida d e hogar 
-- [ ] anotar mejoras de hogar 
+- [ ] ilu de resultado acojedor
+- [ ] lavar prendas
+- [ ] organizar y limpiar hogar
+- [ ] organización rápida d e hogar
+- [ ] anotar mejoras de hogar
