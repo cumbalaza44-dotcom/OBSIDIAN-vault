@@ -1,6 +1,6 @@
 # 📋 Contexto Diario — 23/05/2026
 
-> 📊 **55** notas — **16** carpetas — **0** pendientes hoy — **8** atrasadas
+> 📊 **55** notas — **16** carpetas — **0** pendientes hoy — **5** atrasadas
 
 ## 🏋️ Tareas de hoy
 
@@ -9,11 +9,8 @@
 ## ⚠️ Tareas atrasadas
 
 - [ ] ## 📅 2026-05-22 — Balancear ingresos (7:00 PM)  — *FINANZAS Y PROYECTOS/Finanzas y proyectos/Recordatorios.md* *(📅 2026-05-22)*
-- [ ] Ciclo de trabajo🔁 every day 📅 2026-05-17  — *FINANZAS Y PROYECTOS/Bot mt5/Evolución MT5.md* *(📅 2026-05-17)*
-- [ ] Crear rutina de entrenamiento para 5 días 📅 2026-05-20  — *HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/GYM.md* *(📅 2026-05-20)*
-- [ ] Estudiar migración de trading assistant📅 2026-05-16  — *FINANZAS Y PROYECTOS/Bot mt5/Evolución MT5.md* *(📅 2026-05-16)*
+- [ ] Ciclo de trabajo 🔁 every day 📅 2026-05-20  — *FINANZAS Y PROYECTOS/Bot mt5/Evolución MT5.md* *(📅 2026-05-20)*
 - [ ] Revisar cursos de aprendizaje interactivo de programación 📅 2026-05-15 ⏰ 07:00  — *HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Habilidades y conocimientos ( intereses).md* *(📅 2026-05-15)*
-- [ ] Terminar migración manual recordatorios 📅 2026-05-16 ⏫  — *HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/Objetivo Personal corto.md* *(📅 2026-05-16)*
 - [ ] 📅 2026-05-16 — Crear lista de trabajo y mejoras moto  — *HOGAR/Mantenimiento moto/Mantenimiento Moto.md* *(📅 2026-05-16)*
 - [ ] 📅 2026-05-19 09:00 — Buscar alcohol isopropílico para limpiar  — *HOGAR/Mantenimiento moto/Mantenimiento Moto.md* *(📅 2026-05-19)*
 
@@ -95,11 +92,11 @@
 └── Notas somos.md
 
 ## 🆕 Modificados recientemente
+- HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/Objetivo Personal corto.md — *2026-05-23*
+- HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/GYM.md — *2026-05-23*
+- FINANZAS Y PROYECTOS/Bot mt5/Evolución MT5.md — *2026-05-23*
 - FINANZAS Y PROYECTOS/Finanzas y proyectos/Recordatorios.md — *2026-05-22*
 - Notas somos.md — *2026-05-22*
-- HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Cómo funciona un carburador 150cc OHV.md — *2026-05-21*
-- HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Carburador Moto 150cc OHV.md — *2026-05-21*
-- HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/GYM.md — *2026-05-20*
 
 ---
-*Generado: 23/05/2026 11:24 — Script Templater*
+*Generado: 23/05/2026 11:31 — Script Templater*

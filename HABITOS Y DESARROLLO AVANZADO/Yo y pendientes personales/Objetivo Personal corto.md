@@ -1,1 +1,1 @@
-- [ ]  Terminar migración manual recordatorios 📅 2026-05-16 ⏫ 
+- [x] Terminar migración manual recordatorios ⏫ 📅 2026-05-16 ✅ 2026-05-23
