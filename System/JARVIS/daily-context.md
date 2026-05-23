@@ -13,7 +13,7 @@
 - [ ] Ciclo de trabajo 🔁 every day 📅 2026-05-20  — *_fit/FINANZAS Y PROYECTOS/Bot mt5/Evolución MT5.md* *(📅 2026-05-20)*
 - [ ] Ciclo de trabajo 🔁 every day 📅 2026-05-21  — *FINANZAS Y PROYECTOS/Bot mt5/Evolución MT5.md* *(📅 2026-05-21)*
 - [ ] Crear lista de trabajo y mejoras moto 📅 2026-05-16  — *HOGAR/Mantenimiento moto/Mantenimiento Moto.md* *(📅 2026-05-16)*
-- [ ] Revisar cursos de aprendizaje interactivo de programación 📅 2026-05-15 ⏰ 07:00  — *HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Habilidades y conocimientos ( intereses).md* *(📅 2026-05-15)*
+- [ ] Revisar cursos de aprendizaje interactivo de programación ⏰ 07:00 📅 2026-05-15  — *HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Habilidades y conocimientos ( intereses).md* *(📅 2026-05-15)*
 
 ## 📁 Estructura del vault
 
@@ -97,11 +97,11 @@
 └── Notas somos.md
 
 ## 🆕 Modificados recientemente
+- HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Habilidades y conocimientos ( intereses).md — *2026-05-23*
 - _fit/FINANZAS Y PROYECTOS/Bot mt5/Evolución MT5.md — *2026-05-23*
 - System/configObsidian/Flujo de sincronización.md — *2026-05-23*
 - Notas somos.md — *2026-05-23*
 - HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md — *2026-05-23*
-- HOGAR/Mantenimiento moto/Mantenimiento Moto.md — *2026-05-23*
 
 ---
-*Generado: 23/05/2026 11:52 — Script Templater*
+*Generado: 23/05/2026 11:56 — Script Templater*
