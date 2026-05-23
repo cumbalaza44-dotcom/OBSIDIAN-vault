@@ -8,7 +8,7 @@ purpose: Generate System/JARVIS/daily-context.md
 
 <%*
 // ── RECOLECTOR DE CONTEXTO DIARIO ──
-// Escanea todo el vault, recoge tareas del dia, estructura y modificados
+// Escanea todo el vault, recoge tareas del dia, atrasadas, estructura y modificados
 // Escribe System/JARVIS/daily-context.md en markdown 100% plano
 // Ejecutar desde paleta de comandos: Templater: Insert Template
 
@@ -32,17 +32,17 @@ const vaultFiles = vault.getFiles()
 function parseTaskDate(line) {
     const m = line.match(/📅\s?(\d{4})-(\d{2})-(\d{2})/);
     if (!m) return null;
-    return new Date(parseInt(m[1]), parseInt(m[2])-1, parseInt(m[3]));
+    return new Date(parseInt(m[1]), parseInt(m[2]) - 1, parseInt(m[3]));
 }
 
 function fmtDate(d) {
-    return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 }
 
 // ── 1. Collect today's + overdue tasks ──
 const pendingTasks = [];
 const completedTasks = [];
-const overdueTasks = [];  // Tareas con fecha anterior a hoy sin completar
+const overdueTasks = [];
 
 const TODAY_MIDNIGHT = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate());
 
@@ -52,29 +52,30 @@ for (const file of vaultFiles) {
     for (const line of lines) {
         const taskDate = parseTaskDate(line);
         if (!taskDate) continue;
-        
+
         const isToday = taskDate.getTime() === TODAY_MIDNIGHT.getTime();
         const isOverdue = taskDate.getTime() < TODAY_MIDNIGHT.getTime();
         const isChecked = /^\s*-\s*\[x\]/.test(line);
-        
+
         if (isToday) {
-            if (!isChecked) {
-                const task = line.replace(/^\s*-\s*\[ \]\s*/, '').trim();
-                pendingTasks.push(`- [ ] ${task}  — *${file.path}*`);
-            } else {
+            if (isChecked) {
                 const task = line.replace(/^\s*-\s*\[x\]\s*/, '').trim();
                 completedTasks.push(`- [x] ${task}  — *${file.path}*`);
+            } else {
+                const task = line.replace(/^\s*-\s*\[ \]\s*/, '').trim();
+                pendingTasks.push(`- [ ] ${task}  — *${file.path}*`);
             }
         } else if (isOverdue && !isChecked) {
             const task = line.replace(/^\s*-\s*\[ \]\s*/, '').trim();
             overdueTasks.push(`- [ ] ${task}  — *${file.path}* *(📅 ${fmtDate(taskDate)})*`);
         }
-    }*-\\s*\\[ \\]\\s*/, '').trim();\n            overdueTasks.push(`- [ ] ${task}  — *${file.path}* *(📅 ${fmtDate(taskDate)})*`);\n        }\n    }\n}", {"oldText": "// ── Today's tasks ──\ncontent += `## 🏋️ Tareas de hoy\\n\\n`;\nif (pendingTasks.length === 0 && completedTasks.length === 0) {\n    content += `*Sin tareas programadas para hoy.* 🎯\\n\\n`;\n} else {\n    if (pendingTasks.length > 0) {\n        content += `### ⏳ Pendientes\\n`;\n        content += pendingTasks.join('\\n') + '\\n\\n';\n    }\n    if (completedTasks.length > 0) {\n        content += `### ✅ Completadas\\n`;\n        content += completedTasks.join('\\n') + '\\n\\n';\n    }\n}", "newText": "// ── Today's tasks ──\ncontent += `## 🏋️ Tareas de hoy\\n\\n`;\nif (pendingTasks.length === 0 && completedTasks.length === 0) {\n    content += `*Sin tareas programadas para hoy.* 🎯\\n\\n`;\n} else {\n    if (pendingTasks.length > 0) {\n        content += `### ⏳ Pendientes\\n`;\n        content += pendingTasks.join('\\n') + '\\n\\n';\n    }\n    if (completedTasks.length > 0) {\n        content += `### ✅ Completadas\\n`;\n        content += completedTasks.join('\\n') + '\\n\\n';\n    }\n}\n\n// ── Overdue tasks ──\nif (overdueTasks.length > 0) {\n    content += `## ⚠️ Tareas atrasadas\\n\\n`;\n    overdueTasks.sort();\n    content += overdueTasks.join('\\n') + '\\n\\n';\n}"}]
+    }
+}
 
 // ── 2. Build directory tree ──
 function buildTree(files) {
     const tree = {};
-    
+
     for (const f of files) {
         const parts = f.path.replace(/\.md$/, '').split('/');
         let current = tree;
@@ -95,7 +96,7 @@ function renderTree(node, indent) {
     const files = (node._files || []).sort();
     const total = files.length + keys.length;
     let idx = 0;
-    
+
     for (const k of keys) {
         idx++;
         const isLast = idx === total;
@@ -104,14 +105,14 @@ function renderTree(node, indent) {
         const deeper = indent + (isLast ? '    ' : '│   ');
         output += renderTree(node[k], deeper);
     }
-    
+
     for (let i = 0; i < files.length; i++) {
         idx++;
         const isLast = idx === total;
         const prefix = isLast ? '└──' : '├──';
         output += `${indent}${prefix} ${files[i]}.md\n`;
     }
-    
+
     return output;
 }
 
@@ -124,7 +125,7 @@ const recentFiles = vaultFiles
     .slice(0, 5)
     .map(f => {
         const d = new Date(f.stat.mtime);
-        const ds = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+        const ds = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
         return `- ${f.path} — *${ds}*`;
     });
 
@@ -138,7 +139,7 @@ for (const f of vaultFiles) {
     if (dir) folderSet.add(dir);
 }
 
-content += `> 📊 **${vaultFiles.length}** notas — **${folderSet.size}** carpetas — **${pendingTasks.length}** pendientes hoy\n\n`;
+content += `> 📊 **${vaultFiles.length}** notas — **${folderSet.size}** carpetas — **${pendingTasks.length}** pendientes hoy — **${overdueTasks.length}** atrasadas\n\n`;
 
 // ── Today's tasks ──
 content += `## 🏋️ Tareas de hoy\n\n`;
@@ -155,6 +156,13 @@ if (pendingTasks.length === 0 && completedTasks.length === 0) {
     }
 }
 
+// ── Overdue tasks ──
+if (overdueTasks.length > 0) {
+    content += `## ⚠️ Tareas atrasadas\n\n`;
+    overdueTasks.sort();
+    content += overdueTasks.join('\n') + '\n\n';
+}
+
 // ── Directory tree ──
 content += `## 📁 Estructura del vault\n\n`;
 content += treeOutput + '\n';
@@ -164,7 +172,7 @@ content += `## 🆕 Modificados recientemente\n`;
 content += recentFiles.join('\n') + '\n\n';
 
 content += `---\n`;
-content += `*Generado: ${TODAY_SHORT} ${String(TODAY.getHours()).padStart(2,'0')}:${String(TODAY.getMinutes()).padStart(2,'0')} — Script Templater*\n`;
+content += `*Generado: ${TODAY_SHORT} ${String(TODAY.getHours()).padStart(2, '0')}:${String(TODAY.getMinutes()).padStart(2, '0')} — Script Templater*\n`;
 
 // ── 5. Write to file ──
 const targetPath = 'System/JARVIS/daily-context.md';
