@@ -43,8 +43,15 @@ function fmtDate(d) {
 const pendingTasks = [];
 const completedTasks = [];
 const overdueTasks = [];
+const malformedTasks = [];  // Tasks with 📅 but bad format (not recognized by Tasks plugin)
 
 const TODAY_MIDNIGHT = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate());
+
+// Regex to validate standard Tasks-plugin-compatible 📅 format:
+//   must have a space before 📅 OR be at start of line after checkbox
+//   must have 📅 followed by space then YYYY-MM-DD
+//   date must be the last field before any non-emoji text or end
+const GOOD_DATE_RE = /(?:^|\s)📅\s\d{4}-\d{2}-\d{2}(?:\s*[⏫🔽🔼✅⏰])*\s*$/;
 
 for (const file of vaultFiles) {
     const content = await vault.read(file);
@@ -52,6 +59,17 @@ for (const file of vaultFiles) {
     for (const line of lines) {
         const taskDate = parseTaskDate(line);
         if (!taskDate) continue;
+
+        // Check format compliance for Tasks plugin
+        if (!GOOD_DATE_RE.test(line.trim()) && line.trim().startsWith('- [')) {
+            // Allow some common valid formats Tasks DOES parse
+            const hasSpaceBefore = /\s📅/.test(line) || /^\s*-\s*\[ ?\]\s*📅/.test(line);
+            const hasSpaceAfter = /📅\s\d/.test(line);
+            const dateAtEnd = /📅\s\d{4}-\d{2}-\d{2}\s*$/.test(line) || /📅\s\d{4}-\d{2}-\d{2}\s*[⏫🔽🔼✅⏰]/.test(line);
+            if (!hasSpaceBefore || !hasSpaceAfter || !dateAtEnd) {
+                malformedTasks.push(`- ${file.path}: \`${line.trim().substring(0, 80)}\``);
+            }
+        }
 
         const isToday = taskDate.getTime() === TODAY_MIDNIGHT.getTime();
         const isOverdue = taskDate.getTime() < TODAY_MIDNIGHT.getTime();
@@ -69,8 +87,7 @@ for (const file of vaultFiles) {
             const task = line.replace(/^\s*-\s*\[ \]\s*/, '').trim();
             overdueTasks.push(`- [ ] ${task}  — *${file.path}* *(📅 ${fmtDate(taskDate)})*`);
         }
-    }
-}
+    }ue && !isChecked) {\n            const task = line.replace(/^\\s*-\\s*\\[ \\]\\s*/, '').trim();\n            overdueTasks.push(`- [ ] ${task}  — *${file.path}* *(📅 ${fmtDate(taskDate)})*`);\n        }\n    }\n}", {"oldText": "content += `> 📊 **${vaultFiles.length}** notas — **${folderSet.size}** carpetas — **${pendingTasks.length}** pendientes hoy\\n\\n`;", "newText": "content += `> 📊 **${vaultFiles.length}** notas — **${folderSet.size}** carpetas — **${pendingTasks.length}** pendientes hoy — **${overdueTasks.length}** atrasadas\\n\\n`;"}, {"oldText": "// ── Overdue tasks ──\nif (overdueTasks.length > 0) {\n    content += `## ⚠️ Tareas atrasadas\\n\\n`;\n    overdueTasks.sort();\n    content += overdueTasks.join('\\n') + '\\n\\n';\n}", "newText": "// ── Overdue tasks ──\nif (overdueTasks.length > 0) {\n    content += `## ⚠️ Tareas atrasadas\\n\\n`;\n    overdueTasks.sort();\n    content += overdueTasks.join('\\n') + '\\n\\n';\n}\n\n// ── Malformed tasks (format not recognized by Tasks plugin) ──\nif (malformedTasks.length > 0) {\n    content += `## ❌ Tareas con formato de fecha incorrecto\\n\\n`;\n    content += `Estas tareas tienen \\`📅\\` pero el formato no es compatible con el plugin Tasks. `;\n    content += `Edítalas para que la fecha esté al final: \\`tarea 📅 YYYY-MM-DD\\`\\n\\n`;\n    malformedTasks.sort();\n    content += malformedTasks.join('\\n') + '\\n\\n';\n}"}]
 
 // ── 2. Build directory tree ──
 function buildTree(files) {
