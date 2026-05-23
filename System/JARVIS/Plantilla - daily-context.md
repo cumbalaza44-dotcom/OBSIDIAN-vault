@@ -28,26 +28,48 @@ const vaultFiles = vault.getFiles()
     .filter(f => !f.path.startsWith('System/JARVIS/'))
     .sort((a, b) => a.path.localeCompare(b.path));
 
-// ── 1. Collect today's tasks ──
+// ── Helpers ──
+function parseTaskDate(line) {
+    const m = line.match(/📅\s?(\d{4})-(\d{2})-(\d{2})/);
+    if (!m) return null;
+    return new Date(parseInt(m[1]), parseInt(m[2])-1, parseInt(m[3]));
+}
+
+function fmtDate(d) {
+    return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+}
+
+// ── 1. Collect today's + overdue tasks ──
 const pendingTasks = [];
 const completedTasks = [];
+const overdueTasks = [];  // Tareas con fecha anterior a hoy sin completar
+
+const TODAY_MIDNIGHT = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate());
 
 for (const file of vaultFiles) {
     const content = await vault.read(file);
     const lines = content.split('\n');
     for (const line of lines) {
-        const hasDate = line.includes(`📅 ${TODAY_STR}`) || line.includes(`📅${TODAY_STR}`);
-        if (!hasDate) continue;
+        const taskDate = parseTaskDate(line);
+        if (!taskDate) continue;
         
-        if (/^\s*-\s*\[ \]/.test(line)) {
+        const isToday = taskDate.getTime() === TODAY_MIDNIGHT.getTime();
+        const isOverdue = taskDate.getTime() < TODAY_MIDNIGHT.getTime();
+        const isChecked = /^\s*-\s*\[x\]/.test(line);
+        
+        if (isToday) {
+            if (!isChecked) {
+                const task = line.replace(/^\s*-\s*\[ \]\s*/, '').trim();
+                pendingTasks.push(`- [ ] ${task}  — *${file.path}*`);
+            } else {
+                const task = line.replace(/^\s*-\s*\[x\]\s*/, '').trim();
+                completedTasks.push(`- [x] ${task}  — *${file.path}*`);
+            }
+        } else if (isOverdue && !isChecked) {
             const task = line.replace(/^\s*-\s*\[ \]\s*/, '').trim();
-            pendingTasks.push(`- [ ] ${task}  — *${file.path}*`);
-        } else if (/^\s*-\s*\[x\]/.test(line)) {
-            const task = line.replace(/^\s*-\s*\[x\]\s*/, '').trim();
-            completedTasks.push(`- [x] ${task}  — *${file.path}*`);
+            overdueTasks.push(`- [ ] ${task}  — *${file.path}* *(📅 ${fmtDate(taskDate)})*`);
         }
-    }
-}
+    }*-\\s*\\[ \\]\\s*/, '').trim();\n            overdueTasks.push(`- [ ] ${task}  — *${file.path}* *(📅 ${fmtDate(taskDate)})*`);\n        }\n    }\n}", {"oldText": "// ── Today's tasks ──\ncontent += `## 🏋️ Tareas de hoy\\n\\n`;\nif (pendingTasks.length === 0 && completedTasks.length === 0) {\n    content += `*Sin tareas programadas para hoy.* 🎯\\n\\n`;\n} else {\n    if (pendingTasks.length > 0) {\n        content += `### ⏳ Pendientes\\n`;\n        content += pendingTasks.join('\\n') + '\\n\\n';\n    }\n    if (completedTasks.length > 0) {\n        content += `### ✅ Completadas\\n`;\n        content += completedTasks.join('\\n') + '\\n\\n';\n    }\n}", "newText": "// ── Today's tasks ──\ncontent += `## 🏋️ Tareas de hoy\\n\\n`;\nif (pendingTasks.length === 0 && completedTasks.length === 0) {\n    content += `*Sin tareas programadas para hoy.* 🎯\\n\\n`;\n} else {\n    if (pendingTasks.length > 0) {\n        content += `### ⏳ Pendientes\\n`;\n        content += pendingTasks.join('\\n') + '\\n\\n';\n    }\n    if (completedTasks.length > 0) {\n        content += `### ✅ Completadas\\n`;\n        content += completedTasks.join('\\n') + '\\n\\n';\n    }\n}\n\n// ── Overdue tasks ──\nif (overdueTasks.length > 0) {\n    content += `## ⚠️ Tareas atrasadas\\n\\n`;\n    overdueTasks.sort();\n    content += overdueTasks.join('\\n') + '\\n\\n';\n}"}]
 
 // ── 2. Build directory tree ──
 function buildTree(files) {
