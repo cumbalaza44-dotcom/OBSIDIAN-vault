@@ -52,7 +52,8 @@ const TODAY_MIDNIGHT = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.get
 //   "descripción 📅 YYYY-MM-DD"
 //   "descripción 📅 YYYY-MM-DD ⏫"
 // Date must be at end (before emoji flags only), with space before 📅
-const GOOD_DATE_RE = /(?:^|\s)📅\s\d{4}-\d{2}-\d{2}(?:\s*[⏫🔽🔼✅⏰])*\s*$/;
+// Accept: "desc 📅 YYYY-MM-DD" or "desc ⏰ HH:MM 📅 YYYY-MM-DD" (date at end)
+const GOOD_DATE_RE = /(?:^|\s)(?:⏰\s*\d{1,2}:\d{2}\s+)?📅\s\d{4}-\d{2}-\d{2}(?:\s*[⏫🔽🔼✅⏰])*\s*$/;
 
 for (const file of vaultFiles) {
     const content = await vault.read(file);
