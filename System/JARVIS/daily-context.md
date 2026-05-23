@@ -8,8 +8,8 @@
 
 ## ⚠️ Tareas atrasadas
 
-- [x] ## 📅 2026-05-22 — Balancear ingresos (7:00 PM)  — *FINANZAS Y PROYECTOS/Finanzas y proyectos/Recordatorios.md* *(📅 2026-05-22)* ✅ 2026-05-23
-- [x] Ciclo de trabajo🔁 every day 📅 2026-05-17  — *FINANZAS Y PROYECTOS/Bot mt5/Evolución MT5.md* *(📅 2026-05-17)* ✅ 2026-05-23
+- [ ] ## 📅 2026-05-22 — Balancear ingresos (7:00 PM)  — *FINANZAS Y PROYECTOS/Finanzas y proyectos/Recordatorios.md* *(📅 2026-05-22)*
+- [ ] Ciclo de trabajo🔁 every day 📅 2026-05-17  — *FINANZAS Y PROYECTOS/Bot mt5/Evolución MT5.md* *(📅 2026-05-17)*
 - [ ] Crear rutina de entrenamiento para 5 días 📅 2026-05-20  — *HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/GYM.md* *(📅 2026-05-20)*
 - [ ] Estudiar migración de trading assistant📅 2026-05-16  — *FINANZAS Y PROYECTOS/Bot mt5/Evolución MT5.md* *(📅 2026-05-16)*
 - [ ] Revisar cursos de aprendizaje interactivo de programación 📅 2026-05-15 ⏰ 07:00  — *HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Habilidades y conocimientos ( intereses).md* *(📅 2026-05-15)*
@@ -102,4 +102,4 @@
 - HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/GYM.md — *2026-05-20*
 
 ---
-*Generado: 23/05/2026 11:23 — Script Templater*
+*Generado: 23/05/2026 11:24 — Script Templater*
