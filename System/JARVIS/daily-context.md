@@ -1,6 +1,6 @@
 # 📋 Contexto Diario — 22/05/2026
 
-> 📊 **55** notas — **18** carpetas — **0** pendientes hoy
+> 📊 **54** notas — **16** carpetas — **0** pendientes hoy
 
 ## 🏋️ Tareas de hoy
 
@@ -35,11 +35,13 @@
 │       └── lista de objetos.md
 ├── 📁 HABITOS Y DESARROLLO AVANZADO/
 │   ├── 📁 Habilidades-conocimiento (intereses)/
-│   │   ├── Habilidades y conocimientos.md
+│   │   ├── Carburador Moto 150cc OHV.md
+│   │   ├── Cómo funciona un carburador 150cc OHV.md
+│   │   ├── Habilidades y conocimientos ( intereses).md
 │   │   └── Motor DOHC.md
 │   ├── 📁 Mente (ser)/
 │   │   ├── FLUJO 3 P.md
-│   │   ├── Habilidades.md
+│   │   ├── Habilidad (mentales).md
 │   │   ├── Hábitos mente.md
 │   │   └── Notas mentales.md
 │   └── 📁 Yo y pendientes personales/
@@ -54,11 +56,6 @@
 │       └── Mantenimiento y mejoras hogar.md
 ├── 📁 HOY EN PERSONA/
 │   └── Actividades de entorno.md
-├── 📁 Intereses/
-│   ├── Carburador Moto 150cc OHV.md
-│   └── Cómo funciona un carburador 150cc OHV.md
-├── 📁 RECORDATORIOS/
-│   └── 2026-05-19 — Alcohol isopropilico.md
 ├── 📁 System/
 │   ├── 📁 Copia data claw/
 │   │   ├── AGENTS.md
@@ -86,11 +83,11 @@
 └── Notas somos.md
 
 ## 🆕 Modificados recientemente
-- Notas somos.md — *2026-05-21*
-- Intereses/Cómo funciona un carburador 150cc OHV.md — *2026-05-21*
-- Intereses/Carburador Moto 150cc OHV.md — *2026-05-21*
+- Notas somos.md — *2026-05-22*
+- HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Cómo funciona un carburador 150cc OHV.md — *2026-05-21*
+- HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Carburador Moto 150cc OHV.md — *2026-05-21*
 - HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/GYM.md — *2026-05-20*
 - registro de progreso diario/2026-05-19.md — *2026-05-20*
 
 ---
-*Generado: 22/05/2026 10:34 — Script Templater*
+*Generado: 22/05/2026 20:49 — Script Templater*
