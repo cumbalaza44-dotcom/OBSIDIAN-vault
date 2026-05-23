@@ -15,4 +15,4 @@ purpose: Generate System/JARVIS/daily-context.md
       (Crear  flujo de trabajo continuo para desarrollar conocimiento e intereses de forma permanente)
 - [ ] Psicología de control de masas
 - [ ] Meta ads
-- [ ] Revisar cursos de aprendizaje interactivo de programación 📅 2026-05-15 ⏰ 07:00
+- [ ] Revisar cursos de aprendizaje interactivo de programación ⏰ 07:00 📅 2026-05-15
