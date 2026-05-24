@@ -34,7 +34,6 @@ not done
 group by filename
 sort by priority
 ```
----
 
 ## 🔮 Próximas (vencen en los próximos 7 días)
 
