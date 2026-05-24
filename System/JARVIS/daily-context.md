@@ -1,6 +1,6 @@
 # 📋 Contexto Diario — 23/05/2026
 
-> 📊 **56** notas — **17** carpetas — **0** pendientes hoy — **6** atrasadas
+> 📊 **56** notas — **17** carpetas — **0** pendientes hoy — **4** atrasadas
 
 ## 🏋️ Tareas de hoy
 
@@ -9,11 +9,9 @@
 ## ⚠️ Tareas atrasadas
 
 - [ ] ## 📅 2026-05-22 — Balancear ingresos (7:00 PM)  — *FINANZAS Y PROYECTOS/Finanzas y proyectos/Recordatorios.md* *(📅 2026-05-22)*
-- [ ] Buscar alcohol isopropílico para limpiar 📅 2026-05-19  — *HOGAR/Mantenimiento moto/Mantenimiento Moto.md* *(📅 2026-05-19)*
 - [ ] Ciclo de trabajo 🔁 every day 📅 2026-05-20  — *_fit/FINANZAS Y PROYECTOS/Bot mt5/Evolución MT5.md* *(📅 2026-05-20)*
 - [ ] Ciclo de trabajo 🔁 every day 📅 2026-05-21  — *FINANZAS Y PROYECTOS/Bot mt5/Evolución MT5.md* *(📅 2026-05-21)*
-- [ ] Crear lista de trabajo y mejoras moto 📅 2026-05-16  — *HOGAR/Mantenimiento moto/Mantenimiento Moto.md* *(📅 2026-05-16)*
-- [ ] Revisar cursos de aprendizaje interactivo de programación ⏰ 07:00 📅 2026-05-15  — *HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Habilidades y conocimientos ( intereses).md* *(📅 2026-05-15)*
+- [ ] Terminar migración manual recordatorios ⏫ 📅 2026-05-16  — *HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/Objetivo Personal corto.md* *(📅 2026-05-16)*
 
 ## 📁 Estructura del vault
 
@@ -97,11 +95,11 @@
 └── Notas somos.md
 
 ## 🆕 Modificados recientemente
+- HOGAR/Mantenimiento moto/Mantenimiento Moto.md — *2026-05-23*
+- HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/Objetivo Personal corto.md — *2026-05-23*
 - HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Habilidades y conocimientos ( intereses).md — *2026-05-23*
 - _fit/FINANZAS Y PROYECTOS/Bot mt5/Evolución MT5.md — *2026-05-23*
 - System/configObsidian/Flujo de sincronización.md — *2026-05-23*
-- Notas somos.md — *2026-05-23*
-- HOGAR/Mantenimiento y mejoras hogar/Mantenimiento y mejoras hogar.md — *2026-05-23*
 
 ---
-*Generado: 23/05/2026 11:56 — Script Templater*
+*Generado: 23/05/2026 21:35 — Script Templater*
