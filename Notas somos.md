@@ -28,3 +28,4 @@ Martes jueves
 | Recordatorio de "pull vault cada turno" | Lo ejecuta AGENTS.md → token invisible | Lo ejecuta SKILL.md → igual                |
 | Inyección de daily-context              | Read manual cada turno                 | Skill podría automatizarlo → mismos tokens |
 | Overhead de skill                       | 0                                      |                                            |
+Dejar nota automatizada de hoy para mantener notas organizadas diariamente y tareas Md uno À muchos 
