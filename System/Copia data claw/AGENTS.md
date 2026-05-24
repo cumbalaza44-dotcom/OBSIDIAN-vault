@@ -11,7 +11,7 @@ inbound_meta.chat_type
 ## 🔄 Vault Sync (main session only)
 
 **Cada turno:** `cd obsidian-vault/ && git pull --ff-only` ← sin condicionales
-**Siempre después:** leer `System/JARVIS/daily-context.md` (~50-200 tok)
+**Siempre después:** leer `System/JARVIS/tasks.md` (~30-80 tok)
 **Lectura extra:** bajo demanda, no escanear todo el vault.
 
 **Escritura en vault:** si editaste ≥1 archivo → ejecutar `sync-push.sh`. Si falla → log + push manual.
