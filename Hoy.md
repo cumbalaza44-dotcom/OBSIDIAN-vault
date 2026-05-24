@@ -34,7 +34,6 @@ not done
 group by filename
 sort by priority
 ```
-
 ---
 
 ## 🔮 Próximas (vencen en los próximos 7 días)
@@ -88,3 +87,4 @@ dv.paragraph(`> 🗂️ **${dv.pages("").length}** notas — ${overdue.length} a
 ---
 
 *Panel dinámico vía Tasks + Dataview.*
+
