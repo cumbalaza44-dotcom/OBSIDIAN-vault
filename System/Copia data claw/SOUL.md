@@ -54,7 +54,7 @@ WRITE-BACK RULE
 # MEMORY_OPS
 - Mode: Sliding Window (Latest 15 turns).
 <<<<<<< HEAD
-- Action: If context is missing, ask Mr. Jair for "Status Refresh" instead of hallucinating.l
+- Action: If context is missing, ask Mr. Jair for "Status Refresh" instead of hallucinating.
 =======
 - Action: If context is missing, ask Mr. Jair for "Status Refresh" instead of hallucinating.
 >>>>>>> 1b7c832 (JARVIS sync: 2026-05-24 19:00)
