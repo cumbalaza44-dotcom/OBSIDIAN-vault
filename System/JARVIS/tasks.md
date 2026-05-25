@@ -5,11 +5,11 @@
 ## ⏳ Pendientes
 
 ### 💰 Finanzas y Proyectos
-- [ ] Balancear ingresos y verificar distribución — *Recordatorios.md*
+- [ ] Balancear ingresos y verificar distribución — *Recordatorios.md* 📅 2026-05-25
 - [x] Revisar flujo de caja semanal —📅 2026-05-24 *Recordatorios.md* ✅ 2026-05-24
-- [ ] Ajustar proyecciones si es necesario — *Recordatorios.md*
+- [ ] Ajustar proyecciones si es necesario — *Recordatorios.md* 📅 2026-05-25
 - [x] Estudiar, funcionamiento y/o propuestas de funcionamiento para luego hacer la📅 2026-05-24 ón con N8N — *Evolución MT5.md* ✅ 2026-05-24
-- [ ] Ciclo de trabajo 🔁 every day — *Evolución MT5.md* 📅 2026-05-20
+- [ ] Ciclo de trabajo 🔁 every day — *Evolución MT5.md* 📅 2026-05-25
 - [ ] Aprender storytelling de venta — *META ADS.md*
 - [ ] Curso de Shopify y e-commerce — *ESTAPA 1.md*
 - [ ] Investigar campaña de meta ads — *ESTAPA 1.md*
@@ -26,7 +26,7 @@
 - [ ] Anotar mejoras de hogar — *Mantenimiento y mejoras hogar.md*
 
 ### 🧠 Hábitos y Desarrollo
-- [ ] Terminar migración manual recordatorios ⏫ — *Objetivo Personal corto.md* 📅 2026-05-16
+- [ ] Terminar migración manual recordatorios ⏫ — *Objetivo Personal corto.md* 📅 2026-05-25
 - [ ] Afeitarse — *Cuidado personal.md*
 - [ ] Cortarse el cabello — *Cuidado personal.md*
 - [ ] Aumentar presupuesto alimentario personal — *Cuidado personal.md*
