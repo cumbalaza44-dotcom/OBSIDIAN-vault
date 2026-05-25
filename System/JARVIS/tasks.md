@@ -1,4 +1,4 @@
-# 📋 Tasks Central — 24/05/2026
+# 📋 Tasks Central — 25/05/2026
 
 > Archivo fuente de tareas. Editar aquí = editar la tarea. Yo reflejo los cambios en las notas originales.
 
@@ -6,9 +6,7 @@
 
 ### 💰 Finanzas y Proyectos
 - [ ] Balancear ingresos y verificar distribución — *Recordatorios.md* 📅 2026-05-25
-- [x] Revisar flujo de caja semanal —📅 2026-05-24 *Recordatorios.md* ✅ 2026-05-24
 - [ ] Ajustar proyecciones si es necesario — *Recordatorios.md* 📅 2026-05-25
-- [x] Estudiar, funcionamiento y/o propuestas de funcionamiento para luego hacer la📅 2026-05-24 ón con N8N — *Evolución MT5.md* ✅ 2026-05-24
 - [ ] Ciclo de trabajo 🔁 every day — *Evolución MT5.md* 📅 2026-05-25
 - [ ] Aprender storytelling de venta — *META ADS.md*
 - [ ] Curso de Shopify y e-commerce — *ESTAPA 1.md*
