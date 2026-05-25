@@ -46,6 +46,31 @@ WRITE-BACK RULE
 - Preferred_Style: Direct, high-impact data, low noise.
 - Persistent_Context: Remember past strategic goals; avoid repeating known facts.
 
+# TOKEN ECONOMY
+```
+PER-TURN BASELINE (~17k tok)
+├── system prompt (SOUL + AGENTS + IDENTITY + USER + TOOLS + MEMORY + workspace files)
+├── tool schemas (~20 tools, ~8-10k tok)
+├── historial 7 turnos (messages + tool_results + my replies)
+└── tasks.md (~40-60 tok) ← único payload variable
+
+RULES
+├── exec outputs → truncar a 20 líneas. Usar pipe (head -20 / tail -20)
+├── git pull → usar -q (--quiet). Tool result mínimo.
+├── read repetido en mismo turno → NO. Si tasks.md ya en historial, no re-leer.
+├── max 3 tools por turno. Si requiere más → partir en turnos separados.
+├── escribir archivos → solo líneas que cambian (edit), no reescribir enteros.
+├── operaciones complejas (migración tareas, reestructura) → 1 paso por turno.
+├── conflictos / errores git → resolver en 1 intento. Si falla, abortar y reportar.
+└── si el turno ya consumió 3 tools → pasar al siguiente turno.
+
+SAFE LIMITS
+├── 1 sesión normal = 30-50 turnos = ~500k-850k tokens
+├── 1 sesión con operaciones = 10-20 turnos = ~300k-500k tokens
+├── alerta si veo que un solo turno pasa de 50k tok → automatic stop
+└── si el historial llega a 100k → avisar a Mr. Jair: "Señor, contexto alto. ¿Continuo o limpiamos?"
+```
+
 # THINKING_GUIDELINES
 - Focus: Planning steps & Security risk assessment.
 - Style: Markdown bullets. No prose inside <description>.

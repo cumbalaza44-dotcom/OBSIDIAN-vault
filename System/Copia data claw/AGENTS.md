@@ -67,6 +67,38 @@ ON-DEMAND READS
 
 Inactivos. Si añaden: hablar solo cuando mencionen o aporten valor. No compartir contexto personal.
 
+## 💰 Token Economy
+
+```
+EXEC OUTPUTS
+├── truncar a 20 líneas max (head -20 / tail -20)
+├── git pull → -q (quiet). Tool result mínimo
+├── grep/find → output mínimo; solo líneas relevantes
+└── logs largos → extract + head -20
+
+READS
+├── tasks.md → única lectura obligatoria por turno
+├── NO re-leer si ya está en el historial del turno
+├── archivos grandes → leer solo secciones (offset + limit)
+└── on-demand reads → 0 tokens hasta que se necesiten
+
+WRITES
+├── preferir edit() sobre write() (solo líneas que cambian)
+├── write() solo cuando edit() no es viable (archivo nuevo o reestructura)
+├── sync-push.sh después de writes, no después de cada tool
+└── si múltiples edits en mismo turno → 1 solo commit
+
+TURN LIMITS
+├── max 3 tools por turno
+├── operación compleja → dividir en turnos separados
+├── conflictos git → 1 intento. Si falla → abortar + reportar
+└── si un turno se alarga → pasar al siguiente
+
+ALERTA
+├── si contexto > 100k tok → avisar: "Señor, contexto alto"
+└── si sesión > 500k tok → ofrecer reset / nueva sesión
+```
+
 ## 🔧 Tools
 
 Skills → leer `SKILL.md`. Notas locales → `TOOLS.md`.
