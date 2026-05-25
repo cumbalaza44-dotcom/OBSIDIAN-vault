@@ -24,7 +24,7 @@
 - [ ] Anotar mejoras de hogar — *Mantenimiento y mejoras hogar.md*
 
 ### 🧠 Hábitos y Desarrollo
-- [ ] Terminar migración manual recordatorios ⏫ — *Objetivo Personal corto.md* 📅 2026-05-25
+- [ ] Terminar migración manual recordatorios ⏫ — *Objetivo Personal corto.md* 📅 2026-05-25 🔄 En progreso (Apple → Obsidian, reestructura manual)
 - [x] Afeitarse ✅ — *Cuidado personal.md*
 - [x] Cortarse el cabello ✅ — *Cuidado personal.md*
 - [ ] Aumentar presupuesto alimentario personal — *Cuidado personal.md*
