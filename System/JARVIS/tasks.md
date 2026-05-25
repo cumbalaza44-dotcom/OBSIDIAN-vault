@@ -25,8 +25,8 @@
 
 ### 🧠 Hábitos y Desarrollo
 - [ ] Terminar migración manual recordatorios ⏫ — *Objetivo Personal corto.md* 📅 2026-05-25
-- [ ] Afeitarse — *Cuidado personal.md*
-- [ ] Cortarse el cabello — *Cuidado personal.md*
+- [x] Afeitarse ✅ — *Cuidado personal.md*
+- [x] Cortarse el cabello ✅ — *Cuidado personal.md*
 - [ ] Aumentar presupuesto alimentario personal — *Cuidado personal.md*
 - [ ] Balanceo de progreso y profundización de pilares a núcleos enfocados — *Cuidado personal.md*
 - [ ] Purgar teléfono de apps y videos — *Hábitos.md*
