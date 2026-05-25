@@ -6,7 +6,7 @@
 
 ### 💰 Finanzas y Proyectos
 - [ ] Balancear ingresos y verificar distribución — *Recordatorios.md*
-- [ ] Revisar flujo de caja semanal —📅 2026-05-24 *Recordatorios.md*
+- [x] Revisar flujo de caja semanal —📅 2026-05-24 *Recordatorios.md* ✅ 2026-05-24
 - [ ] Ajustar proyecciones si es necesario — *Recordatorios.md*
 - [ ] Estudiar, funcionamiento y/o propuestas de funcionamiento para luego hacer la📅 2026-05-24 ón con N8N — *Evolución MT5.md*
 - [ ] Ciclo de trabajo 🔁 every day — *Evolución MT5.md* 📅 2026-05-20
