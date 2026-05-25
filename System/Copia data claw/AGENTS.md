@@ -10,11 +10,29 @@ inbound_meta.chat_type
 
 ## 🔄 Vault Sync (main session only)
 
-**Cada turno:** `cd obsidian-vault/ && git pull --ff-only` ← sin condicionales
-**Siempre después:** leer `System/JARVIS/tasks.md` (~30-80 tok)
-**Lectura extra:** bajo demanda, no escanear todo el vault.
+```
+EVERY TURN
+├── git pull --ff-only
+├── read tasks.md (~40-60 tok) ← ONLY required read
+└── next
 
-**Escritura en vault:** si editaste ≥1 archivo → ejecutar `sync-push.sh`. Si falla → log + push manual.
+TASKS ORIGIN
+├── tasks.md = SINGLE SOURCE OF TRUTH
+├── User writes tasks ONLY in tasks.md (iOS)
+├── I write tasks ONLY in tasks.md (server)
+├── I NEVER scan vault for [ ] / 📅 / grep
+└── tasks outside tasks.md = inexistentes para mí
+
+WRITE TO VAULT
+├── if I edited ≥1 file → sync-push.sh (commit + push)
+├── if sync-push.sh fails → manual push
+└── write-back: tarea marcada ✅ en tasks.md → actualizo nota original
+
+ON-DEMAND READS
+├── only when user asks about a specific file
+├── find + grep → 0 tokens until triggered
+└── never proactive vault scan
+```
 
 ## 📓 Memory — Daily Note (Two-Zone)
 
