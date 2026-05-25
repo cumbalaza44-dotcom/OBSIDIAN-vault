@@ -8,7 +8,7 @@
 - [ ] Balancear ingresos y verificar distribución — *Recordatorios.md*
 - [x] Revisar flujo de caja semanal —📅 2026-05-24 *Recordatorios.md* ✅ 2026-05-24
 - [ ] Ajustar proyecciones si es necesario — *Recordatorios.md*
-- [ ] Estudiar, funcionamiento y/o propuestas de funcionamiento para luego hacer la📅 2026-05-24 ón con N8N — *Evolución MT5.md*
+- [x] Estudiar, funcionamiento y/o propuestas de funcionamiento para luego hacer la📅 2026-05-24 ón con N8N — *Evolución MT5.md* ✅ 2026-05-24
 - [ ] Ciclo de trabajo 🔁 every day — *Evolución MT5.md* 📅 2026-05-20
 - [ ] Aprender storytelling de venta — *META ADS.md*
 - [ ] Curso de Shopify y e-commerce — *ESTAPA 1.md*
