@@ -19,6 +19,15 @@ Cinematográfico
 ### Fórmula de edición
 Texto
 subtitulo
-
+Patrón de interrupción 
+SFX
+Zooms
 
 ## pilares y tipos de contenido 
+### educar
+Tutoriales
+
+Novedades s
+### vender
+### inspirar 
+### entretener 
