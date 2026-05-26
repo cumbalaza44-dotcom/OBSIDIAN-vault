@@ -48,4 +48,7 @@ Testimonios
 
 
 ## REELS ET
-
+### formato 
+Orbital
+Bucle 
+## 
