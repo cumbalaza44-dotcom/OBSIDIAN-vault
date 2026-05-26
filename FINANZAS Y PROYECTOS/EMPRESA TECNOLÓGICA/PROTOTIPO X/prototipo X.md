@@ -89,7 +89,63 @@
 
 ---
 
-## 📊 MVP — Fase 1 (mínimo producto viable)
+## 🗄️ Caja Negra — Registro Fo Negra — Registro Forense
+
+> Como la caja negra de un avión: datos críticos almacenados de forma segura para esclarecer incidentes.
+
+### 📥 Qué registra
+
+| Dato | Propósito |
+|---|---|
+| 📍 **GPS + altitud + heading** | Posición exacta en cada momento |
+| ⏱️ **Timestamp** (UTC + local) | Línea de tiempo precisa |
+| 🚗 **Trayectorias de vehículos cercanos** | Quién estaba dónde y hacia dónde iba |
+| 📐 **Inclinación / ángulo de la moto** | Maniobras, derrapes, caídas |
+| 📹 **Video cíclico 360°** (últimos 15 min) | Grabación continua que se sobrescribe |
+| 🔊 **Audio ambiental** (micrófono) | Bocinas, frenazos, colisiones |
+| 📊 **Estado del sistema** (sensores, alertas, batería) | Fallos o mal funcionamiento pre-incidente |
+| 📈 **Velocidad + aceleración + frenado** | Patrón de conducción pre-incidente |
+
+### 🔒 Almacenamiento
+
+| Característica | Especificación |
+|---|---|
+| **Medio** | MicroSD de alta resistencia (128GB+, clase 10) |
+| **Cifrado** | AES-256 (solo accesible con clave del dueño) |
+| **Protección física** | Módulo sellado, resistente a impacto y fuego (IP67) |
+| **Autonomía** | Batería interna que mantiene 5 min de grabación post-corte |
+| **Ubicación** | Bajo el asiento / dentro del chasis — oculto y anclado |
+
+### 🚨 Eventos que activan bloqueo (guardado permanente)
+
+El sistema **no sobrescribe** cuando ocurre:
+
+- 🔴 **Colisión detectada** (acelerómetro + sensor de impacto)
+- 🔴 **Caída** (inclinación > 60° en < 0.5s + vibración)
+- 🔴 **Frenado brusco** (desaceleración > 8 m/s²)
+- 🟡 **Alerta máxima** (zona roja activa por > 3s)
+- 🟡 **Apagado forzado** (pérdida de energía súbita)
+- 🖐️ **Activación manual** (botón de pánico en el manillar)
+
+### 📤 Post-evento
+
+| Paso | Acción |
+|---|---|
+| 1 | Caja negra bloquea el segmento actual en SD (no sobrescribible) |
+| 2 | Sube automáticamente a la nube (si hay WiFi/conexión móvil) |
+| 3 | Envía alerta al contacto de emergencia con coordenadas |
+| 4 | Bitácora local encriptada queda disponible para autoridades/seguros |
+
+### ⚖️ Valor legal y asegurador
+
+- **Evidencia objetiva** para accidentes de tránsito
+- **Respaldo** ante reclamaciones de seguros (quién tuvo la culpa)
+- **Reducción de prima** (aseguradoras premian conducción monitoreada)
+- **Paz mental** para familiares en caso de incidente grave
+
+---
+
+## 📊 MVP — Fase 1"}] (mínimo producto viable)
 
 | Componente | Tecnología | Costo estimado |
 |---|---|---|
