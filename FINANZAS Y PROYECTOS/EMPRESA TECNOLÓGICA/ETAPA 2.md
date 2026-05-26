@@ -51,4 +51,10 @@ Testimonios
 ### formato 
 Orbital
 Bucle 
-## 
+## estilo de edición 
+Orgánico 
+Broll 
+Cinemátic
+
+## formula de edición 
+
