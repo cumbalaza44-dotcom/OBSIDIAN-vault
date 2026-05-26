@@ -26,8 +26,13 @@ Zooms
 ## pilares y tipos de contenido 
 ### educar
 Tutoriales
-
-Novedades s
+Debates y discusiónes
+Concejos y tips
+Mitos y creencias
+Preguntas frecuentes 
+Horrores comunes 
+Novedades 
 ### vender
+
 ### inspirar 
 ### entretener 
