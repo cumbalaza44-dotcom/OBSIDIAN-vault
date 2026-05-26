@@ -12,8 +12,9 @@
 - [ ] Prototipar sensor ultrasónico + alerta — *prototipo X.md*
 - [ ] Diseñar UX del HUD/app — *prototipo X.md*
 - [x] Balancear ingresos y verificar distribución ✅ — *Recordatorios.md* 📅 2026-05-25
-- [ ] Ajustar proyecciones si es necesario — *Recordatorios.md* 📅 2026-05-25 ⏸️ Pendiente de tu decisión
+- [x] Ajustar proyecciones si es necesario ✅ — *Recordatorios.md* 📅 2026-05-25
 - [ ] Ciclo de trabajo 🔁 every day — *Evolución MT5.md* 📅 2026-05-25
+- [ ] Diversificar en ahorro e inversión — *Recordatorios.md* 📅 2026-05-26
 - [ ] Aprender storytelling de venta — *META ADS.md*
 - [ ] Curso de Shopify y e-commerce — *ESTAPA 1.md*
 - [ ] Investigar campaña de meta ads — *ESTAPA 1.md*
