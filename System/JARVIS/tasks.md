@@ -53,3 +53,4 @@
 
 ### Empresa tecnológica 
 - [ ] Fórmula de edición para historias  Instagram 
+- [ ] Investigar en pilares de contenido “pilar de venta “ 

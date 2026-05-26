@@ -35,4 +35,17 @@ Novedades
 ### vender
 
 ### inspirar 
+Broll 
+Tomas de producto 
+Video motivaciónal 
+Citas motivadoras de famosos
 ### entretener 
+Humor 
+Memes
+Broll
+Making off
+Testimonios 
+
+
+## REELS ET
+
