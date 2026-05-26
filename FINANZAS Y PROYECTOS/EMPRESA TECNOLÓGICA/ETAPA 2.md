@@ -11,4 +11,10 @@ Tomas de productos
 Broll
 Modelo con producto
 
+### Estilos 
+Orgánico 
+Increíble aura 
+Cinematográfico
+Fórmula de edición 
+
 ## pilares y tipos de contenido 
