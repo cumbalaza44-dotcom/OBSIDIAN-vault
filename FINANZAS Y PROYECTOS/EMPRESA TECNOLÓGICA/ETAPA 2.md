@@ -15,6 +15,10 @@ Modelo con producto
 Orgánico 
 Increíble aura 
 Cinematográfico
-Fórmula de edición 
+
+### Fórmula de edición
+Texto
+subtitulo
+
 
 ## pilares y tipos de contenido 
