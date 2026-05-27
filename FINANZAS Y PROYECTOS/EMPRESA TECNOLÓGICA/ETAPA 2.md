@@ -6,7 +6,7 @@ Presencia en redes sociales
 Venta 
 Interacción 
 ### formatos 
-Plasmar aquí formatos de contenido
+Plasma aquí formatos de contenido
 Tomas de productos 
 Broll
 Modelo con producto
@@ -15,7 +15,7 @@ Modelo con producto
 Orgánico 
 Increíble aura 
 Cinematográfico
-
+À
 ### Fórmula de edición
 Texto
 subtitulo
