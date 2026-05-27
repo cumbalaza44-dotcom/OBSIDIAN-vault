@@ -4,7 +4,8 @@ type: template-script
 purpose: Generate System/JARVIS/daily-context.md
 ---
 
-
+## 🛣️ Odómetro
+- **17,592 km** — 2026-05-27
 
 
 - [ ] Lavado y mantenimiento
