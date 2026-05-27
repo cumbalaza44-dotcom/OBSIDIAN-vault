@@ -40,7 +40,34 @@
 
 ## 🧩 Estrategias para lograrlo
 
-### Estrategia 1: Free tiers (riesgo alto)
+### ✅ Estrategia VALIDADA: OpenClaw + Cache (recomendada)
+
+**Sistema actual en producción:**
+- Modelo: `openrouter/xiaomi/mimo-v2.5`
+- Cache hit rate: **77%** (40k cached)
+- Ratio input/output: **~5:1** (más input que output)
+
+**Por qué funciona:**
+- **77% del input** se cobra a precio reducido (cache)
+- **Output real** es bajo (respuestas compactas)
+- **Xiaomi MiMo** es de los modelos más baratos en OpenRouter
+- **Fallback** a DeepSeek V4 Flash si falla
+
+**Costo real estimado (OpenClaw):**
+- Input total: 900M/mes → 77% cached = 693M cached + 207M fresh
+- Output real: ~120M/mes (ratio 5:1)
+- Precio Xiaomi MiMo: ~$0.02/1M input, ~$0.06/1M output
+- **Costo estimado: $3-8/mes** ✅
+
+**Componentes del éxito:**
+- Cache layer nativo de OpenClaw
+- Modelo barato (Xiaomi MiMo)
+- Respuestas compactas (bajo output)
+- Fallback a DeepSeek V4 Flash
+
+### Otras opciones (alternativas)
+
+#### Estrategia 1: Free tiers (riesgo alto)
 - **Groq free** + **Google AI Studio free** + **OpenRouter free**
 - Costo: $0
 - Riesgo: Rate limits, disponibilidad variable, sin SLA
