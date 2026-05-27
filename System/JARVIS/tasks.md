@@ -4,6 +4,9 @@
 
 ## ⏳ Pendientes
 
+### 📅 Mañana 27/05
+- [ ] Verificar estado y comodidad del asiento de mi moto ⏰ 06:40 AM
+
 ### 💰 Finanzas y Proyectos
 
 #### 🏍️ Prototipo X — Copiloto Moto
