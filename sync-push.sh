@@ -25,9 +25,27 @@ git add -A 2>/dev/null
 git commit -m "JARVIS sync: $(date '+%Y-%m-%d %H:%M')" 2>/dev/null
 
 if git push --force-with-lease origin HEAD:main 2>/dev/null; then
-    log "PUSH OK: $CHANGED file(s) pushed"
-    exit 0
+    log "PUSH OK (submodule): $CHANGED file(s) pushed"
 else
     log "PUSH ERROR: push failed for $CHANGED file(s)"
+    exit 1
+fi
+
+# Also push parent repo to update submodule reference
+PARENT_DIR="/root/.openclaw/workspace"
+cd "$PARENT_DIR" || { log "PARENT PUSH ERROR: cannot cd to parent"; exit 0; }
+
+git add obsidian-vault 2>/dev/null
+if git diff --cached --quiet; then
+    log "PARENT PUSH: no submodule ref update needed"
+    exit 0
+fi
+
+git commit -m "vault sync: update submodule $(date '+%Y-%m-%d %H:%M')" 2>/dev/null
+if git push origin HEAD:main 2>/dev/null; then
+    log "PARENT PUSH OK: submodule reference updated"
+    exit 0
+else
+    log "PARENT PUSH ERROR: failed to update submodule reference"
     exit 1
 fi
