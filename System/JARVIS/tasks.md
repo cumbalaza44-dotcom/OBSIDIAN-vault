@@ -4,8 +4,9 @@
 
 ## ⏳ Pendientes
 
-### 📅 Mañana 27/05
-- [ ] Verificar estado y comodidad del asiento de mi moto ⏰ 06:40 AM
+### 📅 Sábado 30/05
+- [x] Verificar estado y comodidad del asiento de mi moto ✅
+- [ ] Desarmar, corregir y hacer mantenimiento general al sistema de admisión ⏰ 08:00 AM — *Mantenimiento Moto.md*
 
 ### 💰 Finanzas y Proyectos
 
