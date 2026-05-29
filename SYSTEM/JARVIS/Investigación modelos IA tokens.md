@@ -133,3 +133,10 @@
 - [ ] Configurar router de modelos
 - [ ] Monitoreo de costos diario
 - [ ] Alerta al 80% del presupuesto ($16)
+
+| Opción                  | Pros                     | Contras                             |
+| ----------------------- | ------------------------ | ----------------------------------- |
+| Webhook                 | Notificación instantánea | Requiere configurar servidor en iOS |
+| File watcher            | Detección en tiempo real | No aplica (iOS es remoto)           |
+| Cron cada 5 min         | Proactivo                | Más tokens, más complejidad         |
+| Atual (pull+cada turno) | Simple, confiable        | Solo actualiza cuando hay chat      |
