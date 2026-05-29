@@ -51,10 +51,13 @@ Testimonios
 ### formato 
 Orbital
 Bucle 
-## estilo de edición 
+### estilo de edición 
 Orgánico 
 Broll 
 Cinemátic
 
-## formula de edición 
+### formula de edición 
 Sound Fx 
+
+
+## alcance y conversión 

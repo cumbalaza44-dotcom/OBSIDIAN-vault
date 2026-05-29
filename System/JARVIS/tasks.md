@@ -3,6 +3,10 @@
 > Archivo fuente de tareas. Editar aquí = editar la tarea. Yo reflejo los cambios en las notas originales.
 
 ## ⏳ Pendientes
+- [ ] Traer multimetro revisar equipo 
+- [ ] purgar teléfono de apps y videos📅 2026-05-29 
+- [ ] alistar plantación y visita de gyms primer dia
+- [ ] rutina de ejercicio 5 días 
 
 ### 📅 Sábado 30/05
 - [x] Verificar estado y comodidad del asiento de mi moto ✅
