@@ -7,6 +7,13 @@ source: "Mr. Jair — Telegram"
 
 > Proyecto de tintura de THC.
 
+| Solvente        | Solubilidad teórica | Concentración práctica | Dosis baja  | Dosis alta    |
+| --------------- | ------------------- | ---------------------- | ----------- | ------------- |
+| Aceite coco/MCT | >1000 mg/ml         | 50 - 100 mg/ml         | 10-25 mg/ml | 100-200 mg/ml |
+| Alcohol 40% ABV | ~30-40 mg/ml        | 20 - 30 mg/ml          | 10-15 mg/ml | 25-30 mg/ml   |
+
+
+
 ## Estado
 - **Fase:** Inicio
 - **Fecha:** 30/05/2026
