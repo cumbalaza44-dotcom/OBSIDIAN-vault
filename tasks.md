@@ -21,12 +21,12 @@ source: "Mr. Jair — iOS / Telegram"
 
 > *Estas son las prioridades del día. Enfócate.*
 
-| # | Tarea | Nota |
-|---|-------|------|
-| 1 | 🔌 Traer multímetro — revisar equipo | — |
-| 2 | 📱 Purgar teléfono de apps y videos | *Hábitos.md* |
-| 3 | 🌱 Alistar plantilla + visita de gyms (día 1) | — |
-| 4 | 💪 Rutina de ejercicio (5 días) | — |
+| #   | Tarea                                         | Nota         |
+| --- | --------------------------------------------- | ------------ |
+| 1   | 🔌 Traer multímetro — revisar equipo          | —            |
+| 2   | 📱 Purgar teléfono de apps y videos           | *Hábitos.md* |
+| 3   | 🌱 Alistar plantilla + visita de gyms (día 1) | —            |
+| 4   | 💪 Rutina de ejercicio (5 días)               | —            |
 
 ---
 
