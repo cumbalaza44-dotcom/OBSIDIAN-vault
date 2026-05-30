@@ -21,14 +21,6 @@ source: "Mr. Jair — iOS / Telegram"
 
 > *Estas son las prioridades del día. Enfócate.*
 
-<<<<<<< HEAD
-| #   | Tarea                                         | Nota         |
-| --- | --------------------------------------------- | ------------ |
-| 1   | 🔌 Traer multímetro — revisar equipo          | —            |
-| 2   | 📱 Purgar teléfono de apps y videos           | *Hábitos.md* |
-| 3   | 🌱 Alistar plantilla + visita de gyms (día 1) | —            |
-| 4   | 💪 Rutina de ejercicio (5 días)               | —            |
-=======
 | # | Tarea | Nota |
 |---|-------|------|
 | 1 | 📱 Purgar teléfono de apps y videos | *Hábitos.md* |
@@ -40,7 +32,6 @@ source: "Mr. Jair — iOS / Telegram"
 ## 📅 LUNES 01/06
 
 - [ ] 🔌 Traer multímetro — revisar equipo
->>>>>>> bace42f (JARVIS sync: 2026-05-30 09:37)
 
 ---
 
