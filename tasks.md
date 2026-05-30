@@ -39,7 +39,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 - [x] ✅ Verificar asiento de la moto
 - [ ] 🔧 Desarmar, corregir y mantenimiento general al sistema de admisión `⏰ 08:00 AM`
-- [ ] 🛞 Cambiar llanta 90/90-19 doble propósito — dry rot + grieta profunda ⚠️ CRÍTICO
+- [x] ✅ Cambiar llanta 90/90-19 doble propósito — completada 30/05
 
 ---
 
