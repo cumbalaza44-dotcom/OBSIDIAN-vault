@@ -7,11 +7,19 @@ source: "Mr. Jair — Telegram"
 # 🧪 Tintura de THC
 
 > Proyecto de tintura de THC — Vía sublingual, THC puro.
+> **Criterio de selección: ABSORCIÓN > SOLUBILIDAD**
 
-| Solvente        | Solubilidad teórica | Concentración práctica | Dosis baja  | Dosis alta    |
-| --------------- | ------------------- | ---------------------- | ----------- | ------------- |
-| Aceite coco/MCT | >1000 mg/ml         | 50 - 100 mg/ml         | 10-25 mg/ml | 100-200 mg/ml |
-| Alcohol 40% ABV | ~30-40 mg/ml        | 20 - 30 mg/ml          | 10-15 mg/ml | 25-30 mg/ml   |
+## 🎯 Principio fundamental
+
+```
+SOLUBILIDAD ≠ ABSORCIÓN
+MCT disuelve mucho → pero el cuerpo absorbe poco
+Smirnoff disuelve menos → pero el cuerpo absorbe más
+GANADOR: Smirnoff X1 (50% ABV)
+```
+
+> De qué nos sirve cargar mucha cantidad si el cuerpo no la absorbe.
+> La métrica correcta es: **¿Cuánto THC llega realmente al cerebro?**
 
 
 
