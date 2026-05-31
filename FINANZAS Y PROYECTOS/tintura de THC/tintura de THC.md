@@ -60,11 +60,11 @@ Vena sublingular → Circulación sistémica → Cerebro
 ### Capacidad de absorción por ml
 
 | Concentración | mg por ml | Dosis baja (0.25ml) | Dosis media (0.5ml) | Dosis alta (1ml) |
-|---------------|-----------|---------------------|---------------------|------------------|
-| **Baja** | 33 mg/ml | 8 mg | 16.5 mg | 33 mg |
-| **Media** | 50 mg/ml | 12.5 mg | 25 mg | 50 mg |
-| **Alta** | 100 mg/ml | 25 mg | 50 mg | 100 mg |
-| **Ultra** | 200 mg/ml | 50 mg | 100 mg | 200 mg |
+| ------------- | --------- | ------------------- | ------------------- | ---------------- |
+| **Baja**      | 33 mg/ml  | 8 mg                | 16.5 mg             | 33 mg            |
+| **Media**     | 50 mg/ml  | 12.5 mg             | 25 mg               | 50 mg            |
+| **Alta**      | 100 mg/ml | 25 mg               | 50 mg               | 100 mg           |
+| **Ultra**     | 200 mg/ml | 50 mg               | 100 mg              | 200 mg           |
 
 ### Relación con 3000 mg THC base
 
@@ -89,11 +89,11 @@ Vena sublingular → Circulación sistémica → Cerebro
 ### THC por gota según concentración
 
 | Concentración | 1 gota (0.05ml) | 5 gotas (0.25ml) | 10 gotas (0.5ml) |
-|---------------|-----------------|-------------------|-------------------|
-| 33 mg/ml | 1.65 mg | 8.25 mg | 16.5 mg |
-| 50 mg/ml | 2.5 mg | 12.5 mg | 25 mg |
-| 100 mg/ml | 5 mg | 25 mg | 50 mg |
-| 200 mg/ml | 10 mg | 50 mg | 100 mg |
+| ------------- | --------------- | ---------------- | ---------------- |
+| 33 mg/ml      | 1.65 mg         | 8.25 mg          | 16.5 mg          |
+| 50 mg/ml      | 2.5 mg          | 12.5 mg          | 25 mg            |
+| 100 mg/ml     | 5 mg            | 25 mg            | 50 mg            |
+| 200 mg/ml     | 10 mg           | 50 mg            | 100 mg           |
 
 ### THC efectivo (absorbido vía sublingual ~40%)
 
