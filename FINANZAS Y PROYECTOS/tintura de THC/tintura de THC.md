@@ -21,6 +21,12 @@ GANADOR: Smirnoff X1 (50% ABV)
 > De qué nos sirve cargar mucha cantidad si el cuerpo no la absorbe.
 > La métrica correcta es: **¿Cuánto THC llega realmente al cerebro?**
 
+| Métrica                  | MCT        | Smirnoff X1 | ¿Cuál importa? |
+| ------------------------ | ---------- | ----------- | -------------- |
+| Solubilidad THC          | 100+ mg/ml | 50 mg/ml    | ❌ Secundaria   |
+| Absorción sublingual     | ~20-30%    | ~40-50%     | ✅ PRIMARIA     |
+| THC que llega al cerebro | Poco       | Mucho       | ✅ PRIMARIA     |
+| Comodidad usuario        | Baja       | Alta        | ✅ Importa      |
 
 
 ## Estado
