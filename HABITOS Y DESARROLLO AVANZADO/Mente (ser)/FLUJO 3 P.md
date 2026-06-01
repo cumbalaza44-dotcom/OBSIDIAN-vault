@@ -24,7 +24,7 @@ Presente, Encontrar la manera de disfrutar la vida
 ## Para que 
 ## Porque
 ## vivir = soy 
-## Aprender y practicar presente
+## practicar presente
 ## Increíble, disfrutar,aventura
 
 # Hábitos de mente
