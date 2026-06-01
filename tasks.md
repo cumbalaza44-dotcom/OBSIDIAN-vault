@@ -38,14 +38,11 @@ source: "Mr. Jair — iOS / Telegram"
 
 ## ⏳ MAÑANA — Martes 02/06
 
-<<<<<<< HEAD
 - [x] ✅ Verificar asiento de la moto
-- [x] 🔧 Desarmar, corregir y mantenimiento general al sistema de admisión `⏰ 08:00 AM` ✅ 2026-05-31
+- [x] 🔧 Desarmar, corregir y mantenimiento general al sistema de admisión ✅
 - [x] ✅ Cambiar llanta 90/90-19 doble propósito — completada 30/05
-=======
 - [ ] 📚 Lectura diaria (6:00 AM auto)
 - [ ] 📱 Purgar teléfono de apps y videos
->>>>>>> b421fd2 (JARVIS sync: 2026-05-31 22:12)
 
 ---
 
