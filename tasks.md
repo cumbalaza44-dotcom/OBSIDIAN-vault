@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `29 May 2026 — 18:40`
+### Última actualización: `31 May 2026 — 22:11`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -17,14 +17,14 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Viernes 29/05
+## 🔥 HOY — Lunes 01/06
 
 > *Estas son las prioridades del día. Enfócate.*
 
 | # | Tarea | Nota |
 |---|-------|------|
-| 1 | 📱 Purgar teléfono de apps y videos | *Hábitos.md* |
-| 2 | 🌱 Alistar plantilla + visita de gyms (día 1) | — |
+| 1 | 🔌 Traer multímetro — revisar equipo | — |
+| 2 | 📚 Iniciar hábito de lectura diaria (6 AM) | *habito -lectura/* |
 | 3 | 💪 Rutina de ejercicio (5 días) | — |
 
 ---
@@ -36,11 +36,16 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## ⏳ MAÑANA — Sábado 30/05
+## ⏳ MAÑANA — Martes 02/06
 
+<<<<<<< HEAD
 - [x] ✅ Verificar asiento de la moto
 - [x] 🔧 Desarmar, corregir y mantenimiento general al sistema de admisión `⏰ 08:00 AM` ✅ 2026-05-31
 - [x] ✅ Cambiar llanta 90/90-19 doble propósito — completada 30/05
+=======
+- [ ] 📚 Lectura diaria (6:00 AM auto)
+- [ ] 📱 Purgar teléfono de apps y videos
+>>>>>>> b421fd2 (JARVIS sync: 2026-05-31 22:12)
 
 ---
 
@@ -134,6 +139,6 @@ source: "Mr. Jair — iOS / Telegram"
 
 <div align="center">
 
-`🦾 J.A.R.V.I. — Si está aquí, está priorizado.`
+`🦾 H.E.L.E.N. — Si está aquí, está priorizado.`
 
 </div>
