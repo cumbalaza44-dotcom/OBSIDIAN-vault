@@ -28,7 +28,8 @@ source: "Mr. Jair — iOS / Telegram"
 | 3 | 💪 Rutina de ejercicio (5 días) | — |
 
 ---
-
+- [ ] Ciclo de trabajo de estructurar todo el vault de acuerdo a nuestros flujo de creación y práctica de todo el desarrollo 📅 2026-06-01 
+-
 ## 📅 LUNES 01/06
 
 - [ ] 🔌 Traer multímetro — revisar equipo
@@ -38,7 +39,7 @@ source: "Mr. Jair — iOS / Telegram"
 ## ⏳ MAÑANA — Sábado 30/05
 
 - [x] ✅ Verificar asiento de la moto
-- [ ] 🔧 Desarmar, corregir y mantenimiento general al sistema de admisión `⏰ 08:00 AM`
+- [x] 🔧 Desarmar, corregir y mantenimiento general al sistema de admisión `⏰ 08:00 AM` ✅ 2026-05-31
 - [x] ✅ Cambiar llanta 90/90-19 doble propósito — completada 30/05
 
 ---
