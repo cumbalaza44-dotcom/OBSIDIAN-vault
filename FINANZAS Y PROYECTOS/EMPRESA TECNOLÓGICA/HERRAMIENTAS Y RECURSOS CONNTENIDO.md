@@ -64,4 +64,8 @@ Herramientas para ayudarte:
 ·	Grabadora para practicar la narración
 
 
-Recuerda que la práctica y la creatividad son clave para desarrollar historias efectivas.
+Recuerda que la práctica y la creatividad son clave para desarrollar historias efectivas
+
+## otros 
+Estructurar con nuevo flujo de trabajo 
+Contenido 
