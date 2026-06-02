@@ -5,20 +5,37 @@
 **Equipamiento:** Peso corporal + mancuernas 5kg
 **Duración:** 5 días/semana | 2 horas/sesión
 **Inicio:** 01/06/2026
+**Frecuencia:** 2x por grupo muscular / semana
 
 ---
 
-## 📋 Estructura Semanal (PPL + Upper/Lower)
+## 📋 Estructura Semanal (Frecuencia 2)
 
 | Día | Enfoque | Grupo principal |
 |-----|---------|-----------------|
-| Lunes | **Push** | Pecho, hombros, tríceps |
-| Martes | **Pull** | Espalda, bíceps |
-| Miércoles | **Legs** | Cuádriceps, glúteos, isquiotibiales |
-| Jueves | **Upper** | Tren superior completo |
-| Viernes | **Lower + Core** | Piernas + abdomen |
+| Lunes | **Tren Superior Completo** | Pecho, espalda, hombros, brazos |
+| Martes | **Pierna 1** | Cuádriceps, glúteos, pantorrillas |
+| Miércoles | **Espalda + Bíceps** | Espalda completa, bíceps, rear delts |
+| Jueves | **Pecho + Tríceps** | Pecho, tríceps, hombro anterior |
+| Viernes | **Pierna 2** | Isquiotibiales, glúteos, cuádriceps |
 | Sábado | Descanso activo | Movilidad, caminar |
 | Domingo | Descanso total | Recuperación |
+
+---
+
+## 📊 Cobertura por Grupo Muscular
+
+| Grupo muscular | Día 1 | Día 2 | Frecuencia |
+|----------------|-------|-------|------------|
+| Pecho | Lunes | Jueves | 2x |
+| Espalda | Lunes | Miércoles | 2x |
+| Hombros | Lunes | (estabilización) | 1-2x |
+| Bíceps | Lunes | Miércoles | 2x |
+| Tríceps | Lunes | Jueves | 2x |
+| Cuádriceps | Martes | Viernes | 2x |
+| Isquiotibiales | Martes | Viernes | 2x |
+| Glúteos | Martes | Viernes | 2x |
+| Pantorrillas | Martes | Viernes | 2x |
 
 ---
 
@@ -50,6 +67,7 @@
 - [ ] Aumentar peso corporal: ___ kg actual → ___ kg objetivo
 - [ ] Progresión en dificultad de ejercicios (variaciones más avanzadas)
 - [ ] Establecer hábito de entrenamiento consistente
+- [ ] Mantener frecuencia 2 por grupo muscular
 
 ---
 
