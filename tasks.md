@@ -23,7 +23,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 | # | Tarea | Nota |
 |---|-------|------|
-| 1 | 🔌 Traer multímetro — revisar equipo | — |
+| 1 | 🔌 Traer multímetro — revisar equipo | ✅ Completado |
 | 2 | 📚 Iniciar hábito de lectura diaria (6 AM) | *habito -lectura/* |
 | 3 | 💪 Rutina de ejercicio (5 días) | — |
 
@@ -32,7 +32,7 @@ source: "Mr. Jair — iOS / Telegram"
 -
 ## 📅 LUNES 01/06
 
-- [ ] 🔌 Traer multímetro — revisar equipo
+- [x] 🔌 Traer multímetro — revisar equipo ✅
 
 ---
 
@@ -92,7 +92,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 ### ⏫ Prioridad Alta
 
-- [ ] Terminar migración manual recordatorios — *Objetivo Personal corto.md* 🔄 *(Apple → Obsidian)*
+- [ ] Terminar migración manual recordatorios — *Objetivo Personal corto.md* 🔄 *(Apple → Obsidian) — En progreso 01/06*
 
 ### ✅ Completados
 
