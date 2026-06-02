@@ -25,7 +25,7 @@ source: "Mr. Jair — iOS / Telegram"
 |---|-------|------|
 | 1 | 🔌 Traer multímetro — revisar equipo | ✅ Completado |
 | 2 | 📚 Iniciar hábito de lectura diaria (6 AM) | *habito -lectura/* |
-| 3 | 💪 Rutina de ejercicio (5 días) | — |
+| 3 | 💪 Rutina de ejercicio (5 días) | ✅ Plan creado 01/06 |
 
 ---
 - [ ] Ciclo de trabajo de estructurar todo el vault de acuerdo a nuestros flujo de creación y práctica de todo el desarrollo 📅 2026-06-01 
