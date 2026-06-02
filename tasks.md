@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `31 May 2026 — 22:11`
+### Última actualización: `02 Jun 2026 — 07:54`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -17,33 +17,33 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Lunes 01/06
+## 🔥 HOY — Martes 02/06
 
 > *Estas son las prioridades del día. Enfócate.*
 
-| # | Tarea | Nota |
-|---|-------|------|
-| 1 | 🔌 Traer multímetro — revisar equipo | ✅ Completado |
-| 2 | 📚 Iniciar hábito de lectura diaria (6 AM) | *habito -lectura/* |
-| 3 | 💪 Rutina de ejercicio (5 días) | ✅ Plan creado 01/06 |
-
----
-- [ ] Ciclo de trabajo de estructurar todo el vault de acuerdo a nuestros flujo de creación y práctica de todo el desarrollo 📅 2026-06-01 
--
-## 📅 LUNES 01/06
-
-- [x] 🔌 Traer multímetro — revisar equipo ✅
+| # | Tarea | Estado |
+|---|-------|--------|
+| 1 | 📚 Lectura diaria (6:00 AM) | ✅ Completado |
+| 2 | 🏋️ **PIERNA 1** — Reto fitness junio (Día 1) | 🔄 En progreso |
+| 3 | 📱 Purgar teléfono de apps y videos | ⏳ Pendiente |
 
 ---
 
-## ⏳ MAÑANA — Martes 02/06
+## 📅 LUNES 01/06 — Completado
 
+- [x] 🔌 Traer multímetro — revisar equipo
 - [x] ✅ Verificar asiento de la moto
-- [x] 🔧 Desarmar, corregir y mantenimiento general al sistema de admisión ✅
-- [x] ✅ Cambiar llanta 90/90-19 doble propósito — completada 30/05
+- [x] 🔧 Desarmar, corregir y mantenimiento general al sistema de admisión
+- [x] ✅ Cambiar llanta 90/90-19 doble propósito (completada 30/05)
+- [x] 💪 Rutina de ejercicio — Plan creado
+
+---
+
+## ⏳ MAÑANA — Miércoles 03/06
+
 - [ ] 📚 Lectura diaria (6:00 AM auto)
-- [ ] 📱 Purgar teléfono de apps y videos
-- [ ] 🏋️ **PIERNA 1** — Reto fitness junio (Día 1) — *Rutinas Diarias - Junio 2026.md*
+- [ ] 🏋️ **ESPALDA + BÍCEPS** — Reto fitness junio (Día 2) — *Rutinas Diarias - Junio 2026.md*
+- [ ] 📱 Purgar teléfono de apps y videos (si no se completó hoy)
 
 ---
 
