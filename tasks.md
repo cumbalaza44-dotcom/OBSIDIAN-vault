@@ -43,6 +43,7 @@ source: "Mr. Jair — iOS / Telegram"
 - [x] ✅ Cambiar llanta 90/90-19 doble propósito — completada 30/05
 - [ ] 📚 Lectura diaria (6:00 AM auto)
 - [ ] 📱 Purgar teléfono de apps y videos
+- [ ] 🏋️ **PIERNA 1** — Reto fitness junio (Día 1) — *Rutinas Diarias - Junio 2026.md*
 
 ---
 
