@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `02 Jun 2026 — 21:13`
+### Última actualización: `02 Jun 2026 — 23:55`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -17,15 +17,19 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Martes 02/06
+## 🔥 HOY — Miércoles 03/06
 
 > *Estas son las prioridades del día. Enfócate.*
 
 | # | Tarea | Estado |
 |---|-------|--------|
-| 1 | 📚 Lectura diaria (6:00 AM) | ✅ Completado |
-| 2 | 🏋️ **PIERNA 1** — Reto fitness junio (Día 1) | ✅ Completado |
-| 3 | 📱 Purgar teléfono de apps y videos | ✅ Completado |
+| 1 | 📚 Lectura diaria (6:00 AM) | ⏳ Pendiente |
+| 2 | 🏋️ **ESPALDA + BÍCEPS** — Reto fitness junio (Día 2) | ⏳ Pendiente |
+
+### 📢 META ADS — Fase 1: Fundamentos
+- [ ] 🎯 Definir nicho específico para la campaña — *META ADS.md*
+- [ ] 🔍 Investigar primeros 5 productos ganadores (de 10) — *META ADS.md*
+- [ ] 👥 Analizar 2-3 competidores en Facebook Ad Library — *META ADS.md*
 
 ---
 
@@ -39,15 +43,12 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## ⏳ MAÑANA — Miércoles 03/06
+## ⏳ MAÑANA — Jueves 04/06
 
-- [ ] 📚 Lectura diaria (6:00 AM auto)
-- [ ] 🏋️ **ESPALDA + BÍCEPS** — Reto fitness junio (Día 2) — *Rutinas Diarias - Junio 2026.md*
+- [ ] 📚 Lectura diaria (6:00 AM)
+- [ ] 🏋️ Reto fitness junio (Día 3)
 
-### 📢 META ADS — Fase 1: Fundamentos
-- [ ] 🎯 Definir nicho específico para la campaña — *META ADS.md*
-- [ ] 🔍 Investigar primeros 5 productos ganadores (de 10) — *META ADS.md*
-- [ ] 👥 Analizar 2-3 competidores en Facebook Ad Library — *META ADS.md*
+---
 
 ---
 
