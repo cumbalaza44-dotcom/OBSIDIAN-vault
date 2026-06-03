@@ -186,6 +186,69 @@ tags: [meta-ads, marketing, e-commerce, publicidad]
 
 ---
 
+## 🔄 Flujo de Campaña — Registro de Iteraciones
+
+> *Lo que funciona, se repite. Lo que falla, se ajusta. Esto es nuestro playbook vivo.*
+
+### Cómo usar esta sección:
+1. **Testear** → registrar aquí qué probamos
+2. **Medir** → anotar resultados (KPIs)
+3. **Decidir** → escalar, pausar o iterar
+4. **Repeat** → el ciclo nunca se detiene
+
+---
+
+### 📋 Iteración #1 — [Fecha]
+
+| Campo | Detalle |
+|-------|--------|
+| **Nicho** | [Definido] |
+| **Producto** | [Nombre del producto] |
+| **Hook (Gancho)** | [Texto del gancho] |
+| **Formato** | [Video/Imagen/Carousel] |
+| **Copy** | [Resumen del copy] |
+| **Audiencia** | [Edad, intereses, ubicación] |
+| **Presupuesto** | [$/día] |
+| **Duración** | [Días activa] |
+
+**Resultados:**
+| Métrica | Resultado |
+|---------|----------|
+| CTR | |
+| CPC | |
+| ROAS | |
+| Conversiones | |
+
+**Veredicto:** [ ] Escalar · [ ] Ajustar · [ ] Pausar
+**Aprendizaje:** [Qué aprendimos de esta prueba]
+**Siguiente paso:** [Qué iteramos la próxima vez]
+
+---
+
+<!-- Copiar el bloque de arriba para cada nueva iteración -->
+
+### 🏆 Hallazgos Clave
+
+> *Patrones que hemos confirmado después de múltiples tests.*
+
+| Variable | Lo que funciona | Lo que NO funciona |
+|----------|----------------|-------------------|
+| **Hooks** | *Por definir* | *Por definir* |
+| **Formato** | *Por definir* | *Por definir* |
+| **Copy** | *Por definir* | *Por definir* |
+| **Audiencia** | *Por definir* | *Por definir* |
+| **Horarios** | *Por definir* | *Por definir* |
+
+---
+
+### 🎯 Fórmulas Ganadoras Confirmadas
+
+> *Aquí guardamos las fórmulas de copy, hooks y estructuras que funcionan.*
+
+*(Se irán agregando con cada iteración exitosa)*
+
+---
+
 ## 📊 Métricas Clave (KPIs)
 
 | Métrica | Objetivo Mínimo | Excelente |
