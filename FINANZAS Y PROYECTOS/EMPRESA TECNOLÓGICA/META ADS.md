@@ -16,6 +16,76 @@ tags: [meta-ads, marketing, e-commerce, publicidad]
 
 ---
 
+### FASE 0 — Análisis de Nichos (Pre-Fundamentos)
+
+> *Antes de construir, hay que elegir el terreno correcto.*
+
+#### 🧭 Marco de Evaluación de Nichos
+
+**Criterios de puntuación (1-5 cada uno):**
+
+| Criterio | Pregunta clave | Peso |
+|----------|----------------|------|
+| **🔥 Demanda** | ¿La gente busca esto activamente? | x3 |
+| **💰 Margen** | ¿Se puede vender con 40%+ de ganancia? | x3 |
+| **🎯 Competencia** | ¿Hay espacio para entrar o está saturado? | x2 |
+| **❤️ Pasión personal** | ¿Me apasiona o lo vendo solo por dinero? | x2 |
+| **📦 Facilidad logística** | ¿Es fácil de enviar y almacenar? | x1 |
+| **📈 Tendencia** | ¿Está creciendo o en declive? | x1 |
+
+**Fórmula:** Suma ponderada / 45 = Score final (máx 5.0)
+
+---
+
+#### 📊 Comparativo de Nichos Candidatos
+
+| Criterio | 🏍️ Motos | 💪 Fitness | 🔧 Tech Gadgets |
+|----------|----------|------------|------------------|
+| **🔥 Demanda** | /5 | /5 | /5 |
+| **💰 Margen** | /5 | /5 | /5 |
+| **🎯 Competencia** | /5 | /5 | /5 |
+| **❤️ Pasión personal** | /5 | /5 | /5 |
+| **📦 Logística** | /5 | /5 | /5 |
+| **📈 Tendencia** | /5 | /5 | /5 |
+| **Puntuación** | /45 | /45 | /45 |
+
+---
+
+#### 🔍 Análisis Profundo por Nicho
+
+##### 🏍️ Nicho: Motos / Accesorios Moto
+**Por investigar:**
+- Tamaño del mercado motero en Colombia
+- Categorías con mayor demanda (cascos, guantes, accesorios, repuestos)
+- Tickets promedio y márgenes típicos
+- Competidores activos en Meta Ads
+
+##### 💪 Nicho: Fitness / Deportes
+**Por investigar:**
+- Subnicho específico (ropa, suplementos, equipamiento, accesorios)
+- Tendencias post-pandemia en Colombia
+- Estacionalidad (reto fitness, verano, etc.)
+- Marcas dominantes vs oportunidades
+
+##### 🔧 Nicho: Tech Gadgets
+**Por investigar:**
+- Categorías con mejor rotación (audio, smart home, wearables)
+- Diferenciadores vs Amazon/AliExpress directo
+- Margen real después de envío y devoluciones
+- Perfil del comprador colombiano de tech
+
+---
+
+#### ✅ Checklist de Decisión
+
+- [ ] Investigar los 3 nichos con datos reales
+- [ ] Completar tabla comparativa con puntuaciones
+- [ ] Seleccionar TOP 1 nicho (o TOP 2 para testing paralelo)
+- [ ] Justificar decisión por escrito
+- [ ] Avanzar a FASE 1 con nicho definido
+
+---
+
 ### FASE 1 — Fundamentos (Semana 1)
 
 > *Sin fundamento sólido, no hay campaña que escale.*
