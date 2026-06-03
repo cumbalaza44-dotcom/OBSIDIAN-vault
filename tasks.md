@@ -24,8 +24,8 @@ source: "Mr. Jair — iOS / Telegram"
 | # | Tarea | Estado |
 |---|-------|--------|
 | 1 | 📚 Lectura diaria (6:00 AM) | ✅ Completado |
-| 2 | 🏋️ **PIERNA 1** — Reto fitness junio (Día 1) | 🔄 En progreso |
-| 3 | 📱 Purgar teléfono de apps y videos | ⏳ Pendiente |
+| 2 | 🏋️ **PIERNA 1** — Reto fitness junio (Día 1) | ✅ Completado |
+| 3 | 📱 Purgar teléfono de apps y videos | ✅ Completado |
 
 ---
 
