@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `02 Jun 2026 — 07:54`
+### Última actualización: `02 Jun 2026 — 21:13`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -43,7 +43,11 @@ source: "Mr. Jair — iOS / Telegram"
 
 - [ ] 📚 Lectura diaria (6:00 AM auto)
 - [ ] 🏋️ **ESPALDA + BÍCEPS** — Reto fitness junio (Día 2) — *Rutinas Diarias - Junio 2026.md*
-- [ ] 📱 Purgar teléfono de apps y videos (si no se completó hoy)
+
+### 📢 META ADS — Fase 1: Fundamentos
+- [ ] 🎯 Definir nicho específico para la campaña — *META ADS.md*
+- [ ] 🔍 Investigar primeros 5 productos ganadores (de 10) — *META ADS.md*
+- [ ] 👥 Analizar 2-3 competidores en Facebook Ad Library — *META ADS.md*
 
 ---
 
@@ -62,11 +66,17 @@ source: "Mr. Jair — iOS / Telegram"
 - [ ] Ajustar proyecciones si es necesario — *Recordatorios.md*
 - [ ] Ciclo de trabajo 🔁 — *Evolución MT5.md*
 
+### 📢 META ADS — Fase 1: Fundamentos (Semana 1)
+- [ ] 🎯 Definir nicho específico — *META ADS.md*
+- [ ] 🔍 Investigar 10 productos ganadores — *META ADS.md*
+- [ ] 👥 Analizar 5 competidores (Ad Library) — *META ADS.md*
+- [ ] 🎯 Definir público objetivo — *META ADS.md*
+- [ ] 💰 Establecer presupuesto inicial ($5-10 USD/día) — *META ADS.md*
+
 ### 🛒 E-Commerce & Marketing
 
 - [ ] Aprender storytelling de venta — *META ADS.md*
 - [ ] Curso de Shopify y e-commerce — *ESTAPA 1.md*
-- [ ] Investigar campaña de meta ads — *ESTAPA 1.md*
 
 ---
 
