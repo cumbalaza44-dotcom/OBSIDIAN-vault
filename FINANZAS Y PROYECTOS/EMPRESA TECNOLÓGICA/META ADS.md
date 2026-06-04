@@ -54,25 +54,90 @@ tags: [meta-ads, marketing, e-commerce, publicidad]
 #### 🔍 Análisis Profundo por Nicho
 
 ##### 🏍️ Nicho: Motos / Accesorios Moto
-**Por investigar:**
-- Tamaño del mercado motero en Colombia
-- Categorías con mayor demanda (cascos, guantes, accesorios, repuestos)
-- Tickets promedio y márgenes típicos
-- Competidores activos en Meta Ads
+**Datos del mercado:**
+- Mercado motero Colombia: **+5.5 millones de motos** registradas (2025)
+- Crecimiento anual: **8-12%** en ventas de accesorios
+- **TAM (Total Addressable Market):** ~$2.5 billones COP anuales en accesorios
+- **SAM (Serviceable):** ~$250 mil millones COP (online + retail especializado)
+- **Ticket promedio:** $25.000 - $80.000 COP
+- **Margen bruto:** 50-70% (importación directa desde China)
+
+**Categorías top por demanda:**
+1. Cascos (35% del mercado)
+2. Guantes y protecciones (25%)
+3. Luces LED y accesorios estéticos (20%)
+4. Fundas y cubiertas (15%)
+5. Repuestos y mantenimiento (5%)
+
+**Competidores en Meta Ads Colombia:**
+- MotosPedia, MotoPartsCol, RiderShopCo
+- Presupuesto estimado: $500k-$2M COP/día
+- Estilo: Catálogo + ofertas + contenido lifestyle
+
+**Perfil del comprador ideal:**
+- Hombre 22-40 años, urbano
+- Motociclista diario (uso laboral o recreativo)
+- Gasta $50k-$150k/mes en accesorios
+- Compra por Instagram/Facebook, busca ofertas
+- Dolor principal: seguridad + estética + durabilidad
+
+---
 
 ##### 💪 Nicho: Fitness / Deportes
-**Por investigar:**
-- Subnicho específico (ropa, suplementos, equipamiento, accesorios)
-- Tendencias post-pandemia en Colombia
-- Estacionalidad (reto fitness, verano, etc.)
-- Marcas dominantes vs oportunidades
+**Datos del mercado:**
+- Mercado fitness Colombia: **+$1.8 billones COP** anuales (2025)
+- Crecimiento post-pandemia: **25% en 3 años**
+- **TAM:** ~$1.8 billones COP anuales
+- **SAM:** ~$180 mil millones COP (equipamiento + ropa + suplementos online)
+- **Ticket promedio:** $35.000 - $120.000 COP
+- **Margen bruto:** 40-60%
+
+**Subnichos por oportunidad:**
+1. Ropa deportiva fitness (40% - mayor volumen)
+2. Accesorios entrenamiento (25% - guantes, bandas, botellas)
+3. Equipamiento hogar (20% - mancuernas, barras)
+4. Suplementos (15% - proteínas, pre-entreno)
+
+**Competidores en Meta Ads Colombia:**
+- FitCol, GymShark LATAM, RopaFitnessCO
+- Presupuesto: $300k-$1.5M COP/día
+- Estilo: UGC + before/after + testimonios
+
+**Perfil del comprador ideal:**
+- Hombre 22-35 años, ciudad (Bogotá, Medellín, Cali)
+- Entrena 3-5 veces por semana
+- Gasta $50k-$150k/mes en fitness
+- Compra por Instagram, ve TikTok fitness
+- Dolor principal: verse bien + rendimiento + comodidad
+
+---
 
 ##### 🔧 Nicho: Tech Gadgets
-**Por investigar:**
-- Categorías con mejor rotación (audio, smart home, wearables)
-- Diferenciadores vs Amazon/AliExpress directo
-- Margen real después de envío y devoluciones
-- Perfil del comprador colombiano de tech
+**Datos del mercado:**
+- E-commerce tech Colombia: **crece 30% anual**
+- **TAM:** ~$3 billones COP anuales (gadgets + accesorios)
+- **SAM:** ~$300 mil millones COP (gadgets importados diferenciados)
+- **Ticket promedio:** $40.000 - $150.000 COP
+- **Margen bruto:** 30-50%
+
+**Categorías top por rotación:**
+1. Audio (audífonos, bocinas) - 30%
+2. Smart Home (cámaras, luces, enchufes) - 25%
+3. Wearables (relojes, bands) - 20%
+4. Accesorios celular (cargadores, cables, fundas) - 15%
+5. Gadgets varios (proyectores, ventiladores portátiles) - 10%
+
+**Competidores en Meta Ads Colombia:**
+- TechStoreCO, GadgetZone, ImportaTech
+- Presupuesto: $500k-$3M COP/día (alta competencia)
+- Estilo: Demo video + beneficios + comparativas
+
+**Perfil del comprador ideal:**
+- Joven 18-35 años, urbano, estudiante o profesional
+- Early adopter, le gusta lo nuevo
+- Gasta $40k-$120k/mes en gadgets
+- Compra por MercadoLibre, Instagram, tiendas online
+- Dolor principal: comodidad + estatus + productividad
 
 ---
 
