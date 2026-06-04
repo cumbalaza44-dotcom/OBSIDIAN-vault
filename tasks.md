@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `03 Jun 2026 — 23:55`
+### Última actualización: `04 Jun 2026 — 19:00`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -47,7 +47,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 | # | Tarea | Estado | Prioridad |
 |---|-------|--------|----------|
-| 1 | 📚 Lectura diaria (6:00 AM) | ⏳ | 🟡 |
+| 1 | 📚 Lectura diaria (6:00 AM) | ✅ | 🟡 |
 | 2 | 🏋️ **PECHO + TRÍCEPS** — Reto fitness junio (Día 3) | ⏳ | 🔴 |
 | 3 | 💊 Empezar a tomar creatina (3-5g post-entreno con carbohidratos) | ⏳ | 🟢 |
 | 4 | 🔍 Investigar primeros 5 productos ganadores — Meta Ads | ⏳ | 🟡 |
