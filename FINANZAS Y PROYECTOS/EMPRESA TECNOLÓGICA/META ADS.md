@@ -459,6 +459,152 @@ PUENTE: [Producto] te conecta ambos mundos.
 
 ---
 
+## 📘 MANUAL DE OPERACIONES — Campañas Meta Ads
+
+> *Sistema reutilizable para cualquier nicho. Cada campaña alimenta el manual.*
+
+---
+
+### 🧠 CAPÍTULO 1: Análisis de Nicho (antes de invertir)
+
+**Checklist de evaluación:**
+- [ ] Identificar DOLOR (problema que resuelve el producto)
+- [ ] Definir SEGMENTO (comprador específico con 4 preguntas)
+- [ ] Clarificar SOLUCIÓN (resultado emocional, no solo features)
+- [ ] Analizar ECONOMÍA DEL CLIENTE (cuánto gana, cuánto gasta)
+- [ ] Calcular VIABILIDAD (TAM, SAM, SOM, LTV vs CAC)
+
+**Fórmula de decisión:**
+```
+Score Nicho = (Demanda×3 + Margen×3 + Competencia×2 + Pasión×2 + Logística×1 + Tendencia×1) / 45
+```
+
+---
+
+### 🎯 CAPÍTULO 2: Investigación de Productos Ganadores
+
+**Fuentes para encontrar productos:**
+1. AliExpress → Más vendidos + reseñas >4.5 estrellas
+2. Amazon → Best Sellers en categoría
+3. TikTok Shop → Trending products
+4. Facebook Ad Library → Qué está anunciando la competencia
+
+**Criterios de selección (mínimo 7/10):**
+| Criterio | Puntuación |
+|----------|------------|
+| Precio venta: $30k-$150k COP | /10 |
+| Margen >40% | /10 |
+| Fácil de enviar (no frágil) | /10 |
+| Demanda demostrada (reseñas) | /10 |
+| Diferenciador vs competencia | /10 |
+| Estacional o trending | /10 |
+| Fácil de mostrar en video | /10 |
+| Bajo costo de devolución | /10 |
+| Compatible con pago contraentrega | /10 |
+| Historial de ventas en Colombia | /10 |
+
+---
+
+### 👥 CAPÍTULO 3: Análisis de Competidores
+
+**Qué espiar (Facebook Ad Library):**
+- [ ] Cuánto tiempo llevan activos sus anuncios (>30 días = rentable)
+- [ ] Tipo de creatividad (video vs imagen)
+- [ ] Estilo de copy (largo vs corto, emocional vs racional)
+- [ ] Ofertas principales (descuentos, envío gratis, packs)
+- [ ] Landing page (diseño, CTA, forma de pago)
+- [ ] Comentarios y reseñas (qué dicen los clientes)
+
+**Plantilla de análisis:**
+| Competidor | Antigüedad anuncio | Estilo creativo | Oferta | Precio | Puntuación |
+|------------|-------------------|-----------------|--------|--------|------------|
+| [Nombre] | [Días activo] | [Video/Imagen] | [Tipo] | [$COP] | /10 |
+
+---
+
+### ✍️ CAPÍTULO 4: Copy y Creatividades
+
+**Estructura de copy ganadora (3 partes):**
+1. **GANCHO** (0-3s) → Pregunta o afirmación que detiene el scroll
+2. **CUERPO** (3-20s) → Problema + solución + beneficios + prueba social
+3. **CTA** (20-30s) → Acción específica + urgencia
+
+**Tipos de gancho por nicho:**
+| Nicho | Gancho emocional | Gancho racional |
+|-------|------------------|------------------|
+| Fitness | "¿Cansado de no ver resultados?" | "La rutina que cambi tu cuerpo en 30 días" |
+| Motos | "¿Tu moto se ve igual que todas?" | "Accesorio que reduce accidentes 40%" |
+| Tech | "¿Por qué seguir con lo básico?" | "El gadget que te ahorra 2 horas diarias" |
+
+---
+
+### 📊 CAPÍTULO 5: Métricas y Optimización
+
+**Dashboard de control (revisar diario):**
+| Métrica | ✅ Bueno | ⚠️ Ajustar | ❌ Pausar |
+|---------|----------|------------|----------|
+| CTR | >1.5% | 0.8-1.5% | <0.8% |
+| CPC | <$1.000 | $1.000-$2.000 | >$2.000 |
+| ROAS | >2.5x | 1.5x-2.5x | <1.5x |
+| Frecuencia | <2.0 | 2.0-3.0 | >3.0 |
+| Conversión Landing | >3% | 1.5-3% | <1.5% |
+
+**Regla de oro:**
+- **Días 1-3:** Solo observar, NO tocar
+- **Días 4-7:** Pausar lo que falla, escalar lo que funciona
+- **Días 8-14:** Iterar creatividades, duplicar ganadores
+
+---
+
+### 💰 CAPÍTULO 6: Presupuesto y Escalamiento
+
+**Estructura de presupuesto:**
+| Fase | Presupuesto/día | Duración | Objetivo |
+|------|-----------------|----------|----------|
+| Testing | $15.000-$30.000 COP | 7 días | Encontrar ganador |
+| Validación | $30.000-$60.000 COP | 7 días | Confirmar datos |
+| Escalamiento | $60.000-$150.000 COP | 14 días | Maximizar ganancias |
+
+**Regla de escalamiento:**
+- Nunca aumentar más del **20%** del presupuesto cada 2-3 días
+- Si el ROAS baja del 2x → pausar, no reducir gradualmente
+- Duplicar conjunto ganador con audiencia similar, no aumentar el mismo
+
+---
+
+### 🔄 CAPÍTULO 7: Iteración y Learning Loop
+
+**Proceso de mejora continua:**
+```
+Testear → Registrar (Flujo de Campaña) → Analizar → Aprender → Iterar
+```
+
+**Preguntas post-campaña (siempre):**
+1. ¿Qué funcionó? → **Hacer más de eso**
+2. ¿Qué falló? → **Evitarlo en la próxima**
+3. ¿Qué sorprendió? → **Investigar por qué**
+4. ¿Qué haría diferente? → **Aplicar en la siguiente**
+
+**Actualización del manual:**
+- Después de CADA campaña: actualizar "Hallazgos Clave"
+- Cada 3 meses: revisar y refinar fórmulas
+- Siempre: documentar TODO en Flujo de Campaña
+
+---
+
+### 🛡️ CAPÍTULO 8: Errores Comunes (y cómo evitarlos)
+
+| Error | Consecuencia | Solución |
+|-------|-------------|----------|
+| Escalar sin datos | Dinero quemado | Siempre 7 días de testing mínimo |
+| Cambiar todo de golpe | No sabes qué falló | Cambiar 1 variable a la vez |
+| Ignorar métricas | Campañas no rentables | Revisar dashboard diario |
+| No registrar aprendizajes | Repetir errores | Documentar en Flujo de Campaña |
+| Copiar competidores exacto | Sin diferenciación | Adaptar, no copiar |
+| Precio muy bajo | Márgenes imposibles | Calcular costo real + margen |
+
+---
+
 <div align="center">
 
 `🦾 H.E.L.E.N. — De idea a campaña en 4 semanas.`
