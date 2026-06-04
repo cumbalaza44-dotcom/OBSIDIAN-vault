@@ -49,6 +49,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 - [ ] 📚 Lectura diaria (6:00 AM)
 - [ ] 🏋️ Reto fitness junio (Día 3)
+- [ ] 💊 Empezar a tomar creatina (3-5g post-entreno con carbohidratos)
 
 ---
 
