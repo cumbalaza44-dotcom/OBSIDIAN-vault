@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `02 Jun 2026 — 23:55`
+### Última actualización: `03 Jun 2026 — 20:45`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -23,11 +23,13 @@ source: "Mr. Jair — iOS / Telegram"
 
 | # | Tarea | Estado |
 |---|-------|--------|
-| 1 | 📚 Lectura diaria (6:00 AM) | ⏳ Pendiente |
+| 1 | 📚 Lectura diaria (6:00 AM) | ✅ Completada |
 | 2 | 🏋️ **ESPALDA + BÍCEPS** — Reto fitness junio (Día 2) | ⏳ Pendiente |
 
-### 📢 META ADS — Fase 1: Fundamentos
-- [ ] 🎯 Definir nicho específico para la campaña — *META ADS.md*
+### 📢 META ADS — Fase 1: Fundamentos ✅
+- [x] 🎯 Definir nicho específico (Fitness seleccionado) — *META ADS.md*
+- [x] 📊 Análisis profundo de 3 nichos (Motos, Fitness, Tech) — *META ADS.md*
+- [x] 📘 Manual de Operaciones creado (8 capítulos) — *META ADS.md*
 - [ ] 🔍 Investigar primeros 5 productos ganadores (de 10) — *META ADS.md*
 - [ ] 👥 Analizar 2-3 competidores en Facebook Ad Library — *META ADS.md*
 
