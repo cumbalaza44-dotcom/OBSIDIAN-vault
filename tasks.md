@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `03 Jun 2026 — 20:45`
+### Última actualización: `03 Jun 2026 — 23:55`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -17,14 +17,10 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Miércoles 03/06
+## MIÉRCOLES 03/06 — Completado
 
-> *Estas son las prioridades del día. Enfócate.*
-
-| # | Tarea | Estado |
-|---|-------|--------|
-| 1 | 📚 Lectura diaria (6:00 AM) | ✅ Completada |
-| 2 | 🏋️ **ESPALDA + BÍCEPS** — Reto fitness junio (Día 2) | ⏳ Pendiente |
+- [x] 📚 Lectura diaria (6:00 AM)
+- [ ] 🏋️ ESPALDA + BÍCEPS — Reto fitness junio (Día 2) → pendiente, no completada
 
 ### 📢 META ADS — Fase 1: Fundamentos ✅
 - [x] 🎯 Definir nicho específico (Fitness seleccionado) — *META ADS.md*
@@ -45,11 +41,16 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## ⏳ MAÑANA — Jueves 04/06
+## 🔥 HOY — Jueves 04/06
 
-- [ ] 📚 Lectura diaria (6:00 AM)
-- [ ] 🏋️ Reto fitness junio (Día 3)
-- [ ] 💊 Empezar a tomar creatina (3-5g post-entreno con carbohidratos)
+> *Día nuevo, nueva oportunidad. Mantén la racha.*
+
+| # | Tarea | Estado | Prioridad |
+|---|-------|--------|----------|
+| 1 | 📚 Lectura diaria (6:00 AM) | ⏳ | 🟡 |
+| 2 | 🏋️ **PECHO + TRÍCEPS** — Reto fitness junio (Día 3) | ⏳ | 🔴 |
+| 3 | 💊 Empezar a tomar creatina (3-5g post-entreno con carbohidratos) | ⏳ | 🟢 |
+| 4 | 🔍 Investigar primeros 5 productos ganadores — Meta Ads | ⏳ | 🟡 |
 
 ---
 
