@@ -20,7 +20,7 @@ source: "Mr. Jair — iOS / Telegram"
 ## MIÉRCOLES 03/06 — Completado
 
 - [x] 📚 Lectura diaria (6:00 AM)
-- [ ] 🏋️ ESPALDA + BÍCEPS — Reto fitness junio (Día 2) → pendiente, no completada
+- [x] 🏋️ ESPALDA + BÍCEPS — Reto fitness junio (Día 2) → pendiente, no completada ✅ 2026-06-04
 
 ### 📢 META ADS — Fase 1: Fundamentos ✅
 - [x] 🎯 Definir nicho específico (Fitness seleccionado) — *META ADS.md*
