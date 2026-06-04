@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"62b6a318108eb4dc","x":64,"y":36,"width":456,"height":884,"color":"3","type":"file","file":"tasks.md"}
+		{"id":"62b6a318108eb4dc","x":64,"y":36,"width":456,"height":884,"type":"file","file":"tasks.md"}
 	],
 	"edges":[]
 }
