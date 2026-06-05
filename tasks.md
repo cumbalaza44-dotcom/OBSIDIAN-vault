@@ -49,7 +49,7 @@ source: "Mr. Jair — iOS / Telegram"
 |---|-------|--------|----------|
 | 1 | 📚 Lectura diaria (6:00 AM) | ✅ | 🟡 |
 | 2 | 🏋️ **PECHO + TRÍCEPS** — Reto fitness junio (Día 3) | ✅ | 🔴 |
-| 3 | 💊 Empezar a tomar creatina (3-5g post-entreno con carbohidratos) | ⏳ | 🟢 |
+| 3 | 💊 Empezar a tomar creatina (3-5g post-entreno con carbohidratos) | ✅ | 🟢 |
 | 4 | 🔍 Investigar primeros 5 productos ganadores — Meta Ads | ⏳ | 🟡 |
 
 ---
