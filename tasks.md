@@ -26,7 +26,7 @@ source: "Mr. Jair — iOS / Telegram"
 - [x] 🎯 Definir nicho específico (Fitness seleccionado) — *META ADS.md*
 - [x] 📊 Análisis profundo de 3 nichos (Motos, Fitness, Tech) — *META ADS.md*
 - [x] 📘 Manual de Operaciones creado (8 capítulos) — *META ADS.md*
-- [ ] 🔍 Investigar primeros 5 productos ganadores (de 10) — *META ADS.md*
+- [x] 🔍 Investigar primeros 5 productos ganadores (de 10) — *META ADS.md*
 - [ ] 👥 Analizar 2-3 competidores en Facebook Ad Library — *META ADS.md*
 
 ---
@@ -50,7 +50,7 @@ source: "Mr. Jair — iOS / Telegram"
 | 1 | 📚 Lectura diaria (6:00 AM) | ✅ | 🟡 |
 | 2 | 🏋️ **PECHO + TRÍCEPS** — Reto fitness junio (Día 3) | ✅ | 🔴 |
 | 3 | 💊 Empezar a tomar creatina (3-5g post-entreno con carbohidratos) | ✅ | 🟢 |
-| 4 | 🔍 Investigar primeros 5 productos ganadores — Meta Ads | ⏳ | 🟡 |
+| 4 | 🔍 Investigar primeros 5 productos ganadores — Meta Ads | ✅ | 🟡 |
 
 ---
 
