@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `04 Jun 2026 — 19:00`
+### Última actualización: `05 Jun 2026 — 00:00`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -41,16 +41,26 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Jueves 04/06
+## ✅ Jueves 04/06 — Completado
 
-> *Día nuevo, nueva oportunidad. Mantén la racha.*
+- [x] 📚 Lectura diaria (6:00 AM)
+- [x] 🏋️ PECHO + TRÍCEPS — Reto fitness junio (Día 3)
+- [x] 💊 Creatina 3-5g post-entreno
+- [x] 🔍 Investigar primeros 5 productos ganadores — Meta Ads
+
+---
+
+## 🔥 HOY — Viernes 05/06
+
+> *Último día de la semana. Cierre fuerte, descansa bien mañana.*
 
 | # | Tarea | Estado | Prioridad |
 |---|-------|--------|----------|
-| 1 | 📚 Lectura diaria (6:00 AM) | ✅ | 🟡 |
-| 2 | 🏋️ **PECHO + TRÍCEPS** — Reto fitness junio (Día 3) | ✅ | 🔴 |
-| 3 | 💊 Empezar a tomar creatina (3-5g post-entreno con carbohidratos) | ✅ | 🟢 |
-| 4 | 🔍 Investigar primeros 5 productos ganadores — Meta Ads | ✅ | 🟡 |
+| 1 | 📚 Lectura diaria (6:00 AM) | ⏳ | 🟡 |
+| 2 | 🏋️ **PIERNA 2** — Reto fitness junio (Día 4: Isquiotibiales) | ⏳ | 🔴 |
+| 3 | 💊 Creatina 3-5g post-entreno con carbohidratos | ⏳ | 🟢 |
+| 4 | 👥 Analizar 2-3 competidores en Facebook Ad Library — Meta Ads | ⏳ | 🟡 |
+| 5 | 🔬 Investigar sensores ultrasónicos (costos + specs) — Prototipo X | ⏳ | 🟡 |
 
 ---
 
