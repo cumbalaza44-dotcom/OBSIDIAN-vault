@@ -57,10 +57,12 @@ source: "Mr. Jair — iOS / Telegram"
 | # | Tarea | Estado | Prioridad |
 |---|-------|--------|----------|
 | 1 | 📚 Lectura diaria (6:00 AM) | ✅ | 🟡 |
-| 2 | 🏋️ **PIERNA 2** — Reto fitness junio (Día 4: Isquiotibiales) | ⏳ | 🔴 |
+| 2 | 🏋️ **PIERNA 2** — Reto fitness junio (Día 4: Isquiotibiales) | ⏸️ | 🔴 |
 | 3 | 💊 Creatina 3-5g post-entreno con carbohidratos | ✅ | 🟢 |
-| 4 | 👥 Analizar 2-3 competidores en Facebook Ad Library — Meta Ads | ⏳ | 🟡 |
-| 5 | 🔬 Investigar sensores ultrasónicos (costos + specs) — Prototipo X | ⏳ | 🟡 |
+| 4 | 👥 Analizar 2-3 competidores en Facebook Ad Library — Meta Ads | ⏸️ | 🟡 |
+| 5 | 🔬 Investigar sensores ultrasónicos (costos + specs) — Prototipo X | ⏸️ | 🟡 |
+
+> ⚠️ **DÍA PAUSADO** — Imprevisto laboral. Actividades restantes pendientes para mañana.
 
 ---
 
