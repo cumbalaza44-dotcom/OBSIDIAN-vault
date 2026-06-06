@@ -68,7 +68,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 | # | Tarea | Estado | Prioridad |
 |---|-------|--------|----------|
-| 1 | 📚 Lectura diaria (6:00 AM) | ⏳ | 🟡 |
+| 1 | 📚 Lectura diaria (6:00 AM) | ✅ | 🟡 |
 | 2 | 🏋️ **Descanso activo** — Movilidad + caminar 30 min | ⏳ | 🟢 |
 | 3 | 💊 Creatina 3-5g | ⏳ | 🟢 |
 | 4 | 👥 Buscar 2 competidores en Facebook Ad Library (nicho Fitness) — Meta Ads | ⏳ | 🟡 |
