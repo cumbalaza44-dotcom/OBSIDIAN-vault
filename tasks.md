@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `05 Jun 2026 — 00:00`
+### Última actualización: `05 Jun 2026 — 23:55`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -50,19 +50,29 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Viernes 05/06
+## ✅ Viernes 05/06 — Completado
 
-> *Último día de la semana. Cierre fuerte, descansa bien mañana.*
+- [x] 📚 Lectura diaria (6:00 AM)
+- [x] 💊 Creatina 3-5g post-entreno con carbohidratos
+- [x] ⏸️ PIERNA 2 (pausada — imprevisto laboral) → trasladada a sábado
+- [x] ⏸️ Analizar competidores Meta Ads → trasladada a sábado
+- [x] ⏸️ Investigar sensores ultrasónicos → trasladada a sábado
+
+> ⚠️ Día pausado por imprevisto laboral. 2/5 completadas.
+
+---
+
+## 🔥 HOY — Sábado 06/06
+
+> *Sábado de recuperación activa. Enfoque en proyectos sin presión.*
 
 | # | Tarea | Estado | Prioridad |
 |---|-------|--------|----------|
-| 1 | 📚 Lectura diaria (6:00 AM) | ✅ | 🟡 |
-| 2 | 🏋️ **PIERNA 2** — Reto fitness junio (Día 4: Isquiotibiales) | ⏸️ | 🔴 |
-| 3 | 💊 Creatina 3-5g post-entreno con carbohidratos | ✅ | 🟢 |
-| 4 | 👥 Analizar 2-3 competidores en Facebook Ad Library — Meta Ads | ⏸️ | 🟡 |
-| 5 | 🔬 Investigar sensores ultrasónicos (costos + specs) — Prototipo X | ⏸️ | 🟡 |
-
-> ⚠️ **DÍA PAUSADO** — Imprevisto laboral. Actividades restantes pendientes para mañana.
+| 1 | 📚 Lectura diaria (6:00 AM) | ⏳ | 🟡 |
+| 2 | 🏋️ **Descanso activo** — Movilidad + caminar 30 min | ⏳ | 🟢 |
+| 3 | 💊 Creatina 3-5g | ⏳ | 🟢 |
+| 4 | 👥 Buscar 2 competidores en Facebook Ad Library (nicho Fitness) — Meta Ads | ⏳ | 🟡 |
+| 5 | 🔍 Investigar 3 sensores ultrasónicos en Mercado Libre con precios — Prototipo X | ⏳ | 🟡 |
 
 ---
 
