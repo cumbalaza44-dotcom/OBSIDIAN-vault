@@ -280,6 +280,74 @@ El sistema **no sobrescribe** cuando ocurre:
 
 ---
 
+## 🏆 ANÁLISIS DE COMPETENCIA E INNOVACIÓN
+
+### Tecnologías existentes en AUTOS (mercado maduro)
+
+| Tecnología | Función | Estado |
+|---|---|---|
+| ADAS (Advanced Driver-Assistance) | Cámaras + radar + lidar para asistencia | Estándar en autos nuevos |
+| AEB (Automated Emergency Braking) | Frenado automático de emergencia | Obligatorio UE desde 2024 |
+| Blind Spot Monitoring (BSM) | Detección de puntos ciegos con radar | Común en autos medianos |
+| FCW (Forward Collision Warning) | Alerta de colisión frontal | Estándar |
+| Lane Departure Warning (LDW) | Alerta al salirse de carril | Estándar |
+| V2X (Vehicle-to-Everything) | Comunicación auto-auto-infraestructura | En implementación |
+
+### Competidores en MOTOS (mercado emergente — NUESTRA OPORTUNIDAD)
+
+| Producto | Tipo | Qué hace | Limitación |
+|---|---|---|---|
+| **BMW K1600GT** | OEM | Detección de puntos ciegos (radar) | Solo OEM, costoso |
+| **Ducati Multistrada** | OEM | V2X (Ducati Connect) | Solo Ducati, ecosistema cerrado |
+| **Honda Gold Wing** | OEM | Algunos features ADAS | Caro, no modular |
+| **Sena/Cardo** | Aftermarket | Comunicación bluetooth | Sin sensores de seguridad |
+| **Cámaras reversa** | Aftermarket | Retrovisor digital | Sin IA, sin alertas |
+| **Radar detectors** | Aftermarket | Detectan radar policial | NO previenen colisiones |
+
+### 🔴 GAPS DEL MERCADO (nuestra oportunidad)
+
+| Lo que NO existe | Lo que nosotros podemos ofrecer |
+|---|---|
+| Sistema integrado 360° para motos | Cámaras + sensores + IA en un paquete |
+| Predicción de trayectorias para motos | Algoritmo TTC específico para motos |
+| Caja negra forense para motos | Registro + bloqueo automático en accidente |
+| Solución aftermarket accesible | $40-60 MVP vs. miles en OEM |
+| IA de detección de objetos para motos | TFLite en edge, no solo radar |
+| Alerta direccional (audio espacial) | "Vehículo a las 7 horas" |
+
+### 🎯 NUESTRA INNOVACIÓN
+
+```
+EXISTE EN AUTOS:          EXISTE EN MOTOS:         NOSOTROS OFRECEMOS:
+ADAS completo    →       Pocos features OEM   →   ADAS aftermarket accesible
+AEB obligatorio   →       Nada comparable      →   Predicción + alerta (no frenado)
+V2X en desarrollo →       Ducati Connect       →   V2X abierto + sensores propios
+Cámaras + IA      →       Retrovisor digital   →   IA completa 360°
+Caja negra        →       Nada                 →   Caja negra forense
+```
+
+### 💡 IDEAS QUE PODEMOS IMPORTAR
+
+| De autos a motos | Cómo adaptarla |
+|---|---|
+| Blind Spot Monitoring | Sensores ultrasónicos laterales + alerta |
+| Forward Collision Warning | Cámara frontal + TTC calculation |
+| AEB (frenado automático) | **NO aplicable** — la moto no puede frenar sola sin riesgo de caída |
+| V2X | Módulo WiFi/BT para comunicación moto-moto |
+| Caja negra (flight recorder) | MicroSD + GPS + acelerómetro |
+| Audio espacial 3D | Bocinas direccionales en casco |
+
+### 🚀 DÓNDE INNOVAMOS NOSOTROS
+
+1. **Precio:** OEM cuesta $500+. Nosotros $40-60.
+2. **Modular:** Empezar con sensores básicos, escalar.
+3. **Moto-específico:** No adaptar tecnología de auto, diseñar para moto.
+4. **Caja negra + Legal:** Evidencia forense + reducción de prima de seguro.
+5. **Conciencia activa:** No solo alertar — predecir.
+6. **Open ecosystem:** No cerrado como BMW/Ducati.
+
+---
+
 ## 🔮 Visión a futuro
 
 - Integración V2X (vehicle-to-everything)
