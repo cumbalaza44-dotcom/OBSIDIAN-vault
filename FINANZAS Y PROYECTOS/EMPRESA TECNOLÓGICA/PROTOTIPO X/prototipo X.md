@@ -1,6 +1,53 @@
 # 🏍️ Prototipo X — Copiloto Inteligente para Motociclistas
 
-> **Visión:** Sistema integrado que elimina los puntos ciegos del motociclista y le proporciona conciencia situacional 360° en tiempo real, funcionando como un copiloto predictivo.
+> **Visión:** Sistema integrado que da al motociclista conciencia situacional 360° en tiempo real, funcionando como un copiloto predictivo que **ve** lo que los conductores no ven.
+
+---
+
+## 🧠 Filosofía del Problema
+
+### El sesgo cognitivo del conductor de auto
+
+El conductor de auto vive en una **burbuja de confort**: metal alrededor, aire acondicionado, música, cero exposición física. Su cerebro entra en modo automático — busca otros autos, no motos. **No es maldad, es sesgo cognitivo.**
+
+### Datos clave (Hurt Report — 900+ accidentes analizados)
+
+| Hallazgo | Dato |
+|---|---|
+| Choques donde el auto **no vio** a la moto | **67%** (2 de cada 3) |
+| Configuración más frecuente | Auto gira a la izquierda frente a moto que va derecho |
+| Lugar más peligroso | **Intersecciones** |
+| Visión obstruida por brillo/u otros vehículos | **~50%** de choques múltiples |
+| Velocidad pre-impacto mediana | 29.8 mph (~48 km/h) |
+| Accidentes sin clima adverso | **98%** |
+| Errores del rider (frenado excesivo, curva) | **67%** de accidentes individuales |
+
+### Dualidad estratégica
+
+| Dirección | Enfoque | Dependencia | Limitación |
+|---|---|---|---|
+| **A — Ser visible** | Ropa alta visibilidad, luces, reflectividad | Depende de que el conductor **quiera** mirar | impacto limitado |
+| **B — Ver más** | Sensores 360°, IA, predicción de trayectorias | **No depende de nadie** | Requiere hardware/software |
+
+> **Prototipo X elige la Dirección B:** No cambiar al conductor (imposible), sino compensar su ceguera con datos.
+
+### Paradigma: Conciencia activa
+
+**La solución no es:** "Mira, soy una moto" (pasivo, depende del sesgado)
+**La solución es:** "Yo ya te vi a ti, y sé lo que vas a hacer" (poder del rider)
+
+```
+CICLO DE CONCIENCIA ACTIVA:
+
+PERCIBIR → PROCESAR → DECIDIR → ENTREGAR
+   │           │          │          │
+   │           │          │          └─ Alertar al rider (HUD/audio/háptico)
+   │           │          └─ Calcular: ¿hay riesgo? ¿en cuántos segundos?
+   │           └─ Fusión de datos: ¿qué es cada objeto? ¿hacia dónde va?
+   └─ Cámaras, sensores, LIDAR: capturar TODO el entorno 360°
+```
+
+La moto se convierte en un sistema que percibe el entorno con capacidad sobrehumana — 360°, sin puntos ciegos, predicción de trayectorias — y entrega esa información al rider para que **él** decida.
 
 ---
 
