@@ -74,13 +74,13 @@ source: "Mr. Jair — iOS / Telegram"
 
 ## 🔥 HOY — Domingo 07/06
 
-> *Día de descanso total. Recuperación y avance ligero en proyectos.*
+> *Día de enfoque en Bot MT5. Recuperación + avance en proyecto principal.*
 
 | # | Tarea | Estado | Prioridad |
 |---|-------|--------|----------|
 | 1 | 📚 Lectura diaria (6:00 AM) | ⏳ | 🟡 |
-| 2 | 💊 Creatina 3-5g (completar la de ayer) | ⏳ | 🟢 |
-| 3 | 🧠 Investigar programas de diseño 3D — primer paso: buscar 3 opciones gratuitas | ⏳ | 🟡 |
+| 2 | 💊 Creatina 3-5g | ⏳ | 🟢 |
+| 3 | 🤖 **Trabajar en Bot MT5** — sesión de desarrollo | ⏳ | 🔴 |
 | 4 | 🏠 Organizar habitación (30 min) | ⏳ | 🟢 |
 
 ### 📢 META ADS — Fase 1
