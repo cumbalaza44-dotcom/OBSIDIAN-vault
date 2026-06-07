@@ -51,6 +51,76 @@ La moto se convierte en un sistema que percibe el entorno con capacidad sobrehum
 
 ---
 
+## 📏 QUÉ MEDIR EN LA PRÁCTICA (Especificaciones MVP)
+
+### Métrica #1 — TTC (Time to Collision)
+
+**La más crítica.** Tiempo restante antes de colisión si mantienen trayectoria y velocidad.
+
+| TTC | Nivel | Acción |
+|---|---|---|
+| > 5s | 🟢 Seguro | Monitoreo normal |
+| 3-5s | 🟡 Precaución | Alerta visual suave |
+| 2-3s | 🟠 Urgente | Alerta audio + visual |
+| < 2s | 🔴 Crítico | Alerta máxima + vibración |
+
+### Métrica #2 — Distancia a objetos
+
+| Sensor | Rango | Precisión | Costo |
+|---|---|---|---|
+| Ultrasónico (HC-SR04) | 0.02-4m | ±3mm | $1-3 |
+| Radar mmWave | 0.5-50m | ±0.1m | $15-30 |
+| Cámara + IA | 1-100m | Variable | $5-15 |
+| LIDAR mini | 0.1-100m | ±2cm | $50-100 |
+
+**MVP:** Ultrasónico (cercanos) + Cámara (mediana distancia).
+
+### Métrica #3 — Velocidad relativa
+
+- Velocidad propia: GPS + IMU
+- Velocidad del otro: Cámaras + IA
+- Velocidad de cierre: (Velocidad otro) - (Velocidad propia)
+
+### Métrica #4 — Trayectoria predicha
+
+El sistema predice dónde ESTARÁ el otro, no solo dónde ESTÁ.
+
+Datos necesarios: posición (x,y), velocidad (mag + dir), aceleración, ángulo de dirección.
+
+### Métrica #5 — Zona de conflicto
+
+| Tipo | Ejemplo | Peligrosidad |
+|---|---|---|
+| Cruce frontal | Auto gira izq frente a moto | 🔴 CRÍTICO |
+| Adelantamiento | Auto adelanta por derecha | 🟠 ALTA |
+| Cambio carril | Auto cambia sin ver moto | 🟠 ALTA |
+| Frenado brusco | Auto de adelante frena | 🟡 MEDIA |
+| Aprox. trasera | Auto se acerca por detrás | 🟡 MEDIA |
+
+---
+
+## 📊 FLUJO DE DATOS (20 Hz)
+
+```
+1. CAPTURAR → Cámaras + Ultrasónicos + GPS/IMU
+2. PROCESAR → IA (objetos) + Fusión + TTC + Predicción
+3. DECIDIR → ¿Riesgo? ¿Nivel? ¿Dirección?
+4. ENTREGAR → Sonido + LED + Vibración
+```
+
+### Valores clave MVP
+
+| Parámetro | Valor | Fuente |
+|---|---|---|
+| Vel. pre-impacto mediana | 48 km/h | Hurt Report |
+| Dist. frenado a 50 km/h | ~15m | Física |
+| Tiempo reacción humano | 1.5s | Promedio |
+| TTC mínimo seguro | 3s | Estándar ADAS |
+| Frecuencia muestreo | 20 Hz | Balance costo/rendimiento |
+| Cobertura | 360° | Puntos ciegos |
+
+---
+
 ## 🎯 Problema que resuelve
 
 | Problema | Impacto |
