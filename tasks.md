@@ -72,7 +72,7 @@ source: "Mr. Jair — iOS / Telegram"
 | 2 | 🏋️ **Descanso activo** — Movilidad + caminar 30 min | ✅ | 🟢 |
 | 3 | 💊 Creatina 3-5g | ⏳ | 🟢 |
 | 4 | 👥 Buscar 2 competidores en Facebook Ad Library (nicho Fitness) — Meta Ads | ✅ | 🟡 |
-| 5 | 🔍 Investigar 3 sensores ultrasónicos en Mercado Libre con precios — Prototipo X | ⏳ | 🟡 |
+| 5 | 🔍 Investigación completa Prototipo X (problema, soluciones, competencia, innovación) — ✅ TAREA COMPLETADA | ✅ | 🟡 |
 
 ---
 
@@ -82,7 +82,8 @@ source: "Mr. Jair — iOS / Telegram"
 
 ### 🏍️ Prototipo X — Copiloto Moto
 
-- [ ] Investigar sensores (costos + specs) — *prototipo X.md*
+- [x] Investigar sensores (costos + specs) — *prototipo X.md*
+- [x] Investigación completa: problema, solución, competencia, innovación — *prototipo X.md*
 - [ ] Definir plataforma hardware (ESP32 vs Pi vs Jetson) — *prototipo X.md*
 - [ ] Prototipar sensor ultrasónico + alerta — *prototipo X.md*
 - [ ] Diseñar UX del HUD/app — *prototipo X.md*
