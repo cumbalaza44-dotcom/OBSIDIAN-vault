@@ -315,7 +315,9 @@ El sistema **no sobrescribe** cuando ocurre:
 | IA de detección de objetos para motos | TFLite en edge, no solo radar |
 | Alerta direccional (audio espacial) | "Vehículo a las 7 horas" |
 
-### 🎯 NUESTRA INNOVACIÓN
+### 🎯 NUESTRA INNOVACIÓN — MERCADO NUEVO O CREACIÓN DE MERCADO
+
+> **No estamos entrando a un mercado existente. Estamos CREANDO el mercado ADAS aftermarket para motociclistas.**
 
 ```
 EXISTE EN AUTOS:          EXISTE EN MOTOS:         NOSOTROS OFRECEMOS:
@@ -325,6 +327,19 @@ V2X en desarrollo →       Ducati Connect       →   V2X abierto + sensores pr
 Cámaras + IA      →       Retrovisor digital   →   IA completa 360°
 Caja negra        →       Nada                 →   Caja negra forense
 ```
+
+**¿Por qué es CREACIÓN de mercado?**
+
+| Argumento | Evidencia |
+|---|---|
+| No hay producto equivalente | No existe ADAS aftermarket completo para motos |
+| Los OEM no lo ofrecen | BMW/Ducati tienen features aislados, no sistema integrado |
+| El precio OEM es prohibitivo | $500+ vs. nuestro $40-60 |
+| No hay categoría definida | No existe "ADAS para motos" como categoría de producto |
+| Demanda no articulada | Los motociclistas no piden esto porque no saben que es posible |
+| Mercado gigante sin cubrir | ~200M motos en el mundo, casi sin tecnología de seguridad aftermarket |
+
+**Esto es Blue Ocean Strategy:** Crear un mercado nuevo donde no hay competencia directa.
 
 ### 💡 IDEAS QUE PODEMOS IMPORTAR
 
