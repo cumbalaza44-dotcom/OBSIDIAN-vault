@@ -88,8 +88,11 @@ source: "Mr. Jair — iOS / Telegram"
 - [x] Analizar 2-3 competidores en Facebook Ad Library ✅ 06/06
 - [ ] Analizar 5 competidores totales (completar remaining)
 
+> **Nota:** Investigaciones futuras incluirán procesos explicados con mayor detalle técnico.
+
 ### 🏍️ Prototipo X
 - [x] Investigación completa: problema, solución, competencia, innovación ✅ 06/06
+- [x] Diseño de arquitectura Ghost Trader — ecosistema financiero desacoplado ✅ 07/06
 - [ ] Definir plataforma hardware (ESP32 vs Pi vs Jetson) — próximo paso lógico
 
 ---
