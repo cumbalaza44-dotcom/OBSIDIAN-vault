@@ -62,17 +62,49 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## ✅ Sábado 06/06 — Completado
+## ✅ Sábado 06/06 — Completado (4/5)
 
-> *Sábado de recuperación activa. Investigación completa Prototipo X.*
+- [x] 📚 Lectura diaria (6:00 AM)
+- [x] 🏋️ Descanso activo — Movilidad + caminar 30 min
+- [x] 👥 Buscar 2 competidores en Facebook Ad Library (nicho Fitness) — Meta Ads
+- [x] 🔍 Investigación completa Prototipo X (problema, soluciones, competencia, innovación)
+- [ ] 💊 Creatina 3-5g — pendiente
+
+---
+
+## 🔥 HOY — Domingo 07/06
+
+> *Día de descanso total. Recuperación y avance ligero en proyectos.*
 
 | # | Tarea | Estado | Prioridad |
 |---|-------|--------|----------|
-| 1 | 📚 Lectura diaria (6:00 AM) | ✅ | 🟡 |
-| 2 | 🏋️ **Descanso activo** — Movilidad + caminar 30 min | ✅ | 🟢 |
-| 3 | 💊 Creatina 3-5g | ⏳ | 🟢 |
-| 4 | 👥 Buscar 2 competidores en Facebook Ad Library (nicho Fitness) — Meta Ads | ✅ | 🟡 |
-| 5 | 🔍 Investigación completa Prototipo X (problema, soluciones, competencia, innovación) — ✅ TAREA COMPLETADA | ✅ | 🟡 |
+| 1 | 📚 Lectura diaria (6:00 AM) | ⏳ | 🟡 |
+| 2 | 💊 Creatina 3-5g (completar la de ayer) | ⏳ | 🟢 |
+| 3 | 🧠 Investigar programas de diseño 3D — primer paso: buscar 3 opciones gratuitas | ⏳ | 🟡 |
+| 4 | 🏠 Organizar habitación (30 min) | ⏳ | 🟢 |
+
+### 📢 META ADS — Fase 1
+- [x] Definir nicho específico (Fitness seleccionado)
+- [x] Analizar 2-3 competidores en Facebook Ad Library ✅ 06/06
+- [ ] Analizar 5 competidores totales (completar remaining)
+
+### 🏍️ Prototipo X
+- [x] Investigación completa: problema, solución, competencia, innovación ✅ 06/06
+- [ ] Definir plataforma hardware (ESP32 vs Pi vs Jetson) — próximo paso lógico
+
+---
+
+## 📅 MAÑANA — Lunes 08/06
+
+> *Lunes de tren superior. Meta Ads en marcha.*
+
+| # | Tarea | Estado | Prioridad |
+|---|-------|--------|----------|
+| 1 | 📚 Lectura diaria (6:00 AM) | ⏳ | 🟡 |
+| 2 | 🏋️ **Tren Superior Completo** — Reto fitness junio (Día 4) | ⏳ | 🔴 |
+| 3 | 💊 Creatina 3-5g post-entreno | ⏳ | 🟢 |
+| 4 | 👥 Analizar 2 competidores restantes en Ad Library — Meta Ads | ⏳ | 🟡 |
+| 5 | 🏍️ Definir plataforma hardware Prototipo X (ESP32 vs Pi vs Jetson) | ⏳ | 🟡 |
 
 ---
 
