@@ -62,13 +62,13 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## ✅ Sábado 06/06 — Completado (4/5)
+## ✅ Sábado 06/06 — Completado (5/5)
 
 - [x] 📚 Lectura diaria (6:00 AM)
 - [x] 🏋️ Descanso activo — Movilidad + caminar 30 min
 - [x] 👥 Buscar 2 competidores en Facebook Ad Library (nicho Fitness) — Meta Ads
 - [x] 🔍 Investigación completa Prototipo X (problema, soluciones, competencia, innovación)
-- [ ] 💊 Creatina 3-5g — pendiente
+- [x] 💊 Creatina 3-5g
 
 ---
 
