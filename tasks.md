@@ -82,6 +82,7 @@ source: "Mr. Jair — iOS / Telegram"
 | 2 | 💊 Creatina 3-5g | ⏳ | 🟢 |
 | 3 | 🤖 **Trabajar en Bot MT5** — sesión de desarrollo | ⏳ | 🔴 |
 | 4 | 🏠 Organizar habitación (30 min) | ⏳ | 🟢 |
+| 5 | 🧠 **Diseño de arquitectura Ghost Trader** — ecosistema desacoplado | ✅ | 🔴 |
 
 ### 📢 META ADS — Fase 1
 - [x] Definir nicho específico (Fitness seleccionado)
