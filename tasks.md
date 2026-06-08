@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `06 Jun 2026 — 23:55`
+### Última actualización: `07 Jun 2026 — 23:55`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -72,17 +72,17 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Domingo 07/06
+## 🔥 HOY — Lunes 08/06
 
-> *Día de enfoque en Bot MT5. Recuperación + avance en proyecto principal.*
+> *Lunes de tren superior. BotMT5 avanza con micro-tarea concreta.*
 
 | # | Tarea | Estado | Prioridad |
 |---|-------|--------|----------|
 | 1 | 📚 Lectura diaria (6:00 AM) | ⏳ | 🟡 |
-| 2 | 💊 Creatina 3-5g | ⏳ | 🟢 |
-| 3 | 🤖 **Trabajar en Bot MT5** — sesión de desarrollo | ⏳ | 🔴 |
-| 4 | 🏠 Organizar habitación (30 min) | ⏳ | 🟢 |
-| 5 | 🧠 **Diseño de arquitectura Ghost Trader** — ecosistema desacoplado | ✅ | 🔴 |
+| 2 | 🏋️ **Tren Superior Completo** — Reto fitness junio (Día 4) | ⏳ | 🔴 |
+| 3 | 💊 Creatina 3-5g post-entreno | ⏳ | 🟢 |
+| 4 | 🤖 **Bot MT5 — Backtest estrategia base** (seleccionar par, definir reglas, revisar resultados) | ⏳ | 🔴 |
+| 5 | 👥 Analizar 2 competidores restantes en Ad Library — Meta Ads | ⏳ | 🟡 |
 
 ### 📢 META ADS — Fase 1
 - [x] Definir nicho específico (Fitness seleccionado)
@@ -98,17 +98,16 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 📅 MAÑANA — Lunes 08/06
+## 📅 MAÑANA — Martes 09/06
 
-> *Lunes de tren superior. Meta Ads en marcha.*
+> *Martes de pierna. Prototipo X avanza con decisión de hardware.*
 
 | # | Tarea | Estado | Prioridad |
 |---|-------|--------|----------|
 | 1 | 📚 Lectura diaria (6:00 AM) | ⏳ | 🟡 |
-| 2 | 🏋️ **Tren Superior Completo** — Reto fitness junio (Día 4) | ⏳ | 🔴 |
+| 2 | 🏋️ **Pierna 1 (Cuádriceps)** — Reto fitness junio (Día 5) | ⏳ | 🔴 |
 | 3 | 💊 Creatina 3-5g post-entreno | ⏳ | 🟢 |
-| 4 | 👥 Analizar 2 competidores restantes en Ad Library — Meta Ads | ⏳ | 🟡 |
-| 5 | 🏍️ Definir plataforma hardware Prototipo X (ESP32 vs Pi vs Jetson) | ⏳ | 🟡 |
+| 4 | 🏍️ **Definir plataforma hardware Prototipo X** — ESP32 vs Pi vs Jetson (criterios: costo, comunidad, interfaz sensores) | ⏳ | 🟡 |
 
 ---
 
