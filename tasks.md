@@ -29,6 +29,7 @@ source: "Mr. Jair — iOS / Telegram"
 | 4 | 🤖 **Bot MT5 — Backtest estrategia base** (trasladada de lunes) | ⏰ tarde | ⏳ | 🔴 |
 | 5 | 👥 Analizar 2 competidores Ad Library — Meta Ads (trasladada de lunes) | ⏰ tarde | ⏳ | 🟡 |
 | 6 | 🏥 Cambio de EPS | — | ✅ | 🟢 |
+| 7 | 📄 Hoja de vida mamá — buscar empleo | 🔄 ahora | 🔄 | 🔴 |
 
 ---
 
