@@ -78,9 +78,9 @@ source: "Mr. Jair — iOS / Telegram"
 
 | # | Tarea | Estado | Prioridad |
 |---|-------|--------|----------|
-| 1 | 📚 Lectura diaria (6:00 AM) | ⏳ | 🟡 |
+| 1 | 📚 Lectura diaria (6:00 AM) | ✅ | 🟡 |
 | 2 | 🏋️ **Tren Superior Completo** — Reto fitness junio (Día 4) | ⏳ | 🔴 |
-| 3 | 💊 Creatina 3-5g post-entreno | ⏳ | 🟢 |
+| 3 | 💊 Creatina 3-5g post-entreno | ✅ | 🟢 |
 | 4 | 🤖 **Bot MT5 — Backtest estrategia base** (seleccionar par, definir reglas, revisar resultados) | ⏳ | 🔴 |
 | 5 | 👥 Analizar 2 competidores restantes en Ad Library — Meta Ads | ⏳ | 🟡 |
 
@@ -90,6 +90,7 @@ source: "Mr. Jair — iOS / Telegram"
 - [ ] Analizar 5 competidores totales (completar remaining)
 
 > **Nota:** Investigaciones futuras incluirán procesos explicados con mayor detalle técnico.
+> **Bot MT5:** ✅ OpenCode instalado en PC local — listo para empezar construcción.
 
 ### 🏍️ Prototipo X
 - [x] Investigación completa: problema, solución, competencia, innovación ✅ 06/06
