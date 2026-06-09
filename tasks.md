@@ -77,12 +77,12 @@ source: "Mr. Jair — iOS / Telegram"
 | # | Tarea | Estado | Prioridad |
 |---|-------|--------|----------|
 | 1 | 📚 Lectura diaria (6:00 AM) | ✅ | 🟡 |
-| 2 | 🏋️ **Tren Superior Completo** — Reto fitness junio (Día 4) | ⏳ | 🔴 |
+| 2 | 🏋️ **Tren Superior Completo** — Reto fitness junio (Día 4) | ⏳ → martes | 🔴 |
 | 3 | 💊 Creatina 3-5g post-entreno | ✅ | 🟢 |
-| 4 | 🤖 **Bot MT5 — Backtest estrategia base** | ⏳ | 🔴 |
-| 5 | 👥 Analizar 2 competidores restantes en Ad Library — Meta Ads | ⏳ | 🟡 |
+| 4 | 🤖 **Bot MT5 — Backtest estrategia base** | ⏳ → martes | 🔴 |
+| 5 | 👥 Analizar 2 competidores restantes en Ad Library — Meta Ads | ⏳ → martes | 🟡 |
 
-> ⚠️ Día con baja completación (2/5). Tareas grandes pendientes trasladadas a martes.
+> ⚠️ Día con baja completación (2/5). 3 tareas pendientes trasladadas a martes.
 
 ### 📢 META ADS — Fase 1
 - [x] Definir nicho específico (Fitness seleccionado)
