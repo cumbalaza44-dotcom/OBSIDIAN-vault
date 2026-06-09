@@ -28,6 +28,7 @@ source: "Mr. Jair — iOS / Telegram"
 | 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
 | 4 | 🤖 **Bot MT5 — Backtest estrategia base** (trasladada de lunes) | ⏰ tarde | ⏳ | 🔴 |
 | 5 | 👥 Analizar 2 competidores Ad Library — Meta Ads (trasladada de lunes) | ⏰ tarde | ⏳ | 🟡 |
+| 6 | 🏥 Cambio de EPS | — | ✅ | 🟢 |
 
 ---
 
