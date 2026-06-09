@@ -8,94 +8,12 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `08 Jun 2026 — 21:02`
+### Última actualización: `09 Jun 2026 — 13:47`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
 
 </div>
-
----
-
-## MIÉRCOLES 03/06 — Completado
-
-- [x] 📚 Lectura diaria (6:00 AM)
-- [x] 🏋️ ESPALDA + BÍCEPS — Reto fitness junio (Día 2) → pendiente, no completada ✅ 2026-06-04
-
-### 📢 META ADS — Fase 1: Fundamentos ✅
-- [x] 🎯 Definir nicho específico (Fitness seleccionado) — *META ADS.md*
-- [x] 📊 Análisis profundo de 3 nichos (Motos, Fitness, Tech) — *META ADS.md*
-- [x] 📘 Manual de Operaciones creado (8 capítulos) — *META ADS.md*
-- [x] 🔍 Investigar primeros 5 productos ganadores (de 10) — *META ADS.md*
-- [ ] 👥 Analizar 2-3 competidores en Facebook Ad Library — *META ADS.md*
-
----
-
-## 📅 LUNES 01/06 — Completado
-
-- [x] 🔌 Traer multímetro — revisar equipo
-- [x] ✅ Verificar asiento de la moto
-- [x] 🔧 Desarmar, corregir y mantenimiento general al sistema de admisión
-- [x] ✅ Cambiar llanta 90/90-19 doble propósito (completada 30/05)
-- [x] 💪 Rutina de ejercicio — Plan creado
-
----
-
-## ✅ Jueves 04/06 — Completado
-
-- [x] 📚 Lectura diaria (6:00 AM)
-- [x] 🏋️ PECHO + TRÍCEPS — Reto fitness junio (Día 3)
-- [x] 💊 Creatina 3-5g post-entreno
-- [x] 🔍 Investigar primeros 5 productos ganadores — Meta Ads
-
----
-
-## ✅ Viernes 05/06 — Completado
-
-- [x] 📚 Lectura diaria (6:00 AM)
-- [x] 💊 Creatina 3-5g post-entreno con carbohidratos
-- [x] ⏸️ PIERNA 2 (pausada — imprevisto laboral) → trasladada a sábado
-- [x] ⏸️ Analizar competidores Meta Ads → trasladada a sábado
-- [x] ⏸️ Investigar sensores ultrasónicos → trasladada a sábado
-
-> ⚠️ Día pausado por imprevisto laboral. 2/5 completadas.
-
----
-
-## ✅ Sábado 06/06 — Completado (5/5)
-
-- [x] 📚 Lectura diaria (6:00 AM)
-- [x] 🏋️ Descanso activo — Movilidad + caminar 30 min
-- [x] 👥 Buscar 2 competidores en Facebook Ad Library (nicho Fitness) — Meta Ads
-- [x] 🔍 Investigación completa Prototipo X (problema, soluciones, competencia, innovación)
-- [x] 💊 Creatina 3-5g
-
----
-
-## ✅ HOY — Lunes 08/06 — Completado (2/5)
-
-| # | Tarea | Estado | Prioridad |
-|---|-------|--------|----------|
-| 1 | 📚 Lectura diaria (6:00 AM) | ✅ | 🟡 |
-| 2 | 🏋️ **Tren Superior Completo** — Reto fitness junio (Día 4) | ⏳ → martes | 🔴 |
-| 3 | 💊 Creatina 3-5g post-entreno | ✅ | 🟢 |
-| 4 | 🤖 **Bot MT5 — Backtest estrategia base** | ⏳ → martes | 🔴 |
-| 5 | 👥 Analizar 2 competidores restantes en Ad Library — Meta Ads | ⏳ → martes | 🟡 |
-
-> ⚠️ Día con baja completación (2/5). 3 tareas pendientes trasladadas a martes.
-
-### 📢 META ADS — Fase 1
-- [x] Definir nicho específico (Fitness seleccionado)
-- [x] Analizar 2-3 competidores en Facebook Ad Library ✅ 06/06
-- [ ] Analizar 5 competidores totales (completar remaining)
-
-> **Nota:** Investigaciones futuras incluirán procesos explicados con mayor detalle técnico.
-> **Bot MT5:** ✅ OpenCode instalado en PC local — listo para empezar construcción.
-
-### 🏍️ Prototipo X
-- [x] Investigación completa: problema, solución, competencia, innovación ✅ 06/06
-- [x] Diseño de arquitectura Ghost Trader — ecosistema financiero desacoplado ✅ 07/06
-- [ ] Definir plataforma hardware (ESP32 vs Pi vs Jetson) — próximo paso lógico
 
 ---
 
