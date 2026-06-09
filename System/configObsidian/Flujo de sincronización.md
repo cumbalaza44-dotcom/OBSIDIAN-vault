@@ -1,164 +1,143 @@
-# Flujo de Sincronización — Obsidian Vault ↔ OpenClaw (v2)
+# Flujo de Sincronización — Obsidian Vault ↔ H.E.L.E.N. (v3)
 
-> **Modelo: Bajo Demanda — Sin cron. Sin heartbeat. Sin snapshot.**
+> **Modelo: Reactivo por turno + tasks.md como fuente única + QMD para búsqueda.**
 
 ## 📡 Visión general
 
-Pipeline 100% reactivo a la conversación. JARVIS sincroniza el vault automáticamente al inicio de cada sesión directa. No hay procesos en segundo plano, no hay archivos intermedios, no hay flags.
+Pipeline reactivo. H.E.L.E.N. sincroniza en cada turno directo. No hay cron ni heartbeat — la detección de cambios ocurre al leer tasks.md.
 
 ```
 ┌──────────────────┐
 │  Mr. Jair (iOS)  │
 └───────┬──────────┘
         │
-        ├── 1. Edita tareas en cualquier nota
-        │    (con 📅 YYYY-MM-DD)
+        ├── 1. Edita tasks.md o cualquier nota
+        │    (Obsidian en iOS)
         │
-        ├── 2. Ejecuta plantilla Templater
-        │    → genera System/JARVIS/daily-context.md
-        │    → markdown 100% plano (tareas + estructura)
-        │
-        ├── 3. Obsidian Git → push a GitHub (~3 min)
+        ├── 2. Obsidian Git → push a GitHub (~3 min)
         │
         ▼
   ┌───────────┐     ┌──────────────────────────────┐
-  │  GitHub   │────→│  JARVIS inicia sesión directa │
+  │  GitHub   │────→│  H.E.L.E.N. recibe mensaje   │
   └───────────┘     └──────────┬───────────────────┘
                                │
                     ┌──────────────────────┴──┐
                     │ git pull --ff-only      │
-                    │ (sin dry-run, directo) │
+                    │ read vault-index.json   │
+                    │ read tasks.md           │
+                    │ calcular hash           │
+                    │ ¿cambió? → detectar     │
                     └──────────┬──────────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │  ¿Hubo cambios?      │
-                    └──────────┬───────────┘
                                │
                     ┌──────────┴──────────┐
                     │                     │
                     ▼                     ▼
              ┌──────────┐      ┌──────────────────┐
-             │ No → leer│      │ Sí → ya están   │
-             │ daily-   │      │ descargados y   │
-             │ context  │      │ mergeados       │
+             │ No → sin │      │ Sí → comparar    │
+             │ acción   │      │ snapshot previo  │
              └──────────┘      └──────────────────┘
-                    │                     │
-                    └──────────┬──────────┘
-                               ▼
-                    ┌──────────────────────┐
-                    │  JARVIS tiene        │
-                    │  contexto completo   │
-                    │  del vault           │
-                    └──────────────────────┘
+                                      │
+                             ┌────────┴────────┐
+                             │ Tarea nueva ⏰  │→ crear recordatorio
+                             │ Tarea nueva sin │→ reverse prompting
+                             │ Tarea ✅        │→ registrar progreso
+                             │ Prioridad ↑     │→ reordenar MIT
+                             └─────────────────┘
 ```
 
 ## 🔄 Flujo completo
 
-### 📥 Mr. Jair edita → JARVIS se entera
+### 📥 Mr. Jair edita → H.E.L.E.N. lo detecta
 
-1. **Mr. Jair** edita/crea/checkea tareas en Obsidian (iOS)
-   - Usa `📅 YYYY-MM-DD` para fechar tareas (Tasks + Dataview lo reconocen)
-   - `Hoy.md` se renderiza automáticamente en iOS para visualización
-2. **Mr. Jair ejecuta la plantilla Templater** (`Cmd+P` → Templater: Insert Template)
-   - Escanea todo el vault
-   - Extrae tareas del día, estructura de carpetas, archivos recientes
-   - Escribe `System/JARVIS/daily-context.md` en **markdown 100% plano**
-3. Plugin **Obsidian Git** sincroniza a GitHub (~3 min)
-4. **JARVIS** inicia una sesión directa → automáticamente:
-   - `git pull --ff-only` (~0.5s, directo, sin lógica condicional)
-   - Lee `System/JARVIS/daily-context.md` (~50-200 tokens)
-5. **No se lee Hoy.md** — contiene código Dataview no legible en texto plano
-6. **Cada turno:** `git pull --ff-only` antes de procesar cualquier mensaje
-7. Costo en idle: **0**. Costo por interacción: **~150 tokens**.
+1. **Mr. Jair** edita `tasks.md` en Obsidian iOS
+2. Plugin **Obsidian Git** sincroniza a GitHub (~3 min)
+3. **H.E.L.E.N.** recibe un mensaje → automáticamente:
+   - `git pull --ff-only` (~0.5s)
+   - Lee `vault-index.json` (hash + snapshot anterior)
+   - Lee `obsidian-vault/tasks.md` (~40-60 tokens)
+   - Calcula hash de tasks.md (`md5sum`)
+   - Si el hash cambió → detecta qué cambió y actúa
+4. **No se lee `daily-context.md`** — reemplazado por lectura directa de tasks.md + QMD
+5. **No se lee `Hoy.md`** — contiene Dataview no legible en texto plano
+6. Costo en idle: **0**. Costo por interacción: **~100 tokens**.
 
-### 📤 JARVIS edita → Mr. Jair lo ve
+### 📤 H.E.L.E.N. edita → Mr. Jair lo ve
 
-1. **JARVIS** modifica archivos en `obsidian-vault/`
+1. **H.E.L.E.N.** modifica `tasks.md` u otros archivos en `obsidian-vault/`
 2. Al terminar, ejecuta **sync-push.sh**:
-   - `git add -A` → `git commit` → `git push --force-with-lease`
+   - `cd obsidian-vault && git add + commit + push` (submodule)
+   - `cd .. && git add obsidian-vault && git commit + push` (main repo)
 3. **Mr. Jair** recibe los cambios vía plugin Obsidian Git en iOS
 4. Costo: **0 tokens**.
 
-## 📁 Archivos clave
+## 🗂️ Archivos clave
 
-### `System/JARVIS/daily-context.md` — El archivo que lee JARVIS
+### `tasks.md` — La única fuente de verdad para tareas
 
-Generado por Templater desde iOS. Contiene:
+Archivo central. Todo lo que está aquí existe; lo que no está aquí, no existe para H.E.L.E.N.
+- Se lee **cada turno** (~40-60 tokens)
+- Se compara contra `vault-index.json` para detectar cambios
 
-```markdown
-# 📋 Contexto Diario — 13/05/2026
+### `vault-index.json` — Snapshot para detección de cambios
 
-> 📊 33 notas — 12 carpetas — 2 pendientes hoy
-
-## 🏋️ Tareas de hoy
-### ⏳ Pendientes
-- [ ] Crear rutina de ejercicio — *GYM.md*
-
-## 📁 Estructura del vault
-├── 📄 Hoy.md
-├── 📁 FINANZAS/
-│   └── Bot MT5.md
-...
-
-## 🆕 Modificados recientemente
-- GYM.md — *2026-05-13*
+```json
+{
+  "tasksHash": "md5sum de tasks.md",
+  "lastChecked": "timestamp",
+  "tasksSnapshot": ["lista de tareas del HOY"]
+}
 ```
 
-### `System/JARVIS/Plantilla - daily-context.md` — El generador
+### `System/JARVIS/daily-context.md` — Obsoleto
 
-Script Templater que escanea el vault y escribe `daily-context.md`.
-**Debe ejecutarse manualmente** (o vía atajo de teclado) después de editar tareas.
+Ya no se usa. Reemplazado por lectura directa de tasks.md + búsqueda QMD.
 
-### `Hoy.md` — Solo para visualización en iOS
+## 🔍 QMD — Motor de búsqueda del vault
 
-Usa Dataview + Tasks queries. **No es legible en texto plano**, por eso JARVIS no lo lee.
+Indexa todo el vault para búsqueda semántica rápida:
+- `qmd search "consulta" --json -n 5` — búsqueda por keywords
+- `qmd get "qmd://vault/ruta"` — leer documento completo
+- Dos colecciones: `vault` (notas) y `memory` (memoria a largo plazo)
 
 ## 🧩 Scripts involucrados (servidor)
 
 | Script | Trigger | Función |
 |--------|---------|---------|
-| `sync-push.sh` | Manual (JARVIS al editar) | Commit + push forzado de ediciones locales |
+| `sync-push.sh` | H.E.L.E.N. al editar | Commit + push del submodule + repo principal |
+| `skills/arya-reminders/create-reminder.sh` | Tarea nueva con hora | Crear recordatorio vía cron |
 
-## 🧩 Plantillas involucradas (iOS)
+## 🧩 Archivos de identidad
 
-| Plantilla | Trigger | Función |
-|-----------|---------|---------|
-| `System/JARVIS/Plantilla - daily-context.md` | Manual (Templater) | Genera daily-context.md con tareas, estructura, recientes |
+| Archivo | Propósito |
+|---------|-----------|
+| `SOUL.md` | Identidad, principios, tono |
+| `IDENTITY.md` | Personalidad detallada de H.E.L.E.N. |
+| `USER.md` | Perfil de Mr. Jair (preferencias, datos) |
+| `AGENTS.md` | Reglas operativas, startup, vault sync, token economy |
+| `TOOLS.md` | Configuración de herramientas locales (QMD, etc.) |
+| `MEMORY.md` | Memoria a largo plazo (curada desde daily notes) |
 
-**Eliminados (v1 → v2 → v2.1):**
-
-| ~~Script/Archivo~~ | ~~Razón~~ |
-|-------------------|-----------|
-| ~~sync-pull.sh~~ | Reemplazado por `git pull --ff-only` en startup y cada turno |
-| ~~sync-snapshot.sh~~ | Reemplazado por `daily-context.md` generado en iOS |
-| ~~sync-today.sh~~ | Reemplazado por Templater + `daily-context.md` |
-| ~~check-flag.sh~~ | Eliminado |
-| ~~_VAULT-SNAPSHOT.md~~ | Eliminado |
-| ~~/tmp/obsidian-vault-flag~~ | Eliminado |
-| ~~Cron cada 5 min~~ | Eliminado |
-| ~~Lectura de Hoy.md~~ | Reemplazado por `daily-context.md` (texto plano legible) |
-
-## 📊 Costos
+## 📊 Costos actualizados
 
 | Concepto | Costo |
 |----------|-------|
 | Idle | **0 tokens + 0 procesos** |
-| Startup (cambios) | ~150 tok (daily-context.md) |
-| Startup (sin cambios) | ~150 tok (daily-context.md, mismo contexto) |
+| Startup / turno | ~100 tok (tasks.md + vault-index.json) |
+| Búsqueda QMD | ~50 tok por consulta (vs 500+ con grep/read) |
 | Escritura | 0 tokens |
-| Latencia iOS→JARVIS | ~3 min (push GitHub) + tu próximo mensaje |
+| Latencia iOS→H.E.L.E.N. | ~3 min (push GitHub) + tu próximo mensaje |
 
 ## 📖 Uso diario
 
 ```
-1. Editas tareas en iOS (con 📅 fecha)
-2. Cmd+P → Templater: Insert Template → "Plantilla - daily-context"
-3. [Opcional: atajo Cmd+Shift+D]
-4. Obsidian Git sincroniza solo
-5. Hablas con JARVIS → ya tiene el contexto
+1. Editas tasks.md en iOS (agregas, marcas, priorizas)
+2. Obsidian Git sincroniza solo (~3 min)
+3. Me escribes algo → detecto cambios automáticamente
+4. Si agregaste tarea con hora → creo recordatorio al instante
+5. Si marcaste ✅ → registro en progreso diario
+6. Si es ambigua → reverse prompting para detalles
 ```
 
 ---
 
-*Documentación del pipeline v2.2 — Pull directo cada turno, sin dry-run ni condicionales. Actualizado 2026-05-16.*
+*Documentación del pipeline v3 — tasks.md + vault-index + QMD. Actualizado 2026-06-09.*
