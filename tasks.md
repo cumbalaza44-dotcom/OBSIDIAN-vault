@@ -72,17 +72,17 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Lunes 08/06
-
-> *Lunes de tren superior. BotMT5 avanza con micro-tarea concreta.*
+## ✅ HOY — Lunes 08/06 — Completado (2/5)
 
 | # | Tarea | Estado | Prioridad |
 |---|-------|--------|----------|
 | 1 | 📚 Lectura diaria (6:00 AM) | ✅ | 🟡 |
 | 2 | 🏋️ **Tren Superior Completo** — Reto fitness junio (Día 4) | ⏳ | 🔴 |
 | 3 | 💊 Creatina 3-5g post-entreno | ✅ | 🟢 |
-| 4 | 🤖 **Bot MT5 — Backtest estrategia base** (seleccionar par, definir reglas, revisar resultados) | ⏳ | 🔴 |
+| 4 | 🤖 **Bot MT5 — Backtest estrategia base** | ⏳ | 🔴 |
 | 5 | 👥 Analizar 2 competidores restantes en Ad Library — Meta Ads | ⏳ | 🟡 |
+
+> ⚠️ Día con baja completación (2/5). Tareas grandes pendientes trasladadas a martes.
 
 ### 📢 META ADS — Fase 1
 - [x] Definir nicho específico (Fitness seleccionado)
@@ -99,16 +99,17 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 📅 MAÑANA — Martes 09/06
+## 🔥 HOY — Martes 09/06
 
-> *Martes de pierna. Prototipo X avanza con decisión de hardware.*
+> *Martes de pierna. Bot MT5 avanza con micro-tarea concreta.*
 
-| # | Tarea | Estado | Prioridad |
-|---|-------|--------|----------|
-| 1 | 📚 Lectura diaria (6:00 AM) | ⏳ | 🟡 |
-| 2 | 🏋️ **Pierna 1 (Cuádriceps)** — Reto fitness junio (Día 5) | ⏳ | 🔴 |
-| 3 | 💊 Creatina 3-5g post-entreno | ⏳ | 🟢 |
-| 4 | 🏍️ **Definir plataforma hardware Prototipo X** — ESP32 vs Pi vs Jetson (criterios: costo, comunidad, interfaz sensores) | ⏳ | 🟡 |
+| # | Tarea | Hora | Estado | Prioridad |
+|---|-------|------|--------|----------|
+| 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ⏳ | 🟡 |
+| 2 | 🏋️ **Pierna 1 (Cuádriceps)** — Reto fitness junio (Día 5) | ⏰ 7:00 AM | ⏳ | 🔴 |
+| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
+| 4 | 🤖 **Bot MT5 — Backtest estrategia base** (trasladada de lunes) | ⏰ tarde | ⏳ | 🔴 |
+| 5 | 👥 Analizar 2 competidores Ad Library — Meta Ads (trasladada de lunes) | ⏰ tarde | ⏳ | 🟡 |
 
 ---
 
