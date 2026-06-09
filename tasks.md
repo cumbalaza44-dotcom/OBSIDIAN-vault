@@ -86,6 +86,29 @@ source: "Mr. Jair — iOS / Telegram"
 
 ## 🧠 HÁBITOS Y DESARROLLO
 
+### 🏋️ Rutina Semanal — Gym Junio 2026
+
+| Día | Enfoque | Grupos |
+|-----|---------|--------|
+| Lun | **Tren Superior Completo** | Pecho, espalda, hombros, brazos |
+| Mar | **Pierna 1** | Cuádriceps, glúteos, pantorrillas |
+| Mié | **Espalda + Bíceps** | Espalda, bíceps, rear delts |
+| Jue | **Pecho + Tríceps** | Pecho, tríceps, hombro anterior |
+| Vie | **Pierna 2** | Isquiotibiales, glúteos, cuádriceps |
+| Sáb | Descanso activo | Movilidad, caminar |
+| Dom | Descanso total | Recuperación |
+
+**Martes — Pierna 1** (70-80 min):
+1. Sentadilla goblet (5kg) 4×12-15
+2. Sentadilla búlgara 4×10-12
+3. Zancadas caminando (5kg) 3×12 c/pierna
+4. Sentadilla sumo (5kg) 3×15
+5. Step-up en silla (5kg) 3×12 c/pierna
+6. Sentadilla isométrica en pared 3×30-45s
+7. Elevación pantorrillas 4×15-20
+
+---
+
 ### ⏫ Prioridad Alta
 
 - [ ] Terminar migración manual recordatorios — *Objetivo Personal corto.md* 🔄 *(Apple → Obsidian) — En progreso 01/06*
