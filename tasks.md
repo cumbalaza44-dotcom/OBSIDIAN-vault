@@ -24,8 +24,8 @@ source: "Mr. Jair — iOS / Telegram"
 | # | Tarea | Hora | Estado | Prioridad |
 |---|-------|------|--------|----------|
 | 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ⏳ | 🟡 |
-| 2 | 🏋️ **Pierna 1 (Cuádriceps)** — Reto fitness junio (Día 5) | ⏰ 7:00 AM | ⏳ | 🔴 |
-| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
+| 2 | 🏋️ **Pierna 1 (Cuádriceps)** — Reto fitness junio (Día 5) | ⏰ 7:00 AM | ✅ | 🔴 |
+| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ✅ | 🟢 |
 | 4 | 🤖 **Bot MT5 — Backtest estrategia base** (trasladada de lunes) | ⏰ tarde | ⏳ | 🔴 |
 | 5 | 👥 Analizar 2 competidores Ad Library — Meta Ads (trasladada de lunes) | ⏰ tarde | ⏳ | 🟡 |
 | 6 | 🏥 Cambio de EPS | — | ✅ | 🟢 |
