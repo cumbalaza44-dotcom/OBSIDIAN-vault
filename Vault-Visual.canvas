@@ -1,46 +1,38 @@
 {
-  "nodes": [
-    { "id": "vault", "x": 300, "y": 20, "width": 180, "height": 60, "type": "text", "text": "📁 VAULT PRINCIPAL" },
-
-    { "id": "tasks", "x": 100, "y": 150, "width": 200, "height": 60, "type": "text", "text": "📋 tasks.md\nFuente única de tareas" },
-    { "id": "finanzas", "x": 400, "y": 150, "width": 200, "height": 60, "type": "text", "text": "💰 FINANZAS Y PROYECTOS" },
-    { "id": "habitos", "x": 700, "y": 150, "width": 200, "height": 60, "type": "text", "text": "🧠 HÁBITOS Y DESARROLLO" },
-
-    { "id": "mt5", "x": 80, "y": 270, "width": 150, "height": 50, "type": "text", "text": "🤖 Bot MT5" },
-    { "id": "meta", "x": 270, "y": 270, "width": 150, "height": 50, "type": "text", "text": "📢 Meta Ads" },
-    { "id": "prototipo", "x": 460, "y": 270, "width": 150, "height": 50, "type": "text", "text": "🏍️ Prototipo X" },
-    { "id": "empresa", "x": 650, "y": 270, "width": 150, "height": 50, "type": "text", "text": "🏢 Empresa Tecnológica" },
-    { "id": "gym", "x": 840, "y": 270, "width": 150, "height": 50, "type": "text", "text": "🏋️ Rutinas Gym" },
-
-    { "id": "lectura", "x": 80, "y": 380, "width": 150, "height": 50, "type": "text", "text": "📖 Lectura Diaria" },
-    { "id": "habilidades", "x": 270, "y": 380, "width": 150, "height": 50, "type": "text", "text": "🎓 Habilidades" },
-    { "id": "hogar", "x": 460, "y": 380, "width": 150, "height": 50, "type": "text", "text": "🏠 Hogar y Moto" },
-    { "id": "identidad", "x": 650, "y": 380, "width": 150, "height": 50, "type": "text", "text": "👤 Identidad/Ghost" },
-    { "id": "progreso", "x": 840, "y": 380, "width": 150, "height": 50, "type": "text", "text": "📅 Registro Progreso" },
-
-    { "id": "eod", "x": 100, "y": 500, "width": 180, "height": 50, "type": "text", "text": "🌙 End-of-Day\n11:55 PM" },
-    { "id": "arya", "x": 350, "y": 500, "width": 180, "height": 50, "type": "text", "text": "⏰ Arya Recordatorios\n12:05 AM" },
-    { "id": "brief", "x": 600, "y": 500, "width": 180, "height": 50, "type": "text", "text": "☀️ Morning Brief\n5:55 AM" }
-  ],
-  "edges": [
-    { "id": "e1", "fromNode": "vault", "fromSide": "bottom", "toNode": "tasks", "toSide": "top", "label": "" },
-    { "id": "e2", "fromNode": "vault", "fromSide": "bottom", "toNode": "finanzas", "toSide": "top", "label": "" },
-    { "id": "e3", "fromNode": "vault", "fromSide": "bottom", "toNode": "habitos", "toSide": "top", "label": "" },
-
-    { "id": "e4", "fromNode": "finanzas", "fromSide": "bottom", "toNode": "mt5", "toSide": "top", "label": "" },
-    { "id": "e5", "fromNode": "finanzas", "fromSide": "bottom", "toNode": "meta", "toSide": "top", "label": "" },
-    { "id": "e6", "fromNode": "finanzas", "fromSide": "bottom", "toNode": "prototipo", "toSide": "top", "label": "" },
-    { "id": "e7", "fromNode": "finanzas", "fromSide": "bottom", "toNode": "empresa", "toSide": "top", "label": "" },
-
-    { "id": "e8", "fromNode": "habitos", "fromSide": "bottom", "toNode": "gym", "toSide": "top", "label": "" },
-    { "id": "e9", "fromNode": "habitos", "fromSide": "bottom", "toNode": "lectura", "toSide": "top", "label": "" },
-    { "id": "e10", "fromNode": "habitos", "fromSide": "bottom", "toNode": "habilidades", "toSide": "top", "label": "" },
-
-    { "id": "e11", "fromNode": "tasks", "fromSide": "bottom", "toNode": "eod", "toSide": "top", "label": "Lee" },
-    { "id": "e12", "fromNode": "tasks", "fromSide": "bottom", "toNode": "arya", "toSide": "top", "label": "Lee" },
-    { "id": "e13", "fromNode": "tasks", "fromSide": "bottom", "toNode": "brief", "toSide": "top", "label": "Lee" },
-
-    { "id": "e14", "fromNode": "eod", "fromSide": "bottom", "toNode": "arya", "toSide": "left", "label": "Precede" },
-    { "id": "e15", "fromNode": "arya", "fromSide": "bottom", "toNode": "brief", "toSide": "left", "label": "Precede" }
-  ]
+	"nodes":[
+		{"id":"vault","type":"text","text":"📁 VAULT PRINCIPAL","x":300,"y":20,"width":180,"height":60},
+		{"id":"tasks","type":"text","text":"📋 tasks.md\nFuente única de tareas","x":100,"y":150,"width":200,"height":60},
+		{"id":"finanzas","type":"text","text":"💰 FINANZAS Y PROYECTOS","x":400,"y":150,"width":200,"height":60},
+		{"id":"habitos","type":"text","text":"🧠 HÁBITOS Y DESARROLLO","x":700,"y":150,"width":200,"height":60},
+		{"id":"mt5","type":"text","text":"🤖 Bot MT5","x":80,"y":270,"width":150,"height":50},
+		{"id":"meta","type":"text","text":"📢 Meta Ads","x":270,"y":270,"width":150,"height":50},
+		{"id":"prototipo","type":"text","text":"🏍️ Prototipo X","x":460,"y":270,"width":150,"height":50},
+		{"id":"empresa","type":"text","text":"🏢 Empresa Tecnológica","x":650,"y":270,"width":150,"height":50},
+		{"id":"gym","type":"text","text":"🏋️ Rutinas Gym","x":840,"y":270,"width":150,"height":50},
+		{"id":"lectura","type":"text","text":"📖 Lectura Diaria","x":80,"y":380,"width":150,"height":50},
+		{"id":"habilidades","type":"text","text":"🎓 Habilidades","x":270,"y":380,"width":150,"height":50},
+		{"id":"hogar","type":"text","text":"🏠 Hogar y Moto","x":460,"y":380,"width":150,"height":50},
+		{"id":"identidad","type":"text","text":"👤 Identidad/Ghost","x":650,"y":380,"width":150,"height":50},
+		{"id":"progreso","type":"text","text":"📅 Registro Progreso","x":840,"y":380,"width":150,"height":50},
+		{"id":"eod","type":"text","text":"🌙 End-of-Day\n11:55 PM","x":100,"y":500,"width":180,"height":50},
+		{"id":"arya","type":"text","text":"⏰ Arya Recordatorios\n12:05 AM","x":350,"y":500,"width":180,"height":50},
+		{"id":"brief","type":"text","text":"☀️ Morning Brief\n5:55 AM","x":600,"y":500,"width":180,"height":50}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"vault","fromSide":"bottom","toNode":"tasks","toSide":"top"},
+		{"id":"e2","fromNode":"vault","fromSide":"bottom","toNode":"finanzas","toSide":"top"},
+		{"id":"e3","fromNode":"vault","fromSide":"bottom","toNode":"habitos","toSide":"top"},
+		{"id":"e4","fromNode":"finanzas","fromSide":"bottom","toNode":"mt5","toSide":"top"},
+		{"id":"e5","fromNode":"finanzas","fromSide":"bottom","toNode":"meta","toSide":"top"},
+		{"id":"e6","fromNode":"finanzas","fromSide":"bottom","toNode":"prototipo","toSide":"top"},
+		{"id":"e7","fromNode":"finanzas","fromSide":"bottom","toNode":"empresa","toSide":"top"},
+		{"id":"e8","fromNode":"habitos","fromSide":"bottom","toNode":"gym","toSide":"top"},
+		{"id":"e9","fromNode":"habitos","fromSide":"bottom","toNode":"lectura","toSide":"top"},
+		{"id":"e10","fromNode":"habitos","fromSide":"bottom","toNode":"habilidades","toSide":"top"},
+		{"id":"e11","fromNode":"tasks","fromSide":"bottom","toNode":"eod","toSide":"top","label":"Lee"},
+		{"id":"e12","fromNode":"tasks","fromSide":"bottom","toNode":"arya","toSide":"top","label":"Lee"},
+		{"id":"e13","fromNode":"tasks","fromSide":"bottom","toNode":"brief","toSide":"top","label":"Lee"},
+		{"id":"e14","fromNode":"eod","fromSide":"bottom","toNode":"arya","toSide":"left","label":"Precede"},
+		{"id":"e15","fromNode":"arya","fromSide":"bottom","toNode":"brief","toSide":"left","label":"Precede"}
+	]
 }
