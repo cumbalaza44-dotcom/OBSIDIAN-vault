@@ -1,0 +1,46 @@
+{
+  "nodes": [
+    { "id": "center", "x": 600, "y": 20, "width": 280, "height": 100, "type": "text", "text": "👤 GHOST X\nIdentidad · Estrategia · Evolución\n\n\"No solo hacer dinero — construir un sistema que lo genere solo.\"" },
+
+    { "id": "vision", "x": 100, "y": 160, "width": 220, "height": 140, "type": "text", "text": "🎯 VISIÓN 300M\n\nMeta Diaria: $958,500\n\nSemillas activas:\n• MT5 — $1.2M/mes\n• Meta Ads — 20% capital\n• Mercado Libre\n• Contenido + Habilidades" },
+    { "id": "mt5", "x": 420, "y": 160, "width": 220, "height": 140, "type": "text", "text": "🤖 BOT MT5\n\nEstado: Construcción\nStack: OpenCode instalado\nPróximo: Backtest estrategia base\n\nMeta: Automatizar trading\n→ Ingreso pasivo escalable" },
+    { "id": "metaads", "x": 740, "y": 160, "width": 220, "height": 140, "type": "text", "text": "📢 META ADS\n\nEstado: Fase 1 — Fundamentos\nNicho: Fitness\nPróximo: 5 competidores Ad Library\n\nFuturo: MCP Server de Meta\n→ Agente gestiona campañas" },
+
+    { "id": "salud", "x": 100, "y": 350, "width": 220, "height": 140, "type": "text", "text": "💪 SALUD + FITNESS\n\nGym — Junio 2026 (Frecuencia 2)\n• Tren Superior · Pierna 1/2\n• Espalda+Bíceps · Pecho+Tríceps\n\nHábitos:\n• Lectura diaria 6 AM\n• Creatina post-gym\n• Peso corporal + mancuernas 5kg" },
+    { "id": "familia", "x": 420, "y": 350, "width": 220, "height": 140, "type": "text", "text": "👨‍👩‍👧‍👦 FAMILIA\n\nProyectos activos:\n• 📄 Hoja de vida mamá (80%)\n• 🏥 Cambio de EPS (✅)\n\nValor: Recordar que el éxito\nsin propósito personal\nno es éxito." },
+    { "id": "habilidades", "x": 740, "y": 350, "width": 220, "height": 140, "type": "text", "text": "🧠 MENTE + HABILIDADES\n\nAprendizaje activo:\n• IA / Modelos nuevos\n• Diseño 3D\n• Psicología + Control de masas\n• Estrategia de ahorro\n\nMeta: Conocimiento aplicado,\nno acumulado." },
+
+    { "id": "prototipo", "x": 100, "y": 540, "width": 220, "height": 100, "type": "text", "text": "🏍️ PROTOTIPO X\nCopiloto Moto\n\nHardware: ESP32 vs Pi vs Jetson\nSensores: Ultrasónicos\nUX: HUD + alertas" },
+    { "id": "identidad", "x": 420, "y": 540, "width": 220, "height": 100, "type": "text", "text": "🎭 IDENTIDAD GHOST\n\nEstilo: Dark colorido vivido\nMúsica: En exploración\nAventura: En construcción\n\nGhost no es anonimato —\nes presencia sin ruido." },
+    { "id": "hogar", "x": 740, "y": 540, "width": 220, "height": 100, "type": "text", "text": "🏠 HOGAR + MOTO\n\nMoto: Mantenimiento, llantas, admisión\nHogar: Organización, mejoras,\nsartén, lavado\n\nBase estable → libertad\nde movimiento." },
+
+    { "id": "helen", "x": 280, "y": 700, "width": 240, "height": 100, "type": "text", "text": "🦾 H.E.L.E.N.\n\nTu sistema nervioso digital:\n\n• Tasks.md → fuente única\n• QMD → memoria semántica\n• Crons → EOD, Morning, Arya\n• Canvas → visión del ecosistema\n• Reverse prompting → anticipación" },
+    { "id": "vault", "x": 620, "y": 700, "width": 240, "height": 100, "type": "text", "text": "📁 SISTEMA DE ARCHIVOS\n\nObsidian vault:\n• tasks.md\n• META ADS.md\n• Rutinas Gym\n• Plan 300M\n• Registro diario\n• Mapa-Vault.md" }
+  ],
+  "edges": [
+    { "id": "e1", "fromNode": "center", "fromSide": "bottom", "toNode": "vision", "toSide": "top", "label": "Genera riqueza" },
+    { "id": "e2", "fromNode": "center", "fromSide": "bottom", "toNode": "mt5", "toSide": "top", "label": "Automatiza" },
+    { "id": "e3", "fromNode": "center", "fromSide": "bottom", "toNode": "metaads", "toSide": "top", "label": "Escala" },
+    { "id": "e4", "fromNode": "center", "fromSide": "bottom", "toNode": "salud", "toSide": "top", "label": "Sostiene" },
+    { "id": "e5", "fromNode": "center", "fromSide": "bottom", "toNode": "familia", "toSide": "top", "label": "Motiva" },
+    { "id": "e6", "fromNode": "center", "fromSide": "bottom", "toNode": "habilidades", "toSide": "top", "label": "Potencia" },
+
+    { "id": "e7", "fromNode": "vision", "fromSide": "bottom", "toNode": "mt5", "toSide": "left", "label": "Semilla #1" },
+    { "id": "e8", "fromNode": "vision", "fromSide": "bottom", "toNode": "metaads", "toSide": "left", "label": "Semilla #2" },
+
+    { "id": "e9", "fromNode": "salud", "fromSide": "bottom", "toNode": "prototipo", "toSide": "top", "label": "Cuerpo sano → mente creativa" },
+    { "id": "e10", "fromNode": "familia", "fromSide": "bottom", "toNode": "identidad", "toSide": "top", "label": "Raíces → alas" },
+    { "id": "e11", "fromNode": "habilidades", "fromSide": "bottom", "toNode": "hogar", "toSide": "top", "label": "Saber → hacer" },
+
+    { "id": "e12", "fromNode": "prototipo", "fromSide": "bottom", "toNode": "helen", "toSide": "top", "label": "H.E.L.E.N. lo gestiona" },
+    { "id": "e13", "fromNode": "identidad", "fromSide": "bottom", "toNode": "helen", "toSide": "top", "label": "H.E.L.E.N. lo conoce" },
+    { "id": "e14", "fromNode": "hogar", "fromSide": "bottom", "toNode": "helen", "toSide": "top", "label": "H.E.L.E.N. lo recuerda" },
+
+    { "id": "e15", "fromNode": "mt5", "fromSide": "bottom", "toNode": "helen", "toSide": "right", "label": "Backtest" },
+    { "id": "e16", "fromNode": "metaads", "fromSide": "bottom", "toNode": "helen", "toSide": "right", "label": "Futuro MCP" },
+    { "id": "e17", "fromNode": "vision", "fromSide": "bottom", "toNode": "helen", "toSide": "right", "label": "Tracking" },
+
+    { "id": "e18", "fromNode": "helen", "fromSide": "bottom", "toNode": "vault", "toSide": "top", "label": "Escribe y lee" },
+    { "id": "e19", "fromNode": "vault", "fromSide": "bottom", "toNode": "helen", "toSide": "left", "label": "Fuente de datos" }
+  ]
+}
