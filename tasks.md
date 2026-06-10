@@ -17,20 +17,17 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Martes 09/06
+## 🔥 HOY — Miércoles 10/06
 
-> *Martes de pierna. Bot MT5 avanza con micro-tarea concreta.*
+> *Espalda + Bíceps. Bot MT5: bloquear ranura post-gym. Meta Ads: continuar curso.*
 
 | # | Tarea | Hora | Estado | Prioridad |
 |---|-------|------|--------|----------|
-| 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ✅ | 🟡 |
-| 2 | 🏋️ **Pierna 1 (Cuádriceps)** — Reto fitness junio (Día 5) | ⏰ 7:00 AM | ✅ | 🔴 |
-| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ✅ | 🟢 |
-| 4 | 🤖 **Bot MT5 — Plan de arquitectura sólida** (reemplaza backtest) | ⏰ mañana | ⏳ | 🔴 |
-| 5 | 🎓 Curso Meta Ads 9h — 40min vistos hoy | — | 🔄 | 🟡 |
-| 6 | 🏥 Cambio de EPS | — | ✅ | 🟢 |
-| 7 | 📄 Hoja de vida mamá — buscar empleo | — | 🔄 | 🔴 |
-| 8 | 🛠️ Ajustes End-of-Day — timeboxing + gestión | ⏰ 6:30 AM | 🔄 | 🔴 |
+| 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ⏳ | 🟡 |
+| 2 | 🏋️ **Espalda + Bíceps** — Reto fitness junio (Día 6) | ⏰ 7:00 AM | ⏳ | 🔴 |
+| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
+| 4 | 🤖 **Bot MT5 — Diseñar plan de arquitectura** (bloque 45min post-gym) | ⏰ ~9:00 AM | ⏳ | 🔴 |
+| 5 | 🎓 Curso Meta Ads 9h — 40min (continuar desde donde quedó) | — | ⏳ | 🟡 |
 
 ---
 
