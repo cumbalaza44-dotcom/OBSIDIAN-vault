@@ -30,6 +30,7 @@ source: "Mr. Jair — iOS / Telegram"
 | 5 | 👥 Analizar 2 competidores Ad Library — Meta Ads (trasladada de lunes) | ⏰ tarde | ⏳ | 🟡 |
 | 6 | 🏥 Cambio de EPS | — | ✅ | 🟢 |
 | 7 | 📄 Hoja de vida mamá — buscar empleo | — | 🔄 | 🔴 |
+| 8 | 🛠️ Ajustes End-of-Day — timeboxing + gestión | ⏰ 6:30 AM | 🔄 | 🔴 |
 
 ---
 
