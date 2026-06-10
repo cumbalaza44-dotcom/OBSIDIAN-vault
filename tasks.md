@@ -27,7 +27,7 @@ source: "Mr. Jair — iOS / Telegram"
 | 2 | 🏋️ **Pierna 1 (Cuádriceps)** — Reto fitness junio (Día 5) | ⏰ 7:00 AM | ✅ | 🔴 |
 | 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ✅ | 🟢 |
 | 4 | 🤖 **Bot MT5 — Plan de arquitectura sólida** (reemplaza backtest) | ⏰ mañana | ⏳ | 🔴 |
-| 5 | 👥 Analizar 2 competidores Ad Library — Meta Ads (trasladada de lunes) | ⏰ tarde | ⏳ | 🟡 |
+| 5 | 🎓 Curso Meta Ads 9h — Parte 1 (4.5h) | ⏰ mañana | ⏳ | 🟡 |
 | 6 | 🏥 Cambio de EPS | — | ✅ | 🟢 |
 | 7 | 📄 Hoja de vida mamá — buscar empleo | — | 🔄 | 🔴 |
 | 8 | 🛠️ Ajustes End-of-Day — timeboxing + gestión | ⏰ 6:30 AM | 🔄 | 🔴 |
