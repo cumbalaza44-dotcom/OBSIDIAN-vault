@@ -30,7 +30,7 @@ source: "Mr. Jair — iOS / Telegram"
 | 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
 | 4 | 🤖 **Bot MT5 — Diseñar plan de arquitectura** (bloque 45min post-gym) | ⏰ ~9:00 AM | ⏳ | 🔴 |
 | 5 | 🎓 Curso Meta Ads 9h — 40min (continuar desde donde quedó) | — | ⏳ | 🟡 |
-| 6 | 📄 **Entregar hoja de vida Elcira** — Centro de la ciudad | — | 🔄 | 🟡 |
+| 6 | 📄 **Entregar hoja de vida Elcira** — Centro de la ciudad | — | ✅ | 🟡 |
 
 ---
 
