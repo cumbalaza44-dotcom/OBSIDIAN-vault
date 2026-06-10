@@ -618,6 +618,29 @@ Testear → Registrar (Flujo de Campaña) → Analizar → Aprender → Iterar
 
 ---
 
+## 📌 FUTURO — Integración MCP con Meta Ads
+
+> **Anotado:** 09/06/2026 — Meta lanzó servidor MCP oficial para Meta Ads.
+> **Origen:** chat con H.E.L.E.N. — Señor quiere explorar conexión directa.
+
+**¿Qué es?** Un servidor MCP (Model Context Protocol) que permite a agentes de IA gestionar campañas de Meta Ads directamente desde el chat.
+
+**Estado:** Pendiente de explorar. Prioridad media por ahora.
+
+**Diferencia con hacerlo manual:**
+- Manual: abrir Ads Manager, crear campaña, configurar, monitorear
+- Con MCP + OpenClaw: "H.E.L.E.N., lanza campaña de $10 para fitness en Medellín" → ejecutado
+
+**Ventajas de conectarlo a H.E.L.E.N.:**
+- Monitoreo automático de campañas
+- Reportes diarios sin preguntar
+- Ajustes de presupuesto basados en reglas
+- Scraping de Ad Library para competidores
+
+**Próximo paso:** Revisar documentación de Meta + instalar MCP server en OpenClaw.
+
+---
+
 <div align="center">
 
 `🦾 H.E.L.E.N. — De idea a campaña en 4 semanas.`
