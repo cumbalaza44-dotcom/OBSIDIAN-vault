@@ -35,9 +35,9 @@ source: "Mr. Jair — iOS / Telegram"
 
 | # | Tarea | Hora | Estado | Prioridad |
 |---|-------|------|--------|----------|
-| 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ⏳ | 🟡 |
+| 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ✅ | 🟢 |
 | 2 | 🏋️ Espalda + Bíceps — Reto fitness junio (Día 6) | ⏰ 7:00 AM | ⏳ | 🔴 |
-| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
+| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ✅ | 🟢 |
 | 4 | 🤖 Bot MT5 — Diseñar plan de arquitectura | ⏰ ~9:00 AM | ⏳ | 🔴 |
 | 5 | 🎓 Curso Meta Ads 40min | — | ⏳ | 🟡 |
 | 6 | 📄 Entregar hoja de vida Elcira — Centro de la ciudad | — | ✅ | 🟡 |
