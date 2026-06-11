@@ -17,22 +17,30 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Miércoles 10/06
+## 🔥 HOY — Jueves 11/06
 
-> *Espalda + Bíceps. Bot MT5: bloquear ranura post-gym. Meta Ads: continuar curso.*
+> *Pecho + Tríceps. Bot MT5: bloquear ranura post-gym. Meta Ads: continuar curso.*
 
-| # | Tarea | Hora | Estado | Prioridad |
-|---|-------|------|--------|----------|
 | # | Tarea | Hora | Estado | Prioridad |
 |---|-------|------|--------|----------|
 | 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ⏳ | 🟡 |
-| 2 | 🏋️ **Espalda + Bíceps** — Reto fitness junio (Día 6) | ⏰ 7:00 AM | ⏳ | 🔴 |
+| 2 | 🏋️ **Pecho + Tríceps** — Reto fitness junio (Día 7) | ⏰ 7:00 AM | ⏳ | 🔴 |
 | 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
 | 4 | 🤖 **Bot MT5 — Diseñar plan de arquitectura** (bloque 45min post-gym) | ⏰ ~9:00 AM | ⏳ | 🔴 |
 | 5 | 🎓 Curso Meta Ads 9h — 40min (continuar desde donde quedó) | — | ⏳ | 🟡 |
-| 6 | 📄 **Entregar hoja de vida Elcira** — Centro de la ciudad | — | ✅ | 🟡 |
 
 ---
+
+## 📅 MIÉRCOLES 10/06 — Histórico
+
+| # | Tarea | Hora | Estado | Prioridad |
+|---|-------|------|--------|----------|
+| 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ⏳ | 🟡 |
+| 2 | 🏋️ Espalda + Bíceps — Reto fitness junio (Día 6) | ⏰ 7:00 AM | ⏳ | 🔴 |
+| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
+| 4 | 🤖 Bot MT5 — Diseñar plan de arquitectura | ⏰ ~9:00 AM | ⏳ | 🔴 |
+| 5 | 🎓 Curso Meta Ads 40min | — | ⏳ | 🟡 |
+| 6 | 📄 Entregar hoja de vida Elcira — Centro de la ciudad | — | ✅ | 🟡 |
 
 ---
 
