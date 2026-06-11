@@ -167,6 +167,8 @@ source: "Mr. Jair — iOS / Telegram"
 - [x] Afeitarse — *Cuidado personal.md*
 - [x] Cortarse el cabello — *Cuidado personal.md*
 - [x] Hoja de vida Elcira Bolívar — Ajustar a A4 1 página, imprimir — *hv-elcira-bolivar-a4.html*
+- [x] Buscar limpiador electrónico — *Misiones.md*
+- [x] Reparar impresora (inyectores tapados) — *Misiones.md*
 
 ### 📊 En Progreso
 
