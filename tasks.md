@@ -23,7 +23,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 | # | Tarea | Hora | Estado | Prioridad |
 |---|-------|------|--------|----------|
-| 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ⏳ | 🟡 |
+| 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ✅ | 🟢 |
 | 2 | 🏋️ **Pecho + Tríceps** — Reto fitness junio (Día 7) | ⏰ 7:00 AM | ⏳ | 🔴 |
 | 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
 | 4 | 🤖 **Bot MT5 — Diseñar plan de arquitectura** (bloque 45min post-gym) | ⏰ ~9:00 AM | ⏳ | 🔴 |
