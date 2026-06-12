@@ -17,17 +17,16 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Jueves 11/06
+## 🔥 HOY — Viernes 12/06
 
-> *Pecho + Tríceps. Bot MT5: bloquear ranura post-gym. Meta Ads: continuar curso.*
+> *Pierna 2. Bot MT5 o Meta Ads (solo 1 técnica post-gym). Deadline 10:30 AM.*
 
 | # | Tarea | Hora | Estado | Prioridad |
 |---|-------|------|--------|----------|
-| 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ✅ | 🟢 |
-| 2 | 🏋️ **Pecho + Tríceps** — Reto fitness junio (Día 7) | ⏰ 7:00 AM | ✅ | 🟢 |
-| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ✅ | 🟢 |
-| 4 | 🤖 **Bot MT5 — Diseñar plan de arquitectura** (bloque 45min post-gym) | ⏰ ~9:00 AM | ⏳ | 🔴 |
-| 5 | 🎓 Curso Meta Ads 9h — 40min (continuar desde donde quedó) | — | ⏳ | 🟡 |
+| 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ⏳ | 🟢 |
+| 2 | 🏋️ **Pierna 2 — Isquiotibiales** — Reto fitness junio (Día 8) | ⏰ 7:00 AM | ⏳ | 🔴 |
+| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
+| 4 | 🤖 **Bot MT5 — Diseñar plan de arquitectura** (45min, deadline 10:30 AM) | ⏰ 9:00 AM | ⏳ | 🔴 |
 
 ---
 
