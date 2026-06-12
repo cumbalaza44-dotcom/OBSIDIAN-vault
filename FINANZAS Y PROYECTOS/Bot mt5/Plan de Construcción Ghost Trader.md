@@ -149,67 +149,150 @@ flowchart LR
 
 **Función:** Puente único entre Deriv y el sistema. WebSocket persistente.
 
-| Sub-componente | Estado | Prioridad |
-|---------------|--------|-----------|
-| Conexión WebSocket a Deriv Demo | ⏳ | 🔴 |
-| Suscripción a ticks (1RDN8Z3) | ⏳ | 🔴 |
-| Suscripción a balance/profit | ⏳ | 🔴 |
-| Dataclasses internas (models.py) | ⏳ | 🔴 |
-| Auto-reconnect (backoff exponencial) | ⏳ | 🟡 |
-| Parseo de mensajes JSON-RPC | ⏳ | 🔴 |
+### Necesidad del Operador
+> "Necesito que el sistema hable con Deriv en tiempo real, reciba ticks, balance y ejecute órdenes sin que yo tenga que tocar código cada vez que cambie algo."
+
+### Solución que Ofrece
+| Sub-componente | Solución | Estado | Prioridad |
+|---------------|----------|--------|-----------|
+| Conexión WebSocket a Deriv Demo | Conecta y autentica con Deriv API sin intervención manual | ⏳ | 🔴 |
+| Suscripción a ticks (1RDN8Z3) | Recibe precio en vivo de índices sintéticos 24/7 | ⏳ | 🔴 |
+| Suscripción a balance/profit | Sabe cuánto dinero hay y cómo van las operaciones | ⏳ | 🔴 |
+| Dataclasses internas (models.py) | Traduce el JSON de Deriv a objetos Python que el resto del sistema entiende | ⏳ | 🔴 |
+| Auto-reconnect (backoff exponencial) | Si se cae la conexión, se reconecta solo — sin que usted tenga que reiniciar nada | ⏳ | 🟡 |
+| Parseo de mensajes JSON-RPC | Cada tick, orden o actualización se convierte en un evento usable | ⏳ | 🔴 |
 
 **Dependencias:** `websockets`, `orjson`
+**El operador gana:** No tocar Deriv manualmente. El sistema lo maneja.
 
 ---
 
 ## 📦 Módulo 2 — Data Engine
 
-**Función:** Cálculos financieros con Polars. Corazón analítico.
+**Función:** Convierte ticks en velas y calcula indicadores. Corazón analítico.
 
-| Sub-componente | Estado | Prioridad |
-|---------------|--------|-----------|
-| Buffer de ticks → agrupación por intervalo | ⏳ | 🔴 |
-| RSI(14) — Wilder's Smoothing | ⏳ | 🔴 |
-| EMA(12) — Exponential Moving Average | ⏳ | 🔴 |
-| SMA(50) — Simple Moving Average | ⏳ | 🟡 |
-| ATR(14) — Average True Range | ⏳ | 🟡 |
-| Volatilidad (desviación estándar de retornos) | ⏳ | 🟡 |
-| Modo batch (500 velas históricas) | ⏳ | 🟡 |
-| Modo streaming (por tick) | ⏳ | 🔴 |
+### Necesidad del Operador
+> "Necesito que los ticks sueltos se conviertan en velas OHLC de diferentes temporalidades (1m, 5m, 15m), se mantengan agrupadas y actualizadas en vivo, y de ahí se calculen indicadores sin que yo tenga que pedirlos uno por uno."
 
-**Dependencias:** `polars`, `numpy`
+**Lo que ya definimos en sesiones anteriores (18/05):**
+
+```
+Buffer de ticks → Agrupación por intervalo (1m, 5m) → Candle →
+    ├── RSI(14): Wilder's Smoothing
+    ├── EMA(12): Exponential Moving Average
+    ├── SMA(50): Simple Moving Average
+    ├── ATR(14): Average True Range
+    └── Volatilidad: Desviación estándar de retornos
+```
+
+### Solución que Ofrece — Dos Modos de Operación
+
+**Modo Batch** — Al cargar el sistema:
+1. Pide 500 velas históricas a Deriv (ticks_history)
+2. Procesa todo con Polars (vectorizado, milisegundos)
+3. Calcula indicadores desde el inicio
+4. Entrega un snapshot completo al Strategy Engine
+
+**Modo Streaming** — En vivo, por cada tick:
+1. Acumula tick en buffer circular (en RAM, sin disco)
+2. Cuando completa una vela (ej. pasó 1 minuto):
+   - Cierra la vela anterior
+   - Abre una nueva
+   - Recalcula SOLO el indicador que cambió (no todo)
+3. Mantiene N velas en memoria (configurable: 100, 500, 1000)
+4. Velas viejas se persisten a SQLite/Parquet para consultas históricas
+
+### Estructura de datos en memoria:
+
+```python
+@dataclass
+class Tick:
+    symbol: str
+    bid: float
+    ask: float
+    time: datetime
+
+@dataclass
+class Candle:
+    symbol: str
+    open: float
+    high: float
+    low: float
+    close: float
+    volume: int
+    time: datetime
+
+@dataclass
+class IndicatorSnapshot:
+    symbol: str
+    rsi: float | None
+    ema_12: float | None
+    sma_50: float | None
+    atr: float | None
+    volatility: float | None
+```
+
+### Pipeline completo de tick a indicador:
+
+```mermaid
+flowchart LR
+    RAW["Tick crudo<br>JSON-RPC"] -->|"&lt;1ms"| PARSE["Parseo<br>→ TickEvent"]
+    PARSE -->|"O(1)"| BUF["Buffer<br>circular"]
+    BUF -->|¿Vela completa?| VELA["❌ No → esperar<br>✅ Sí → Cerrar vela"]
+    VELA -->|Candle nuevo| IND["Recalcular<br>indicador"]
+    IND -->|IndicatorSnapshot| SNAP["Entregar a<br>Strategy Engine"]
+    
+    style RAW fill:#4a148c,color:#fff
+    style PARSE fill:#1a237e,color:#fff
+    style BUF fill:#004d40,color:#fff
+    style VELA fill:#e65100,color:#fff
+    style IND fill:#01579b,color:#fff
+    style SNAP fill:#1b5e20,color:#fff
+```
+
+**El operador gana:** Datos listos para estrategias sin preocuparse por la matemática. Pide un indicador y ya está calculado.
 
 ---
 
 ## 📦 Módulo 3 — Backtest Engine
 
-**Función:** Simulación vela por vela con datos reales Deriv.
+**Función:** Simulación vela por vela con datos reales Deriv para probar estrategias antes de arriesgar capital.
 
-| Sub-componente | Estado | Prioridad |
-|---------------|--------|-----------|
-| Obtener ticks_history de Deriv | ⏳ | 🔴 |
-| Simulación vela por vela | ⏳ | 🔴 |
-| Slippage + comisiones | ⏳ | 🟡 |
-| Spread variable | ⏳ | 🟡 |
-| Métricas: Sharpe, Sortino, Profit Factor, DD | ⏳ | 🟡 |
+### Necesidad del Operador
+> "Necesito saber si una estrategia funciona ANTES de poner dinero real. Quiero simularla con datos históricos reales y ver métricas de rendimiento."
+
+### Solución que Ofrece
+| Sub-componente | Solución | Estado | Prioridad |
+|---------------|----------|--------|-----------|
+| Obtener ticks_history de Deriv | Toma datos reales del broker, no simulaciones inventadas | ⏳ | 🔴 |
+| Simulación vela por vela | Reconstruye cada vela como si el tiempo hubiera pasado en vivo | ⏳ | 🔴 |
+| Slippage + comisiones | Refleja el costo real de operar (no fantasía) | ⏳ | 🟡 |
+| Spread variable | Simula el diferencial real del mercado en cada momento | ⏳ | 🟡 |
+| Métricas: Sharpe, Sortino, PF, DD | Números objetivos para decidir si la estrategia sirve | ⏳ | 🟡 |
 
 **Dependencias:** Módulo 2 (Data Engine)
+**El operador gana:** Validación objetiva antes de arriesgar capital.
 
 ---
 
 ## 📦 Módulo 4 — Strategy Engine
 
-**Función:** Estrategias OOP. Evalúa reglas y genera señales.
+**Función:** Estrategias OOP. Evalúa reglas y genera señales de compra/venta.
 
-| Sub-componente | Estado | Prioridad |
-|---------------|--------|-----------|
-| Clase abstracta Strategy | ⏳ | 🔴 |
-| EMACross (EMA_12 cruza SMA_50) | ⏳ | 🔴 |
-| RSIStrategy (RSI < 30 compra, > 70 vende) | ⏳ | 🟡 |
-| Dynamic (reglas JSON configurables) | ⏳ | 🟡 |
-| Evaluación O(1) por tick | ⏳ | 🔴 |
+### Necesidad del Operador
+> "Necesito definir reglas de trading que el sistema evalúe automáticamente en cada tick o vela, sin que yo esté pegado a la pantalla."
+
+### Solución que Ofrece
+| Sub-componente | Solución | Estado | Prioridad |
+|---------------|----------|--------|-----------|
+| Clase abstracta Strategy | Cualquier estrategia nueva se escribe heredando de una clase base — estructura predecible | ⏳ | 🔴 |
+| EMACross | Dispara orden cuando EMA(12) cruza SMA(50) | ⏳ | 🔴 |
+| RSIStrategy | Compra si RSI < 30, vende si RSI > 70 | ⏳ | 🟡 |
+| Dynamic JSON | Permite cambiar reglas sin modificar código (solo editar un JSON) | ⏳ | 🟡 |
+| Evaluación O(1) por tick | Cada tick se evalúa en tiempo constante — no se acumula latencia | ⏳ | 🔴 |
 
 **Dependencias:** Módulo 2 (IndicatorSnapshot)
+**El operador gana:** Estrategias automáticas que operan 24/7 sin supervisión constante.
 
 ---
 
@@ -217,35 +300,45 @@ flowchart LR
 
 **Función:** Último filtro de seguridad. NO HAY BYPASS.
 
-| Regla | Estado | Prioridad |
-|-------|--------|-----------|
-| Máx pérdida diaria (-2% del balance) | ⏳ | 🔴 |
-| Máx posiciones abiertas (3) | ⏳ | 🔴 |
-| Stop Loss obligatorio | ⏳ | 🔴 |
-| Horario permitido (08:00-20:00 UTC) | ⏳ | 🟡 |
-| Margen suficiente | ⏳ | 🔴 |
-| Short-circuit (falla una → rechazada) | ⏳ | 🟡 |
+### Necesidad del Operador
+> "Necesito estar seguro de que el sistema no va a arriesgar más de lo debido, incluso si yo mismo pido una orden arriesgada o si la estrategia automática se desvía."
+
+### Solución que Ofrece
+| Regla | Solución | Estado | Prioridad |
+|-------|----------|--------|-----------|
+| Máx pérdida diaria (-2%) | Si hoy ya perdió el 2% del balance, no se ejecutan más órdenes hasta mañana | ⏳ | 🔴 |
+| Máx posiciones abiertas (3) | No permite tener más de 3 operaciones abiertas simultáneas | ⏳ | 🔴 |
+| Stop Loss obligatorio | Toda orden DEBE tener un SL definido. Sin SL = orden rechazada | ⏳ | 🔴 |
+| Horario permitido (08-20 UTC) | Solo opera en horas de mercado activo | ⏳ | 🟡 |
+| Margen suficiente | Verifica que hay saldo disponible antes de cada orden | ⏳ | 🔴 |
+| Short-circuit | Si UNA regla falla, la orden se rechaza al instante (no evalúa las siguientes) | ⏳ | 🟡 |
 
 **Regla de oro:** Risk Engine aplica a TODAS las órdenes — automáticas, manuales y por LLM.
+**El operador gana:** Dormir tranquilo sabiendo que el sistema no se va a autodestruir.
 
 ---
 
 ## 📦 Módulo 6 — HTTP API (localhost:9001)
 
-**Función:** Endpoints para que OpenClaw consuma.
+**Función:** Endpoints para que OpenClaw consuma datos y ejecute órdenes.
 
-| Endpoint | Estado | Prioridad |
-|----------|--------|-----------|
-| GET /price/{symbol} | ⏳ | 🔴 |
-| GET /indicator/{name}/{symbol} | ⏳ | 🟡 |
-| GET /candles/{symbol} | ⏳ | 🟡 |
-| POST /order | ⏳ | 🔴 |
-| POST /backtest | ⏳ | 🟡 |
-| POST /strategy/{action} | ⏳ | 🟡 |
-| GET /positions | ⏳ | 🟡 |
-| GET /account | ⏳ | 🔴 |
+### Necesidad del Operador
+> "Necesito que H.E.L.E.N. pueda preguntarle al sistema el precio actual, los indicadores, mis posiciones y ejecutar órdenes sin tener que abrir Deriv."
+
+### Solución que Ofrece
+| Endpoint | Solución | Estado | Prioridad |
+|----------|----------|--------|-----------|
+| GET /price/{symbol} | "Señor, el EURUSD está a 1.0834" | ⏳ | 🔴 |
+| GET /indicator/{name}/{symbol} | "El RSI(14) está en 62.3" | ⏳ | 🟡 |
+| GET /candles/{symbol} | "Aquí tiene las últimas 20 velas" | ⏳ | 🟡 |
+| POST /order | "Compro 10 EURUSD" → Risk Engine → Deriv | ⏳ | 🔴 |
+| POST /backtest | Ejecuta backtest de una estrategia y devuelve métricas | ⏳ | 🟡 |
+| POST /strategy/{action} | Activar/desactivar estrategia, cambiar parámetros | ⏳ | 🟡 |
+| GET /positions | "Tiene 1 posición abierta" | ⏳ | 🟡 |
+| GET /account | "Balance: $1,234.56" | ⏳ | 🔴 |
 
 **Dependencias:** Flask/FastAPI (liviano)
+**El operador gana:** Interactuar con Ghost Trader desde Telegram como si estuviera hablando con un broker.
 
 ---
 
@@ -253,12 +346,18 @@ flowchart LR
 
 **Función:** Interface con usted vía Telegram + LLM.
 
-| Sub-componente | Estado | Prioridad |
-|---------------|--------|-----------|
-| Skills HTTP thin (máx 15 líneas c/u) | ⏳ | 🟡 |
-| Telegram → LLM interpreta → POST /order | ⏳ | 🔴 |
-| TaskFlow (estrategias autónomas) | ⏳ | 🟡 |
-| LLM intercambiable (DeepSeek → OpenAI → Claude) | ✅ | 🟢 |
+### Necesidad del Operador
+> "Necesito que todo esto funcione desde mi chat de Telegram, en lenguaje natural, sin abrir terminales ni recordar comandos."
+
+### Solución que Ofrece
+| Sub-componente | Solución | Estado | Prioridad |
+|---------------|----------|--------|-----------|
+| Skills HTTP thin | Capa delgada que traduce comandos de Telegram a llamadas HTTP a M6 | ⏳ | 🟡 |
+| Telegram → LLM → orden | Usted dice "compra 10 EURUSD" y el sistema lo procesa hasta ejecutar | ⏳ | 🔴 |
+| TaskFlow (estrategias autónomas) | Estrategias que se ejecutan en background sin necesidad de que usted esté en el chat | ⏳ | 🟡 |
+| LLM intercambiable | Puede usar DeepSeek, OpenAI o Claude según lo que convenga | ✅ | 🟢 |
+
+**El operador gana:** Trading desde el bolsillo, en español, sin interfaces.
 
 ---
 
