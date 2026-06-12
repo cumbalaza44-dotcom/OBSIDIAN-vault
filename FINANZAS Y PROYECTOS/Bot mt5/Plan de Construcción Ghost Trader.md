@@ -8,37 +8,139 @@
 
 ## 🧱 MÓDULOS DEL SISTEMA
 
+```mermaid
+flowchart TB
+    subgraph DERIV[Mundo Exterior]
+        A[Deriv API<br>ws.derivws.com]
+    end
+
+    subgraph GT[Ghost Trader — 1 Proceso Python]
+        direction TB
+        
+        subgraph M1[📦 M1 — Deriv Connector]
+            M1_WS[WebSocket persistente]
+            M1_TICK[TickEvent]
+            M1_ORDEN[Orden buy/sell]
+        end
+
+        subgraph M2[📦 M2 — Data Engine]
+            M2_BUF[Buffer de ticks]
+            M2_VELA[Agrupación → Velas]
+            M2_IND[Indicadores<br>RSI · EMA · SMA · ATR · Vol]
+        end
+
+        subgraph M3[📦 M3 — Backtest Engine]
+            M3_HIST[Datos históricos<br>ticks_history]
+            M3_SIM[Simulación vela x vela]
+            M3_MET[Métricas<br>Sharpe · Sortino · DD · PF]
+        end
+
+        subgraph M4[📦 M4 — Strategy Engine]
+            M4_ABS[Clase abstracta Strategy]
+            M4_EMA[EMACross]
+            M4_RSI[RSIStrategy]
+            M4_DYN[Dynamic JSON]
+            M4_SIG[OrderSignal]
+        end
+
+        subgraph M5[📦 M5 — Risk Engine]
+            M5_R1[🔴 Max pérdida diaria -2%]
+            M5_R2[🔴 Max posiciones 3]
+            M5_R3[🔴 Stop Loss obligatorio]
+            M5_R4[🟡 Horario 08-20 UTC]
+            M5_R5[🔴 Margen suficiente]
+            M5_OK[✅ ApprovedOrder]
+        end
+
+        subgraph M6[📦 M6 — HTTP API :9001]
+            M6_PRICE[GET /price/{symbol}]
+            M6_IND[GET /indicator/{name}]
+            M6_CAND[GET /candles/{symbol}]
+            M6_ORDER[POST /order]
+            M6_POS[GET /positions]
+            M6_ACC[GET /account]
+            M6_BT[POST /backtest]
+        end
+    end
+
+    subgraph OPENCLAW[Capa de Interacción — OpenClaw]
+        TG[💬 Telegram]
+        LLM[🧠 LLM<br>DeepSeek → OpenAI → Claude]
+        TF[⚙️ TaskFlow<br>Estrategias autónomas]
+        SK[🔌 Skills HTTP thin]
+    end
+
+    %% Conexiones del flujo de datos
+    A <-->|WebSocket SSL| M1_WS
+    M1_WS -->|TickEvent| M2_BUF
+    M2_BUF --> M2_VELA --> M2_IND
+    M2_IND -->|IndicatorSnapshot| M4_ABS
+    M4_ABS --> M4_EMA & M4_RSI & M4_DYN
+    M4_EMA & M4_RSI & M4_DYN -->|OrderSignal| M5_R1
+    M5_R1 --> M5_R2 --> M5_R3 --> M5_R4 --> M5_R5
+    M5_R5 -->|Si todo OK| M5_OK
+    M5_OK -->|ApprovedOrder| M1_ORDEN
+    M1_ORDEN -->|buy/sell JSON-RPC| A
+    M1_WS -.->|Datos históricos| M3_HIST
+    M3_HIST --> M3_SIM --> M3_MET
+    M3_MET -.->|Feedback| M4_ABS
+
+    %% HTTP API conecciones
+    M1_WS -.->|Precio en vivo| M6_PRICE
+    M2_IND -.->|Indicadores| M6_IND
+    M2_VELA -.->|Velas| M6_CAND
+    M5_OK -.->|Orden aprobada| M6_ORDER
+    M1_ORDEN -.->|Posiciones abiertas| M6_POS
+
+    %% OpenClaw conecciones
+    TG -->|"compra 10 EURUSD"| LLM
+    LLM -->|OrderSignal| M5_R1
+    LLM -.->|Consulta de datos| SK
+    SK <--> M6_PRICE & M6_IND & M6_ORDER & M6_POS
+    TF -.->|Estrategia automática| M4_ABS
+
+    %% Estilos
+    classDef danger fill:#ff4444,color:#fff
+    classDef ok fill:#00C853,color:#fff
+    classDef warning fill:#FFC107,color:#000
+    classDef module fill:#1a1a2e,stroke:#e94560,color:#eee
+    classDef openclaw fill:#16213e,stroke:#0f3460,color:#eee
+    class M5_R1,M5_R2,M5_R3,M5_R5 danger
+    class M5_OK ok
+    class M5_R4 warning
+    class M1,M2,M3,M4,M5,M6 module
+    class TG,LLM,TF,SK openclaw
 ```
-┌─────────────────────────────────────────────────────────┐
-│                 GHOST TRADER (1 proceso Python)          │
-│                                                         │
-│  ┌───────────────┐  ┌────────────┐  ┌───────────────┐  │
-│  │    Deriv      │  │   Data     │  │   Backtest    │  │
-│  │   Connector   │  │   Engine   │  │    Engine     │  │
-│  │               │  │            │  │               │  │
-│  │ WebSocket     │  │  Polars    │  │ Simulación    │  │
-│  │ ↔ Deriv API   │  │  RSI, EMA  │  │ vela por vela │  │
-│  │ Ticks vivos   │  │  SMA, ATR  │  │ Slippage, DD  │  │
-│  └───────┬───────┘  └─────┬──────┘  └───────┬───────┘  │
-│          │                │                  │          │
-│          ▼                ▼                  ▼          │
-│  ┌───────────────┐  ┌────────────┐  ┌───────────────┐  │
-│  │   Strategy    │  │    Risk    │  │   HTTP API    │  │
-│  │    Engine     │  │   Engine   │  │ (localhost)   │  │
-│  │               │  │            │  │               │  │
-│  │ EMACross, RSI │  │ Max loss   │  │ GET /price    │  │
-│  │ Dynamic JSON  │  │ Max pos    │  │ POST /order   │  │
-│  │ Evaluación    │  │ Horario    │  │ GET /account  │  │
-│  └───────┬───────┘  └─────┬──────┘  └───────┬───────┘  │
-│          │                │                  │          │
-│          └────────────────┴──────────────────┘          │
-│                           │                              │
-│                           ▼                              │
-│              ┌──────────────────────────┐                │
-│              │   OPENC LAW (Capa Interacción)            │
-│              │  Skills HTTP · Telegram · LLM · TaskFlow │
-│              └──────────────────────────┘                │
-└──────────────────────────────────────────────────────────┘
+
+### Leyenda del Diagrama
+
+| Símbolo | Significado |
+|---------|------------|
+| ➡️ Flecha sólida | Flujo principal de datos (tick → orden) |
+| ┄ ➡️ Flecha punteada | Flujo secundario / consulta |
+| 🔴 Rojo | Regla crítica de seguridad |
+| 🟢 Verde | Punto de aprobación |
+| 🟡 Amarillo | Regla opcional / informativa |
+
+### Pipeline de Datos — Tick a Orden (Tiempos Estimados)
+
+```mermaid
+flowchart LR
+    TICK["Tick<br>📡"] -->|"&lt;1ms"| CON["Parseo<br>Connector"]
+    CON -->|"~5ms"| DE["Cálculo<br>Data Engine"]
+    DE -->|"&lt;1ms"| SE["Evaluación<br>Strategy Engine"]
+    SE -->|"&lt;1ms"| RE["Filtro<br>Risk Engine"]
+    RE -->|"~50ms"| ORD["Ejecución<br>Deriv API"]
+    
+    style TICK fill:#4a148c,color:#fff
+    style CON fill:#1a237e,color:#fff
+    style DE fill:#004d40,color:#fff
+    style SE fill:#e65100,color:#fff
+    style RE fill:#b71c1c,color:#fff
+    style ORD fill:#1b5e20,color:#fff
+```
+
+**Latencia total estimada Tick → Orden:** ~60ms
 ```
 
 ---
