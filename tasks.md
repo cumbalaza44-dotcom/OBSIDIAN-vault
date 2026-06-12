@@ -30,6 +30,19 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
+## 📅 JUEVES 11/06 — Histórico
+
+| # | Tarea | Hora | Estado | Prioridad |
+|---|-------|------|--------|----------|
+| 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ✅ | 🟢 |
+| 2 | 🏋️ Pecho + Tríceps — Reto fitness junio (Día 7) | ⏰ 7:00 AM | ✅ | 🟢 |
+| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ✅ | 🟢 |
+| 4 | 🤖 Bot MT5 — Diseñar plan de arquitectura | ⏰ ~9:00 AM | ✅ | 🟢 |
+| 5 | 🎓 Curso Meta Ads 40min (40+45 min) | — | ✅ | 🟢 |
+| 6 | 📄 Misiones: limpiador electrónico + reparar impresora | — | ✅ | 🟢 |
+
+---
+
 ## 📅 MIÉRCOLES 10/06 — Histórico
 
 | # | Tarea | Hora | Estado | Prioridad |
