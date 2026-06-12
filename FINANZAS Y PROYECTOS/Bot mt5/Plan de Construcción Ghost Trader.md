@@ -169,42 +169,138 @@ flowchart LR
 
 ## 📦 Módulo 2 — Data Engine
 
-**Función:** Convierte ticks en velas y calcula indicadores. Corazón analítico.
+**Función:** Árbol de velas multi-temporalidad + cálculo simultáneo de indicadores. Corazón analítico.
 
 ### Necesidad del Operador
-> "Necesito que los ticks sueltos se conviertan en velas OHLC de diferentes temporalidades (1m, 5m, 15m), se mantengan agrupadas y actualizadas en vivo, y de ahí se calculen indicadores sin que yo tenga que pedirlos uno por uno."
+> "Necesito que los ticks se conviertan en velas de TODAS las temporalidades a la vez (1m, 5m, 15m, 1h, 4h, 1d), que los indicadores se calculen simultáneamente en cada una, y que pueda pedir datos en ticks o en velas según lo que quiera interpretar."
 
-**Lo que ya definimos en sesiones anteriores (18/05):**
+### Arquitectura — Árbol de Velas Multi-Temporalidad
+
+Un mismo tick alimenta TODAS las temporalidades simultáneamente. No hay pipelines separados — es un solo árbol que se bifurca.
 
 ```
-Buffer de ticks → Agrupación por intervalo (1m, 5m) → Candle →
-    ├── RSI(14): Wilder's Smoothing
-    ├── EMA(12): Exponential Moving Average
-    ├── SMA(50): Simple Moving Average
-    ├── ATR(14): Average True Range
-    └── Volatilidad: Desviación estándar de retornos
+                             Tick
+                               |
+                               v
+                     +-----------------+
+                     |  Tick Buffer     |
+                     |  (1 segundo)     |
+                     +--------+--------+
+                              |
+              +---------------+---------------+--------------+
+              v               v               v              v
+        +----------+   +----------+   +----------+   +----------+
+        |  Vela 1m |   |  Vela 5m |   | Vela 15m |   | Vela 1h  |
+        |  OHLC    |   |  OHLC    |   |  OHLC    |   |  OHLC    |
+        +----+-----+   +----+-----+   +----+-----+   +----+-----+
+             |               |               |              |
+             v               v               v              v
+        +----------+   +----------+   +----------+   +----------+
+        |  RSI(14) |   |  RSI(14) |   |  RSI(14) |   |  RSI(14) |
+        |  EMA(12) |   |  EMA(12) |   |  EMA(12) |   |  EMA(12) |
+        |  SMA(50) |   |  SMA(50) |   |  SMA(50) |   |  SMA(50) |
+        |  ATR(14) |   |  ATR(14) |   |  ATR(14) |   |  ATR(14) |
+        +----------+   +----------+   +----------+   +----------+
 ```
 
-### Solución que Ofrece — Dos Modos de Operación
+#### Dos modos de alimentación (para diferentes tipos de análisis):
 
-**Modo Batch** — Al cargar el sistema:
-1. Pide 500 velas históricas a Deriv (ticks_history)
-2. Procesa todo con Polars (vectorizado, milisegundos)
-3. Calcula indicadores desde el inicio
-4. Entrega un snapshot completo al Strategy Engine
+| Modo | Entrada | Procesamiento | Cuándo se usa |
+|------|---------|--------------|-------------|
+| **Tick por tick** | `TickEvent` individual | Actualiza vela en curso + cierra si corresponde | Trading en vivo, latencia crítica |
+| **Intervalo de ticks** | Lote de N ticks | Reconstruye velas completas + batch de indicadores | Backtest, carga histórica, análisis offline |
 
-**Modo Streaming** — En vivo, por cada tick:
-1. Acumula tick en buffer circular (en RAM, sin disco)
-2. Cuando completa una vela (ej. pasó 1 minuto):
-   - Cierra la vela anterior
-   - Abre una nueva
-   - Recalcula SOLO el indicador que cambió (no todo)
-3. Mantiene N velas en memoria (configurable: 100, 500, 1000)
-4. Velas viejas se persisten a SQLite/Parquet para consultas históricas
+### Solución que Ofrece — Composición del Módulo
 
-### Estructura de datos en memoria:
+```mermaid
+flowchart TB
+    subgraph INPUT[Entrada]
+        TICK["Tick<br>bid/ask/time"]
+    end
+
+    subgraph TREE[Árbol de Velas - RAM]
+        direction TB
+        TF1["Timeframe 1m<br>Buffer -> Candle -> RSI/EMA/SMA/ATR"]
+        TF5["Timeframe 5m<br>Buffer -> Candle -> RSI/EMA/SMA/ATR"]
+        TF15["Timeframe 15m<br>Buffer -> Candle -> RSI/EMA/SMA/ATR"]
+        TF60["Timeframe 1h<br>Buffer -> Candle -> RSI/EMA/SMA/ATR"]
+        TF1440["Timeframe 1d<br>Buffer -> Candle -> RSI/EMA/SMA/ATR"]
+    end
+
+    subgraph PERSIST[Persistencia - Disco]
+        SQL["SQLite / Parquet<br>Velas históricas<br>Todas las TFs"]
+    end
+
+    subgraph OUTPUT[Salidas]
+        API["HTTP API<br>GET /candles/{tf}<br>GET /indicator/{name}/{tf}"]
+        STRAT["Strategy Engine<br>IndicatorSnapshot por TF"]
+        CHART["Endpoints para gráficos<br>GET /chart/{tf}<br>GET /chart/ticks"]
+    end
+
+    TICK -->|O(1)| TF1 & TF5 & TF15 & TF60 & TF1440
+    TF1 & TF5 & TF15 & TF60 & TF1440 -.->|Persistir velas cerradas| SQL
+    SQL -.->|Cargar al inicio| TF1 & TF5 & TF15 & TF60 & TF1440
+    TF1 & TF5 & TF15 & TF60 & TF1440 -->|Snapshot por TF| STRAT
+    TF1 & TF5 & TF15 & TF60 & TF1440 -->|Datos vivos| API
+    TICK -->|Ticks puros| CHART
+
+    classDef input fill:#4a148c,color:#fff
+    classDef tree fill:#004d40,color:#fff
+    classDef persist fill:#1a237e,color:#fff
+    classDef output fill:#e65100,color:#fff
+    class TICK input
+    class TF1,TF5,TF15,TF60,TF1440 tree
+    class SQL persist
+    class API,STRAT,CHART output
+```
+
+### Cómo funciona internamente
 
 ```python
+class TimeframeTree:
+    """Árbol que mantiene velas + indicadores en N temporalidades."""
+    
+    # Un solo diccionario indexado por timeframe
+    timeframes: dict[str, TimeframeState] = {
+        "1m":  TimeframeState(interval=60,   candles=[], indicators={}),
+        "5m":  TimeframeState(interval=300,  candles=[], indicators={}),
+        "15m": TimeframeState(interval=900,  candles=[], indicators={}),
+        "1h":  TimeframeState(interval=3600, candles=[], indicators={}),
+        "4h":  TimeframeState(interval=14400,candles=[], indicators={}),
+        "1d":  TimeframeState(interval=86400,candles=[], indicators={}),
+    }
+    
+    def on_tick(self, tick: Tick):
+        """Un tick -> actualiza TODAS las temporalidades."""
+        for tf in self.timeframes.values():
+            tf.buffer.append(tick)
+            if tf.is_candle_complete():
+                candle = tf.close_candle()
+                tf.candles.append(candle)
+                self._recalculate_indicators(tf)
+    
+    def on_tick_interval(self, ticks: list[Tick]):
+        """Modo batch: N ticks -> procesa todo como lote."""
+        for tf in self.timeframes.values():
+            candles = build_candles_from_ticks(ticks, tf.interval)
+            tf.candles.extend(candles)
+            self._recalculate_indicators_batch(tf)  # Polars vectorizado
+```
+
+### Estructura de datos
+
+```python
+from enum import Enum
+from dataclasses import dataclass, field
+
+class Timeframe(str, Enum):
+    M1  = "1m"
+    M5  = "5m"
+    M15 = "15m"
+    H1  = "1h"
+    H4  = "4h"
+    D1  = "1d"
+
 @dataclass
 class Tick:
     symbol: str
@@ -215,44 +311,111 @@ class Tick:
 @dataclass
 class Candle:
     symbol: str
+    timeframe: Timeframe
     open: float
     high: float
     low: float
     close: float
     volume: int
     time: datetime
+    closed_at: datetime | None = None
 
 @dataclass
 class IndicatorSnapshot:
     symbol: str
+    timeframe: Timeframe
     rsi: float | None
     ema_12: float | None
+    ema_26: float | None
     sma_50: float | None
+    sma_200: float | None
     atr: float | None
     volatility: float | None
+
+@dataclass
+class TimeframeState:
+    """Estado completo de UNA temporalidad."""
+    interval: int                 # segundos (60, 300, 900...)
+    buffer: list[Tick] = field(default_factory=list)
+    candles: list[Candle] = field(default_factory=list)
+    indicators: dict[str, float] = field(default_factory=dict)
+    current_candle: Candle | None = None
+    
+    def is_candle_complete(self) -> bool:
+        """El tiempo de esta vela ya venció?"""
+        if not self.current_candle:
+            return False
+        elapsed = (datetime.now() - self.current_candle.time).total_seconds()
+        return elapsed >= self.interval
 ```
 
-### Pipeline completo de tick a indicador:
+### Sub-componentes del Data Engine
+
+| Sub-componente | Solución | Estado | Prioridad |
+|---------------|----------|--------|-----------|
+| TimeframeTree (dict de TimeframeState) | Un solo árbol RAM que maneja N temporalidades desde el mismo tick | ⏳ | 🔴 |
+| Buffer circular por TF | Cada TF acumula ticks sin duplicar la data cruda | ⏳ | 🔴 |
+| Cierre de vela automático | Detecta cuándo una vela debe cerrarse en cada TF | ⏳ | 🔴 |
+| RSI(14) multi-TF | Wilder's Smoothing en 1m, 5m, 15m, 1h, 4h, 1d simultáneamente | ⏳ | 🔴 |
+| EMA(12/26) multi-TF | EMA rápida + lenta en todas las TFs a la vez | ⏳ | 🔴 |
+| SMA(50/200) multi-TF | SMA en todas las TFs | ⏳ | 🟡 |
+| ATR(14) multi-TF | Average True Range en todas las TFs | ⏳ | 🟡 |
+| Volatilidad multi-TF | Desviación estándar de retornos en todas las TFs | ⏳ | 🟡 |
+| Persistencia a SQLite/Parquet | Velas cerradas se guardan para no perder historial | ⏳ | 🟡 |
+| Carga inicial batch (Polars) | Al arrancar, pide ticks_history a Deriv y calcula todo desde 0 | ⏳ | 🔴 |
+| Streaming por tick | Actualiza indicador incremental sin recalcular todo | ⏳ | 🔴 |
+| GET /chart/ticks | Devuelve ticks puros para gráficos de tick-level | ⏳ | 🟡 |
+| GET /chart/{tf} | Devuelve velas agrupadas de una TF específica para gráficos | ⏳ | 🟡 |
+
+### Pipeline de tick a TODAS las temporalidades:
 
 ```mermaid
 flowchart LR
-    RAW["Tick crudo<br>JSON-RPC"] -->|"&lt;1ms"| PARSE["Parseo<br>→ TickEvent"]
-    PARSE -->|"O(1)"| BUF["Buffer<br>circular"]
-    BUF -->|¿Vela completa?| VELA["❌ No → esperar<br>✅ Sí → Cerrar vela"]
-    VELA -->|Candle nuevo| IND["Recalcular<br>indicador"]
-    IND -->|IndicatorSnapshot| SNAP["Entregar a<br>Strategy Engine"]
+    RAW["Tick crudo"] -->|"<1ms"| PARSE["Parseo<br>-> TickEvent"]
+    PARSE -->|"O(1)"| DIST["Distribuir a<br>TODAS las TFs"]
+    DIST --> TF1M["TF 1m<br>Vela completa?"]
+    DIST --> TF5M["TF 5m<br>Vela completa?"]
+    DIST --> TF15M["TF 15m<br>Vela completa?"]
+    DIST --> TF1H["TF 1h<br>Vela completa?"]
+    DIST --> TF1D["TF 1d<br>Vela completa?"]
     
+    TF1M -->|"Sí"| RSI1M["RSI + EMA + SMA + ATR<br>en 1m"]
+    TF5M -->|"Sí"| RSI5M["RSI + EMA + SMA + ATR<br>en 5m"]
+    TF15M -->|"Sí"| RSI15M["RSI + EMA + SMA + ATR<br>en 15m"]
+    TF1H -->|"Sí"| RSI1H["RSI + EMA + SMA + ATR<br>en 1h"]
+    TF1D -->|"Sí"| RSI1D["RSI + EMA + SMA + ATR<br>en 1d"]
+    
+    RSI1M & RSI5M & RSI15M & RSI1H & RSI1D --> POOL["Pool de Snapshots<br>Indexado por TF"]
+    POOL -->|"GET /indicator/rsi/5m"| API_OUT["HTTP API"]
+    POOL -->|"Snapshot completo"| STRAT_OUT["Strategy Engine"]
+
     style RAW fill:#4a148c,color:#fff
     style PARSE fill:#1a237e,color:#fff
-    style BUF fill:#004d40,color:#fff
-    style VELA fill:#e65100,color:#fff
-    style IND fill:#01579b,color:#fff
-    style SNAP fill:#1b5e20,color:#fff
+    style DIST fill:#004d40,color:#fff
+    style TF1M,TF5M,TF15M,TF1H,TF1D fill:#e65100,color:#fff
+    style RSI1M,RSI5M,RSI15M,RSI1H,RSI1D fill:#01579b,color:#fff
+    style POOL fill:#33691e,color:#fff
+    style API_OUT,STRAT_OUT fill:#1b5e20,color:#fff
 ```
 
-**El operador gana:** Datos listos para estrategias sin preocuparse por la matemática. Pide un indicador y ya está calculado.
+### Ticks puros vs Velas — Ambos disponibles
 
----
+```
+GET /chart/ticks?symbol=1RDN8Z3&limit=100
+-> [{bid: 1.0834, ask: 1.0836, time: "..."}, ...]
+
+GET /chart/1m?symbol=1RDN8Z3&limit=20
+-> [{open, high, low, close, volume, time}, ...]
+
+GET /chart/5m?symbol=1RDN8Z3&limit=20
+-> [{open, high, low, close, volume, time}, ...]
+
+GET /chart/1h?symbol=1RDN8Z3&limit=20
+-> [{open, high, low, close, volume, time}, ...]
+```
+
+**El operador gana:** Un solo tick alimenta 6 temporalidades en paralelo. Pide cualquier indicador en cualquier TF y ya está listo.
+
 
 ## 📦 Módulo 3 — Backtest Engine
 
