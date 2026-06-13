@@ -23,9 +23,9 @@ source: "Mr. Jair — iOS / Telegram"
 
 | # | Tarea | Hora | Estado | Prioridad |
 |---|-------|------|--------|----------|
-| 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ⏳ | 🟢 |
-| 2 | 🏋️ **Pierna 2 — Isquiotibiales** — Reto fitness junio (Día 8) | ⏰ 7:00 AM | ⏳ | 🔴 |
-| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
+| 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ✅ | 🟢 |
+| 2 | 🏋️ **Pierna 2 — Isquiotibiales** — Reto fitness junio (Día 8) | ⏰ 7:00 AM | ✅ | 🔴 |
+| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ✅ | 🟢 |
 | 4 | 🤖 **Bot MT5 — Diseñar plan de arquitectura** (45min, deadline 10:30 AM) | ⏰ 9:00 AM | ⏳ | 🔴 |
 | 5 | 🎓 **Meta Ads — 45 min estudio** | — | ✅ | 🟡 |
 | 6 | 📋 **Generar time box** | — | ⏳ | 🟡 |
