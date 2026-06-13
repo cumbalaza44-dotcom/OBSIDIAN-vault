@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `09 Jun 2026 — 23:55`
+### Última actualización: `13 Jun 2026 — 09:45`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -24,11 +24,14 @@ source: "Mr. Jair — iOS / Telegram"
 | # | Tarea | Hora | Estado | Prioridad |
 |---|-------|------|--------|----------|
 | 1 | 📚 Lectura diaria (generada manual — neurociencia) | ⏰ 7:30 AM | ✅ | 🟢 |
-| 2 | 🏃 Descanso activo — movilidad articular + caminar 30min | ⏰ 9:00 AM | ⏳ | 🟢 |
+| 2 | 🏃 Descanso activo — movilidad articular + caminar 30min | ⏰ 9:00 AM | ✅ | 🟢 |
 | 3 | 🤖 **Bot MT5 — Diseñar plan de arquitectura** (nuevo slot, 45min) | ⏰ 10:00 AM | ⏳ | 🔴 |
 | 4 | 📋 **Generar time box semanal** | ⏰ 11:00 AM | ⏳ | 🟡 |
 | 5 | 🎓 **Meta Ads — 40min estudio** | ⏰ 4:00 PM | ⏳ | 🟡 |
-| 6 | 🧹 Lavar prendas | ⏰ 5:00 PM | ⏳ | 🟢 |
+| 6 | 🧹 Lavar prendas | ⏰ 5:00 PM | ✅ | 🟢 |
+| 7 | 🏍️ Limpieza moto + mantenimiento cadena | ⏰ 10:30 AM | ⏳ | 🟡 |
+| 8 | 🏠 Organizar habitación | ⏰ 11:30 AM | ⏳ | 🟡 |
+| 9 | 📝 Migrar notas de otras fuentes a Obsidian (manual) | ⏰ 3:00 PM | ⏳ | 🔴 |
 
 ---
 
