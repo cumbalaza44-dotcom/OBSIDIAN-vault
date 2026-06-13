@@ -19,13 +19,13 @@ source: "Mr. Jair — iOS / Telegram"
 
 ## 🔥 HOY — Sábado 13/06
 
-> *Descanso activo — no gym. Bot MT5 ANTES del almuerzo (nuevo slot).* 🧠 Señor, MT5 lleva 4 días diferido. Sugiero moverlo a la mañana antes del gym los días de semana — hoy sin gym, es ideal.
+> *Descanso activo — no gym. Ghost Trader ANTES del almuerzo (nuevo slot).* 🧠 Señor, Ghost Trader lleva 4 días diferido. Sugiero moverlo a la mañana antes del gym los días de semana — hoy sin gym, es ideal.
 
 | # | Tarea | Hora | Estado | Prioridad |
 |---|-------|------|--------|----------|
 | 1 | 📚 Lectura diaria (generada manual — neurociencia) | ⏰ 7:30 AM | ✅ | 🟢 |
 | 2 | 🏃 Descanso activo — movilidad articular + caminar 30min | ⏰ 9:00 AM | ✅ | 🟢 |
-| 3 | 🤖 **Bot MT5 — Diseñar plan de arquitectura** (nuevo slot, 45min) | ⏰ 10:00 AM | ⏳ | 🔴 |
+| 3 | 🤖 **Ghost Trader — Diseñar plan de arquitectura** (nuevo slot, 45min) | ⏰ 10:00 AM | ⏳ | 🔴 |
 | 4 | 📋 **Generar time box semanal** | ⏰ 11:00 AM | ⏳ | 🟡 |
 | 5 | 🎓 **Meta Ads — 40min estudio** | ⏰ 4:00 PM | ⏳ | 🟡 |
 | 6 | 🧹 Lavar prendas | ⏰ 5:00 PM | ✅ | 🟢 |
