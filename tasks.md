@@ -32,6 +32,7 @@ source: "Mr. Jair — iOS / Telegram"
 | 7 | 🏍️ Limpieza moto + mantenimiento cadena | ⏰ 10:30 AM | ⏳ | 🟡 |
 | 8 | 🏠 Organizar habitación | ⏰ 11:30 AM | ⏳ | 🟡 |
 | 9 | 📝 Migrar notas de otras fuentes a Obsidian (manual) | ⏰ 3:00 PM | ⏳ | 🔴 |
+| 10 | ✂️ Cortar cabello | ⏰ 12:30 PM | ⏳ | 🟢 |
 
 ---
 
