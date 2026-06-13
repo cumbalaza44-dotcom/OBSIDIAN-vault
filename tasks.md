@@ -23,7 +23,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 | # | Tarea | Hora | Estado | Prioridad |
 |---|-------|------|--------|----------|
-| 1 | 📚 Lectura diaria (generada manual — neurociencia) | ⏰ 7:30 AM | 🔄 | 🟢 |
+| 1 | 📚 Lectura diaria (generada manual — neurociencia) | ⏰ 7:30 AM | ✅ | 🟢 |
 | 2 | 🏃 Descanso activo — movilidad articular + caminar 30min | ⏰ 9:00 AM | ⏳ | 🟢 |
 | 3 | 🤖 **Bot MT5 — Diseñar plan de arquitectura** (nuevo slot, 45min) | ⏰ 10:00 AM | ⏳ | 🔴 |
 | 4 | 📋 **Generar time box semanal** | ⏰ 11:00 AM | ⏳ | 🟡 |
