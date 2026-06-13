@@ -17,18 +17,30 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Viernes 12/06
+## 🔥 HOY — Sábado 13/06
 
-> *Pierna 2. Bot MT5 o Meta Ads (solo 1 técnica post-gym). Deadline 10:30 AM.*
+> *Descanso activo — no gym. Bot MT5 ANTES del almuerzo (nuevo slot).* 🧠 Señor, MT5 lleva 4 días diferido. Sugiero moverlo a la mañana antes del gym los días de semana — hoy sin gym, es ideal.
+
+| # | Tarea | Hora | Estado | Prioridad |
+|---|-------|------|--------|----------|
+| 1 | 🏃 Descanso activo — movilidad articular + caminar 30min | ⏰ 9:00 AM | ⏳ | 🟢 |
+| 2 | 🤖 **Bot MT5 — Diseñar plan de arquitectura** (nuevo slot, 45min) | ⏰ 10:00 AM | ⏳ | 🔴 |
+| 3 | 📋 **Generar time box semanal** | ⏰ 11:00 AM | ⏳ | 🟡 |
+| 4 | 🎓 **Meta Ads — 40min estudio** | ⏰ 4:00 PM | ⏳ | 🟡 |
+| 5 | 🧹 Lavar prendas | ⏰ 5:00 PM | ⏳ | 🟢 |
+
+---
+
+## 📅 VIERNES 12/06 — Histórico
 
 | # | Tarea | Hora | Estado | Prioridad |
 |---|-------|------|--------|----------|
 | 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ✅ | 🟢 |
-| 2 | 🏋️ **Pierna 2 — Isquiotibiales** — Reto fitness junio (Día 8) | ⏰ 7:00 AM | ✅ | 🔴 |
+| 2 | 🏋️ Pierna 2 — Isquiotibiales — Reto fitness junio (Día 8) | ⏰ 7:00 AM | ✅ | 🔴 |
 | 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ✅ | 🟢 |
-| 4 | 🤖 **Bot MT5 — Diseñar plan de arquitectura** (45min, deadline 10:30 AM) | ⏰ 9:00 AM | ⏳ | 🔴 |
-| 5 | 🎓 **Meta Ads — estudio extendido (+ tiempo extra del día)** | — | ✅ | 🟡 |
-| 6 | 📋 **Generar time box** | — | ⏳ | 🟡 |
+| 4 | 🤖 Bot MT5 — Diseñar plan de arquitectura (deadline 10:30 AM) | ⏰ 9:00 AM | ⏳ | 🔴 |
+| 5 | 🎓 Meta Ads — estudio extendido (+ tiempo extra del día) | — | ✅ | 🟡 |
+| 6 | 📋 Generar time box | — | ⏳ | 🟡 |
 
 ---
 
