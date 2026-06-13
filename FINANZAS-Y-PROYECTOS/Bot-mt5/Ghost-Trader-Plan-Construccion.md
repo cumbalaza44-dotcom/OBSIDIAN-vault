@@ -295,3 +295,41 @@ ghost-trader/
 5. **Dashboard web:** ¿Lo necesitamos en la FASE 5 o lo dejamos para después?
 6. **Estrategia piloto:** ¿SMA/EMA crossover es aceptable como primera estrategia?
 7. **Recovery:** ¿Cuál de las 4 estrategias de recovery prefiere para empezar?
+
+---
+
+## 📌 PUNTO DE CONTROL — Broker Alternativo (13/06/2026)
+
+> **Estado:** Referencia futura. No está en el alcance actual.
+> **Prioridad:** Baja — Resolver cuando Ghost Trader esté funcional.
+
+### Situación actual
+- **Broker primario:** Deriv (API WebSocket)
+- **Mercados:** Índices sintéticos + Multipliers
+- **Limitación:** No soporta Forex CFD tradicional vía API
+
+### Opción futura: OANDA
+- **API REST v20** — Sin dependencia de MT5
+- **Mínimo $1** — Escalable con capital pequeño
+- **Forex real** — EUR/USD, GBP/JPY, etc. con spreads bajos
+- **Python:** `oandapyV20` (librería oficial)
+- **Regulado:** FCA, ASIC, CFTC
+
+### Cuándo considerar este cambio
+1. Cuando Ghost Trader esté funcional con Deriv
+2. Cuando se necesite operar Forex CFD real (no Multipliers)
+3. Cuando el capital lo permita ($10+ mínimo recomendado para OANDA)
+4. Cuando se quiera diversificar mercados más allá de índices sintéticos
+
+### Arquitectura preparada para el cambio
+El core de Ghost Trader ya está diseñado de forma desacoplada:
+- `connector/deriv_ws.py` → Conector Deriv
+- `connector/oanda_rest.py` → (Futuro) Conector OANDA
+- `data/engine.py` → Acepta datos de múltiples fuentes
+- `execution/executor.py` → Ejecuta vía el conector correcto
+
+El cambio de broker sería agregar un conector nuevo, no reescribir el core.
+
+### Nota personal
+"Cambiar de broker es algo poco previsto aún, pero es importante tenerlo documentado para cuando llegue el momento."
+— Mr. Jair, 13/06/2026
