@@ -17,22 +17,17 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Sábado 13/06
+## 🔥 HOY — Domingo 14/06
 
-> *Descanso activo — no gym. Ghost Trader ANTES del almuerzo (nuevo slot).* 🧠 Señor, Ghost Trader lleva 4 días diferido. Sugiero moverlo a la mañana antes del gym los días de semana — hoy sin gym, es ideal.
+> Domingo: descanso total. Solo tareas livianas y pendiente crítico. Ghost Trader NO puede diferirse más.
 
 | # | Tarea | Hora | Estado | Prioridad |
 |---|-------|------|--------|----------|
-| 1 | 📚 Lectura diaria (generada manual — neurociencia) | ⏰ 7:30 AM | ✅ | 🟢 |
-| 2 | 🏃 Descanso activo — movilidad articular + caminar 30min | ⏰ 9:00 AM | ✅ | 🟢 |
-| 3 | 🤖 **Ghost Trader — Diseñar plan de arquitectura** (nuevo slot, 45min) | ⏰ 10:00 AM | 🔄 | 🔴 |
-| 4 | 📋 **Generar time box semanal** | ⏰ 11:00 AM | ⏳ | 🟡 |
-| 5 | 🎓 **Meta Ads — 40min estudio** | ⏰ 4:00 PM | ⏳ | 🟡 |
-| 6 | 🧹 Lavar prendas | ⏰ 5:00 PM | ✅ | 🟢 |
-| 7 | 🏍️ Limpieza moto + mantenimiento cadena | ⏰ 10:30 AM | ⏳ | 🟡 |
-| 8 | 🏠 Organizar habitación | ⏰ 11:30 AM | ⏳ | 🟡 |
-| 9 | 📝 Migrar notas de otras fuentes a Obsidian (manual) | ⏰ 3:00 PM | ⏳ | 🔴 |
-| 10 | ✂️ Cortar cabello | ⏰ 12:30 PM | ⏳ | 🟢 |
+| 1 | 📚 Lectura diaria | ⏰ 8:00 AM | ⏳ | 🟢 |
+| 2 | 🤖 **Ghost Trader — Diseñar plan de arquitectura** (slot de recuperación, 45min) | ⏰ 9:30 AM | ⏳ | 🔴 |
+| 3 | 📝 **Migrar notas de otras fuentes a Obsidian** | ⏰ 11:00 AM | ⏳ | 🔴 |
+| 4 | 🏍️ Limpieza moto + mantenimiento cadena (pendiente) | ⏰ 3:00 PM | ⏳ | 🟡 |
+| 5 | 🏠 Organizar habitación (pendiente) | ⏰ 4:00 PM | ⏳ | 🟡 |
 
 ---
 
