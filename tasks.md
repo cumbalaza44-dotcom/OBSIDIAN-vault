@@ -23,7 +23,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 | # | Tarea | Hora | Estado | Prioridad |
 |---|-------|------|--------|----------|
-| 1 | 📚 Lectura diaria | ⏰ 8:00 AM | ⏳ | 🟢 |
+| 1 | 📚 Lectura diaria | ⏰ 8:00 AM | ✅ | 🟢 |
 | 2 | 🤖 **Ghost Trader — Diseñar plan de arquitectura** (slot de recuperación, 45min) | ⏰ 9:30 AM | ⏳ | 🔴 |
 | 3 | 📝 **Migrar notas de otras fuentes a Obsidian** | ⏰ 11:00 AM | ⏳ | 🔴 |
 | 4 | 🏍️ Limpieza moto + mantenimiento cadena (pendiente) | ⏰ 3:00 PM | ⏳ | 🟡 |
