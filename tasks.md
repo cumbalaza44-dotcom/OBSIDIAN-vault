@@ -42,11 +42,11 @@ source: "Mr. Jair — iOS / Telegram"
 | 5 | ✂️ Cortar cabello | ⏰ 12:30 PM | ✅ | 🟢 |
 | 6 | 🧹 Lavar prendas | — | ✅ | 🟢 |
 | 7 | 📋 Generar time box semanal | — | ⏳ | 🟡 |
-| 8 | 🏠 Organizar habitación | — | ⏳ | 🟡 |
+| 8 | 🏠 Organizar habitación | — | ✅ | 🟡 |
 | 9 | 📝 Migrar notas a Obsidian | — | ⏳ | 🔴 |
-| 10 | 🎓 Meta Ads — 40min | — | ⏳ | 🟡 |
+| 10 | 🎓 Meta Ads — 45min curso | — | ✅ | 🟡 |
 
-> **Resumen:** 6/10 completadas. Ghost Trader avanzó significativamente (plan detallado FASE 1 y 2). Moto al 100% (PAIR eliminada, carburador calibrado).
+> **Resumen:** 8/10 completadas. Ghost Trader avanzó significativamente (plan detallado FASE 1 y 2). Moto al 100% (PAIR eliminada, carburador calibrado). Solo pendientes: time box y migrar notas.
 
 ---
 
