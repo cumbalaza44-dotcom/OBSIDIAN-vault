@@ -31,6 +31,25 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
+## 📅 SÁBADO 13/06 — Histórico
+
+| # | Tarea | Hora | Estado | Prioridad |
+|---|-------|------|--------|----------|
+| 1 | 📚 Lectura diaria (neurociencia) | ⏰ 7:30 AM | ✅ | 🟢 |
+| 2 | 🏃 Descanso activo — movilidad articular + caminar 30min | ⏰ 9:00 AM | ✅ | 🟢 |
+| 3 | 🤖 Ghost Trader — Diseñar plan de arquitectura | ⏰ 10:00 AM | ✅ | 🔴 |
+| 4 | 🏍️ Limpieza moto + mantenimiento cadena + eliminar PAIR | ⏰ 10:30 AM | ✅ | 🟡 |
+| 5 | ✂️ Cortar cabello | ⏰ 12:30 PM | ✅ | 🟢 |
+| 6 | 🧹 Lavar prendas | — | ✅ | 🟢 |
+| 7 | 📋 Generar time box semanal | — | ⏳ | 🟡 |
+| 8 | 🏠 Organizar habitación | — | ⏳ | 🟡 |
+| 9 | 📝 Migrar notas a Obsidian | — | ⏳ | 🔴 |
+| 10 | 🎓 Meta Ads — 40min | — | ⏳ | 🟡 |
+
+> **Resumen:** 6/10 completadas. Ghost Trader avanzó significativamente (plan detallado FASE 1 y 2). Moto al 100% (PAIR eliminada, carburador calibrado).
+
+---
+
 ## 📅 VIERNES 12/06 — Histórico
 
 | # | Tarea | Hora | Estado | Prioridad |
