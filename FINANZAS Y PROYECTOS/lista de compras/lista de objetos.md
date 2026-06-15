@@ -35,7 +35,9 @@ _Activos, educación, herramientas que generan retorno._
 
 | Item | Monto | Estado | ROI Esperado |
 |------|-------|--------|-------------|
-| | | ⏳ | |
+| ESP32-S3 (MVP Prototipo X) | ~$8 USD | ⏳ | Prototipo funcional |
+| Raspberry Pi 5 (MVP avanzado) | ~$70 USD | ⏳ | IA ligera + cámaras |
+| NVIDIA Jetson Orin Nano (versión completa) | ~$250 USD | ⏳ | IA 360° en tiempo real |
 
 ---
 
