@@ -105,6 +105,9 @@ source: "Mr. Jair — iOS / Telegram"
 - [ ] Ajustar proyecciones si es necesario — *Recordatorios.md*
 - [ ] Ciclo de trabajo 🔁 — *Evolución MT5.md*
 
+### 🔬 Prototipo X — Investigación Hardware
+- [ ] Investigar ESP32-S3, Raspberry Pi 5 y Jetson Orin Nano a profundidad (specs, costos, proveedores) — *lista de objetos.md* 🔴 Esta semana
+
 ### 📢 META ADS — Fase 1: Fundamentos (Semana 1)
 - [ ] 🎯 Definir nicho específico — *META ADS.md*
 - [ ] 🔍 Investigar 10 productos ganadores — *META ADS.md*
