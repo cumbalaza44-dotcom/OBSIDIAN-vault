@@ -23,7 +23,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 | # | Tarea | Hora | Estado | Prioridad |
 |---|-------|------|--------|----------|
-| 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ⏳ | 🟢 |
+| 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ✅ | 🟢 |
 | 2 | 🏋️ Tren Superior — Reto fitness junio (Día 9) | ⏰ 6:30 AM | ⏳ | 🔴 |
 | 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
 | 4 | 🤖 Ghost Trader — Arquitectura FASE 1 (60min) | ⏰ 8:45 AM | ⏳ | 🔴 |
