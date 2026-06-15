@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `14 Jun 2026 — 20:31`
+### Última actualización: `14 Jun 2026 — 23:55`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -17,9 +17,22 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Domingo 14/06
+## 🔥 HOY — Lunes 15/06
 
-> Domingo: descanso total. Solo tareas livianas y pendiente crítico.
+> Lunes: arranque fuerte. Ghost Trader es prioridad #1 (atrasado 3 días). Gym Tren Superior.
+
+| # | Tarea | Hora | Estado | Prioridad |
+|---|-------|------|--------|----------|
+| 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ⏳ | 🟢 |
+| 2 | 🏋️ Tren Superior — Reto fitness junio (Día 9) | ⏰ 6:30 AM | ⏳ | 🔴 |
+| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
+| 4 | 🤖 Ghost Trader — Arquitectura FASE 1 (60min) | ⏰ 8:45 AM | ⏳ | 🔴 |
+| 5 | 🎓 Meta Ads — Fundamentos: definir nicho (45min) | ⏰ 10:00 AM | ⏳ | 🟡 |
+| 6 | 📝 Migrar notas Obsidian (30min) | ⏰ 10:45 AM | ⏳ | 🔴 |
+
+---
+
+## 📅 DOMINGO 14/06 — Histórico
 
 | # | Tarea | Hora | Estado | Prioridad |
 |---|-------|------|--------|----------|
@@ -28,6 +41,8 @@ source: "Mr. Jair — iOS / Telegram"
 | 3 | 📝 Migrar notas de otras fuentes a Obsidian | ⏰ 11:00 AM | ⏳ | 🔴 |
 | 4 | 🏍️ Limpieza moto + mantenimiento cadena | ⏰ 3:00 PM | ✅ | 🟡 |
 | 5 | 🏠 Organizar habitación | ⏰ 4:00 PM | ✅ | 🟡 |
+
+> **Resumen:** 3/5 completadas. Pendientes: Ghost Trader (🔴) y migrar notas (🔴) → carry forward a lunes.
 
 ---
 
