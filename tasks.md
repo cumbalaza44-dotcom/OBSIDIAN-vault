@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `13 Jun 2026 — 09:45`
+### Última actualización: `14 Jun 2026 — 20:31`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -19,15 +19,31 @@ source: "Mr. Jair — iOS / Telegram"
 
 ## 🔥 HOY — Domingo 14/06
 
-> Domingo: descanso total. Solo tareas livianas y pendiente crítico. Ghost Trader NO puede diferirse más.
+> Domingo: descanso total. Solo tareas livianas y pendiente crítico.
 
 | # | Tarea | Hora | Estado | Prioridad |
 |---|-------|------|--------|----------|
 | 1 | 📚 Lectura diaria | ⏰ 8:00 AM | ✅ | 🟢 |
-| 2 | 🤖 **Ghost Trader — Diseñar plan de arquitectura** (slot de recuperación, 45min) | ⏰ 9:30 AM | ⏳ | 🔴 |
-| 3 | 📝 **Migrar notas de otras fuentes a Obsidian** | ⏰ 11:00 AM | ⏳ | 🔴 |
-| 4 | 🏍️ Limpieza moto + mantenimiento cadena (pendiente) | ⏰ 3:00 PM | ✅ | 🟡 |
-| 5 | 🏠 Organizar habitación (pendiente) | ⏰ 4:00 PM | ✅ | 🟡 |
+| 2 | 🤖 Ghost Trader — Diseñar plan de arquitectura (45min) | ⏰ 9:30 AM | ⏳ | 🔴 |
+| 3 | 📝 Migrar notas de otras fuentes a Obsidian | ⏰ 11:00 AM | ⏳ | 🔴 |
+| 4 | 🏍️ Limpieza moto + mantenimiento cadena | ⏰ 3:00 PM | ✅ | 🟡 |
+| 5 | 🏠 Organizar habitación | ⏰ 4:00 PM | ✅ | 🟡 |
+
+---
+
+## 📋 SEMANA 15–21 Jun 2026
+
+> Semana de arranque: Ghost Trader es prioridad #1 (atrasado 3 días). Meta Ads retoma ritmo.
+
+| Día | Mañana (6-9 AM) | Medio día | Tarde |
+|-----|-----------------|-----------|-------|
+| **Lun 15** | 📚 Lectura + 🏋️ Tren Superior (Gym) | 🎓 Meta Ads — 45min | 📝 Migrar notas Obsidian (30min) |
+| **Mar 16** | 📚 Lectura + 🏋️ Pierna 1 (Gym) | 🤖 Ghost Trader — Arquitectura FASE 1 (90min) | 🏠 Hogar pendientes |
+| **Mié 17** | 📚 Lectura + 🏋️ Espalda/Bíceps (Gym) | 🤖 Ghost Trader — Arquitectura FASE 2 (60min) | 📋 Time box semanal |
+| **Jue 18** | 📚 Lectura + 🏋️ Pecho/Tríceps (Gym) | 🎓 Meta Ads — Definir nicho (60min) | 🔬 Prototipo X — Investigar ESP32 (45min) |
+| **Vie 19** | 📚 Lectura + 🏋️ Pierna 2 (Gym) | 🎓 Meta Ads — Investigar productos (45min) | 🏍️ Mantenimiento moto |
+| **Sáb 20** | 📚 Lectura + Descanso activo | 🧹 Hogar: limpiar + lavar prendas | 💰 Finanzas: balancear ingresos |
+| **Dom 21** | 📚 Lectura | Descanso | — |
 
 ---
 
