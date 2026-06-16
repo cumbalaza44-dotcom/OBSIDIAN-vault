@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `14 Jun 2026 — 23:55`
+### Última actualización: `15 Jun 2026 — 23:55`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -17,18 +17,36 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Lunes 15/06
+## 🔥 HOY — Martes 16/06
 
-> Lunes: arranque fuerte. Ghost Trader es prioridad #1 (atrasado 3 días). Gym Tren Superior.
+> Martes: priorizar Ghost Trader (atrasado 4 días). Gym Pierna 1.
+
+| # | Tarea | Hora | Estado | Prioridad |
+|---|-------|------|--------|----------|
+| 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ⏳ | 🟢 |
+| 2 | 🏋️ Pierna 1 — Reto fitness junio (Día 10) | ⏰ 6:30 AM | ⏳ | 🔴 |
+| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
+| 4 | 🤖 Ghost Trader — Arquitectura FASE 1 (90min) | ⏰ 9:00 AM | ⏳ | 🔴 |
+| 5 | 📝 Migrar notas Obsidian (45min) | ⏰ 8:15 AM | ⏳ | 🔴 |
+| 6 | 🎓 Meta Ads — Definir nicho (45min) | ⏰ 10:45 AM | ⏳ | 🟡 |
+| 7 | 🏠 Hogar pendientes | ⏰ 11:30 AM | ⏳ | 🟡 |
+
+---
+
+## 📅 LUNES 15/06 — Histórico
+
+> Lunes: arranque fuerte. Ghost Trader prioridad #1 (atrasado). Gym Tren Superior.
 
 | # | Tarea | Hora | Estado | Prioridad |
 |---|-------|------|--------|----------|
 | 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ✅ | 🟢 |
-| 2 | 🏋️ Tren Superior — Reto fitness junio (Día 9) | ⏰ 6:30 AM | ⏳ | 🔴 |
-| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
-| 4 | 🤖 Ghost Trader — Arquitectura FASE 1 (60min) | ⏰ 8:45 AM | ⏳ | 🔴 |
+| 2 | 🏋️ Tren Superior — Reto fitness junio (Día 9) | ⏰ 6:30 AM | ✅ | 🔴 |
+| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ✅ | 🟢 |
+| 4 | 🤖 Ghost Trader — Arquitectura FASE 1 (60min) | ⏰ 8:45 AM | ✅ | 🔴 |
 | 5 | 🎓 Meta Ads — Fundamentos: definir nicho (45min) | ⏰ 10:00 AM | ✅ | 🟡 |
-| 6 | 📝 Migrar notas Obsidian (30min) | ⏰ 10:45 AM | ⏳ | 🔴 |
+| 6 | 📝 Migrar notas Obsidian (30min) | ⏰ 10:45 AM | ✅ | 🔴 |
+
+> **Resumen:** 6/6 completadas. Jornada sólida.
 
 ---
 
