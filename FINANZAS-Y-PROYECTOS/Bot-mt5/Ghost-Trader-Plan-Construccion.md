@@ -1,8 +1,8 @@
 # 🏗️ Ghost Trader — Plan de Construcción
 
-> **Fecha:** 13/06/2026
-> **Estado:** Definición de alcance
-> **Versión:** 2.0
+> **Fecha:** 13/06/2026 (Plan completo al 16/06/2026)
+> **Estado:** FASE 1-3 planificadas y aprobadas
+> **Versión:** 2.1
 
 ---
 
@@ -1067,22 +1067,751 @@ def test_atr():
 - Tests pasando al 100%
 - Configuración de períodos vía settings.toml
 
-### FASE 3: Strategy Engine & Backtesting (Semanas 5-6)
-**Objetivo:** Definir, probar y validar estrategias
+### FASE 3: Strategy Engine & Backtesting (Semanas 5-6) ✅ PLANIFICADA
+**Objetivo:** Definir estrategias de trading como clases OOP, simularlas con datos históricos reales, y validar su rentabilidad antes de poner dinero real.
 
 ```
-[Signals] → [Strategy Engine] → [Trade Proposals]
-[Historical Data] → [Backtest Engine] → [Metrics]
+[Señales FASE 2] → [Strategy Engine] → [Trade Proposals]
+[Datos Históricos] → [Backtest Engine] → [Métricas de rendimiento]
 ```
 
-- [ ] Framework OOP para estrategias (clase abstracta Strategy)
-- [ ] Estrategia piloto: SMA/EMA crossover
-- [ ] Backtest engine: simulación vela por vela
-- [ ] Métricas: Sharpe, Sortino, Profit Factor, Max DD, Win Rate
-- [ ] Exportación de resultados (JSON/CSV)
-- [ ] Validación: mínimo N trades, período mínimo
+#### 📁 3.1 Estructura de archivos
 
-**Entregable:** Estrategia piloto + backtesting con métricas.
+```
+ghost_trader/
+├── strategy/
+│   ├── __init__.py
+│   ├── base.py              # Clase abstracta Strategy
+│   ├── ema_cross.py         # Estrategia piloto: EMA Crossover
+│   ├── rsi_reversal.py      # Estrategia: RSI Overbought/Oversold
+│   ├── registry.py          # Registro de estrategias disponibles
+│   └── models.py            # Modelos: TradeProposal, TradeAction
+├── backtest/
+│   ├── __init__.py
+│   ├── engine.py            # Motor de backtesting
+│   ├── metrics.py           # Cálculo de métricas (Sharpe, Sortino, etc.)
+│   └── report.py            # Generación de reportes (JSON/CSV)
+```
+
+#### 🎯 3.2 Clase Abstracta Strategy (strategy/base.py)
+
+```python
+"""Clase abstracta para todas las estrategias de trading."""
+
+from abc import ABC, abstractmethod
+from enum import Enum
+from dataclasses import dataclass, field
+from datetime import datetime
+import polars as pl
+
+
+class TradeAction(Enum):
+    """Acción de trading propuesta."""
+    BUY = "buy"
+    SELL = "sell"
+    HOLD = "hold"
+    CLOSE = "close"
+
+
+@dataclass(frozen=True)
+class TradeProposal:
+    """Propuesta de trade generada por una estrategia."""
+    action: TradeAction
+    symbol: str
+    price: float
+    timestamp: datetime
+    strength: float              # 0.0 - 1.0 (qué tan fuerte es la señal)
+    reason: str                  # Explicación legible
+    metadata: dict = field(default_factory=dict)  # Datos extra
+
+
+class Strategy(ABC):
+    """Interfaz base para todas las estrategias."""
+
+    def __init__(self, name: str, symbols: list[str], timeframe: str = "1m"):
+        self._name = name
+        self._symbols = symbols
+        self._timeframe = timeframe
+        self._position: dict[str, float] = {}  # symbol → cantidad abierta
+
+    @property
+    def name(self) -> str:
+        return self._name
+
+    @property
+    def symbols(self) -> list[str]:
+        return self._symbols
+
+    @property
+    def timeframe(self) -> str:
+        return self._timeframe
+
+    @abstractmethod
+    def evaluate(self, df: pl.DataFrame, symbol: str) -> TradeProposal:
+        """
+        Evalúa el mercado y retorna una propuesta de trade.
+        
+        Args:
+            df: DataFrame con OHLCV + indicadores pre-calculados
+            symbol: Símbolo actual evaluado
+            
+        Returns:
+            TradeProposal con la acción recomendada
+        """
+        ...
+
+    @abstractmethod
+    def required_indicators(self) -> list[str]:
+        """
+        Retorna lista de indicadores que necesita esta estrategia.
+        Ejemplo: ["EMA_20", "EMA_50", "RSI_14"]
+        """
+        ...
+
+    def has_position(self, symbol: str) -> bool:
+        """Verifica si hay posición abierta en un símbolo."""
+        return self._position.get(symbol, 0) > 0
+
+    def open_position(self, symbol: str, size: float) -> None:
+        """Registra apertura de posición."""
+        self._position[symbol] = size
+
+    def close_position(self, symbol: str) -> None:
+        """Registra cierre de posición."""
+        self._position[symbol] = 0
+
+    def __repr__(self) -> str:
+        return f"{self.__class__.__name__}(symbols={self._symbols}, tf={self._timeframe})"
+```
+
+**Reglas:**
+- Cada estrategia es una clase independiente que hereda de `Strategy`
+- `evaluate()` es la función principal — recibe datos, retorna propuesta
+- `required_indicators()` dice al sistema qué indicadores calcular antes
+- Las posiciones se rastrean internamente (para lógica de cierre)
+- Sin efectos secundarios en evaluate — solo analiza y propone
+
+#### 📈 3.3 Estrategia Piloto: EMA Crossover (strategy/ema_cross.py)
+
+```python
+"""Estrategia piloto: EMA Crossover (cruce de medias móviles exponenciales)."""
+
+import polars as pl
+from ghost_trader.strategy.base import Strategy, TradeProposal, TradeAction
+from datetime import datetime
+
+
+class EMACross(Strategy):
+    """
+    Estrategia de cruce EMA.
+    
+    Señal BUY:  EMA rápida cruza POR ENCIMA de EMA lenta (tendencia alcista)
+    Señal SELL: EMA rápida cruza POR DEBAJO de EMA lenta (tendencia bajista)
+    
+    Configurable:
+    - fast_period: período de EMA rápida (default 20)
+    - slow_period: período de EMA lenta (default 50)
+    - confirmation_bars: velas de confirmación (default 1)
+    """
+
+    def __init__(
+        self,
+        symbols: list[str],
+        fast_period: int = 20,
+        slow_period: int = 50,
+        confirmation_bars: int = 1,
+        timeframe: str = "1m",
+    ):
+        super().__init__(
+            name=f"EMACross_{fast_period}_{slow_period}",
+            symbols=symbols,
+            timeframe=timeframe,
+        )
+        self._fast_period = fast_period
+        self._slow_period = slow_period
+        self._confirmation_bars = confirmation_bars
+
+    def required_indicators(self) -> list[str]:
+        return [f"EMA_{self._fast_period}", f"EMA_{self._slow_period}"]
+
+    def evaluate(self, df: pl.DataFrame, symbol: str) -> TradeProposal:
+        """Evalúa cruce de EMAs y retorna propuesta."""
+        if len(df) < self._slow_period + self._confirmation_bars:
+            return TradeProposal(
+                action=TradeAction.HOLD,
+                symbol=symbol,
+                price=df["close"][-1],
+                timestamp=datetime.now(),
+                strength=0.0,
+                reason="Datos insuficientes",
+            )
+
+        ema_fast = df["close"].ewm_mean(span=self._fast_period)
+        ema_slow = df["close"].ewm_mean(span=self._slow_period)
+
+        # Detectar cruce en las últimas N velas
+        current_fast = ema_fast[-1]
+        current_slow = ema_slow[-1]
+        prev_fast = ema_fast[-1 - self._confirmation_bars]
+        prev_slow = ema_slow[-1 - self._confirmation_bars]
+
+        crossed_up = prev_fast <= prev_slow and current_fast > current_slow
+        crossed_down = prev_fast >= prev_slow and current_fast < current_slow
+
+        current_price = df["close"][-1]
+
+        # Calcular fuerza de la señal (diferencia normalizada)
+        diff = abs(current_fast - current_slow) / current_slow
+        strength = min(diff * 100, 1.0)  # Normalizar a 0-1
+
+        if crossed_up and not self.has_position(symbol):
+            return TradeProposal(
+                action=TradeAction.BUY,
+                symbol=symbol,
+                price=current_price,
+                timestamp=datetime.now(),
+                strength=strength,
+                reason=f"EMA {self._fast_period} cruza por encima de EMA {self._slow_period}",
+                metadata={"ema_fast": current_fast, "ema_slow": current_slow},
+            )
+        elif crossed_down and self.has_position(symbol):
+            return TradeProposal(
+                action=TradeAction.CLOSE,
+                symbol=symbol,
+                price=current_price,
+                timestamp=datetime.now(),
+                strength=strength,
+                reason=f"EMA {self._fast_period} cruza por debajo de EMA {self._slow_period}",
+                metadata={"ema_fast": current_fast, "ema_slow": current_slow},
+            )
+        else:
+            return TradeProposal(
+                action=TradeAction.HOLD,
+                symbol=symbol,
+                price=current_price,
+                timestamp=datetime.now(),
+                strength=0.0,
+                reason="Sin cruce detectado",
+            )
+```
+
+#### 🔄 3.4 Registro de Estrategias (strategy/registry.py)
+
+```python
+"""Registro central de estrategias disponibles."""
+
+from ghost_trader.strategy.base import Strategy
+from ghost_trader.strategy.ema_cross import EMACross
+
+
+class StrategyRegistry:
+    """Registry para gestionar estrategias disponibles."""
+
+    _strategies: dict[str, type[Strategy]] = {}
+
+    @classmethod
+    def register(cls, name: str, strategy_class: type[Strategy]) -> None:
+        """Registra una estrategia nueva."""
+        cls._strategies[name] = strategy_class
+
+    @classmethod
+    def get(cls, name: str) -> type[Strategy] | None:
+        """Obtiene una estrategia por nombre."""
+        return cls._strategies.get(name)
+
+    @classmethod
+    def list_all(cls) -> list[str]:
+        """Lista todas las estrategias registradas."""
+        return list(cls._strategies.keys())
+
+    @classmethod
+    def create(cls, name: str, **kwargs) -> Strategy:
+        """Crea una instancia de una estrategia."""
+        strategy_class = cls._strategies.get(name)
+        if not strategy_class:
+            raise ValueError(f"Estrategia no encontrada: {name}")
+        return strategy_class(**kwargs)
+
+
+# Auto-registrar estrategias al importar
+StrategyRegistry.register("ema_cross", EMACross)
+```
+
+#### 🧪 3.5 Motor de Backtesting (backtest/engine.py)
+
+```python
+"""Motor de backtesting — simulación vela por vela con datos reales."""
+
+from dataclasses import dataclass, field
+from datetime import datetime
+import polars as pl
+from ghost_trader.strategy.base import Strategy, TradeProposal, TradeAction
+from ghost_trader.backtest.metrics import calculate_metrics
+
+
+@dataclass
+class BacktestTrade:
+    """Trade ejecutado en el backtest."""
+    entry_time: datetime
+    exit_time: datetime | None
+    symbol: str
+    action: str            # "buy" / "sell"
+    entry_price: float
+    exit_price: float | None
+    pnl: float | None
+    reason_entry: str
+    reason_exit: str | None
+
+
+@dataclass
+class BacktestResult:
+    """Resultado completo del backtest."""
+    strategy_name: str
+    symbol: str
+    timeframe: str
+    start_date: datetime
+    end_date: datetime
+    total_trades: int
+    winning_trades: int
+    losing_trades: int
+    trades: list[BacktestTrade]
+    equity_curve: list[float]
+    metrics: dict          # Sharpe, Sortino, etc.
+
+
+class BacktestEngine:
+    """Motor de backtesting vela por vela."""
+
+    def __init__(
+        self,
+        initial_balance: float = 10000.0,
+        commission_pct: float = 0.001,    # 0.1% por trade
+        slippage_pct: float = 0.0005,     # 0.05% slippage
+        position_size_pct: float = 0.02,  # 2% del balance por trade
+    ):
+        self._initial_balance = initial_balance
+        self._commission_pct = commission_pct
+        self._slippage_pct = slippage_pct
+        self._position_size_pct = position_size_pct
+
+    def run(
+        self,
+        strategy: Strategy,
+        df: pl.DataFrame,
+        symbol: str,
+    ) -> BacktestResult:
+        """Ejecuta backtest completo de una estrategia."""
+        balance = self._initial_balance
+        equity_curve = [balance]
+        trades: list[BacktestTrade] = []
+        current_trade: BacktestTrade | None = None
+
+        # Ventana mínima para indicadores
+        lookback = max(strategy.required_indicators(), key=len) if strategy.required_indicators() else "20"
+        min_bars = int(lookback.split("_")[-1]) if "_" in lookback else 50
+
+        for i in range(min_bars, len(df)):
+            # Slice de datos hasta el punto actual (sin lookahead)
+            window = df.slice(0, i + 1)
+            current_bar = df.row(i, named=True)
+
+            # Evaluar estrategia
+            proposal = strategy.evaluate(window, symbol)
+
+            # Ejecutar propuesta
+            if proposal.action == TradeAction.BUY and current_trade is None:
+                # Abrir posición LONG
+                entry_price = current_bar["close"] * (1 + self._slippage_pct)
+                position_size = balance * self._position_size_pct
+                commission = position_size * self._commission_pct
+
+                current_trade = BacktestTrade(
+                    entry_time=current_bar["timestamp"],
+                    exit_time=None,
+                    symbol=symbol,
+                    action="buy",
+                    entry_price=entry_price,
+                    exit_price=None,
+                    pnl=None,
+                    reason_entry=proposal.reason,
+                    reason_exit=None,
+                )
+                strategy.open_position(symbol, position_size)
+                balance -= commission
+
+            elif proposal.action == TradeAction.CLOSE and current_trade is not None:
+                # Cerrar posición
+                exit_price = current_bar["close"] * (1 - self._slippage_pct)
+                commission = (exit_price * abs(current_trade.entry_price)) * self._commission_pct
+
+                pnl = (exit_price - current_trade.entry_price) / current_trade.entry_price
+                pnl_amount = pnl * (balance * self._position_size_pct)
+
+                current_trade.exit_time = current_bar["timestamp"]
+                current_trade.exit_price = exit_price
+                current_trade.pnl = pnl_amount - commission
+                current_trade.reason_exit = proposal.reason
+
+                trades.append(current_trade)
+                balance += pnl_amount - commission
+                equity_curve.append(balance)
+
+                strategy.close_position(symbol)
+                current_trade = None
+
+        # Cerrar posición abierta al final
+        if current_trade is not None:
+            last_bar = df.row(-1, named=True)
+            exit_price = last_bar["close"]
+            pnl = (exit_price - current_trade.entry_price) / current_trade.entry_price
+            pnl_amount = pnl * (balance * self._position_size_pct)
+
+            current_trade.exit_time = last_bar["timestamp"]
+            current_trade.exit_price = exit_price
+            current_trade.pnl = pnl_amount
+            current_trade.reason_exit = "Fin del backtest"
+            trades.append(current_trade)
+            balance += pnl_amount
+            equity_curve.append(balance)
+
+        # Calcular métricas
+        winning = [t for t in trades if t.pnl and t.pnl > 0]
+        losing = [t for t in trades if t.pnl and t.pnl <= 0]
+
+        metrics = calculate_metrics(
+            trades=trades,
+            equity_curve=equity_curve,
+            initial_balance=self._initial_balance,
+        )
+
+        return BacktestResult(
+            strategy_name=strategy.name,
+            symbol=symbol,
+            timeframe=strategy.timeframe,
+            start_date=df["timestamp"][0],
+            end_date=df["timestamp"][-1],
+            total_trades=len(trades),
+            winning_trades=len(winning),
+            losing_trades=len(losing),
+            trades=trades,
+            equity_curve=equity_curve,
+            metrics=metrics,
+        )
+```
+
+#### 📊 3.6 Métricas de Rendimiento (backtest/metrics.py)
+
+```python
+"""Cálculo de métricas de rendimiento para backtesting."""
+
+import math
+from ghost_trader.backtest.engine import BacktestTrade
+
+
+def calculate_metrics(
+    trades: list[BacktestTrade],
+    equity_curve: list[float],
+    initial_balance: float,
+) -> dict:
+    """Calcula todas las métricas de rendimiento."""
+    if not trades:
+        return {"error": "No hay trades para analizar"}
+
+    pnls = [t.pnl for t in trades if t.pnl is not None]
+    returns = [(e - initial_balance) / initial_balance for e in equity_curve[1:]]
+
+    return {
+        # Retorno total
+        "total_return_pct": _total_return(equity_curve, initial_balance),
+        "annualized_return_pct": _annualized_return(equity_curve, initial_balance, trades),
+
+        # Métricas de riesgo
+        "sharpe_ratio": _sharpe_ratio(returns),
+        "sortino_ratio": _sortino_ratio(returns),
+        "max_drawdown_pct": _max_drawdown(equity_curve),
+        "max_drawdown_duration": _max_drawdown_duration(equity_curve),
+
+        # Win/Loss
+        "win_rate_pct": _win_rate(trades),
+        "profit_factor": _profit_factor(pnls),
+        "expectancy": _expectancy(pnls),
+        "avg_win": _avg_win(pnls),
+        "avg_loss": _avg_loss(pnls),
+        "payoff_ratio": _payoff_ratio(pnls),
+
+        # Operaciones
+        "total_trades": len(trades),
+        "winning_trades": len([p for p in pnls if p > 0]),
+        "losing_trades": len([p for p in pnls if p <= 0]),
+        "avg_trade_pnl": sum(pnls) / len(pnls) if pnls else 0,
+    }
+
+
+def _total_return(equity: list[float], initial: float) -> float:
+    return ((equity[-1] - initial) / initial) * 100
+
+
+def _annualized_return(equity: list[float], initial: float, trades: list[BacktestTrade]) -> float:
+    if len(trades) < 2:
+        return 0.0
+    days = (trades[-1].exit_time - trades[0].entry_time).days
+    if days <= 0:
+        return 0.0
+    total_ret = equity[-1] / initial
+    return ((total_ret ** (365 / days)) - 1) * 100
+
+
+def _sharpe_ratio(returns: list[float], risk_free_rate: float = 0.0) -> float:
+    if not returns or len(returns) < 2:
+        return 0.0
+    avg_ret = sum(returns) / len(returns)
+    variance = sum((r - avg_ret) ** 2 for r in returns) / (len(returns) - 1)
+    std_dev = math.sqrt(variance) if variance > 0 else 0.001
+    return (avg_ret - risk_free_rate) / std_dev
+
+
+def _sortino_ratio(returns: list[float], risk_free_rate: float = 0.0) -> float:
+    if not returns:
+        return 0.0
+    avg_ret = sum(returns) / len(returns)
+    downside = [r for r in returns if r < 0]
+    if not downside:
+        return float('inf') if avg_ret > risk_free_rate else 0.0
+    downside_var = sum(r ** 2 for r in downside) / len(downside)
+    downside_std = math.sqrt(downside_var) if downside_var > 0 else 0.001
+    return (avg_ret - risk_free_rate) / downside_std
+
+
+def _max_drawdown(equity: list[float]) -> float:
+    if not equity:
+        return 0.0
+    peak = equity[0]
+    max_dd = 0.0
+    for e in equity:
+        if e > peak:
+            peak = e
+        dd = (peak - e) / peak
+        if dd > max_dd:
+            max_dd = dd
+    return max_dd * 100
+
+
+def _max_drawdown_duration(equity: list[float]) -> int:
+    if not equity:
+        return 0
+    peak = equity[0]
+    duration = 0
+    max_duration = 0
+    for e in equity:
+        if e >= peak:
+            peak = e
+            duration = 0
+        else:
+            duration += 1
+            max_duration = max(max_duration, duration)
+    return max_duration
+
+
+def _win_rate(trades: list[BacktestTrade]) -> float:
+    if not trades:
+        return 0.0
+    winning = len([t for t in trades if t.pnl and t.pnl > 0])
+    return (winning / len(trades)) * 100
+
+
+def _profit_factor(pnls: list[float]) -> float:
+    if not pnls:
+        return 0.0
+    gross_profit = sum(p for p in pnls if p > 0)
+    gross_loss = abs(sum(p for p in pnls if p < 0))
+    return gross_profit / gross_loss if gross_loss > 0 else float('inf')
+
+
+def _expectancy(pnls: list[float]) -> float:
+    if not pnls:
+        return 0.0
+    return sum(pnls) / len(pnls)
+
+
+def _avg_win(pnls: list[float]) -> float:
+    wins = [p for p in pnls if p > 0]
+    return sum(wins) / len(wins) if wins else 0.0
+
+
+def _avg_loss(pnls: list[float]) -> float:
+    losses = [p for p in pnls if p < 0]
+    return sum(losses) / len(losses) if losses else 0.0
+
+
+def _payoff_ratio(pnls: list[float]) -> float:
+    aw = _avg_win(pnls)
+    al = abs(_avg_loss(pnls))
+    return aw / al if al > 0 else float('inf')
+```
+
+#### 📄 3.7 Exportación de Reportes (backtest/report.py)
+
+```python
+"""Generación de reportes de backtesting."""
+
+import json
+import csv
+from pathlib import Path
+from ghost_trader.backtest.engine import BacktestResult
+
+
+def export_json(result: BacktestResult, path: str) -> None:
+    """Exporta resultado a JSON."""
+    data = {
+        "strategy": result.strategy_name,
+        "symbol": result.symbol,
+        "timeframe": result.timeframe,
+        "period": f"{result.start_date} → {result.end_date}",
+        "summary": {
+            "total_trades": result.total_trades,
+            "winning_trades": result.winning_trades,
+            "losing_trades": result.losing_trades,
+            "win_rate_pct": result.metrics.get("win_rate_pct", 0),
+            "total_return_pct": result.metrics.get("total_return_pct", 0),
+            "sharpe_ratio": result.metrics.get("sharpe_ratio", 0),
+            "max_drawdown_pct": result.metrics.get("max_drawdown_pct", 0),
+            "profit_factor": result.metrics.get("profit_factor", 0),
+        },
+        "metrics": result.metrics,
+        "trades": [
+            {
+                "entry_time": str(t.entry_time),
+                "exit_time": str(t.exit_time),
+                "action": t.action,
+                "entry_price": t.entry_price,
+                "exit_price": t.exit_price,
+                "pnl": t.pnl,
+                "reason_entry": t.reason_entry,
+                "reason_exit": t.reason_exit,
+            }
+            for t in result.trades
+        ],
+    }
+    Path(path).write_text(json.dumps(data, indent=2, default=str))
+
+
+def export_csv(result: BacktestResult, path: str) -> None:
+    """Exporta trades a CSV."""
+    with open(path, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow([
+            "entry_time", "exit_time", "action", "symbol",
+            "entry_price", "exit_price", "pnl", "reason_entry", "reason_exit"
+        ])
+        for t in result.trades:
+            writer.writerow([
+                t.entry_time, t.exit_time, t.action, t.symbol,
+                t.entry_price, t.exit_price, t.pnl, t.reason_entry, t.reason_exit,
+            ])
+```
+
+#### 🧪 3.8 Tests de la FASE 3
+
+```python
+# tests/unit/test_strategy.py
+import polars as pl
+from ghost_trader.strategy.base import TradeAction
+from ghost_trader.strategy.ema_cross import EMACross
+
+def create_test_df(n: int = 200) -> pl.DataFrame:
+    """DataFrame con tendencia alcista simulada."""
+    import random
+    random.seed(42)
+    prices = [100.0]
+    for _ in range(n - 1):
+        prices.append(prices[-1] * (1 + random.uniform(0.0001, 0.003)))
+    return pl.DataFrame({
+        "open": prices,
+        "high": [p * 1.005 for p in prices],
+        "low": [p * 0.995 for p in prices],
+        "close": prices,
+        "volume": [1000] * n,
+    })
+
+def test_ema_cross_hold():
+    """Sin cruce → HOLD."""
+    df = create_test_df()
+    strategy = EMACross(symbols=["v75"], fast_period=20, slow_period=50)
+    proposal = strategy.evaluate(df, "v75")
+    assert proposal.action == TradeAction.HOLD
+
+def test_ema_cross_required_indicators():
+    strategy = EMACross(symbols=["v75"], fast_period=20, slow_period=50)
+    indicators = strategy.required_indicators()
+    assert "EMA_20" in indicators
+    assert "EMA_50" in indicators
+
+
+# tests/unit/test_backtest.py
+from ghost_trader.backtest.engine import BacktestEngine
+from ghost_trader.strategy.ema_cross import EMACross
+
+def test_backtest_runs():
+    """Backtest completa sin errores."""
+    df = create_test_df(500)
+    strategy = EMACross(symbols=["v75"], fast_period=10, slow_period=30)
+    engine = BacktestEngine(initial_balance=10000.0)
+    result = engine.run(strategy, df, "v75")
+    assert result.strategy_name == strategy.name
+    assert result.symbol == "v75"
+    assert len(result.equity_curve) > 0
+
+def test_backtest_metrics():
+    """Métricas se calculan correctamente."""
+    df = create_test_df(500)
+    strategy = EMACross(symbols=["v75"], fast_period=10, slow_period=30)
+    engine = BacktestEngine()
+    result = engine.run(strategy, df, "v75")
+    assert "sharpe_ratio" in result.metrics
+    assert "max_drawdown_pct" in result.metrics
+    assert "win_rate_pct" in result.metrics
+
+
+# tests/unit/test_metrics.py
+from ghost_trader.backtest.metrics import calculate_metrics
+from ghost_trader.backtest.engine import BacktestTrade
+from datetime import datetime
+
+def test_metrics_empty_trades():
+    metrics = calculate_metrics([], [10000], 10000)
+    assert "error" in metrics
+
+def test_metrics_with_trades():
+    trades = [
+        BacktestTrade(datetime(2026,1,1), datetime(2026,1,2), "v75", "buy", 100, 105, 50, "entry", "exit"),
+        BacktestTrade(datetime(2026,1,3), datetime(2026,1,4), "v75", "buy", 105, 103, -30, "entry", "exit"),
+    ]
+    equity = [10000, 10050, 10020]
+    metrics = calculate_metrics(trades, equity, 10000)
+    assert metrics["total_trades"] == 2
+    assert metrics["win_rate_pct"] == 50.0
+```
+
+#### 📋 3.9 Checklist de Aprobación FASE 3
+
+- [ ] Clase abstracta Strategy funcionando
+- [ ] EMACross implementada y evaluando correctamente
+- [ ] StrategyRegistry registrando y listando estrategias
+- [ ] BacktestEngine simulando vela por vela (sin lookahead)
+- [ ] Métricas calculándose: Sharpe, Sortino, Max DD, Win Rate, Profit Factor
+- [ ] Exportación JSON y CSV funcionando
+- [ ] Tests unitarios pasando al 100%
+- [ ] Comisión y slippage aplicados en cada trade
+- [ ] Position sizing configurable (% del balance)
+- [ ] Documentación de métricas (qué significa cada una)
+
+**Si algún punto falla → NO avanzar a FASE 4.**
+
+**Entregable FASE 3:**
+- Estrategia EMACross completa y probada
+- Motor de backtesting con datos históricos reales
+- Reporte con métricas de rendimiento
+- Validación de que la estrategia es rentable en histórico
 
 ### FASE 4: Risk Engine & Execution (Semanas 7-8)
 **Objetivo:** Ejecutar órdenes de forma segura
