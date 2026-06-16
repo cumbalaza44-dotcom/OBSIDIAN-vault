@@ -23,10 +23,10 @@ source: "Mr. Jair — iOS / Telegram"
 
 | # | Tarea | Hora | Estado | Prioridad |
 |---|-------|------|--------|----------|
-| 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ⏳ | 🟢 |
+| 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ✅ | 🟢 |
 | 2 | 🏋️ Pierna 1 — Reto fitness junio (Día 10) | ⏰ 6:30 AM | ⏳ | 🔴 |
 | 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
-| 4 | 🤖 Ghost Trader — Arquitectura FASE 1 (90min) | ⏰ 9:00 AM | ⏳ | 🔴 |
+| 4 | 🤖 Ghost Trader — Plan FASE 1-3 completada + Elevator Pitch | ⏰ 8:00 AM | ✅ | 🔴 |
 | 5 | 📝 Migrar notas Obsidian (45min) | ⏰ 8:15 AM | ⏳ | 🔴 |
 | 6 | 🎓 Meta Ads — Definir nicho (45min) | ⏰ 10:45 AM | ⏳ | 🟡 |
 | 7 | 🏠 Hogar pendientes | ⏰ 11:30 AM | ⏳ | 🟡 |
