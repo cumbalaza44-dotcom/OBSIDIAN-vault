@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `16 Jun 2026 — 08:23`
+### Última actualización: `16 Jun 2026 — 20:44`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -24,11 +24,35 @@ source: "Mr. Jair — iOS / Telegram"
 | # | Tarea | Hora | Estado | Prioridad |
 |---|-------|------|--------|----------|
 | 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ✅ | 🟢 |
+| 2 | 🏋️ Pierna 1 — Reto fitness junio (Día 10) | ⏰ 6:30 AM | ❌ Diferido | 🔴 |
+| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ❌ Diferido | 🟢 |
+| 4 | 🤖 Ghost Trader — Plan FASE 1-3 completada + Elevator Pitch | ⏰ 8:00 AM | ✅ | 🔴 |
+| 5 | 📝 Migrar notas Obsidian (45min) | ⏰ 8:15 AM | ❌ Diferido | 🔴 |
+| 6 | 🎓 Meta Ads — Definir nicho (45min) | ⏰ 10:45 AM | ❌ Diferido | 🟡 |
+| 7 | 🏠 Hogar pendientes | ⏰ 11:30 AM | ❌ Diferido | 🟡 |
+
+> **Resumen:** 2/7 completadas. Jornada acortada — atención médica con madre. Pendientes pasan al jueves.
+
+---
+
+## 📅 MIÉRCOLES 17/06 — Día médico
+
+> 🏥 Atención médica con madre. Día libre de tareas.
+
+---
+
+## 🔥 JUEVES 18/06 — Pendientes cargadas
+
+> Jueves: recuperar martes + Ghost Trader FASE 4 plan | Gym Pierna 1.
+
+| # | Tarea | Hora | Estado | Prioridad |
+|---|-------|------|--------|----------|
+| 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ⏳ | 🟢 |
 | 2 | 🏋️ Pierna 1 — Reto fitness junio (Día 10) | ⏰ 6:30 AM | ⏳ | 🔴 |
 | 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
-| 4 | 🤖 Ghost Trader — Plan FASE 1-3 completada + Elevator Pitch | ⏰ 8:00 AM | ✅ | 🔴 |
-| 5 | 📝 Migrar notas Obsidian (45min) | ⏰ 8:15 AM | ⏳ | 🔴 |
-| 6 | 🎓 Meta Ads — Definir nicho (45min) | ⏰ 10:45 AM | ⏳ | 🟡 |
+| 4 | 📝 Migrar notas Obsidian (45min) | ⏰ 8:00 AM | ⏳ | 🔴 |
+| 5 | 🤖 Ghost Trader — Plan FASE 4 (60min) | ⏰ 9:00 AM | ⏳ | 🔴 |
+| 6 | 🎓 Meta Ads — Definir nicho (45min) | ⏰ 10:30 AM | ⏳ | 🟡 |
 | 7 | 🏠 Hogar pendientes | ⏰ 11:30 AM | ⏳ | 🟡 |
 
 ---
