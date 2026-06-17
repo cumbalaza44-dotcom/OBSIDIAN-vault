@@ -39,6 +39,12 @@ source: "Mr. Jair — iOS / Telegram"
 
 > 🏥 Atención médica con madre. Día libre de tareas.
 
+| # | Tarea | Hora | Estado | Prioridad |
+|---|-------|------|--------|----------|
+| 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ✅ | 🟢 |
+
+> **Nota:** Solo lectura completada. Día libre.
+
 ---
 
 ## 🔥 JUEVES 18/06 — Pendientes cargadas
