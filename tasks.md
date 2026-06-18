@@ -53,7 +53,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 | # | Tarea | Hora | Estado | Prioridad |
 |---|-------|------|--------|----------|
-| 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ⏳ | 🟢 |
+| 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ✅ | 🟢 |
 | 2 | 🏋️ Pierna 1 — Reto fitness junio (Día 10) | ⏰ 6:30 AM | ⏳ | 🔴 |
 | 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
 | 4 | 📝 Migrar notas Obsidian (45min) | ⏰ 8:00 AM | ⏳ | 🔴 |
