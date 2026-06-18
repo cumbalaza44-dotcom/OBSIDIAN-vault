@@ -55,7 +55,7 @@ source: "Mr. Jair — iOS / Telegram"
 |---|-------|------|--------|----------|
 | 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ✅ | 🟢 |
 | 2 | 🏋️ Pierna 1 — Reto fitness junio (Día 10) | ⏰ 6:30 AM | ⏳ | 🔴 |
-| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
+| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ✅ | 🟢 |
 | 4 | 📝 Migrar notas Obsidian (45min) | ⏰ 8:00 AM | ⏳ | 🔴 |
 | 5 | 🤖 Ghost Trader — Plan FASE 4 (60min) | ⏰ 9:00 AM | ⏳ | 🔴 |
 | 6 | 🎓 Meta Ads — Definir nicho (45min) | ⏰ 10:30 AM | ⏳ | 🟡 |
