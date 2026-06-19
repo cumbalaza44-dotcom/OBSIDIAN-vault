@@ -203,6 +203,9 @@ source: "Mr. Jair — iOS / Telegram"
 
 ## 🏍️ HOGAR Y MOTO
 
+### 🔫 Habilidades de supervivencia
+- [ ] Curso de manejo de armas — polígono de tiro — *Habilidades y conocimientos.md*
+
 ### 🔧 Moto
 
 - [ ] Lavado y mantenimiento — *Mantenimiento Moto.md*
