@@ -203,6 +203,9 @@ source: "Mr. Jair — iOS / Telegram"
 
 ## 🏍️ HOGAR Y MOTO
 
+### 🏎️ Proyectos mecánicos
+- [ ] Construir un Go Kart — *Proyectos.md*
+
 ### 🔫 Habilidades de supervivencia
 - [ ] Curso de manejo de armas — polígono de tiro — *Habilidades y conocimientos.md*
 
