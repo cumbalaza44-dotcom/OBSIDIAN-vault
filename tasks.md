@@ -34,15 +34,19 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 📅 MIÉRCOLES 17/06 — Día médico
+## 📅 MIÉRCOLES 24/06
 
-> 🏥 Atención médica con madre. Día libre de tareas.
+> Miércoles: Ghost Trader FASE 4 + Prototipo X ESP32.
 
 | # | Tarea | Hora | Estado | Prioridad |
 |---|-------|------|--------|----------|
-| 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ✅ | 🟢 |
+| 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ⏳ | 🟢 |
+| 2 | 🏋️ Espalda/Bíceps — Reto fitness junio | ⏰ 6:30 AM | ⏳ | 🔴 |
+| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
+| 4 | 🤖 Ghost Trader — Plan FASE 4 (60min) | ⏰ 9:00 AM | ⏳ | 🔴 |
+| 5 | 🔬 Prototipo X — Investigar ESP32 (45min) | ⏰ 10:30 AM | ⏳ | 🟡 |
 
-> **Nota:** Solo lectura completada. Día libre.
+> **Resumen:** Ghost Trader FASE 4 + avance Prototipo X.
 
 ---
 
