@@ -17,21 +17,20 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Martes 16/06
+## 🔥 HOY — Lunes 22/06
 
-> Martes: priorizar Ghost Trader (atrasado 4 días). Gym Pierna 1.
+> Lunes: arranque de semana. Ghost Trader arquitectura FASE 2 + cerrar migración notas.
 
 | # | Tarea | Hora | Estado | Prioridad |
 |---|-------|------|--------|----------|
-| 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ✅ | 🟢 |
-| 2 | 🏋️ Pierna 1 — Reto fitness junio (Día 10) | ⏰ 6:30 AM | ❌ Diferido | 🔴 |
-| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ❌ Diferido | 🟢 |
-| 4 | 🤖 Ghost Trader — Plan FASE 1-3 completada + Elevator Pitch | ⏰ 8:00 AM | ✅ | 🔴 |
-| 5 | 📝 Migrar notas Obsidian (45min) | ⏰ 8:15 AM | ❌ Diferido | 🔴 |
-| 6 | 🎓 Meta Ads — Definir nicho (45min) | ⏰ 10:45 AM | ❌ Diferido | 🟡 |
-| 7 | 🏠 Hogar pendientes | ⏰ 11:30 AM | ❌ Diferido | 🟡 |
+| 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ⏳ | 🟢 |
+| 2 | 🏋️ Tren Superior — Reto fitness junio | ⏰ 6:30 AM | ⏳ | 🔴 |
+| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
+| 4 | 🤖 Ghost Trader — Arquitectura FASE 2 (60min) | ⏰ 9:00 AM | ⏳ | 🔴 |
+| 5 | 📝 Migrar notas Obsidian — FINALIZAR (45min) | ⏰ 10:00 AM | ⏳ | 🔴 |
+| 6 | 🏠 Hogar pendientes | ⏰ 11:00 AM | ⏳ | 🟡 |
 
-> **Resumen:** 2/7 completadas. Jornada acortada — atención médica con madre. Pendientes pasan al jueves.
+> **Resumen:** Arranque de semana nueva. Priorizar Ghost Trader + cerrar migración notas.
 
 ---
 
