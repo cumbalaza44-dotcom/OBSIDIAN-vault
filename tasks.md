@@ -50,21 +50,19 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 JUEVES 18/06 — Pendientes cargadas
+## 📅 JUEVES 25/06
 
-> Jueves: recuperar martes + Ghost Trader FASE 4 plan | Gym Pierna 1.
+> Jueves: Meta Ads investigar productos + Finanzas.
 
 | # | Tarea | Hora | Estado | Prioridad |
 |---|-------|------|--------|----------|
-| 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ✅ | 🟢 |
-| 2 | 🏋️ Pierna 1 — Reto fitness junio (Día 10) | ⏰ 6:30 AM | ⏳ | 🔴 |
-| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ✅ | 🟢 |
-| 4 | 📝 Migrar notas Obsidian (45min) | ⏰ 8:00 AM | ⏳ | 🔴 |
-| 5 | 🤖 Ghost Trader — Plan FASE 4 (60min) | ⏰ 9:00 AM | ⏳ | 🔴 |
-| 6 | 🎓 Meta Ads — Definir nicho (45min) | ⏰ 10:30 AM | ⏳ | 🟡 |
-| 7 | 🏠 Hogar pendientes | ⏰ 11:30 AM | ⏳ | 🟡 |
+| 1 | 📚 Lectura diaria | ⏰ 6:00 AM | ⏳ | 🟢 |
+| 2 | 🏋️ Pecho/Tríceps — Reto fitness junio | ⏰ 6:30 AM | ⏳ | 🔴 |
+| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
+| 4 | 🎓 Meta Ads — Investigar 10 productos (60min) | ⏰ 9:00 AM | ⏳ | 🟡 |
+| 5 | 💰 Finanzas: balancear ingresos | ⏰ 10:30 AM | ⏳ | 🟡 |
 
----
+> **Resumen:** Meta Ads avance + finanzas.
 
 ## 📅 LUNES 15/06 — Histórico
 
