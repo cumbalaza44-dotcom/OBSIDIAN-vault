@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `16 Jun 2026 — 20:44`
+### Última actualización: `21 Jun 2026 — 20:00`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -95,19 +95,19 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 📋 SEMANA 15–21 Jun 2026
+## 📋 SEMANA 22–28 Jun 2026
 
-> Semana de arranque: Ghost Trader es prioridad #1 (atrasado 3 días). Meta Ads retoma ritmo.
+> Semana de recuperación y avance. Ghost Trader arquitectura FASE 2, cerrar migración, Meta Ads definir nicho.
 
 | Día | Mañana (6-9 AM) | Medio día | Tarde |
 |-----|-----------------|-----------|-------|
-| **Lun 15** | 📚 Lectura + 🏋️ Tren Superior (Gym) | 🎓 Meta Ads — 45min | 📝 Migrar notas Obsidian (30min) |
-| **Mar 16** | 📚 Lectura + 🏋️ Pierna 1 (Gym) | 🤖 Ghost Trader — Arquitectura FASE 1 (90min) | 🏠 Hogar pendientes |
-| **Mié 17** | 📚 Lectura + 🏋️ Espalda/Bíceps (Gym) | 🤖 Ghost Trader — Arquitectura FASE 2 (60min) | 📋 Time box semanal |
-| **Jue 18** | 📚 Lectura + 🏋️ Pecho/Tríceps (Gym) | 🎓 Meta Ads — Definir nicho (60min) | 🔬 Prototipo X — Investigar ESP32 (45min) |
-| **Vie 19** | 📚 Lectura + 🏋️ Pierna 2 (Gym) | 🎓 Meta Ads — Investigar productos (45min) | 🏍️ Mantenimiento moto |
-| **Sáb 20** | 📚 Lectura + Descanso activo | 🧹 Hogar: limpiar + lavar prendas | 💰 Finanzas: balancear ingresos |
-| **Dom 21** | 📚 Lectura | Descanso | — |
+| **Lun 22** | 📚 Lectura + 🏋️ Tren Superior (Gym) | 🤖 Ghost Trader — Arquitectura FASE 2 (60min) | 📝 Cerrar migración notas |
+| **Mar 23** | 📚 Lectura + 🏋️ Pierna 1 (Gym) | 🎓 Meta Ads — Definir nicho (45min) | 🏠 Hogar pendientes |
+| **Mié 24** | 📚 Lectura + 🏋️ Espalda/Bíceps (Gym) | 🤖 Ghost Trader — Plan FASE 4 (60min) | 🔬 Prototipo X — Investigar ESP32 (45min) |
+| **Jue 25** | 📚 Lectura + 🏋️ Pecho/Tríceps (Gym) | 🎓 Meta Ads — Investigar 10 productos (60min) | 💰 Finanzas: balancear ingresos |
+| **Vie 26** | 📚 Lectura + 🏋️ Pierna 2 (Gym) | 🤖 Ghost Trader — Implementar FASE 1 (60min) | 🏍️ Mantenimiento moto |
+| **Sáb 27** | 📚 Lectura + Descanso activo | 🧹 Hogar: limpiar + lavar prendas | 📋 Time box semanal |
+| **Dom 28** | 📚 Lectura | Descanso | — |
 
 ---
 
