@@ -149,45 +149,44 @@ source: "Mr. Jair — iOS / Telegram"
 
 > **Equipamiento:** Máquinas + peso corporal + mancuernas | **Tempo:** 3-1-2 | **Frecuencia:** 2x | **Volumen:** Optimizado hipertrofia
 
-**LUNES — Empuje + Bíceps (Pecho + Hombros + Tríceps + Bíceps) — 21 sets (~65 min)**
-1. Pec Deck / Mariposa 3×12-15 (🫁 pecho)
-2. Press inclinado mancuernas 3×10-12 (🫁 pecho superior)
+**LUNES — Push (Pecho + Hombros + Tríceps + Bíceps) — 18 sets (~60 min)**
+1. Press pecho máquina 3×12-15 (🫁 pecho)
+2. Pec Deck / Mariposa 3×12-15 (🫁 pecho)
 3. Press hombro máquina 3×10-12 (🔹 hombros)
-4. Elevaciones laterales mancuernas 3×12-15 (🔹 hombros laterales)
+4. Elevaciones laterales polea baja 3×12-15 (🔹 hombros)
 5. Extensión tríceps polea alta 3×12-15 (💪 tríceps)
 6. Curl bíceps máquina 3×12-15 (💪 bíceps)
-7. Curl martillo mancuernas 3×12 (💪 bíceps braquial)
 
-**MARTES — Pierna 1 — Cuádriceps + Pantorrillas + Core — 20 sets (~75 min)**
+**MARTES — Pull (Espalda + Bíceps + Trapecios) — 17 sets (~60 min)**
+1. Jalón al pecho polea alta 4×10-12 (💪 dorsal)
+2. Remo máquina sentado 4×10-12 (💪 espalda media)
+3. Face pull polea 3×15 (💪 trapecios/post. hombro)
+4. Curl bíceps máquina 3×12-15 (💪 bíceps)
+5. Curl martillo mancuernas 3×12 (💪 braquial)
+
+**MIÉRCOLES — Piernas 1 (Cuádriceps + Isquiotibiales + Pantorrillas + Core) — 21 sets (~75 min)**
 1. Leg Press 4×12-15 (🦵 cuádriceps)
-2. Extensiones de cuádriceps máquina 3×12-15 (🦵 cuádriceps aislamiento)
-3. Sentadilla búlgara mancuernas 3×10-12 c/pierna (🦵 cuádriceps estabilidad)
-4. Zancadas caminando mancuernas 3×12 c/pierna (🦵 cuádriceps funcional)
+2. Extensiones cuádriceps máquina 3×12-15 (🦵 cuádriceps)
+3. Curl femoral acostado máquina 4×12-15 (🦵 isquiotibiales)
+4. Hip thrust máquina o banco 3×12-15 (🦵 glúteos/isquios)
 5. Elevación pantorrillas máquina 4×15-20 (🦶 pantorrillas)
 6. Plancha frontal 3×45-60s (🧱 core)
 
-**MIÉRCOLES — Tirón (Espalda + Bíceps) — 21 sets (~75 min)**
-1. Jalón al pecho polea alta 4×10-12 (💪 espalda dorsal)
-2. Remo en máquina sentado 4×10-12 (💪 espalda media)
-3. Pullover máquina 3×12-15 (💪 espalda ancho)
-4. Face pull polea media 3×15 (💪 espalda superior/trapecios)
+**JUEVES — Upper (Pecho + Espalda + Hombros + Bíceps + Tríceps) — 21 sets (~70 min)**
+1. Press inclinado mancuernas 3×10-12 (🫁 pecho superior)
+2. Remo mancuerna 1 mano 3×10-12 (💪 espalda)
+3. Press militar máquina 3×10-12 (🔹 hombros)
+4. Elevaciones laterales mancuernas 3×12-15 (🔹 hombros)
 5. Curl bíceps máquina 3×12-15 (💪 bíceps)
-6. Curl concentrado mancuerna 3×12 (💪 bíceps pico)
+6. Extensión tríceps polea alta 3×12-15 (💪 tríceps)
+7. Fondos máquina asistida 3×10-12 (💪 tríceps/pecho)
 
-**JUEVES — Empuje 2 (Pecho + Hombros + Tríceps) — 18 sets (~65 min)**
-1. Press pecho máquina 3×12-15 (🫁 pecho)
-2. Aperturas en máquina 3×12-15 (🫁 pecho externo)
-3. Press militar máquina 3×10-12 (🔹 hombros anterior)
-4. Elevaciones laterales polea baja 3×12-15 (🔹 hombros laterales)
-5. Extensión tríceps polea alta 3×12-15 (💪 tríceps)
-6. Fondos en máquina asistida 3×10-12 (💪 tríceps/pecho)
-
-**VIERNES — Pierna 2 — Isquiotibiales + Glúteos + Pantorrillas + Core — 21 sets (~75 min)**
-1. Curl femoral acostado máquina 4×12-15 (🦵 isquiotibiales)
-2. Sentadilla búlgara énfasis posterior 4×10-12 c/pierna (🦵 isquiotibiales funcional)
-3. Hip thrust máquina o banco 3×12-15 (🦵 glúteos/isquiotibiales)
-4. Nordic curl asistido 3×6-8 (🦵 isquiotibiales excéntrico)
-5. Elevación pantorrillas máquina 4×15-20 (🦶 pantorrillas)
+**VIERNES — Piernas 2 (Cuádriceps + Isquiotibiales + Glúteos + Pantorrillas + Core) — 19 sets (~65 min)**
+1. Sentadilla búlgara mancuernas 3×10-12 c/pierna (🦵 multifuncional)
+2. Curl femoral acostado máquina 3×12-15 (🦵 isquiotibiales)
+3. Nordic curl asistido 3×6-8 (🦵 isquiotibiales excéntrico)
+4. Elevación pantorrillas máquina 4×15-20 (🦶 pantorrillas)
+5. Plancha frontal 3×45-60s (🧱 core)
 6. Plancha lateral 3×30-45s c/lado (🧱 core)
 
 **SÁBADO — Descanso activo:** Movilidad articular, caminar 30 min
