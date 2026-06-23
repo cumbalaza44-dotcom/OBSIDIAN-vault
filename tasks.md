@@ -183,11 +183,11 @@ source: "Mr. Jair — iOS / Telegram"
 6. Fondos en máquina asistida 3×10-12 (💪 tríceps/pecho)
 
 **VIERNES — Pierna 2 — Isquiotibiales + Glúteos + Pantorrillas + Core — 21 sets (~75 min)**
-1. Peso muerto 1 pierna (5kg) 4×10-12 (🦵 isquiotibiales)
-2. Sentadilla búlgara énfasis posterior 4×10-12 c/pierna (🦵 isquiotibiales)
-3. Hip thrust en silla 3×12-15 (🦵 isquiotibiales/glúteos)
-4. Nordic curl asistido 3×6-8 (🦵 isquiotibiales)
-5. Elevación pantorrillas 4×15-20 (🦶 pantorrillas)
+1. Curl femoral acostado máquina 4×12-15 (🦵 isquiotibiales)
+2. Sentadilla búlgara énfasis posterior 4×10-12 c/pierna (🦵 isquiotibiales funcional)
+3. Hip thrust máquina o banco 3×12-15 (🦵 glúteos/isquiotibiales)
+4. Nordic curl asistido 3×6-8 (🦵 isquiotibiales excéntrico)
+5. Elevación pantorrillas máquina 4×15-20 (🦶 pantorrillas)
 6. Plancha lateral 3×30-45s c/lado (🧱 core)
 
 **SÁBADO — Descanso activo:** Movilidad articular, caminar 30 min
