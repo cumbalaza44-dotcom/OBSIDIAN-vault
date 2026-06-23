@@ -147,56 +147,45 @@ source: "Mr. Jair — iOS / Telegram"
 
 ### 🏋️ Rutina Semanal — Gym Junio 2026
 
-> **Equipamiento:** Peso corporal + mancuernas 5kg | **Tempo:** 3-1-2 | **Frecuencia:** 2x
+> **Equipamiento:** Peso corporal + mancuernas 5kg | **Tempo:** 3-1-2 | **Frecuencia:** 2x | **Volumen:** Optimizado hipertrofia
 
-**LUNES — Tren Superior Completo (75-90 min)**
+**LUNES — Empuje (Pecho + Hombros + Tríceps) (~75 min)**
 1. Flexiones clásicas 4×12-15
-2. Remo invertido (bajo mesa) 4×10-15
-3. Press hombro mancuernas (5kg) 4×10-12
-4. Flexiones declinadas 3×10-12
-5. Remo mancuerna 1 mano (5kg) 3×10-12
-6. Elevaciones laterales (5kg) 3×12-15
-7. Curl bíceps (5kg) 3×12-15
-8. Fondos tríceps en silla 3×10-15
+2. Flexiones declinadas 3×10-12
+3. Press pecho mancuernas suelo (5kg) 3×10-12
+4. Press hombro mancuernas (5kg) 3×10-12
+5. Elevaciones laterales (5kg) 3×12-15
+6. Fondos tríceps en silla 3×10-15
 
-**MARTES — Pierna 1 (70-80 min)**
+**MARTES — Pierna 1 — Cuádriceps (75-80 min)**
 1. Sentadilla goblet (5kg) 4×12-15
 2. Sentadilla búlgara 4×10-12
 3. Zancadas caminando (5kg) 3×12 c/pierna
 4. Sentadilla sumo (5kg) 3×15
-5. Step-up en silla (5kg) 3×12 c/pierna
-6. Sentadilla isométrica en pared 3×30-45s
-7. Elevación pantorrillas 4×15-20
 
-**MIÉRCOLES — Espalda + Bíceps (75-85 min)**
+**MIÉRCOLES — Tirón (Espalda + Bíceps) (~75 min)**
 1. Remo invertido agarre supino 4×10-15
 2. Remo mancuerna 1 mano (5kg) 4×10-12
-3. Superman con pausa 4×12
-4. Remo invertido agarre prono 3×8-12
-5. Pullover mancuerna (5kg) 3×12
-6. Curl bíceps (5kg) 3×12-15
-7. Curl martillo (5kg) 3×12
-8. Face pull con toalla 3×15
+3. Superman con pausa 3×12
+4. Pullover mancuerna (5kg) 3×12
+5. Curl bíceps (5kg) 3×12-15
+6. Curl martillo (5kg) 3×12
+7. Face pull con toalla 3×15
 
-**JUEVES — Pecho + Tríceps (75-85 min)**
-1. Flexiones clásicas 4×12-15
-2. Flexiones declinadas 4×10-12
-3. Flexiones diamante 3×8-12
-4. Press pecho mancuernas suelo (5kg) 4×10-12
-5. Flexiones pike 3×8-12
-6. Aperturas mancuernas suelo (5kg) 3×12-15
-7. Fondos tríceps en silla 4×10-15
-8. Extensión tríceps mancuerna (5kg) 3×12
+**JUEVES — Empuje 2 (Pecho + Hombros + Tríceps) (~75 min)**
+1. Flexiones clásicas 3×12-15
+2. Flexiones diamante 3×8-12
+3. Aperturas mancuernas suelo (5kg) 3×12-15
+4. Press hombro mancuernas (5kg) 3×10-12
+5. Elevaciones laterales (5kg) 3×12-15
+6. Extensión tríceps mancuerna (5kg) 3×12
 
-**VIERNES — Pierna 2 — Isquiotibiales (75-85 min)**
+**VIERNES — Pierna 2 — Isquiotibiales + Glúteos (75-85 min)**
 1. Peso muerto 1 pierna (5kg) 4×10-12
 2. Sentadilla búlgara énfasis posterior 4×10-12
 3. Hip thrust en silla 4×12-15
 4. Puente glúteos 1 pierna 3×12-15
-5. Sentadilla sumo profunda (5kg) 3×15
-6. Nordic curl asistido 3×6-8
-7. Elevación pantorrillas 4×15-20
-8. Plancha frontal 3×45-60s
+5. Nordic curl asistido 3×6-8
 
 **SÁBADO — Descanso activo:** Movilidad articular, caminar 30 min
 **DOMINGO — Descanso total**
