@@ -27,7 +27,7 @@ source: "Mr. Jair — iOS / Telegram"
 | # | Tarea | Ventana | Estado | Prioridad |
 |---|-------|---------|--------|----------|
 | 1 | 📚 Lectura diaria (20min) | ⏰ 6:00 AM | ✅ | 🟢 |
-| 2 | 🏋️ Tren Superior — Reto fitness junio | ⏰ 6:20 AM | ✅ | 🔴 |
+| 2 | 🏋️ Tren Superior — Reto fitness junio (2.5h) | ⏰ 6:20-8:50 AM | ✅ | 🔴 |
 | 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ✅ | 🟢 |
 | 4 | 🤖 Ghost Trader — Arquitectura FASE 2 (60min) | 🌙 6:30 PM | ⏳ | 🔴 |
 | 5 | 📝 Migrar notas Obsidian — FINALIZAR (45min) | 🌙 8:00 PM | ⏳ | 🔴 |
