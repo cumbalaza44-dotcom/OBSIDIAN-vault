@@ -150,13 +150,13 @@ source: "Mr. Jair — iOS / Telegram"
 > **Equipamiento:** Máquinas + peso corporal + mancuernas | **Tempo:** 3-1-2 | **Frecuencia:** 2x | **Volumen:** Optimizado hipertrofia
 
 **LUNES — Empuje + Bíceps (Pecho + Hombros + Tríceps + Bíceps) — 21 sets (~65 min)**
-1. Flexiones clásicas 3×12-15 (🫁 pecho)
-2. Press pecho mancuernas suelo (5kg) 3×10-12 (🫁 pecho)
-3. Press hombro mancuernas (5kg) 3×10-12 (🔹 hombros)
-4. Elevaciones laterales (5kg) 3×12-15 (🔹 hombros)
-5. Fondos tríceps en silla 3×10-15 (💪 tríceps)
-6. Curl bíceps (5kg) 3×12-15 (💪 bíceps)
-7. Curl martillo (5kg) 3×12 (💪 bíceps)
+1. Pec Deck / Mariposa 3×12-15 (🫁 pecho)
+2. Press inclinado mancuernas 3×10-12 (🫁 pecho superior)
+3. Press hombro máquina 3×10-12 (🔹 hombros)
+4. Elevaciones laterales mancuernas 3×12-15 (🔹 hombros laterales)
+5. Extensión tríceps polea alta 3×12-15 (💪 tríceps)
+6. Curl bíceps máquina 3×12-15 (💪 bíceps)
+7. Curl martillo mancuernas 3×12 (💪 bíceps braquial)
 
 **MARTES — Pierna 1 — Cuádriceps + Pantorrillas + Core — 20 sets (~75 min)**
 1. Sentadilla goblet (5kg) 4×12-15 (🦵 cuádriceps)
