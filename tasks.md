@@ -26,8 +26,8 @@ source: "Mr. Jair — iOS / Telegram"
 
 | # | Tarea | Ventana | Estado | Prioridad |
 |---|-------|---------|--------|----------|
-| 1 | 📚 Lectura diaria (20min) | ⏰ 6:00 AM | ✅ | 🟢 |
-| 2 | 🏋️ Tren Superior — Reto fitness junio (2.5h) | ⏰ 6:20-8:50 AM | ✅ | 🔴 |
+| 1 | 📚 Lectura diaria (20min) | ⏰ 5:10 AM | ✅ | 🟢 |
+| 2 | 🏋️ Tren Superior — Reto fitness junio (2.5h) | ⏰ 5:30-8:00 AM | ✅ | 🔴 |
 | 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ✅ | 🟢 |
 | 4 | 🤖 Ghost Trader — Arquitectura FASE 2 (60min) | 🌙 6:30 PM | ⏳ | 🔴 |
 | 5 | 📝 Migrar notas Obsidian — FINALIZAR (45min) | 🌙 8:00 PM | ⏳ | 🔴 |
@@ -42,8 +42,8 @@ source: "Mr. Jair — iOS / Telegram"
 
 | # | Tarea | Ventana | Estado | Prioridad |
 |---|-------|---------|--------|----------|
-| 1 | 📚 Lectura diaria (20min) | ⏰ 6:00 AM | ✅ | 🟢 |
-| 2 | 🏋️ Pierna 1 — Reto fitness junio (2.5h) | ⏰ 6:20-8:50 AM | ✅ | 🔴 |
+| 1 | 📚 Lectura diaria (20min) | ⏰ 5:10 AM | ✅ | 🟢 |
+| 2 | 🏋️ Pierna 1 — Reto fitness junio (2.5h) | ⏰ 5:30-8:00 AM | ✅ | 🔴 |
 | 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ✅ | 🟢 |
 | 4 | 🎓 Meta Ads — Definir nicho (60min) | 🌙 6:30 PM | ⏳ | 🟡 |
 | 5 | 🏠 Hogar pendientes (30min) | 🌙 8:00 PM | ⏳ | 🟡 |
@@ -58,8 +58,8 @@ source: "Mr. Jair — iOS / Telegram"
 
 | # | Tarea | Ventana | Estado | Prioridad |
 |---|-------|---------|--------|----------|
-| 1 | 📚 Lectura diaria (20min) | ⏰ 6:00 AM | ⏳ | 🟢 |
-| 2 | 🏋️ Espalda/Bíceps — Reto fitness junio (2.5h) | ⏰ 6:20-8:50 AM | ⏳ | 🔴 |
+| 1 | 📚 Lectura diaria (20min) | ⏰ 5:10 AM | ⏳ | 🟢 |
+| 2 | 🏋️ Espalda/Bíceps — Reto fitness junio (2.5h) | ⏰ 5:30-8:00 AM | ⏳ | 🔴 |
 | 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
 | 4 | 🤖 Ghost Trader — Plan FASE 4 (60min) | 🌙 6:30 PM | ⏳ | 🔴 |
 | 5 | 🔬 Prototipo X — Investigar ESP32 (45min) | 🌙 8:00 PM | ⏳ | 🟡 |
@@ -74,8 +74,8 @@ source: "Mr. Jair — iOS / Telegram"
 
 | # | Tarea | Ventana | Estado | Prioridad |
 |---|-------|---------|--------|----------|
-| 1 | 📚 Lectura diaria (20min) | ⏰ 6:00 AM | ⏳ | 🟢 |
-| 2 | 🏋️ Pecho/Tríceps — Reto fitness junio (2.5h) | ⏰ 6:20-8:50 AM | ⏳ | 🔴 |
+| 1 | 📚 Lectura diaria (20min) | ⏰ 5:10 AM | ⏳ | 🟢 |
+| 2 | 🏋️ Pecho/Tríceps — Reto fitness junio (2.5h) | ⏰ 5:30-8:00 AM | ⏳ | 🔴 |
 | 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
 | 4 | 🎓 Meta Ads — Investigar 10 productos (60min) | 🌙 6:30 PM | ⏳ | 🟡 |
 | 5 | 💰 Finanzas: balancear ingresos (30min) | 🌙 8:00 PM | ⏳ | 🟡 |
@@ -90,8 +90,8 @@ source: "Mr. Jair — iOS / Telegram"
 
 | # | Tarea | Ventana | Estado | Prioridad |
 |---|-------|---------|--------|----------|
-| 1 | 📚 Lectura diaria (20min) | ⏰ 6:00 AM | ⏳ | 🟢 |
-| 2 | 🏋️ Pierna 2 — Reto fitness junio (2.5h) | ⏰ 6:20-8:50 AM | ⏳ | 🔴 |
+| 1 | 📚 Lectura diaria (20min) | ⏰ 5:10 AM | ⏳ | 🟢 |
+| 2 | 🏋️ Pierna 2 — Reto fitness junio (2.5h) | ⏰ 5:30-8:00 AM | ⏳ | 🔴 |
 | 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
 | 4 | 🤖 Ghost Trader — Implementar FASE 1 (60min) | 🌙 6:30 PM | ⏳ | 🔴 |
 | 5 | 🏍️ Mantenimiento moto (30min) | 🌙 8:00 PM | ⏳ | 🟡 |
@@ -129,7 +129,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 ## 📋 SEMANA 22–28 Jun 2026 — Vista Rápida
 
-> Horario: L-V 8 AM-5 PM | Gym: 6:20-8:50 AM | Noche: 6:30-9:30 PM
+> Horario: L-V 8 AM-5 PM | Gym: 5:30-8:00 AM | Noche: 6:30-9:30 PM
 
 | Día | Mañana (6-8:50 AM) | Noche (6:30-9:30 PM) |
 |-----|-------------------|---------------------|
