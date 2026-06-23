@@ -175,12 +175,12 @@ source: "Mr. Jair — iOS / Telegram"
 6. Curl concentrado mancuerna 3×12 (💪 bíceps pico)
 
 **JUEVES — Empuje 2 (Pecho + Hombros + Tríceps) — 18 sets (~65 min)**
-1. Flexiones diamante 3×8-12 (🫁 pecho)
-2. Aperturas mancuernas suelo (5kg) 3×12-15 (🫁 pecho)
-3. Press hombro mancuernas (5kg) 3×10-12 (🔹 hombros)
-4. Elevaciones laterales (5kg) 3×12-15 (🔹 hombros)
-5. Fondos tríceps en silla 3×10-15 (💪 tríceps)
-6. Extensión tríceps mancuerna (5kg) 3×12 (💪 tríceps)
+1. Press pecho máquina 3×12-15 (🫁 pecho)
+2. Aperturas en máquina 3×12-15 (🫁 pecho externo)
+3. Press militar máquina 3×10-12 (🔹 hombros anterior)
+4. Elevaciones laterales polea baja 3×12-15 (🔹 hombros laterales)
+5. Extensión tríceps polea alta 3×12-15 (💪 tríceps)
+6. Fondos en máquina asistida 3×10-12 (💪 tríceps/pecho)
 
 **VIERNES — Pierna 2 — Isquiotibiales + Glúteos + Pantorrillas + Core — 21 sets (~75 min)**
 1. Peso muerto 1 pierna (5kg) 4×10-12 (🦵 isquiotibiales)
