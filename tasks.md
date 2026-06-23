@@ -14,7 +14,7 @@ source: "Mr. Jair — iOS / Telegram"
 > Yo sincronizo los cambios con las notas originales.
 
 **⚠️ Horario laboral definitivo:** L-V 8 AM – 5 PM
-**Ventanas:** Mañana 6:00-9:00 AM | Noche 6:30-9:30 PM | Fines de semana completo
+**Ventanas:** Mañana 5:10-8:00 AM | Noche 6:30-9:30 PM | Fines de semana completo
 
 </div>
 
