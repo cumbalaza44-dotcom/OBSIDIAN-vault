@@ -26,9 +26,9 @@ source: "Mr. Jair — iOS / Telegram"
 
 | # | Tarea | Ventana | Estado | Prioridad |
 |---|-------|---------|--------|----------|
-| 1 | 📚 Lectura diaria (20min) | ⏰ 6:00 AM | ⏳ | 🟢 |
-| 2 | 🏋️ Tren Superior — Reto fitness junio | ⏰ 6:20 AM | ⏳ | 🔴 |
-| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
+| 1 | 📚 Lectura diaria (20min) | ⏰ 6:00 AM | ✅ | 🟢 |
+| 2 | 🏋️ Tren Superior — Reto fitness junio | ⏰ 6:20 AM | ✅ | 🔴 |
+| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ✅ | 🟢 |
 | 4 | 🤖 Ghost Trader — Arquitectura FASE 2 (60min) | 🌙 6:30 PM | ⏳ | 🔴 |
 | 5 | 📝 Migrar notas Obsidian — FINALIZAR (45min) | 🌙 8:00 PM | ⏳ | 🔴 |
 
@@ -42,9 +42,9 @@ source: "Mr. Jair — iOS / Telegram"
 
 | # | Tarea | Ventana | Estado | Prioridad |
 |---|-------|---------|--------|----------|
-| 1 | 📚 Lectura diaria (20min) | ⏰ 6:00 AM | ⏳ | 🟢 |
-| 2 | 🏋️ Pierna 1 — Reto fitness junio | ⏰ 6:20 AM | ⏳ | 🔴 |
-| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
+| 1 | 📚 Lectura diaria (20min) | ⏰ 6:00 AM | ✅ | 🟢 |
+| 2 | 🏋️ Pierna 1 — Reto fitness junio | ⏰ 6:20 AM | ✅ | 🔴 |
+| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ✅ | 🟢 |
 | 4 | 🎓 Meta Ads — Definir nicho (60min) | 🌙 6:30 PM | ⏳ | 🟡 |
 | 5 | 🏠 Hogar pendientes (30min) | 🌙 8:00 PM | ⏳ | 🟡 |
 
@@ -255,6 +255,8 @@ source: "Mr. Jair — iOS / Telegram"
 ## 🧠 HÁBITOS
 
 ### ✅ Completados reciente
+- [x] Compra tenis para gym
+- [x] Compra sudaderas para gym
 - [x] Afeitarse
 - [x] Cortarse el cabello
 - [x] Hoja de vida Elcira Bolívar — Ajustar a A4 1 página, imprimir
