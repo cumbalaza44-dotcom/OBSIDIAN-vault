@@ -159,11 +159,11 @@ source: "Mr. Jair — iOS / Telegram"
 7. Curl martillo mancuernas 3×12 (💪 bíceps braquial)
 
 **MARTES — Pierna 1 — Cuádriceps + Pantorrillas + Core — 20 sets (~75 min)**
-1. Sentadilla goblet (5kg) 4×12-15 (🦵 cuádriceps)
-2. Sentadilla búlgara 3×10-12 c/pierna (🦵 cuádriceps)
-3. Zancadas caminando (5kg) 3×12 c/pierna (🦵 cuádriceps)
-4. Sentadilla sumo (5kg) 3×15 (🦵 cuádriceps)
-5. Elevación pantorrillas 4×15-20 (🦶 pantorrillas)
+1. Leg Press 4×12-15 (🦵 cuádriceps)
+2. Extensiones de cuádriceps máquina 3×12-15 (🦵 cuádriceps aislamiento)
+3. Sentadilla búlgara mancuernas 3×10-12 c/pierna (🦵 cuádriceps estabilidad)
+4. Zancadas caminando mancuernas 3×12 c/pierna (🦵 cuádriceps funcional)
+5. Elevación pantorrillas máquina 4×15-20 (🦶 pantorrillas)
 6. Plancha frontal 3×45-60s (🧱 core)
 
 **MIÉRCOLES — Tirón (Espalda + Bíceps) — 21 sets (~75 min)**
