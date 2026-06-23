@@ -75,7 +75,7 @@ source: "Mr. Jair — iOS / Telegram"
 | # | Tarea | Ventana | Estado | Prioridad |
 |---|-------|---------|--------|----------|
 | 1 | 📚 Lectura diaria (20min) | ⏰ 6:00 AM | ⏳ | 🟢 |
-| 2 | 🏋️ Pecho/Tríceps — Reto fitness junio | ⏰ 6:20 AM | ⏳ | 🔴 |
+| 2 | 🏋️ Pecho/Tríceps — Reto fitness junio (2.5h) | ⏰ 6:20-8:50 AM | ⏳ | 🔴 |
 | 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
 | 4 | 🎓 Meta Ads — Investigar 10 productos (60min) | 🌙 6:30 PM | ⏳ | 🟡 |
 | 5 | 💰 Finanzas: balancear ingresos (30min) | 🌙 8:00 PM | ⏳ | 🟡 |
