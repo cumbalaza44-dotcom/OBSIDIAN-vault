@@ -129,9 +129,9 @@ source: "Mr. Jair — iOS / Telegram"
 
 ## 📋 SEMANA 22–28 Jun 2026 — Vista Rápida
 
-> Horario: L-V 8 AM-5 PM | Gym: 6:20-7:30 AM | Noche: 6:30-9:00 PM
+> Horario: L-V 8 AM-5 PM | Gym: 6:20-8:50 AM | Noche: 6:30-9:30 PM
 
-| Día | Mañana (6-7:30 AM) | Noche (6:30-9:00 PM) |
+| Día | Mañana (6-8:50 AM) | Noche (6:30-9:30 PM) |
 |-----|-------------------|---------------------|
 | **Lun 22** | 📚 Lectura + 🏋️ Tren Superior | 🤖 Ghost Trader FASE 2 + 📝 Migrar notas |
 | **Mar 23** | 📚 Lectura + 🏋️ Pierna 1 | 🎓 Meta Ads nicho + 🏠 Hogar |
