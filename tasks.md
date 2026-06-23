@@ -147,7 +147,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 ### 🏋️ Rutina Semanal — Gym Junio 2026
 
-> **Equipamiento:** Peso corporal + mancuernas 5kg | **Tempo:** 3-1-2 | **Frecuencia:** 2x | **Volumen:** Optimizado hipertrofia
+> **Equipamiento:** Máquinas + peso corporal + mancuernas | **Tempo:** 3-1-2 | **Frecuencia:** 2x | **Volumen:** Optimizado hipertrofia
 
 **LUNES — Empuje + Bíceps (Pecho + Hombros + Tríceps + Bíceps) — 21 sets (~65 min)**
 1. Flexiones clásicas 3×12-15 (🫁 pecho)
