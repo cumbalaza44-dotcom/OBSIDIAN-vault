@@ -194,19 +194,19 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-### 📊 Resumen Volumen Semanal
+### 📊 Resumen Volumen Semanal — Frecuencia 2
 
-| Grupo muscular | L | M | X | J | V | Total/sem | Rango óptimo |
+| Grupo muscular | L Push | M Pull | X Pierna1 | J Upper | V Pierna2 | Total/sem | Rango óptimo |
 |---|---|---|---|---|---|---|---|
-| 🫁 Pecho | 6 | — | — | 6 | — | **12** | 10-20 |
-| 💪 Espalda | — | — | 15 | — | — | **15** | 10-20 |
-| 🔹 Hombros | 6 | — | — | 6 | — | **12** | 10-16 |
-| 💪 Bíceps | 6 | — | 6 | — | — | **12** | 10-16 |
+| 🫁 Pecho | 6 | — | — | 3 | — | **9** | 10-20 |
+| 💪 Espalda | — | 8 | — | 3 | — | **11** | 10-20 |
+| 🔹 Hombros | 6 | 3 | — | 6 | — | **15** | 10-16 |
+| 💪 Bíceps | 3 | 6 | — | 3 | — | **12** | 10-16 |
 | 💪 Tríceps | 3 | — | — | 6 | — | **9** | 10-12 |
-| 🦵 Cuádriceps | — | 13 | — | — | — | **13** | 10-16 |
-| 🦵 Isquiotibiales | — | — | — | — | 14 | **14** | 10-16 |
-| 🦶 Pantorrillas | — | 4 | — | — | 4 | **8** | 8-12 |
-| 🧱 Core | — | 3 | — | — | 3 | **6** | 4-8 |
+| 🦵 Cuádriceps | — | — | 11 | — | 6 | **17** | 10-16 |
+| 🦵 Isquiotibiales | — | — | 7 | — | 6 | **13** | 10-16 |
+| 🦶 Pantorrillas | — | — | 4 | — | 4 | **8** | 8-12 |
+| 🧱 Core | — | — | 3 | — | 6 | **9** | 4-8 |
 
 ---
 
