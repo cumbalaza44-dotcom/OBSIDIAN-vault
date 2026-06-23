@@ -157,20 +157,20 @@ source: "Mr. Jair — iOS / Telegram"
 5. Extensión tríceps polea alta 3×12-15 (💪 tríceps)
 6. Curl bíceps máquina 3×12-15 (💪 bíceps)
 
-**MARTES — Pull (Espalda + Bíceps + Trapecios) — 17 sets (~60 min)**
-1. Jalón al pecho polea alta 4×10-12 (💪 dorsal)
-2. Remo máquina sentado 4×10-12 (💪 espalda media)
-3. Face pull polea 3×15 (💪 trapecios/post. hombro)
-4. Curl bíceps máquina 3×12-15 (💪 bíceps)
-5. Curl martillo mancuernas 3×12 (💪 braquial)
-
-**MIÉRCOLES — Piernas 1 (Cuádriceps + Isquiotibiales + Pantorrillas + Core) — 21 sets (~75 min)**
+**MARTES — Piernas 1 (Cuádriceps + Isquiotibiales + Pantorrillas + Core) — 21 sets (~75 min)**
 1. Leg Press 4×12-15 (🦵 cuádriceps)
 2. Extensiones cuádriceps máquina 3×12-15 (🦵 cuádriceps)
 3. Curl femoral acostado máquina 4×12-15 (🦵 isquiotibiales)
 4. Hip thrust máquina o banco 3×12-15 (🦵 glúteos/isquios)
 5. Elevación pantorrillas máquina 4×15-20 (🦶 pantorrillas)
 6. Plancha frontal 3×45-60s (🧱 core)
+
+**MIÉRCOLES — Pull (Espalda + Bíceps + Trapecios) — 17 sets (~60 min)**
+1. Jalón al pecho polea alta 4×10-12 (💪 dorsal)
+2. Remo máquina sentado 4×10-12 (💪 espalda media)
+3. Face pull polea 3×15 (💪 trapecios/post. hombro)
+4. Curl bíceps máquina 3×12-15 (💪 bíceps)
+5. Curl martillo mancuernas 3×12 (💪 braquial)
 
 **JUEVES — Upper (Pecho + Espalda + Hombros + Bíceps + Tríceps) — 21 sets (~70 min)**
 1. Press inclinado mancuernas 3×10-12 (🫁 pecho superior)
