@@ -167,12 +167,12 @@ source: "Mr. Jair — iOS / Telegram"
 6. Plancha frontal 3×45-60s (🧱 core)
 
 **MIÉRCOLES — Tirón (Espalda + Bíceps) — 21 sets (~75 min)**
-1. Remo invertido agarre supino 4×10-15 (💪 espalda)
-2. Remo mancuerna 1 mano (5kg) 4×10-12 (💪 espalda)
-3. Superman con pausa 4×12 (💪 espalda)
-4. Pullover mancuerna (5kg) 3×12 (💪 espalda)
-5. Curl bíceps (5kg) 3×12-15 (💪 bíceps)
-6. Curl martillo (5kg) 3×12 (💪 bíceps)
+1. Jalón al pecho polea alta 4×10-12 (💪 espalda dorsal)
+2. Remo en máquina sentado 4×10-12 (💪 espalda media)
+3. Pullover máquina 3×12-15 (💪 espalda ancho)
+4. Face pull polea media 3×15 (💪 espalda superior/trapecios)
+5. Curl bíceps máquina 3×12-15 (💪 bíceps)
+6. Curl concentrado mancuerna 3×12 (💪 bíceps pico)
 
 **JUEVES — Empuje 2 (Pecho + Hombros + Tríceps) — 18 sets (~65 min)**
 1. Flexiones diamante 3×8-12 (🫁 pecho)
