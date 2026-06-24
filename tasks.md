@@ -20,17 +20,17 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Lunes 22/06
+## 🔥 HOY — Miércoles 24/06
 
-> Lunes de arranque. Gym temprano. Ghost Trader + migración en sesiones nocturnas cortas (60-90 min c/u).
+> Miércoles de Ghost Trader FASE 4 + Prototipo X.
 
 | # | Tarea | Ventana | Estado | Prioridad |
 |---|-------|---------|--------|----------|
 | 1 | 📚 Lectura diaria (20min) | ⏰ 5:10 AM | ✅ | 🟢 |
-| 2 | 🏋️ Tren Superior — Reto fitness junio (2.5h) | ⏰ 5:30-8:00 AM | ✅ | 🔴 |
+| 2 | 🏋️ Espalda/Bíceps — Reto fitness junio (2.5h) | ⏰ 5:30-8:00 AM | ✅ | 🔴 |
 | 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ✅ | 🟢 |
-| 4 | 🤖 Ghost Trader — Arquitectura FASE 2 (60min) | 🌙 6:30 PM | ⏳ | 🔴 |
-| 5 | 📝 Migrar notas Obsidian — FINALIZAR (45min) | 🌙 8:00 PM | ⏳ | 🔴 |
+| 4 | 🤖 Ghost Trader — Plan FASE 4 (60min) | 🌙 6:30 PM | ⏳ | 🔴 |
+| 5 | 🔬 Prototipo X — Investigar ESP32 (45min) | 🌙 8:00 PM | ⏳ | 🟡 |
 
 > **Resumen:** 3 mañana + 2 noche. Sesiones cortas y enfocadas.
 
