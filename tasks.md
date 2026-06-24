@@ -45,7 +45,7 @@ source: "Mr. Jair — iOS / Telegram"
 | 1 | 📚 Lectura diaria (20min) | ⏰ 5:10 AM | ✅ | 🟢 |
 | 2 | 🏋️ Pierna 1 — Reto fitness junio (2.5h) | ⏰ 5:30-8:00 AM | ✅ | 🔴 |
 | 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ✅ | 🟢 |
-| 4 | 🎓 Meta Ads — Definir nicho (60min) | 🌙 6:30 PM | ⏳ | 🟡 |
+| 4 | 🎓 Meta Ads — Definir nicho (60min) | 🌙 6:30 PM | ⏳ → 24/06 | 🟡 |
 | 5 | 🏠 Hogar pendientes (30min) | 🌙 8:00 PM | ⏳ | 🟡 |
 
 > **Resumen:** Meta Ads necesita arrancar esta semana. Nicho definido = base para todo lo demás.
