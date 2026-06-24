@@ -243,12 +243,12 @@ source: "Mr. Jair — iOS / Telegram"
 - [ ] Documentar relación de distancia para alineamiento del eje trasero
 
 ### 🏠 Hogar
-- [ ] Sartén
-- [ ] Organizar habitación
+- [x] Sartén
+- [x] Organizar habitación
 - [ ] Ciclo de trabajo
 - [ ] Rediseño para plan de mejora
 - [ ] Lavar prendas
-- [ ] Organizar y limpiar hogar
+- [x] Organizar y limpiar hogar
 - [ ] Anotar mejoras de hogar
 
 ### 🏎️ Proyectos mecánicos
