@@ -75,7 +75,7 @@ source: "Mr. Jair — iOS / Telegram"
 | # | Tarea | Ventana | Estado | Prioridad |
 |---|-------|---------|--------|----------|
 | 1 | 📚 Lectura diaria (20min) | ⏰ 5:10 AM | ⏳ | 🟢 |
-| 2 | 🏋️ Pecho/Tríceps — Reto fitness junio (2.5h) | ⏰ 5:30-8:00 AM | ⏳ | 🔴 |
+| 2 | 🏋️ Push (Pecho/Tríceps) — Reto fitness junio (2.5h) | ⏰ 5:30-8:00 AM | ⏳ | 🔴 |
 | 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
 | 4 | 🎓 Meta Ads — Investigar 10 productos (60min) | 🌙 6:30 PM | ⏳ | 🟡 |
 | 5 | 💰 Finanzas: balancear ingresos (30min) | 🌙 8:00 PM | ⏳ | 🟡 |
@@ -91,7 +91,7 @@ source: "Mr. Jair — iOS / Telegram"
 | # | Tarea | Ventana | Estado | Prioridad |
 |---|-------|---------|--------|----------|
 | 1 | 📚 Lectura diaria (20min) | ⏰ 5:10 AM | ⏳ | 🟢 |
-| 2 | 🏋️ Pierna 2 — Reto fitness junio (2.5h) | ⏰ 5:30-8:00 AM | ⏳ | 🔴 |
+| 2 | 🏋️ Pierna — Reto fitness junio (2.5h) | ⏰ 5:30-8:00 AM | ⏳ | 🔴 |
 | 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
 | 4 | 🤖 Ghost Trader — Implementar FASE 1 (60min) | 🌙 6:30 PM | ⏳ | 🔴 |
 | 5 | 🏍️ Mantenimiento moto (30min) | 🌙 8:00 PM | ⏳ | 🟡 |
