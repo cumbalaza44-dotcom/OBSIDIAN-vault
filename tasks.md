@@ -135,9 +135,9 @@ source: "Mr. Jair — iOS / Telegram"
 |-----|-------------------|---------------------|
 | **Lun 22** | 📚 Lectura + 🏋️ Tren Superior | 🤖 Ghost Trader FASE 2 + 📝 Migrar notas |
 | **Mar 23** | 📚 Lectura + 🏋️ Pierna 1 | 🎓 Meta Ads nicho + 🏠 Hogar |
-| **Mié 24** | 📚 Lectura + 🏋️ Espalda/Bíceps | 🤖 Ghost Trader FASE 4 + 🔬 Prototipo X |
-| **Jue 25** | 📚 Lectura + 🏋️ Pecho/Tríceps | 🎓 Meta Ads productos + 💰 Finanzas |
-| **Vie 26** | 📚 Lectura + 🏋️ Pierna 2 | 🤖 Ghost Trader FASE 1 + 🏍️ Moto |
+| **Mié 24** | 📚 Lectura + 🏋️ Pull (Espalda/Bíceps) | 🤖 Ghost Trader FASE 4 + 🔬 Prototipo X |
+| **Jue 25** | 📚 Lectura + 🏋️ Push (Pecho/Tríceps) | 🎓 Meta Ads productos + 💰 Finanzas |
+| **Vie 26** | 📚 Lectura + 🏋️ Pierna | 🤖 Ghost Trader FASE 1 + 🏍️ Moto |
 | **Sáb 27** | 📚 Lectura | 🧹 Hogar + 📋 Revisión semanal |
 | **Dom 28** | 📚 Lectura | Descanso |
 
