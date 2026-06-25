@@ -27,7 +27,7 @@ source: "Mr. Jair — iOS / Telegram"
 | # | Tarea | Ventana | Estado | Prioridad |
 |---|-------|---------|--------|----------|
 | 1 | 📚 Lectura diaria (20min) | ⏰ 5:10 AM | ✅ | 🟢 |
-| 2 | 🏋️ Espalda/Bíceps — Reto fitness junio (2.5h) | ⏰ 5:30-8:00 AM | ✅ | 🔴 |
+| 2 | 🏋️ Pull (Espalda/Bíceps) — Reto fitness junio (2.5h) | ⏰ 5:30-8:00 AM | ✅ | 🔴 |
 | 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ✅ | 🟢 |
 | 4 | 🤖 Ghost Trader — Plan FASE 4 (60min) | 🌙 6:30 PM | ⏳ | 🔴 |
 | 5 | 🔬 Prototipo X — Investigar ESP32 (45min) | 🌙 8:00 PM | ⏳ | 🟡 |
