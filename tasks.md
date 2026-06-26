@@ -90,7 +90,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 | # | Tarea | Ventana | Estado | Prioridad |
 |---|-------|---------|--------|----------|
-| 1 | 📚 Lectura diaria (20min) | ⏰ 5:10 AM | ⏳ | 🟢 |
+| 1 | 📚 Lectura diaria (20min) | ⏰ 5:10 AM | ✅ | 🟢 |
 | 2 | 🏋️ Pierna — Reto fitness junio (2.5h) | ⏰ 5:30-8:00 AM | ✅ | 🔴 |
 | 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
 | 4 | 🤖 Ghost Trader — Implementar FASE 1 (60min) | 🌙 6:30 PM | ⏳ | 🔴 |
