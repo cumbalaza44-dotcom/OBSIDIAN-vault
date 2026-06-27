@@ -62,6 +62,7 @@
 - [ ] Conducir una moto en el desierto
 - [ ] Ver despegar un cohete hacia el espacio
 - [ ] Escalar una montaña
+- [ ] Ir a ver carreras de camión en vivo
 - [ ] 
 - [ ] 
 - [ ] 
@@ -85,6 +86,6 @@
 
 ---
 
-**Progreso:** 11 / 1000
+**Progreso:** 12 / 1000
 
-*Última actualización: 2026-06-18*
+*Última actualización: 2026-06-27*
