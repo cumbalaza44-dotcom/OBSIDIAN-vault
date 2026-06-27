@@ -78,7 +78,7 @@ source: "Mr. Jair — iOS / Telegram"
 | 2 | 🏋️ Push (Pecho/Tríceps) — Reto fitness junio (2.5h) | ⏰ 5:30-8:00 AM | ✅ | 🔴 |
 | 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ✅ | 🟢 |
 | 4 | 🎓 Meta Ads — Investigar 10 productos (60min) | 🌙 6:30 PM | ⏳ | 🟡 |
-| 5 | 💰 Finanzas: balancear ingresos (30min) | 🌙 8:00 PM | ⏳ | 🟡 |
+| 5 | 💰 Finanzas: balancear ingresos (30min) | 🌙 8:00 PM | ✅ | 🟡 |
 
 > **Resumen:** Meta Ads avanza con investigación de productos. Finanzas como cierre.
 
@@ -220,7 +220,7 @@ source: "Mr. Jair — iOS / Telegram"
 - [ ] Diseñar UX del HUD/app
 
 ### 📈 Ingresos & Estrategia
-- [ ] Balancear ingresos y verificar distribución
+- [x] Balancear ingresos y verificar distribución
 - [ ] Ajustar proyecciones si es necesario
 
 ### 📢 META ADS — Fase 1: Fundamentos
