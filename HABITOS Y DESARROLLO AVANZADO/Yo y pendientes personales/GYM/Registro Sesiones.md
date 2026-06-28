@@ -1,6 +1,5 @@
 # 📋 Registro de Sesiones — Gym
 
-**Formato:** Capa 1 — Cada sesión
 **Cómo usar:** Enviar datos crudos por Telegram → H.E.L.E.N. formatea y guarda
 
 ---
@@ -11,30 +10,19 @@
 
 ### 🟦 LUNES 30/06 — PUSH
 
-```
-📅 Lun 30/06 — PUSH
-⏱ 5:30 AM | ⚡ Energía: 4/5
+📅 PUSH — Lun 30/06
+⚡ Energía: 4/5
 
-1. Press pecho máquina
-   30kg → 12, 11, 10 | RIR: 2
+| # | Ejercicio          | Peso | Series     | RIR |
+|---|---------------------|------|------------|-----|
+| 1 | Press pecho máquina | 30kg | 12, 11, 10 | 2   |
+| 2 | Pec Deck            | 25kg | 12, 12, 11 | 1   |
+| 3 | Press hombro        | 20kg | 12, 10, 9  | 1   |
+| 4 | Elevaciones later.  | 8kg  | 15, 13, 12 | 2   |
+| 5 | Extensión tríceps   | 15kg | 12, 12, 11 | 2   |
+| 6 | Curl bíceps         | 12kg | 12, 11, 10 | 2   |
 
-2. Pec Deck
-   25kg → 12, 12, 11 | RIR: 1
-
-3. Press hombro máquina
-   20kg → 12, 10, 9 | RIR: 1
-
-4. Elevaciones laterales
-   8kg → 15, 13, 12 | RIR: 2
-
-5. Extensión tríceps
-   15kg → 12, 12, 11 | RIR: 2
-
-6. Curl bíceps
-   12kg → 12, 11, 10 | RIR: 2
-
-📝 Notas: Press pecho subió de 27.5 a 30kg. Buena sesión.
-```
+📝 Press pecho subió de 27.5 a 30kg. Buena sesión.
 
 ---
 
