@@ -13,14 +13,14 @@
 📅 PUSH — Lun 30/06
 ⚡ Energía: 4/5
 
-| # | Ejercicio          | Peso | Series     | RIR |
-|---|---------------------|------|------------|-----|
-| 1 | Press pecho máquina | 30kg | 12, 11, 10 | 2   |
-| 2 | Pec Deck            | 25kg | 12, 12, 11 | 1   |
-| 3 | Press hombro        | 20kg | 12, 10, 9  | 1   |
-| 4 | Elevaciones later.  | 8kg  | 15, 13, 12 | 2   |
-| 5 | Extensión tríceps   | 15kg | 12, 12, 11 | 2   |
-| 6 | Curl bíceps         | 12kg | 12, 11, 10 | 2   |
+| #   | Ejercicio           | Peso | Series     | RIR |
+| --- | ------------------- | ---- | ---------- | --- |
+| 1   | Press pecho máquina | 30kg | 12, 11, 10 | 2   |
+| 2   | Pec Deck            | 25kg | 12, 12, 11 | 1   |
+| 3   | Press hombro        | 20kg | 12, 10, 9  | 1   |
+| 4   | Elevaciones later.  | 8kg  | 15, 13, 12 | 2   |
+| 5   | Extensión tríceps   | 15kg | 12, 12, 11 | 2   |
+| 6   | Curl bíceps         | 12kg | 12, 11, 10 | 2   |
 
 📝 Press pecho subió de 27.5 a 30kg. Buena sesión.
 
