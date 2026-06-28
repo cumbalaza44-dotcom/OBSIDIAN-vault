@@ -106,12 +106,13 @@ source: "Mr. Jair — iOS / Telegram"
 
 | # | Tarea | Hora | Estado | Prioridad |
 |---|-------|------|--------|----------|
-| 1 | 📚 Lectura diaria | ⏰ 8:00 AM | ⏳ | 🟢 |
-| 2 | 🧹 Hogar: limpiar + lavar prendas | ⏰ 10:00 AM | ⏳ | 🟡 |
+| 1 | 📚 Lectura diaria | ⏰ 8:00 AM | ✅ | 🟢 |
+| 2 | 🧹 Hogar: limpiar + lavar prendas | ⏰ 10:00 AM | ✅ | 🟡 |
 | 3 | 📋 Time box semanal + revisión | ⏰ 4:00 PM | ⏳ | 🟡 |
 | 4 | 🔬 Prototipo X — sesión extendida (si se necesita) | — | ⏳ | 🟡 |
+| 5 | 🏍️ Mantenimiento moto: cadena, caja filtro | — | ✅ | 🟡 |
 
-> **Resumen:** Catch-up + hogar + revisión semanal.
+> **Resumen:** Catch-up + hogar + mantenimiento moto (cascabeleo 4k-6k RPM, bujía pendiente).
 
 ---
 
@@ -239,8 +240,9 @@ source: "Mr. Jair — iOS / Telegram"
 ## 🏍️ HOGAR Y MOTO
 
 ### 🔧 Moto
-- [ ] Lavado y mantenimiento
+- [x] Lavado y mantenimiento (27/06 — cadena alineada, caja filtro limpia)
 - [ ] Documentar relación de distancia para alineamiento del eje trasero
+- [ ] Revisar bujía (pendiente — cascabeleo 4k-6k RPM)
 
 ### 🏠 Hogar
 - [x] Sartén
