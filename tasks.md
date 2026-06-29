@@ -59,68 +59,70 @@ source: "Mr. Jair — iOS / Telegram"
 
 ## 🧠 HÁBITOS Y DESARROLLO
 
-### 🏋️ Rutina Semanal — Gym Junio 2026
+### 🏋️ Rutina Semanal — Hipertrofia FASE 1 (Jun 29 – Sep 20 2026)
 
-> **Equipamiento:** Máquinas + peso corporal + mancuernas | **Tempo:** 3-1-2 | **Frecuencia:** 2x | **Volumen:** Optimizado hipertrofia
+> **Split:** Upper / Pierna A / Empuje / Pierna B / Tirón
+> **Objetivo:** +10 kg masa muscular (68 → 78 kg)
+> **Frecuencia:** 5 días/semana | **Volumen:** ~119 series/semana
+> **Ruta completa:** `obsidian-vault/fitness/rutina-hipertrofia-2026.md`
 
-**LUNES — Push (Pecho + Hombros + Tríceps + Bíceps) — 18 sets (~60 min)**
-1. Press pecho máquina 3×12-15 (🫁 pecho)
-2. Pec Deck / Mariposa 3×12-15 (🫁 pecho)
-3. Press hombro máquina 3×10-12 (🔹 hombros)
-4. Elevaciones laterales polea baja 3×12-15 (🔹 hombros)
-5. Extensión tríceps polea alta 3×12-15 (💪 tríceps)
-6. Curl bíceps máquina 3×12-15 (💪 bíceps)
+**LUNES — UPPER (22 series) — Tren superior completo**
+1. Press inclinado barra 4×8-10
+2. Jalón agarre cerrado 3×10-12
+3. Press hombro mancuernas sentado 3×10-12
+4. Remo con barra 3×10-12
+5. Elevaciones laterales polea 3×12-15
+6. Curl predicador barra EZ 3×10-12
+7. Fondos en máquina asistida 3×10-12
 
-**MARTES — Piernas 1 (Cuádriceps + Isquiotibiales + Pantorrillas + Core) — 21 sets (~75 min)**
-1. Leg Press 4×12-15 (🦵 cuádriceps)
-2. Extensiones cuádriceps máquina 3×12-15 (🦵 cuádriceps)
-3. Curl femoral acostado máquina 4×12-15 (🦵 isquiotibiales)
-4. Hip thrust máquina o banco 3×12-15 (🦵 glúteos/isquios)
-5. Elevación pantorrillas máquina 4×15-20 (🦶 pantorrillas)
-6. Plancha frontal 3×45-60s (🧱 core)
+**MARTES — PIERNA A (17 series) — Cuádriceps + Pantorrillas**
+1. Sentadilla en smith 4×10-12
+2. Prensa de piernas 3×10-12
+3. Extensión de cuádriceps máquina 3×12-15
+4. Zancadas mancuernas 3×12/pierna
+5. Elevación de talones en máquina 4×12-15
 
-**MIÉRCOLES — Pull (Espalda + Bíceps + Trapecios) — 17 sets (~60 min)**
-1. Jalón al pecho polea alta 4×10-12 (💪 dorsal)
-2. Remo máquina sentado 4×10-12 (💪 espalda media)
-3. Face pull polea 3×15 (💪 trapecios/post. hombro)
-4. Curl bíceps máquina 3×12-15 (💪 bíceps)
-5. Curl martillo mancuernas 3×12 (💪 braquial)
+**MIÉRCOLES — EMPUJE (19 series) — Pecho + Tríceps + Hombro**
+1. Press pecho máquina 4×10-12
+2. Press inclinado mancuernas 3×10-12
+3. Pec Deck 3×12-15
+4. Press hombro máquina 3×10-12
+5. Elevaciones laterales mancuernas 3×12-15
+6. Extensión tríceps polea 3×12-15
 
-**JUEVES — Upper (Pecho + Espalda + Hombros + Bíceps + Tríceps) — 21 sets (~70 min)**
-1. Press inclinado mancuernas 3×10-12 (🫁 pecho superior)
-2. Remo mancuerna 1 mano 3×10-12 (💪 espalda)
-3. Press militar máquina 3×10-12 (🔹 hombros)
-4. Elevaciones laterales mancuernas 3×12-15 (🔹 hombros)
-5. Curl bíceps máquina 3×12-15 (💪 bíceps)
-6. Extensión tríceps polea alta 3×12-15 (💪 tríceps)
-7. Fondos máquina asistida 3×10-12 (💪 tríceps/pecho)
+**JUEVES — PIERNA B (16 series) — Isquios + Glúteos + Cuádriceps**
+1. Peso muerto rumano mancuernas 4×10-12
+2. Sentadilla búlgara mancuernas 3×10-12/pierna
+3. Curl femoral acostado 3×12-15
+4. Hip thrust barra 3×10-12
+5. Extensión cuádriceps máquina 3×12-15
 
-**VIERNES — Piernas 2 (Cuádriceps + Isquiotibiales + Glúteos + Pantorrillas + Core) — 19 sets (~65 min)**
-1. Sentadilla búlgara mancuernas 3×10-12 c/pierna (🦵 multifuncional)
-2. Curl femoral acostado máquina 3×12-15 (🦵 isquiotibiales)
-3. Nordic curl asistido 3×6-8 (🦵 isquiotibiales excéntrico)
-4. Elevación pantorrillas máquina 4×15-20 (🦶 pantorrillas)
-5. Plancha frontal 3×45-60s (🧱 core)
-6. Plancha lateral 3×30-45s c/lado (🧱 core)
+**VIERNES — TIRÓN (19 series) — Espalda + Bíceps + Trapecios**
+1. Jalón al pecho agarre ancho 4×10-12
+2. Remo en polea baja 3×10-12
+3. Remo con mancuerna unilateral 3×10-12
+4. Face pull polea 3×12-15
+5. Curl bíceps barra Z 3×10-12
+6. Curl martillo mancuernas 3×10-12
 
 **SÁBADO — Descanso activo:** Movilidad articular, caminar 30 min
 **DOMINGO — Descanso total**
 
 ---
 
-### 📊 Resumen Volumen Semanal — Frecuencia 2
+### 📊 Resumen Volumen Semanal — Split Actualizado
 
-| Grupo muscular | L Push | M Pierna1 | X Pull | J Upper | V Pierna2 | Total/sem | Rango óptimo |
+| Grupo muscular | Lun UPPER | Mar PiernaA | Mié Empuje | Jue PiernaB | Vie Tirón | Total/sem | Rango óptimo |
 |---|---|---|---|---|---|---|---|
-| 🫁 Pecho | 6 | — | — | 3 | — | **9** | 10-20 |
-| 💪 Espalda | — | — | 8 | 3 | — | **11** | 10-20 |
-| 🔹 Hombros | 6 | — | 3 | 6 | — | **15** | 10-16 |
-| 💪 Bíceps | 3 | — | 6 | 3 | — | **12** | 10-16 |
-| 💪 Tríceps | 3 | — | — | 6 | — | **9** | 10-12 |
-| 🦵 Cuádriceps | — | 11 | — | — | 6 | **17** | 10-16 |
-| 🦵 Isquiotibiales | — | 7 | — | — | 6 | **13** | 10-16 |
-| 🦶 Pantorrillas | — | 4 | — | — | 4 | **8** | 8-12 |
-| 🧱 Core | — | 3 | — | — | 6 | **9** | 4-8 |
+| 🫁 Pecho | 7 | — | 10 | — | — | **17** | 10-20 ✓ |
+| 💪 Espalda | 6 | — | — | — | 10 | **16** | 10-20 ✓ |
+| 🔹 Hombros | 6 | — | 6 | — | — | **12** | 10-16 ✓ |
+| 💪 Bíceps | 3 | — | — | — | 6 | **9** | 10-16 ⚠️ |
+| 💪 Tríceps | 6 | — | 3 | — | — | **9** | 10-12 ⚠️ |
+| 🦵 Cuádriceps | — | 10 | — | 3 | — | **13** | 10-16 ✓ |
+| 🦵 Isquios/Glúteos | — | — | — | 10 | — | **10** | 10-16 ✓ |
+| 🦶 Pantorrillas | — | 4 | — | — | — | **4** | 8-12 ⚠️ |
+| **Total** | **22** | **14** | **19** | **13** | **16** | **~84** | — |
 
 ---
 
