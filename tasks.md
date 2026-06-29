@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `28 Jun 2026 — 20:00`
+### Última actualización: `29 Jun 2026 — 17:52`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -36,109 +36,22 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 📅 MARTES 23/06
 
-> Meta Ads definir nicho + hogar.
-
-| # | Tarea | Ventana | Estado | Prioridad |
-|---|-------|---------|--------|----------|
-| 1 | 📚 Lectura diaria (20min) | ⏰ 5:10 AM | ✅ | 🟢 |
-| 2 | 🏋️ Pierna 1 — Reto fitness junio (2.5h) | ⏰ 5:30-8:00 AM | ✅ | 🔴 |
-| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ✅ | 🟢 |
-| 4 | 🎓 Meta Ads — Definir nicho (60min) | 🌙 6:30 PM | ✅ | 🟡 |
-| 5 | 🏠 Hogar pendientes (30min) | 🌙 8:00 PM | ⏳ | 🟡 |
-
-> **Resumen:** Meta Ads necesita arrancar esta semana. Nicho definido = base para todo lo demás.
-
----
-
-## 📅 MIÉRCOLES 24/06
-
-> Ghost Trader FASE 4 + Prototipo X (investigación ligera en break laboral).
-
-| # | Tarea | Ventana | Estado | Prioridad |
-|---|-------|---------|--------|----------|
-| 1 | 📚 Lectura diaria (20min) | ⏰ 5:10 AM | ⏳ | 🟢 |
-| 2 | 🏋️ Espalda/Bíceps — Reto fitness junio (2.5h) | ⏰ 5:30-8:00 AM | ⏳ | 🔴 |
-| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
-| 4 | 🤖 Ghost Trader — Plan FASE 4 (60min) | 🌙 6:30 PM | ⏳ | 🔴 |
-| 5 | 🔬 Prototipo X — Investigar ESP32 (45min) | 🌙 8:00 PM | ⏳ | 🟡 |
-
-> **Resumen:** Ghost Trader FASE 4 cierra el plan de arquitectura completo.
-
----
-
-## 📅 JUEVES 25/06
-
-> Meta Ads investigación + finanzas.
-
-| # | Tarea | Ventana | Estado | Prioridad |
-|---|-------|---------|--------|----------|
-| 1 | 📚 Lectura diaria (20min) | ⏰ 5:10 AM | ✅ | 🟢 |
-| 2 | 🏋️ Push (Pecho/Tríceps) — Reto fitness junio (2.5h) | ⏰ 5:30-8:00 AM | ✅ | 🔴 |
-| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ✅ | 🟢 |
-| 4 | 🎓 Meta Ads — Investigar 10 productos (60min) | 🌙 6:30 PM | ⏳ | 🟡 |
-| 5 | 💰 Finanzas: balancear ingresos (30min) | 🌙 8:00 PM | ✅ | 🟡 |
-
-> **Resumen:** Meta Ads avanza con investigación de productos. Finanzas como cierre.
-
----
-
-## 📅 VIERNES 26/06
-
-> Cierre de semana. Ghost Trader + moto.
-
-| # | Tarea | Ventana | Estado | Prioridad |
-|---|-------|---------|--------|----------|
-| 1 | 📚 Lectura diaria (20min) | ⏰ 5:10 AM | ✅ | 🟢 |
-| 2 | 🏋️ Pierna — Reto fitness junio (2.5h) | ⏰ 5:30-8:00 AM | ✅ | 🔴 |
-| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
-| 4 | 🤖 Ghost Trader — Implementar FASE 1 (60min) | 🌙 6:30 PM | ⏳ | 🔴 |
-| 5 | 🏍️ Mantenimiento moto (30min) | 🌙 8:00 PM | ⏳ | 🟡 |
-
-> **Resumen:** Ghost Trader empieza implementación. Moto para liberar el fin de semana.
-
----
-
-## 📅 SÁBADO 27/06
-
-> Día de catch-up. Tiempo libre para proyectos que lo necesiten.
-
-| # | Tarea | Hora | Estado | Prioridad |
-|---|-------|------|--------|----------|
-| 1 | 📚 Lectura diaria | ⏰ 8:00 AM | ✅ | 🟢 |
-| 2 | 🧹 Hogar: limpiar + lavar prendas | ⏰ 10:00 AM | ✅ | 🟡 |
-| 3 | 📋 Time box semanal + revisión | ⏰ 4:00 PM | ⏳ | 🟡 |
-| 4 | 🔬 Prototipo X — sesión extendida (si se necesita) | — | ⏳ | 🟡 |
-| 5 | 🏍️ Mantenimiento moto: cadena, caja filtro | — | ✅ | 🟡 |
-
-> **Resumen:** Catch-up + hogar + mantenimiento moto (cascabeleo 4k-6k RPM, bujía pendiente).
-
----
-
-## 📅 DOMINGO 28/06
-
-> Descanso. Solo lectura.
-
-| # | Tarea | Hora | Estado | Prioridad |
-|---|-------|------|--------|----------|
-| 1 | 📚 Lectura diaria | ⏰ 9:00 AM | ⏳ | 🟢 |
-
-> **Resumen:** Recuperación. Sin proyectos.
 
 ---
 
 ## 📋 SEMANA 29 Jun – 5 Jul 2026 — Vista Rápida
 
 > Horario: L-V 8 AM-5 PM | Gym: 5:30-8:00 AM | Noche: 6:30-9:30 PM
+> **Split actualizado:** Upper / Pierna A / Empuje / Pierna B / Tirón
 
 | Día | Mañana (5:10-8:50 AM) | Noche (6:30-9:30 PM) |
 |-----|-------------------|---------------------|
-| **Lun 29** | 📚 Lectura + 🏋️ Push (Pecho/Tríceps) | 🤖 Ghost Trader FASE 2 + 📝 Migrar notas |
-| **Mar 30** | 📚 Lectura + 🏋️ Pierna 1 | 🎓 Meta Ads nicho + 🏠 Hogar |
-| **Mié 01** | 📚 Lectura + 🏋️ Pull (Espalda/Bíceps) | 🤖 Ghost Trader FASE 4 + 🔬 Prototipo X |
-| **Jue 02** | 📚 Lectura + 🏋️ Upper | 🎓 Meta Ads productos + 🧠 IA diaria |
-| **Vie 03** | 📚 Lectura + 🏋️ Pierna 2 | 🤖 Ghost Trader FASE 1 + 🏍️ Moto |
+| **Lun 29** | 📚 Lectura + 🏋️ Upper (22 series) | 🤖 Ghost Trader FASE 2 + 📝 Migrar notas |
+| **Mar 30** | 📚 Lectura + 🏋️ Pierna A (17 series) | 🎓 Meta Ads nicho + 🏠 Hogar |
+| **Mié 01** | 📚 Lectura + 🏋️ Empuje (19 series) | 🤖 Ghost Trader FASE 4 + 🔬 Prototipo X |
+| **Jue 02** | 📚 Lectura + 🏋️ Pierna B (16 series) | 🎓 Meta Ads productos + 🧠 IA diaria |
+| **Vie 03** | 📚 Lectura + 🏋️ Tirón (19 series) | 🤖 Ghost Trader FASE 1 + 🏍️ Moto |
 | **Sáb 04** | 📚 Lectura + 🏋️ Descanso activo | 🔬 Prototipo X + 📋 Revisión semanal |
 | **Dom 05** | 📚 Lectura | Descanso total |
 
