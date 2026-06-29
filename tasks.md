@@ -128,19 +128,19 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 📋 SEMANA 22–28 Jun 2026 — Vista Rápida
+## 📋 SEMANA 29 Jun – 5 Jul 2026 — Vista Rápida
 
 > Horario: L-V 8 AM-5 PM | Gym: 5:30-8:00 AM | Noche: 6:30-9:30 PM
 
-| Día | Mañana (6-8:50 AM) | Noche (6:30-9:30 PM) |
+| Día | Mañana (5:10-8:50 AM) | Noche (6:30-9:30 PM) |
 |-----|-------------------|---------------------|
-| **Lun 22** | 📚 Lectura + 🏋️ Tren Superior | 🤖 Ghost Trader FASE 2 + 📝 Migrar notas |
-| **Mar 23** | 📚 Lectura + 🏋️ Pierna 1 | 🎓 Meta Ads nicho + 🏠 Hogar |
-| **Mié 24** | 📚 Lectura + 🏋️ Pull (Espalda/Bíceps) | 🤖 Ghost Trader FASE 4 + 🔬 Prototipo X |
-| **Jue 25** | 📚 Lectura + 🏋️ Push (Pecho/Tríceps) | 🎓 Meta Ads productos + 💰 Finanzas |
-| **Vie 26** | 📚 Lectura + 🏋️ Pierna | 🤖 Ghost Trader FASE 1 + 🏍️ Moto |
-| **Sáb 27** | 📚 Lectura | 🧹 Hogar + 📋 Revisión semanal |
-| **Dom 28** | 📚 Lectura | Descanso |
+| **Lun 29** | 📚 Lectura + 🏋️ Push (Pecho/Tríceps) | 🤖 Ghost Trader FASE 2 + 📝 Migrar notas |
+| **Mar 30** | 📚 Lectura + 🏋️ Pierna 1 | 🎓 Meta Ads nicho + 🏠 Hogar |
+| **Mié 01** | 📚 Lectura + 🏋️ Pull (Espalda/Bíceps) | 🤖 Ghost Trader FASE 4 + 🔬 Prototipo X |
+| **Jue 02** | 📚 Lectura + 🏋️ Upper | 🎓 Meta Ads productos + 🧠 IA diaria |
+| **Vie 03** | 📚 Lectura + 🏋️ Pierna 2 | 🤖 Ghost Trader FASE 1 + 🏍️ Moto |
+| **Sáb 04** | 📚 Lectura + 🏋️ Descanso activo | 🔬 Prototipo X + 📋 Revisión semanal |
+| **Dom 05** | 📚 Lectura | Descanso total |
 
 ---
 
