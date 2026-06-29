@@ -13,7 +13,7 @@ status: "FASE 1 activa"
 
 > **Objetivo:** +10 kg masa muscular (68 → 78 kg)
 > **Timeline:** Evaluación Oct 1 → Meta Dic 31
-> **Split:** Upper / Empuje / Tirón / Pierna A / Pierna B
+> **Split:** Upper / Pierna A / Empuje / Pierna B / Tirón
 
 </div>
 
@@ -67,7 +67,23 @@ status: "FASE 1 activa"
 
 ---
 
-## 📅 DÍA 2 — MARTES — EMPUJE
+## 📅 DÍA 2 — MARTES — PIERNA A
+
+> Cuádriceps + Pantorrillas
+
+| # | Ejercicio | Series x Reps | Descanso | Notas |
+|---|-----------|---------------|----------|-------|
+| 1 | Sentadilla en smith | 4 x 10-12 | 120s | Profundidad paralela |
+| 2 | Prensa de piernas | 3 x 10-12 | 90s | Pies a la anchura de hombros |
+| 3 | Extensión de cuádriceps máquina | 3 x 12-15 | 60s | Pico de contracción arriba |
+| 4 | Zancadas mancuernas | 3 x 12/pierna | 60s | Paso largo, torso recto |
+| 5 | Elevación de talones en máquina | 4 x 12-15 | 60s | 2s arriba, 2s abajo |
+
+**Total: 17 series**
+
+---
+
+## 📅 DÍA 3 — MIÉRCOLES — EMPUJE
 
 > Pecho + Tríceps + Hombro anterior
 
@@ -84,7 +100,23 @@ status: "FASE 1 activa"
 
 ---
 
-## 📅 DÍA 3 — MIÉRCOLES — TIRÓN
+## 📅 DÍA 4 — JUEVES — PIERNA B
+
+> Isquios + Glúteos + Cuádriceps
+
+| # | Ejercicio | Series x Reps | Descanso | Notas |
+|---|-----------|---------------|----------|-------|
+| 1 | Peso muerto rumano mancuernas | 4 x 10-12 | 90s | Sentir estiramiento en isquios, espalda neutra |
+| 2 | Sentadilla búlgara mancuernas | 3 x 10-12/pierna | 90s | Pie trasero en banca |
+| 3 | Curl femoral acostado | 3 x 12-15 | 60s | — |
+| 4 | Hip thrust barra | 3 x 10-12 | 90s | Contracción glútea arriba, 2s |
+| 5 | Extensión cuádriceps máquina | 3 x 12-15 | 60s | — |
+
+**Total: 16 series**
+
+---
+
+## 📅 DÍA 5 — VIERNES — TIRÓN
 
 > Espalda + Bíceps + Trapecios
 
@@ -98,22 +130,6 @@ status: "FASE 1 activa"
 | 6 | Curl martillo mancuernas | 3 x 10-12 | 60s | — |
 
 **Total: 19 series**
-
----
-
-## 📅 DÍA 4 — JUEVES — PIERNA A
-
-> Cuádriceps + Pantorrillas
-
-| # | Ejercicio | Series x Reps | Descanso | Notas |
-|---|-----------|---------------|----------|-------|
-| 1 | Sentadilla en smith | 4 x 10-12 | 120s | Profundidad paralela |
-| 2 | Prensa de piernas | 3 x 10-12 | 90s | Pies a la anchura de hombros |
-| 3 | Extensión de cuádriceps máquina | 3 x 12-15 | 60s | Pico de contracción arriba |
-| 4 | Zancadas mancuernas | 3 x 12/pierna | 60s | Paso largo, torso recto |
-| 5 | Elevación de talones en máquina | 4 x 12-15 | 60s | 2s arriba, 2s abajo |
-
-**Total: 17 series**
 
 ---
 
