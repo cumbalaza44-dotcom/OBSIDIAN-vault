@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `21 Jun 2026 — 21:02`
+### Última actualización: `28 Jun 2026 — 20:00`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -20,17 +20,17 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Miércoles 24/06
+## 🔥 HOY — Lunes 29/06
 
-> Miércoles de Ghost Trader FASE 4 + Prototipo X.
+> Lunes de arranque: Push gym + Ghost Trader FASE 2.
 
 | # | Tarea | Ventana | Estado | Prioridad |
 |---|-------|---------|--------|----------|
-| 1 | 📚 Lectura diaria (20min) | ⏰ 5:10 AM | ✅ | 🟢 |
-| 2 | 🏋️ Pull (Espalda/Bíceps) — Reto fitness junio (2.5h) | ⏰ 5:30-8:00 AM | ✅ | 🔴 |
-| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ✅ | 🟢 |
-| 4 | 🤖 Ghost Trader — Plan FASE 4 (60min) | 🌙 6:30 PM | ⏳ | 🔴 |
-| 5 | 🔬 Prototipo X — Investigar ESP32 (45min) | 🌙 8:00 PM | ⏳ | 🟡 |
+| 1 | 📚 Lectura diaria (20min) | ⏰ 5:10 AM | ⏳ | 🟢 |
+| 2 | 🏋️ Push (Pecho/Tríceps/Bíceps) — Reto fitness junio (2.5h) | ⏰ 5:30-8:00 AM | ⏳ | 🔴 |
+| 3 | 💊 Creatina 3-5g post-entreno | ⏰ post-gym | ⏳ | 🟢 |
+| 4 | 🤖 Ghost Trader — Plan FASE 2 (60min) | 🌙 6:30 PM | ⏳ | 🔴 |
+| 5 | 📝 Migrar notas pendientes (30min) | 🌙 8:00 PM | ⏳ | 🟡 |
 
 > **Resumen:** 3 mañana + 2 noche. Sesiones cortas y enfocadas.
 
