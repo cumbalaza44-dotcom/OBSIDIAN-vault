@@ -13,7 +13,7 @@ status: "FASE 1 activa"
 
 > **Objetivo:** +10 kg masa muscular (68 → 78 kg)
 > **Timeline:** Evaluación Oct 1 → Meta Dic 31
-> **Split:** Empuje / Tirón / Pierna A / Upper / Pierna B
+> **Split:** Upper / Empuje / Tirón / Pierna A / Pierna B
 
 </div>
 
@@ -49,7 +49,25 @@ status: "FASE 1 activa"
 
 ---
 
-## 📅 DÍA 1 — LUNES — EMPUJE
+## 📅 DÍA 1 — LUNES — UPPER
+
+> Tren superior completo (día más exigente — fresco del fin de semana)
+
+| # | Ejercicio | Series x Reps | Descanso | Notas |
+|---|-----------|---------------|----------|-------|
+| 1 | Press inclinado barra | 4 x 8-10 | 90s | Agarre medio, codos a 45° |
+| 2 | Jalón agarre cerrado | 3 x 10-12 | 90s | — |
+| 3 | Press hombro mancuernas sentado | 3 x 10-12 | 90s | — |
+| 4 | Remo con barra | 3 x 10-12 | 90s | Espalda recta, rodillas levemente flexionadas |
+| 5 | Elevaciones laterales polea | 3 x 12-15 | 60s | — |
+| 6 | Curl predicador barra EZ | 3 x 10-12 | 60s | — |
+| 7 | Fondos en máquina asistida | 3 x 10-12 | 60s | Sin bloquear codos |
+
+**Total: 22 series**
+
+---
+
+## 📅 DÍA 2 — MARTES — EMPUJE
 
 > Pecho + Tríceps + Hombro anterior
 
@@ -66,7 +84,7 @@ status: "FASE 1 activa"
 
 ---
 
-## 📅 DÍA 2 — MARTES — TIRÓN
+## 📅 DÍA 3 — MIÉRCOLES — TIRÓN
 
 > Espalda + Bíceps + Trapecios
 
@@ -83,7 +101,7 @@ status: "FASE 1 activa"
 
 ---
 
-## 📅 DÍA 3 — MIÉRCOLES — PIERNA A
+## 📅 DÍA 4 — JUEVES — PIERNA A
 
 > Cuádriceps + Pantorrillas
 
@@ -96,24 +114,6 @@ status: "FASE 1 activa"
 | 5 | Elevación de talones en máquina | 4 x 12-15 | 60s | 2s arriba, 2s abajo |
 
 **Total: 17 series**
-
----
-
-## 📅 DÍA 4 — JUEVES — UPPER
-
-> Tren superior completo
-
-| # | Ejercicio | Series x Reps | Descanso | Notas |
-|---|-----------|---------------|----------|-------|
-| 1 | Press inclinado barra | 4 x 8-10 | 90s | Agarre medio, codos a 45° |
-| 2 | Jalón agarre cerrado | 3 x 10-12 | 90s | — |
-| 3 | Press hombro mancuernas sentado | 3 x 10-12 | 90s | — |
-| 4 | Remo con barra | 3 x 10-12 | 90s | Espalda recta, rodillas levemente flexionadas |
-| 5 | Elevaciones laterales polea | 3 x 12-15 | 60s | — |
-| 6 | Curl predicador barra EZ | 3 x 10-12 | 60s | — |
-| 7 | Fondos en máquina asistida | 3 x 10-12 | 60s | Sin bloquear codos |
-
-**Total: 22 series**
 
 ---
 
