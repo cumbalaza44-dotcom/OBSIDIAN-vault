@@ -133,22 +133,6 @@ status: "FASE 1 activa"
 
 ---
 
-## 📅 DÍA 5 — VIERNES — PIERNA B
-
-> Isquios + Glúteos + Cuádriceps
-
-| # | Ejercicio | Series x Reps | Descanso | Notas |
-|---|-----------|---------------|----------|-------|
-| 1 | Peso muerto rumano mancuernas | 4 x 10-12 | 90s | Sentir estiramiento en isquios, espalda neutra |
-| 2 | Sentadilla búlgara mancuernas | 3 x 10-12/pierna | 90s | Pie trasero en banca |
-| 3 | Curl femoral acostado | 3 x 12-15 | 60s | — |
-| 4 | Hip thrust barra | 3 x 10-12 | 90s | Contracción glútea arriba, 2s |
-| 5 | Extensión cuádriceps máquina | 3 x 12-15 | 60s | — |
-
-**Total: 16 series**
-
----
-
 ## 📈 RESUMEN SEMANAL DE VOLUMEN
 
 | Grupo Muscular | Series/semana | Frecuencia |
