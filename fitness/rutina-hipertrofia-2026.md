@@ -145,10 +145,10 @@ status: "FASE 1 activa"
 | Bíceps | 14 | 2x | 10-16 ✓ |
 | Tríceps | 12 | 2x | 10-12 ✓ |
 | Hombros | 12 | 2x | 10-16 ✓ |
-| Cuádriceps | 20 | 2x | 10-16 ✓ |
-| Isquios/Glúteos | 12 | 2x | 10-16 ✓ |
+| Cuádriceps | 18 | 2x | 10-16 ✓ |
+| Isquios/Glúteos | 14 | 2x | 10-16 ✓ |
 | Pantorrillas | 8 | 2x | 8-12 ✓ |
-| **Total** | **~111** | — | — |
+| **Total** | **~109** | — | — |
 
 > **Nota:** Semanas de deload → reducir a ~55 series totales (50%).
 
