@@ -33,6 +33,7 @@
 | # | Ejercicio | Peso | Series | Reps | RIR |
 |---|-----------|------|--------|------|-----|
 | 1 | Sentadilla smith | 30kg | 4 | — | — |
+| 2 | Extensión de cuádriceps máquina | 30kg | 5 | — | — |
 
 ---
 
