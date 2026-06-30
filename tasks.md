@@ -32,7 +32,7 @@ source: "Mr. Jair — iOS / Telegram"
 | 4 | 🤖 Ghost Trader — Plan FASE 2 (60min) | 🌙 6:30 PM | ⏳ | 🔴 |
 | 5 | 📝 Migrar notas pendientes (30min) | 🌙 8:00 PM | ⏳ | 🟡 |
 
-> **Resumen:** 3 mañana + 2 noche. Sesiones cortas y enfocadas.
+> **Resumen:** 2/5 completadas. 3 pendientes carry-forward a mañana.
 
 ---
 
