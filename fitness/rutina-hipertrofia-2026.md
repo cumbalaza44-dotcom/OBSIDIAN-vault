@@ -80,7 +80,12 @@ status: "FASE 1 activa"
 | 4 | Extensión de cuádriceps máquina | 3 x 12-15 | 60s | Pico de contracción arriba |
 | 5 | Elevación de talones en máquina | 4 x 12-15 | 60s | 2s arriba, 2s abajo |
 
-> Cuádriceps: 7 series | Isquios/Glúteos: 7 series | Pantorrillas: 4 series
+> Cuádriceps: 9 series | Isquios/Glúteos: 7 series | Pantorrillas: 4 series
+> **Total: 20 series**
+
+---
+
+## 📅 DÍA 3 — MIÉRCOLES — EMPUJE
 > **Total: 20 series**
 
 ---
