@@ -62,24 +62,26 @@ status: "FASE 1 activa"
 | 5 | Elevaciones laterales polea | 3 x 12-15 | 60s | — |
 | 6 | Curl predicador barra EZ | 3 x 10-12 | 60s | — |
 | 7 | Fondos en máquina asistida | 3 x 10-12 | 60s | Sin bloquear codos |
+| 8 | Curl bíceps mancuernas | 3 x 10-12 | 60s | — |
 
-**Total: 22 series**
+**Total: 25 series**
 
 ---
 
-## 📅 DÍA 2 — MARTES — PIERNA A
+## 📅 DÍA 2 — MARTES — PIERNAS
 
-> Cuádriceps + Pantorrillas
+> Cuádriceps + Isquios + Glúteos + Pantorrillas (Full Legs)
 
 | # | Ejercicio | Series x Reps | Descanso | Notas |
 |---|-----------|---------------|----------|-------|
 | 1 | Sentadilla en smith | 4 x 10-12 | 120s | Profundidad paralela |
-| 2 | Prensa de piernas | 3 x 10-12 | 90s | Pies a la anchura de hombros |
-| 3 | Extensión de cuádriceps máquina | 3 x 12-15 | 60s | Pico de contracción arriba |
-| 4 | Zancadas mancuernas | 3 x 12/pierna | 60s | Paso largo, torso recto |
+| 2 | Peso muerto rumano mancuernas | 3 x 10-12 | 90s | Sentir estiramiento en isquios, espalda neutra |
+| 3 | Curl femoral acostado | 3 x 12-15 | 60s | — |
+| 4 | Extensión de cuádriceps máquina | 3 x 12-15 | 60s | Pico de contracción arriba |
 | 5 | Elevación de talones en máquina | 4 x 12-15 | 60s | 2s arriba, 2s abajo |
 
-**Total: 17 series**
+> Cuádriceps: 10 series | Isquios/Glúteos: 6 series | Pantorrillas: 4 series
+> **Total: 20 series**
 
 ---
 
@@ -94,25 +96,26 @@ status: "FASE 1 activa"
 | 3 | Pec Deck | 3 x 12-15 | 60s | Contracción lenta arriba |
 | 4 | Press hombro máquina | 3 x 10-12 | 90s | — |
 | 5 | Elevaciones laterales mancuernas | 3 x 12-15 | 60s | Sin impulso, controlar bajada |
-| 6 | Extensión tríceps polea | 3 x 12-15 | 60s | Codos fijos |
+| 6 | Extensión tríceps polea | 4 x 12-15 | 60s | Codos fijos |
 
-**Total: 19 series**
+**Total: 20 series**
 
 ---
 
-## 📅 DÍA 4 — JUEVES — PIERNA B
+## 📅 DÍA 4 — JUEVES — PIERNAS
 
-> Isquios + Glúteos + Cuádriceps
+> Cuádriceps + Isquios + Glúteos + Pantorrillas (Full Legs)
 
 | # | Ejercicio | Series x Reps | Descanso | Notas |
 |---|-----------|---------------|----------|-------|
-| 1 | Peso muerto rumano mancuernas | 4 x 10-12 | 90s | Sentir estiramiento en isquios, espalda neutra |
+| 1 | Prensa de piernas | 4 x 10-12 | 90s | Pies a la anchura de hombros |
 | 2 | Sentadilla búlgara mancuernas | 3 x 10-12/pierna | 90s | Pie trasero en banca |
 | 3 | Curl femoral acostado | 3 x 12-15 | 60s | — |
 | 4 | Hip thrust barra | 3 x 10-12 | 90s | Contracción glútea arriba, 2s |
-| 5 | Extensión cuádriceps máquina | 3 x 12-15 | 60s | — |
+| 5 | Elevación de talones en máquina | 4 x 12-15 | 60s | 2s arriba, 2s abajo |
 
-**Total: 16 series**
+> Cuádriceps: 10 series | Isquios/Glúteos: 6 series | Pantorrillas: 4 series
+> **Total: 20 series**
 
 ---
 
@@ -126,10 +129,10 @@ status: "FASE 1 activa"
 | 2 | Remo en polea baja | 3 x 10-12 | 90s | — |
 | 3 | Remo con mancuerna unilateral | 3 x 10-12 | 60s | Apoyar rodilla y mano en banca |
 | 4 | Face pull polea | 3 x 12-15 | 60s | Retracción escapular arriba |
-| 5 | Curl bíceps barra Z | 3 x 10-12 | 60s | Sin balanceo |
-| 6 | Curl martillo mancuernas | 3 x 10-12 | 60s | — |
+| 5 | Curl bíceps barra Z | 4 x 10-12 | 60s | Sin balanceo |
+| 6 | Curl martillo mancuernas | 4 x 10-12 | 60s | — |
 
-**Total: 19 series**
+**Total: 21 series**
 
 ---
 
