@@ -26,9 +26,13 @@
 
 ---
 
-### 🟩 MARTES 31/06 — PIERNA 1
+### 🟩 MARTES 30/06 — PIERNA 1
 
-*Pendiente*
+📅 PIERNA — Mar 30/06
+
+| # | Ejercicio | Peso | Series | Reps | RIR |
+|---|-----------|------|--------|------|-----|
+| 1 | Sentadilla smith | 30kg | 4 | — | — |
 
 ---
 
