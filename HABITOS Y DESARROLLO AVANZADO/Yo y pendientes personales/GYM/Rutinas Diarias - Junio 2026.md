@@ -46,26 +46,19 @@
 
 ---
 
-## 🔵 MARTES — PIERNA 1 (Cuádriceps Dominante)
-
-### Calentamiento (5 min)
-- Sentadillas sin peso: 15 reps
-- Estocadas laterales: 10 cada lado
-- Activación de glúteos: 15 puente
+## 🔵 MARTES — PIERNAS (Gym)
 
 ### Bloque Principal
 
-| # | Ejercicio | Series x Reps | Notas | Peso (kg) |
+| # | Ejercicio | Series x Reps | Grupo | Peso (kg) |
 |---|-----------|---------------|-------|-----------|
-| 1 | Sentadilla goblet (con mancuerna) | 4 x 12-15 | 5kg al pecho, bajar profundo | — |
-| 2 | Sentadilla búlgara | 4 x 10-12 | Pie trasero en silla | — |
-| 3 | Zancadas caminando | 3 x 12 cada pierna | 5kg en cada mano | — |
-| 4 | Sentadilla sumo | 3 x 15 | 5kg al centro, pies anchos | — |
-| 5 | Step-up en silla | 3 x 12 cada pierna | 5kg en cada mano | — |
-| 6 | Sentadilla isométrica en pared | 3 x 30-45s | Espalda contra pared | — |
-| 7 | Elevación de pantorrillas | 4 x 15-20 | En escalón, bajar completo | — |
+| 1 | Sentadilla en smith | 4 x 10-12 | Cuádriceps | — |
+| 2 | Peso muerto rumano mancuernas | 3 x 10-12 | Isquios | — |
+| 3 | Curl femoral acostado | 4 x 12-15 | Isquios | — |
+| 4 | Extensión de cuádriceps máquina | 5 x 12-15 | Cuádriceps | — |
+| 5 | Elevación de talones en máquina | 4 x 12-15 | Pantorrillas | — |
 
-**Volumen:** ~24 series | **Tiempo estimado:** 70-80 min
+**Volumen:** 20 series | **Tiempo estimado:** 70-80 min
 
 ---
 
