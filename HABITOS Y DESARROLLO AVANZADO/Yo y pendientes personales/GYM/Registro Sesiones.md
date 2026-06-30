@@ -32,11 +32,11 @@
 
 | # | Ejercicio | Peso | Series | Reps | RIR |
 |---|-----------|------|--------|------|-----|
-| 1 | Sentadilla smith | 30kg | 4 | — | — |
-| 2 | Extensión de cuádriceps máquina | 30kg | 5 | — | — |
-| 3 | Curl femoral acostado | 35kg | 4 | — | — |
-| 4 | Hip thrust máquina | 10kg | 4 | — | — |
-| 5 | Elevación de talones en máquina | 20kg | 4 | — | — |
+| 1 | Sentadilla smith | 30kg | 4 | 10 | 2 |
+| 2 | Extensión de cuádriceps máquina | 30kg | 5 | 10 | 2 |
+| 3 | Curl femoral acostado | 35kg | 4 | 10 | 2 |
+| 4 | Hip thrust máquina | 10kg | 4 | 10 | 2 |
+| 5 | Elevación de talones en máquina | 20kg | 4 | 10 | 2 |
 
 ---
 
