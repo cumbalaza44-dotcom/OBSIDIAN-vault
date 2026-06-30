@@ -138,19 +138,19 @@ status: "FASE 1 activa"
 
 ## 📈 RESUMEN SEMANAL DE VOLUMEN
 
-| Grupo Muscular | Series/semana | Frecuencia |
-|----------------|---------------|------------|
-| Pecho | 17 | 2x |
-| Espalda | 22 | 2x |
-| Bíceps | 12 | 2x |
-| Tríceps | 10 | 2x |
-| Hombros | 16 | 2x |
-| Cuádriceps | 20 | 2x |
-| Isquios/Glúteos | 14 | 2x |
-| Pantorrillas | 8 | 1x |
-| **Total** | **~119** | — |
+| Grupo Muscular | Series/semana | Frecuencia | Rango óptimo |
+|----------------|---------------|------------|---------------|
+| Pecho | 17 | 2x | 10-20 ✓ |
+| Espalda | 16 | 2x | 10-20 ✓ |
+| Bíceps | 14 | 2x | 10-16 ✓ |
+| Tríceps | 12 | 2x | 10-12 ✓ |
+| Hombros | 12 | 2x | 10-16 ✓ |
+| Cuádriceps | 20 | 2x | 10-16 ✓ |
+| Isquios/Glúteos | 12 | 2x | 10-16 ✓ |
+| Pantorrillas | 8 | 2x | 8-12 ✓ |
+| **Total** | **~111** | — | — |
 
-> **Nota:** Semanas de deload → reducir a ~60 series totales (50%).
+> **Nota:** Semanas de deload → reducir a ~55 series totales (50%).
 
 ---
 
