@@ -114,7 +114,7 @@ status: "FASE 1 activa"
 | # | Ejercicio | Series x Reps | Descanso | Notas |
 |---|-----------|---------------|----------|-------|
 | 1 | Prensa de piernas | 4 x 10-12 | 90s | Pies a la anchura de hombros |
-| 2 | Sentadilla búlgara mancuernas | 3 x 10-12/pierna | 90s | Pie trasero en banca |
+| 2 | Sentadilla búlgara mancuernas | 4 x 10-12/pierna | 90s | Pie trasero en banca |
 | 3 | Curl femoral acostado | 4 x 12-15 | 60s | — |
 | 4 | Hip thrust barra | 3 x 10-12 | 90s | Contracción glútea arriba, 2s |
 | 5 | Elevación de talones en máquina | 4 x 12-15 | 60s | 2s arriba, 2s abajo |
