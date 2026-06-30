@@ -13,7 +13,7 @@ status: "FASE 1 activa"
 
 > **Objetivo:** +10 kg masa muscular (68 → 78 kg)
 > **Timeline:** Evaluación Oct 1 → Meta Dic 31
-> **Split:** Upper / Pierna A / Empuje / Pierna B / Tirón
+> **Split:** Upper / Piernas / Empuje / Piernas / Tirón
 
 </div>
 
@@ -64,7 +64,8 @@ status: "FASE 1 activa"
 | 7 | Fondos en máquina asistida | 3 x 10-12 | 60s | Sin bloquear codos |
 | 8 | Curl bíceps mancuernas | 3 x 10-12 | 60s | — |
 
-**Total: 25 series**
+> Pecho: 4 | Espalda: 6 | Hombros: 6 | Bíceps: 6 | Tríceps: 3
+> **Total: 25 series**
 
 ---
 
@@ -80,12 +81,7 @@ status: "FASE 1 activa"
 | 4 | Extensión de cuádriceps máquina | 5 x 12-15 | 60s | Pico de contracción arriba |
 | 5 | Elevación de talones en máquina | 4 x 12-15 | 60s | 2s arriba, 2s abajo |
 
-> Cuádriceps: 9 series | Isquios/Glúteos: 7 series | Pantorrillas: 4 series
-> **Total: 20 series**
-
----
-
-## 📅 DÍA 3 — MIÉRCOLES — EMPUJE
+> Cuádriceps: 9 | Isquios/Glúteos: 7 | Pantorrillas: 4
 > **Total: 20 series**
 
 ---
@@ -103,7 +99,8 @@ status: "FASE 1 activa"
 | 5 | Elevaciones laterales mancuernas | 3 x 12-15 | 60s | Sin impulso, controlar bajada |
 | 6 | Extensión tríceps polea | 4 x 12-15 | 60s | Codos fijos |
 
-**Total: 20 series**
+> Pecho: 10 | Hombros: 6 | Tríceps: 4
+> **Total: 20 series**
 
 ---
 
@@ -119,7 +116,7 @@ status: "FASE 1 activa"
 | 4 | Hip thrust barra | 3 x 10-12 | 90s | Contracción glútea arriba, 2s |
 | 5 | Elevación de talones en máquina | 4 x 12-15 | 60s | 2s arriba, 2s abajo |
 
-> Cuádriceps: 9 series | Isquios/Glúteos: 7 series | Pantorrillas: 4 series
+> Cuádriceps: 9 | Isquios/Glúteos: 7 | Pantorrillas: 4
 > **Total: 20 series**
 
 ---
@@ -137,25 +134,26 @@ status: "FASE 1 activa"
 | 5 | Curl bíceps barra Z | 4 x 10-12 | 60s | Sin balanceo |
 | 6 | Curl martillo mancuernas | 4 x 10-12 | 60s | — |
 
-**Total: 21 series**
+> Espalda: 10 | Bíceps: 8 | Trapecios: 3
+> **Total: 21 series**
 
 ---
 
 ## 📈 RESUMEN SEMANAL DE VOLUMEN
 
-| Grupo Muscular | Series/semana | Frecuencia | Rango óptimo |
-|----------------|---------------|------------|---------------|
-| Pecho | 17 | 2x | 10-20 ✓ |
-| Espalda | 16 | 2x | 10-20 ✓ |
-| Bíceps | 14 | 2x | 10-16 ✓ |
-| Tríceps | 12 | 2x | 10-12 ✓ |
-| Hombros | 12 | 2x | 10-16 ✓ |
-| Cuádriceps | 18 | 2x | 10-16 ✓ |
-| Isquios/Glúteos | 14 | 2x | 10-16 ✓ |
-| Pantorrillas | 8 | 2x | 8-12 ✓ |
-| **Total** | **~109** | — | — |
+| Grupo Muscular | Lun UPPER | Mar PIERNAS | Mié EMPUJE | Jue PIERNAS | Vie TIRÓN | Total/sem | Rango óptimo |
+|----------------|-----------|-------------|------------|-------------|-----------|-----------|---------------|
+| 🫁 Pecho | 4 | — | 10 | — | — | **14** | 10-20 ✓ |
+| 💪 Espalda | 6 | — | — | — | 10 | **16** | 10-20 ✓ |
+| 💪 Bíceps | 6 | — | — | — | 8 | **14** | 10-16 ✓ |
+| 💪 Tríceps | 3 | — | 4 | — | — | **7** | 10-12 ⚠️ |
+| 🔹 Hombros | 6 | — | 6 | — | — | **12** | 10-16 ✓ |
+| 🦵 Cuádriceps | — | 9 | — | 9 | — | **18** | 10-16 ✓ |
+| 🦵 Isquios/Glúteos | — | 7 | — | 7 | — | **14** | 10-16 ✓ |
+| 🦶 Pantorrillas | — | 4 | — | 4 | — | **8** | 8-12 ✓ |
+| **Total** | **25** | **20** | **20** | **20** | **21** | **~106** | — |
 
-> **Nota:** Semanas de deload → reducir a ~55 series totales (50%).
+> **Nota:** Tríceps a 7 series directas; work indirecto de press (Upper + Empuje) aporta ~4-6 series adicionales → total funcional ~11-13. Semanas de deload → reducir a ~53 series totales (50%).
 
 ---
 
