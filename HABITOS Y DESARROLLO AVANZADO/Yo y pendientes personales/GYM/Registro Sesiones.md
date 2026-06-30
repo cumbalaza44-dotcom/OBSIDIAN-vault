@@ -63,9 +63,9 @@
 | Día | Rutina | Volumen total (kg) | Mejoras | Estancado |
 |-----|--------|-------------------|---------|-----------|
 | Lun | Push | 1,530 | Press pecho +2.5kg | — |
-| Mar | Pierna 1 | — | — | — |
+| Mar | Pierna 1 | 5,300 | — | — |
 | Mié | Pull | — | — | — |
 | Jue | Upper | — | — | — |
 | Vie | Pierna 2 | — | — | — |
 
-**Volumen semanal:** — / target 8,000 kg
+**Volumen semanal:** 6,830 / target 8,000 kg
