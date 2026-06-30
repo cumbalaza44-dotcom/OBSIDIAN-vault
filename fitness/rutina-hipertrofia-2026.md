@@ -74,13 +74,13 @@ status: "FASE 1 activa"
 
 | # | Ejercicio | Series x Reps | Descanso | Notas |
 |---|-----------|---------------|----------|-------|
-| 1 | Sentadilla en smith | 4 x 10-12 | 120s | Profundidad paralela |
-| 2 | Peso muerto rumano mancuernas | 3 x 10-12 | 90s | Sentir estiramiento en isquios, espalda neutra |
-| 3 | Curl femoral acostado | 3 x 12-15 | 60s | — |
+| 1 | Sentadilla en smith | 3 x 10-12 | 120s | Profundidad paralela |
+| 2 | Peso muerto rumano mancuernas | 4 x 10-12 | 90s | Sentir estiramiento en isquios, espalda neutra |
+| 3 | Curl femoral acostado | 4 x 12-15 | 60s | — |
 | 4 | Extensión de cuádriceps máquina | 3 x 12-15 | 60s | Pico de contracción arriba |
 | 5 | Elevación de talones en máquina | 4 x 12-15 | 60s | 2s arriba, 2s abajo |
 
-> Cuádriceps: 10 series | Isquios/Glúteos: 6 series | Pantorrillas: 4 series
+> Cuádriceps: 9 series | Isquios/Glúteos: 7 series | Pantorrillas: 4 series
 > **Total: 20 series**
 
 ---
@@ -108,13 +108,13 @@ status: "FASE 1 activa"
 
 | # | Ejercicio | Series x Reps | Descanso | Notas |
 |---|-----------|---------------|----------|-------|
-| 1 | Prensa de piernas | 4 x 10-12 | 90s | Pies a la anchura de hombros |
+| 1 | Prensa de piernas | 3 x 10-12 | 90s | Pies a la anchura de hombros |
 | 2 | Sentadilla búlgara mancuernas | 3 x 10-12/pierna | 90s | Pie trasero en banca |
-| 3 | Curl femoral acostado | 3 x 12-15 | 60s | — |
-| 4 | Hip thrust barra | 3 x 10-12 | 90s | Contracción glútea arriba, 2s |
+| 3 | Curl femoral acostado | 4 x 12-15 | 60s | — |
+| 4 | Hip thrust barra | 4 x 10-12 | 90s | Contracción glútea arriba, 2s |
 | 5 | Elevación de talones en máquina | 4 x 12-15 | 60s | 2s arriba, 2s abajo |
 
-> Cuádriceps: 10 series | Isquios/Glúteos: 6 series | Pantorrillas: 4 series
+> Cuádriceps: 9 series | Isquios/Glúteos: 7 series | Pantorrillas: 4 series
 > **Total: 20 series**
 
 ---
