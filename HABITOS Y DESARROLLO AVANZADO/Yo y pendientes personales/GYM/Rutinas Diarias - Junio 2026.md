@@ -31,16 +31,16 @@
 
 ### Bloque Principal
 
-| # | Ejercicio | Series x Reps | Notas |
-|---|-----------|---------------|-------|
-| 1 | Flexiones clásicas | 4 x 12-15 | Calentamiento → trabajo |
-| 2 | Remo invertido (bajo mesa) | 4 x 10-15 | Agarre supino, tirar del pecho |
-| 3 | Press de hombro con mancuernas | 4 x 10-12 | 5kg cada mano, de pie |
-| 4 | Flexiones declinadas (pies elevados) | 3 x 10-12 | Pecho superior |
-| 5 | Remo con mancuerna a una mano | 3 x 10-12 | 5kg, codo pegado |
-| 6 | Elevaciones laterales | 3 x 12-15 | 5kg, controlado |
-| 7 | Curl de bíceps con mancuernas | 3 x 12-15 | 5kg, alternando |
-| 8 | Fondos de tríceps en silla | 3 x 10-15 | Pies adelantados = más fácil |
+| # | Ejercicio | Series x Reps | Notas | Peso (kg) |
+|---|-----------|---------------|-------|-----------|
+| 1 | Flexiones clásicas | 4 x 12-15 | Calentamiento → trabajo | — |
+| 2 | Remo invertido (bajo mesa) | 4 x 10-15 | Agarre supino, tirar del pecho | — |
+| 3 | Press de hombro con mancuernas | 4 x 10-12 | 5kg cada mano, de pie | — |
+| 4 | Flexiones declinadas (pies elevados) | 3 x 10-12 | Pecho superior | — |
+| 5 | Remo con mancuerna a una mano | 3 x 10-12 | 5kg, codo pegado | — |
+| 6 | Elevaciones laterales | 3 x 12-15 | 5kg, controlado | — |
+| 7 | Curl de bíceps con mancuernas | 3 x 12-15 | 5kg, alternando | — |
+| 8 | Fondos de tríceps en silla | 3 x 10-15 | Pies adelantados = más fácil | — |
 
 **Volumen:** ~27 series | **Tiempo estimado:** 75-90 min
 
@@ -55,15 +55,15 @@
 
 ### Bloque Principal
 
-| # | Ejercicio | Series x Reps | Notas |
-|---|-----------|---------------|-------|
-| 1 | Sentadilla goblet (con mancuerna) | 4 x 12-15 | 5kg al pecho, bajar profundo |
-| 2 | Sentadilla búlgara | 4 x 10-12 | Pie trasero en silla |
-| 3 | Zancadas caminando | 3 x 12 cada pierna | 5kg en cada mano |
-| 4 | Sentadilla sumo | 3 x 15 | 5kg al centro, pies anchos |
-| 5 | Step-up en silla | 3 x 12 cada pierna | 5kg en cada mano |
-| 6 | Sentadilla isométrica en pared | 3 x 30-45s | Espalda contra pared |
-| 7 | Elevación de pantorrillas | 4 x 15-20 | En escalón, bajar completo |
+| # | Ejercicio | Series x Reps | Notas | Peso (kg) |
+|---|-----------|---------------|-------|-----------|
+| 1 | Sentadilla goblet (con mancuerna) | 4 x 12-15 | 5kg al pecho, bajar profundo | — |
+| 2 | Sentadilla búlgara | 4 x 10-12 | Pie trasero en silla | — |
+| 3 | Zancadas caminando | 3 x 12 cada pierna | 5kg en cada mano | — |
+| 4 | Sentadilla sumo | 3 x 15 | 5kg al centro, pies anchos | — |
+| 5 | Step-up en silla | 3 x 12 cada pierna | 5kg en cada mano | — |
+| 6 | Sentadilla isométrica en pared | 3 x 30-45s | Espalda contra pared | — |
+| 7 | Elevación de pantorrillas | 4 x 15-20 | En escalón, bajar completo | — |
 
 **Volumen:** ~24 series | **Tiempo estimado:** 70-80 min
 
@@ -78,16 +78,16 @@
 
 ### Bloque Principal
 
-| # | Ejercicio | Series x Reps | Notas |
-|---|-----------|---------------|-------|
-| 1 | Remo invertido agarre supino | 4 x 10-15 | Bajo mesa, pecho a borde |
-| 2 | Remo con mancuerna a una mano | 4 x 10-12 | 5kg, codo pegado al cuerpo |
-| 3 | Superman con pausa | 4 x 12 | 2s arriba, apretar glúteos |
-| 4 | Remo invertido agarre prono | 3 x 8-12 | Palmas hacia abajo |
-| 5 | Pullover con mancuerna | 3 x 12 | 5kg, acostado en suelo |
-| 6 | Curl de bíceps con mancuernas | 3 x 12-15 | 5kg, alternando |
-| 7 | Curl martillo | 3 x 12 | 5kg, agarre neutro |
-| 8 | Face pull con toalla | 3 x 15 | Resistencia manual |
+| # | Ejercicio | Series x Reps | Notas | Peso (kg) |
+|---|-----------|---------------|-------|-----------|
+| 1 | Remo invertido agarre supino | 4 x 10-15 | Bajo mesa, pecho a borde | — |
+| 2 | Remo con mancuerna a una mano | 4 x 10-12 | 5kg, codo pegado al cuerpo | — |
+| 3 | Superman con pausa | 4 x 12 | 2s arriba, apretar glúteos | — |
+| 4 | Remo invertido agarre prono | 3 x 8-12 | Palmas hacia abajo | — |
+| 5 | Pullover con mancuerna | 3 x 12 | 5kg, acostado en suelo | — |
+| 6 | Curl de bíceps con mancuernas | 3 x 12-15 | 5kg, alternando | — |
+| 7 | Curl martillo | 3 x 12 | 5kg, agarre neutro | — |
+| 8 | Face pull con toalla | 3 x 15 | Resistencia manual | — |
 
 **Volumen:** ~27 series | **Tiempo estimado:** 75-85 min
 
@@ -102,16 +102,16 @@
 
 ### Bloque Principal
 
-| # | Ejercicio | Series x Reps | Notas |
-|---|-----------|---------------|-------|
-| 1 | Flexiones clásicas | 4 x 12-15 | Manos al ancho de hombros |
-| 2 | Flexiones declinadas (pies elevados) | 4 x 10-12 | Pecho superior |
-| 3 | Flexiones diamante | 3 x 8-12 | Manos juntas, tríceps |
-| 4 | Press de pecho con mancuernas (suelo) | 4 x 10-12 | 5kg cada mano, acostado |
-| 5 | Flexiones pike | 3 x 8-12 | Cadera elevada, hombro anterior |
-| 6 | Aperturas con mancuernas (suelo) | 3 x 12-15 | 5kg, movimiento amplio |
-| 7 | Fondos de tríceps en silla | 4 x 10-15 | Pies adelantados |
-| 8 | Extensión de tríceps con mancuerna | 3 x 12 | 5kg, a una mano sobre frente |
+| # | Ejercicio | Series x Reps | Notas | Peso (kg) |
+|---|-----------|---------------|-------|-----------|
+| 1 | Flexiones clásicas | 4 x 12-15 | Manos al ancho de hombros | — |
+| 2 | Flexiones declinadas (pies elevados) | 4 x 10-12 | Pecho superior | — |
+| 3 | Flexiones diamante | 3 x 8-12 | Manos juntas, tríceps | — |
+| 4 | Press de pecho con mancuernas (suelo) | 4 x 10-12 | 5kg cada mano, acostado | — |
+| 5 | Flexiones pike | 3 x 8-12 | Cadera elevada, hombro anterior | — |
+| 6 | Aperturas con mancuernas (suelo) | 3 x 12-15 | 5kg, movimiento amplio | — |
+| 7 | Fondos de tríceps en silla | 4 x 10-15 | Pies adelantados | — |
+| 8 | Extensión de tríceps con mancuerna | 3 x 12 | 5kg, a una mano sobre frente | — |
 
 **Volumen:** ~28 series | **Tiempo estimado:** 75-85 min
 
@@ -126,16 +126,16 @@
 
 ### Bloque Principal
 
-| # | Ejercicio | Series x Reps | Notas |
-|---|-----------|---------------|-------|
-| 1 | Peso muerto a una pierna | 4 x 10-12 | 5kg, espalda recta, bajar lento |
-| 2 | Sentadilla búlgara (énfasis posterior) | 4 x 10-12 | Inclinación frontal, empujar con talón |
-| 3 | Hip thrust en silla | 4 x 12-15 | Espalda en silla, apretar arriba 2s |
-| 4 | Puente de glúteos a una pierna | 3 x 12-15 | Apretar 2s arriba |
-| 5 | Sentadilla sumo (profunda) | 3 x 15 | 5kg, bajar máximo |
-| 6 | Nordic curl (asistido) | 3 x 6-8 | Bajar lento, apoyar manos si necesario |
-| 7 | Elevación de pantorrillas | 4 x 15-20 | En escalón |
-| 8 | Plancha frontal | 3 x 45-60s | Core activado |
+| # | Ejercicio | Series x Reps | Notas | Peso (kg) |
+|---|-----------|---------------|-------|-----------|
+| 1 | Peso muerto a una pierna | 4 x 10-12 | 5kg, espalda recta, bajar lento | — |
+| 2 | Sentadilla búlgara (énfasis posterior) | 4 x 10-12 | Inclinación frontal, empujar con talón | — |
+| 3 | Hip thrust en silla | 4 x 12-15 | Espalda en silla, apretar arriba 2s | — |
+| 4 | Puente de glúteos a una pierna | 3 x 12-15 | Apretar 2s arriba | — |
+| 5 | Sentadilla sumo (profunda) | 3 x 15 | 5kg, bajar máximo | — |
+| 6 | Nordic curl (asistido) | 3 x 6-8 | Bajar lento, apoyar manos si necesario | — |
+| 7 | Elevación de pantorrillas | 4 x 15-20 | En escalón | — |
+| 8 | Plancha frontal | 3 x 45-60s | Core activado | — |
 
 **Volumen:** ~28 series | **Tiempo estimado:** 75-85 min
 
