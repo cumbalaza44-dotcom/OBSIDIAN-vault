@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `29 Jun 2026 — 17:52`
+### Última actualización: `30 Jun 2026 — 20:09`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -20,19 +20,19 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Lunes 29/06
+## 🔥 HOY — Martes 30/06
 
-> Lunes de arranque: Push gym + Ghost Trader FASE 2.
+> Martes de pierna: Pierna A en gym +.Meta Ads nicho + Hogar.
 
 | #   | Tarea                                                          | Ventana        | Estado | Prioridad |
 | --- | -------------------------------------------------------------- | -------------- | ------ | --------- |
 | 1   | 📚 Lectura diaria (20min)                                      | ⏰ 5:10 AM      | ⏳      | 🟢        |
-| 2   | 🏋️ Upper (Tren superior completo) — Reto fitness junio (2.5h) | ⏰ 5:30-8:00 AM | ✅      | 🔴        |
-| 3   | 💊 Creatina 3-5g post-entreno                                  | ⏰ post-gym     | ✅      | 🟢        |
-| 4   | 🤖 Ghost Trader — Plan FASE 2 (60min)                          | 🌙 6:30 PM     | ⏳      | 🔴        |
-| 5   | 📝 Migrar notas pendientes (30min)                             | 🌙 8:00 PM     | ⏳      | 🟡        |
+| 2   | 🏋️ Pierna A — Reto fitness junio (20 series)                  | ⏰ 5:30-8:00 AM | ✅      | 🔴        |
+| 3   | 💊 Creatina 3-5g post-entreno                                  | ⏰ post-gym     | ⏳      | 🟢        |
+| 4   | 🎓 Meta Ads nicho (60min)                                      | 🌙 6:30 PM     | ⏳      | 🔴        |
+| 5   | 🏠 Hogar                                                       | 🌙 noche       | ⏳      | 🟡        |
 
-> **Resumen:** 2/5 completadas. 3 pendientes carry-forward a mañana.
+> **Resumen:** 1/5 completadas. Pierna A registrada en `Registro Sesiones.md`.
 
 ---
 
