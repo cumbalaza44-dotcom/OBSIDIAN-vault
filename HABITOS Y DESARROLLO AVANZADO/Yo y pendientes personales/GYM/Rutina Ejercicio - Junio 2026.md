@@ -2,7 +2,7 @@
 
 **Objetivo:** Hipertrofia + Aumento de peso
 **Nivel:** Intermedio (próximo)
-**Equipamiento:** Peso corporal + mancuernas 5kg
+**Equipamiento:** Gimnasio completo (máquinas, poleas, barra, mancuernas)
 **Duración:** 5 días/semana | 2 horas/sesión
 **Inicio:** 01/06/2026
 **Frecuencia:** 2x por grupo muscular / semana
@@ -13,10 +13,10 @@
 
 | Día | Enfoque | Grupo principal |
 |-----|---------|-----------------|
-| Lunes | **Tren Superior Completo** | Pecho, espalda, hombros, brazos |
+| Lunes | **PUSH** | Pecho, hombro anterior, tríceps |
 | Martes | **Pierna 1** | Cuádriceps, glúteos, pantorrillas |
-| Miércoles | **Espalda + Bíceps** | Espalda completa, bíceps, rear delts |
-| Jueves | **Pecho + Tríceps** | Pecho, tríceps, hombro anterior |
+| Miércoles | **PULL** | Espalda completa, bíceps, rear delts |
+| Jueves | **UPPER** | Tren superior completo (volumen) |
 | Viernes | **Pierna 2** | Isquiotibiales, glúteos, cuádriceps |
 | Sábado | Descanso activo | Movilidad, caminar |
 | Domingo | Descanso total | Recuperación |
