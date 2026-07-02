@@ -26,13 +26,13 @@ source: "Mr. Jair — iOS / Telegram"
 
 | #   | Tarea                                                          | Ventana        | Estado | Prioridad |
 | --- | -------------------------------------------------------------- | -------------- | ------ | --------- |
-| 1   | 📚 Lectura diaria (20min)                                      | ⏰ 5:10 AM      | ⏳      | 🟢        |
-| 2   | 🏋️ Gym                                             | ⏰ 5:30-8:00 AM | ⏳      | 🔴        |
+| 1   | 📚 Lectura diaria (20min)                                      | ⏰ 5:10 AM      | ✅      | 🟢        |
+| 2   | 🏋️ Gym                                             | ⏰ 5:30-8:00 AM | ✅      | 🔴        |
 | 3   | 💊 Creatina 3-5g post-entreno                                  | ⏰ post-gym     | ⏳      | 🟢        |
 | 4   | 🎓 Meta Ads productos (60min)                                  | 🌙 6:30 PM     | ⏳      | 🔴        |
 | 5   | 🧠 IA diaria                                                   | 🌙 noche       | ⏳      | 🟡        |
 
-> **Resumen:** 0/5 completadas. Pendientes del día.
+> **Resumen:** 2/5 completadas. Pendientes: Creatina, Meta Ads, IA diaria.
 
 ---
 
