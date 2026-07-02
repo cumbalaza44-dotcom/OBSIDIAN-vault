@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `02 Jul 2026 — 04:43`
+### Última actualización: `02 Jul 2026 — 04:47`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -61,12 +61,12 @@ source: "Mr. Jair — iOS / Telegram"
 
 ### 🏋️ Rutina Semanal — Hipertrofia FASE 1 (Jun 29 – Sep 20 2026)
 
-> **Split:** Upper / Pierna A / Empuje / Pierna B / Tirón
+> **Split:** Upper / Piernas / Empuje / Piernas / Tirón
 > **Objetivo:** +10 kg masa muscular (68 → 78 kg)
-> **Frecuencia:** 5 días/semana | **Volumen:** ~119 series/semana
+> **Frecuencia:** 5 días/semana | **Volumen:** ~105 series/semana
 > **Ruta completa:** `obsidian-vault/fitness/rutina-hipertrofia-2026.md`
 
-**LUNES — UPPER (22 series) — Tren superior completo**
+**LUNES — UPPER (25 series) — Tren superior completo**
 1. Press inclinado barra 4×8-10
 2. Jalón agarre cerrado 3×10-12
 3. Press hombro mancuernas sentado 3×10-12
@@ -74,36 +74,37 @@ source: "Mr. Jair — iOS / Telegram"
 5. Elevaciones laterales polea 3×12-15
 6. Curl predicador barra EZ 3×10-12
 7. Fondos en máquina asistida 3×10-12
+8. Curl bíceps mancuernas 3×10-12
 
-**MARTES — PIERNA A (17 series) — Cuádriceps + Pantorrillas**
+**MARTES — PIERNAS (20 series) — Cuádriceps + Isquios + Glúteos + Pantorrillas**
 1. Sentadilla en smith 4×10-12
-2. Prensa de piernas 3×10-12
-3. Extensión de cuádriceps máquina 3×12-15
-4. Zancadas mancuernas 3×12/pierna
+2. Peso muerto rumano mancuernas 3×10-12
+3. Curl femoral acostado 4×12-15
+4. Extensión de cuádriceps máquina 5×12-15
 5. Elevación de talones en máquina 4×12-15
 
-**MIÉRCOLES — EMPUJE (19 series) — Pecho + Tríceps + Hombro**
+**MIÉRCOLES — EMPUJE (20 series) — Pecho + Tríceps + Hombro**
 1. Press pecho máquina 4×10-12
 2. Press inclinado mancuernas 3×10-12
 3. Pec Deck 3×12-15
 4. Press hombro máquina 3×10-12
 5. Elevaciones laterales mancuernas 3×12-15
-6. Extensión tríceps polea 3×12-15
+6. Extensión tríceps polea 4×12-15
 
-**JUEVES — PIERNA B (16 series) — Isquios + Glúteos + Cuádriceps**
-1. Peso muerto rumano mancuernas 4×10-12
-2. Sentadilla búlgara mancuernas 3×10-12/pierna
-3. Curl femoral acostado 3×12-15
+**JUEVES — PIERNAS (20 series) — Cuádriceps + Isquios + Glúteos + Pantorrillas**
+1. Prensa de piernas 4×10-12
+2. Sentadilla búlgara mancuernas 4×10-12/pierna
+3. Curl femoral acostado 4×12-15
 4. Hip thrust barra 3×10-12
-5. Extensión cuádriceps máquina 3×12-15
+5. Elevación de talones en máquina 4×12-15
 
-**VIERNES — TIRÓN (19 series) — Espalda + Bíceps + Trapecios**
+**VIERNES — TIRÓN (20 series) — Espalda + Bíceps + Trapecios**
 1. Jalón al pecho agarre ancho 4×10-12
 2. Remo en polea baja 3×10-12
 3. Remo con mancuerna unilateral 3×10-12
 4. Face pull polea 3×12-15
-5. Curl bíceps barra Z 3×10-12
-6. Curl martillo mancuernas 3×10-12
+5. Curl bíceps barra Z 4×10-12
+6. Curl martillo mancuernas 4×10-12
 
 **SÁBADO — Descanso activo:** Movilidad articular, caminar 30 min
 **DOMINGO — Descanso total**
@@ -112,17 +113,17 @@ source: "Mr. Jair — iOS / Telegram"
 
 ### 📊 Resumen Volumen Semanal — Split Actualizado
 
-| Grupo muscular | Lun UPPER | Mar PiernaA | Mié Empuje | Jue PiernaB | Vie Tirón | Total/sem | Rango óptimo |
+| Grupo muscular | Lun UPPER | Mar PIERNAS | Mié EMPUJE | Jue PIERNAS | Vie TIRÓN | Total/sem | Rango óptimo |
 |---|---|---|---|---|---|---|---|
-| 🫁 Pecho | 7 | — | 10 | — | — | **17** | 10-20 ✓ |
+| 🫁 Pecho | 4 | — | 10 | — | — | **14** | 10-20 ✓ |
 | 💪 Espalda | 6 | — | — | — | 10 | **16** | 10-20 ✓ |
 | 🔹 Hombros | 6 | — | 6 | — | — | **12** | 10-16 ✓ |
-| 💪 Bíceps | 3 | — | — | — | 6 | **9** | 10-16 ⚠️ |
-| 💪 Tríceps | 6 | — | 3 | — | — | **9** | 10-12 ⚠️ |
-| 🦵 Cuádriceps | — | 10 | — | 3 | — | **13** | 10-16 ✓ |
-| 🦵 Isquios/Glúteos | — | — | — | 10 | — | **10** | 10-16 ✓ |
-| 🦶 Pantorrillas | — | 4 | — | — | — | **4** | 8-12 ⚠️ |
-| **Total** | **22** | **14** | **19** | **13** | **16** | **~84** | — |
+| 💪 Bíceps | 6 | — | — | — | 8 | **14** | 10-16 ✓ |
+| 💪 Tríceps | 3 | — | 4 | — | — | **7** | 10-12 ⚠️ |
+| 🦵 Cuádriceps | — | 9 | — | 9 | — | **18** | 10-16 ✓ |
+| 🦵 Isquios/Glúteos | — | 7 | — | 7 | — | **14** | 10-16 ✓ |
+| 🦶 Pantorrillas | — | 4 | — | 4 | — | **8** | 8-12 ✓ |
+| **Total** | **25** | **20** | **20** | **20** | **20** | **~105** | — |
 
 ---
 
