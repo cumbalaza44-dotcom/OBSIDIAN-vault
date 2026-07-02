@@ -64,7 +64,7 @@ source: "Mr. Jair — iOS / Telegram"
 > **Split:** Upper / Piernas / Empuje / Piernas / Tirón
 > **Objetivo:** +10 kg masa muscular (68 → 78 kg)
 > **Frecuencia:** 5 días/semana | **Volumen:** ~105 series/semana
-> **Ruta completa:** `obsidian-vault/fitness/rutina-hipertrofia-2026.md`
+> **Ruta completa:** `obsidian-vault/HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/GYM/Gym.md`
 
 **LUNES — UPPER (25 series) — Tren superior completo**
 1. Press inclinado barra 4×8-10
