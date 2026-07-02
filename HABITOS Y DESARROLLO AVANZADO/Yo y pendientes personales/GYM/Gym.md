@@ -13,7 +13,7 @@ status: "FASE 1 activa — Semana 2"
 
 > **Objetivo:** +10 kg masa muscular (68 → 78 kg)
 > **Split:** Upper / Pierna A / Empuje / Pierna B / Tirón
-> **Frecuencia:** 5 días/semana | **Volumen:** ~119 series/semana
+> **Frecuencia:** 5 días/semana | **Volumen:** ~111 series/semana
 > **Creatina:** 3-5g post-entreno todos los días
 
 </div>
@@ -49,7 +49,7 @@ status: "FASE 1 activa — Semana 2"
 
 ## 📅 DÍA 1 — LUNES — UPPER
 
-> Tren superior completo (22 series)
+> Tren superior completo (25 series)
 
 | # | Ejercicio | Series x Reps | Descanso | Notas |
 |---|-----------|---------------|----------|-------|
@@ -60,30 +60,32 @@ status: "FASE 1 activa — Semana 2"
 | 5 | Elevaciones laterales polea | 3 x 12-15 | 60s | — |
 | 6 | Curl predicador barra EZ | 3 x 10-12 | 60s | — |
 | 7 | Fondos en máquina asistida | 3 x 10-12 | 60s | Sin bloquear codos |
+| 8 | Curl bíceps mancuernas | 3 x 10-12 | 60s | — |
 
-> Pecho: 4 | Espalda: 6 | Hombros: 6 | Bíceps: 3 | Tríceps: 3
+> **Total: 25 series**
 
 ---
 
-## 📅 DÍA 2 — MARTES — PIERNA A
+## 📅 DÍA 2 — MARTES — PIERNAS (Full Legs)
 
-> Cuádriceps + Pantorrillas (17 series)
+> Cuádriceps + Isquios + Glúteos + Pantorrillas (20 series)
 
 | # | Ejercicio | Series x Reps | Descanso | Notas |
 |---|-----------|---------------|----------|-------|
 | 1 | Sentadilla en smith | 4 x 10-12 | 120s | Profundidad paralela |
-| 2 | Prensa de piernas | 3 x 10-12 | 90s | Pies anchura de hombros |
-| 3 | Extensión de cuádriceps máquina | 3 x 12-15 | 60s | Pico de contracción arriba |
-| 4 | Zancadas mancuernas | 3 x 12/pierna | 90s | — |
+| 2 | Peso muerto rumano mancuernas | 3 x 10-12 | 90s | Sentir estiramiento en isquios, espalda neutra |
+| 3 | Curl femoral acostado | 3 x 12-15 | 60s | — |
+| 4 | Extensión de cuádriceps máquina | 3 x 12-15 | 60s | Pico de contracción arriba |
 | 5 | Elevación de talones en máquina | 4 x 12-15 | 60s | 2s arriba, 2s abajo |
 
-> Cuádriceps: 10 | Pantorrillas: 4
+> Cuádriceps: 10 series | Isquios/Glúteos: 6 series | Pantorrillas: 4 series
+> **Total: 20 series**
 
 ---
 
 ## 📅 DÍA 3 — MIÉRCOLES — EMPUJE
 
-> Pecho + Tríceps + Hombro anterior (19 series)
+> Pecho + Tríceps + Hombro anterior (20 series)
 
 | # | Ejercicio | Series x Reps | Descanso | Notas |
 |---|-----------|---------------|----------|-------|
@@ -92,31 +94,32 @@ status: "FASE 1 activa — Semana 2"
 | 3 | Pec Deck | 3 x 12-15 | 60s | Contracción lenta arriba |
 | 4 | Press hombro máquina | 3 x 10-12 | 90s | — |
 | 5 | Elevaciones laterales mancuernas | 3 x 12-15 | 60s | Sin impulso, controlar bajada |
-| 6 | Extensión tríceps polea | 3 x 12-15 | 60s | Codos fijos |
+| 6 | Extensión tríceps polea | 4 x 12-15 | 60s | Codos fijos |
 
-> Pecho: 10 | Hombros: 6 | Tríceps: 3
+> **Total: 20 series**
 
 ---
 
-## 📅 DÍA 4 — JUEVES — PIERNA B
+## 📅 DÍA 4 — JUEVES — PIERNAS (Full Legs)
 
-> Isquios + Glúteos + Cuádriceps (16 series)
+> Cuádriceps + Isquios + Glúteos + Pantorrillas (20 series)
 
 | # | Ejercicio | Series x Reps | Descanso | Notas |
 |---|-----------|---------------|----------|-------|
-| 1 | Peso muerto rumano mancuernas | 4 x 10-12 | 90s | Sentir estiramiento en isquios, espalda neutra |
+| 1 | Prensa de piernas | 4 x 10-12 | 90s | Pies a la anchura de hombros |
 | 2 | Sentadilla búlgara mancuernas | 3 x 10-12/pierna | 90s | Pie trasero en banca |
 | 3 | Curl femoral acostado | 3 x 12-15 | 60s | — |
 | 4 | Hip thrust barra | 3 x 10-12 | 90s | Contracción glútea arriba, 2s |
-| 5 | Extensión cuádriceps máquina | 3 x 12-15 | 60s | — |
+| 5 | Elevación de talones en máquina | 4 x 12-15 | 60s | 2s arriba, 2s abajo |
 
-> Isquios/Glúteos: 10 | Cuádriceps: 3
+> Cuádriceps: 10 series | Isquios/Glúteos: 6 series | Pantorrillas: 4 series
+> **Total: 20 series**
 
 ---
 
 ## 📅 DÍA 5 — VIERNES — TIRÓN
 
-> Espalda + Bíceps + Trapecios (19 series)
+> Espalda + Bíceps + Trapecios (21 series)
 
 | # | Ejercicio | Series x Reps | Descanso | Notas |
 |---|-----------|---------------|----------|-------|
@@ -124,10 +127,10 @@ status: "FASE 1 activa — Semana 2"
 | 2 | Remo en polea baja | 3 x 10-12 | 90s | — |
 | 3 | Remo con mancuerna unilateral | 3 x 10-12 | 60s | Apoyar rodilla y mano en banca |
 | 4 | Face pull polea | 3 x 12-15 | 60s | Retracción escapular arriba |
-| 5 | Curl bíceps barra Z | 3 x 10-12 | 60s | Sin balanceo |
-| 6 | Curl martillo mancuernas | 3 x 10-12 | 60s | — |
+| 5 | Curl bíceps barra Z | 4 x 10-12 | 60s | Sin balanceo |
+| 6 | Curl martillo mancuernas | 4 x 10-12 | 60s | — |
 
-> Espalda: 10 | Bíceps: 6 | Trapecios: 3
+> **Total: 21 series**
 
 **SÁBADO — Descanso activo:** Movilidad articular, caminar 30 min
 **DOMINGO — Descanso total**
@@ -136,17 +139,19 @@ status: "FASE 1 activa — Semana 2"
 
 ## 📈 RESUMEN SEMANAL — VOLUMEN
 
-| Grupo Muscular | Lun UPPER | Mar PiernaA | Mié Empuje | Jue PiernaB | Vie Tirón | Total/sem | Rango óptimo |
+| Grupo Muscular | Lun UPPER | Mar PIERNAS | Mié EMPUJE | Jue PIERNAS | Vie TIRÓN | Total/sem | Rango óptimo |
 |---|---|---|---|---|---|---|---|
-| 🫁 Pecho | 4 | — | 10 | — | — | **14** | 10-20 ✓ |
+| 🫁 Pecho | 4 | — | 10 | — | — | **17** | 10-20 ✓ |
 | 💪 Espalda | 6 | — | — | — | 10 | **16** | 10-20 ✓ |
 | 🔹 Hombros | 6 | — | 6 | — | — | **12** | 10-16 ✓ |
-| 💪 Bíceps | 3 | — | — | — | 6 | **9** | 10-16 ⚠️ |
-| 💪 Tríceps | 3 | — | 3 | — | — | **6** | 10-12 ⚠️ |
-| 🦵 Cuádriceps | — | 10 | — | 3 | — | **13** | 10-16 ✓ |
-| 🦵 Isquios/Glúteos | — | — | — | 10 | — | **10** | 10-16 ✓ |
-| 🦶 Pantorrillas | — | 4 | — | — | — | **4** | 8-12 ⚠️ |
-| **Total** | **22** | **14** | **19** | **13** | **16** | **~84** | — |
+| 💪 Bíceps | 6 | — | — | — | 8 | **14** | 10-16 ✓ |
+| 💪 Tríceps | 3 | — | 4 | — | — | **12** | 10-12 ✓ |
+| 🦵 Cuádriceps | — | 10 | — | 10 | — | **20** | 10-16 ✓ |
+| 🦵 Isquios/Glúteos | — | 6 | — | 6 | — | **12** | 10-16 ✓ |
+| 🦶 Pantorrillas | — | 4 | — | 4 | — | **8** | 8-12 ✓ |
+| **Total** | **25** | **20** | **20** | **20** | **21** | **~111** | — |
+
+> **Nota:** Semanas de deload → reducir a ~55 series totales (50%).
 
 ---
 
@@ -184,7 +189,7 @@ status: "FASE 1 activa — Semana 2"
 
 #### 🟩 LUNES 30/06 — UPPER
 
-📅 PUSH — Lun 30/06
+📅 UPPER — Lun 30/06
 ⚡ Energía: 4/5
 
 | # | Ejercicio | Peso | Series | Reps | RIR |
@@ -200,9 +205,9 @@ status: "FASE 1 activa — Semana 2"
 
 ---
 
-#### 🟨 MARTES 30/06 — PIERNA A
+#### 🟨 MARTES 30/06 — PIERNAS
 
-📅 PIERNA A — Mar 30/06
+📅 PIERNAS — Mar 30/06
 ⚡ Energía: —
 
 | # | Ejercicio | Peso | Series | Reps | RIR |
@@ -223,20 +228,20 @@ status: "FASE 1 activa — Semana 2"
 
 ---
 
-#### 🟥 JUEVES 02/07 — PIERNA B
+#### 🟥 JUEVES 02/07 — PIERNAS
 
-📅 PIERNA B — Jue 02/07
+📅 PIERNAS — Jue 02/07
 ⚡ Energía: —
 
 | # | Ejercicio | Peso | Series | Reps | RIR |
 |---|-----------|------|--------|------|-----|
-| 1 | Peso muerto rumano mancuernas | — | — | — | — |
+| 1 | Prensa de piernas | — | — | — | — |
 | 2 | Sentadilla búlgara | 15kg (mancuerna) | — | — | — |
 | 3 | Curl femoral | 35kg | — | — | — |
 | 4 | Hip thrust barra | — | — | — | — |
-| 5 | Extensión cuádriceps | 10kg/lado | — | — | — |
+| 5 | Elevación talones | — | — | — | — |
 
-📝 Sentadilla smith 40kg (calentamiento). Pendiente completar registro de series/reps/RIR.
+📝 Sentadilla smith 40kg (calentamiento). Ext. cuádriceps 10kg/lado. Pendiente completar registro de series/reps/RIR.
 
 ---
 
@@ -251,9 +256,9 @@ status: "FASE 1 activa — Semana 2"
 | Día | Rutina | Notas |
 |-----|--------|-------|
 | Lun 30/06 | Upper | Press pecho +2.5kg |
-| Mar 30/06 | Pierna A | — |
+| Mar 30/06 | Piernas | — |
 | Mié 01/07 | Empuje | No registrado |
-| Jue 02/07 | Pierna B | En progreso |
+| Jue 02/07 | Piernas | En progreso |
 | Vie 03/07 | Tirón | — |
 
 ---
