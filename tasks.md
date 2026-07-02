@@ -27,7 +27,7 @@ source: "Mr. Jair — iOS / Telegram"
 | #   | Tarea                                                          | Ventana        | Estado | Prioridad |
 | --- | -------------------------------------------------------------- | -------------- | ------ | --------- |
 | 1   | 📚 Lectura diaria (20min)                                      | ⏰ 5:10 AM      | ⏳      | 🟢        |
-| 2   | 🏋️ Pierna B — Isquios + Glúteos + Cuádriceps (16 series)      | ⏰ 5:30-8:00 AM | ⏳      | 🔴        |
+| 2   | 🏋️ Piernas — Cuádriceps + Isquios + Glúteos + Pantorrillas (20 series) | ⏰ 5:30-8:00 AM | ⏳      | 🔴        |
 | 3   | 💊 Creatina 3-5g post-entreno                                  | ⏰ post-gym     | ⏳      | 🟢        |
 | 4   | 🎓 Meta Ads productos (60min)                                  | 🌙 6:30 PM     | ⏳      | 🔴        |
 | 5   | 🧠 IA diaria                                                   | 🌙 noche       | ⏳      | 🟡        |
