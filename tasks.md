@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `30 Jun 2026 — 20:09`
+### Última actualización: `02 Jul 2026 — 04:43`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -20,19 +20,19 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Martes 30/06
+## 🔥 HOY — Jueves 02/07
 
-> Martes de pierna: Pierna A en gym +.Meta Ads nicho + Hogar.
+> Jueves de pierna: Pierna B en gym + Meta Ads productos + IA diaria.
 
 | #   | Tarea                                                          | Ventana        | Estado | Prioridad |
 | --- | -------------------------------------------------------------- | -------------- | ------ | --------- |
 | 1   | 📚 Lectura diaria (20min)                                      | ⏰ 5:10 AM      | ⏳      | 🟢        |
-| 2   | 🏋️ Pierna A — Reto fitness junio (20 series)                  | ⏰ 5:30-8:00 AM | ✅      | 🔴        |
+| 2   | 🏋️ Pierna B — Isquios + Glúteos + Cuádriceps (16 series)      | ⏰ 5:30-8:00 AM | ⏳      | 🔴        |
 | 3   | 💊 Creatina 3-5g post-entreno                                  | ⏰ post-gym     | ⏳      | 🟢        |
-| 4   | 🎓 Meta Ads nicho (60min)                                      | 🌙 6:30 PM     | ⏳      | 🔴        |
-| 5   | 🏠 Hogar                                                       | 🌙 noche       | ⏳      | 🟡        |
+| 4   | 🎓 Meta Ads productos (60min)                                  | 🌙 6:30 PM     | ⏳      | 🔴        |
+| 5   | 🧠 IA diaria                                                   | 🌙 noche       | ⏳      | 🟡        |
 
-> **Resumen:** 1/5 completadas. Pierna A registrada en `Registro Sesiones.md`.
+> **Resumen:** 0/5 completadas. Pendientes del día.
 
 ---
 
