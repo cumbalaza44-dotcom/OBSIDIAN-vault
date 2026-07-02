@@ -22,7 +22,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 ## 🔥 HOY — Jueves 02/07
 
-> Jueves de pierna: Full legs en gym + Meta Ads productos + IA diaria.
+> Jueves de pierna: Pierna B en gym + Meta Ads productos + IA diaria.
 
 | #   | Tarea                                                          | Ventana        | Estado | Prioridad |
 | --- | -------------------------------------------------------------- | -------------- | ------ | --------- |
@@ -43,14 +43,14 @@ source: "Mr. Jair — iOS / Telegram"
 ## 📋 SEMANA 29 Jun – 5 Jul 2026 — Vista Rápida
 
 > Horario: L-V 8 AM-5 PM | Gym: 5:30-8:00 AM | Noche: 6:30-9:30 PM
-> **Split actualizado:** Upper / Piernas / Empuje / Piernas / Tirón
+> **Split actualizado:** Upper / Pierna A / Empuje / Pierna B / Tirón
 
 | Día | Mañana (5:10-8:50 AM) | Noche (6:30-9:30 PM) |
 |-----|-------------------|---------------------|
 | **Lun 29** | 📚 Lectura + 🏋️ Upper (22 series) | 🤖 Ghost Trader FASE 2 + 📝 Migrar notas |
-| **Mar 30** | 📚 Lectura + 🏋️ Piernas (20 series) | 🎓 Meta Ads nicho + 🏠 Hogar |
+| **Mar 30** | 📚 Lectura + 🏋️ Pierna A (17 series) | 🎓 Meta Ads nicho + 🏠 Hogar |
 | **Mié 01** | 📚 Lectura + 🏋️ Empuje (19 series) | 🤖 Ghost Trader FASE 4 + 🔬 Prototipo X |
-| **Jue 02** | 📚 Lectura + 🏋️ Piernas (20 series) | 🎓 Meta Ads productos + 🧠 IA diaria |
+| **Jue 02** | 📚 Lectura + 🏋️ Pierna B (16 series) | 🎓 Meta Ads productos + 🧠 IA diaria |
 | **Vie 03** | 📚 Lectura + 🏋️ Tirón (19 series) | 🤖 Ghost Trader FASE 1 + 🏍️ Moto |
 | **Sáb 04** | 📚 Lectura + 🏋️ Descanso activo | 🔬 Prototipo X + 📋 Revisión semanal |
 | **Dom 05** | 📚 Lectura | Descanso total |
