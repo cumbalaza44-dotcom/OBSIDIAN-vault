@@ -7,8 +7,9 @@
 | 01/07 | Destornillador | Hogar | $12,000 |
 | 01/07 | Almuerzo | Alimentación | $30,000 |
 | 02/07 | Bebida | Alimentación | $4,000 |
+| 02/07 | Desayuno | Alimentación | $14,000 |
 
-**Total julio:** $46,000
+**Total julio:** $60,000
 
 ---
 
