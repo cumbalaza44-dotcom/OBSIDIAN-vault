@@ -50,7 +50,7 @@ source: "Mr. Jair — iOS / Telegram"
 | **Lun 29** | 📚 Lectura + 🏋️ Upper (22 series) | 🤖 Ghost Trader FASE 2 + 📝 Migrar notas |
 | **Mar 30** | 📚 Lectura + 🏋️ Pierna A (17 series) | 🎓 Meta Ads nicho + 🏠 Hogar |
 | **Mié 01** | 📚 Lectura + 🏋️ Empuje (19 series) | 🤖 Ghost Trader FASE 4 + 🔬 Prototipo X |
-| **Jue 02** | 📚 Lectura + 🏋️ Pierna B (16 series) | 🎓 Meta Ads productos + 🧠 IA diaria |
+| **Jue 02** | 📚 Lectura + 🏋️ Piernas (20 series) | 🎓 Meta Ads productos + 🧠 IA diaria |
 | **Vie 03** | 📚 Lectura + 🏋️ Tirón (19 series) | 🤖 Ghost Trader FASE 1 + 🏍️ Moto |
 | **Sáb 04** | 📚 Lectura + 🏋️ Descanso activo | 🔬 Prototipo X + 📋 Revisión semanal |
 | **Dom 05** | 📚 Lectura | Descanso total |
