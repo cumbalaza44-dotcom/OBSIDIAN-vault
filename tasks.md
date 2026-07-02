@@ -22,12 +22,12 @@ source: "Mr. Jair — iOS / Telegram"
 
 ## 🔥 HOY — Jueves 02/07
 
-> Jueves de pierna: Full legs en gym + Meta Ads productos + IA diaria.
+> Jueves de gym + Meta Ads productos + IA diaria.
 
 | #   | Tarea                                                          | Ventana        | Estado | Prioridad |
 | --- | -------------------------------------------------------------- | -------------- | ------ | --------- |
 | 1   | 📚 Lectura diaria (20min)                                      | ⏰ 5:10 AM      | ⏳      | 🟢        |
-| 2   | 🏋️ Piernas — Full Legs (20 series)                 | ⏰ 5:30-8:00 AM | ⏳      | 🔴        |
+| 2   | 🏋️ Gym                                             | ⏰ 5:30-8:00 AM | ⏳      | 🔴        |
 | 3   | 💊 Creatina 3-5g post-entreno                                  | ⏰ post-gym     | ⏳      | 🟢        |
 | 4   | 🎓 Meta Ads productos (60min)                                  | 🌙 6:30 PM     | ⏳      | 🔴        |
 | 5   | 🧠 IA diaria                                                   | 🌙 noche       | ⏳      | 🟡        |
@@ -43,15 +43,15 @@ source: "Mr. Jair — iOS / Telegram"
 ## 📋 SEMANA 29 Jun – 5 Jul 2026 — Vista Rápida
 
 > Horario: L-V 8 AM-5 PM | Gym: 5:30-8:00 AM | Noche: 6:30-9:30 PM
-> **Split actualizado:** Upper / Pierna A / Empuje / Pierna B / Tirón
+> **Pendiente:** reconstruir rutina a las 6:00 PM
 
 | Día | Mañana (5:10-8:50 AM) | Noche (6:30-9:30 PM) |
 |-----|-------------------|---------------------|
-| **Lun 29** | 📚 Lectura + 🏋️ Upper (22 series) | 🤖 Ghost Trader FASE 2 + 📝 Migrar notas |
-| **Mar 30** | 📚 Lectura + 🏋️ Piernas (20 series) | 🎓 Meta Ads nicho + 🏠 Hogar |
-| **Mié 01** | 📚 Lectura + 🏋️ Empuje (19 series) | 🤖 Ghost Trader FASE 4 + 🔬 Prototipo X |
-| **Jue 02** | 📚 Lectura + 🏋️ Piernas (20 series) | 🎓 Meta Ads productos + 🧠 IA diaria |
-| **Vie 03** | 📚 Lectura + 🏋️ Tirón (19 series) | 🤖 Ghost Trader FASE 1 + 🏍️ Moto |
+| **Lun 29** | 📚 Lectura + 🏋️ Gym | 🤖 Ghost Trader FASE 2 + 📝 Migrar notas |
+| **Mar 30** | 📚 Lectura + 🏋️ Gym | 🎓 Meta Ads nicho + 🏠 Hogar |
+| **Mié 01** | 📚 Lectura + 🏋️ Gym | 🤖 Ghost Trader FASE 4 + 🔬 Prototipo X |
+| **Jue 02** | 📚 Lectura + 🏋️ Gym | 🎓 Meta Ads productos + 🧠 IA diaria |
+| **Vie 03** | 📚 Lectura + 🏋️ Gym | 🤖 Ghost Trader FASE 1 + 🏍️ Moto |
 | **Sáb 04** | 📚 Lectura + 🏋️ Descanso activo | 🔬 Prototipo X + 📋 Revisión semanal |
 | **Dom 05** | 📚 Lectura | Descanso total |
 
