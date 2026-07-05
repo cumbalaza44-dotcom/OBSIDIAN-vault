@@ -94,6 +94,7 @@ source: "Mr. Jair — iOS / Telegram"
 - [ ] Documentar relación de distancia para alineamiento del eje trasero
 - [ ] Revisar bujía (pendiente — cascabeleo 4k-6k RPM)
 - [ ] Comprar empaque culatín de moto
+- [ ] Cambio de aceite moto (martes 07/07)
 
 ### 🏠 Hogar
 - [x] Sartén
