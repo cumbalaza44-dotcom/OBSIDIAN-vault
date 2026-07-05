@@ -93,6 +93,7 @@ source: "Mr. Jair — iOS / Telegram"
 - [x] Lavado y mantenimiento (27/06 — cadena alineada, caja filtro limpia)
 - [ ] Documentar relación de distancia para alineamiento del eje trasero
 - [ ] Revisar bujía (pendiente — cascabeleo 4k-6k RPM)
+- [ ] Comprar empaque culatín de moto
 
 ### 🏠 Hogar
 - [x] Sartén
