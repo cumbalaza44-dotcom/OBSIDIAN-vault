@@ -20,19 +20,19 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Jueves 02/07
+## 🔥 MAÑANA — Lunes 06/07
 
-> Jueves de gym + Meta Ads productos + IA diaria.
+> Lunes de arranque semanal. Meta Ads nicho + revisión general.
 
 | #   | Tarea                                                          | Ventana        | Estado | Prioridad |
 | --- | -------------------------------------------------------------- | -------------- | ------ | --------- |
-| 1   | 📚 Lectura diaria (20min)                                      | ⏰ 5:10 AM      | ✅      | 🟢        |
-| 2   | 🏋️ Gym                                             | ⏰ 5:30-8:00 AM | ✅      | 🔴        |
+| 1   | 📚 Lectura diaria (20min)                                      | ⏰ 5:10 AM      | ⏳      | 🟢        |
+| 2   | 🏋️ Gym                                             | ⏰ 5:30-8:00 AM | ⏳      | 🔴        |
 | 3   | 💊 Creatina 3-5g post-entreno                                  | ⏰ post-gym     | ⏳      | 🟢        |
-| 4   | 🎓 Meta Ads productos (60min)                                  | 🌙 6:30 PM     | ⏳      | 🔴        |
+| 4   | 🎓 Meta Ads: definir nicho específico (60min)                  | 🌙 6:30 PM     | ⏳      | 🔴        |
 | 5   | 🧠 IA diaria                                                   | 🌙 noche       | ⏳      | 🟡        |
 
-> **Resumen:** 2/5 completadas. Pendientes: Creatina, Meta Ads, IA diaria.
+> **Resumen:** Arranque de semana. Enfoque: Meta Ads nicho.
 
 ---
 
@@ -40,20 +40,20 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 📋 SEMANA 29 Jun – 5 Jul 2026 — Vista Rápida
+## 📋 SEMANA 6 Jul – 12 Jul 2026 — Vista Rápida
 
 > Horario: L-V 8 AM-5 PM | Gym: 5:30-8:00 AM | Noche: 6:30-9:30 PM
-> **Pendiente:** reconstruir rutina a las 6:00 PM
+> **Cambio de aceite moto: martes 07/07** 🔴
 
 | Día | Mañana (5:10-8:50 AM) | Noche (6:30-9:30 PM) |
 |-----|-------------------|---------------------|
-| **Lun 29** | 📚 Lectura + 🏋️ Gym | 🤖 Ghost Trader FASE 2 + 📝 Migrar notas |
-| **Mar 30** | 📚 Lectura + 🏋️ Gym | 🎓 Meta Ads nicho + 🏠 Hogar |
-| **Mié 01** | 📚 Lectura + 🏋️ Gym | 🤖 Ghost Trader FASE 4 + 🔬 Prototipo X |
-| **Jue 02** | 📚 Lectura + 🏋️ Gym | 🎓 Meta Ads productos + 🧠 IA diaria |
-| **Vie 03** | 📚 Lectura + 🏋️ Gym | 🤖 Ghost Trader FASE 1 + 🏍️ Moto |
-| **Sáb 04** | 📚 Lectura + 🏋️ Descanso activo | 🔬 Prototipo X + 📋 Revisión semanal |
-| **Dom 05** | 📚 Lectura | Descanso total |
+| **Lun 06** | 📚 Lectura + 🏋️ Gym | 🎓 Meta Ads nicho + 🧠 IA diaria |
+| **Mar 07** | 📚 Lectura + 🏋️ Gym | 🏍️ Cambio aceite moto + 🎓 Meta Ads productos |
+| **Mié 08** | 📚 Lectura + 🏋️ Gym | 🔬 Prototipo X: definir plataforma + 🧠 IA diaria |
+| **Jue 09** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: 5 competidores + 🎓 E-Commerce storytelling |
+| **Vie 10** | 📚 Lectura + 🏋️ Gym | 🏠 Hogar: ciclo de trabajo + 📋 Revisión semanal |
+| **Sáb 11** | 📚 Lectura + 🏋️ Descanso activo | 🔬 Prototipo X + 🧠 IA diaria |
+| **Dom 12** | 📚 Lectura | Descanso total |
 
 ---
 
@@ -94,7 +94,7 @@ source: "Mr. Jair — iOS / Telegram"
 - [ ] Documentar relación de distancia para alineamiento del eje trasero
 - [ ] Revisar bujía (pendiente — cascabeleo 4k-6k RPM)
 - [ ] Comprar empaque culatín de moto
-- [ ] Cambio de aceite moto (martes 07/07)
+- [ ] Cambio de aceite moto (martes 07/07) ← **Esta semana**
 
 ### 🏠 Hogar
 - [x] Sartén
