@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `05 Jul 2026 — 20:00`
+### Última actualización: `07 Jul 2026 — 07:26`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -48,7 +48,7 @@ source: "Mr. Jair — iOS / Telegram"
 | Día | Mañana (5:10-8:50 AM) | Noche (6:30-9:30 PM) |
 |-----|-------------------|---------------------|
 | **Lun 06** | 📚 Lectura + 🏋️ Gym | 🎓 Meta Ads nicho + 🧠 IA diaria |
-| **Mar 07** | 📚 Lectura + 🏋️ Gym | 🏍️ Cambio aceite moto + 🎓 Meta Ads: estructurar 1ra campaña de venta |
+| **Mar 07** | ✅ 📚 Lectura + ✅ 🏋️ Gym + ✅ 💊 Creatina | 🏍️ Cambio aceite moto + 🎓 Meta Ads: estructurar 1ra campaña de venta |
 | **Mié 08** | 📚 Lectura + 🏋️ Gym | 🔬 Prototipo X: definir plataforma + 🧠 IA diaria |
 | **Jue 09** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: 5 competidores + 🎓 E-Commerce storytelling |
 | **Vie 10** | 📚 Lectura + 🏋️ Gym | 🏠 Hogar: ciclo de trabajo + 📋 Revisión semanal |
