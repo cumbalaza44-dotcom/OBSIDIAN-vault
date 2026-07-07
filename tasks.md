@@ -29,7 +29,7 @@ source: "Mr. Jair — iOS / Telegram"
 | 1   | 📚 Lectura diaria (20min)                                      | ⏰ 5:10 AM      | ✅      | 🟢        |
 | 2   | 🏋️ Gym                                             | ⏰ 5:30-8:00 AM | ✅      | 🔴        |
 | 3   | 💊 Creatina 3-5g post-entreno                                  | ⏰ post-gym     | ✅      | 🟢        |
-| 4   | 🎓 Meta Ads: definir nicho específico (60min)                  | 🌙 6:30 PM     | ⏳      | 🔴        |
+| 4   | 🎓 Meta Ads: curso corto campañas de venta ✅               | 🌙 6:30 PM     | ✅      | 🔴        |
 | 5   | 🧠 IA diaria                                                   | 🌙 noche       | ⏳      | 🟡        |
 
 > **Resumen:** Arranque de semana. Enfoque: Meta Ads nicho.
