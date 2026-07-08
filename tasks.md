@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `07 Jul 2026 — 07:26`
+### Última actualización: `07 Jul 2026 — 19:07`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -43,7 +43,7 @@ source: "Mr. Jair — iOS / Telegram"
 ## 📋 SEMANA 6 Jul – 12 Jul 2026 — Vista Rápida
 
 > Horario: L-V 8 AM-5 PM | Gym: 5:30-8:00 AM | Noche: 6:30-9:30 PM
-> **Cambio de aceite moto: martes 07/07** 🔴
+> **Cambio de aceite moto: miércoles 08/07** 🔴
 
 | Día | Mañana (5:10-8:50 AM) | Noche (6:30-9:30 PM) |
 |-----|-------------------|---------------------|
