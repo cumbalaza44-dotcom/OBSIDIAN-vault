@@ -48,8 +48,8 @@ source: "Mr. Jair — iOS / Telegram"
 | Día | Mañana (5:10-8:50 AM) | Noche (6:30-9:30 PM) |
 |-----|-------------------|---------------------|
 | **Lun 06** | 📚 Lectura + 🏋️ Gym | 🎓 Meta Ads nicho + 🧠 IA diaria |
-| **Mar 07** | ✅ 📚 Lectura + ✅ 🏋️ Gym + ✅ 💊 Creatina | 🏍️ Cambio aceite moto + 🎓 Meta Ads: estructurar 1ra campaña de venta |
-| **Mié 08** | 📚 Lectura + 🏋️ Gym | 🔬 Prototipo X: definir plataforma + 🧠 IA diaria |
+| **Mar 07** | ✅ 📚 Lectura + ✅ 🏋️ Gym + ✅ 💊 Creatina | 🎓 Meta Ads: estructurar 1ra campaña de venta |
+| **Mié 08** | 📚 Lectura + 🏋️ Gym + 💊 Creatina | 🏍️ Cambio aceite moto + 🔬 Prototipo X: definir plataforma + 🧠 IA diaria |
 | **Jue 09** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: 5 competidores + 🎓 E-Commerce storytelling |
 | **Vie 10** | 📚 Lectura + 🏋️ Gym | 🏠 Hogar: ciclo de trabajo + 📋 Revisión semanal |
 | **Sáb 11** | 📚 Lectura + 🏋️ Descanso activo | 🔬 Prototipo X + 🧠 IA diaria |
@@ -94,11 +94,12 @@ source: "Mr. Jair — iOS / Telegram"
 - [ ] Documentar relación de distancia para alineamiento del eje trasero
 - [ ] Revisar bujía (pendiente — cascabeleo 4k-6k RPM)
 - [ ] Comprar empaque culatín de moto
-- [ ] Cambio de aceite moto (martes 07/07) ← **Esta semana**
+- [ ] Cambio de aceite moto (miércoles 08/07) ← **Esta semana**
 
 ### 🏠 Hogar
 - [x] Sartén
 - [x] Organizar habitación
+- [ ] Comprar porción de aceite de coco
 - [ ] Ciclo de trabajo
 - [ ] Rediseño para plan de mejora
 - [ ] Lavar prendas
