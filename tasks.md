@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `07 Jul 2026 — 19:07`
+### Última actualización: `08 Jul 2026 — 19:54`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -49,10 +49,10 @@ source: "Mr. Jair — iOS / Telegram"
 |-----|-------------------|---------------------|
 | **Lun 06** | 📚 Lectura + 🏋️ Gym | 🎓 Meta Ads nicho + 🧠 IA diaria |
 | **Mar 07** | ✅ 📚 Lectura + ✅ 🏋️ Gym + ✅ 💊 Creatina | 🎓 Meta Ads: estructurar 1ra campaña de venta |
-| **Mié 08** | 📚 Lectura + 🏋️ Gym + 💊 Creatina | 🏍️ Cambio aceite moto + 🔬 Prototipo X: definir plataforma + 🧠 IA diaria |
-| **Jue 09** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: 5 competidores + 🎓 E-Commerce storytelling |
+| **Mié 08** | 📚 Lectura + 🏋️ Gym + 💊 Creatina | 🔬 Prototipo X: definir plataforma + 🧠 IA diaria |
+| **Jue 09** | 📚 Lectura + 🏋️ Gym + 🧴 Aceite de coco | 📢 Meta Ads: 5 competidores + 🎓 E-Commerce storytelling |
 | **Vie 10** | 📚 Lectura + 🏋️ Gym | 🏠 Hogar: ciclo de trabajo + 📋 Revisión semanal |
-| **Sáb 11** | 📚 Lectura + 🏋️ Descanso activo | 🔬 Prototipo X + 🧠 IA diaria |
+| **Sáb 11** | 📚 Lectura + 🏋️ Descanso activo | 🏍️ Cambio aceite moto + 🔬 Prototipo X + 🧠 IA diaria |
 | **Dom 12** | 📚 Lectura | Descanso total |
 
 ---
@@ -94,12 +94,12 @@ source: "Mr. Jair — iOS / Telegram"
 - [ ] Documentar relación de distancia para alineamiento del eje trasero
 - [ ] Revisar bujía (pendiente — cascabeleo 4k-6k RPM)
 - [ ] Comprar empaque culatín de moto
-- [ ] Cambio de aceite moto (miércoles 08/07) ← **Esta semana**
+- [ ] Cambio de aceite moto (sábado 11/07) ← **Reprogramado**
 
 ### 🏠 Hogar
 - [x] Sartén
 - [x] Organizar habitación
-- [ ] Comprar porción de aceite de coco
+- [ ] Comprar porción de aceite de coco ← **Mañana Jue 09**
 - [ ] Ciclo de trabajo
 - [ ] Rediseño para plan de mejora
 - [ ] Lavar prendas
