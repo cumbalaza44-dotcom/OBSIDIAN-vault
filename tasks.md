@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `08 Jul 2026 — 19:54`
+### Última actualización: `10 Jul 2026 — 13:01`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -51,7 +51,7 @@ source: "Mr. Jair — iOS / Telegram"
 | **Mar 07** | ✅ 📚 Lectura + ✅ 🏋️ Gym + ✅ 💊 Creatina | 🎓 Meta Ads: estructurar 1ra campaña de venta |
 | **Mié 08** | 📚 Lectura + 🏋️ Gym + 💊 Creatina | 🔬 Prototipo X: definir plataforma + 🧠 IA diaria |
 | **Jue 09** | 📚 Lectura + 🏋️ Gym + 🧴 Aceite de coco | 📢 Meta Ads: 5 competidores + 🎓 E-Commerce storytelling |
-| **Vie 10** | 📚 Lectura + 🏋️ Gym | 🏠 Hogar: ciclo de trabajo + 📋 Revisión semanal |
+| **Vie 10** | ✅ 📚 Lectura + ✅ 🏋️ Gym | 🏠 Hogar: ciclo de trabajo + 📋 Revisión semanal |
 | **Sáb 11** | 📚 Lectura + 🏋️ Descanso activo | 🏍️ Cambio aceite moto + 🔬 Prototipo X + 🧠 IA diaria |
 | **Dom 12** | 📚 Lectura | Descanso total |
 
@@ -117,6 +117,9 @@ source: "Mr. Jair — iOS / Telegram"
 ## 🧠 HÁBITOS
 
 ### ✅ Completados reciente
+- [x] 📚 Lectura diaria (Vie 10/07)
+- [x] 🏋️ Gym (Vie 10/07)
+- [x] 💊 Creatina (Vie 10/07)
 - [x] Compra tenis para gym
 - [x] Compra sudaderas para gym
 - [x] Afeitarse
