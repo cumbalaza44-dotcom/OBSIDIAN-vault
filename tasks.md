@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `10 Jul 2026 — 13:01`
+### Última actualización: `12 Jul 2026 — 20:00`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -20,40 +20,35 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 MAÑANA — Lunes 06/07
+## 🔥 MAÑANA — Lunes 13/07
 
-> Lunes de arranque semanal. Meta Ads nicho + revisión general.
+> Lunes de arranque semanal. Meta Ads: definir nicho + retomar rutina.
 
 | #   | Tarea                                                          | Ventana        | Estado | Prioridad |
 | --- | -------------------------------------------------------------- | -------------- | ------ | --------- |
-| 1   | 📚 Lectura diaria (20min)                                      | ⏰ 5:10 AM      | ✅      | 🟢        |
-| 2   | 🏋️ Gym                                             | ⏰ 5:30-8:00 AM | ✅      | 🔴        |
-| 3   | 💊 Creatina 3-5g post-entreno                                  | ⏰ post-gym     | ✅      | 🟢        |
-| 4   | 🎓 Meta Ads: curso corto campañas de venta ✅               | 🌙 6:30 PM     | ✅      | 🔴        |
+| 1   | 📚 Lectura diaria (20min)                                      | ⏰ 5:10 AM      | ⏳      | 🟢        |
+| 2   | 🏋️ Gym                                             | ⏰ 5:30-8:00 AM | ⏳      | 🔴        |
+| 3   | 💊 Creatina 3-5g post-entreno                                  | ⏰ post-gym     | ⏳      | 🟢        |
+| 4   | 📢 Meta Ads: definir nicho específico                          | 🌙 6:30 PM     | ⏳      | 🔴        |
 | 5   | 🧠 IA diaria                                                   | 🌙 noche       | ⏳      | 🟡        |
 
-> **Resumen:** Arranque de semana. Enfoque: Meta Ads nicho.
+> **Resumen:** Arranque de semana. Enfoque: Meta Ads — definición de nicho.
 
 ---
 
-
-
----
-
-## 📋 SEMANA 6 Jul – 12 Jul 2026 — Vista Rápida
+## 📋 SEMANA 13 Jul – 19 Jul 2026 — Vista Rápida
 
 > Horario: L-V 8 AM-5 PM | Gym: 5:30-8:00 AM | Noche: 6:30-9:30 PM
-> **Cambio de aceite moto: miércoles 08/07** 🔴
 
 | Día | Mañana (5:10-8:50 AM) | Noche (6:30-9:30 PM) |
 |-----|-------------------|---------------------|
-| **Lun 06** | 📚 Lectura + 🏋️ Gym | 🎓 Meta Ads nicho + 🧠 IA diaria |
-| **Mar 07** | ✅ 📚 Lectura + ✅ 🏋️ Gym + ✅ 💊 Creatina | 🎓 Meta Ads: estructurar 1ra campaña de venta |
-| **Mié 08** | 📚 Lectura + 🏋️ Gym + 💊 Creatina | 🔬 Prototipo X: definir plataforma + 🧠 IA diaria |
-| **Jue 09** | 📚 Lectura + 🏋️ Gym + 🧴 Aceite de coco | 📢 Meta Ads: 5 competidores + 🎓 E-Commerce storytelling |
-| **Vie 10** | ✅ 📚 Lectura + ✅ 🏋️ Gym | 🏠 Hogar: ciclo de trabajo + 📋 Revisión semanal |
-| **Sáb 11** | 📚 Lectura + 🏋️ Descanso activo | 🏍️ Cambio aceite moto + 🔬 Prototipo X + 🧠 IA diaria |
-| **Dom 12** | 📚 Lectura | Descanso total |
+| **Lun 13** | 📚 Lectura + 🏋️ Gym + 💊 Creatina | 📢 Meta Ads: definir nicho específico + 🧠 IA diaria |
+| **Mar 14** | 📚 Lectura + 🏋️ Gym + 💊 Creatina | 📢 Meta Ads: público objetivo + presupuesto inicial |
+| **Mié 15** | 📚 Lectura + 🏋️ Gym + 💊 Creatina | 🔬 Prototipo X: definir plataforma hardware + 🧠 IA diaria |
+| **Jue 16** | 📚 Lectura + 🏋️ Gym + 🧴 Aceite de coco | 📢 Meta Ads: 5 competidores (Ad Library) + 🛒 Storytelling venta |
+| **Vie 17** | 📚 Lectura + 🏋️ Gym | 🏢 Empresa: fórmula edición Instagram + 🏠 Ciclo de trabajo + 📋 Revisión semanal |
+| **Sáb 18** | 📚 Lectura + 🏋️ Descanso activo | 🏍️ Cambio aceite moto + revisar bujía + 🔬 Prototipo X |
+| **Dom 19** | 📚 Lectura | Descanso total |
 
 ---
 
