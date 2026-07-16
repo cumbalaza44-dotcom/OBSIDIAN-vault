@@ -42,9 +42,9 @@ source: "Mr. Jair — iOS / Telegram"
 
 | Día | Mañana (5:10-8:50 AM) | Noche (6:30-9:30 PM) |
 |-----|-------------------|---------------------|
-| **Lun 13** | 📚 Lectura + 🏋️ Gym + 💊 Creatina | 📢 Meta Ads: definir nicho específico + 🧠 IA diaria |
-| **Mar 14** | 📚 Lectura + 🏋️ Gym + 💊 Creatina | 📢 Meta Ads: público objetivo + presupuesto inicial |
-| **Mié 15** | 📚 Lectura + 🏋️ Gym + 💊 Creatina | 🔬 Prototipo X: definir plataforma hardware + 🧠 IA diaria |
+| **Lun 13** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: definir nicho específico + 💊 Creatina + 🧠 IA diaria |
+| **Mar 14** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: público objetivo + 💊 Creatina |
+| **Mié 15** | 📚 Lectura + 🏋️ Gym | 🔬 Prototipo X + 💊 Creatina + 🧠 IA diaria |
 | **Jue 16** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: 5 competidores (Ad Library) + 💊 Creatina |
 | **Vie 17** | 📚 Lectura + 🏋️ Gym | 🏢 Empresa: fórmula edición Instagram + 🏠 Ciclo de trabajo + 📋 Revisión semanal |
 | **Sáb 18** | 📚 Lectura + 🏋️ Descanso activo | 🏍️ Cambio aceite moto + revisar bujía + 🔬 Prototipo X |
