@@ -45,7 +45,7 @@ source: "Mr. Jair — iOS / Telegram"
 | **Lun 13** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: definir nicho específico + 💊 Creatina + 🧠 IA diaria |
 | **Mar 14** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: público objetivo + 💊 Creatina |
 | **Mié 15** | 📚 Lectura + 🏋️ Gym | 🔬 Prototipo X + 💊 Creatina + 🧠 IA diaria |
-| **Jue 16** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: 5 competidores (Ad Library) + 💊 Creatina |
+| **Jue 16** | 📚 Lectura ✅ | 🤖 Ghost Trader bot + 💊 Creatina |
 | **Vie 17** | 📚 Lectura + 🏋️ Gym | 🏢 Empresa: fórmula edición Instagram + 🏠 Ciclo de trabajo + 📋 Revisión semanal |
 | **Sáb 18** | 📚 Lectura + 🏋️ Descanso activo | 🏍️ Cambio aceite moto + revisar bujía + 🔬 Prototipo X |
 | **Dom 19** | 📚 Lectura | Descanso total |
@@ -75,6 +75,11 @@ source: "Mr. Jair — iOS / Telegram"
 - [ ] 👥 Analizar 5 competidores (Ad Library)
 - [ ] 🎯 Definir público objetivo
 - [ ] 💰 Establecer presupuesto inicial ($5-10 USD/día)
+
+### 🤖 Ghost Trader Bot
+- [ ] Desarrollo del bot MT5
+- [ ] Estrategia + lógica de trading
+- [ ] Prototipo funcional
 
 ### 🛒 E-Commerce & Marketing
 - [ ] Aprender storytelling de venta
