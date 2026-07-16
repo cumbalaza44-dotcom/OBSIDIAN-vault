@@ -43,7 +43,7 @@
 - [ ] Conservación de Energía — No puedes ganar sin invertir
 
 ### 🧘 Filosofía / Sabiduría Antigua (Jueves)
-- [ ] Estoicismo: Controla lo que puedes, suelta lo que no (Epicteto)
+- [x] Estoicismo: Controla lo que puedes, suelta lo que no (Epcteto) — 2026-07-16
 - [ ] Tao: El camino del agua — fluir, no forzar (Lao Tse)
 - [ ] Meditaciones: Diario de un emperador filósofo (Marco Aurelio)
 - [ ] El arte de la guerra: Conócete a ti mismo (Sun Tzu)
@@ -61,4 +61,9 @@
 - [ ] Mentalismo + Meditación: El poder de la mente enfocada
 
 ## Log de Lecturas
+
+| Fecha | Categoría | Ley/Concepto |
+|-------|-----------|---------------|
+| 2026-07-16 | 🧘 Filosofía | Estoicismo: Controla lo que puedes, suelta lo que no (Epicteto) |
+
 *(Se actualiza diariamente con la lectura entregada)*
