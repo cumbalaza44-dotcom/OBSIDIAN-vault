@@ -28,7 +28,7 @@ source: "Mr. Jair — iOS / Telegram"
 | --- | -------------------------------------------------------------- | -------------- | ------ | --------- |
 | 1   | 📚 Lectura diaria (20min)                                      | ⏰ 5:10 AM      | ⏳      | 🟢        |
 | 2   | 🏋️ Gym                                             | ⏰ 5:30-8:00 AM | ⏳      | 🔴        |
-| 3   | 💊 Creatina 3-5g post-entreno                                  | ⏰ post-gym     | ⏳      | 🟢        |
+| 3   | 💊 Creatina 3-5g                                               | 🌙 noche        | ⏳      | 🟢        |
 | 4   | 📢 Meta Ads: definir nicho específico                          | 🌙 6:30 PM     | ⏳      | 🔴        |
 | 5   | 🧠 IA diaria                                                   | 🌙 noche       | ⏳      | 🟡        |
 
@@ -45,7 +45,7 @@ source: "Mr. Jair — iOS / Telegram"
 | **Lun 13** | 📚 Lectura + 🏋️ Gym + 💊 Creatina | 📢 Meta Ads: definir nicho específico + 🧠 IA diaria |
 | **Mar 14** | 📚 Lectura + 🏋️ Gym + 💊 Creatina | 📢 Meta Ads: público objetivo + presupuesto inicial |
 | **Mié 15** | 📚 Lectura + 🏋️ Gym + 💊 Creatina | 🔬 Prototipo X: definir plataforma hardware + 🧠 IA diaria |
-| **Jue 16** | 📚 Lectura + 🏋️ Gym + 🧴 Aceite de coco | 📢 Meta Ads: 5 competidores (Ad Library) + 🛒 Storytelling venta |
+| **Jue 16** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: 5 competidores (Ad Library) + 💊 Creatina |
 | **Vie 17** | 📚 Lectura + 🏋️ Gym | 🏢 Empresa: fórmula edición Instagram + 🏠 Ciclo de trabajo + 📋 Revisión semanal |
 | **Sáb 18** | 📚 Lectura + 🏋️ Descanso activo | 🏍️ Cambio aceite moto + revisar bujía + 🔬 Prototipo X |
 | **Dom 19** | 📚 Lectura | Descanso total |
