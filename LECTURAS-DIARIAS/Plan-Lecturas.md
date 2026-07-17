@@ -57,7 +57,7 @@
 - [ ] Vibración + Atracción: La ciencia detrás de "piensa y serás rico"
 - [ ] Polaridad + Equilibrio Yin-Yang: Dualidad en los negocios
 - [ ] Gravedad + Sacrificio: El peso de las decisiones
-- [ ] Incertidumbre + Tao: Abrazar lo desconocido
+- [x] Incertidumbre + Tao: Abrazar lo desconocido — 2026-07-17
 - [ ] Mentalismo + Meditación: El poder de la mente enfocada
 
 ## Log de Lecturas
@@ -65,5 +65,6 @@
 | Fecha | Categoría | Ley/Concepto |
 |-------|-----------|---------------|
 | 2026-07-16 | 🧘 Filosofía | Estoicismo: Controla lo que puedes, suelta lo que no (Epicteto) |
+| 2026-07-17 | 🔮 Mezcla | Incertidumbre + Tao: Abrazar lo desconocido |
 
 *(Se actualiza diariamente con la lectura entregada)*
