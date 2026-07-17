@@ -46,7 +46,7 @@ source: "Mr. Jair — iOS / Telegram"
 | **Mar 14** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: público objetivo + 💊 Creatina |
 | **Mié 15** | 📚 Lectura + 🏋️ Gym | 🔬 Prototipo X + 💊 Creatina + 🧠 IA diaria |
 | **Jue 16** | 📚 Lectura ✅ | 🤖 Ghost Trader bot + 💊 Creatina |
-| **Vie 17** | 📚 Lectura + 🏋️ Gym | 🏢 Empresa: fórmula edición Instagram + 🏠 Ciclo de trabajo + 📋 Revisión semanal |
+| **Vie 17** | 📚 Lectura + 🏋️ Gym | 🏢 Empresa: fórmula edición Instagram + 🏠 Ciclo de trabajo + 📋 Revisión semanal + 💊 Creatina |
 | **Sáb 18** | 📚 Lectura + 🏋️ Descanso activo | 🏍️ Cambio aceite moto + revisar bujía + 🔬 Prototipo X |
 | **Dom 19** | 📚 Lectura | Descanso total |
 
