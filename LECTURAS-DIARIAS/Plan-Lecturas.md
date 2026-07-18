@@ -16,9 +16,9 @@
 ## Catálogo de Leyes (Progreso)
 
 ### 🔄 Leyes Herméticas (Lunes)
+- [x] Ley de Vibración — "Todo se mueve, todo vibra" — 2026-07-18
 - [ ] Ley del Mentalismo — "El Universo es Mental"
 - [ ] Ley de Correspondencia — "Como es arriba, es abajo"
-- [ ] Ley de Vibración — "Todo se mueve, todo vibra"
 - [ ] Ley de Polaridad — "Todo es dual"
 - [ ] Ley de Ritmo — "Todo fluye y refluye"
 - [ ] Ley de Causa y Efecto — "Toda causa tiene su efecto"
@@ -66,5 +66,6 @@
 |-------|-----------|---------------|
 | 2026-07-16 | 🧘 Filosofía | Estoicismo: Controla lo que puedes, suelta lo que no (Epicteto) |
 | 2026-07-17 | 🔮 Mezcla | Incertidumbre + Tao: Abrazar lo desconocido |
+| 2026-07-18 | 🔄 Herméticas | Ley de Vibración — Todo se mueve, todo vibra |
 
 *(Se actualiza diariamente con la lectura entregada)*
