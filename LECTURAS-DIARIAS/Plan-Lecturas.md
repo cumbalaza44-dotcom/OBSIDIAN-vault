@@ -58,7 +58,7 @@
 - [ ] Polaridad + Equilibrio Yin-Yang: Dualidad en los negocios
 - [ ] Gravedad + Sacrificio: El peso de las decisiones
 - [x] Incertidumbre + Tao: Abrazar lo desconocido — 2026-07-17
-- [ ] Mentalismo + Meditación: El poder de la mente enfocada
+- [x] Mentalismo + Meditación: El poder de la mente enfocada — 2026-07-19
 
 ## Log de Lecturas
 
@@ -67,5 +67,6 @@
 | 2026-07-16 | 🧘 Filosofía | Estoicismo: Controla lo que puedes, suelta lo que no (Epicteto) |
 | 2026-07-17 | 🔮 Mezcla | Incertidumbre + Tao: Abrazar lo desconocido |
 | 2026-07-18 | 🔄 Herméticas | Ley de Vibración — Todo se mueve, todo vibra |
+| 2026-07-19 | 🔮 Mezcla | Mentalismo + Meditación: El poder de la mente enfocada |
 
 *(Se actualiza diariamente con la lectura entregada)*
