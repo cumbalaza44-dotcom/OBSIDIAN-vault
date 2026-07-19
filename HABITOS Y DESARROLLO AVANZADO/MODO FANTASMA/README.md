@@ -31,6 +31,7 @@ version: 1.0
 | **3** | 📸 Captura (foto/video/audio) | 5 min | Capturar |
 | **4** | 🗣️ Comunicar la idea (voz o texto) | 5 min | Comunicar |
 | **5** | 🧩 Documentar + conectar | 5 min | Documentar |
+| **6** | 💰 Registrar gastos del día | 2 min | Finanzas |
 
 ---
 
@@ -85,11 +86,38 @@ version: 1.0
 
 ---
 
+## 💰 Control de Gastos Diario
+
+Cada nota diaria incluye una sección de gastos al final:
+
+| Campo | Descripción |
+|-------|-------------|
+| **¿Ocurrieron gastos?** | Sí/No — responder siempre |
+| **Tabla de gastos** | Concepto, categoría, monto, nota |
+| **Total del día** | Suma de gastos del día |
+| **Acumulado semanal** | Suma de la semana en curso |
+| **Presupuesto restante** | Si hay tope definido |
+
+### Categorías sugeridas
+- 🍽️ Alimentación
+- 🚗 Transporte
+- 🏠 Hogar
+- 💊 Salud/Suplementos
+- 📱 Tecnología
+- 🎯 Proyectos
+- 🎭 Ocio/Personal
+- 📦 Otros
+
+> **Regla:** Si no hubo gastos → marcar "✅ Día sin gastos". Si los hubo → anotarlos todos, sin excepción. Lo que no se mide, no se controla.
+
+---
+
 ## 🔄 Ciclo de Mejora Continua
 
 ### Diario
 - Autoevaluación: claridad (1-10), composición (1-10), ritmo (1-10)
 - "Qué haría diferente mañana"
+- Verificar gastos registrados
 
 ### Semanal (Domingo)
 - H.E.L.E.N. genera resumen semanal
