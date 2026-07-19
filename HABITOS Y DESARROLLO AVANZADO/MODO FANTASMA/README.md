@@ -108,7 +108,9 @@ Cada nota diaria incluye una sección de gastos al final:
 - 🎭 Ocio/Personal
 - 📦 Otros
 
-> **Regla:** Si no hubo gastos → marcar "✅ Día sin gastos". Si los hubo → anotarlos todos, sin excepción. Lo que no se mide, no se controla.
+> **Regla:** Si no hubo gastos → marcar "✅ Día sin gastos". Si los hubo → anotarlos aquí Y en [[GASTOS Y FIJOS]]. Lo que no se mide, no se controla.
+>
+> 📄 Registro consolidado: `FINANZAS Y PROYECTOS/Finanzas y proyectos/GASTOS Y FIJOS`
 
 ---
 
