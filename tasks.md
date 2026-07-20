@@ -26,9 +26,9 @@ source: "Mr. Jair — iOS / Telegram"
 
 | #   | Tarea                                                          | Ventana        | Estado | Prioridad |
 | --- | -------------------------------------------------------------- | -------------- | ------ | --------- |
-| 1   | 📚 Lectura diaria (20min)                                      | ⏰ 5:10 AM      | ⏳      | 🟢        |
-| 2   | 🏋️ Gym                                             | ⏰ 5:30-8:00 AM | ⏳      | 🔴        |
-| 3   | 💊 Creatina 3-5g                                               | 🌙 noche        | ⏳      | 🟢        |
+| 1   | 📚 Lectura diaria (20min)                                      | ⏰ 5:10 AM      | ✅      | 🟢        |
+| 2   | 🏋️ Gym                                             | ⏰ 5:30-8:00 AM | ✅      | 🔴        |
+| 3   | 💊 Creatina 3-5g                                               | 🌙 noche        | ✅      | 🟢        |
 | 4   | 📢 Meta Ads: investigar 10 productos ganadores                 | 🌙 6:30 PM     | ⏳      | 🔴        |
 | 5   | 🧠 IA diaria                                                   | 🌙 noche       | ⏳      | 🟡        |
 
