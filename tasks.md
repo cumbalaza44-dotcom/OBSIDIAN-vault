@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `12 Jul 2026 — 20:00`
+### Última actualización: `19 Jul 2026 — 20:00`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -20,35 +20,35 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 MAÑANA — Lunes 13/07
+## 🔥 MAÑANA — Lunes 20/07
 
-> Lunes de arranque semanal. Meta Ads: definir nicho + retomar rutina.
+> Semana 20-26 Jul. Enfoque: Meta Ads investigación + Prototipo X avance.
 
 | #   | Tarea                                                          | Ventana        | Estado | Prioridad |
 | --- | -------------------------------------------------------------- | -------------- | ------ | --------- |
 | 1   | 📚 Lectura diaria (20min)                                      | ⏰ 5:10 AM      | ⏳      | 🟢        |
 | 2   | 🏋️ Gym                                             | ⏰ 5:30-8:00 AM | ⏳      | 🔴        |
 | 3   | 💊 Creatina 3-5g                                               | 🌙 noche        | ⏳      | 🟢        |
-| 4   | 📢 Meta Ads: definir nicho específico                          | 🌙 6:30 PM     | ⏳      | 🔴        |
+| 4   | 📢 Meta Ads: investigar 10 productos ganadores                 | 🌙 6:30 PM     | ⏳      | 🔴        |
 | 5   | 🧠 IA diaria                                                   | 🌙 noche       | ⏳      | 🟡        |
 
-> **Resumen:** Arranque de semana. Enfoque: Meta Ads — definición de nicho.
+> **Resumen:** Arranque de semana. Enfoque: Meta Ads — investigación de productos.
 
 ---
 
-## 📋 SEMANA 13 Jul – 19 Jul 2026 — Vista Rápida
+## 📋 SEMANA 20 Jul – 26 Jul 2026 — Vista Rápida
 
 > Horario: L-V 8 AM-5 PM | Gym: 5:30-8:00 AM | Noche: 6:30-9:30 PM
 
 | Día | Mañana (5:10-8:50 AM) | Noche (6:30-9:30 PM) |
 |-----|-------------------|---------------------|
-| **Lun 13** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: definir nicho específico + 💊 Creatina + 🧠 IA diaria |
-| **Mar 14** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: público objetivo + 💊 Creatina |
-| **Mié 15** | 📚 Lectura + 🏋️ Gym | 🔬 Prototipo X + 💊 Creatina + 🧠 IA diaria |
-| **Jue 16** | 📚 Lectura ✅ | 🤖 Ghost Trader bot + 💊 Creatina |
-| **Vie 17** | 📚 Lectura + 🏋️ Gym | 🏢 Empresa: fórmula edición Instagram + 🏠 Ciclo de trabajo + 📋 Revisión semanal + 💊 Creatina |
-| **Sáb 18** | 📚 Lectura + 🏋️ Descanso activo | 🏍️ Cambio aceite moto + revisar bujía + 🔬 Prototipo X |
-| **Dom 19** | 📚 Lectura | Descanso total |
+| **Lun 20** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: investigar 10 productos ganadores + 💊 Creatina + 🧠 IA diaria |
+| **Mar 21** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: analizar 5 competidores Ad Library + 💊 Creatina |
+| **Mié 22** | 📚 Lectura + 🏋️ Gym | 🔬 Prototipo X: definir plataforma hardware + 💊 Creatina + 🧠 IA diaria |
+| **Jue 23** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: definir público objetivo + 💊 Creatina |
+| **Vie 24** | 📚 Lectura + 🏋️ Gym | 🏍️ Moto: revisar bujía + cambio aceite + 📋 Revisión semanal + 💊 Creatina |
+| **Sáb 25** | 📚 Lectura + 🏋️ Descanso activo | 🔬 Prototipo X: prototipar sensor ultrasónico + 🏠 Hogar: lavar prendas |
+| **Dom 26** | 📚 Lectura | Descanso total |
 
 ---
 
