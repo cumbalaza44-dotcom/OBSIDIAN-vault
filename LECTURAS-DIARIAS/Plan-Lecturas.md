@@ -17,7 +17,7 @@
 
 ### 🔄 Leyes Herméticas (Lunes)
 - [x] Ley de Vibración — "Todo se mueve, todo vibra" — 2026-07-18
-- [ ] Ley del Mentalismo — "El Universo es Mental"
+- [x] Ley del Mentalismo — "El Universo es Mental" — 2026-07-20
 - [ ] Ley de Correspondencia — "Como es arriba, es abajo"
 - [ ] Ley de Polaridad — "Todo es dual"
 - [ ] Ley de Ritmo — "Todo fluye y refluye"
@@ -68,5 +68,6 @@
 | 2026-07-17 | 🔮 Mezcla | Incertidumbre + Tao: Abrazar lo desconocido |
 | 2026-07-18 | 🔄 Herméticas | Ley de Vibración — Todo se mueve, todo vibra |
 | 2026-07-19 | 🔮 Mezcla | Mentalismo + Meditación: El poder de la mente enfocada |
+| 2026-07-20 | 🔄 Herméticas | Ley del Mentalismo — El Universo es Mental |
 
 *(Se actualiza diariamente con la lectura entregada)*
