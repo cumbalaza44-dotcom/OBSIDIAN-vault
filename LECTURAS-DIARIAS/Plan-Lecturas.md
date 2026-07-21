@@ -25,7 +25,7 @@
 - [ ] Ley de Género — "El género está en todo"
 
 ### 🌌 Leyes Universales del Éxito (Martes)
-- [ ] Ley de la Atracción — Energía similar se atrae
+- [x] Ley de la Atracción — Energía similar se atrae — 2026-07-21
 - [ ] Ley de la Abundancia — Hay suficiente para todos
 - [ ] Ley del Movimiento — La inacción es más costosa que la acción
 - [ ] Ley de Compensación — Da más de lo esperado
@@ -69,5 +69,6 @@
 | 2026-07-18 | 🔄 Herméticas | Ley de Vibración — Todo se mueve, todo vibra |
 | 2026-07-19 | 🔮 Mezcla | Mentalismo + Meditación: El poder de la mente enfocada |
 | 2026-07-20 | 🔄 Herméticas | Ley del Mentalismo — El Universo es Mental |
+| 2026-07-21 | 🌌 Éxito | Ley de la Atracción — Energía similar se atrae |
 
 *(Se actualiza diariamente con la lectura entregada)*
