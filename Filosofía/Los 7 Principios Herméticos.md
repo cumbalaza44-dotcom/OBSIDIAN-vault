@@ -114,7 +114,7 @@ Este principio te dice que la acción sin dirección es caos, y la dirección si
 
 ## Cómo Integrar los 7 Principios
 
-No se trata de memorizarlos como una lista de compras. Se trata de aprender a reconocerlos operando en tu vida diaria. Cuando entiendes el Ritmo, dejas de castigarte por no estar en un momento de expansión. Cuando entiendes Polaridad, dejas de luchar contra emociones que solo necesitas modular. Cuando entiendes Causa y Efecto, empiezas a tomar decisiones con más consciencia.
+No se trata de memorizarlos como una lista de compras. Se trata de aprender a reconocerlos operando en tu vida diaria. Cuando entiendes el Ritmo, dejas de castigarte por no estar en un momento de expansión. Cuando entiendes Polaridad, dejas de luchar contra emociones que solo necesitas modular. Cuando entiendes Causa y Efecto, empiezas a tomar decisiones con más consciencia.como para que y porque ? 
 
 **Sugerencia concreta:** Elige 1-2 principios por semana como lente de observación. Observa dónde aparecen en tu día. Pregúntate: ¿cómo se manifiesta esto en mi trabajo? ¿En mis relaciones? ¿En mi salud? No necesitas aplicar los siete a la vez — la profundidad viene de la práctica repetida de uno.
 
