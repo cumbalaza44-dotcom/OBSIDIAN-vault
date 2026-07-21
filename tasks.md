@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `19 Jul 2026 — 20:00`
+### Última actualización: `21 Jul 2026 — 12:35`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -20,19 +20,18 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 MAÑANA — Lunes 20/07
+## 🔥 HOY — Martes 21/07
 
-> Semana 20-26 Jul. Enfoque: Meta Ads investigación + Prototipo X avance.
+> Semana 20-26 Jul. Enfoque: Meta Ads — analizar competidores.
 
 | #   | Tarea                                                          | Ventana        | Estado | Prioridad |
 | --- | -------------------------------------------------------------- | -------------- | ------ | --------- |
 | 1   | 📚 Lectura diaria (20min)                                      | ⏰ 5:10 AM      | ✅      | 🟢        |
 | 2   | 🏋️ Gym                                             | ⏰ 5:30-8:00 AM | ✅      | 🔴        |
-| 3   | 💊 Creatina 3-5g                                               | 🌙 noche        | ✅      | 🟢        |
-| 4   | 📢 Meta Ads: investigar 10 productos ganadores                 | 🌙 6:30 PM     | ⏳      | 🔴        |
-| 5   | 🧠 IA diaria                                                   | 🌙 noche       | ⏳      | 🟡        |
+| 3   | 📢 Meta Ads: analizar 5 competidores Ad Library                 | 🌙 6:30 PM     | ⏳      | 🔴        |
+| 4   | 💊 Creatina 3-5g                                               | 🌙 noche        | ⏳      | 🟢        |
 
-> **Resumen:** Arranque de semana. Enfoque: Meta Ads — investigación de productos.
+> **Resumen:** Mañana completada. Enfoque nocturno: Meta Ads — analizar 5 competidores en Ad Library.
 
 ---
 
