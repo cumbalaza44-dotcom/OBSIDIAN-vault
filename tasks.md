@@ -29,7 +29,7 @@ source: "Mr. Jair — iOS / Telegram"
 | 1   | 📚 Lectura diaria (20min)                                      | ⏰ 5:10 AM      | ✅      | 🟢        |
 | 2   | 🏋️ Gym                                             | ⏰ 5:30-8:00 AM | ✅      | 🔴        |
 | 3   | 📢 Meta Ads: analizar 5 competidores Ad Library                 | 🌙 6:30 PM     | ✅      | 🔴        |
-| 4   | 💊 Creatina 3-5g                                               | 🌙 noche        | ⏳      | 🟢        |
+| 4   | 💊 Creatina 3-5g                                               | 🌙 noche        | ✅      | 🟢        |
 
 > **Resumen:** Día completo. Meta Ads competidores analizados, notas sobre proveedores.
 
