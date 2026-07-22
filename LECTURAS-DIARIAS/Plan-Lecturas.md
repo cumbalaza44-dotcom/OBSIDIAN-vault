@@ -34,7 +34,7 @@
 - [ ] Ley de Sacrificio — Para ganar algo, se deja algo
 
 ### ⚙️ Leyes Físicas/Cosmológicas (Miércoles)
-- [ ] Primera Ley de la Termodinámica — Energía no se crea ni se destruye
+- [x] Primera Ley de la Termodinámica — Energía no se crea ni se destruye — 2026-07-22
 - [ ] Entropía — Todo tiende al desorden (y cómo luchar contra ello)
 - [ ] Ley de Gravedad — Lo que sube debe bajar (riesgo/recompensa)
 - [ ] Principio de Incertidumbre de Heisenberg — No puedes controlar todo
@@ -70,5 +70,6 @@
 | 2026-07-19 | 🔮 Mezcla | Mentalismo + Meditación: El poder de la mente enfocada |
 | 2026-07-20 | 🔄 Herméticas | Ley del Mentalismo — El Universo es Mental |
 | 2026-07-21 | 🌌 Éxito | Ley de la Atracción — Energía similar se atrae |
+| 2026-07-22 | ⚙️ Físicas | Primera Ley de la Termodinámica — Energía no se crea ni se destruye |
 
 *(Se actualiza diariamente con la lectura entregada)*
