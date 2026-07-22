@@ -116,9 +116,9 @@ source: "Mr. Jair — iOS / Telegram"
 ## 🧠 HÁBITOS
 
 ### ✅ Completados reciente
-- [x] 📚 Lectura diaria (Vie 10/07)
-- [x] 🏋️ Gym (Vie 10/07)
-- [x] 💊 Creatina (Vie 10/07)
+- [x] 📚 Lectura diaria (Mar 21/07)
+- [x] 🏋️ Gym (Mar 21/07)
+- [x] 📢 Meta Ads: analizar 5 competidores Ad Library (Mar 21/07)
 - [x] Compra tenis para gym
 - [x] Compra sudaderas para gym
 - [x] Afeitarse
