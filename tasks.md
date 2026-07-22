@@ -119,6 +119,7 @@ source: "Mr. Jair — iOS / Telegram"
 - [x] 📚 Lectura diaria (Mar 21/07)
 - [x] 🏋️ Gym (Mar 21/07)
 - [x] 📢 Meta Ads: analizar 5 competidores Ad Library (Mar 21/07)
+- [x] 💊 Creatina 3-5g (Mar 21/07)
 - [x] Compra tenis para gym
 - [x] Compra sudaderas para gym
 - [x] Afeitarse
