@@ -28,10 +28,10 @@ source: "Mr. Jair — iOS / Telegram"
 | --- | -------------------------------------------------------------- | -------------- | ------ | --------- |
 | 1   | 📚 Lectura diaria (20min)                                      | ⏰ 5:10 AM      | ✅      | 🟢        |
 | 2   | 🏋️ Gym                                             | ⏰ 5:30-8:00 AM | ✅      | 🔴        |
-| 3   | 📢 Meta Ads: analizar 5 competidores Ad Library                 | 🌙 6:30 PM     | ⏳      | 🔴        |
+| 3   | 📢 Meta Ads: analizar 5 competidores Ad Library                 | 🌙 6:30 PM     | ✅      | 🔴        |
 | 4   | 💊 Creatina 3-5g                                               | 🌙 noche        | ⏳      | 🟢        |
 
-> **Resumen:** Mañana completada. Enfoque nocturno: Meta Ads — analizar 5 competidores en Ad Library.
+> **Resumen:** Día completo. Meta Ads competidores analizados, notas sobre proveedores.
 
 ---
 
@@ -71,7 +71,7 @@ source: "Mr. Jair — iOS / Telegram"
 ### 📢 META ADS — Fase 1: Fundamentos
 - [ ] 🎯 Definir nicho específico
 - [ ] 🔍 Investigar 10 productos ganadores
-- [ ] 👥 Analizar 5 competidores (Ad Library)
+- [x] 👥 Analizar 5 competidores (Ad Library)
 - [ ] 🎯 Definir público objetivo
 - [ ] 💰 Establecer presupuesto inicial ($5-10 USD/día)
 
