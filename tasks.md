@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `21 Jul 2026 — 12:35`
+### Última actualización: `22 Jul 2026 — 21:43`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -20,18 +20,19 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Martes 21/07
+## 🔥 HOY — Miércoles 22/07
 
-> Semana 20-26 Jul. Enfoque: Meta Ads — analizar competidores.
+> Semana 20-26 Jul. Enfoque: Prototipo X — definir plataforma hardware.
 
 | #   | Tarea                                                          | Ventana        | Estado | Prioridad |
 | --- | -------------------------------------------------------------- | -------------- | ------ | --------- |
-| 1   | 📚 Lectura diaria (20min)                                      | ⏰ 5:10 AM      | ✅      | 🟢        |
-| 2   | 🏋️ Gym                                             | ⏰ 5:30-8:00 AM | ✅      | 🔴        |
-| 3   | 📢 Meta Ads: analizar 5 competidores Ad Library                 | 🌙 6:30 PM     | ✅      | 🔴        |
-| 4   | 💊 Creatina 3-5g                                               | 🌙 noche        | ✅      | 🟢        |
+| 1   | 📚 Lectura diaria (20min)                                      | ⏰ 5:10 AM      | ⏳      | 🟢        |
+| 2   | 🏋️ Gym                                             | ⏰ 5:30-8:00 AM | ⏳      | 🔴        |
+| 3   | 🔬 Prototipo X: definir plataforma hardware                    | 🌙 6:30 PM     | ⏳      | 🔴        |
+| 4   | 💊 Creatina 3-5g                                               | 🌙 noche        | ⏳      | 🟢        |
+| 5   | 🧠 IA diaria                                                   | 🌙 noche        | ⏳      | 🟢        |
 
-> **Resumen:** Día completo. Meta Ads competidores analizados, notas sobre proveedores.
+> **Gastos del día:** Comida $6.000 + Combustible $12.000 + Medicamentos $2.000 = **$20.000 COP**
 
 ---
 
