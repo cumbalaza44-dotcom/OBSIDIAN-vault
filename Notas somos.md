@@ -42,5 +42,5 @@ Y sobre los mensajes largos… la verdad es que no sé en qué momento se volvi�
 
 En fin, no quiero ponerme en la posición de reclamarte ni de pedirte que cambies algo, porque realmente no quiero hacer eso. Disfruto hablar contigo, disfruté muchísimo el tiempo que pasamos juntos y, por mi parte, nada ha cambiado. Simplemente, siendo completamente honesta, no sé muy bien cómo manejar esta situación.
 
-Y también quiero agradecerte por haber aclarado que nada ha cambiado de tu lado. Me pareció un gesto muy bonito, considerado y, sobre todo, muy responsable afectivamente.
+Y también quiero agradecerte por quw Justo ahora estemos aclarando esto y que nada que nada ha cambiado de tu lado. Me pareció un gesto muy bonito, considerado y, sobre todo, muy responsable afectivamente.
 
