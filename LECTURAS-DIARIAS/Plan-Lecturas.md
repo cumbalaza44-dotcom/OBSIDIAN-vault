@@ -44,7 +44,7 @@
 
 ### 🧘 Filosofía / Sabiduría Antigua (Jueves)
 - [x] Estoicismo: Controla lo que puedes, suelta lo que no (Epcteto) — 2026-07-16
-- [ ] Tao: El camino del agua — fluir, no forzar (Lao Tse)
+- [x] Tao: El camino del agua — fluir, no forzar (Lao Tse) — 2026-07-23
 - [ ] Meditaciones: Diario de un emperador filósofo (Marco Aurelio)
 - [ ] El arte de la guerra: Conócete a ti mismo (Sun Tzu)
 - [ ] Mindfulness: Vivir en el presente (Thich Nhat Hanh)
@@ -71,5 +71,6 @@
 | 2026-07-20 | 🔄 Herméticas | Ley del Mentalismo — El Universo es Mental |
 | 2026-07-21 | 🌌 Éxito | Ley de la Atracción — Energía similar se atrae |
 | 2026-07-22 | ⚙️ Físicas | Primera Ley de la Termodinámica — Energía no se crea ni se destruye |
+| 2026-07-23 | 🧘 Filosofía | Tao: El camino del agua — fluir, no forzar (Lao Tse) |
 
 *(Se actualiza diariamente con la lectura entregada)*
