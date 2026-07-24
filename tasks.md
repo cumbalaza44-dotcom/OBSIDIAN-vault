@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `22 Jul 2026 — 21:43`
+### Última actualización: `24 Jul 2026 — 12:30`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -20,19 +20,19 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Miércoles 22/07
+## 🔥 HOY — Viernes 24/07
 
-> Semana 20-26 Jul. Enfoque: Prototipo X — definir plataforma hardware.
+> Semana 20-26 Jul. Enfoque: Revisión semanal + moto.
 
 | #   | Tarea                                                          | Ventana        | Estado | Prioridad |
 | --- | -------------------------------------------------------------- | -------------- | ------ | --------- |
-| 1   | 📚 Lectura diaria (20min)                                      | ⏰ 5:10 AM      | ⏳      | 🟢        |
+| 1   | 📚 Lectura diaria (20min)                                      | ⏰ 5:10 AM      | ✅      | 🟢        |
 | 2   | 🏋️ Gym                                             | ⏰ 5:30-8:00 AM | ⏳      | 🔴        |
-| 3   | 🔬 Prototipo X: definir plataforma hardware                    | 🌙 6:30 PM     | ⏳      | 🔴        |
-| 4   | 💊 Creatina 3-5g                                               | 🌙 noche        | ⏳      | 🟢        |
-| 5   | 🧠 IA diaria                                                   | 🌙 noche        | ⏳      | 🟢        |
+| 3   | 🏍️ Moto: revisar bujía + cambio aceite                         | 🌙 noche        | ⏳      | 🟡        |
+| 4   | 📋 Revisión semanal                                            | 🌙 noche        | ⏳      | 🟡        |
+| 5   | 💊 Creatina 3-5g                                               | 🌙 noche        | ⏳      | 🟢        |
 
-> **Gastos del día:** Comida $6.000 + Combustible $12.000 + Medicamentos $2.000 = **$20.000 COP**
+> **Gastos del día:** —
 
 ---
 
