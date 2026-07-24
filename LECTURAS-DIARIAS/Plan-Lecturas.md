@@ -52,7 +52,7 @@
 - [ ] Filosofía del Stoicismo: Seneca — *Cartas a Lucilio*
 
 ### 🔮 Mezcla / Conexiones (Viernes)
-- [ ] Entropía + Ley del Movimiento: Por qué la disciplina vence al caos
+- [x] Entropía + Ley del Movimiento: Por qué la disciplina vence al caos — 2026-07-24
 - [ ] Causa y Efecto + Karma: Cómo todo se conecta
 - [ ] Vibración + Atracción: La ciencia detrás de "piensa y serás rico"
 - [ ] Polaridad + Equilibrio Yin-Yang: Dualidad en los negocios
@@ -72,5 +72,6 @@
 | 2026-07-21 | 🌌 Éxito | Ley de la Atracción — Energía similar se atrae |
 | 2026-07-22 | ⚙️ Físicas | Primera Ley de la Termodinámica — Energía no se crea ni se destruye |
 | 2026-07-23 | 🧘 Filosofía | Tao: El camino del agua — fluir, no forzar (Lao Tse) |
+| 2026-07-24 | 🔮 Mezcla | Entropía + Ley del Movimiento: Por qué la disciplina vence al caos |
 
 *(Se actualiza diariamente con la lectura entregada)*
