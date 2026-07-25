@@ -18,7 +18,7 @@
 ### 🔄 Leyes Herméticas (Lunes)
 - [x] Ley de Vibración — "Todo se mueve, todo vibra" — 2026-07-18
 - [x] Ley del Mentalismo — "El Universo es Mental" — 2026-07-20
-- [ ] Ley de Correspondencia — "Como es arriba, es abajo"
+- [x] Ley de Correspondencia — "Como es arriba, es abajo" — 2026-07-25
 - [ ] Ley de Polaridad — "Todo es dual"
 - [ ] Ley de Ritmo — "Todo fluye y refluye"
 - [ ] Ley de Causa y Efecto — "Toda causa tiene su efecto"
@@ -73,5 +73,6 @@
 | 2026-07-22 | ⚙️ Físicas | Primera Ley de la Termodinámica — Energía no se crea ni se destruye |
 | 2026-07-23 | 🧘 Filosofía | Tao: El camino del agua — fluir, no forzar (Lao Tse) |
 | 2026-07-24 | 🔮 Mezcla | Entropía + Ley del Movimiento: Por qué la disciplina vence al caos |
+| 2026-07-25 | 🔄 Herméticas | Ley de Correspondencia — Como es arriba, es abajo |
 
 *(Se actualiza diariamente con la lectura entregada)*
