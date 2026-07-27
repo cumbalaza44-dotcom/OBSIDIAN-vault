@@ -20,7 +20,7 @@
 - [x] Ley del Mentalismo — "El Universo es Mental" — 2026-07-20
 - [x] Ley de Correspondencia — "Como es arriba, es abajo" — 2026-07-25
 - [x] Ley de Polaridad — "Todo es dual" — 2026-07-26
-- [ ] Ley de Ritmo — "Todo fluye y refluye"
+- [x] Ley de Ritmo — "Todo fluye y refluye" — 2026-07-27
 - [ ] Ley de Causa y Efecto — "Toda causa tiene su efecto"
 - [ ] Ley de Género — "El género está en todo"
 
@@ -75,5 +75,6 @@
 | 2026-07-24 | 🔮 Mezcla | Entropía + Ley del Movimiento: Por qué la disciplina vence al caos |
 | 2026-07-25 | 🔄 Herméticas | Ley de Correspondencia — Como es arriba, es abajo |
 | 2026-07-26 | 🔄 Herméticas | Ley de Polaridad — Todo es dual |
+| 2026-07-27 | 🔄 Herméticas | Ley de Ritmo — Todo fluye y refluye |
 
 *(Se actualiza diariamente con la lectura entregada)*
