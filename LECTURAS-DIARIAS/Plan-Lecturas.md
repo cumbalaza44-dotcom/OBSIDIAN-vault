@@ -35,7 +35,7 @@
 
 ### ⚙️ Leyes Físicas/Cosmológicas (Miércoles)
 - [x] Primera Ley de la Termodinámica — Energía no se crea ni se destruye — 2026-07-22
-- [ ] Entropía — Todo tiende al desorden (y cómo luchar contra ello)
+- [x] Entropía — Todo tiende al desorden (y cómo luchar contra ello) — 2026-07-29
 - [ ] Ley de Gravedad — Lo que sube debe bajar (riesgo/recompensa)
 - [ ] Principio de Incertidumbre de Heisenberg — No puedes controlar todo
 - [ ] Efecto Mariposa — Pequeños cambios, grandes consecuencias
@@ -77,5 +77,6 @@
 | 2026-07-26 | 🔄 Herméticas | Ley de Polaridad — Todo es dual |
 | 2026-07-27 | 🔄 Herméticas | Ley de Ritmo — Todo fluye y refluye |
 | 2026-07-28 | 🌌 Éxito | Ley de la Abundancia — Hay suficiente para todos |
+| 2026-07-29 | ⚙️ Físicas | Entropía — Todo tiende al desorden |
 
 *(Se actualiza diariamente con la lectura entregada)*
