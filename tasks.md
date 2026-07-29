@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `26 Jul 2026 — 21:45`
+### Última actualización: `28 Jul 2026 — 22:19`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -20,16 +20,16 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Lunes 27/07
+## 🔥 HOY — Miércoles 29/07
 
 > Semana 27 Jul – 2 Ago. Enfoque: Meta Ads + Prototipo X + rutina.
 
 | #   | Tarea                                                          | Ventana        | Estado | Prioridad |
 | --- | -------------------------------------------------------------- | -------------- | ------ | --------- |
-| 1   | 📚 Lectura diaria (20min)                                      | ⏰ 5:10 AM      | ⏳      | 🟢        |
-| 2   | 🏋️ Gym                                             | ⏰ 5:30-8:00 AM | ⏳      | 🔴        |
-| 3   | 📢 Meta Ads: definir nicho específico                           | 🌙 noche        | ⏳      | 🔴        |
-| 4   | 💊 Creatina 3-5g                                               | 🌙 noche        | ⏳      | 🟢        |
+| 1   | 📚 Lectura diaria (20min)                                      | ⏰ 5:10 AM      | ✅      | 🟢        |
+| 2   | 🏋️ Gym                                             | ⏰ 5:30-8:00 AM | ✅      | 🔴        |
+| 3   | 🔬 Prototipo X: investigación realizada                         | —              | ✅      | 🔴        |
+| 4   | 💊 Creatina 3-5g                                               | 🌙 noche        | ✅      | 🟢        |
 
 > **Gastos del día:** —
 
