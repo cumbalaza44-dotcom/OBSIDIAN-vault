@@ -116,6 +116,10 @@ source: "Mr. Jair — iOS / Telegram"
 ## 🧠 HÁBITOS
 
 ### ✅ Completados reciente
+- [x] 📚 Lectura diaria (Mié 29/07)
+- [x] 🏋️ Gym (Mié 29/07)
+- [x] 🔬 Prototipo X: investigación realizada (Mié 29/07)
+- [x] 💊 Creatina 3-5g (Mié 29/07)
 - [x] 📚 Lectura diaria (Mar 21/07)
 - [x] 🏋️ Gym (Mar 21/07)
 - [x] 📢 Meta Ads: analizar 5 competidores Ad Library (Mar 21/07)
