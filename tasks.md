@@ -1,6 +1,6 @@
 ---
 created: 2026-05-25
-updated: 2026-06-21
+updated: 2026-07-29
 source: "Mr. Jair — iOS / Telegram"
 ---
 
@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `28 Jul 2026 — 22:19`
+### Última actualización: `29 Jul 2026 — 18:49`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -22,67 +22,112 @@ source: "Mr. Jair — iOS / Telegram"
 
 ## 🔥 HOY — Miércoles 29/07
 
-> Semana 27 Jul – 2 Ago. Enfoque: Meta Ads + Prototipo X + rutina.
-
-| #   | Tarea                                                          | Ventana        | Estado | Prioridad |
-| --- | -------------------------------------------------------------- | -------------- | ------ | --------- |
-| 1   | 📚 Lectura diaria (20min)                                      | ⏰ 5:10 AM      | ✅      | 🟢        |
-| 2   | 🏋️ Gym                                             | ⏰ 5:30-8:00 AM | ✅      | 🔴        |
-| 3   | 🔬 Prototipo X: investigación realizada                         | —              | ✅      | 🔴        |
-| 4   | 💊 Creatina 3-5g                                               | 🌙 noche        | ✅      | 🟢        |
+| #   | Tarea                                         | Ventana        | Estado |
+| --- | --------------------------------------------- | -------------- | ------ |
+| 1   | 📚 Lectura diaria (20min)                     | ⏰ 5:10 AM     | ✅     |
+| 2   | 🏋️ Gym                                       | ⏰ 5:30-8:00 AM| ✅     |
+| 3   | 🔬 Prototipo X: investigación realizada        | —              | ✅     |
+| 4   | 💊 Creatina 3-5g                              | 🌙 noche       | ✅     |
+| 5   | 🔬 Prototipo X: definir plataforma hardware    | 🌙 noche       | ⏳     |
 
 > **Gastos del día:** —
 
 ---
 
-## 📋 SEMANA 27 Jul – 2 Ago 2026 — Vista Rápida
+## 📅 SEMANA 27 Jul – 2 Ago 2026
 
 > Horario: L-V 8 AM-5 PM | Gym: 5:30-8:00 AM | Noche: 6:30-9:30 PM
 
-| Día | Mañana (5:10-8:50 AM) | Noche (6:30-9:30 PM) |
-|-----|-------------------|---------------------|
+| Día | Mañana (5:10-8:00 AM) | Noche (6:30-9:30 PM) |
+|-----|----------------------|----------------------|
 | **Lun 27** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: definir nicho + 💊 Creatina |
-| **Mar 28** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: investigar 10 productos ganadores + 💊 Creatina |
-| **Mié 29** | 📚 Lectura + 🏋️ Gym | 🔬 Prototipo X: definir plataforma hardware (ESP32 vs Pi vs Jetson) + 💊 Creatina |
-| **Jue 30** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: definir público objetivo + 💊 Creatina |
-| **Vie 31** | 📚 Lectura + 🏋️ Gym | 🏍️ Moto: revisar bujía + cambio aceite + 📋 Revisión semanal + 💊 Creatina |
-| **Sáb 1 Ago** | 📚 Lectura + 🏋️ Descanso activo | 🔬 Prototipo X: prototipar sensor ultrasónico + 🏠 Hogar: lavar prendas |
-| **Dom 2 Ago** | 📚 Lectura | Descanso total |
+| **Mar 28** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: investigar 10 productos + 💊 Creatina |
+| **Mié 29** | 📚 Lectura + 🏋️ Gym | 🔬 Prototipo X: definir plataforma + 💊 Creatina |
+| **Jue 30** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: definir público + 💊 Creatina |
+| **Vie 31** | 📚 Lectura + 🏋️ Gym | 🏍️ Moto: bujía + aceite + 📋 Revisión semanal + 💊 Creatina |
+| **Sáb 1 Ago** | 📚 Lectura + 🧘 Descanso activo | 🔬 Prototipo X: sensor ultrasónico + 🏠 Lavar prendas |
+| **Dom 2 Ago** | 📚 Lectura | 🛋️ Descanso total |
 
 ---
 
-## 🧠 HÁBITOS Y DESARROLLO
+## 🧠 HÁBITOS
+
+| Hábito | Frecuencia | Último registro |
+|--------|------------|-----------------|
+| 📚 Lectura diaria | Diario | Mié 29/07 ✅ |
+| 🏋️ Gym | Lun-Vie | Mié 29/07 ✅ |
+| 💊 Creatina 3-5g | Diario (noche) | Mié 29/07 ✅ |
+| 🔬 Prototipo X | Semanal | Mié 29/07 ✅ investigación |
+
+### ✅ Completados reciente
+- [x] 📚 Lectura diaria (Mié 29/07)
+- [x] 🏋️ Gym (Mié 29/07)
+- [x] 🔬 Prototipo X: investigación (Mié 29/07)
+- [x] 💊 Creatina 3-5g (Mié 29/07)
+- [x] 📢 Meta Ads: analizar 5 competidores Ad Library (Mar 21/07)
+- [x] Compra tenis para gym
+- [x] Compra sudaderas para gym
+- [x] Hoja de vida Elcira Bolívar — Ajustar A4 1 página, imprimir
+- [x] Buscar limpiador electrónico
+- [x] Reparar impresora (inyectores tapados)
+
+### 📊 En Progreso
+- [ ] Aumentar presupuesto alimentario personal
+- [ ] Balanceo de progreso y profundización de pilares
+- [ ] Purgar teléfono de apps y videos
 
 ---
 
-## 💰 PROYECTOS PENDIENTES
+## 💰 PROYECTOS
 
 ### 🏍️ Prototipo X — Copiloto Moto
+> **Siguiente:** Definir plataforma (ESP32 vs Pi vs Jetson)
+> **Esfuerzo:** 1-2 horas | **Depende de:** Decisión de plataforma
+
 - [x] Investigar sensores (costos + specs)
 - [x] Investigación completa: problema, solución, competencia, innovación
-- [ ] Definir plataforma hardware (ESP32 vs Pi vs Jetson)
+- [ ] Definir plataforma hardware ← **Esta noche**
 - [ ] Prototipar sensor ultrasónico + alerta
 - [ ] Diseñar UX del HUD/app
 
-### 📈 Ingresos & Estrategia
-- [x] Balancear ingresos y verificar distribución
-- [ ] Ajustar proyecciones si es necesario
-
 ### 📢 META ADS — Fase 1: Fundamentos
-- [ ] 🎯 Definir nicho específico
+> **Siguiente:** Definir nicho específico
+> **Esfuerzo:** 30 min | **Depende de:** Nada
+
+- [ ] 🎯 Definir nicho específico ← **Prioritario**
 - [ ] 🔍 Investigar 10 productos ganadores
 - [x] 👥 Analizar 5 competidores (Ad Library)
 - [ ] 🎯 Definir público objetivo
 - [ ] 💰 Establecer presupuesto inicial ($5-10 USD/día)
 
 ### 🤖 Ghost Trader Bot
+> **Siguiente:** Definir estrategia de trading
+> **Esfuerzo:** Variable | **Depende de:** Diseño de estrategia
+
+- [ ] Definir estrategia + lógica de trading
 - [ ] Desarrollo del bot MT5
-- [ ] Estrategia + lógica de trading
 - [ ] Prototipo funcional
 
+### 📈 Ingresos & Estrategia
+> **Siguiente:** Verificar distribución actual
+> **Esfuerzo:** 20 min
+
+- [x] Balancear ingresos y verificar distribución
+- [ ] Ajustar proyecciones si es necesario
+
 ### 🛒 E-Commerce & Marketing
+> **Siguiente:** Curso de Shopify
+> **Esfuerzo:** 2-3 horas
+
 - [ ] Aprender storytelling de venta
 - [ ] Curso de Shopify y e-commerce
+
+### 🏢 Empresa Tecnológica
+> **Siguiente:** Investigar pilares de contenido
+> **Esfuerzo:** 1 hora
+
+- [ ] Fórmula de edición para historias de Instagram
+- [ ] Investigar pilares de contenido → "pilar de venta"
 
 ---
 
@@ -90,19 +135,18 @@ source: "Mr. Jair — iOS / Telegram"
 
 ### 🔧 Moto
 - [x] Lavado y mantenimiento (27/06 — cadena alineada, caja filtro limpia)
+- [ ] Revisar bujía (cascabeleo 4k-6k RPM)
+- [ ] Cambio de aceite moto
+- [ ] Comprar empaque culatín
 - [ ] Documentar relación de distancia para alineamiento del eje trasero
-- [ ] Revisar bujía (pendiente — cascabeleo 4k-6k RPM)
-- [ ] Comprar empaque culatín de moto
-- [ ] Cambio de aceite moto (sábado 11/07) ← **Reprogramado**
 
 ### 🏠 Hogar
-- [x] Sartén
 - [x] Organizar habitación
-- [ ] Comprar porción de aceite de coco ← **Mañana Jue 09**
+- [x] Organizar y limpiar hogar
+- [ ] Lavar prendas
+- [ ] Comprar porción de aceite de coco
 - [ ] Ciclo de trabajo
 - [ ] Rediseño para plan de mejora
-- [ ] Lavar prendas
-- [x] Organizar y limpiar hogar
 - [ ] Anotar mejoras de hogar
 
 ### 🏎️ Proyectos mecánicos
@@ -113,37 +157,14 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🧠 HÁBITOS
+## 🎓 HABILIDADES
 
-### ✅ Completados reciente
-- [x] 📚 Lectura diaria (Mié 29/07)
-- [x] 🏋️ Gym (Mié 29/07)
-- [x] 🔬 Prototipo X: investigación realizada (Mié 29/07)
-- [x] 💊 Creatina 3-5g (Mié 29/07)
-- [x] 📚 Lectura diaria (Mar 21/07)
-- [x] 🏋️ Gym (Mar 21/07)
-- [x] 📢 Meta Ads: analizar 5 competidores Ad Library (Mar 21/07)
-- [x] 💊 Creatina 3-5g (Mar 21/07)
-- [x] Compra tenis para gym
-- [x] Compra sudaderas para gym
-- [x] Afeitarse
-- [x] Cortarse el cabello
-- [x] Hoja de vida Elcira Bolívar — Ajustar a A4 1 página, imprimir
-- [x] Buscar limpiador electrónico
-- [x] Reparar impresora (inyectores tapados)
-
-### 📊 En Progreso
-- [ ] Aumentar presupuesto alimentario personal
-- [ ] Balanceo de progreso y profundización de pilares
-- [ ] Purgar teléfono de apps y videos
-
-### 🎓 Habilidades
 - [ ] Investigar programas de diseño 3D
 - [ ] Programación en inteligencia artificial
 - [ ] Cómo funcionan nuevos modelos IA
 - [ ] Investigar IA diario
 - [ ] Psicología de control de masas
-- [ ] Meta ads
+- [ ] Meta Ads (ver también: PROYECTOS)
 - [ ] Estrategia de ahorro (corto, mediano, largo plazo)
 
 ---
@@ -153,13 +174,6 @@ source: "Mr. Jair — iOS / Telegram"
 - [ ] Musical
 - [ ] Aventura
 - [ ] Estilo dark colorido vivido
-
----
-
-## 🏢 EMPRESA TECNOLÓGICA
-
-- [ ] Fórmula de edición para historias de Instagram
-- [ ] Investigar en pilares de contenido → "pilar de venta"
 
 ---
 
