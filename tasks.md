@@ -114,8 +114,14 @@ source: "Mr. Jair — iOS / Telegram"
 > **Siguiente:** Verificar distribución actual
 > **Esfuerzo:** 20 min
 
+** Julio 2026 — Resumen:**
+- 💰 Entrada mensual: $2.150.000 COP
+- 🏠 Gastos hogar: $1.100.000 COP (alimentación + alquiler + ayuda familiar)
+- 📊 Disponible: $1.050.000 COP
+
 - [x] Balancear ingresos y verificar distribución
 - [ ] Ajustar proyecciones si es necesario
+- [ ] Distribuir $1.050.000 restantes entre ahorro, metas y gastos variables
 
 ### 🛒 E-Commerce & Marketing
 > **Siguiente:** Curso de Shopify
