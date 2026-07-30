@@ -81,12 +81,14 @@ source: "Mr. Jair — iOS / Telegram"
 ## 💰 PROYECTOS
 
 ### 🏍️ Prototipo X — Copiloto Moto
-> **Siguiente:** Definir plataforma (ESP32 vs Pi vs Jetson)
+> **Objetivo:** Capacidad de hardware para entender el tráfico durante la conducción — especialmente lo que NO se ve de buena manera (puntos ciegos, vehículos en ángulos muertos, condiciones de visibilidad reducida).
+> **Primer prototipo funcional:** Priorizar sensores que detecten lo que el ojo humano pierde al conducir.
+> **Siguiente:** Definir plataforma (ESP32 vs Pi vs Jetson) considerando procesamiento en tiempo real
 > **Esfuerzo:** 1-2 horas | **Depende de:** Decisión de plataforma
 
 - [x] Investigar sensores (costos + specs)
 - [x] Investigación completa: problema, solución, competencia, innovación
-- [ ] Definir plataforma hardware ← **Esta noche**
+- [ ] Definir plataforma hardware con foco en: visibilidad de tráfico + puntos ciegos + procesamiento en tiempo real ← **Esta noche**
 - [ ] Prototipar sensor ultrasónico + alerta
 - [ ] Diseñar UX del HUD/app
 
