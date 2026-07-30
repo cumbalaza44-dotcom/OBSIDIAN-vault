@@ -45,7 +45,7 @@
 ### 🧘 Filosofía / Sabiduría Antigua (Jueves)
 - [x] Estoicismo: Controla lo que puedes, suelta lo que no (Epcteto) — 2026-07-16
 - [x] Tao: El camino del agua — fluir, no forzar (Lao Tse) — 2026-07-23
-- [ ] Meditaciones: Diario de un emperador filósofo (Marco Aurelio)
+- [x] Meditaciones: Diario de un emperador filósofo (Marco Aurelio) — 2026-07-30
 - [ ] El arte de la guerra: Conócete a ti mismo (Sun Tzu)
 - [ ] Mindfulness: Vivir en el presente (Thich Nhat Hanh)
 - [ ] Stoicismo moderno: Ryan Holiday — *The Obstacle Is the Way*
@@ -78,5 +78,6 @@
 | 2026-07-27 | 🔄 Herméticas | Ley de Ritmo — Todo fluye y refluye |
 | 2026-07-28 | 🌌 Éxito | Ley de la Abundancia — Hay suficiente para todos |
 | 2026-07-29 | ⚙️ Físicas | Entropía — Todo tiende al desorden |
+| 2026-07-30 | 🧘 Filosofía | Meditaciones: Diario de un emperador filósofo (Marco Aurelio) |
 
 *(Se actualiza diariamente con la lectura entregada)*
