@@ -43,7 +43,7 @@ source: "Mr. Jair — iOS / Telegram"
 | **Mar 28** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: investigar 10 productos + 💊 Creatina |
 | **Mié 29** | 📚 Lectura + 🏋️ Gym | 🔬 Prototipo X: definir plataforma + 💊 Creatina |
 | **Jue 30** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: definir público + 💊 Creatina |
-| **Vie 31** | 📚 Lectura + 🏋️ Gym | 🏍️ Moto: bujía + aceite + 📋 Revisión semanal + 💊 Creatina |
+| **Vie 31** | 📚 Lectura + 🏋️ Gym | 📋 Revisión semanal + 💊 Creatina |
 | **Sáb 1 Ago** | 📚 Lectura + 🧘 Descanso activo | 🔬 Prototipo X: sensor ultrasónico + 🏠 Lavar prendas |
 | **Dom 2 Ago** | 📚 Lectura | 🛋️ Descanso total |
 
