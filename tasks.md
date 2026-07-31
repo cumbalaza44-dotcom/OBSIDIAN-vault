@@ -26,9 +26,8 @@ source: "Mr. Jair — iOS / Telegram"
 | --- | --------------------------------------------- | -------------- | ------ |
 | 1   | 📚 Lectura diaria                             | ⏰ 5:10 AM     | ✅     |
 | 2   | 🏋️ Gym                                       | ⏰ 5:30-8:00 AM| ✅✅    |
-| 3   | 🏍️ Moto: bujía + aceite                      | 🌙 noche       | ⏳     |
-| 4   | 📋 Revisión semanal                           | 🌙 noche       | ⏳     |
-| 5   | 💊 Creatina 3-5g                              | 🌙 noche       | ⏳     |
+| 3   | 📋 Revisión semanal                           | 🌙 noche       | ⏳     |
+| 4   | 💊 Creatina 3-5g                              | 🌙 noche       | ⏳     |
 
 > **Gastos del día:** —
 
@@ -64,6 +63,7 @@ source: "Mr. Jair — iOS / Telegram"
 - [x] 🏋️ Gym (Mié 29/07)
 - [x] 🔬 Prototipo X: investigación (Mié 29/07)
 - [x] 💊 Creatina 3-5g (Mié 29/07)
+- [x] 🏍️ Bujía y aceite moto (semana del 27/07)
 - [x] 📢 Meta Ads: analizar 5 competidores Ad Library (Mar 21/07)
 - [x] Compra tenis para gym
 - [x] Compra sudaderas para gym
@@ -143,8 +143,8 @@ source: "Mr. Jair — iOS / Telegram"
 
 ### 🔧 Moto
 - [x] Lavado y mantenimiento (27/06 — cadena alineada, caja filtro limpia)
-- [ ] Revisar bujía (cascabeleo 4k-6k RPM)
-- [ ] Cambio de aceite moto
+- [x] Revisar bujía (cascabeleo 4k-6k RPM) ✅
+- [x] Cambio de aceite moto ✅
 - [ ] Comprar empaque culatín
 - [ ] Documentar relación de distancia para alineamiento del eje trasero
 
