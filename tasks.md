@@ -29,7 +29,7 @@ source: "Mr. Jair — iOS / Telegram"
 | 3   | 📋 Revisión semanal                           | 🌙 noche       | ⏳     |
 | 4   | 💊 Creatina 3-5g                              | 🌙 noche       | ⏳     |
 
-> **Gastos del día:** —
+> **Gastos del día:** 🍹 Bebida $3.000
 
 ---
 
