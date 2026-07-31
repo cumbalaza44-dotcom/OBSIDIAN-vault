@@ -25,7 +25,7 @@ source: "Mr. Jair — iOS / Telegram"
 | #   | Tarea                                         | Ventana        | Estado |
 | --- | --------------------------------------------- | -------------- | ------ |
 | 1   | 📚 Lectura diaria                             | ⏰ 5:10 AM     | ✅     |
-| 2   | 🏋️ Gym                                       | ⏰ 5:30-8:00 AM| ✅     |
+| 2   | 🏋️ Gym                                       | ⏰ 5:30-8:00 AM| ✅✅    |
 | 3   | 🏍️ Moto: bujía + aceite                      | 🌙 noche       | ⏳     |
 | 4   | 📋 Revisión semanal                           | 🌙 noche       | ⏳     |
 | 5   | 💊 Creatina 3-5g                              | 🌙 noche       | ⏳     |
