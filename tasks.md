@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `29 Jul 2026 — 18:49`
+### Última actualización: `31 Jul 2026 — 06:26`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -20,15 +20,15 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Miércoles 29/07
+## 🔥 HOY — Viernes 31/07
 
 | #   | Tarea                                         | Ventana        | Estado |
 | --- | --------------------------------------------- | -------------- | ------ |
-| 1   | 📚 Lectura diaria (20min)                     | ⏰ 5:10 AM     | ✅     |
+| 1   | 📚 Lectura diaria                             | ⏰ 5:10 AM     | ✅     |
 | 2   | 🏋️ Gym                                       | ⏰ 5:30-8:00 AM| ✅     |
-| 3   | 🔬 Prototipo X: investigación realizada        | —              | ✅     |
-| 4   | 💊 Creatina 3-5g                              | 🌙 noche       | ✅     |
-| 5   | 🔬 Prototipo X: definir plataforma hardware    | 🌙 noche       | ⏳     |
+| 3   | 🏍️ Moto: bujía + aceite                      | 🌙 noche       | ⏳     |
+| 4   | 📋 Revisión semanal                           | 🌙 noche       | ⏳     |
+| 5   | 💊 Creatina 3-5g                              | 🌙 noche       | ⏳     |
 
 > **Gastos del día:** —
 
