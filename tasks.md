@@ -143,8 +143,8 @@ source: "Mr. Jair — iOS / Telegram"
 
 ### 🔧 Moto
 - [x] Lavado y mantenimiento (27/06 — cadena alineada, caja filtro limpia)
-- [x] Revisar bujía (cascabeleo 4k-6k RPM) ✅
-- [x] Cambio de aceite moto ✅
+- [x] Revisar bujía (cascabeleo 4k-6k RPM) — completado semana del 27/07
+- [x] Cambio de aceite moto — completado semana del 27/07
 - [ ] Comprar empaque culatín
 - [ ] Documentar relación de distancia para alineamiento del eje trasero
 
