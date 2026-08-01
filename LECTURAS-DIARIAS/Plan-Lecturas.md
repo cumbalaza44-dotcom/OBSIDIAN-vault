@@ -54,7 +54,7 @@
 ### 🔮 Mezcla / Conexiones (Viernes)
 - [x] Entropía + Ley del Movimiento: Por qué la disciplina vence al caos — 2026-07-24
 - [x] Causa y Efecto + Karma: Cómo todo se conecta — 2026-07-31
-- [ ] Vibración + Atracción: La ciencia detrás de "piensa y serás rico"
+- [x] Vibración + Atracción: La ciencia detrás de "piensa y serás rico" — 2026-08-01
 - [ ] Polaridad + Equilibrio Yin-Yang: Dualidad en los negocios
 - [ ] Gravedad + Sacrificio: El peso de las decisiones
 - [x] Incertidumbre + Tao: Abrazar lo desconocido — 2026-07-17
@@ -80,5 +80,6 @@
 | 2026-07-29 | ⚙️ Físicas | Entropía — Todo tiende al desorden |
 | 2026-07-30 | 🧘 Filosofía | Meditaciones: Diario de un emperador filósofo (Marco Aurelio) |
 | 2026-07-31 | 🔮 Mezcla | Causa y Efecto + Karma: Cómo todo se conecta |
+| 2026-08-01 | 🔮 Mezcla | Vibración + Atracción: La ciencia detrás de "piensa y serás rico" |
 
 *(Se actualiza diariamente con la lectura entregada)*
