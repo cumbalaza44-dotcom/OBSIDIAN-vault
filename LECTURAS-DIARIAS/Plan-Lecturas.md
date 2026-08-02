@@ -21,7 +21,7 @@
 - [x] Ley de Correspondencia — "Como es arriba, es abajo" — 2026-07-25
 - [x] Ley de Polaridad — "Todo es dual" — 2026-07-26
 - [x] Ley de Ritmo — "Todo fluye y refluye" — 2026-07-27
-- [ ] Ley de Causa y Efecto — "Toda causa tiene su efecto"
+- [x] Ley de Causa y Efecto — "Toda causa tiene su efecto" — 2026-08-02
 - [ ] Ley de Género — "El género está en todo"
 
 ### 🌌 Leyes Universales del Éxito (Martes)
@@ -81,5 +81,6 @@
 | 2026-07-30 | 🧘 Filosofía | Meditaciones: Diario de un emperador filósofo (Marco Aurelio) |
 | 2026-07-31 | 🔮 Mezcla | Causa y Efecto + Karma: Cómo todo se conecta |
 | 2026-08-01 | 🔮 Mezcla | Vibración + Atracción: La ciencia detrás de "piensa y serás rico" |
+| 2026-08-02 | 🔄 Herméticas | Ley de Causa y Efecto — "Toda causa tiene su efecto" |
 
 *(Se actualiza diariamente con la lectura entregada)*
