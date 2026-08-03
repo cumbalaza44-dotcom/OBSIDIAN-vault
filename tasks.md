@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `31 Jul 2026 — 06:26`
+### Última actualización: `2 Ago 2026 — 20:00`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -20,32 +20,29 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Viernes 31/07
+## 🔥 HOY — Domingo 2/08
 
 | #   | Tarea                                         | Ventana        | Estado |
 | --- | --------------------------------------------- | -------------- | ------ |
-| 1   | 📚 Lectura diaria                             | ⏰ 5:10 AM     | ✅     |
-| 2   | 🏋️ Gym                                       | ⏰ 5:30-8:00 AM| ✅✅    |
-| 3   | 📋 Revisión semanal                           | 🌙 noche       | ⏳     |
-| 4   | 💊 Creatina 3-5g                              | 🌙 noche       | ⏳     |
-
-> **Gastos del día:** 🍹 Bebida $3.000
+| 1   | 📚 Lectura diaria                             | ⏰ 5:10 AM     | ⏳     |
+| 2   | 🛋️ Descanso total                             | Todo el día    | ⏳     |
+| 3   | 📋 Planificar semana 3 Ago – 9 Ago            | 🌙 noche       | ⏳     |
 
 ---
 
-## 📅 SEMANA 27 Jul – 2 Ago 2026
+## 📅 SEMANA 3 Ago – 9 Ago 2026
 
 > Horario: L-V 8 AM-5 PM | Gym: 5:30-8:00 AM | Noche: 6:30-9:30 PM
 
 | Día | Mañana (5:10-8:00 AM) | Noche (6:30-9:30 PM) |
 |-----|----------------------|----------------------|
-| **Lun 27** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: definir nicho + 💊 Creatina |
-| **Mar 28** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: investigar 10 productos + 💊 Creatina |
-| **Mié 29** | 📚 Lectura + 🏋️ Gym | 🔬 Prototipo X: definir plataforma + 💊 Creatina |
-| **Jue 30** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: definir público + 💊 Creatina |
-| **Vie 31** | 📚 Lectura + 🏋️ Gym | 📋 Revisión semanal + 💊 Creatina |
-| **Sáb 1 Ago** | 📚 Lectura + 🧘 Descanso activo | 🔬 Prototipo X: sensor ultrasónico + 🏠 Lavar prendas |
-| **Dom 2 Ago** | 📚 Lectura | 🛋️ Descanso total |
+| **Lun 3** | 📚 Lectura + 🏋️ Gym | 📊 Distribuir ingresos $1.050.000 + 💊 Creatina |
+| **Mar 4** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: definir nicho + 💊 Creatina |
+| **Mié 5** | 📚 Lectura + 🏋️ Gym | 🔬 Prototipo X: definir plataforma (ESP32/Pi) + 💊 Creatina |
+| **Jue 6** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: investigar 10 productos ganadores + 💊 Creatina |
+| **Vie 7** | 📚 Lectura + 🏋️ Gym | 📋 Revisión semanal + 💊 Creatina |
+| **Sáb 8** | 📚 Lectura + 🧘 Descanso activo | 🔬 Prototipo X: prototipar sensor ultrasónico + 🏠 Lavar prendas |
+| **Dom 9** | 📚 Lectura | 🛋️ Descanso total
 
 ---
 
