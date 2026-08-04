@@ -27,7 +27,7 @@
 ### 🌌 Leyes Universales del Éxito (Martes)
 - [x] Ley de la Atracción — Energía similar se atrae — 2026-07-21
 - [x] Ley de la Abundancia — Hay suficiente para todos — 2026-07-28
-- [ ] Ley del Movimiento — La inacción es más costosa que la acción
+- [x] Ley del Movimiento — La inacción es más costosa que la acción — 2026-08-04
 - [ ] Ley de Compensación — Da más de lo esperado
 - [ ] Ley de No Resistencia — No luchar contra lo que es
 - [ ] Ley de Perdón — Soltar el rencor libera energía
@@ -83,5 +83,6 @@
 | 2026-08-01 | 🔮 Mezcla | Vibración + Atracción: La ciencia detrás de "piensa y serás rico" |
 | 2026-08-02 | 🔄 Herméticas | Ley de Causa y Efecto — "Toda causa tiene su efecto" |
 | 2026-08-03 | 🔄 Herméticas | Ley de Género — "El género está en todo" |
+| 2026-08-04 | 🌌 Éxito | Ley del Movimiento — La inacción es más costosa que la acción |
 
 *(Se actualiza diariamente con la lectura entregada)*
