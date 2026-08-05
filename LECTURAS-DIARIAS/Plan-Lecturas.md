@@ -36,7 +36,7 @@
 ### ⚙️ Leyes Físicas/Cosmológicas (Miércoles)
 - [x] Primera Ley de la Termodinámica — Energía no se crea ni se destruye — 2026-07-22
 - [x] Entropía — Todo tiende al desorden (y cómo luchar contra ello) — 2026-07-29
-- [ ] Ley de Gravedad — Lo que sube debe bajar (riesgo/recompensa)
+- [x] Ley de Gravedad — Lo que sube debe bajar (riesgo/recompensa) — 2026-08-05
 - [ ] Principio de Incertidumbre de Heisenberg — No puedes controlar todo
 - [ ] Efecto Mariposa — Pequeños cambios, grandes consecuencias
 - [ ] Ley de Murphy — Si puede salir mal, saldrá
@@ -84,5 +84,6 @@
 | 2026-08-02 | 🔄 Herméticas | Ley de Causa y Efecto — "Toda causa tiene su efecto" |
 | 2026-08-03 | 🔄 Herméticas | Ley de Género — "El género está en todo" |
 | 2026-08-04 | 🌌 Éxito | Ley del Movimiento — La inacción es más costosa que la acción |
+| 2026-08-05 | ⚙️ Físicas | Ley de Gravedad — Lo que sube debe bajar (riesgo/recompensa) |
 
 *(Se actualiza diariamente con la lectura entregada)*
