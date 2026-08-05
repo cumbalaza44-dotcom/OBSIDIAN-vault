@@ -51,14 +51,14 @@ source: "Mr. Jair — iOS / Telegram"
 
 | Hábito | Frecuencia | Último registro |
 |--------|------------|-----------------|
-| 📚 Lectura diaria | Diario | Vie 31/07 ✅ |
-| 🏋️ Gym | Lun-Vie | Vie 31/07 ✅ |
+| 📚 Lectura diaria | Diario | Mié 5/08 ✅ |
+| 🏋️ Gym | Lun-Vie | Mié 5/08 ✅ |
 | 💊 Creatina 3-5g | Diario (noche) | Mié 29/07 ✅ |
 | 🔬 Prototipo X | Semanal | Mié 29/07 ✅ investigación |
 
 ### ✅ Completados reciente
-- [x] 📚 Lectura diaria (Vie 31/07)
-- [x] 🏋️ Gym (Vie 31/07)
+- [x] 📚 Lectura diaria (Mié 5/08)
+- [x] 🏋️ Gym (Mié 5/08)
 - [x] 🔬 Prototipo X: investigación (Mié 29/07)
 - [x] 💊 Creatina 3-5g (Mié 29/07)
 - [x] 🏍️ Bujía y aceite moto (semana del 27/07)
