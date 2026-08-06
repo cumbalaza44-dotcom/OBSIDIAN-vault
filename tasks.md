@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `5 Ago 2026 — 12:37`
+### Última actualización: `5 Ago 2026 — 21:17`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -26,7 +26,7 @@ source: "Mr. Jair — iOS / Telegram"
 | --- | --------------------------------------------- | -------------- | ------ |
 | 1   | 📚 Lectura diaria                             | ⏰ 5:10 AM     | ✅     |
 | 2   | 🏋️ Gym                                       | 🌅 5:30-8:00 AM | ✅     |
-| 3   | 🔬 Prototipo X: definir plataforma            | 🌙 noche       | ⏳     |
+| 3   | 🔬 Prototipo X: definir plataforma            | 🌙 noche       | ✅     |
 | 4   | 💊 Creatina                                  | 🌙 noche       | ⏳     |
 
 ---
@@ -86,7 +86,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 - [x] Investigar sensores (costos + specs)
 - [x] Investigación completa: problema, solución, competencia, innovación
-- [ ] Definir plataforma hardware con foco en: visibilidad de tráfico + puntos ciegos + procesamiento en tiempo real ← **Esta noche**
+- [x] Definir plataforma hardware con foco en: visibilidad de tráfico + puntos ciegos + procesamiento en tiempo real — **Fase 1: Pi 5 + Coral (~$140 USD) | Fase 2: Jetson Orin Nano (~$249 USD)**
 - [ ] Prototipar sensor ultrasónico + alerta
 - [ ] Diseñar UX del HUD/app
 
