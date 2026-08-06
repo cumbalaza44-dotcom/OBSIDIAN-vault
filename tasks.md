@@ -57,8 +57,8 @@ source: "Mr. Jair — iOS / Telegram"
 | 🔬 Prototipo X | Semanal | Mié 29/07 ✅ investigación |
 
 ### ✅ Completados reciente
-- [x] 📚 Lectura diaria (Mié 5/08)
-- [x] 🏋️ Gym (Mié 5/08)
+- [x] 📚 Lectura diaria (Jue 6/08)
+- [x] 🏋️ Gym (Jue 6/08)
 - [x] 🔬 Prototipo X: investigación (Mié 29/07)
 - [x] 💊 Creatina 3-5g (Mié 29/07)
 - [x] 🏍️ Bujía y aceite moto (semana del 27/07)
