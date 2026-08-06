@@ -46,7 +46,7 @@
 - [x] Estoicismo: Controla lo que puedes, suelta lo que no (Epcteto) — 2026-07-16
 - [x] Tao: El camino del agua — fluir, no forzar (Lao Tse) — 2026-07-23
 - [x] Meditaciones: Diario de un emperador filósofo (Marco Aurelio) — 2026-07-30
-- [ ] El arte de la guerra: Conócete a ti mismo (Sun Tzu)
+- [x] El arte de la guerra: Conócete a ti mismo (Sun Tzu) — 2026-08-06
 - [ ] Mindfulness: Vivir en el presente (Thich Nhat Hanh)
 - [ ] Stoicismo moderno: Ryan Holiday — *The Obstacle Is the Way*
 - [ ] Filosofía del Stoicismo: Seneca — *Cartas a Lucilio*
@@ -85,5 +85,6 @@
 | 2026-08-03 | 🔄 Herméticas | Ley de Género — "El género está en todo" |
 | 2026-08-04 | 🌌 Éxito | Ley del Movimiento — La inacción es más costosa que la acción |
 | 2026-08-05 | ⚙️ Físicas | Ley de Gravedad — Lo que sube debe bajar (riesgo/recompensa) |
+| 2026-08-06 | 🧘 Filosofía | El arte de la guerra: Conócete a ti mismo (Sun Tzu) |
 
 *(Se actualiza diariamente con la lectura entregada)*
