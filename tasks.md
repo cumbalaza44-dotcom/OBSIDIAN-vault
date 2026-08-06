@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `5 Ago 2026 — 21:17`
+### Última actualización: `6 Ago 2026 — 21:19`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -20,13 +20,13 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Miércoles 5/08
+## 🔥 HOY — Jueves 6/08
 
 | #   | Tarea                                         | Ventana        | Estado |
 | --- | --------------------------------------------- | -------------- | ------ |
-| 1   | 📚 Lectura diaria                             | ⏰ 5:10 AM     | ✅     |
-| 2   | 🏋️ Gym                                       | 🌅 5:30-8:00 AM | ✅     |
-| 3   | 🔬 Prototipo X: definir plataforma            | 🌙 noche       | ✅     |
+| 1   | 📚 Lectura diaria                             | ⏰ 5:10 AM     | ⏳     |
+| 2   | 🏋️ Gym                                       | 🌅 5:30-8:00 AM | ⏳     |
+| 3   | 📢 Meta Ads: investigar 10 productos ganadores | 🌙 noche       | ⏳     |
 | 4   | 💊 Creatina                                  | 🌙 noche       | ⏳     |
 
 ---
@@ -81,8 +81,8 @@ source: "Mr. Jair — iOS / Telegram"
 ### 🏍️ Prototipo X — Copiloto Moto
 > **Objetivo:** Capacidad de hardware para entender el tráfico durante la conducción — especialmente lo que NO se ve de buena manera (puntos ciegos, vehículos en ángulos muertos, condiciones de visibilidad reducida).
 > **Primer prototipo funcional:** Priorizar sensores que detecten lo que el ojo humano pierde al conducir.
-> **Siguiente:** Definir plataforma (ESP32 vs Pi vs Jetson) considerando procesamiento en tiempo real
-> **Esfuerzo:** 1-2 horas | **Depende de:** Decisión de plataforma
+> **Siguiente:** Prototipar sensor ultrasónico + alerta
+> **Esfuerzo:** 1-2 horas | **Depende de:** Compra de hardware Pi 5 + Coral
 
 - [x] Investigar sensores (costos + specs)
 - [x] Investigación completa: problema, solución, competencia, innovación
