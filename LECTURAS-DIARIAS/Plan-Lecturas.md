@@ -55,7 +55,7 @@
 - [x] Entropía + Ley del Movimiento: Por qué la disciplina vence al caos — 2026-07-24
 - [x] Causa y Efecto + Karma: Cómo todo se conecta — 2026-07-31
 - [x] Vibración + Atracción: La ciencia detrás de "piensa y serás rico" — 2026-08-01
-- [ ] Polaridad + Equilibrio Yin-Yang: Dualidad en los negocios
+- [x] Polaridad + Equilibrio Yin-Yang: Dualidad en los negocios — 2026-08-07
 - [ ] Gravedad + Sacrificio: El peso de las decisiones
 - [x] Incertidumbre + Tao: Abrazar lo desconocido — 2026-07-17
 - [x] Mentalismo + Meditación: El poder de la mente enfocada — 2026-07-19
@@ -86,5 +86,6 @@
 | 2026-08-04 | 🌌 Éxito | Ley del Movimiento — La inacción es más costosa que la acción |
 | 2026-08-05 | ⚙️ Físicas | Ley de Gravedad — Lo que sube debe bajar (riesgo/recompensa) |
 | 2026-08-06 | 🧘 Filosofía | El arte de la guerra: Conócete a ti mismo (Sun Tzu) |
+| 2026-08-07 | 🔮 Mezcla | Polaridad + Equilibrio Yin-Yang: Dualidad en los negocios |
 
 *(Se actualiza diariamente con la lectura entregada)*
