@@ -38,7 +38,7 @@
 - [x] Entropía — Todo tiende al desorden (y cómo luchar contra ello) — 2026-07-29
 - [x] Ley de Gravedad — Lo que sube debe bajar (riesgo/recompensa) — 2026-08-05
 - [ ] Principio de Incertidumbre de Heisenberg — No puedes controlar todo
-- [ ] Efecto Mariposa — Pequeños cambios, grandes consecuencias
+- [x] Efecto Mariposa — Pequeños cambios, grandes consecuencias — 2026-08-08
 - [ ] Ley de Murphy — Si puede salir mal, saldrá
 - [ ] Conservación de Energía — No puedes ganar sin invertir
 
@@ -87,5 +87,6 @@
 | 2026-08-05 | ⚙️ Físicas | Ley de Gravedad — Lo que sube debe bajar (riesgo/recompensa) |
 | 2026-08-06 | 🧘 Filosofía | El arte de la guerra: Conócete a ti mismo (Sun Tzu) |
 | 2026-08-07 | 🔮 Mezcla | Polaridad + Equilibrio Yin-Yang: Dualidad en los negocios |
+| 2026-08-08 | ⚙️ Físicas | Efecto Mariposa — Pequeños cambios, grandes consecuencias |
 
 *(Se actualiza diariamente con la lectura entregada)*
