@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `6 Ago 2026 — 21:19`
+### Última actualización: `8 Ago 2026 — 21:06`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -20,14 +20,15 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Jueves 6/08
+## 🔥 HOY — Sábado 08/08
 
 | #   | Tarea                                         | Ventana        | Estado |
 | --- | --------------------------------------------- | -------------- | ------ |
-| 1   | 📚 Lectura diaria                             | ⏰ 5:10 AM     | ✅     |
-| 2   | 🏋️ Gym                                       | 🌅 5:30-8:00 AM | ✅     |
-| 3   | 📢 Meta Ads: investigar 10 productos ganadores | 🌙 noche       | ⏳     |
-| 4   | 💊 Creatina                                  | 🌙 noche       | ⏳     |
+| 1   | 📚 Lectura diaria                             | 🌅 mañana      | ⏳     |
+| 2   | 🧘 Descanso activo                            | 🌅 mañana      | ⏳     |
+| 3   | 🔬 Prototipo X: prototipar sensor ultrasónico | 🌙 noche       | ⏳     |
+| 4   | 🏠 Lavar prendas                              | 🌙 noche       | ⏳     |
+| 5   | 💊 Creatina                                  | 🌙 noche       | ⏳     |
 
 ---
 
@@ -51,7 +52,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 | Hábito | Frecuencia | Último registro |
 |--------|------------|-----------------|
-| 📚 Lectura diaria | Diario | Jue 6/08 ✅ |
+| 📚 Lectura diaria | Diario | Sáb 8/08 ⏳ |
 | 🏋️ Gym | Lun-Vie | Jue 6/08 ✅ |
 | 💊 Creatina 3-5g | Diario (noche) | Mié 29/07 ✅ |
 | 🔬 Prototipo X | Semanal | Mié 29/07 ✅ investigación |
