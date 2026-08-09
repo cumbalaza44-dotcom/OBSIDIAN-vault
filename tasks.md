@@ -25,7 +25,7 @@ source: "Mr. Jair — iOS / Telegram"
 | #   | Tarea                                         | Ventana        | Estado |
 | --- | --------------------------------------------- | -------------- | ------ |
 | 1   | 📚 Lectura diaria                             | 🌅 mañana      | ⏳     |
-| 2   | 🛋️ Descanso total                             | todo el día    | ⏳     |
+| 2   | 🛋️ Descanso total                             | todo el día    | ✅     |
 | 3   | 🏠 Lavar prendas (pendientes del sábado)      | 🌙 noche       | ⏳     |
 | 4   | 💊 Creatina                                   | 🌙 noche       | ⏳     |
 
