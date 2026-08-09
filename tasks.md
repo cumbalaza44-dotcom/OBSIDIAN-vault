@@ -26,7 +26,7 @@ source: "Mr. Jair — iOS / Telegram"
 | --- | --------------------------------------------- | -------------- | ------ |
 | 1   | 📚 Lectura diaria                             | 🌅 mañana      | ⏳     |
 | 2   | 🛋️ Descanso total                             | todo el día    | ✅     |
-| 3   | 🏠 Lavar prendas (pendientes del sábado)      | 🌙 noche       | ⏳     |
+| 3   | 🏠 Lavar prendas (pendientes del sábado)      | 🌙 noche       | ✅     |
 | 4   | 💊 Creatina                                   | 🌙 noche       | ✅     |
 
 ---
@@ -53,10 +53,11 @@ source: "Mr. Jair — iOS / Telegram"
 |--------|------------|-----------------|
 | 📚 Lectura diaria | Diario | Sáb 8/08 ⏳ |
 | 🏋️ Gym | Lun-Vie | Jue 6/08 ✅ |
-| 💊 Creatina 3-5g | Diario (noche) | Mié 29/07 ✅ |
+| 💊 Creatina 3-5g | Diario (noche) | Dom 9/08 ✅ |
 | 🔬 Prototipo X | Semanal | Mié 29/07 ✅ investigación |
 
 ### ✅ Completados reciente
+- [x] 🏠 Lavar prendas (Dom 9/08)
 - [x] 📚 Lectura diaria (Jue 6/08)
 - [x] 🏋️ Gym (Jue 6/08)
 - [x] 🔬 Prototipo X: investigación (Mié 29/07)
