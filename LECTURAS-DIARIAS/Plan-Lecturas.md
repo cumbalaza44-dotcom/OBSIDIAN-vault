@@ -28,7 +28,7 @@
 - [x] Ley de la Atracción — Energía similar se atrae — 2026-07-21
 - [x] Ley de la Abundancia — Hay suficiente para todos — 2026-07-28
 - [x] Ley del Movimiento — La inacción es más costosa que la acción — 2026-08-04
-- [ ] Ley de Compensación — Da más de lo esperado
+- [x] Ley de Compensación — Da más de lo esperado — 2026-08-09
 - [ ] Ley de No Resistencia — No luchar contra lo que es
 - [ ] Ley de Perdón — Soltar el rencor libera energía
 - [ ] Ley de Sacrificio — Para ganar algo, se deja algo
@@ -88,5 +88,6 @@
 | 2026-08-06 | 🧘 Filosofía | El arte de la guerra: Conócete a ti mismo (Sun Tzu) |
 | 2026-08-07 | 🔮 Mezcla | Polaridad + Equilibrio Yin-Yang: Dualidad en los negocios |
 | 2026-08-08 | ⚙️ Físicas | Efecto Mariposa — Pequeños cambios, grandes consecuencias |
+| 2026-08-09 | 🔮 Libre/Domingo | Ley de Compensación — Da más de lo esperado |
 
 *(Se actualiza diariamente con la lectura entregada)*
