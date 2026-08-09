@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `8 Ago 2026 — 21:06`
+### Última actualización: `9 Ago 2026`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -20,15 +20,14 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Sábado 08/08
+## 🔥 HOY — Domingo 09/08
 
 | #   | Tarea                                         | Ventana        | Estado |
 | --- | --------------------------------------------- | -------------- | ------ |
 | 1   | 📚 Lectura diaria                             | 🌅 mañana      | ⏳     |
-| 2   | 🧘 Descanso activo                            | 🌅 mañana      | ⏳     |
-| 3   | 🔬 Prototipo X: prototipar sensor ultrasónico | 🌙 noche       | ⏳     |
-| 4   | 🏠 Lavar prendas                              | 🌙 noche       | ⏳     |
-| 5   | 💊 Creatina                                  | 🌙 noche       | ⏳     |
+| 2   | 🛋️ Descanso total                             | todo el día    | ⏳     |
+| 3   | 🏠 Lavar prendas (pendientes del sábado)      | 🌙 noche       | ⏳     |
+| 4   | 💊 Creatina                                   | 🌙 noche       | ⏳     |
 
 ---
 
