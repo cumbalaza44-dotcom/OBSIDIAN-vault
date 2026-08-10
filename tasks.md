@@ -25,15 +25,9 @@ source: "Mr. Jair — iOS / Telegram"
 | #   | Tarea                                         | Ventana        | Estado |
 | --- | --------------------------------------------- | -------------- | ------ |
 | 1   | 📚 Lectura diaria                             | 🌅 mañana      | ⏳     |
-<<<<<<< HEAD
-| 2   | 🛋️ Descanso total                             | todo el día    | ✅     |
-| 3   | 🏠 Lavar prendas (pendientes del sábado)      | 🌙 noche       | ✅     |
-| 4   | 💊 Creatina                                   | 🌙 noche       | ✅     |
-=======
 | 2   | 🏋️ Gym                                        | 🌅 mañana 5:30 | ⏳     |
 | 3   | 📢 Meta Ads: definir nicho específico          | 🌙 noche       | ⏳     |
 | 4   | 💊 Creatina                                   | 🌙 noche       | ⏳     |
->>>>>>> bbf103a (JARVIS sync: 2026-08-09 20:01)
 
 ---
 
