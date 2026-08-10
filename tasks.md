@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `9 Ago 2026`
+### Última actualización: `10 Ago 2026`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -20,18 +20,36 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Domingo 09/08
+## 🔥 HOY — Lunes 10/08
 
 | #   | Tarea                                         | Ventana        | Estado |
 | --- | --------------------------------------------- | -------------- | ------ |
 | 1   | 📚 Lectura diaria                             | 🌅 mañana      | ⏳     |
+<<<<<<< HEAD
 | 2   | 🛋️ Descanso total                             | todo el día    | ✅     |
 | 3   | 🏠 Lavar prendas (pendientes del sábado)      | 🌙 noche       | ✅     |
 | 4   | 💊 Creatina                                   | 🌙 noche       | ✅     |
+=======
+| 2   | 🏋️ Gym                                        | 🌅 mañana 5:30 | ⏳     |
+| 3   | 📢 Meta Ads: definir nicho específico          | 🌙 noche       | ⏳     |
+| 4   | 💊 Creatina                                   | 🌙 noche       | ⏳     |
+>>>>>>> bbf103a (JARVIS sync: 2026-08-09 20:01)
 
 ---
 
-## 📅 SEMANA 3 Ago – 9 Ago 2026
+## 📅 SEMANA 10 Ago – 16 Ago 2026
+
+> Horario: L-V 8 AM-5 PM | Gym: 5:30-8:00 AM | Noche: 6:30-9:30 PM
+
+| Día | Mañana (5:10-8:00 AM) | Noche (6:30-9:30 PM) |
+|-----|----------------------|----------------------|
+| **Lun 10** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: definir nicho + 💊 Creatina |
+| **Mar 11** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: investigar 10 productos ganadores + 💊 Creatina |
+| **Mié 12** | 📚 Lectura + 🏋️ Gym | 🔬 Prototipo X: prototipar sensor ultrasónico + 💊 Creatina |
+| **Jue 13** | 📚 Lectura + 🏋️ Gym | 📊 Distribuir $1.050.000 + 💊 Creatina |
+| **Vie 14** | 📚 Lectura + 🏋️ Gym | 📋 Revisión semanal + 🏠 Lavar prendas + 💊 Creatina |
+| **Sáb 15** | 📚 Lectura + 🧘 Descanso activo | 🔬 Prototipo X: continuar prototipado + 🏠 Ciclo de trabajo |
+| **Dom 16** | 📚 Lectura | 🛋️ Descanso total |
 
 > Horario: L-V 8 AM-5 PM | Gym: 5:30-8:00 AM | Noche: 6:30-9:30 PM
 
