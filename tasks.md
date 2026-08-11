@@ -20,13 +20,13 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Lunes 10/08
+## 🔥 HOY — Martes 11/08
 
 | #   | Tarea                                         | Ventana        | Estado |
 | --- | --------------------------------------------- | -------------- | ------ |
 | 1   | 📚 Lectura diaria                             | 🌅 mañana      | 🔄     |
-| 2   | 🏋️ Gym (pospuesto — cerrado, mañana normal)    | 🌅 mañana 5:30 | 🔄     |
-| 3   | 📢 Meta Ads: definir nicho específico          | 🌙 noche       | 🔄     |
+| 2   | 🏋️ Gym                                        | 🌅 mañana 5:30 | 🔄     |
+| 3   | 📢 Meta Ads: investigar 10 productos ganadores | 🌙 noche       | 🔄     |
 | 4   | 💊 Creatina                                   | 🌙 noche       | ⏳     |
 
 ---
