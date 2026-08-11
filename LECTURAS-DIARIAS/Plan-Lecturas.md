@@ -29,7 +29,7 @@
 - [x] Ley de la Abundancia — Hay suficiente para todos — 2026-07-28
 - [x] Ley del Movimiento — La inacción es más costosa que la acción — 2026-08-04
 - [x] Ley de Compensación — Da más de lo esperado — 2026-08-09
-- [ ] Ley de No Resistencia — No luchar contra lo que es
+- [x] Ley de No Resistencia — No luchar contra lo que es — 2026-08-11
 - [ ] Ley de Perdón — Soltar el rencor libera energía
 - [ ] Ley de Sacrificio — Para ganar algo, se deja algo
 
@@ -90,5 +90,6 @@
 | 2026-08-08 | ⚙️ Físicas | Efecto Mariposa — Pequeños cambios, grandes consecuencias |
 | 2026-08-09 | 🔮 Libre/Domingo | Ley de Compensación — Da más de lo esperado |
 | 2026-08-10 | 🔄 Herméticas | El Kybalión y las Siete Leyes como Sistema Unificado |
+| 2026-08-11 | 🌌 Éxito | Ley de No Resistencia — No luchar contra lo que es |
 
 *(Se actualiza diariamente con la lectura entregada)*
