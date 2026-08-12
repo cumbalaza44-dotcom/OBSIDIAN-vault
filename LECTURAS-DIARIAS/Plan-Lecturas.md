@@ -39,7 +39,7 @@
 - [x] Ley de Gravedad — Lo que sube debe bajar (riesgo/recompensa) — 2026-08-05
 - [ ] Principio de Incertidumbre de Heisenberg — No puedes controlar todo
 - [x] Efecto Mariposa — Pequeños cambios, grandes consecuencias — 2026-08-08
-- [ ] Ley de Murphy — Si puede salir mal, saldrá
+- [x] Ley de Murphy — Si puede salir mal, saldrá — 2026-08-12
 - [ ] Conservación de Energía — No puedes ganar sin invertir
 
 ### 🧘 Filosofía / Sabiduría Antigua (Jueves)
@@ -91,5 +91,6 @@
 | 2026-08-09 | 🔮 Libre/Domingo | Ley de Compensación — Da más de lo esperado |
 | 2026-08-10 | 🔄 Herméticas | El Kybalión y las Siete Leyes como Sistema Unificado |
 | 2026-08-11 | 🌌 Éxito | Ley de No Resistencia — No luchar contra lo que es |
+| 2026-08-12 | ⚙️ Físicas | Ley de Murphy — Si puede salir mal, saldrá |
 
 *(Se actualiza diariamente con la lectura entregada)*
