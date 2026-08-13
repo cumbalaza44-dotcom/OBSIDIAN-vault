@@ -47,7 +47,7 @@
 - [x] Tao: El camino del agua — fluir, no forzar (Lao Tse) — 2026-07-23
 - [x] Meditaciones: Diario de un emperador filósofo (Marco Aurelio) — 2026-07-30
 - [x] El arte de la guerra: Conócete a ti mismo (Sun Tzu) — 2026-08-06
-- [ ] Mindfulness: Vivir en el presente (Thich Nhat Hanh)
+- [x] Mindfulness: Vivir en el presente (Thich Nhat Hanh) — 2026-08-13
 - [ ] Stoicismo moderno: Ryan Holiday — *The Obstacle Is the Way*
 - [ ] Filosofía del Stoicismo: Seneca — *Cartas a Lucilio*
 
@@ -92,5 +92,6 @@
 | 2026-08-10 | 🔄 Herméticas | El Kybalión y las Siete Leyes como Sistema Unificado |
 | 2026-08-11 | 🌌 Éxito | Ley de No Resistencia — No luchar contra lo que es |
 | 2026-08-12 | ⚙️ Físicas | Ley de Murphy — Si puede salir mal, saldrá |
+| 2026-08-13 | 🧘 Filosofía | Mindfulness: Vivir en el presente (Thich Nhat Hanh) |
 
 *(Se actualiza diariamente con la lectura entregada)*
