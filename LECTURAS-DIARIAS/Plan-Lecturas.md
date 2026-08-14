@@ -56,7 +56,7 @@
 - [x] Causa y Efecto + Karma: Cómo todo se conecta — 2026-07-31
 - [x] Vibración + Atracción: La ciencia detrás de "piensa y serás rico" — 2026-08-01
 - [x] Polaridad + Equilibrio Yin-Yang: Dualidad en los negocios — 2026-08-07
-- [ ] Gravedad + Sacrificio: El peso de las decisiones
+- [x] Gravedad + Sacrificio: El peso de las decisiones — 2026-08-14
 - [x] Incertidumbre + Tao: Abrazar lo desconocido — 2026-07-17
 - [x] Mentalismo + Meditación: El poder de la mente enfocada — 2026-07-19
 
@@ -93,5 +93,6 @@
 | 2026-08-11 | 🌌 Éxito | Ley de No Resistencia — No luchar contra lo que es |
 | 2026-08-12 | ⚙️ Físicas | Ley de Murphy — Si puede salir mal, saldrá |
 | 2026-08-13 | 🧘 Filosofía | Mindfulness: Vivir en el presente (Thich Nhat Hanh) |
+| 2026-08-14 | 🔮 Mezcla | Gravedad + Sacrificio: El peso de las decisiones |
 
 *(Se actualiza diariamente con la lectura entregada)*
