@@ -30,7 +30,7 @@
 - [x] Ley del Movimiento — La inacción es más costosa que la acción — 2026-08-04
 - [x] Ley de Compensación — Da más de lo esperado — 2026-08-09
 - [x] Ley de No Resistencia — No luchar contra lo que es — 2026-08-11
-- [ ] Ley de Perdón — Soltar el rencor libera energía
+- [x] Ley de Perdón — Soltar el rencor libera energía — 2026-08-15
 - [ ] Ley de Sacrificio — Para ganar algo, se deja algo
 
 ### ⚙️ Leyes Físicas/Cosmológicas (Miércoles)
@@ -94,5 +94,6 @@
 | 2026-08-12 | ⚙️ Físicas | Ley de Murphy — Si puede salir mal, saldrá |
 | 2026-08-13 | 🧘 Filosofía | Mindfulness: Vivir en el presente (Thich Nhat Hanh) |
 | 2026-08-14 | 🔮 Mezcla | Gravedad + Sacrificio: El peso de las decisiones |
+| 2026-08-15 | 🌌 Libre/Sábado | Ley de Perdón — Soltar el rencor libera energía |
 
 *(Se actualiza diariamente con la lectura entregada)*
