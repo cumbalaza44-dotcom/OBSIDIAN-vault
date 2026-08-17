@@ -98,6 +98,32 @@ Precios en USD por millón de tokens ($/M). Fuente: OpenRouter API, consultado e
 
 ---
 
+## 🔍 Comparativa de proveedores — DeepSeek V4 Flash
+
+> Verificado el 17/08/2026 contra 6 proveedores. Escenario: 900M tokens/mes (720M cached + 135M miss + 45M output).
+
+| Proveedor | Input miss ($/M) | Cache read ($/M) | Output ($/M) | Costo/mes |
+|-----------|------------------|------------------|--------------|-----------|
+| **OpenRouter** (v4-flash) | $0.0686 | $0.0137 | $0.1372 | **$25.30** 🥇 |
+| **DeepInfra** (V4-Flash-0731) | $0.08 | $0.016 | $0.18 | $30.42 |
+| **DeepInfra** (V4-Flash) | $0.09 | $0.018 | $0.18 | $33.21 |
+| **Fireworks** (V4 Flash 0731) | $0.14 | $0.028 | $0.28 | $51.66 |
+| **Novita** (V4 Flash) | $0.14 | $0.028 | $0.28 | $51.66 |
+| **Together AI** (V4 Flash 0731) | $0.14 | $0.03 | $0.28 | $53.10 |
+| **DeepSeek oficial** (off-peak) | $0.22 | $0.007 | $0.66 | $64.44 |
+| **DeepSeek oficial** (promedio) | — | — | — | $83.25 (más caro) |
+
+### Hallazgos clave
+
+1. **Fenómeno de revendedores confirmado:** OpenRouter y DeepInfra son **más baratos que el fabricante**. DeepSeek oficial cobra caro el cache-miss ($0.22) y el output ($0.66), que dominan el patrón de agente; los revendedores ofrecen tarifas planas ~3-5× más bajas.
+2. **El más barato es OpenRouter** ($25.30/mes) — justo lo ya documentado en la nota. Los $25.29 calculados son correctos.
+3. **El más caro es DeepSeek oficial** en promedio ($83.25/mes) — más de 3× el costo de OpenRouter.
+4. **Groq no ofrece** DeepSeek V4 Flash en su catálogo actual. **Hyperbolic** no fue verificable (páginas con error) — excluido explícitamente.
+
+> **Por qué los revendedores son más baratos que el fabricante:** DeepSeek es open-source, así que cualquier proveedor puede hostear los pesos y fijar su propio precio. Los revendedores compran capacidad de GPU al por mayor, subsidian modelos populares como gancho para atraer tráfico, y optimizan el serving (batching, KV-cache, routing). No es un error; es competencia de mercado.
+
+---
+
 ## 🎯 Recomendación estratégica
 
 Para un agente de alto volumen con patrón 80% cacheado, la combinación óptima es:
