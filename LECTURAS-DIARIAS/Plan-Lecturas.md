@@ -95,5 +95,6 @@
 | 2026-08-13 | 🧘 Filosofía | Mindfulness: Vivir en el presente (Thich Nhat Hanh) |
 | 2026-08-14 | 🔮 Mezcla | Gravedad + Sacrificio: El peso de las decisiones |
 | 2026-08-15 | 🌌 Libre/Sábado | Ley de Perdón — Soltar el rencor libera energía |
+| 2026-08-17 | 🔄 Herméticas | La Tabla Esmeralda: El Documento Más Antiguo de la Sabiduría Universal |
 
 *(Se actualiza diariamente con la lectura entregada)*
