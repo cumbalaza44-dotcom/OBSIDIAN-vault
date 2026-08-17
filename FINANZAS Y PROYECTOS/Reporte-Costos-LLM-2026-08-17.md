@@ -43,7 +43,7 @@ Precios en USD por millón de tokens ($/M). Fuente: OpenRouter API, consultado e
 | Gemini 3.7 Flash | 56.0 | 76.1 | 45.1 | Muy alta | Muy baja |
 | Ling 3.0 Flash | 37.8 | 50.6 | 29.3 | Alta | Baja |
 | GPT-5.6 Luna | 52.3 | 71.4 | 46.9 | Alta | Baja |
-| Qwen 3.7 Flash | ~40 | — | — | Alta | Baja |
+| Qwen 3.7 Flash | ~40 (pendiente confirmar AA) | — | — | Alta | Baja |
 
 ### Referencia top-tier (para ranking)
 
@@ -73,7 +73,7 @@ Precios en USD por millón de tokens ($/M). Fuente: OpenRouter API, consultado e
 | Modelo | Costo/mes | Inteligencia (IQ) | Valor (IQ/$mes) |
 |--------|-----------|-------------------|-----------------|
 | Ling 3.0 Flash | $8.69 | 37.8 | 435.0 |
-| Qwen 3.7 Flash | $14.22 | 40.0 | 281.3 |
+| Qwen 3.7 Flash | $14.22 | 40.0 (pendiente) | 281.3 |
 | DeepSeek V4 Flash (estándar) | $25.29 | 51.8 | 204.8 |
 | GLM 4.7 Flash | $33.30 | 40.0 | 120.1 |
 | Mimo v2.5 | $33.52 | 38.0 | 113.4 |
@@ -89,7 +89,7 @@ Precios en USD por millón de tokens ($/M). Fuente: OpenRouter API, consultado e
 | # | Modelo | IQ | Costo/mes | Justificación |
 |---|--------|-----|-----------|---------------|
 | 1 | **DeepSeek V4 Flash** | 51.8 | ~$25/mes | Mejor IQ/costo del mercado. Rinde a nivel pro a fracción del precio. Ideal principal para agente. |
-| 2 | **Qwen 3.7 Flash** | 40.0 | ~$14/mes | Excelente valor con cache-read bajo ($0.006/M). |
+| 2 | **Qwen 3.7 Flash** | 40.0 | ~$14/mes | Excelente valor con cache-read bajo ($0.006/M). Multimodal (texto+imagen+video), 1M contexto, razonamiento opcional. |
 | 3 | **Mimo v2.5** | 38.0 | ~$34/mes | Cache-read imbatible ($0.0028/M) para cargas con alta reutilización de contexto. IQ modesto pero suficiente para tareas de agente rutinarias. |
 | 4 | **GPT-5.6 Luna** | 52.3 | ~$95/mes | La mejor opción OpenAI de gama media. IQ 52.3 (nivel DeepSeek V4 Pro) a $95/mes. Buen equilibrio potencia/costo si se prefiere ecosistema OpenAI. |
 | 5 | **Gemini 3.7 Flash** | 56.0 | ~$162/mes | El más inteligente del TOP 5 (IQ 56, coding 76.1). 1M contexto, velocidad y latencia excelentes para agentes. Cuesta más, pero es el techo de potencia asequible. |
@@ -121,6 +121,30 @@ Precios en USD por millón de tokens ($/M). Fuente: OpenRouter API, consultado e
 4. **Groq no ofrece** DeepSeek V4 Flash en su catálogo actual. **Hyperbolic** no fue verificable (páginas con error) — excluido explícitamente.
 
 > **Por qué los revendedores son más baratos que el fabricante:** DeepSeek es open-source, así que cualquier proveedor puede hostear los pesos y fijar su propio precio. Los revendedores compran capacidad de GPU al por mayor, subsidian modelos populares como gancho para atraer tráfico, y optimizan el serving (batching, KV-cache, routing). No es un error; es competencia de mercado.
+
+## 📌 Ficha verificada — Qwen 3.7 Flash (17/08/2026)
+
+> Datos obtenidos de la API de OpenRouter hoy. Benchmarks de Artificial Analysis no confirmables hoy (URLs directas dan 404) — marcados como pendientes.
+
+| Campo | Valor |
+|-------|-------|
+| Proveedor | Alibaba (Qwen) |
+| Precio input | $0.030/M |
+| Cache read | $0.006/M |
+| Cache write | $0.038/M |
+| Precio output | $0.130/M |
+| Contexto | 1M tokens |
+| Modalidad | Texto + Imagen + Video → Texto (multimodal) |
+| Razonamiento | Opcional (no obligatorio), activado por defecto |
+| Max tokens salida | 65,536 |
+| Versión | qwen3.7-flash-20260727 |
+| Costo/mes (900M tok) | $14.22 |
+
+**Descripción oficial:** Modelo de razonamiento visión-lenguaje de Alibaba, apto para agentes multimodales, codificación visual, búsqueda e interacción por computadora. Fortalezas en reconocimiento de objetos, comprensión espacial y tareas del mundo real.
+
+**Nota sobre precio escalonado:** OpenRouter aplica descuento por volumen en prompts largos — el precio base ($0.03/$0.13) aplica a prompts <32K tokens; sube a $0.10/$0.40 para 32K-256K y $0.20/$0.80 para >256K. Para un patrón de agente con contexto grande, el costo real puede ser mayor al calculado.
+
+**Pendiente:** Índice de inteligencia (IQ), coding y agentic de Artificial Analysis — no verificables hoy (404). El IQ ~40 es una estimación previa sin confirmar.
 
 ---
 
