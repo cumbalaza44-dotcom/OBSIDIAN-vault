@@ -20,7 +20,7 @@ Precios en USD por millón de tokens ($/M). Fuente: OpenRouter API, consultado e
 | 5 | GPT-5 Nano | OpenAI | $0.050 | **$0.005** | — | $0.400 |
 | 6 | Qwen 3.7 Flash | — | $0.030 | **$0.006** | — | $0.130 |
 | 7 | GLM 4.7 Flash | — | $0.060 | $0.010 | — | $0.400 |
-| 8 | **DeepSeek V4 Flash** | — | $0.074 | **$0.0148** | — | $0.148 |
+| 8 | **DeepSeek V4 Flash** | — | $0.0686 | **$0.0137** | — | $0.1372 |
 | 9 | GPT-5.6 Luna | OpenAI | $0.200 | $0.020 | — | $1.200 |
 | 10 | GPT-5.4 Nano | OpenAI | $0.200 | $0.020 | — | $1.250 |
 
@@ -74,7 +74,7 @@ Precios en USD por millón de tokens ($/M). Fuente: OpenRouter API, consultado e
 |--------|-----------|-------------------|-----------------|
 | Ling 3.0 Flash | $8.69 | 37.8 | 435.0 |
 | Qwen 3.7 Flash | $14.22 | 40.0 | 281.3 |
-| DeepSeek V4 Flash | $27.38 | 51.8 | 189.2 |
+| DeepSeek V4 Flash (estándar) | $25.29 | 51.8 | 204.8 |
 | GLM 4.7 Flash | $33.30 | 40.0 | 120.1 |
 | Mimo v2.5 | $33.52 | 38.0 | 113.4 |
 | GPT-5.6 Luna | $95.40 | 52.3 | 54.8 |
@@ -88,7 +88,7 @@ Precios en USD por millón de tokens ($/M). Fuente: OpenRouter API, consultado e
 
 | # | Modelo | IQ | Costo/mes | Justificación |
 |---|--------|-----|-----------|---------------|
-| 1 | **DeepSeek V4 Flash** | 51.8 | ~$27/mes | Mejor IQ/costo del mercado. Rinde a nivel pro a fracción del precio. Ideal principal para agente. |
+| 1 | **DeepSeek V4 Flash** | 51.8 | ~$25/mes | Mejor IQ/costo del mercado. Rinde a nivel pro a fracción del precio. Ideal principal para agente. |
 | 2 | **Qwen 3.7 Flash** | 40.0 | ~$14/mes | Excelente valor con cache-read bajo ($0.006/M). |
 | 3 | **Mimo v2.5** | 38.0 | ~$34/mes | Cache-read imbatible ($0.0028/M) para cargas con alta reutilización de contexto. IQ modesto pero suficiente para tareas de agente rutinarias. |
 | 4 | **GPT-5.6 Luna** | 52.3 | ~$95/mes | La mejor opción OpenAI de gama media. IQ 52.3 (nivel DeepSeek V4 Pro) a $95/mes. Buen equilibrio potencia/costo si se prefiere ecosistema OpenAI. |
@@ -112,6 +112,6 @@ Para un agente de alto volumen con patrón 80% cacheado, la combinación óptima
 
 - **OpenRouter API** — openrouter.ai/api/v1/models (consultado 17/08/2026): precios de 414 modelos, cache-read incluido.
 - **Artificial Analysis** — artificialanalysis.ai/es (consultado 17/08/2026): índices de inteligencia, coding y agentic.
-- **Precios de DeepSeek y Mimo** verificados manualmente vía API hoy; reflejan los cambios recientes de precios (DeepSeek V4 Flash $0.074/$0.015/$0.148; Mimo v2.5 cache-read $0.0028/M).
+- **Precios de DeepSeek y Mimo** verificados manualmente vía API hoy; reflejan los cambios recientes de precios (DeepSeek V4 Flash estándar $0.0686/$0.0137/$0.1372; Mimo v2.5 cache-read $0.0028/M).
 
 > ⚠️ **Nota de fiabilidad:** Los precios y benchmarks provienen de la API de OpenRouter y Artificial Analysis consultados hoy (17/08/2026). Los precios de DeepSeek V4 Pro son dinámicos por franja horaria. Si se requiere precisión de centavos, verificar precios del proveedor oficial (DeepSeek platform, Xiaomi Mimo) en el momento de la compra.
