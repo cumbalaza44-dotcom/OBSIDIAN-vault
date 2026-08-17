@@ -114,11 +114,11 @@ source: "Mr. Jair — iOS / Telegram"
 - [ ] 💰 Establecer presupuesto inicial ($5-10 USD/día)
 
 ### 🤖 Ghost Trader Bot
-> **Siguiente:** Definir estrategia de trading
-> **Esfuerzo:** Variable | **Depende de:** Diseño de estrategia
+> **Siguiente:** Continuar desarrollo (fases 4+) | **Esfuerzo:** Variable
 
-- [ ] Definir estrategia + lógica de trading
-- [ ] Desarrollo del bot MT5
+- [x] **FASE 1** — Definir estrategia + lógica de trading
+- [x] **FASE 2** — Diseño de arquitectura
+- [x] **FASE 3** — Desarrollo del bot MT5 (construido 17/08)
 - [ ] Prototipo funcional
 
 ### 📈 Ingresos & Estrategia
