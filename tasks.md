@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `17 Ago 2026`
+### Última actualización: `18 Ago 2026`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -20,13 +20,13 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Lunes 17/08
+## 🔥 HOY — Martes 18/08
 
 | #   | Tarea                                         | Ventana        | Estado |
 | --- | --------------------------------------------- | -------------- | ------ |
 | 1   | 📚 Lectura diaria                             | 🌅 mañana      | 🔄     |
-| 2   | 🏋️ Gym                                        | 🌅 mañana 5:30 | ⏳ No se hizo |
-| 3   | 🧠 Definir modelos IA del sistema (principal + dedicados) | 🌙 noche | ✅ |
+| 2   | 🏋️ Gym                                        | 🌅 mañana 5:30 | 🔄     |
+| 3   | 📢 Meta Ads: Definir nicho específico         | 🌙 noche       | 🔄     |
 | 4   | 💊 Creatina                                   | 🌙 noche       | 🔄     |
 
 ---
