@@ -31,7 +31,7 @@
 - [x] Ley de Compensación — Da más de lo esperado — 2026-08-09
 - [x] Ley de No Resistencia — No luchar contra lo que es — 2026-08-11
 - [x] Ley de Perdón — Soltar el rencor libera energía — 2026-08-15
-- [ ] Ley de Sacrificio — Para ganar algo, se deja algo
+- [x] Ley de Sacrificio — Para ganar algo, se deja algo — 2026-08-18
 
 ### ⚙️ Leyes Físicas/Cosmológicas (Miércoles)
 - [x] Primera Ley de la Termodinámica — Energía no se crea ni se destruye — 2026-07-22
