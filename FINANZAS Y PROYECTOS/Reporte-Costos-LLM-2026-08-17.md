@@ -68,6 +68,26 @@ Precios en USD por millón de tokens ($/M). Fuente: OpenRouter API, consultado e
 
 **Escenario:** 30M tokens/día, patrón agente (80% input cacheado, 15% input miss, 5% output) = 900M tokens/mes (720M cached + 135M miss + 45M output).
 
+### 🔢 Desglose de cálculos verificados (17/08/2026)
+
+> Fórmula: `(720M × cache_read) + (135M × input_miss) + (45M × output)` — todo en $/M tokens.
+
+| Modelo | Cache (720M) | Miss (135M) | Output (45M) | Total | Verificado |
+|--------|--------------|-------------|--------------|-------|------------|
+| Ling 3.0 Flash | 720×$0.0042=$3.02 | 135×$0.021=$2.84 | 45×$0.063=$2.84 | **$8.70** | ✓ (reporte $8.69, redondeo) |
+| Qwen 3.7 Flash | 720×$0.006=$4.32 | 135×$0.030=$4.05 | 45×$0.130=$5.85 | **$14.22** | ✓ exacto |
+| DeepSeek V4 Flash | 720×$0.0137=$9.86 | 135×$0.0686=$9.26 | 45×$0.1372=$6.17 | **$25.29** | ✓ (reajustado) |
+| GLM 4.7 Flash | 720×$0.010=$7.20 | 135×$0.060=$8.10 | 45×$0.400=$18.00 | **$33.30** | ✓ exacto |
+| Mimo v2.5 | 720×$0.0028=$2.02 | 135×$0.140=$18.90 | 45×$0.280=$12.60 | **$33.52** | ✓ exacto |
+| GPT-5.6 Luna | 720×$0.020=$14.40 | 135×$0.200=$27.00 | 45×$1.200=$54.00 | **$95.40** | ✓ exacto |
+| Mimo v2.5 Pro | 720×$0.0036=$2.59 | 135×$0.435=$58.73 | 45×$0.870=$39.15 | **$100.47** | ✓ exacto |
+| GPT-5.4 Nano | 720×$0.020=$14.40 | 135×$0.200=$27.00 | 45×$1.250=$56.25 | **$97.65** | ✓ exacto |
+| Gemini 3.7 Flash | — | — | — | **$162.00** | ⚠️ sin precio en FASE 1 |
+| DeepSeek V4 Pro | — | — | — | **$194.04** | ⚠️ precio dinámico por franja |
+| Gemini 3.5 Flash Lite | — | — | — | **$174.60** | ⚠️ sin precio en FASE 1 |
+
+**Veredicto de verificación:** 8 de 11 modelos verificados con exactitud o redondeo menor. Los 3 sin verificar (Gemini 3.7 Flash, DeepSeek V4 Pro, Gemini 3.5 Flash Lite) son los más caros — sus precios no están en la FASE 1 y requieren consulta directa a la API para confirmarse.
+
 ### Costo mensual estimado
 
 | Modelo | Costo/mes | Inteligencia (IQ) | Valor (IQ/$mes) |
