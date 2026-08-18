@@ -18,7 +18,9 @@ Precios en USD por millón de tokens ($/M). Fuente: OpenRouter API, consultado e
 | 3 | Mimo v2.5 Pro | Xiaomi | $0.435 | **$0.0036** | — | $0.870 |
 | 4 | Ling 3.0 Flash | Inclusion AI | $0.021 | **$0.0042** | — | $0.063 |
 | 5 | GPT-5 Nano | OpenAI | $0.050 | **$0.005** | — | $0.400 |
-| 6 | Qwen 3.7 Flash | — | $0.030 | **$0.006** | — | $0.130 |
+| 6 | Qwen 3.7 Flash | — | $0.030* | **$0.006*** | — | $0.130* |
+
+> *Precio base (<32K tokens). Con turnos de 120K tokens aplica la franja 32K-256K: input $0.100, cache $0.020, output $0.400 (3× más caro). Ver FASE 3.
 | 7 | GLM 4.7 Flash | — | $0.060 | $0.010 | — | $0.400 |
 | 8 | **DeepSeek V4 Flash** | — | $0.0686 | **$0.0137** | — | $0.1372 |
 | 9 | GPT-5.6 Luna | OpenAI | $0.200 | $0.020 | — | $1.200 |
@@ -43,7 +45,7 @@ Precios en USD por millón de tokens ($/M). Fuente: OpenRouter API, consultado e
 | Gemini 3.7 Flash | 56.0 | 76.1 | 45.1 | Muy alta | Muy baja |
 | Ling 3.0 Flash | 37.8 | 50.6 | 29.3 | Alta | Baja |
 | GPT-5.6 Luna | 52.3 | 71.4 | 46.9 | Alta | Baja |
-| Qwen 3.7 Flash | ~40 (pendiente confirmar AA) | — | — | Alta | Baja |
+| Qwen 3.7 Flash | no evaluado (modelo nuevo) | — | — | Alta | Baja |
 
 ### Referencia top-tier (para ranking)
 
@@ -75,7 +77,8 @@ Precios en USD por millón de tokens ($/M). Fuente: OpenRouter API, consultado e
 | Modelo | Cache (720M) | Miss (135M) | Output (45M) | Total | Verificado |
 |--------|--------------|-------------|--------------|-------|------------|
 | Ling 3.0 Flash | 720×$0.0042=$3.02 | 135×$0.021=$2.84 | 45×$0.063=$2.84 | **$8.70** | ✓ (reporte $8.69, redondeo) |
-| Qwen 3.7 Flash | 720×$0.006=$4.32 | 135×$0.030=$4.05 | 45×$0.130=$5.85 | **$14.22** | ✓ exacto |
+| Qwen 3.7 Flash (base <32K) | 720×$0.006=$4.32 | 135×$0.030=$4.05 | 45×$0.130=$5.85 | **$14.22** | ✓ exacto |
+| Qwen 3.7 Flash (turnos 120K) | 720×$0.020=$14.40 | 135×$0.100=$13.50 | 45×$0.400=$18.00 | **$45.90** | ✓ franja 32K-256K |
 | DeepSeek V4 Flash | 720×$0.0137=$9.86 | 135×$0.0686=$9.26 | 45×$0.1372=$6.17 | **$25.29** | ✓ (reajustado) |
 | GLM 4.7 Flash | 720×$0.010=$7.20 | 135×$0.060=$8.10 | 45×$0.400=$18.00 | **$33.30** | ✓ exacto |
 | Mimo v2.5 | 720×$0.0028=$2.02 | 135×$0.140=$18.90 | 45×$0.280=$12.60 | **$33.52** | ✓ exacto |
@@ -93,7 +96,7 @@ Precios en USD por millón de tokens ($/M). Fuente: OpenRouter API, consultado e
 | Modelo | Costo/mes | Inteligencia (IQ) | Valor (IQ/$mes) |
 |--------|-----------|-------------------|-----------------|
 | Ling 3.0 Flash | $8.69 | 37.8 | 435.0 |
-| Qwen 3.7 Flash | $14.22 | 40.0 (pendiente) | 281.3 |
+| Qwen 3.7 Flash (turnos 120K) | $45.90 | no evaluado | — |
 | DeepSeek V4 Flash (estándar) | $25.29 | 51.8 | 204.8 |
 | GLM 4.7 Flash | $33.30 | 40.0 | 120.1 |
 | Mimo v2.5 | $33.52 | 38.0 | 113.4 |
@@ -109,7 +112,7 @@ Precios en USD por millón de tokens ($/M). Fuente: OpenRouter API, consultado e
 | # | Modelo | IQ | Costo/mes | Justificación |
 |---|--------|-----|-----------|---------------|
 | 1 | **DeepSeek V4 Flash** | 51.8 | ~$25/mes | Mejor IQ/costo del mercado. Rinde a nivel pro a fracción del precio. Ideal principal para agente. |
-| 2 | **Qwen 3.7 Flash** | 40.0 | ~$14/mes | Excelente valor con cache-read bajo ($0.006/M). Multimodal (texto+imagen+video), 1M contexto, razonamiento opcional. |
+| 2 | **Qwen 3.7 Flash** | no eval. | ~$46/mes | Multimodal (texto+imagen+video), 1M contexto, razonamiento opcional. Precio base atractivo ($0.03/$0.13) pero con turnos de 120K salta a $45.90/mes (franja 32K-256K). IQ sin evaluar aún. |
 | 3 | **Mimo v2.5** | 38.0 | ~$34/mes | Cache-read imbatible ($0.0028/M) para cargas con alta reutilización de contexto. IQ modesto pero suficiente para tareas de agente rutinarias. |
 | 4 | **GPT-5.6 Luna** | 52.3 | ~$95/mes | La mejor opción OpenAI de gama media. IQ 52.3 (nivel DeepSeek V4 Pro) a $95/mes. Buen equilibrio potencia/costo si se prefiere ecosistema OpenAI. |
 | 5 | **Gemini 3.7 Flash** | 56.0 | ~$162/mes | El más inteligente del TOP 5 (IQ 56, coding 76.1). 1M contexto, velocidad y latencia excelentes para agentes. Cuesta más, pero es el techo de potencia asequible. |
@@ -141,30 +144,6 @@ Precios en USD por millón de tokens ($/M). Fuente: OpenRouter API, consultado e
 4. **Groq no ofrece** DeepSeek V4 Flash en su catálogo actual. **Hyperbolic** no fue verificable (páginas con error) — excluido explícitamente.
 
 > **Por qué los revendedores son más baratos que el fabricante:** DeepSeek es open-source, así que cualquier proveedor puede hostear los pesos y fijar su propio precio. Los revendedores compran capacidad de GPU al por mayor, subsidian modelos populares como gancho para atraer tráfico, y optimizan el serving (batching, KV-cache, routing). No es un error; es competencia de mercado.
-
-## 📌 Ficha verificada — Qwen 3.7 Flash (17/08/2026)
-
-> Datos obtenidos de la API de OpenRouter hoy. Benchmarks de Artificial Analysis no confirmables hoy (URLs directas dan 404) — marcados como pendientes.
-
-| Campo | Valor |
-|-------|-------|
-| Proveedor | Alibaba (Qwen) |
-| Precio input | $0.030/M |
-| Cache read | $0.006/M |
-| Cache write | $0.038/M |
-| Precio output | $0.130/M |
-| Contexto | 1M tokens |
-| Modalidad | Texto + Imagen + Video → Texto (multimodal) |
-| Razonamiento | Opcional (no obligatorio), activado por defecto |
-| Max tokens salida | 65,536 |
-| Versión | qwen3.7-flash-20260727 |
-| Costo/mes (900M tok) | $14.22 |
-
-**Descripción oficial:** Modelo de razonamiento visión-lenguaje de Alibaba, apto para agentes multimodales, codificación visual, búsqueda e interacción por computadora. Fortalezas en reconocimiento de objetos, comprensión espacial y tareas del mundo real.
-
-**Nota sobre precio escalonado:** OpenRouter aplica descuento por volumen en prompts largos — el precio base ($0.03/$0.13) aplica a prompts <32K tokens; sube a $0.10/$0.40 para 32K-256K y $0.20/$0.80 para >256K. Para un patrón de agente con contexto grande, el costo real puede ser mayor al calculado.
-
-**Pendiente:** Índice de inteligencia (IQ), coding y agentic de Artificial Analysis — no verificables hoy (404). El IQ ~40 es una estimación previa sin confirmar.
 
 ---
 
