@@ -96,5 +96,6 @@
 | 2026-08-14 | 🔮 Mezcla | Gravedad + Sacrificio: El peso de las decisiones |
 | 2026-08-15 | 🌌 Libre/Sábado | Ley de Perdón — Soltar el rencor libera energía |
 | 2026-08-17 | 🔄 Herméticas | La Tabla Esmeralda: El Documento Más Antiguo de la Sabiduría Universal |
+| 2026-08-18 | 🌌 Éxito | Ley de Sacrificio — Para ganar algo, se deja algo |
 
 *(Se actualiza diariamente con la lectura entregada)*
