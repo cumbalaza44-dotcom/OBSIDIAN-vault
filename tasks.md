@@ -24,8 +24,8 @@ source: "Mr. Jair — iOS / Telegram"
 
 | #   | Tarea                                         | Ventana        | Estado |
 | --- | --------------------------------------------- | -------------- | ------ |
-| 1   | 📚 Lectura diaria                             | 🌅 mañana      | 🔄     |
-| 2   | 🏋️ Gym                                        | 🌅 mañana 5:30 | 🔄     |
+| 1   | 📚 Lectura diaria                             | 🌅 mañana      | ✅     |
+| 2   | 🏋️ Gym                                        | 🌅 mañana 5:30 | ✅     |
 | 3   | 📢 Meta Ads: Definir nicho específico         | 🌙 noche       | 🔄     |
 | 4   | 💊 Creatina                                   | 🌙 noche       | 🔄     |
 
