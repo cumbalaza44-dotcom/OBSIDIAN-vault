@@ -93,19 +93,19 @@ Precios en USD por millón de tokens ($/M). Fuente: OpenRouter API, consultado e
 
 ### Costo mensual estimado
 
-| Modelo | Costo/mes | Inteligencia (IQ) | Valor (IQ/$mes) |
-|--------|-----------|-------------------|-----------------|
-| Ling 3.0 Flash | $8.69 | 37.8 | 435.0 |
-| Qwen 3.7 Flash (turnos 120K) | $45.90 | no evaluado | — |
-| DeepSeek V4 Flash (estándar) | $25.29 | 51.8 | 204.8 |
-| GLM 4.7 Flash | $33.30 | 40.0 | 120.1 |
-| Mimo v2.5 | $33.52 | 38.0 | 113.4 |
-| GPT-5.6 Luna | $95.40 | 52.3 | 54.8 |
-| Mimo v2.5 Pro | $100.47 | 42.9 | 42.7 |
-| GPT-5.4 Nano | $97.65 | 39.7 | 40.7 |
-| Gemini 3.7 Flash | $162.00 | 56.0 | 34.6 |
-| DeepSeek V4 Pro | $194.04 | 53.2 | 27.4 |
-| Gemini 3.5 Flash Lite | $174.60 | 37.4 | 21.4 |
+| Modelo                       | Costo/mes | Inteligencia (IQ) | Valor (IQ/$mes) |
+| ---------------------------- | --------- | ----------------- | --------------- |
+| Ling 3.0 Flash               | $8.69     | 37.8              | 435.0           |
+| Qwen 3.7 Flash (turnos 120K) | $45.90    | no evaluado       | —               |
+| DeepSeek V4 Flash (estándar) | $25.29    | 51.8              | 204.8           |
+| GLM 4.7 Flash                | $33.30    | 40.0              | 120.1           |
+| Mimo v2.5                    | $33.52    | 38.0              | 113.4           |
+| GPT-5.6 Luna                 | $95.40    | 52.3              | 54.8            |
+| Mimo v2.5 Pro                | $100.47   | 42.9              | 42.7            |
+| GPT-5.4 Nano                 | $97.65    | 39.7              | 40.7            |
+| Gemini 3.7 Flash             | $162.00   | 56.0              | 34.6            |
+| DeepSeek V4 Pro              | $194.04   | 53.2              | 27.4            |
+| Gemini 3.5 Flash Lite        | $174.60   | 37.4              | 21.4            |
 
 ### 🏆 TOP 5 — Mejor relación potencia/costo
 
