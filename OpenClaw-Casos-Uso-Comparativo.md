@@ -30,6 +30,9 @@ OpenClaw es un **gateway self-hosted de agentes de IA** que conecta apps de mens
 | 11 | **Multi-agente** | Varios agentes con distintas personas bajo un solo gateway, orquestación, delegación | `concepts/multi-agent`, `concepts/delegate-architecture` |
 | 12 | **Integraciones** | Google Workspace (Gmail/Calendar/Sheets), Jira, Todoist, Notion, Linear, email, webhooks | `gog`, showcase |
 | 13 | **Generación de medios** | Imágenes, video, música, diagramas | `concepts/features` |
+| 14 | **Compromisos inferidos (Commitments)** | El agente recuerda seguimientos naturales sin recordatorio explícito (ej. "checa después de la entrevista") | `automation/index.md`, `concepts/commitments` |
+| 15 | **Hooks (eventos de ciclo de vida)** | Ejecutan scripts en reset de sesión, interceptan tool calls, reaccionan a eventos | `automation/hooks.md` |
+| 16 | **Voz y transcripción de notas** | Transcripción de notas de voz, TTS multi-proveedor, llamadas de voz | `tts.md`, `concepts/features` |
 
 ---
 
