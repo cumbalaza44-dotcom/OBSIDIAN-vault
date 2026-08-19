@@ -1,175 +1,166 @@
----
-created: 2026-08-18
-updated: 2026-08-18
-source: "H.E.L.E.N. — investigación OpenClaw vs vault de Mr. Jair"
-tags: [openclaw, auditoria, casos-de-uso, comparativo]
----
+# 🔍 OpenClaw vs. Vault de Mr. Jair — Casos de Uso Comparativo
 
-# 🔍 OpenClaw vs Vault de Mr. Jair — Casos de Uso Comparativo
-
-> **Fecha:** 18 Ago 2026
-> **Objetivo:** Identificar qué capacidades de OpenClaw existen, cuáles se están usando en el vault de Mr. Jair, y qué brechas aprovechar.
+> **Fecha:** 19/08/2026
+> **Autor:** Subagente de investigación (H.E.L.E.N.)
+> **Objetivo:** Comparar las capacidades documentadas de OpenClaw con los casos de uso reales del vault de Mr. Jair, identificar brechas y recomendar acciones.
+> **Fuentes:** Docs oficiales locales (`docs/`), showcase oficial (docs.openclaw.ai/start/showcase), auditoría previa (17/08/2026), estructura y tareas del vault.
 
 ---
 
-## 1. 🧩 Resumen de Casos de Uso de OpenClaw
+## 1. 📦 Resumen de Casos de Uso de OpenClaw
 
-OpenClaw es un **agente personal autónomo** (gateway + runtime) que corre en un servidor y se conecta a múltiples canales de mensajería. Sus capacidades principales, según la documentación oficial (`docs/`):
+OpenClaw es un **gateway self-hosted multi-canal** que conecta apps de mensajería (Telegram, WhatsApp, Discord, iMessage, Slack, etc.) con agentes de IA. Sus capacidades se agrupan en:
 
-### Canales de comunicación (multi-channel)
-- **Core:** Telegram, iMessage, WebChat.
-- **Plugins oficiales:** Discord, WhatsApp, Signal, Slack, Matrix, Microsoft Teams, Google Chat, LINE, Zalo, SMS, Twitch, IRC, Mattermost, Nostr, Nextcloud Talk, QQ Bot, Raft, Synology Chat, Tlon, Voice Call, Feishu.
-- **Soporte:** grupos con activación por mención, DM con allowlists/pairing, sesiones aisladas por workspace/sender.
+### 1.1 Canales y acceso
+- Gateway único para múltiples canales (Telegram, WhatsApp, Discord, Slack, iMessage, Signal, Teams, etc.)
+- Nodos móviles iOS/Android (voz, cámara, pantalla, ubicación)
+- Control UI web, app macOS, WebChat
+- Soporte de grupos con activación por mención
 
-### Agente y modelos
-- Runtime de agente integrado con **streaming de herramientas**.
-- **Multi-agente** con enrutamiento y sesiones aisladas.
-- **35+ proveedores de modelo** (Anthropic, OpenAI, Google) + self-hosted (vLLM, Ollama, llama.cpp, LM Studio, endpoints OpenAI/Anthropic-compatibles).
-- OAuth para suscripciones (ej. OpenAI Codex).
+### 1.2 Agente y memoria
+- Runtime de agente embebido con streaming de herramientas
+- **Multi-agente**: agentes aislados por workspace/sesión
+- **Memoria**: `MEMORY.md` (largo plazo) + notas diarias `memory/YYYY-MM-DD.md` + **Dreaming** (consolidación automática en background)
+- **Heartbeat** (check periódico flexible, ~30 min) y **Commitments** (seguimientos inferidos)
 
-### Media y generación
-- Imágenes, audio, video y documentos (in/out).
-- **Generación de imágenes y video** compartida.
-- Transcripción de notas de voz.
-- Texto-a-voz (TTS) multi-proveedor.
+### 1.3 Automatización
+| Mecanismo | Uso | Timing |
+|---|---|---|
+| **Cron / Scheduled Tasks** | Tareas con timing exacto, aisladas | Exacto |
+| **Heartbeat** | Checks periódicos flexibles (inbox, calendario) | Aproximado (30 min) |
+| **Task Flow** | Orquestación durable multi-paso con estado | Evento/estado |
+| **Hooks** | Reaccionar a eventos de ciclo de vida (`/new`, `/reset`) | Evento |
+| **Standing Orders** | Instrucciones persistentes en `AGENTS.md` | Siempre |
+| **Background Tasks** | Trabajo detached, auditable | — |
 
-### Interfaces / Apps
-- WebChat + Control UI en navegador.
-- App de menú bar en macOS.
-- **Nodos móviles iOS y Android:** pairing, chat, voz, Canvas, cámara, screen recording, ubicación, comandos de dispositivo.
+### 1.4 Herramientas y generación de contenido
+- **Web search** (Brave, Perplexity, Tavily, Exa, etc.) + **browser automation** (scraping, login, flujos web)
+- **Generación de medios**: `image_generate`, `video_generate`, `music_generate`, TTS, transcripción de voz
+- **Code execution** (exec, sandboxing), **PDF**, **diagramas** (Excalidraw)
+- **Skills / Plugins / ClawHub**: skills de la comunidad (finanzas, video, imagen, productividad, automatización)
+- **Skill Workshop**: crear skills desde el chat con gobernanza
+- **Subagentes**: paralelizar investigación en background
 
-### Herramientas y automatización
-- **Browser automation**, exec, sandboxing.
-- **Web search** multi-proveedor (Brave, DuckDuckGo, Exa, Firecrawl, Gemini, Grok, Perplexity, SearXNG, Tavily, etc.).
-- **Cron jobs** y **heartbeat** (schedule).
-- **Task Flow** (orquestación durable multi-paso).
-- **Skills**, **plugins**, pipelines (Lobster).
-- **Hooks** (eventos de ciclo de vida), **Standing Orders** (instrucciones persistentes), **Inferred Commitments** (seguimientos tipo memoria).
-- **Background Tasks** (ledger de trabajo desacoplado).
-
-### Mecanismos de automatización (decisión rápida)
-| Necesidad | Mecanismo |
-|-----------|-----------|
-| Reporte diario a hora exacta | Scheduled Tasks (Cron) |
-| Recordatorio en 20 min | Cron one-shot (`--at`) |
-| Análisis semanal profundo | Cron (modelo distinto) |
-| Chequear inbox cada 30 min | Heartbeat |
-| Monitorear calendario | Heartbeat |
-| Seguimiento post-entrevista | Inferred Commitments |
-| Orquestar research multi-paso | Task Flow |
-| Correr script al reset de sesión | Hooks |
-| Cumplir regla siempre | Standing Orders |
+### 1.5 Modelos y proveedores
+- 35+ proveedores de modelos, modelos baratos para cron/subagentes, failover, control de costos
 
 ---
 
-## 2. 📁 Casos de Uso del Vault de Mr. Jair
+## 2. 🗂️ Casos de Uso Reales del Vault de Mr. Jair
 
-El vault (`obsidian-vault/`) es el **sistema operativo personal** de Mr. Jair. Casos de uso reales detectados:
+### 2.1 Gestión de tareas y rutinas (CORE)
+- **`tasks.md`** = fuente única de verdad: tareas diarias, semanales, proyectos, hábitos, hogar/moto, habilidades, identidad.
+- Rutinas diarias automatizadas vía cron: **Lectura diaria (6 AM)**, **Check-ins adaptativos** (mañana/mediodía/tarde), **End-of-Day**, **Weekly Planning (domingo)**, **Arya recordatorios (12:05 AM)**, **Balancear ingresos (viernes 7 PM)**.
+- Horario laboral definido (L-V 8 AM-5 PM) + ventanas mañana/noche.
 
-### A. Gestión de tareas y hábitos (CENTRAL)
-- **`tasks.md`** — single source of truth: tareas diarias, semanales, hábitos (lectura, gym, creatina), ventanas de tiempo (mañana/noche), prioridades.
-- Sincronización bidireccional con notas originales.
-- **Registro de progreso diario** (`registro de progreso diario/`).
+### 2.2 Finanzas personales
+- Registro de **gastos y fijos** (COP) en `GASTOS Y FIJOS.md` — Señor reporta por Telegram y H.E.L.E.N. anota.
+- **Plan de negocios 300M COP**, estrategias de ahorro, préstamos, lista de compras, distribución de ingresos ($1.050.000).
 
-### B. Finanzas y proyectos
-- **`GASTOS Y FIJOS.md`** — registro de gastos (COP), gastos fijos mensuales. Reportados por Telegram y anotados por H.E.L.E.N.
-- **`Prestamos.md`**, **`Plan de negocios 300MCop.md`** — diversificación de inversiones ("semillas").
-- **`Semillas y trabajos automatizados.md`** — estrategias de ahorro, ingresos automatizados.
-- **`Conocimientos financieros.md`**, **`Búsqueda de plataformas para estrategias de ahorro.md`**.
+### 2.3 Ghost Trader (trading automatizado)
+- Proyecto de **bot de trading MT5/Deriv** (Python, arquitectura limpia, backtesting, indicadores).
+- Plan de construcción v2.2/v2.3 con fases 1-6; fases 1-3 construidas, 4-6 planificadas.
+- Código embebido (`assistentLLM-master`, ~60 archivos Python).
 
-### C. Trading algorítmico — Ghost Trader
-- **`Bot mt5/`** — arquitectura, plan de construcción v2.2/v2.3, flujo de datos, elevator pitch.
-- Bot Python 24/7 en VPS Ubuntu, opera índices sintéticos Deriv vía WebSocket, controlado por IA desde Telegram en lenguaje natural.
-- Motor de datos en Polars, estrategias modulares (EMA, RSI), risk engine con circuit breakers, tests 80%+, CI/CD.
+### 2.4 Empresa tecnológica y e-commerce
+- **Meta Ads**: primera campaña desde cero, análisis de nichos, investigación de productos ganadores.
+- **Banco de ideas**, etapas de empresa, herramientas de contenido.
+- **Prototipo X**: sensor ultrasónico (ESP32/Pi), firmware `.ino`, circuitos, arquitectura.
 
-### D. E-commerce / Marketing
-- **`EMPRESA TECNOLÓGICA/`** — banco de ideas, etapas 1-2, Meta Ads (investigar productos ganadores, nicho), tintura de THC, Go Kart.
-- **`lista de compras/`** — lista de objetos.
+### 2.5 Hábitos y desarrollo personal
+- **MODO FANTASMA**: sistema de desarrollo integral diario (5 fases: Investigar → Crear → Capturar → Comunicar → Documentar).
+- Lectura diaria, hábitos mentales, habilidades (comunicación, fotografía, video, storytelling).
+- Registro de progreso diario.
 
-### E. Hardware / IoT — Prototipo X
-- **`PROTOTIPO X/`** — copiloto inteligente para motociclistas: sensores 360°, IA, predicción de trayectorias. Firmware (`prototipo_x.ino`), circuit, docs.
-- Investigación basada en Hurt Report (accidentes de moto).
+### 2.6 Hogar, moto y proyectos personales
+- Mantenimiento de moto (150cc OHV), mantenimiento del hogar, Go Kart, habilidades de supervivencia.
 
-### F. Desarrollo personal
-- **`MODO FANTASMA/`** — desarrollo integral diario (investigar, crear, capturar, comunicar, documentar), reportes semanales, habilidades (comunicación, fotografía, video, storytelling).
-- **`HABITOS Y DESARROLLO AVANZADO/`** — hábitos, mente, habilidades-conocimiento (carburador, motor DOHC), cuidado personal, gym.
-- **`LECTURAS-DIARIAS/`** — registro diario de lectura.
-- **`Filosofía/`** — Los 7 Principios Herméticos.
-
-### G. Hogar y mantenimiento
-- **`HOGAR/`** — mantenimiento moto, mantenimiento y mejoras del hogar.
-
-### H. Infraestructura del sistema
-- **`System/`** — config Obsidian, Reportes-IA (auditorías, costos LLM, tutorial iOS, modelos).
-- **`_INFRA-crontab.txt`**, **`_INFRA-watcher.service`**, **`watcher.sh`** — infraestructura de automatización existente.
-- **`sync-push.sh`** — sincronización git del vault (submodule + repo principal).
+### 2.7 Infraestructura OpenClaw actual
+- Canal: **Telegram** (único). Modelo: `deepseek-v4-flash` (main) + `mimo` (cron).
+- **9 cron jobs activos**, heartbeat 30 min, memory-core (dreaming OFF), QMD (búsqueda semántica del vault).
+- Skills activas: `arya-reminders`, `humanizer`, `productivity-automation-kit`, `gog`, `weather`, `healthcheck`, `session-logs`, `browser-automation`, `canvas`.
 
 ---
 
 ## 3. 📊 Tabla Comparativa
 
-| Capacidad OpenClaw | ¿Usada en vault? | Evidencia en vault | Nota |
-|---|---|---|---|
-| **Gestión de tareas / hábitos** | ✅ Sí | `tasks.md`, registro de progreso diario | Uso intensivo |
-| **Recordatorios / cron** | ✅ Sí | `arya-reminders` (skill), `_INFRA-crontab.txt` | Recordatorios por Telegram |
-| **Chat / agente personal** | ✅ Sí | H.E.L.E.N. vía Telegram | Uso diario |
-| **Multi-canal** (WhatsApp, Discord, etc.) | ⚠️ Parcial | Solo Telegram | No se usan otros canales |
-| **Web search / investigación** | ✅ Sí | Reportes-IA, investigación Meta Ads, Hurt Report | Uso moderado |
-| **Browser automation** | ❌ No | — | No detectado |
-| **Generación de imágenes/video** | ❌ No | — | No usado (solo guías de precios) |
-| **TTS / voz** | ❌ No | — | No usado |
-| **Nodos móviles (iOS/Android)** | ⚠️ Parcial | Tutorial-OpenClaw-iOS.md | Documentado, uso limitado |
-| **Multi-agente / subagentes** | ⚠️ Parcial | (este reporte es de un subagente) | Poco explotado |
-| **Task Flow (orquestación durable)** | ❌ No | — | No usado |
-| **Hooks / Standing Orders** | ✅ Sí | AGENTS.md (reglas persistentes) | Standing orders vía AGENTS.md |
-| **Heartbeat** | ❌ No | — | No usado |
-| **Finanzas / registro de gastos** | ✅ Sí | `GASTOS Y FIJOS.md` | Manual vía Telegram |
-| **Trading (Ghost Trader)** | ✅ Sí | `Bot mt5/` | Proyecto activo |
-| **E-commerce / Meta Ads** | ✅ Sí | `EMPRESA TECNOLÓGICA/` | Proyecto activo |
-| **Hardware / IoT** | ✅ Sí | `PROTOTIPO X/` | Proyecto activo |
-| **Desarrollo personal** | ✅ Sí | `MODO FANTASMA/`, hábitos | Uso diario |
+| Capacidad de OpenClaw | Estado en el vault | Uso real |
+|---|---|---|
+| **Cron / Scheduled Tasks** | ✅ Activo | 9 jobs: lectura, check-ins, weekly planning, Arya, balance ingresos |
+| **Heartbeat** | ⚠️ Desaprovechado | 30 min corriendo pero `HEARTBEAT.md` vacío |
+| **Memoria (MEMORY.md + daily)** | ✅ Activo | Memoria a largo plazo + notas diarias |
+| **Dreaming (consolidación automática)** | ❌ Desactivado | `DREAMS.md` (89KB) existe pero sweep OFF |
+| **Multi-agente** | ❌ No usado | Un solo agente (`main`) |
+| **Task Flow (orquestación durable)** | ❌ No usado | Cron de un solo turno |
+| **Hooks** | ❌ No usado | No hay hooks de ciclo de vida |
+| **Standing Orders** | ⚠️ Parcial | Reglas en `AGENTS.md`, sin programas formales |
+| **Subagentes / paralelización** | ❌ No usado | Sin subagentes para investigación |
+| **Browser automation** | ⚠️ Instalada, sin flujos | Skill presente, sin scraping activo |
+| **Web search** | ⚠️ Intermitente | Deshabilitado en algunas sesiones |
+| **image_generate** | ❌ Configurado, sin uso | `gemini-3.1-flash-image-preview` listo, no usado |
+| **video_generate** | ❌ No usado | 16 backends, sin provider activo |
+| **music_generate** | ❌ No usado | No usado |
+| **TTS / transcripción de voz** | ❌ No usado | No usado |
+| **PDF / summarize** | ❌ No usado | Skills desactivadas |
+| **Skill Workshop** | ❌ No usado | 0 propuestas |
+| **Skills de la comunidad (ClawHub)** | ⚠️ Infrautilizadas | 39 bundled desactivadas (finance, obsidian, notion…) |
+| **gog (Google Workspace)** | ⚠️ Parcial | Configurado, sin automatización de calendario/Sheets activa |
+| **QMD (búsqueda semántica vault)** | ✅ Activo | Indexa `vault` + `memory`, uso bajo demanda |
+| **Control de costos (model-usage)** | ❌ No usado | Skill desactivada |
+| **Canales múltiples** | ⚠️ Solo Telegram | 1 canal de ~20 disponibles |
 
 ---
 
-## 4. 🕳️ Brechas (capacidades de OpenClaw NO usadas en el vault)
+## 4. 🕳️ Brechas (capacidades de OpenClaw no usadas en el vault)
 
-1. **Browser automation** — OpenClaw puede controlar navegadores (login, scraping, flujos multi-paso). Útil para: monitorear Meta Ads, investigar productos ganadores automáticamente, descargar reportes de Deriv.
-2. **Generación de imágenes y video** — No se usa. Útil para: contenido de Meta Ads, branding del e-commerce, material de MODO FANTASMA (fase crear).
-3. **TTS / texto-a-voz** — No se usa. Útil para: audios de MODO FANTASMA (fase comunicar), resúmenes hablados de Ghost Trader.
-4. **Heartbeat** — No se usa. Útil para: chequear inbox, monitorear calendario, notificaciones periódicas de hábitos sin cron exacto.
-5. **Task Flow / orquestación durable** — No se usa. Útil para: investigaciones multi-paso (ej. "investigar 10 productos ganadores" → research + resumen), pipelines de análisis Ghost Trader.
-6. **Multi-canal** — Solo Telegram. Podría extender a WhatsApp (para gastos/recordatorios) o a un canal de voz.
-7. **Nodos móviles** — Documentado pero poco explotado. Útil para: captura de fotos deliberadas (MODO FANTASMA), notas de voz, ubicación.
-8. **Multi-agente / subagentes** — Poco usado. Útil para: paralelizar investigación (Meta Ads + finanzas + Ghost Trader al mismo tiempo).
-9. **Web search multi-proveedor** — Se usa, pero hay 10+ proveedores disponibles sin explotar (Perplexity, Exa, Firecrawl para scraping profundo).
-10. **Inferred Commitments** — No se usa. Útil para: seguimiento post-tarea sin recordatorio explícito ("cuando termine X, avísame").
+### De alto valor, bajo esfuerzo
+1. **Dreaming OFF** — la memoria no se consolida sola; se depende de compactación manual.
+2. **Heartbeat vacío** — el ciclo de 30 min se desperdicia; no vigila inbox, tareas vencidas ni clima.
+3. **image_generate sin uso** — ya configurado; clave para MODO FANTASMA (fase Crear) y e-commerce.
+4. **summarize + nano-pdf desactivadas** — lectura diaria y análisis de documentos financieros serían más eficientes.
 
----
+### De valor medio, esfuerzo medio
+5. **Subagentes no usados** — la investigación de "10 productos ganadores Meta Ads" es lenta y bloqueante; se paralelizaría.
+6. **Skill Workshop sin propuestas** — no se crean skills reutilizables desde el chat (patrón "Wine Cellar").
+7. **Task Flow no usado** — reporte semanal / balance de ingresos podrían ser flujos durables de 3 pasos.
+8. **Browser automation sin flujos** — no se automatiza scraping de precios/productos ni verificación de nichos.
 
-## 5. 💡 Recomendaciones (por prioridad)
-
-### Alta prioridad (impacto inmediato)
-1. **Automatizar Meta Ads con browser automation + web search**: que H.E.L.E.N. investigue los 10 productos ganadores automáticamente cada semana (cron) en vez de manual.
-2. **Heartbeat para hábitos**: notificar lectura/gym/creatina según ventanas de tiempo sin depender de cron exacto.
-3. **Task Flow para investigación multi-paso**: "investigar X" → research + scraping + resumen en un solo pipeline durable.
-
-### Media prioridad
-4. **Generación de imágenes** para contenido de Meta Ads y branding del e-commerce (EMPRESA TECNOLÓGICA).
-5. **TTS** para audios de MODO FANTASMA (fase comunicar) y resúmenes hablados de Ghost Trader.
-6. **Subagentes paralelos**: lanzar investigación de finanzas + Ghost Trader + Meta Ads en paralelo para ahorrar tiempo.
-
-### Baja prioridad / explorar
-7. **Multi-canal**: evaluar WhatsApp para gastos/recordatorios.
-8. **Nodos móviles**: usar iOS para captura de fotos deliberadas en MODO FANTASMA.
-9. **Inferred Commitments**: seguimiento automático post-tarea.
-10. **Web search avanzado**: activar Perplexity/Exa/Firecrawl para investigación más profunda.
+### De valor medio, esfuerzo alto / opcional
+9. **video_generate / music_generate** — contenido para edición de video y redes.
+10. **Multi-agente** — un segundo agente aislado para Ghost Trader o empresa tecnológica.
+11. **Control de costos (model-usage)** — con 9 cron + heartbeat + subagentes, el gasto crece sin visibilidad.
+12. **Canales múltiples** — solo Telegram; WhatsApp/Discord/WebChat no aprovechados.
+13. **gog automatizado** — calendario/email/Sheets solo lectura puntual, sin automatización proactiva.
 
 ---
 
-## 6. ✅ Conclusión
+## 5. ✅ Recomendaciones (priorizadas)
 
-Mr. Jair ya usa OpenClaw de forma **sólida en la base**: gestión de tareas, hábitos, recordatorios, chat personal, finanzas, y proyectos activos (Ghost Trader, Meta Ads, Prototipo X). La integración con el vault como sistema operativo personal es madura (AGENTS.md, tasks.md, sync-git).
+### 🥇 Alto impacto, bajo esfuerzo
+- **R1. Activar Dreaming** (`memory-core`) → memoria auto-consolidada, menos trabajo manual.
+- **R2. Poblar `HEARTBEAT.md`** con 2-4 checks ligeros (tareas vencidas, correos nuevos, clima) → proactividad real.
+- **R3. Usar `image_generate` en MODO FANTASMA** (fase Crear) y para thumbnails e-commerce → contenido visual sin herramientas externas.
+- **R4. Activar `summarize` + `nano-pdf`** → lectura diaria y análisis financiero más eficientes.
 
-Las **mayores oportunidades** están en las capacidades de **automatización avanzada** (browser automation, Task Flow, heartbeat, subagentes) y **media/generación** (imágenes, TTS) que hoy no se explotan y que encajan directamente con los proyectos activos del vault (Meta Ads, MODO FANTASMA, Ghost Trader).
+### 🥈 Impacto medio-alto, esfuerzo medio
+- **R5. Subagentes para investigación paralela** (productos ganadores Meta Ads, nichos) con modelo barato (`mimo`/`deepseek-v4-flash`).
+- **R6. Crear skills propias vía `skill_workshop`** (ej: "Análisis de productos ganadores", "Registro de gastos diarios").
+- **R7. Task Flow para reporte semanal / balance de ingresos** → flujos durables y auditables.
+- **R8. Browser automation para scraping** de precios/productos y verificación de nichos (patrón "Tesco Autopilot").
 
-> **Regla de oro:** Text > Brain. Si una capacidad de OpenClaw puede ahorrar tiempo a Mr. Jair → documentarla y activarla.
+### 🥉 Oportunidades a mediano plazo
+- **R9.** Activar `model-usage` para control de gasto por modelo/sesión.
+- **R10.** Explorar `video_generate` para pilar de edición de video / promos e-commerce.
+- **R11.** Evaluar un **segundo agente** aislado para Ghost Trader o la empresa tecnológica (multi-agent).
+- **R12.** Considerar `notion`/`trello` solo si se quiere gestión de proyectos fuera del vault.
+
+### 🎯 Acciones inmediatas (orden sugerido)
+`R1 (Dreaming)` → `R2 (Heartbeat)` → `R4 (summarize/pdf)` → `R3 (imagen MODO FANTASMA)` → `R5 (subagentes)` — todas de bajo riesgo y reversibles vía `openclaw config`.
+
+---
+
+## 6. 📝 Nota metodológica
+
+- `web_search` no estaba disponible en esta sesión; la investigación se hizo vía **docs locales** (`/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/docs/`), **web_fetch** al showcase oficial (docs.openclaw.ai/start/showcase) y la **auditoría previa del 17/08/2026**.
+- Los casos de uso del vault se extrajeron de la estructura real de carpetas, `tasks.md` (fuente de verdad), `GASTOS Y FIJOS.md`, `Ghost-Trader-Plan-Construccion-v2.2.md`, `META ADS.md`, `MODO FANTASMA/README.md` y `Auditoria-OpenClaw-2026-08-17.md`.
+- Este reporte complementa (no reemplaza) la auditoría del 17/08, que contiene la lista detallada de 15 recomendaciones con comandos exactos.
