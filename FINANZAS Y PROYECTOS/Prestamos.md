@@ -9,7 +9,7 @@
 
 | # | Quién | Monto | Fecha préstamo | Motivo | Estado | Devolución estimada |
 |---|-------|------:|:-------------:|--------|--------|:------------------:|
-| 1 | Andrés | $20.000 | 24/07/2026 | — | ⏳ Pendiente | — |
+| 2 | Don Iván | $22.000 | 19/08/2026 | — | ⏳ Pendiente | — |
 
 ---
 
@@ -17,7 +17,8 @@
 
 | # | Quién | Monto | Fecha préstamo | Fecha devolución | Notas |
 |---|-------|------:|:-------------:|:---------------:|-------|
-| — | — | — | — | — | — |
+| 1 | Andrés | $20.000 | 24/07/2026 | 19/08/2026 | Saldo finalizado. Vista al cobro pendiente.
+| — | — | — | — | — |
 
 ---
 
