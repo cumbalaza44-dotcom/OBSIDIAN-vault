@@ -20,14 +20,15 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Martes 18/08
+## 🔥 HOY — Miércoles 19/08
 
 | #   | Tarea                                         | Ventana        | Estado |
 | --- | --------------------------------------------- | -------------- | ------ |
-| 1   | 📚 Lectura diaria                             | 🌅 mañana      | ✅     |
-| 2   | 🏋️ Gym                                        | 🌅 mañana 5:30 | ✅     |
-| 3   | 📢 Meta Ads: Definir nicho específico         | 🌙 noche       | 🔄     |
-| 4   | 💊 Creatina                                   | 🌙 noche       | 🔄     |
+| 1   | 📚 Lectura diaria                             | 🌅 mañana      | 🔄     |
+| 2   | 🏋️ Gym                                        | 🌅 mañana 5:30 | 🔄     |
+| 3   | 📢 Meta Ads: Investigar 10 productos ganadores | 🌙 noche       | 🔄     |
+
+> 💊 Creatina: ✅ lista (completada el 18/08)
 
 ---
 

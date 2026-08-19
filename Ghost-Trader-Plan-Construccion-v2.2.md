@@ -3398,12 +3398,12 @@ ghost-trader/
 5. **Dashboard web:** ¿Lo necesitamos en la FASE 5 o lo dejamos para después?
 6. **Estrategia piloto:** ¿SMA/EMA crossover es aceptable como primera estrategia? *(el plan asume que sí — EMACross en FASE 3)*
 7. **Recovery:** ¿Cuál de las 4 estrategias de recovery prefiere para empezar?
-8. **Tipo de contrato por defecto (FASE 4):** ¿CALL/PUT (opciones digitales, resultado binario) o MULTUP/MULTDOWN (Multipliers, con SL/TP real)?
-9. **Límites de riesgo (FASE 4):** ¿Confirmar `max_daily_loss_pct = 2.0`, `max_open_positions = 3`, `max_position_size_pct = 2.0`, `circuit_breaker_loss_streak = 3`?
-10. **Horario de trading (FASE 4):** ¿24/7 (índices sintéticos abren todo el día) o ventanas específicas?
-11. **Modo de ejecución (FASE 4):** ¿Empezar en `paper` y pasar a `demo` solo tras aprobar el checklist? ¿Autorización explícita antes de `live`?
-12. **Servidor HTTP (FASE 5):** ¿Confirmar `127.0.0.1:9001` (solo local, OpenClaw accede vía loopback) o exponerlo?
-13. **VPS (FASE 6):** ¿Seguimos usando el Ubuntu VPS actual para el despliegue systemd?
+8. **Tipo de contrato por defecto (FASE 4):** ✅ **MULTUP/MULTDOWN (Multipliers)** — confirmado por Mr. Jair el 18/08/2026
+9. **Límites de riesgo (FASE 4):** ✅ Configurables vía lenguaje natural (OpenClaw/Ling) con **límites hardcodeados como red de seguridad** que nunca se puedan superar — confirmado por Mr. Jair el 18/08/2026
+10. **Horario de trading (FASE 4):** ✅ **24/7** para índices sintéticos — confirmado por Mr. Jair el 18/08/2026
+11. **Modo de ejecución (FASE 4):** ¿Empezar en `paper` y pasar a `demo` solo tras aprobar el checklist? ¿Autorización explícita antes de `live`? (Pendiente - sin confirmar aún)
+12. **Servidor HTTP (FASE 5):** ✅ **127.0.0.1:9001** (solo local, OpenClaw accede vía loopback) — confirmado por Mr. Jair el 18/08/2026
+13. **VPS (FASE 6):** ✅ **Mismo Ubuntu VPS de OpenClaw** — confirmado por Mr. Jair el 18/08/2026
 
 ---
 
