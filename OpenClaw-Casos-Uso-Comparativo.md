@@ -170,4 +170,30 @@ La mayor oportunidad está en pasar de un modelo **reactivo** (H.E.L.E.N. respon
 
 ---
 
+---
+
+## 7. Fuentes
+
+**Documentación de OpenClaw (local):**
+- `docs/index.md` — qué es OpenClaw y capacidades clave
+- `docs/automation/index.md` — decisión entre cron, heartbeat, task flow, hooks, standing orders, commitments
+- `docs/automation/cron-jobs.md`, `docs/automation/taskflow.md`, `docs/automation/hooks.md`, `docs/automation/standing-orders.md`
+- `docs/concepts/features.md` — lista completa de canales, agentes, media, herramientas y automatización
+- `docs/concepts/memory-qmd.md` — búsqueda semántica QMD sobre el vault
+- `docs/channels/` — canales soportados (Telegram, WhatsApp, Discord, Slack, Signal, iMessage, etc.)
+- `docs/cli/browser.md` — automatización de navegador
+- `docs/tts.md` — texto a voz y transcripción
+
+**Vault de Mr. Jair (evidencia de uso real):**
+- `tasks.md` — tareas centrales, hábitos, proyectos
+- `Ghost-Trader-Plan-Construccion-v2.2.md` — bot de trading algorítmico (Deriv WebSocket, Polars, Risk Engine)
+- `FINANZAS Y PROYECTOS/` — finanzas, e-commerce, Meta Ads, empresa tecnológica
+- `HABITOS Y DESARROLLO AVANZADO/MODO FANTASMA/` — desarrollo integral diario
+- `PROTOTIPO X/` — hardware (moto, sensores, Pi 5 + Coral)
+- `HOGAR/` — mantenimiento de moto y hogar
+- `LECTURAS-DIARIAS/`, `registro de progreso diario/` — hábitos de lectura y progreso
+- Skills activas: `arya-reminders` (recordatorios cron), `gog` (Google Workspace), `weather`, `healthcheck`, `humanizer`
+
+---
+
 *H.E.L.E.N. — Si está aquí, está priorizado.* 🦾
