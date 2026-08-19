@@ -3401,7 +3401,7 @@ ghost-trader/
 8. **Tipo de contrato por defecto (FASE 4):** ✅ **MULTUP/MULTDOWN (Multipliers)** — confirmado por Mr. Jair el 18/08/2026
 9. **Límites de riesgo (FASE 4):** ✅ Configurables vía lenguaje natural (OpenClaw/Ling) con **límites hardcodeados como red de seguridad** que nunca se puedan superar — confirmado por Mr. Jair el 18/08/2026
 10. **Horario de trading (FASE 4):** ✅ **24/7** para índices sintéticos — confirmado por Mr. Jair el 18/08/2026
-11. **Modo de ejecución (FASE 4):** ¿Empezar en `paper` y pasar a `demo` solo tras aprobar el checklist? ¿Autorización explícita antes de `live`? (Pendiente - sin confirmar aún)
+11. **Modo de ejecución (FASE 4):** ✅ **Paper → Demo → Live** con autorización explícita en cada transición — confirmado por Mr. Jair el 18/08/2026
 12. **Servidor HTTP (FASE 5):** ✅ **127.0.0.1:9001** (solo local, OpenClaw accede vía loopback) — confirmado por Mr. Jair el 18/08/2026
 13. **VPS (FASE 6):** ✅ **Mismo Ubuntu VPS de OpenClaw** — confirmado por Mr. Jair el 18/08/2026
 
