@@ -37,7 +37,7 @@
 - [x] Primera Ley de la Termodinámica — Energía no se crea ni se destruye — 2026-07-22
 - [x] Entropía — Todo tiende al desorden (y cómo luchar contra ello) — 2026-07-29
 - [x] Ley de Gravedad — Lo que sube debe bajar (riesgo/recompensa) — 2026-08-05
-- [ ] Principio de Incertidumbre de Heisenberg — No puedes controlar todo
+- [x] Principio de Incertidumbre de Heisenberg — No puedes controlar todo — 2026-08-19
 - [x] Efecto Mariposa — Pequeños cambios, grandes consecuencias — 2026-08-08
 - [x] Ley de Murphy — Si puede salir mal, saldrá — 2026-08-12
 - [ ] Conservación de Energía — No puedes ganar sin invertir
@@ -97,5 +97,6 @@
 | 2026-08-15 | 🌌 Libre/Sábado | Ley de Perdón — Soltar el rencor libera energía |
 | 2026-08-17 | 🔄 Herméticas | La Tabla Esmeralda: El Documento Más Antiguo de la Sabiduría Universal |
 | 2026-08-18 | 🌌 Éxito | Ley de Sacrificio — Para ganar algo, se deja algo |
+| 2026-08-19 | ⚙️ Físicas | Principio de Incertidumbre de Heisenberg — No puedes controlar todo |
 
 *(Se actualiza diariamente con la lectura entregada)*
