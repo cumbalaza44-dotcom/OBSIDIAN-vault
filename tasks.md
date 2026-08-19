@@ -25,7 +25,7 @@ source: "Mr. Jair — iOS / Telegram"
 | #   | Tarea                                         | Ventana        | Estado |
 | --- | --------------------------------------------- | -------------- | ------ |
 | 1   | 📚 Lectura diaria                             | 🌅 mañana      | 🔄     |
-| 2   | 🏋️ Gym                                        | 🌅 mañana 5:30 | 🔄     |
+| 2   | 🏋️ Gym                                        | 🌅 mañana 5:30 | ✅     |
 | 3   | 📢 Meta Ads: Investigar 10 productos ganadores | 🌙 noche       | 🔄     |
 | 4   | 💊 Creatina                                   | 🌙 noche       | ✅     |
 
@@ -67,7 +67,7 @@ source: "Mr. Jair — iOS / Telegram"
 | Hábito | Frecuencia | Último registro |
 |--------|------------|-----------------|
 | 📚 Lectura diaria | Diario | Sáb 8/08 ⏳ |
-| 🏋️ Gym | Lun-Vie | Jue 6/08 ✅ |
+| 🏋️ Gym | Lun-Vie | Mié 19/08 ✅ |
 | 💊 Creatina 3-5g | Diario (noche) | Dom 9/08 ✅ |
 | 🔬 Prototipo X | Semanal | Mié 29/07 ✅ investigación |
 
