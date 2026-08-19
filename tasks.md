@@ -27,8 +27,10 @@ source: "Mr. Jair — iOS / Telegram"
 | 1   | 📚 Lectura diaria                             | 🌅 mañana      | 🔄     |
 | 2   | 🏋️ Gym                                        | 🌅 mañana 5:30 | 🔄     |
 | 3   | 📢 Meta Ads: Investigar 10 productos ganadores | 🌙 noche       | 🔄     |
+| 4   | 💊 Creatina                                   | 🌙 noche       | ✅     |
 
-> 💊 Creatina: ✅ lista (completada el 18/08)
+> ✅ Tareas completadas el 18/08: Lectura, Gym, Meta Ads (nicho), Creatina
+> ✅ Revisión fases 4-5-6 del plan de construcción Ghost Trader v2.2 completada
 
 ---
 
