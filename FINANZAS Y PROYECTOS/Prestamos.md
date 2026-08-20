@@ -16,6 +16,7 @@
 | 6 | À Estiben | $35.500 | 20/08/2026 | — | ⏳ Pendiente | — |
 | 7 | À Estiben | $35.500 | 20/08/2026 | — | ⏳ Pendiente | — |
 | 7 | À Estiben | $35.500 | 20/08/2026 | — | ⏳ Pendiente | — |
+| 7 | À Estiben | $35.500 | 20/08/2026 | — | ⏳ Pendiente | — |
 
 ---
 
