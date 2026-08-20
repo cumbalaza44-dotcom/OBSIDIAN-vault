@@ -48,7 +48,7 @@
 - [x] Meditaciones: Diario de un emperador filósofo (Marco Aurelio) — 2026-07-30
 - [x] El arte de la guerra: Conócete a ti mismo (Sun Tzu) — 2026-08-06
 - [x] Mindfulness: Vivir en el presente (Thich Nhat Hanh) — 2026-08-13
-- [ ] Stoicismo moderno: Ryan Holiday — *The Obstacle Is the Way*
+- [x] Stoicismo moderno: Ryan Holiday — *The Obstacle Is the Way* — 2026-08-20
 - [ ] Filosofía del Stoicismo: Seneca — *Cartas a Lucilio*
 
 ### 🔮 Mezcla / Conexiones (Viernes)
