@@ -10,6 +10,8 @@
 | # | Quién | Monto | Fecha préstamo | Motivo | Estado | Devolución estimada |
 |---|-------|------:|:-------------:|--------|--------|:------------------:|
 | 2 | Don Iván | $22.000 | 19/08/2026 | — | ⏳ Pendiente | — |
+| 3 | Don Iván | $35.000 | 20/08/2026 | — | ⏳ Pendiente | — |
+| 4 | À Estiben | $55.000 | 20/08/2026 | — | ⏳ Pendiente | — |
 
 ---
 
