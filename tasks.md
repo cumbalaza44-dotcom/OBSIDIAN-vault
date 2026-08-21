@@ -24,10 +24,10 @@ source: "Mr. Jair — iOS / Telegram"
 
 | #   | Tarea                                         | Ventana        | Estado |
 | --- | --------------------------------------------- | -------------- | ------ |
-| 1   | 📚 Lectura diaria                             | 🌅 mañana      | 🔄     |
-| 2   | 🏋️ Gym                                        | 🌅 mañana 5:30 | ⬜     |
+| 1   | 📚 Lectura diaria                             | 🌅 mañana      | ✅     |
+| 2   | 🏋️ Gym                                        | 🌅 mañana 5:30 | ✅     |
 | 3   | 📊 Distribuir $1.050.000                      | 🌙 noche       | 🔄     |
-| 4   | 💊 Creatina                                   | 🌙 noche       | ⬜     |
+| 4   | 💊 Creatina                                   | 🌙 noche       | ✅     |
 
 > ✅ Tareas completadas el 19/08: Gym, Creatina
 > ✅ Revisión fases 4-5-6 del plan de construcción Ghost Trader v2.2 completada
