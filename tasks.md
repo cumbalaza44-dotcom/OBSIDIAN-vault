@@ -28,6 +28,8 @@ source: "Mr. Jair — iOS / Telegram"
 | --- | --------------------------------------------- | -------------- | ------ |
 | 1   | 📚 Lectura diaria                             | 🌅 mañana      | ✅     |
 | 2   | 🏋️ Gym                                        | 🌅 mañana 5:30 | ✅     |
+
+> ✅ Gym completado esta mañana (Vie 21/08, ~06:51)
 | 3   | 📊 Distribuir $1.050.000                      | 🌙 noche       | 🔄     |
 | 4   | 💊 Creatina                                   | 🌙 noche       | ✅     |
 
@@ -70,7 +72,7 @@ source: "Mr. Jair — iOS / Telegram"
 | Hábito | Frecuencia | Último registro |
 |--------|------------|-----------------|
 | 📚 Lectura diaria | Diario | Sáb 8/08 ⏳ |
-| 🏋️ Gym | Lun-Vie | Mié 19/08 ✅ |
+| 🏋️ Gym | Lun-Vie | Sáb 21/08 ✅ |
 | 💊 Creatina 3-5g | Diario (noche) | Dom 9/08 ✅ |
 | 🔬 Prototipo X | Semanal | Mié 29/07 ✅ investigación |
 
