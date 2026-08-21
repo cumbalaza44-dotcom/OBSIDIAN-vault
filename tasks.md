@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `20 Ago 2026`
+### Última actualización: `21 Ago 2026`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -20,7 +20,9 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Jueves 20/08
+## 🔥 HOY — Viernes 21/08 (Jue 20/08 cerrado)
+
+> ✅ Tareas completadas ayer (Jue 20/08): Gym ✅ | Creatina ✅ | Lectura ✅ — 3/4 cerradas, solo Distribución $1.050.000 quedó 🔄 en la noche
 
 | #   | Tarea                                         | Ventana        | Estado |
 | --- | --------------------------------------------- | -------------- | ------ |
@@ -29,8 +31,9 @@ source: "Mr. Jair — iOS / Telegram"
 | 3   | 📊 Distribuir $1.050.000                      | 🌙 noche       | 🔄     |
 | 4   | 💊 Creatina                                   | 🌙 noche       | ✅     |
 
-> ✅ Tareas completadas el 19/08: Gym, Creatina
-> ✅ Revisión fases 4-5-6 del plan de construcción Ghost Trader v2.2 completada
+> ✅ Gym completado esta mañana (Vie 21/08, 06:51)
+> ✅ Distribución $1.050.000 — pendiente de noche
+> 📋 Revisión semanal (Vie 21/08 mañana) retenida del bloque de la semana anterior
 
 ---
 
