@@ -40,7 +40,7 @@
 - [x] Principio de Incertidumbre de Heisenberg — No puedes controlar todo — 2026-08-19
 - [x] Efecto Mariposa — Pequeños cambios, grandes consecuencias — 2026-08-08
 - [x] Ley de Murphy — Si puede salir mal, saldrá — 2026-08-12
-- [ ] Conservación de Energía — No puedes ganar sin invertir
+- [x] Conservación de Energía — No puedes ganar sin invertir
 
 ### 🧘 Filosofía / Sabiduría Antigua (Jueves)
 - [x] Estoicismo: Controla lo que puedes, suelta lo que no (Epcteto) — 2026-07-16
@@ -49,7 +49,7 @@
 - [x] El arte de la guerra: Conócete a ti mismo (Sun Tzu) — 2026-08-06
 - [x] Mindfulness: Vivir en el presente (Thich Nhat Hanh) — 2026-08-13
 - [x] Stoicismo moderno: Ryan Holiday — *The Obstacle Is the Way* — 2026-08-20
-- [ ] Filosofía del Stoicismo: Seneca — *Cartas a Lucilio*
+- [x] Filosofía del Stoicismo: Séneca — *Cartas a Lucilio*
 
 ### 🔮 Mezcla / Conexiones (Viernes)
 - [x] Entropía + Ley del Movimiento: Por qué la disciplina vence al caos — 2026-07-24
@@ -98,5 +98,6 @@
 | 2026-08-17 | 🔄 Herméticas | La Tabla Esmeralda: El Documento Más Antiguo de la Sabiduría Universal |
 | 2026-08-18 | 🌌 Éxito | Ley de Sacrificio — Para ganar algo, se deja algo |
 | 2026-08-19 | ⚙️ Físicas | Principio de Incertidumbre de Heisenberg — No puedes controlar todo |
+| 2026-08-21 | 🔮 Mezcla | Conservación de Energía + Séneca: Toda energía que inviertes se transforma — 2026-08-21 |
 
 *(Se actualiza diariamente con la lectura entregada)*
