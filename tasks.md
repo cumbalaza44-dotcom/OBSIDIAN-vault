@@ -20,6 +20,20 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
+## 🔥 HOY — Domingo 23/08 (Sáb 22/08 cerrado)
+
+> ✅ Sin tareas nuevas asignadas para hoy. Domingo de descanso activo.
+
+| #   | Tarea                                         | Ventana        | Estado |
+| --- | --------------------------------------------- | -------------- | ------ |
+| 1   | 📚 Lectura diaria                             | 🌅 mañana      | ✅     |
+| 2   | 🏋️ Gym                                        | 🌅 mañana      | ⬜     |
+| 3   | 💊 Creatina                                   | 🌙 noche       | ⬜     |
+
+> Lectura ya completada (Ley de la Resonancia Universal).
+
+---
+
 ## 🔥 HOY — Viernes 21/08 (Jue 20/08 cerrado)
 
 > ✅ Tareas completadas ayer (Jue 20/08): Gym ✅ | Creatina ✅ | Lectura ✅ — 3/4 cerradas, solo Distribución $1.050.000 quedó 🔄 en la noche
