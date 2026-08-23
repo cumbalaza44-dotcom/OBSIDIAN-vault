@@ -100,5 +100,6 @@
 | 2026-08-19 | ⚙️ Físicas | Principio de Incertidumbre de Heisenberg — No puedes controlar todo |
 | 2026-08-21 | 🔮 Mezcla | Conservación de Energía + Séneca: Toda energía que inviertes se transforma — 2026-08-21 |
 | 2026-08-22 | 🔮 Libre/Sábado | Sincronicidad: La Ley de las Conexiones Significativas — 2026-08-22 |
+| 2026-08-23 | 🔮 Libre/Domingo | Ley de la Resonancia Universal — Todo vibra en frecuencias que se buscan mutuamente — 2026-08-23 |
 
 *(Se actualiza diariamente con la lectura entregada)*
