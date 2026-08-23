@@ -14,7 +14,7 @@
 | 4 | À Estiben | $55.000 | 20/08/2026 | — | ⏳ Pendiente | — |
 | 5 | Andrés | $10.000 | 20/08/2026 | — | ⏳ Pendiente | — |
 | 6 | À Estiben | $35.500 | 20/08/2026 | — | ⏳ Pendiente | — |
-| 7 | À Estiben | $35.500 | 20/08/2026 | — | ⏳ Pendiente | — |
+
 
 ---
 
