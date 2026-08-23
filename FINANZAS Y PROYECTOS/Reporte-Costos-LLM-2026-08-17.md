@@ -38,12 +38,12 @@ Precios en USD por millón de tokens ($/M). Fuente: OpenRouter API, consultado e
 
 | Modelo | Inteligencia (IQ) | Coding | Agentic | Velocidad (out tok/s) | Latencia |
 |--------|-------------------|--------|---------|----------------------|----------|
-| DeepSeek V4 Flash 0731 | 51.8 | 69.1 | 48.4 | ~150-200 (rápido) | Baja |
+| DeepSeek V4 Flash 0731 | 51.8 | 69.1 | **48.4** ✅ | ~150-200 (rápido) | Baja |
 | DeepSeek V4 Pro 0813 | 53.2 | 68.8 | 49.6 | Alta | Baja |
 | Mimo v2.5 | 38.0 | 56.8 | 24.4 | Media | Media |
 | Mimo v2.5 Pro | 42.9 | 60.2 | 29.5 | Media | Media |
 | Gemini 3.7 Flash | 56.0 | 76.1 | 45.1 | Muy alta | Muy baja |
-| Ling 3.0 Flash | 37.8 | 50.6 | 29.3 | Alta | Baja |
+| Ling 3.0 Flash | 37.8 | 50.6 | **29.3** ⚠️ | Alta | Baja |
 | GPT-5.6 Luna | 52.3 | 71.4 | 46.9 | Alta | Baja |
 | Qwen 3.7 Flash | no evaluado (modelo nuevo) | — | — | Alta | Baja |
 
