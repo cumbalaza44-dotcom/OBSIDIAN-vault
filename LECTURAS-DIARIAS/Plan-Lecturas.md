@@ -41,6 +41,7 @@
 - [x] Efecto Mariposa — Pequeños cambios, grandes consecuencias — 2026-08-08
 - [x] Ley de Murphy — Si puede salir mal, saldrá — 2026-08-12
 - [x] Conservación de Energía — No puedes ganar sin invertir
+- [x] Efecto Doppler — Por qué la realidad cambia según te mueves hacia ella — 2026-08-26
 
 ### 🧘 Filosofía / Sabiduría Antigua (Jueves)
 - [x] Estoicismo: Controla lo que puedes, suelta lo que no (Epcteto) — 2026-07-16
@@ -101,5 +102,6 @@
 | 2026-08-21 | 🔮 Mezcla | Conservación de Energía + Séneca: Toda energía que inviertes se transforma — 2026-08-21 |
 | 2026-08-22 | 🔮 Libre/Sábado | Sincronicidad: La Ley de las Conexiones Significativas — 2026-08-22 |
 | 2026-08-23 | 🔮 Libre/Domingo | Ley de la Resonancia Universal — Todo vibra en frecuencias que se buscan mutuamente — 2026-08-23 |
+| 2026-08-26 | ⚙️ Físicas | Efecto Doppler — Por qué la realidad cambia según te mueves hacia ella |
 
 *(Se actualiza diariamente con la lectura entregada)*
