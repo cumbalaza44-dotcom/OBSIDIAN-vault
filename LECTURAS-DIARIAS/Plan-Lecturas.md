@@ -50,7 +50,7 @@
 - [x] El arte de la guerra: Conócete a ti mismo (Sun Tzu) — 2026-08-06
 - [x] Mindfulness: Vivir en el presente (Thich Nhat Hanh) — 2026-08-13
 - [x] Stoicismo moderno: Ryan Holiday — *The Obstacle Is the Way* — 2026-08-20
-- [x] Filosofía del Stoicismo: Séneca — *Cartas a Lucilio*
+- [x] Filosofía del Stoicismo: Séneca — *Cartas a Lucilio* — 2026-08-27
 
 ### 🔮 Mezcla / Conexiones (Viernes)
 - [x] Entropía + Ley del Movimiento: Por qué la disciplina vence al caos — 2026-07-24
@@ -103,5 +103,6 @@
 | 2026-08-22 | 🔮 Libre/Sábado | Sincronicidad: La Ley de las Conexiones Significativas — 2026-08-22 |
 | 2026-08-23 | 🔮 Libre/Domingo | Ley de la Resonancia Universal — Todo vibra en frecuencias que se buscan mutuamente — 2026-08-23 |
 | 2026-08-26 | ⚙️ Físicas | Efecto Doppler — Por qué la realidad cambia según te mueves hacia ella |
+| 2026-08-27 | 🧘 Filosofía | Séneca: La Dichotomía del Control y la Libertad Interior |
 
 *(Se actualiza diariamente con la lectura entregada)*
