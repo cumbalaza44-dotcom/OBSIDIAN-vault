@@ -8,15 +8,15 @@
 
 OpenClaw es un gateway multi-proveedor que soporta **100+ modelos LLM** a través de 50+ proveedores. No existe un único "mejor modelo" — la elección óptima depende del tipo de tarea, presupuesto, y requisitos de latencia. Basado en la documentación oficial y la configuración actual del usuario, las recomendaciones principales son:
 
-| Prioridad | Modelo | Mejor para | Costo relativo |
-|-----------|--------|------------|----------------|
-| 🥇 | **anthropic/claude-opus-5** | Tareas complejas, razonamiento, coding | Alto |
-| 🥈 | **openai/gpt-5.6-sol** | Tareas generales, agentes con herramientas | Alto |
-| 🥉 | **deepseek/deepseek-v4-pro** | Razonamiento profundo, costo-eficiente | Medio |
-| 4️⃣ | **google/gemini-3.1-pro-preview** | Multimodal, visión, velocidad | Medio |
-| 5️⃣ | **openrouter/inclusionai/ling-3.0-flash** | Tareas rápidas, bajo costo | Bajo |
-| 6️⃣ | **xai/grok-4.6** | Coding, web search integrado | Alto |
-| 💰 | **deepseek/deepseek-v4-flash** | Tareas cotidianas, mejor ratio velocidad/costo | Bajo |
+| Prioridad | Modelo                                    | Mejor para                                     | Costo relativo |
+| --------- | ----------------------------------------- | ---------------------------------------------- | -------------- |
+| 🥇        | **anthropic/claude-opus-5**               | Tareas complejas, razonamiento, coding         | Alto           |
+| 🥈        | **openai/gpt-5.6-sol**                    | Tareas generales, agentes con herramientas     | Alto           |
+| 🥉        | **deepseek/deepseek-v4-pro**              | Razonamiento profundo, costo-eficiente         | Medio          |
+| 4️⃣       | **google/gemini-3.1-pro-preview**         | Multimodal, visión, velocidad                  | Medio          |
+| 5️⃣       | **openrouter/inclusionai/ling-3.0-flash** | Tareas rápidas, bajo costo                     | Bajo           |
+| 6️⃣       | **xai/grok-4.6**                          | Coding, web search integrado                   | Alto           |
+| 💰        | **deepseek/deepseek-v4-flash**            | Tareas cotidianas, mejor ratio velocidad/costo | Bajo           |
 
 ---
 
