@@ -27,7 +27,7 @@ source: "Mr. Jair — iOS / Telegram"
 | #   | Tarea                          | Ventana   | Estado |
 | --- | ------------------------------ | --------- | ------ |
 | 1   | 📚 Lectura diaria              | 🌅 mañana | ✅      |
-| 2   | 🏋️ Gym                        | 🌅 mañana | ⬜      |
+| 2   | 🏋️ Gym                        | 🌅 mañana |        |
 | 3   | 💊 Creatina                    | 🌙 noche  | ⬜      |
 | 4   | 🎱 Sacar las bolas del estuche | —         | ✅      |
 
