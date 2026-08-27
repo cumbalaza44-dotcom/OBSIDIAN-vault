@@ -24,12 +24,12 @@ source: "Mr. Jair — iOS / Telegram"
 
 > ✅ Sin tareas nuevas asignadas para hoy. Domingo de descanso activo.
 
-| #   | Tarea                                         | Ventana        | Estado |
-| --- | --------------------------------------------- | -------------- | ------ |
-| 1   | 📚 Lectura diaria                             | 🌅 mañana      | ✅     |
-| 2   | 🏋️ Gym                                        | 🌅 mañana      | ⬜     |
-| 3   | 💊 Creatina                                   | 🌙 noche       | ⬜     |
-| 4   | 🎱 Sacar las bolas del estuche                | —              | ✅     |
+| #   | Tarea                          | Ventana   | Estado |
+| --- | ------------------------------ | --------- | ------ |
+| 1   | 📚 Lectura diaria              | 🌅 mañana | ✅      |
+| 2   | 🏋️ Gym                        | 🌅 mañana | ⬜      |
+| 3   | 💊 Creatina                    | 🌙 noche  | ⬜      |
+| 4   | 🎱 Sacar las bolas del estuche | —         | ✅      |
 
 > Lectura ya completada (Ley de la Resonancia Universal).
 > 🎱 Sacar las bolas del estuche — recordatorio ejecutado 15:14, confirmado por Mr. Jair.
