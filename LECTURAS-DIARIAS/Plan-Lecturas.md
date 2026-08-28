@@ -60,6 +60,7 @@
 - [x] Gravedad + Sacrificio: El peso de las decisiones — 2026-08-14
 - [x] Incertidumbre + Tao: Abrazar lo desconocido — 2026-07-17
 - [x] Mentalismo + Meditación: El poder de la mente enfocada — 2026-07-19
+- [x] Ritmo + Atracción: Cómo sincronizar tus ciclos con el universo — 2026-08-28
 
 ## Log de Lecturas
 
@@ -104,5 +105,6 @@
 | 2026-08-23 | 🔮 Libre/Domingo | Ley de la Resonancia Universal — Todo vibra en frecuencias que se buscan mutuamente — 2026-08-23 |
 | 2026-08-26 | ⚙️ Físicas | Efecto Doppler — Por qué la realidad cambia según te mueves hacia ella |
 | 2026-08-27 | 🧘 Filosofía | Séneca: La Dichotomía del Control y la Libertad Interior |
+| 2026-08-28 | 🔮 Mezcla | Ritmo + Atracción: Cómo sincronizar tus ciclos con el universo |
 
 *(Se actualiza diariamente con la lectura entregada)*
