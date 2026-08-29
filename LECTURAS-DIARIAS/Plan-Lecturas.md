@@ -106,5 +106,6 @@
 | 2026-08-26 | ⚙️ Físicas | Efecto Doppler — Por qué la realidad cambia según te mueves hacia ella |
 | 2026-08-27 | 🧘 Filosofía | Séneca: La Dichotomía del Control y la Libertad Interior |
 | 2026-08-28 | 🔮 Mezcla | Ritmo + Atracción: Cómo sincronizar tus ciclos con el universo |
+| 2026-08-29 | 🔮 Libre | El Efecto Observador: Cuántica, Conciencia y el Poder de la Atención |
 
 *(Se actualiza diariamente con la lectura entregada)*
