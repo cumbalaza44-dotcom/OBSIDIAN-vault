@@ -1,6 +1,6 @@
 ---
 created: 2026-05-25
-updated: 2026-07-29
+updated: 2026-08-28
 source: "Mr. Jair — iOS / Telegram"
 ---
 
@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `21 Ago 2026`
+### Última actualización: `28 Ago 2026`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -17,6 +17,22 @@ source: "Mr. Jair — iOS / Telegram"
 **Ventanas:** Mañana 5:10-8:00 AM | Noche 6:30-9:30 PM | Fines de semana completo
 
 </div>
+
+---
+
+## 🔥 HOY — Viernes 28/08
+
+> Semana sin gym (Lun-Vie). Lectura completada. Creatina pendiente esta noche.
+
+| #   | Tarea                 | Ventana   | Estado |
+| --- | --------------------- | --------- | ------ |
+| 1   | 📚 Lectura diaria     | 🌅 mañana | ✅     |
+| 2   | 🏋️ Gym               | 🌅 mañana | ❌ no asistió toda la semana |
+| 3   | 💊 Creatina           | 🌙 noche  | ⬜     |
+
+> ✅ Lectura completada.
+> ❌ Gym: no asistido de Lunes a Viernes (semana del 24-28 Ago). Mr. Jair lo reportó.
+> 📌 Pendiente anterior: Distribución $1.050.000 (desde Vie 21/08).
 
 ---
 
@@ -88,7 +104,7 @@ source: "Mr. Jair — iOS / Telegram"
 | Hábito | Frecuencia | Último registro |
 |--------|------------|-----------------|
 | 📚 Lectura diaria | Diario | Sáb 8/08 ⏳ |
-| 🏋️ Gym | Lun-Vie | Sáb 21/08 ✅ |
+| 🏋️ Gym | Lun-Vie | ❌ Semana 24-28 Ago no asistió |
 | 💊 Creatina 3-5g | Diario (noche) | Dom 9/08 ✅ |
 | 🔬 Prototipo X | Semanal | Mié 29/07 ✅ investigación |
 
