@@ -32,7 +32,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 > ✅ Lectura completada.
 > ❌ Gym: no asistido de Lunes a Viernes (semana del 24-28 Ago). Mr. Jair lo reportó.
-> 📌 Pendiente anterior: Distribución $1.050.000 (desde Vie 21/08).
+> 📌 Distribución $1.050.000 — Mr. Jair confirmó que ya la realizó.
 
 ---
 
