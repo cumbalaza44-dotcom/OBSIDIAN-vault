@@ -18,6 +18,7 @@
 | F | 🔧 Tech y Herramientas | IA, software, tendencias, stack técnico |
 | G | 🎬 Video y Contenido | Edición, storytelling, producción, distribución |
 | H | 🧭 Mentalidad y Estrategia | Decisión, resiliencia, pensamiento sistémico, liderazgo |
+| I | 🏗️ Ingeniería y Diseño | Principios de ingeniería, diseño de producto, arquitectura, resolución de problemas |
 
 ---
 
@@ -135,6 +136,53 @@
 - [ ] Ley de Parkinson — El trabajo se expande hasta ocupar el tiempo disponible
 - [ ] Amor Fati — Amar el destino, no solo tolerarlo (Nietzsche aplicado)
 
+### I — 🏗️ Ingeniería y Diseño
+- [ ] Principios SOLID — Las 5 reglas para código que no se rompe al cambiar
+- [ ] DRY vs KISS — Por qué no repetirte y por qué lo simple gana
+- [ ] Acoplamiento vs Cohesión — El equilibrio que define si tu sistema vive o muere
+- [ ] Patrón MVC — Modelo-Vista-Controlador y por qué todo framework lo usa
+- [ ] Refactorización — Cómo mejorar código sin cambiar qué hace
+- [ ] Testing Unitario — Por qué escribir tests te ahorra semanas de debug
+- [ ] CI/CD — Integración y despliegue continuo (cómo entregar sin miedo)
+- [ ] Arquitectura de Microservicios — Cuándo separar y cuándo no
+- [ ] Diseño de APIs REST — Las reglas que hacen una API que funciona de verdad
+- [ ] SQL vs NoSQL — Qué base de datos elegir y por qué importa
+- [ ] Modelado de Datos — Cómo diseñar esquemas que escalan
+- [ ] Git Flow — Flujo de trabajo con ramas que no genera caos
+- [ ] Code Review — Por qué revisar código ajeno te hace mejor ingeniero
+- [ ] Patrones de Diseño — Singleton, Factory, Observer (y cuándo usar cada uno)
+- [ ] SOLID en la Práctica — Ejemplos reales de cada principio aplicado
+- [ ] Deuda Técnica — Por qué atajos hoy son dolores de cabeza mañana
+- [ ] Contenedores (Docker) — Empaquetar apps para que corran en cualquier lado
+- [ ] Linux Básico — Comandos esenciales que todo desarrollador debe conocer
+- [ ] Redes e HTTP — Cómo funciona internet por dentro (TCP, DNS, HTTPS)
+- [ ] Seguridad de Aplicaciones — OWASP Top 10 y cómo proteger tu app
+- [ ] Diseño de Interfaz (UI) — Principios de usability que funcionan
+- [ ] Experiencia de Usuario (UX) — Cómo diseñar pensando en el humano
+- [ ] Prototipado Rápido — De idea a prototipo funcional en horas
+- [ ] Design System — Cómo crear y mantener un sistema de diseño consistente
+- [ ] Accesibilidad Web (a11y) — Por qué tu sitio debe funcionar para todos
+- [ ] Responsive Design — Cómo hacer que funcione en cualquier pantalla
+- [ ] Figma para No-Designers — Herramientas básicas de diseño sin ser diseñador
+- [ ] wireframing — Bocetos de interfaz antes de escribir una línea de código
+- [ ] Arquitectura de Software Limpia — La guía de Robert C. Martin aplicada
+- [ ] Principio de Menor Privilegio — Dar solo el acceso necesario (seguridad)
+- [ ] Load Balancing — Cómo distribuir tráfico sin que todo se caiga
+- [ ] Caché — Por qué guardar datos repetidos acelera todo
+- [ ] Colas de Mensajes — Cómo procesar tareas pesadas sin bloquear
+- [ ] Logging y Monitoreo — Cómo saber qué falla tu app en producción
+- [ ] Infraestructura como Código — Terraform, Ansible, y por qué automatizar servidores
+- [ ] Observabilidad — Métricas, logs y traces (las 3 piernas de saber qué pasa)
+- [ ]性能 Optimization — Cómo identificar y eliminar cuellos de botella
+- [ ] Concurrencia vs Paralelismo — Diferencia real y cuándo usar cada uno
+- [ ] Diseño Orientado a Eventos — Cómo construir sistemas reactivos
+- [ ] Circuit Breaker Pattern — Por qué tu sistema debe fallar gracefully
+
+---
+
+**Total pendientes: 136 temas** (12×8 + 40 nuevos en Ingeniería y Diseño)
+**Pool estimado: ~4.5 meses de lectura diaria sin repetir**
+
 ---
 
 ## Log de Lecturas
@@ -187,5 +235,4 @@
 
 ---
 
-**Total pendientes: 96 temas** (12 por categoría × 8 categorías)
-**Pool estimado: ~3 meses de lectura diaria sin repetir**
+
