@@ -164,7 +164,7 @@
 - [ ] Accesibilidad Web (a11y) — Por qué tu sitio debe funcionar para todos
 - [ ] Responsive Design — Cómo hacer que funcione en cualquier pantalla
 - [ ] Figma para No-Designers — Herramientas básicas de diseño sin ser diseñador
-- [ ] wireframing — Bocetos de interfaz antes de escribir una línea de código
+- [ ] Wireframing — Bocetos de interfaz antes de escribir una línea de código
 - [ ] Arquitectura de Software Limpia — La guía de Robert C. Martin aplicada
 - [ ] Principio de Menor Privilegio — Dar solo el acceso necesario (seguridad)
 - [ ] Load Balancing — Cómo distribuir tráfico sin que todo se caiga
@@ -173,7 +173,7 @@
 - [ ] Logging y Monitoreo — Cómo saber qué falla tu app en producción
 - [ ] Infraestructura como Código — Terraform, Ansible, y por qué automatizar servidores
 - [ ] Observabilidad — Métricas, logs y traces (las 3 piernas de saber qué pasa)
-- [ ]性能 Optimization — Cómo identificar y eliminar cuellos de botella
+- [ ] Performance Optimization — Cómo identificar y eliminar cuellos de botella
 - [ ] Concurrencia vs Paralelismo — Diferencia real y cuándo usar cada uno
 - [ ] Diseño Orientado a Eventos — Cómo construir sistemas reactivos
 - [ ] Circuit Breaker Pattern — Por qué tu sistema debe fallar gracefully
