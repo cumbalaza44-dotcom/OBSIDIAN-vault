@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `28 Ago 2026`
+### Última actualización: `30 Ago 2026`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -17,6 +17,22 @@ source: "Mr. Jair — iOS / Telegram"
 **Ventanas:** Mañana 5:10-8:00 AM | Noche 6:30-9:30 PM | Fines de semana completo
 
 </div>
+
+---
+
+## 🔥 HOY — Lunes 31/08
+
+> Semana de arranque. Prioridad: retomar gym + Meta Ads (nicho).
+
+| #   | Tarea                          | Ventana        | Estado |
+| --- | ------------------------------ | -------------- | ------ |
+| 1   | 📚 Lectura diaria              | 🌅 mañana      | ⬜     |
+| 2   | 🏋️ Gym (retomar)              | 🌅 mañana 5:30 | ⬜     |
+| 3   | 📢 Meta Ads: definir nicho     | 🌙 noche       | ⬜     |
+| 4   | 💊 Creatina                    | 🌙 noche       | ⬜     |
+
+> 📌 Distribución $1.050.000 completada (28/08).
+> ❌ Semana anterior sin gym. Retomar esta semana.
 
 ---
 
@@ -68,6 +84,23 @@ source: "Mr. Jair — iOS / Telegram"
 > ✅ Gym completado esta mañana (Vie 21/08, 06:51)
 > ✅ Distribución $1.050.000 — pendiente de noche
 > 📋 Revisión semanal (Vie 21/08 mañana) retenida del bloque de la semana anterior
+
+---
+
+## 📅 SEMANA 31 Ago – 6 Sep 2026
+
+> Horario: L-V 8 AM-5 PM | Gym: 5:30-8:00 AM | Noche: 6:30-9:30 PM
+> ⚠️ Retomar gym después de 1 semana sin asistencia.
+
+| Día | Mañana (5:10-8:00 AM) | Noche (6:30-9:30 PM) |
+|-----|----------------------|----------------------|
+| **Lun 31** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: definir nicho + 💊 Creatina |
+| **Mar 1** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: investigar 10 productos ganadores + 💊 Creatina |
+| **Mié 2** | 📚 Lectura + 🏋️ Gym | 🔬 Prototipo X: prototipar sensor ultrasónico + 💊 Creatina |
+| **Jue 3** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: público objetivo + 💊 Creatina |
+| **Vie 4** | 📚 Lectura + 🏋️ Gym | 🏠 Lavar prendas + 📋 Revisión semanal + 💊 Creatina |
+| **Sáb 5** | 📚 Lectura + 🧘 Descanso activo | 🏠 Comprar aceite de coco + 🔧 Go Kart (avance) |
+| **Dom 6** | 📚 Lectura | 🛋️ Descanso total |
 
 ---
 
