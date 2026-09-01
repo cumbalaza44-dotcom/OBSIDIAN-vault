@@ -20,19 +20,18 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Lunes 31/08
+## 🔥 HOY — Martes 01/09
 
-> Semana de arranque. Prioridad: retomar gym + Meta Ads (nicho).
+> Semana 31 Ago – 6 Sep. Prioridad: lectura + gym + Meta Ads.
 
-| #   | Tarea                          | Ventana        | Estado |
-| --- | ------------------------------ | -------------- | ------ |
-| 1   | 📚 Lectura diaria              | 🌅 mañana      | ⬜     |
-| 2   | 🏋️ Gym (retomar)              | 🌅 mañana 5:30 | ⬜     |
-| 3   | 📢 Meta Ads: definir nicho     | 🌙 noche       | ⬜     |
-| 4   | 💊 Creatina                    | 🌙 noche       | ⬜     |
+| #   | Tarea                                    | Ventana        | Estado |
+| --- | ---------------------------------------- | -------------- | ------ |
+| 1   | 📚 Lectura diaria                        | 🌅 mañana      | ✅     |
+| 2   | 🏋️ Gym                                  | 🌅 mañana 5:30 | ⬜     |
+| 3   | 📢 Meta Ads: investigar 10 productos     | 🌙 noche       | ⬜     |
+| 4   | 💊 Creatina                              | 🌙 noche       | ⬜     |
 
-> 📌 Distribución $1.050.000 completada (28/08).
-> ❌ Semana anterior sin gym. Retomar esta semana.
+> ✅ Lectura completada (reporte 06:39).
 
 ---
 
