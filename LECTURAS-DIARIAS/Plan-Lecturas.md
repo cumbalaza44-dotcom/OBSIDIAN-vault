@@ -35,7 +35,7 @@
 - [ ] Efecto Placebo — Cómo la percepción crea valor real (en fitness, negocios, vida)
 - [ ] Teoría de la Prospección — Por qué perder $100 duele más que ganar $100
 - [ ] Sesgo del Supervisor — Por qué los mejor pagados a veces son los peores
-- [ ] Efecto IKEA — Por qué involucrar al cliente genera más lealtad
+- [x] Efecto IKEA — Por qué involucrar al cliente genera más lealtad ✅ 2026-09-01
 - [ ] Heurística de Representatividad — Por qué juzgas por parecer, no por datos
 
 ### B — 💰 Negocio y E-commerce
@@ -232,6 +232,7 @@
 | 2026-08-29 | C | El Efecto Observador: Cuántica, Conciencia y el Poder de la Atención |
 | 2026-08-30 | C | Entrelazamiento Cuántico: La Conexión Invisible que Sostiene el Universo |
 | 2026-08-31 | A | Hermes Trismegisto: La Inteligencia Universal Detrás de las Leyes Hermeticas |
+| 2026-09-01 | A | Efecto IKEA — Por qué involucrar al cliente genera más lealtad |
 
 ---
 
