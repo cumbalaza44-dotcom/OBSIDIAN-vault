@@ -58,20 +58,20 @@ La docs de OpenClaw establecen una regla clara:
 
 ## 📈 Tabla Comparativa de Modelos
 
-| Modelo | Velocidad | Calidad | Costo/1M tokens | Contexto | Razonamiento | Mejor Caso de Uso |
-|--------|-----------|---------|-----------------|----------|--------------|-------------------|
-| **anthropic/claude-opus-5** | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ~$15-30 | 200K | ✅ Nativo | Tareas complejas, coding, análisis profundo |
-| **openai/gpt-5.6-sol** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ~$10-25 | 272K | ✅ Nativo | Agentes con herramientas, tareas generales |
-| **deepseek/deepseek-v4-pro** | ⭐⭐⭐ | ⭐⭐⭐⭐ | ~$3-5 | 1M | ✅ Nativo | Razonamiento, costo-eficiente |
-| **deepseek/deepseek-v4-flash** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ~$0.50-1 | 1M | ✅ | Tareas rápidas, cotidianas |
-| **google/gemini-3.1-pro-preview** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ~$5-10 | 1M | ✅ | Multimodal, visión, web search |
-| **google/gemini-3.1-flash-image** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ~$1-3 | — | ❌ | Generación/edición de imágenes |
-| **xai/grok-4.6** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ~$10-20 | 200K | ✅ | Coding, web search |
-| **groq/openai/gpt-oss-120b** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ~$2-5 | 128K | ✅ | Ultra-rapidez, inferencia local |
-| **openrouter/inclusionai/ling-3.0-flash** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ~$0.01-0.03 | 256K | ❌ | Tareas rápidas, bajo costo |
-| **openrouter/arcee-ai/trinity-large-thinking** | ⭐⭐⭐ | ⭐⭐⭐⭐ | Variable | — | ✅ | Razonamiento con costo medio |
-| **openrouter/nvidia/nemotron-3-super-120b** | ⭐⭐⭐ | ⭐⭐⭐⭐ | Variable | — | ✅ | Tareas de razonamiento grandes |
-| **meta/muse-spark-1.2-contributor** | ⭐⭐⭐⭐ | ⭐⭐⭐ | Variable | 8K | ✅ | Config actual del usuario |
+| Modelo                                         | Velocidad | Calidad | Costo/1M tokens | Contexto | Razonamiento | Mejor Caso de Uso                           |
+| ---------------------------------------------- | --------- | ------- | --------------- | -------- | ------------ | ------------------------------------------- |
+| **anthropic/claude-opus-5**                    | ⭐⭐⭐       | ⭐⭐⭐⭐⭐   | ~$15-30         | 200K     | ✅ Nativo     | Tareas complejas, coding, análisis profundo |
+| **openai/gpt-5.6-sol**                         | ⭐⭐⭐⭐      | ⭐⭐⭐⭐⭐   | ~$10-25         | 272K     | ✅ Nativo     | Agentes con herramientas, tareas generales  |
+| **deepseek/deepseek-v4-pro**                   | ⭐⭐⭐       | ⭐⭐⭐⭐    | ~$3-5           | 1M       | ✅ Nativo     | Razonamiento, costo-eficiente               |
+| **deepseek/deepseek-v4-flash**                 | ⭐⭐⭐⭐⭐     | ⭐⭐⭐     | ~$0.50-1        | 1M       | ✅            | Tareas rápidas, cotidianas                  |
+| **google/gemini-3.1-pro-preview**              | ⭐⭐⭐⭐      | ⭐⭐⭐⭐    | ~$5-10          | 1M       | ✅            | Multimodal, visión, web search              |
+| **google/gemini-3.1-flash-image**              | ⭐⭐⭐⭐⭐     | ⭐⭐⭐⭐    | ~$1-3           | —        | ❌            | Generación/edición de imágenes              |
+| **xai/grok-4.6**                               | ⭐⭐⭐⭐      | ⭐⭐⭐⭐    | ~$10-20         | 200K     | ✅            | Coding, web search                          |
+| **groq/openai/gpt-oss-120b**                   | ⭐⭐⭐⭐⭐     | ⭐⭐⭐     | ~$2-5           | 128K     | ✅            | Ultra-rapidez, inferencia local             |
+| **openrouter/inclusionai/ling-3.0-flash**      | ⭐⭐⭐⭐⭐     | ⭐⭐⭐     | ~$0.01-0.03     | 256K     | ❌            | Tareas rápidas, bajo costo                  |
+| **openrouter/arcee-ai/trinity-large-thinking** | ⭐⭐⭐       | ⭐⭐⭐⭐    | Variable        | —        | ✅            | Razonamiento con costo medio                |
+| **openrouter/nvidia/nemotron-3-super-120b**    | ⭐⭐⭐       | ⭐⭐⭐⭐    | Variable        | —        | ✅            | Tareas de razonamiento grandes              |
+| **meta/muse-spark-1.2-contributor**            | ⭐⭐⭐⭐      | ⭐⭐⭐     | Variable        | 8K       | ✅            | Config actual del usuario                   |
 
 ---
 
