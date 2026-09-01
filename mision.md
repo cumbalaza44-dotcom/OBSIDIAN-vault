@@ -27,11 +27,12 @@ source: "Mr. Jair — iOS / Telegram"
 | #   | Tarea                                    | Ventana        | Estado |
 | --- | ---------------------------------------- | -------------- | ------ |
 | 1   | 📚 Lectura diaria                        | 🌅 mañana      | ✅     |
-| 2   | 🏋️ Gym                                  | 🌅 mañana 5:30 | ⬜     |
+| 2   | 🏋️ Gym                                  | 🌅 mañana 5:30 | ✅     |
 | 3   | 📢 Meta Ads: investigar 10 productos     | 🌙 noche       | ⬜     |
 | 4   | 💊 Creatina                              | 🌙 noche       | ⬜     |
 
 > ✅ Lectura completada (reporte 06:39).
+> ✅ Gym completado (reporte 07:45).
 
 ---
 
