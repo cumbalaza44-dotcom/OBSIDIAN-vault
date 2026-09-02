@@ -28,7 +28,7 @@ source: "Mr. Jair — iOS / Telegram"
 | #   | Tarea                                    | Ventana        | Estado |
 | --- | ---------------------------------------- | -------------- | ------ |
 | 1   | 📚 Lectura diaria                        | 🌅 mañana      | ⬜     |
-| 2   | 🏋️ Gym                                  | 🌅 mañana 5:30 | ⬜     |
+| 2   | 🏋️ Gym                                  | 🌅 mañana 5:30 | 🔄 en curso (18:01) |
 | 3   | 🖥️ Ghost Trader — definir alcance        | 🌙 noche       | ⬜     |
 | 4   | 💊 Creatina                              | 🌙 noche       | ⬜     |
 | 5   | 🔧 Poner arandela al tornillo del casco  | 🌙 noche       | ⬜     |
