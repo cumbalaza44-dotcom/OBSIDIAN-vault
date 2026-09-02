@@ -32,6 +32,7 @@ source: "Mr. Jair — iOS / Telegram"
 | 3   | 🖥️ Ghost Trader — definir alcance        | 🌙 noche       | ⬜     |
 | 4   | 💊 Creatina                              | 🌙 noche       | ⬜     |
 | 5   | 🔧 Poner arandela al tornillo del casco  | 🌙 noche       | ⬜     |
+| 6   | 🔍 Verificar estado del system prompt OpenClaw | 🌅 mañana | ⬜     |
 
 | #   | Tarea                 | Ventana   | Estado |
 | --- | --------------------- | --------- | ------ |
