@@ -67,7 +67,7 @@
 - [ ] Ratios Financieros Básicos — Los 5 números que cuentan la historia de cualquier empresa
 
 ### D — 🏋️ Fitness y Rendimiento
-- [ ] Déficit Calórico — La única ley que importa para bajar de peso (con fórmula)
+- [x] Déficit Calórico — La única ley que importa para bajar de peso (con fórmula) ✅ 2026-09-02
 - [ ] Proteína Diaria — Cuánta necesitas realmente (y cómo calcularla)
 - [ ] Progresión Sobrecarga — El principio que separa entrenar de mejorar
 - [ ] Recuperación — Por qué crecés durmiendo, no entrenando
@@ -233,6 +233,7 @@
 | 2026-08-30 | C | Entrelazamiento Cuántico: La Conexión Invisible que Sostiene el Universo |
 | 2026-08-31 | A | Hermes Trismegisto: La Inteligencia Universal Detrás de las Leyes Hermeticas |
 | 2026-09-01 | A | Efecto IKEA — Por qué involucrar al cliente genera más lealtad |
+| 2026-09-02 | D | Déficit Calórico — La única ley que importa para bajar de peso (con fórmula) |
 
 ---
 
