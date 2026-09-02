@@ -27,8 +27,8 @@ source: "Mr. Jair — iOS / Telegram"
 
 | #   | Tarea                                    | Ventana        | Estado |
 | --- | ---------------------------------------- | -------------- | ------ |
-| 1   | 📚 Lectura diaria                        | 🌅 mañana      | ✅     |
-| 2   | 🏋️ Gym                                  | 🌅 mañana 5:30 | ✅     |
+| 1   | 📚 Lectura diaria                        | 🌅 mañana      | ⬜     |
+| 2   | 🏋️ Gym                                  | 🌅 mañana 5:30 | ⬜     |
 | 3   | 🖥️ Ghost Trader — definir alcance        | 🌙 noche       | ⬜     |
 | 4   | 💊 Creatina                              | 🌙 noche       | ⬜     |
 | 5   | 🔧 Poner arandela al tornillo del casco  | 🌙 noche       | ⬜     |
@@ -40,9 +40,8 @@ source: "Mr. Jair — iOS / Telegram"
 | 2   | 🏋️ Gym               | 🌅 mañana | ❌ no asistió toda la semana |
 | 3   | 💊 Creatina           | 🌙 noche  | ⬜     |
 
-> ✅ Lectura completada.
-> ❌ Gym: no asistido de Lunes a Viernes (semana del 24-28 Ago). Mr. Jair lo reportó.
-> 📌 Distribución $1.050.000 — Mr. Jair confirmó que ya la realizó.
+> ⬜ Lectura diaria — pendiente.
+> ⬜ Gym — pendiente (inicia 5:30 AM).
 
 ---
 
