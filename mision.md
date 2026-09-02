@@ -97,10 +97,10 @@ source: "Mr. Jair — iOS / Telegram"
 
 | Día | Mañana (5:10-8:00 AM) | Noche (6:30-9:30 PM) |
 |-----|----------------------|----------------------|
-| **Lun 31** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: definir nicho + 💊 Creatina |
-| **Mar 1** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: investigar 10 productos ganadores + 💊 Creatina |
-| **Mié 2** | 📚 Lectura + 🏋️ Gym | 🔬 Prototipo X: prototipar sensor ultrasónico + 💊 Creatina |
-| **Jue 3** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: público objetivo + 💊 Creatina |
+| **Lun 31** | 📚 Lectura + 🏋️ Gym | ⏸️ Meta Ads (pausado) + 💊 Creatina |
+| **Mar 1** | 📚 Lectura + 🏋️ Gym | 🖥️ Ghost Trader: definir alcance + 🎓 SSD course (50%+) + 💊 Creatina |
+| **Mié 2** | 📚 Lectura + 🏋️ Gym | 🖥️ Ghost Trader: arquitectura + 🎓 SSD course (completar) + 💊 Creatina |
+| **Jue 3** | 📚 Lectura + 🏋️ Gym | 🖥️ Ghost Trader: prototipo funcional + 💊 Creatina |
 | **Vie 4** | 📚 Lectura + 🏋️ Gym | 🏠 Lavar prendas + 📋 Revisión semanal + 💊 Creatina |
 | **Sáb 5** | 📚 Lectura + 🧘 Descanso activo | 🏠 Comprar aceite de coco + 🔧 Go Kart (avance) |
 | **Dom 6** | 📚 Lectura | 🛋️ Descanso total |
