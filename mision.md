@@ -34,7 +34,6 @@ source: "Mr. Jair — iOS / Telegram"
 
 > ✅ Lectura completada (reporte 06:39).
 > ✅ Gym completado (reporte 07:45).
-> Semana sin gym (Lun-Vie). Lectura completada. Creatina pendiente esta noche.
 
 | #   | Tarea                 | Ventana   | Estado |
 | --- | --------------------- | --------- | ------ |
