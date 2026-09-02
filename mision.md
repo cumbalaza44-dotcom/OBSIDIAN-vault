@@ -35,7 +35,6 @@ source: "Mr. Jair — iOS / Telegram"
 > ✅ Lectura completada (reporte 06:39).
 > ✅ Gym completado (reporte 07:45).
 > ✅ Gestión horario gym completada (extra, reporte 06:56).
-> ✅ Gestión horario gym completada (extra, reporte 06:56).
 
 | #   | Tarea                 | Ventana   | Estado |
 | --- | --------------------- | --------- | ------ |
