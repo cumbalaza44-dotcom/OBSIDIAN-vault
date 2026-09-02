@@ -28,7 +28,7 @@ source: "Mr. Jair — iOS / Telegram"
 | #   | Tarea                                    | Ventana        | Estado |
 | --- | ---------------------------------------- | -------------- | ------ |
 | 1   | 📚 Lectura diaria                        | 🌅 mañana      | ⬜     |
-| 2   | 🏋️ Gym                                  | 🌅 mañana 5:30 | 🔄 en curso (18:01) |
+| 2   | 🏋️ Gym                                  | 🌙 tarde/noche | 🔄 en curso (18:01) |
 | 3   | 🖥️ Ghost Trader — definir alcance        | 🌙 noche       | ⬜     |
 | 4   | 💊 Creatina                              | 🌙 noche       | ⬜     |
 | 5   | 🔧 Poner arandela al tornillo del casco  | 🌙 noche       | ⬜     |
@@ -92,7 +92,7 @@ source: "Mr. Jair — iOS / Telegram"
 | **Lun 31** | 📚 Lectura + 🏋️ Gym | ⏸️ Meta Ads (pausado) + 💊 Creatina |
 | **Mar 1** | 📚 Lectura + 🏋️ Gym | 🖥️ Ghost Trader: definir alcance + 🎓 SSD course (50%+) + 💊 Creatina |
 | **Mié 2** | 📚 Lectura + 🏋️ Gym | 🖥️ Ghost Trader: arquitectura + 🎓 SSD course (completar) + 💊 Creatina |
-| **Jue 3** | 📚 Lectura + 🏋️ Gym | 🖥️ Ghost Trader: prototipo funcional + 💊 Creatina |
+| **Jue 3** | 📚 Lectura | 🏋️ Gym (tarde) + 🖥️ Ghost Trader: prototipo funcional + 💊 Creatina |
 | **Vie 4** | 📚 Lectura + 🏋️ Gym | 🏠 Lavar prendas + 📋 Revisión semanal + 💊 Creatina |
 | **Sáb 5** | 📚 Lectura + 🧘 Descanso activo | 🏠 Comprar aceite de coco + 🔧 Go Kart (avance) |
 | **Dom 6** | 📚 Lectura | 🛋️ Descanso total |
