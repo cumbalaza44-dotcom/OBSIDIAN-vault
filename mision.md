@@ -34,11 +34,13 @@ source: "Mr. Jair — iOS / Telegram"
 | 5   | 🔧 Poner arandela al tornillo del casco  | 🌙 noche       | ⬜     |
 | 6   | 🔍 Verificar estado del system prompt OpenClaw | 🌅 mañana | ⬜     |
 
-| #   | Tarea                 | Ventana   | Estado |
-| --- | --------------------- | --------- | ------ |
-| 1   | 📚 Lectura diaria     | 🌅 mañana | ✅     |
-| 2   | 🏋️ Gym               | 🌅 mañana | ❌ no asistió toda la semana |
-| 3   | 💊 Creatina           | 🌙 noche  | ⬜     |
+|         | 🌅 mañana | ❌ no asistió toda la semana |
+| ------- | --------- | --------------------------- |
+|         | 🌙 noche  | ⬜                           |
+| Lectura |           | ✅                           |
+| Tarea   |           | Estado                      |
+|         |           |                             |
+|         |           |                             |
 
 > ⬜ Lectura diaria — pendiente.
 > ⬜ Gym — pendiente (inicia 5:30 AM).
