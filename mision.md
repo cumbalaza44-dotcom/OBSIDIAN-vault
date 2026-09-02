@@ -35,7 +35,6 @@ source: "Mr. Jair — iOS / Telegram"
 > ✅ Lectura completada (reporte 06:39).
 > ✅ Gym completado (reporte 07:45).
 > ✅ Creatina completada (reporte 20:59).
-> ✅ Creatina completada (reporte 20:59).
 
 ---
 
