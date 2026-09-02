@@ -20,9 +20,9 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Martes 01/09
+## 🔥 HOY — Miércoles 02/09
 
-> Semana 31 Ago – 6 Sep. Prioridad: lectura + gym + Ghost Trader (proyecto principal).
+> Semana 31 Ago – 6 Sep. Prioridad: lectura + gym + Ghost Trader + SSD course.
 > ⏸️ Meta Ads pausado esta semana — revisar la próxima.
 
 | #   | Tarea                                    | Ventana        | Estado |
@@ -30,16 +30,9 @@ source: "Mr. Jair — iOS / Telegram"
 | 1   | 📚 Lectura diaria                        | 🌅 mañana      | ✅     |
 | 2   | 🏋️ Gym                                  | 🌅 mañana 5:30 | ✅     |
 | 3   | 🖥️ Ghost Trader — definir alcance        | 🌙 noche       | ⬜     |
-| 4   | 💊 Creatina                              | 🌙 noche       | ✅     |
+| 4   | 💊 Creatina                              | 🌙 noche       | ⬜     |
+| 5   | 🔧 Poner arandela al tornillo del casco   | 🌙 noche       | ⬜     |
 
-> ✅ Lectura completada (reporte 06:39).
-> ✅ Gym completado (reporte 07:45).
-> ✅ Gestión horario gym completada (extra, reporte 06:56).
-> ✅ Gestión horario gym completada (extra, reporte 06:56).
-> ✅ Gestión horario gym completada (extra, reporte 06:56).
-> ✅ Gestión horario gym completada (extra, reporte 06:56).
-> ✅ Gestión horario gym completada (extra, reporte 06:56).
-> ✅ Gestión horario gym completada (extra, reporte 06:56).
 
 | #   | Tarea                 | Ventana   | Estado |
 | --- | --------------------- | --------- | ------ |
