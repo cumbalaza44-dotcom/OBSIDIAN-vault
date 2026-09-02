@@ -31,8 +31,7 @@ source: "Mr. Jair — iOS / Telegram"
 | 2   | 🏋️ Gym                                  | 🌅 mañana 5:30 | ✅     |
 | 3   | 🖥️ Ghost Trader — definir alcance        | 🌙 noche       | ⬜     |
 | 4   | 💊 Creatina                              | 🌙 noche       | ⬜     |
-| 5   | 🔧 Poner arandela al tornillo del casco   | 🌙 noche       | ⬜     |
-
+| 5   | 🔧 Poner arandela al tornillo del casco  | 🌙 noche       | ⬜     |
 
 | #   | Tarea                 | Ventana   | Estado |
 | --- | --------------------- | --------- | ------ |
