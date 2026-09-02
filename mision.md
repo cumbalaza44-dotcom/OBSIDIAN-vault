@@ -22,13 +22,13 @@ source: "Mr. Jair — iOS / Telegram"
 
 ## 🔥 HOY — Martes 01/09
 
-> Semana 31 Ago – 6 Sep. Prioridad: lectura + gym + Meta Ads.
+> Semana 31 Ago – 6 Sep. Prioridad: lectura + gym + Ghost Trader + SSD course.
 
 | #   | Tarea                                    | Ventana        | Estado |
 | --- | ---------------------------------------- | -------------- | ------ |
 | 1   | 📚 Lectura diaria                        | 🌅 mañana      | ✅     |
 | 2   | 🏋️ Gym                                  | 🌅 mañana 5:30 | ✅     |
-| 3   | 📢 Meta Ads: investigar 10 productos     | 🌙 noche       | ⬜     |
+| 3   | 📢 Meta Ads (pausado esta semana)        | 🌙 noche       | ⏸️     |
 | 4   | 💊 Creatina                              | 🌙 noche       | ✅     |
 
 > ✅ Lectura completada (reporte 06:39).
