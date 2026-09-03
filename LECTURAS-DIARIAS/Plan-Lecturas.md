@@ -28,7 +28,7 @@
 - [ ] Efecto Arrastre — Por qué el primer precio define todos los que siguen
 - [ ] Sesgo de Confirmación — Cómo tu cerebro filtra la realidad para tené razón
 - [ ] Paradoja de la Elección — Menos opciones = más ventas, más felicidad
-- [ ] Anclaje (Anchoring) — El truco mental detrás de los precios terminados en .99
+- [x] Anclaje (Anchoring) — El truco mental detrás de los precios terminados en .99 ✅ 2026-09-03
 - [ ] Efecto Halo — Por qué un buen packaging vende más que un buen producto
 - [ ] Disonancia Cognitiva — Por qué el cliente se justifica después de comprar
 - [ ] Sesgo de Disponibilidad — Por qué confundes lo frecuente con lo probable
@@ -234,6 +234,7 @@
 | 2026-08-31 | A | Hermes Trismegisto: La Inteligencia Universal Detrás de las Leyes Hermeticas |
 | 2026-09-01 | A | Efecto IKEA — Por qué involucrar al cliente genera más lealtad |
 | 2026-09-02 | D | Déficit Calórico — La única ley que importa para bajar de peso (con fórmula) |
+| 2026-09-03 | A | Anclaje (Anchoring) — El truco mental detrás de los precios terminados en .99 |
 
 ---
 
