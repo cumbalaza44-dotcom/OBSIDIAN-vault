@@ -81,7 +81,7 @@
 - [ ] Planificación de Ciclos — Qué es el deload y por qué tu cuerpo lo necesita
 
 ### E — ⚡ Productividad y Sistemas
-- [ ] Regla 80/20 — El 20% de acciones genera el 80% de resultados
+- [x] Regla 80/20 — El 20% de acciones genera el 80% de resultados ✅ 2026-09-04
 - [ ] Deep Work — Bloques de concentración profunda (Cal Newport)
 - [ ] Time Blocking — Cómo.programar tu día por bloques, no por tareas
 - [ ] Second Brain — Sistemas de captura de conocimiento (PARA, Zettelkasten)
@@ -235,6 +235,7 @@
 | 2026-09-01 | A | Efecto IKEA — Por qué involucrar al cliente genera más lealtad |
 | 2026-09-02 | D | Déficit Calórico — La única ley que importa para bajar de peso (con fórmula) |
 | 2026-09-03 | A | Anclaje (Anchoring) — El truco mental detrás de los precios terminados en .99 |
+| 2026-09-04 | E | Regla 80/20 — El 20% de acciones genera el 80% de resultados |
 
 ---
 
