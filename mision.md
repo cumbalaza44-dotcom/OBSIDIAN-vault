@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `30 Ago 2026`
+### Última actualización: `03 Sep 2026 — 20:39`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -20,19 +20,19 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Miércoles 02/09
+## 🔥 HOY — Jueves 03/09
 
 > Semana 31 Ago – 6 Sep. Prioridad: lectura + gym + Ghost Trader + SSD course.
 > ⏸️ Meta Ads pausado esta semana — revisar la próxima.
 
 | #   | Tarea                                    | Ventana        | Estado |
 | --- | ---------------------------------------- | -------------- | ------ |
-| 1   | 📚 Lectura diaria                        | 🌅 mañana      | ⬜     |
-| 2   | 🏋️ Gym                                  | 🌙 tarde/noche | 🔄 en curso (18:01) |
+| 1   | 📚 Lectura diaria                        | 🌅 mañana      | ✅     |
+| 2   | 🏋️ Gym                                  | 🌙 tarde/noche | ✅     |
 | 3   | 🖥️ Ghost Trader — definir alcance        | 🌙 noche       | ⬜     |
-| 4   | 💊 Creatina                              | 🌙 noche       | ⬜     |
+| 4   | 💊 Creatina                              | 🌙 noche       | ✅     |
 | 5   | 🔧 Poner arandela al tornillo del casco  | 🌙 noche       | ⬜     |
-| 6   | 🔍 Verificar estado del system prompt OpenClaw | 🌅 mañana | ⬜     |
+| 6   | 🔍 Verificar estado del system prompt OpenClaw | 🌅 mañana | ✅     |
 
 |     |     |     |
 | --- | --- | --- |
