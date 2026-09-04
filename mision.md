@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `04 Sep 2026 — 15:29`
+### Última actualización: `04 Sep 2026 — 18:02`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -36,6 +36,16 @@ source: "Mr. Jair — iOS / Telegram"
 | 7   | 🔧 Poner arandela al tornillo del casco | 🌙 noche       | ⬜      |
 
 > 🔄 Ghost Trader y arandela casco arrastrados de Jue 03/09.
+
+---
+
+## 📌 MAÑANA — Sábado 05/09
+
+> ⏰ 13:00 — Tarea programada con recordatorio.
+
+| #   | Tarea              | Ventana      | Estado |
+| --- | ------------------ | ------------ | ------ |
+| 1   | ⚖️ Balance de vida | 🌤️ 13:00     | ⬜     |
 
 ---
 
