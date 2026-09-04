@@ -15,24 +15,24 @@ fuente: "Investigación de casos de uso de OpenClaw vs vault de Mr. Jair"
 
 OpenClaw es un **gateway self-hosted de agentes de IA** que conecta apps de mensajería (Telegram, WhatsApp, Discord, Slack, Signal, iMessage, etc.) a un agente siempre disponible. Sus capacidades se agrupan en estos casos de uso principales:
 
-| # | Caso de uso | Descripción | Docs de referencia |
-|---|-------------|-------------|--------------------|
-| 1 | **Gateway multi-canal** | Un solo proceso sirve Telegram, WhatsApp, Discord, Slack, Signal, iMessage, Matrix, Teams y más, con sesiones aisladas por agente/canal | `channels/`, `concepts/channel-routing` |
-| 2 | **Asistente personal / chatbot** | Asistente de IA al que se le escribe desde el bolsillo; respuestas de agente con contexto, memoria y herramientas | `index.md`, `concepts/agent` |
-| 3 | **Automatización programada** | Cron jobs (reportes diarios, recordatorios exactos), heartbeat (chequeos de inbox/calendario cada 30 min), hooks (eventos de ciclo de vida), standing orders (instrucciones permanentes) | `automation/index.md`, `automation/cron-jobs` |
-| 4 | **Orquestación de flujos (Task Flow)** | Flujos multi-paso durables con seguimiento de estado, revisión y cancelación | `automation/taskflow` |
-| 5 | **Agente de programación / devtools** | Agente de código con ejecución de herramientas, sandboxing, revisión de PRs, CI, despliegue | `concepts/agent`, `ci.md`, showcase |
-| 6 | **Automatización de navegador** | Compras, reservas, check-in de vuelos, análisis de webs (TradingView, tiendas, inmobiliarias) sin API | `cli/browser`, showcase |
-| 7 | **Memoria y conocimiento** | Memoria activa, búsqueda semántica (QMD), segundo cerebro en Obsidian, indexación de notas, "dreaming" | `concepts/memory`, `concepts/memory-qmd` |
-| 8 | **Finanzas y trading** | Análisis técnico de TradingView, bots de trading, seguimiento de gastos | showcase (TradingView, tokenomics) |
-| 9 | **Voz y teléfono** | TTS, transcripción de notas de voz, llamadas, walkie-talkie, asistentes por voz | `tts.md`, showcase |
-| 10 | **Hogar y hardware (IoT)** | Control de Home Assistant, impresoras 3D, aspiradoras, cámaras, sensores | showcase |
-| 11 | **Multi-agente** | Varios agentes con distintas personas bajo un solo gateway, orquestación, delegación | `concepts/multi-agent`, `concepts/delegate-architecture` |
-| 12 | **Integraciones** | Google Workspace (Gmail/Calendar/Sheets), Jira, Todoist, Notion, Linear, email, webhooks | `gog`, showcase |
-| 13 | **Generación de medios** | Imágenes, video, música, diagramas | `concepts/features` |
-| 14 | **Compromisos inferidos (Commitments)** | El agente recuerda seguimientos naturales sin recordatorio explícito (ej. "checa después de la entrevista") | `automation/index.md`, `concepts/commitments` |
-| 15 | **Hooks (eventos de ciclo de vida)** | Ejecutan scripts en reset de sesión, interceptan tool calls, reaccionan a eventos | `automation/hooks.md` |
-| 16 | **Voz y transcripción de notas** | Transcripción de notas de voz, TTS multi-proveedor, llamadas de voz | `tts.md`, `concepts/features` |
+| #   | Caso de uso                             | Descripción                                                                                                                                                                              | Docs de referencia                                       |
+| --- | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| 1   | **Gateway multi-canal**                 | Un solo proceso sirve Telegram, WhatsApp, Discord, Slack, Signal, iMessage, Matrix, Teams y más, con sesiones aisladas por agente/canal                                                  | `channels/`, `concepts/channel-routing`                  |
+| 2   | **Asistente personal / chatbot**        | Asistente de IA al que se le escribe desde el bolsillo; respuestas de agente con contexto, memoria y herramientas                                                                        | `index.md`, `concepts/agent`                             |
+| 3   | **Automatización programada**           | Cron jobs (reportes diarios, recordatorios exactos), heartbeat (chequeos de inbox/calendario cada 30 min), hooks (eventos de ciclo de vida), standing orders (instrucciones permanentes) | `automation/index.md`, `automation/cron-jobs`            |
+| 4   | **Orquestación de flujos (Task Flow)**  | Flujos multi-paso durables con seguimien to de estado, revisión y cancelación                                                                                                            | `automation/taskflow`                                    |
+| 5   | **Agente de programación / devtools**   | Agente de código con ejecución de herramientas, sandboxing, revisión de PRs, CI, despliegue                                                                                              | `concepts/agent`, `ci.md`, showcase                      |
+| 6   | **Automatización de navegador**         | Compras, reservas, check-in de vuelos, análisis de webs (TradingView, tiendas, inmobiliarias) sin API                                                                                    | `cli/browser`, showcase                                  |
+| 7   | **Memoria y conocimiento**              | Memoria activa, búsqueda semántica (QMD), segundo cerebro en Obsidian, indexación de notas, "dreaming"                                                                                   | `concepts/memory`, `concepts/memory-qmd`                 |
+| 8   | **Finanzas y trading**                  | Análisis técnico de TradingView, bots de trading, seguimiento de gastos                                                                                                                  | showcase (TradingView, tokenomics)                       |
+| 9   | **Voz y teléfono**                      | TTS, transcripción de notas de voz, llamadas, walkie-talkie, asistentes por voz                                                                                                          | `tts.md`, showcase                                       |
+| 10  | **Hogar y hardware (IoT)**              | Control de Home Assistant, impresoras 3D, aspiradoras, cámaras, sensores                                                                                                                 | showcase                                                 |
+| 11  | **Multi-agente**                        | Varios agentes con distintas personas bajo un solo gateway, orquestación, delegación                                                                                                     | `concepts/multi-agent`, `concepts/delegate-architecture` |
+| 12  | **Integraciones**                       | Google Workspace (Gmail/Calendar/Sheets), Jira, Todoist, Notion, Linear, email, webhooks                                                                                                 | `gog`, showcase                                          |
+| 13  | **Generación de medios**                | Imágenes, video, música, diagramas                                                                                                                                                       | `concepts/features`                                      |
+| 14  | **Compromisos inferidos (Commitments)** | El agente recuerda seguimientos naturales sin recordatorio explícito (ej. "checa después de la entrevista")                                                                              | `automation/index.md`, `concepts/commitments`            |
+| 15  | **Hooks (eventos de ciclo de vida)**    | Ejecutan scripts en reset de sesión, interceptan tool calls, reaccionan a eventos                                                                                                        | `automation/hooks.md`                                    |
+| 16  | **Voz y transcripción de notas**        | Transcripción de notas de voz, TTS multi-proveedor, llamadas de voz                                                                                                                      | `tts.md`, `concepts/features`                            |
 
 ---
 
