@@ -25,15 +25,15 @@ source: "Mr. Jair — iOS / Telegram"
 > Semana 31 Ago – 6 Sep. Prioridad: lectura + gym + Ghost Trader + SSD course.
 > ⏸️ Meta Ads pausado esta semana — revisar la próxima.
 
-| #   | Tarea                                    | Ventana        | Estado |
-| --- | ---------------------------------------- | -------------- | ------ |
-| 1   | 📚 Lectura diaria                        | 🌅 mañana      | ⬜     |
-| 2   | 🏋️ Gym                                  | 🌅 mañana 5:30 | ⬜     |
-| 3   | 🏠 Lavar prendas                         | 🌙 noche       | ⬜     |
-| 4   | 📋 Revisión semanal                      | 🌙 noche       | ⬜     |
-| 5   | 💊 Creatina                              | 🌙 noche       | ⬜     |
-| 6   | 🖥️ Ghost Trader — definir alcance        | 🌙 noche       | ⬜     |
-| 7   | 🔧 Poner arandela al tornillo del casco  | 🌙 noche       | ⬜     |
+| #   | Tarea                                   | Ventana        | Estado |
+| --- | --------------------------------------- | -------------- | ------ |
+| 1   | 📚 Lectura diaria                       | 🌅 mañana      |        |
+| 2   | 🏋️ Gym                                 | 🌅 mañana 5:30 |        |
+| 3   | 🏠 Lavar prendas                        | 🌙 noche       | ⬜      |
+| 4   | 📋 Revisión semanal                     | 🌙 noche       | ⬜      |
+| 5   | 💊 Creatina                             | 🌙 noche       | ⬜      |
+| 6   | 🖥️ Ghost Trader — definir alcance      | 🌙 noche       | ⬜      |
+| 7   | 🔧 Poner arandela al tornillo del casco | 🌙 noche       | ⬜      |
 
 > 🔄 Ghost Trader y arandela casco arrastrados de Jue 03/09.
 
