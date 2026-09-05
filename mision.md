@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `04 Sep 2026 — 18:02`
+### Última actualización: `04 Sep 2026 — 20:35`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -46,6 +46,7 @@ source: "Mr. Jair — iOS / Telegram"
 | #   | Tarea              | Ventana      | Estado |
 | --- | ------------------ | ------------ | ------ |
 | 1   | ⚖️ Balance de vida | 🌤️ 13:00     | ⬜     |
+| 2   | 🎓 Verificar requisitos y hacer registro inscripción ITM Mecatrónica | 🌅 mañana    | ⬜     |
 
 ---
 
