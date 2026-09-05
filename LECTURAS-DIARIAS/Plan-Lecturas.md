@@ -83,7 +83,7 @@
 ### E — ⚡ Productividad y Sistemas
 - [x] Regla 80/20 — El 20% de acciones genera el 80% de resultados ✅ 2026-09-04
 - [ ] Deep Work — Bloques de concentración profunda (Cal Newport)
-- [ ] Time Blocking — Cómo.programar tu día por bloques, no por tareas
+- [x] Time Blocking — Cómo programar tu día por bloques, no por tareas ✅ 2026-09-05
 - [ ] Second Brain — Sistemas de captura de conocimiento (PARA, Zettelkasten)
 - [ ] Automatización de Tareas Repetitivas — Qué automatizar primero (y con qué)
 - [ ] Regla de los 2 Minutos — Si toma menos de 2 min, hacelo ahora
@@ -236,6 +236,7 @@
 | 2026-09-02 | D | Déficit Calórico — La única ley que importa para bajar de peso (con fórmula) |
 | 2026-09-03 | A | Anclaje (Anchoring) — El truco mental detrás de los precios terminados en .99 |
 | 2026-09-04 | E | Regla 80/20 — El 20% de acciones genera el 80% de resultados |
+| 2026-09-05 | E | Time Blocking — Cómo programar tu día por bloques, no por tareas |
 
 ---
 
