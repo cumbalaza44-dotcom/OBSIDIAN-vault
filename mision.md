@@ -35,19 +35,6 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 Jueves 03/09 — Cerrado
-
-| #   | Tarea                                           | Ventana        | Estado |
-| --- | ----------------------------------------------- | -------------- | ------ |
-| 1   | 📚 Lectura diaria                               | 🌅 mañana      | ✅     |
-| 2   | 🏋️ Gym                                         | 🌙 tarde/noche | ✅     |
-| 3   | 🖥️ Ghost Trader — definir alcance               | 🌙 noche       | ⬜     |
-| 4   | 💊 Creatina                                     | 🌙 noche       | ✅     |
-| 5   | 🔧 Poner arandela al tornillo del casco         | 🌙 noche       | ⬜     |
-| 6   | 🔍 Verificar estado del system prompt OpenClaw  | 🌅 mañana      | ✅     |
-
----
-
 ## 📅 SEMANA 31 Ago – 6 Sep 2026
 
 > Horario: L-V 8 AM-5 PM | Gym: 5:30-8:00 AM | Noche: 6:30-9:30 PM
