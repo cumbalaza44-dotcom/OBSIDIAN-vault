@@ -25,48 +25,6 @@
 
 **Text > Brain.** Si algo importa → archivo. "Mental notes" mueren al cerrar sesión.
 
-## 🎯 MODO FANTASMA — Desarrollo Integral Diario
-
-```
-CADA DÍA (30-40 min, 5 fases):
-│
-├── 🔬 FASE 1: INVESTIGAR (5 min)
-│   ├── H.E.L.E.N. presenta 1 pregunta real del día
-│   ├── 2-3 fuentes rápidas
-│   └── Reto del día en 1 oración
-│
-├── 🛠️ FASE 2: CREAR (15 min)
-│   ├── Micro-proyecto práctico según día de semana
-│   │   L: Diseño/Branding
-│   │   M: Contenido digital
-│   │   Mi: Tech/Tool
-│   │   J: Negocio/E-commerce
-│   │   V: Video/Edición
-│   │   S: Estrategia/Plan
-│   │   D: Libre/electivo
-│   └── Resultado: algo tangible creado
-│
-├── 📸 FASE 3: CAPTURAR (5 min)
-│   ├── 1 foto o clip deliberado (compuesto, no snapshot)
-│   ├── Técnica visual del día (se rota semanalmente)
-│   └── Descripción: qué se vio, qué se quiso transmitir
-│
-├── 🗣️ FASE 4: COMUNICAR (5 min)
-│   ├── Opción A: Audio 60-90 seg (explicar la idea)
-│   ├── Opción B: Texto conversacional (escribir como hablar)
-│   ├── Opción C: Pitch de 30 seg (Problema→Solución→Importa)
-│   └── Habilidad blanda diaria (se rota semanalmente)
-│
-└── 🧩 FASE 5: DOCUMENTAR (5 min)
-    ├── Archivo diario en MODO FANTASMA/2026-MM/
-    ├── Conexiones con otros pilares/proyectos
-    └── Autoevaluación + mejora para mañana
-```
-
-**Ubicación vault:** `HABITOS Y DESARROLLO AVANZADO/MODO FANTASMA/`
-**Guías de habilidades:** `MODO FANTASMA/Habilidades/` (comunicacion, fotografia, video, storytelling)
-**Reporte semanal:** Domingo — H.E.L.E.N. genera resumen con métricas
-
 ## 💰 Token Economy
 
 ```
