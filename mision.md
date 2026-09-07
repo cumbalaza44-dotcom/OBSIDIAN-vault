@@ -26,7 +26,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 - [ ] 🎓 ITM Mecatrónica — confirmar registro completado — 07:00
 - [x] 📚 Lectura diaria 20min — 06:00 ✅ 2026-09-07
-- [ ] 🏋️ Gym + 💊 Creatina — 06:30
+- [x] 🏋️ Gym + 💊 Creatina — 06:30 ✅ 2026-09-07
 - [ ] 🤖 Ghost Trader — prototipo funcional (test MT5) — 19:00
 - [ ] 🔧 Prototipo X — sensor ultrasónico + alerta (bench) — 19:30
 - [ ] 📢 Meta Ads — definir nicho específico — 20:00
