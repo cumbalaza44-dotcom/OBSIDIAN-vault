@@ -23,17 +23,14 @@ source: "Mr. Jair — iOS / Telegram"
 ## 🔥 HOY — Lunes 07/09
 
 > Semana 07–13 Sep. Focus: retomar consistencia + reactivar Meta Ads + avanzar Ghost Trader/Prototipo X.
-> 🎯 7 prioridades — 1 por área activa. Ventanas: Mañana 5:10-8:00 AM | Noche 6:30-9:30 PM
 
-| #   | Tarea                                              | Ventana      | Estado | Día asignado |
-| --- | -------------------------------------------------- | ------------ | ------ | ------------ |
-| 1   | 🎓 ITM Mecatrónica: confirmar registro completado  | 🌅 mañana    | ⬜     | Lun          |
-| 2   | 🏋️ Gym + 💊 Creatina (4x semana)                  | 🌅 mañana/🌙 noche | ⬜ | Lun/Mar/Mié/Vie |
-| 3   | 📚 Lectura diaria 20min                            | 🌅 mañana    | ⬜     | Diario       |
-| 4   | 🤖 Ghost Trader: prototipo funcional (test MT5)    | 🌙 noche     | ⬜     | Mar          |
-| 5   | 📢 Meta Ads: Definir nicho específico              | 🌙 noche     | ⬜     | Jue          |
-| 6   | 🔧 Prototipo X: sensor ultrasónico + alerta (bench)| 🌙 noche     | ⬜     | Mié          |
-| 7   | 🏠 Comprar aceite de coco + Lavar prendas          | 🌤️ tarde    | ⬜     | Sáb          |
+- [ ] 🎓 ITM Mecatrónica — confirmar registro completado — 07:00
+- [ ] 📚 Lectura diaria 20min — 06:00
+- [ ] 🏋️ Gym + 💊 Creatina — 06:30
+- [ ] 🤖 Ghost Trader — prototipo funcional (test MT5) — 19:00
+- [ ] 🔧 Prototipo X — sensor ultrasónico + alerta (bench) — 19:30
+- [ ] 📢 Meta Ads — definir nicho específico — 20:00
+- [ ] 🏠 Comprar aceite de coco + Lavar prendas — 17:00
 
 ---
 
