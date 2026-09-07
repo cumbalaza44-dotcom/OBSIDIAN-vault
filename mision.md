@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `05 Sep 2026 — 20:51`
+### Última actualización: `06 Sep 2026 — 20:00`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -20,28 +20,43 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Sábado 05/09
+## 🔥 HOY — Lunes 07/09
 
-> Semana 31 Ago – 6 Sep. Prioridad: lectura + gym + Ghost Trader + ITM inscripción.
-> ⏸️ Meta Ads pausado esta semana — revisar la próxima.
+> Semana 07–13 Sep. Focus: retomar consistencia + reactivar Meta Ads + avanzar Ghost Trader/Prototipo X.
+> 🎯 7 prioridades — 1 por área activa. Ventanas: Mañana 5:10-8:00 AM | Noche 6:30-9:30 PM
 
-| #   | Tarea                                            | Ventana      | Estado |
-| --- | ------------------------------------------------ | ------------ | ------ |
-| 1   | 📚 Lectura diaria                                | 🌅 mañana    | ⬜     |
-| 2   | 🏋️ Gym                                          | 🌅 mañana    | ⬜     |
-| 3   | ⚖️ Balance de vida                               | 🌤️ 13:00    | ⬜     |
-| 4   | 🎓 Verificar requisitos y hacer registro ITM Mecatrónica | 🌅 mañana | ⬜     |
-| 5   | 💊 Creatina                                      | 🌙 noche     | ⬜     |
+| #   | Tarea                                              | Ventana      | Estado | Día asignado |
+| --- | -------------------------------------------------- | ------------ | ------ | ------------ |
+| 1   | 🎓 ITM Mecatrónica: confirmar registro completado  | 🌅 mañana    | ⬜     | Lun          |
+| 2   | 🏋️ Gym + 💊 Creatina (4x semana)                  | 🌅 mañana/🌙 noche | ⬜ | Lun/Mar/Mié/Vie |
+| 3   | 📚 Lectura diaria 20min                            | 🌅 mañana    | ⬜     | Diario       |
+| 4   | 🤖 Ghost Trader: prototipo funcional (test MT5)    | 🌙 noche     | ⬜     | Mar          |
+| 5   | 📢 Meta Ads: Definir nicho específico              | 🌙 noche     | ⬜     | Jue          |
+| 6   | 🔧 Prototipo X: sensor ultrasónico + alerta (bench)| 🌙 noche     | ⬜     | Mié          |
+| 7   | 🏠 Comprar aceite de coco + Lavar prendas          | 🌤️ tarde    | ⬜     | Sáb          |
 
 ---
 
-## 📅 SEMANA 31 Ago – 6 Sep 2026
+## 📅 SEMANA 07–13 Sep 2026
 
 > Horario: L-V 8 AM-5 PM | Gym: 5:30-8:00 AM | Noche: 6:30-9:30 PM
-> ⚠️ Retomar gym después de 1 semana sin asistencia.
+> Distribución: Lun arranque | Mar/Jue Meta Ads | Mié Prototipo X | Vie cierre | Sáb flex
 
 | Día | Mañana (5:10-8:00 AM) | Noche (6:30-9:30 PM) |
 |-----|----------------------|----------------------|
+| **Lun 07** | 📚 Lectura + 🏋️ Gym + 🎓 ITM (confirmar registro) | ⚖️ Balance de vida + 💊 Creatina |
+| **Mar 08** | 📚 Lectura + 🏋️ Gym | 🤖 Ghost Trader: prototipo funcional + 💊 Creatina |
+| **Mié 09** | 📚 Lectura + 🏋️ Gym | 🔧 Prototipo X: sensor ultrasónico + alerta + 💊 Creatina |
+| **Jue 10** | 📚 Lectura + 🏋️ Gym (opcional) | 📢 Meta Ads: definir nicho + investigar 3 productos + 💊 Creatina |
+| **Vie 11** | 📚 Lectura + 🏋️ Gym | 📋 Revisión semanal + 💰 Ajustar proyecciones + 💊 Creatina |
+| **Sáb 12** | 📚 Lectura + 🧘 Descanso activo | 🏠 Aceite de coco + Lavar prendas + 🔧 Go Kart (flex) |
+| **Dom 13** | 📚 Lectura | 🛋️ Descanso total + Planificación siguiente semana |
+
+<details>
+<summary>📅 Semana anterior 31 Ago – 6 Sep (archivo)</summary>
+
+| Día | Mañana | Noche |
+|-----|--------|-------|
 | **Lun 31** | 📚 Lectura + 🏋️ Gym | ⏸️ Meta Ads (pausado) + 💊 Creatina |
 | **Mar 1** | 📚 Lectura + 🏋️ Gym | 🖥️ Ghost Trader: definir alcance + 🎓 SSD course (50%+) + 💊 Creatina |
 | **Mié 2** | 📚 Lectura + 🏋️ Gym | 🖥️ Ghost Trader: arquitectura + 🎓 SSD course (completar) + 💊 Creatina |
@@ -49,6 +64,8 @@ source: "Mr. Jair — iOS / Telegram"
 | **Vie 4** | 📚 Lectura + 🏋️ Gym | 🏠 Lavar prendas + 📋 Revisión semanal + 💊 Creatina |
 | **Sáb 5** | 📚 Lectura + 🧘 Descanso activo | 🏠 Comprar aceite de coco + 🔧 Go Kart (avance) |
 | **Dom 6** | 📚 Lectura | 🛋️ Descanso total |
+
+</details>
 
 ---
 
