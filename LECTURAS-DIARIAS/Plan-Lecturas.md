@@ -27,7 +27,7 @@
 ### A — 🧠 Psicología Aplicada
 - [ ] Efecto Arrastre — Por qué el primer precio define todos los que siguen
 - [ ] Sesgo de Confirmación — Cómo tu cerebro filtra la realidad para tené razón
-- [ ] Paradoja de la Elección — Menos opciones = más ventas, más felicidad
+- [x] Paradoja de la Elección — Menos opciones = más ventas, más felicidad ✅ 2026-09-07
 - [x] Anclaje (Anchoring) — El truco mental detrás de los precios terminados en .99 ✅ 2026-09-03
 - [ ] Efecto Halo — Por qué un buen packaging vende más que un buen producto
 - [ ] Disonancia Cognitiva — Por qué el cliente se justifica después de comprar
