@@ -30,7 +30,7 @@ source: "Mr. Jair — iOS / Telegram"
 - [ ] 🤖 Ghost Trader — prototipo funcional (test MT5) — 19:00
 - [ ] 🔧 Prototipo X — sensor ultrasónico + alerta (bench) — 19:30
 - [ ] 📢 Meta Ads — definir nicho específico — 20:00
-- [ ] 🏠 Comprar aceite de coco + Lavar prendas — 17:00
+- [x] 🏠 Comprar aceite de coco + Lavar prendas — 17:00 ✅ 2026-09-07
 - [ ] Reubicar juguete 📅 2026-09-07 ⏫ 
 - [ ] 
 
