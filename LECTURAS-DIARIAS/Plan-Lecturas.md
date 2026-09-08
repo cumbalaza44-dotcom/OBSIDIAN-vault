@@ -33,7 +33,7 @@
 - [ ] Disonancia Cognitiva — Por qué el cliente se justifica después de comprar
 - [ ] Sesgo de Disponibilidad — Por qué confundes lo frecuente con lo probable
 - [ ] Efecto Placebo — Cómo la percepción crea valor real (en fitness, negocios, vida)
-- [ ] Teoría de la Prospección — Por qué perder $100 duele más que ganar $100
+- [x] Teoría de la Prospección — Por qué perder $100 duele más que ganar $100 ✅ 2026-09-08
 - [ ] Sesgo del Supervisor — Por qué los mejor pagados a veces son los peores
 - [x] Efecto IKEA — Por qué involucrar al cliente genera más lealtad ✅ 2026-09-01
 - [ ] Heurística de Representatividad — Por qué juzgas por parecer, no por datos
