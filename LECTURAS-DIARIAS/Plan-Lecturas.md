@@ -237,6 +237,7 @@
 | 2026-09-03 | A | Anclaje (Anchoring) — El truco mental detrás de los precios terminados en .99 |
 | 2026-09-04 | E | Regla 80/20 — El 20% de acciones genera el 80% de resultados |
 | 2026-09-05 | E | Time Blocking — Cómo programar tu día por bloques, no por tareas |
+| 2026-09-08 | A | Teoría de la Prospección — Por qué perder $100 duele más que ganar $100 |
 
 ---
 
