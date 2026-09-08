@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `06 Sep 2026 — 20:00`
+### Última actualización: `08 Sep 2026 — 05:10`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -20,19 +20,19 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Lunes 07/09
+## 🔥 HOY — Martes 08/09
 
 > Semana 07–13 Sep. Focus: retomar consistencia + reactivar Meta Ads + avanzar Ghost Trader/Prototipo X.
 
-- [x] 📚 Lectura diaria 20min — 06:00 ✅ 2026-09-07
-- [x] 🏋️ Gym + 💊 Creatina — 06:30 ✅ 2026-09-07
-- [x] 🏠 Comprar aceite de coco + Lavar prendas — 17:00 ✅ 2026-09-07
-- [x] 🔧 Moto — mantenimiento — 19:00 ✅ 2026-09-07
+- [ ] 📚 Lectura diaria 20min — 05:10
+- [ ] 🏋️ Gym + 💊 Creatina — 05:30
+- [ ] 🎓 ITM Mecatrónica — confirmar registro — 08:30
+- [ ] 🔍 Consultar pregrados — 08:30
+- [ ] 📢 Meta Ads — definir nicho + investigar 3 productos — 18:30
 - [ ] 🤖 Ghost Trader — prototipo funcional (test MT5) — 19:30
 - [ ] 🔧 Prototipo X — sensor ultrasónico + alerta (bench) — 20:00
-- [ ] Reubicar juguete 📅 2026-09-07 ⏫
 
-> ↪️ Movidos a mañana (Mar 08): 🎓 ITM Mecatrónica + 🔍 Consultar pregrados + 📢 Meta Ads (definir nicho)
+> ✅ Ayer Lun 07: 📚 Lectura ✅ | 🏋️ Gym ✅ | 🏠 Aceite coco ✅ | 🔧 Moto mantenimiento ✅
 
 ---
 
