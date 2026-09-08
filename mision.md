@@ -44,7 +44,7 @@ source: "Mr. Jair — iOS / Telegram"
 | Día | Mañana (5:10-8:00 AM) | Noche (6:30-9:30 PM) |
 |-----|----------------------|----------------------|
 | **Lun 07** | 📚 Lectura + 🏋️ Gym + 🎓 ITM (confirmar registro) | ⚖️ Balance de vida + 💊 Creatina |
-| **Mar 08** | 📚 Lectura + 🏋️ Gym | 🤖 Ghost Trader: prototipo funcional + 💊 Creatina |
+| **Mar 08** | 📚 Lectura + 🏋️ Gym + 🎓 ITM + 🔍 Pregrados | 📢 Meta Ads: definir nicho + investigar 3 productos + 💊 Creatina |
 | **Mié 09** | 📚 Lectura + 🏋️ Gym | 🔧 Prototipo X: sensor ultrasónico + alerta + 💊 Creatina |
 | **Jue 10** | 📚 Lectura + 🏋️ Gym (opcional) | 📢 Meta Ads: definir nicho + investigar 3 productos + 💊 Creatina |
 | **Vie 11** | 📚 Lectura + 🏋️ Gym | 📋 Revisión semanal + 💰 Ajustar proyecciones + 💊 Creatina |
