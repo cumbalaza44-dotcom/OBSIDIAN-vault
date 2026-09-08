@@ -24,15 +24,24 @@ source: "Mr. Jair — iOS / Telegram"
 
 > Semana 07–13 Sep. Focus: retomar consistencia + reactivar Meta Ads + avanzar Ghost Trader/Prototipo X.
 
-- [ ] 🎓 ITM Mecatrónica — confirmar registro completado — 07:00
 - [x] 📚 Lectura diaria 20min — 06:00 ✅ 2026-09-07
 - [x] 🏋️ Gym + 💊 Creatina — 06:30 ✅ 2026-09-07
+<<<<<<< HEAD
 - [ ] 🤖 Ghost Trader — prototipo funcional (test MT5) — 19:00
 - [ ] 🔧 Prototipo X — sensor ultrasónico + alerta (bench) — 19:30
 - [ ] 📢 Meta Ads — definir nicho específico — 20:00
 - [x] 🏠 Comprar aceite de coco + Lavar prendas — 17:00 ✅ 2026-09-07
 - [ ] Reubicar juguete 📅 2026-09-07 ⏫ 
 - [ ] 
+=======
+- [ ] 🔧 Moto — mantenimiento — 19:00
+- [ ] 🤖 Ghost Trader — prototipo funcional (test MT5) — 19:30
+- [ ] 🔧 Prototipo X — sensor ultrasónico + alerta (bench) — 20:00
+- [ ] 🏠 Comprar aceite de coco + Lavar prendas — 17:00
+- [ ] Reubicar juguete 📅 2026-09-07 ⏫
+
+> ↪️ Movidos a mañana (Mar 08): 🎓 ITM Mecatrónica + 🔍 Consultar pregrados + 📢 Meta Ads (definir nicho)
+>>>>>>> abf9e03 (JARVIS sync: 2026-09-07 18:58)
 
 ---
 
