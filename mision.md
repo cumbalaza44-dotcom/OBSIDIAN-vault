@@ -27,7 +27,7 @@ source: "Mr. Jair — iOS / Telegram"
 - [x] 📚 Lectura diaria 20min — 06:00 ✅ 2026-09-07
 - [x] 🏋️ Gym + 💊 Creatina — 06:30 ✅ 2026-09-07
 - [x] 🏠 Comprar aceite de coco + Lavar prendas — 17:00 ✅ 2026-09-07
-- [ ] 🔧 Moto — mantenimiento — 19:00
+- [x] 🔧 Moto — mantenimiento — 19:00 ✅ 2026-09-07
 - [ ] 🤖 Ghost Trader — prototipo funcional (test MT5) — 19:30
 - [ ] 🔧 Prototipo X — sensor ultrasónico + alerta (bench) — 20:00
 - [ ] Reubicar juguete 📅 2026-09-07 ⏫
