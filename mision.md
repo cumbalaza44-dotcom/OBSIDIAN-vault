@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `08 Sep 2026 — 05:10`
+### Última actualización: `09 Sep 2026 — 05:10`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -20,19 +20,17 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Martes 08/09
+## 🔥 HOY — Miércoles 09/09
 
 > Semana 07–13 Sep. Focus: retomar consistencia + reactivar Meta Ads + avanzar Ghost Trader/Prototipo X.
 
-- [x] 📚 Lectura diaria 20min — 05:10 ✅ 2026-09-08
-- [x] 🏋️ Gym + 💊 Creatina — 05:30 ✅ 2026-09-08
-- [ ] 🎓 ITM Mecatrónica — confirmar registro — 08:30
-- [ ] 🔍 Consultar pregrados — 08:30
-- [ ] 📢 Meta Ads — definir nicho + investigar 3 productos — 18:30
-- [ ] 🤖 Ghost Trader — prototipo funcional (test MT5) — 19:30
-- [ ] 🔧 Prototipo X — sensor ultrasónico + alerta (bench) — 20:00
+- [ ] 📚 Lectura diaria 20min — 05:10
+- [ ] 🏋️ Gym + 💊 Creatina — 05:30
+- [ ] 🎓 ITM Mecatrónica — confirmar registro — 08:30 *(arrastre Mar 08)*
+- [ ] 🔍 Consultar pregrados — 08:30 *(arrastre Mar 08)*
+- [ ] 🔧 Prototipo X — sensor ultrasónico + alerta (bench) — 19:30
 
-> ✅ Ayer Lun 07: 📚 Lectura ✅ | 🏋️ Gym ✅ | 🏠 Aceite coco ✅ | 🔧 Moto mantenimiento ✅
+> ✅ Ayer Mar 08: 📚 Lectura ✅ | 🏋️ Gym ✅ | ⏳ ITM/Pregrados pendientes → hoy | ⏳ Meta Ads/Ghost Trader reprogramados
 
 ---
 
