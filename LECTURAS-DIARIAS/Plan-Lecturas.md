@@ -33,7 +33,7 @@
 - [ ] Disonancia Cognitiva — Por qué el cliente se justifica después de comprar
 - [ ] Sesgo de Disponibilidad — Por qué confundes lo frecuente con lo probable
 - [ ] Efecto Placebo — Cómo la percepción crea valor real (en fitness, negocios, vida)
-- [x] Teoría de la Prospección — Por qué perder $100 duelo más que ganar $100 ✅ 2026-09-08
+- [x] Teoría de la Prospección — Por qué perder $100 duele más que ganar $100 ✅ 2026-09-08
 - [ ] Sesgo del Supervisor — Por qué los mejor pagados a veces son los peores
 - [ ] Heurística de Representatividad — Por qué juzgas por parecer, no por datos
 
@@ -56,8 +56,8 @@
 - [ ] Regla del 50/30/20 — Presupuesto simple que funciona
 - [ ] Fondo de Emergencia — Cuánto necesitas y dónde guardarlo
 - [ ] Diferencia entre deuda "buena" y deuda "mala"
-- [ ] Index Funds — Por qué Buffett los recomienda para el 99%
-- [ ] Costo de Oportunidad — Cada gasto es una decisión de inversión
+- [ ] Fondo de Emergencia — Cuánto necesitas y dónde guardarlo
+- [ ] Diferencia entre deuda "buena" y deuda "mala"
 - [ ] Inflación Silenciosa — Cómo perder poder adquisitivo sin darte cuenta
 - [ ] Dollar Cost Averaging — Cómo invertir sin intentar adivinar el mercado
 - [ ] Cashflow vs Patrimonio — Por qué ser "rico" en papel no es ser rico
@@ -151,7 +151,7 @@
 - [ ] Patrones de Diseño — Singleton, Factory, Observer (y cuándo usar cada uno)
 - [ ] SOLID en la Práctica — Ejemplos reales de cada principio aplicado
 - [ ] Deuda Técnica — Por qué atajos hoy son dolores de cabeza mañana
-- [ ] Contenedores (Docker) — Empaquetar apps para que corran en cualquier lado
+- [ ] Contenedores (Docker) — La capacidad de empaquetar y desplegar aplicaciones de manera reproducible
 - [ ] Linux Básico — Comandos esenciales que todo desarrollador debe conocer
 - [ ] Redes e HTTP — Cómo funciona internet por dentro (TCP, DNS, HTTPS)
 - [ ] Seguridad de Aplicaciones — OWASP Top 10 y cómo proteger tu app
@@ -178,3 +178,4 @@
 **Pool estimado: ~4.5 meses de lectura diaria sin repetir**
 **Ley seleccionada hoy: Contenedores (Docker)**
 **Fecha de lectura: 2026-09-09**
+**Estado**: Completada
