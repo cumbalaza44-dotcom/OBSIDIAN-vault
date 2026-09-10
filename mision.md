@@ -24,8 +24,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 > Semana 07–13 Sep. Focus: retomar consistencia + reactivar Meta Ads + avanzar Ghost Trader/Prototipo X.
 
-- [ ] 📚 Lectura diaria 20min — 05:10 *(arrastre Mié 09 — pendiente)*
-- [ ] 🏋️ Gym (opcional) + 💊 Creatina — 05:30
+- [x] 🏋️ Gym + 💊 Creatina — 05:30 ✅ 2026-09-10
 - [ ] 🎓 ITM Mecatrónica — confirmar registro — 14:00 *(arrastre Mié 09)*
 - [ ] 🔍 Consultar pregrados — 14:00 *(arrastre Mié 09)*
 - [ ] 📢 Meta Ads — definir nicho + investigar 3 productos — 19:30
