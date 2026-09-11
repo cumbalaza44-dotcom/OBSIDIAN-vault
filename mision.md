@@ -1,6 +1,6 @@
 ---
 created: 2026-05-25
-updated: 2026-09-10
+updated: 2026-09-11
 source: "Mr. Jair — iOS / Telegram"
 ---
 
@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `10 Sep 2026 — 12:55`
+### Última actualización: `11 Sep 2026 — 07:36`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -20,16 +20,19 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Jueves 10/09
+## 🔥 HOY — Viernes 11/09
 
-> Semana 07–13 Sep. Focus: retomar consistencia + reactivar Meta Ads + avanzar Ghost Trader/Prototipo X.
+> Semana 07–13 Sep. Focus: cierre semanal + Meta Ads + arrastres ITM.
 
-- [x] 🏋️ Gym + 💊 Creatina — 05:30 ✅ 2026-09-10
-- [ ] 🎓 ITM Mecatrónica — confirmar registro — 14:00 *(arrastre Mié 09)*
-- [ ] 🔍 Consultar pregrados — 14:00 *(arrastre Mié 09)*
-- [ ] 📢 Meta Ads — definir nicho + investigar 3 productos — 19:30
+- [ ] 🏋️ Gym + 📚 Lectura — 05:30
+- [ ] 🏢 Trabajo — 08:00
+- [ ] 🎓 ITM Mecatrónica — confirmar registro — 14:00 *(arrastre Jue 10)*
+- [ ] 🔍 Consultar pregrados — 14:00 *(arrastre Jue 10)*
+- [ ] 🧸 Organizar juguetes — 17:50
+- [ ] 📋 Revisión semanal + 💰 Ajustar proyecciones — 18:30
+- [ ] 📢 Meta Ads — definir nicho + investigar 3 productos — 19:30 *(arrastre Jue 10)*
 
-> ✅ Ayer Mié 09: 📚 Lectura ✅ | 🏋️ Gym ✅ | ⏳ ITM/Pregrados pendientes → hoy | ⏳ Prototipo X pendiente → reprogramar
+> ✅ Ayer Jue 10: 🏋️ Gym ✅ | ⏳ ITM/Pregrados/Meta Ads → hoy
 
 ---
 
