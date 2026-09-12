@@ -1,6 +1,6 @@
 ---
 created: 2026-05-25
-updated: 2026-09-11
+updated: 2026-09-12
 source: "Mr. Jair — iOS / Telegram"
 ---
 
@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `11 Sep 2026 — 07:36`
+### Última actualización: `12 Sep 2026 — 18:47`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -20,19 +20,28 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Viernes 11/09
+## 🔥 HOY — Sábado 12/09
 
-> Semana 07–13 Sep. Focus: cierre semanal + Meta Ads + arrastres ITM.
+> Semana 07–13 Sep. Focus: Ghost Trader (foco principal noche) + Meta Ads replanteo MVP.
 
-- [ ] 🏋️ Gym + 📚 Lectura — 05:30
-- [ ] 🏢 Trabajo — 08:00
-- [ ] 🎓 ITM Mecatrónica — confirmar registro — 14:00 *(arrastre Jue 10)*
-- [ ] 🔍 Consultar pregrados — 14:00 *(arrastre Jue 10)*
-- [ ] 🧸 Organizar juguetes — 17:50
-- [ ] 📋 Revisión semanal + 💰 Ajustar proyecciones — 18:30
-- [ ] 📢 Meta Ads — definir nicho + investigar 3 productos — 19:30 *(arrastre Jue 10)*
+- [ ] 🖥️ Ghost Trader — foco principal (noche)
+- [ ] 📢 Meta Ads — replanteo MVP (bonus)
 
-> ✅ Ayer Jue 10: 🏋️ Gym ✅ | ⏳ ITM/Pregrados/Meta Ads → hoy
+> ⏸️ Arrastres (ITM, pregrados, revisión semanal) movidos a mañana Dom 13 como primeras actividades.
+
+---
+
+## 📅 MAÑANA — Domingo 13/09
+
+> Primeras actividades + foco Ghost Trader + Meta Ads MVP.
+
+- [ ] 🧹 Organizar toda la habitación — 06:00
+- [ ] 📚 Revisar y ajustar cron lecturas diarias — 07:00
+- [ ] 🎓 ITM Mecatrónica — registro + confirmar — 08:00
+- [ ] 🔍 Consultar pregrados — 09:00
+- [ ] 📋 Revisión semanal + 💰 Ajustar proyecciones *(arrastre Vie 11)*
+- [ ] 🖥️ Ghost Trader — foco principal
+- [ ] 📢 Meta Ads — replanteo para MVP (bonus)
 
 ---
 
