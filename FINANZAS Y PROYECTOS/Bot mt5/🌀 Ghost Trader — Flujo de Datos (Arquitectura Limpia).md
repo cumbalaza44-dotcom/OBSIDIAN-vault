@@ -1,4 +1,4 @@
-# 🌀 Ghost Trader — Flujo de Datos (Arquitectura Limpia)
+ 🌀 Ghost Trader — Flujo de Datos (Arquitectura Limpia)
 
 > **Propósito:** Entender el sistema completo desde que entra un tick hasta que se ejecuta una orden. Sin ruido técnico de gestión de proyecto.
 > **Basado en:** Arquitectura Ghost Trader v2 — Deriv API nativa
