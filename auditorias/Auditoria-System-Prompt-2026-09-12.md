@@ -60,7 +60,7 @@ Pendientes: #9 HEARTBEAT (sigue placeholder), #10 vault-index gitignore/volatili
 
 ### 🔴 Críticos
 
-**H1. `vault-sync.sh` (raíz) destruye el schema de `vault-index.json` si alguien lo ejecuta.**
+**H1.   [listo ]`vault-sync.sh` (raíz) destruye el schema de `vault-index.json` si alguien lo ejecuta.**
 El script regenera `vault-index.json` como `{updated, totalNotes, notes[]}`, pero el archivo real usa `{misionHash, misionSnapshot, lastChecked}` (sistema reactivo de AGENTS.md). Ejecutarlo borraría el tracking de tareas. Está obsoleto y es peligroso. No se tocó (solo auditoría).
 
 **H2. Triple especificación de tono contradictoria.**
