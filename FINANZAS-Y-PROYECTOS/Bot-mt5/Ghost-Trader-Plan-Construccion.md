@@ -10,11 +10,11 @@
 
 **La API de Deriv NO soporta trading tradicional (Forex CFD, Stop-Loss, Take-Profit).**
 
-| Plataforma | Qué soporta | Trading |
-|------------|-------------|---------|
+| Plataforma                | Qué soporta                                         | Trading                                                 |
+| ------------------------- | --------------------------------------------------- | ------------------------------------------------------- |
 | **Deriv API (WebSocket)** | Índices sintéticos, Opciones Digitales, Multipliers | Solo opciones binarias (Rise/Fall, Higher/Lower, Touch) |
-| **MT5 API (Deriv)** | Gestión de cuenta (depósitos, retiros, passwords) | **NO soporta trading vía API** |
-| **MT5 App (escritorio)** | Forex CFD, Índices, Commodities, Crypto | **Trading completo** (SL, TP, Pending Orders) |
+| **MT5 API (Deriv)**       | Gestión de cuenta (depósitos, retiros, passwords)   | **NO soporta trading vía API**                          |
+| **MT5 App (escritorio)**  | Forex CFD, Índices, Commodities, Crypto             | **Trading completo** (SL, TP, Pending Orders)           |
 
 ### Implicaciones:
 
