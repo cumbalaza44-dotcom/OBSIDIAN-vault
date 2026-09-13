@@ -1,1 +1,0 @@
-# Componentes centrales - Configuración y gestión de estado 
