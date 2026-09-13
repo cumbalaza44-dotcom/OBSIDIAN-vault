@@ -128,18 +128,18 @@ Añaden channels, providers, tools, skills, speech/TTS/STT, media generation, we
 
 Categorías (visibles según `tools.profile`, `tools.allow/deny`, provider, sandbox, canal):
 
-| Categoría | Para qué | Tools representativos |
-|-----------|----------|-----------------------|
-| Runtime | Comandos y procesos | `exec`, `process`, `code_execution` |
-| Files | Leer/escribir workspace | `read`, `write`, `edit`, `apply_patch` |
-| Web | Buscar y fetchear | `web_search`, `web_fetch`, `x_search` |
-| Browser | Automatizar navegador | `browser` (Chrome dedicado) |
-| Messaging | Responder en el canal | `message` |
-| Sessions/Agents | Sesiones y delegación | `sessions_*`, `subagents`, `get_goal`, `create_goal`, `update_goal`, `session_status` |
-| Automation | Scheduling | `cron`, `heartbeat_respond` |
-| Gateway/Nodes | Estado del gateway/nodos | `gateway`, `nodes` |
-| Media | Generar/entender media | `image`, `image_generate`, `music_generate`, `video_generate`, `tts` |
-| Tool Search | Catálogos grandes | `tool_search`, `tool_describe` |
+| Categoría       | Para qué                 | Tools representativos                                                                 |
+| --------------- | ------------------------ | ------------------------------------------------------------------------------------- |
+| Runtime         | Comandos y procesos      | `exec`, `process`, `code_execution`                                                   |
+| Files           | Leer/escribir workspace  | `read`, `write`, `edit`, `apply_patch`                                                |
+| Web             | Buscar y fetchear        | `web_search`, `web_fetch`, `x_search`                                                 |
+| Browser         | Automatizar navegador    | `browser` (Chrome dedicado)                                                           |
+| Messaging       | Responder en el canal    | `message`                                                                             |
+| Sessions/Agents | Sesiones y delegación    | `sessions_*`, `subagents`, `get_goal`, `create_goal`, `update_goal`, `session_status` |
+| Automation      | Scheduling               | `cron`, `heartbeat_respond`                                                           |
+| Gateway/Nodes   | Estado del gateway/nodos | `gateway`, `nodes`                                                                    |
+| Media           | Generar/entender media   | `image`, `image_generate`, `music_generate`, `video_generate`, `tts`                  |
+| Tool Search     | Catálogos grandes        | `tool_search`, `tool_describe`                                                        |
 
 **Perfiles:** `tools.profile: "coding"` (actual en este host) incluye `web_search`/`web_fetch` pero no `browser` por defecto — añadir con `alsoAllow: ["browser"]` si se necesita.
 
