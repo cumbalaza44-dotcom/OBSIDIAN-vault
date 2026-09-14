@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `12 Sep 2026 — 18:47`
+### Última actualización: `13 Sep 2026 — 20:00`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -20,7 +20,47 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Sábado 12/09
+## 🔥 HOY — Lunes 14/09
+
+> Semana 14–20 Sep. Focus: ITM cierre administrativo + Ghost Trader prototipo + Meta Ads nicho.
+
+- [ ] 🎓 ITM Mecatrónica — registro + confirmar — 06:00
+- [ ] 🔍 Consultar pregrados — 07:00
+- [ ] 🧹 Organizar habitación *(arrastre Dom 13)*
+- [ ] 🖥️ Ghost Trader — prototipo funcional (noche, foco principal)
+- [ ] 📚 Revisar y ajustar cron lecturas diarias
+
+---
+
+## 📅 MAÑANA — Martes 15/09
+
+> Meta Ads día + hábitos base.
+
+- [ ] 📢 Meta Ads — definir nicho específico (noche)
+- [ ] 🏋️ Gym — retomar (5:30 AM)
+- [ ] 💊 Creatina noche
+- [ ] 📚 Lectura diaria
+
+---
+
+## 📅 SEMANA 14–20 Sep 2026
+
+> Horario: L-V 8 AM-5 PM | Gym: 5:30-8:00 AM | Noche: 6:30-9:30 PM
+> Distribución: Lun arranque | Mar/Jue Meta Ads | Mié Prototipo X | Vie cierre | Sáb flex
+
+| Día | Mañana (5:10-8:00 AM) | Noche (6:30-9:30 PM) |
+|-----|----------------------|----------------------|
+| **Lun 14** | 🎓 ITM + 🔍 Pregrados + 🧹 Habitación | 🖥️ Ghost Trader: prototipo funcional + 💊 Creatina |
+| **Mar 15** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: definir nicho + 💊 Creatina |
+| **Mié 16** | 📚 Lectura + 🏋️ Gym | 🔧 Prototipo X: sensor ultrasónico + alerta + 🖥️ Ghost Trader + 💊 Creatina |
+| **Jue 17** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: investigar 3 productos + 💊 Creatina |
+| **Vie 18** | 📚 Lectura + 🏋️ Gym | 📋 Revisión semanal + 💰 Ajustar proyecciones + 💊 Creatina |
+| **Sáb 19** | 📚 Lectura + 🧘 Descanso activo | 🏠 Lavar prendas + Aceite coco + 🔧 Go Kart (flex) |
+| **Dom 20** | 📚 Lectura | 🛋️ Descanso + Planificación siguiente semana |
+
+---
+
+## 🔥 HOY — Sábado 12/09 (archivo)
 
 > Semana 07–13 Sep. Focus: Ghost Trader (foco principal noche) + Meta Ads replanteo MVP.
 
