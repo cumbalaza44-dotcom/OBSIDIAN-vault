@@ -42,6 +42,8 @@ source: "Mr. Jair — iOS / Telegram"
 - [ ] 📋 Revisión semanal + 💰 Ajustar proyecciones *(arrastre Vie 11)*
 - [ ] 🖥️ Ghost Trader — foco principal
 - [ ] 📢 Meta Ads — replanteo para MVP (bonus)
+- [ ] flujo de pensamiento openclaw 
+- [ ] 
 
 ---
 
