@@ -60,7 +60,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Sábado 12/09 (archivo)
+## 🗂️ Sábado 12/09 (archivo)
 
 > Semana 07–13 Sep. Focus: Ghost Trader (foco principal noche) + Meta Ads replanteo MVP.
 
@@ -71,7 +71,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 📅 MAÑANA — Domingo 13/09
+## 🗂️ Domingo 13/09 (archivo)
 
 > Primeras actividades + foco Ghost Trader + Meta Ads MVP.
 
@@ -87,7 +87,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 📅 SEMANA 07–13 Sep 2026
+## 🗂️ Semana anterior 07–13 Sep 2026 (archivo)
 
 > Horario: L-V 8 AM-5 PM | Gym: 5:30-8:00 AM | Noche: 6:30-9:30 PM
 > Distribución: Lun arranque | Mar/Jue Meta Ads | Mié Prototipo X | Vie cierre | Sáb flex
