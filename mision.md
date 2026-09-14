@@ -29,6 +29,7 @@ source: "Mr. Jair — iOS / Telegram"
 - [ ] 🧹 Organizar habitación *(arrastre Dom 13)*
 - [ ] 🖥️ Ghost Trader — prototipo funcional (noche, foco principal)
 - [ ] 📚 Revisar y ajustar cron lecturas diarias
+- [ ] investigacion sobre calidad de sueño y recreacion 
 
 ---
 
