@@ -30,14 +30,14 @@ frecuencia: Lun/Mar/Jue/Vie (~2h por sesión)
 
 ## LUN — Torso A (empuje foco pecho + jalón ancho)
 
-| # | Ejercicio | Series x Reps | Descanso | Notas |
-|---|---|---|---|---|
-| 1 | Press banca barra o mancuernas | 4 x 6-8 | 2-3 min | Principal. Progresión lineal |
-| 2 | Dominadas / Jalón al pecho | 4 x 6-10 | 2 min | Si no salen dominadas, jalón pesado |
-| 3 | Press inclinado mancuerna | 3 x 8-10 | 2 min | Pecho superior |
-| 4 | Remo con barra o mancuerna | 3 x 8-10 | 90 seg | Torso ~45°, apretar 1 seg |
-| 5 | Elevaciones laterales | 3 x 12-15 | 60-90 seg | Sin impulso, pausa arriba |
-| 6 | Curl barra + Fondos (superset) | 3 x 8-12 c/u | 90 seg | Bíceps + tríceps |
+| # | Ejercicio | Músculo | Series x Reps | Descanso | Notas |
+|---|---|---|---|---|---|
+| 1 | Press banca barra o mancuernas | Pecho | 4 x 6-8 | 2-3 min | Principal. Progresión lineal |
+| 2 | Dominadas / Jalón al pecho | Dorsal | 4 x 6-10 | 2 min | Si no salen dominadas, jalón pesado |
+| 3 | Press inclinado mancuerna | Pecho superior | 3 x 8-10 | 2 min | Pecho superior |
+| 4 | Remo con barra o mancuerna | Espalda alta + dorsal | 3 x 8-10 | 90 seg | Torso ~45°, apretar 1 seg |
+| 5 | Elevaciones laterales | Deltoide lateral | 3 x 12-15 | 60-90 seg | Sin impulso, pausa arriba |
+| 6 | Curl barra + Fondos (superset) | Bíceps + tríceps | 3 x 8-12 c/u | 90 seg | Brazo completo |
 
 **Total: 20 series**
 
