@@ -24,7 +24,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 > Semana 14–20 Sep. Focus: ITM cierre administrativo + Ghost Trader prototipo + Meta Ads nicho.
 
-- [ ] 🎓 ITM Mecatrónica — registro + confirmar — 06:00
+- [x] 🎓 ITM Mecatrónica — registro + confirmar — 06:00 ✅ (15/09)
 - [ ] 🔍 Consultar pregrados — 07:00
 - [ ] 🧹 Organizar habitación *(arrastre Dom 13)*
 - [ ] 🖥️ Ghost Trader — prototipo funcional (noche, foco principal)
