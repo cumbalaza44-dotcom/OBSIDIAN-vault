@@ -45,14 +45,14 @@ frecuencia: Lun/Mar/Jue/Vie (~2h por sesión)
 
 ## MAR — Pierna Full A (foco cuádriceps)
 
-| # | Ejercicio | Series x Reps | Descanso | Notas |
-|---|---|---|---|---|
-| 1 | Sentadilla barra o hack | 4 x 6-8 | 2-3 min | Principal. Profundidad completa |
-| 2 | Peso muerto rumano (RDL) | 3 x 8-10 | 2 min | Bisagra cadera, femoral + glúteo |
-| 3 | Prensa / Leg press | 3 x 10-12 | 2 min | Pies medio-bajos, quads |
-| 4 | Hip thrust | 3 x 10-12 | 90 seg | Pausa 2 seg arriba |
-| 5 | Curl femoral tumbado/sentado | 3 x 10-12 | 90 seg | |
-| 6 | Pantorrilla de pie + Abs (superset) | 4 x 12-15 c/u | 60 seg | Pausa arriba y abajo |
+| # | Ejercicio | Músculo | Series x Reps | Descanso | Notas |
+|---|---|---|---|---|---|
+| 1 | Sentadilla barra o hack | Cuádriceps + glúteo | 4 x 6-8 | 2-3 min | Principal. Profundidad completa |
+| 2 | Peso muerto rumano (RDL) | Femoral + glúteo | 3 x 8-10 | 2 min | Bisagra cadera |
+| 3 | Prensa / Leg press | Cuádriceps | 3 x 10-12 | 2 min | Pies medio-bajos, quads |
+| 4 | Hip thrust | Glúteo | 3 x 10-12 | 90 seg | Pausa 2 seg arriba |
+| 5 | Curl femoral tumbado/sentado | Femoral | 3 x 10-12 | 90 seg | |
+| 6 | Pantorrilla de pie + Abs (superset) | Pantorrilla + abdomen | 4 x 12-15 c/u | 60 seg | Pausa arriba y abajo |
 
 **Total: 20 series**
 
@@ -60,14 +60,14 @@ frecuencia: Lun/Mar/Jue/Vie (~2h por sesión)
 
 ## JUE — Torso B (empuje foco hombro + jalón grosor)
 
-| # | Ejercicio | Series x Reps | Descanso | Notas |
-|---|---|---|---|---|
-| 1 | Press militar barra o mancuerna | 4 x 6-8 | 2-3 min | Principal del día |
-| 2 | Remo T o remo polea agarre neutro | 4 x 8-10 | 2 min | Grosor espalda |
-| 3 | Press banca o fondos pesados | 3 x 6-10 | 2 min | Pecho, variante del lunes |
-| 4 | Jalón agarre supino / Remo 1 brazo | 3 x 8-12 | 90 seg | Dorsal bajo |
-| 5 | Elevaciones laterales + Pájaros (superset) | 3 x 12-15 c/u | 60-90 seg | Lateral + posterior |
-| 6 | Press francés + Curl martillo (superset) | 3 x 10-12 c/u | 90 seg | Tríceps + bíceps |
+| # | Ejercicio | Músculo | Series x Reps | Descanso | Notas |
+|---|---|---|---|---|---|
+| 1 | Press militar barra o mancuerna | Deltoide frontal + lateral | 4 x 6-8 | 2-3 min | Principal del día |
+| 2 | Remo T o remo polea agarre neutro | Espalda grosor + dorsal | 4 x 8-10 | 2 min | Grosor espalda |
+| 3 | Press banca o fondos pesados | Pecho + tríceps | 3 x 6-10 | 2 min | Pecho, variante del lunes |
+| 4 | Jalón agarre supino / Remo 1 brazo | Dorsal bajo + bíceps | 3 x 8-12 | 90 seg | Dorsal bajo |
+| 5 | Elevaciones laterales + Pájaros (superset) | Lateral + posterior | 3 x 12-15 c/u | 60-90 seg | Hombro completo |
+| 6 | Press francés + Curl martillo (superset) | Tríceps + bíceps | 3 x 10-12 c/u | 90 seg | Brazo completo |
 
 **Total: 20 series**
 
