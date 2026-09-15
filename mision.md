@@ -38,8 +38,9 @@ source: "Mr. Jair — iOS / Telegram"
 
 - [ ] 📢 Meta Ads — definir nicho específico (noche)
 - [ ] 🏋️ Gym — retomar (5:30 AM)
+- [ ] 📏 Medir progreso gym — peso + medidas + fotos (con gym 5:30 AM)
 - [ ] 💊 Creatina noche
-- [ ] 📚 Lectura diaria
+- [ ] 📚 Lectura diaria ⏸️ pausada — fuera de uso
 
 ---
 
