@@ -34,14 +34,12 @@ frecuencia: Lun/Mar/Jue/Vie (~2h por sesión)
 |---|---|---|---|---|
 | 1 | Press banca barra o mancuernas | 4 x 6-8 | 2-3 min | Principal. Progresión lineal |
 | 2 | Dominadas / Jalón al pecho | 4 x 6-10 | 2 min | Si no salen dominadas, jalón pesado |
-| 3 | Press militar mancuerna o barra | 3 x 8-10 | 2 min | De pie o sentado, core apretado |
+| 3 | Press inclinado mancuerna | 3 x 8-10 | 2 min | Pecho superior |
 | 4 | Remo con barra o mancuerna | 3 x 8-10 | 90 seg | Torso ~45°, apretar 1 seg |
 | 5 | Elevaciones laterales | 3 x 12-15 | 60-90 seg | Sin impulso, pausa arriba |
-| 6 | Fondos en paralelas o press cerrado | 3 x 8-12 | 90 seg | Tríceps |
-| 7 | Curl barra o mancuerna | 3 x 8-12 | 90 seg | Sin balanceo |
-| 8 | Face pull | 3 x 12-15 | 60 seg | Posterior + rotadores |
+| 6 | Curl barra + Fondos (superset) | 3 x 8-12 c/u | 90 seg | Bíceps + tríceps |
 
-**Total: ~27 series**
+**Total: 20 series**
 
 ---
 
@@ -54,11 +52,9 @@ frecuencia: Lun/Mar/Jue/Vie (~2h por sesión)
 | 3 | Prensa / Leg press | 3 x 10-12 | 2 min | Pies medio-bajos, quads |
 | 4 | Hip thrust | 3 x 10-12 | 90 seg | Pausa 2 seg arriba |
 | 5 | Curl femoral tumbado/sentado | 3 x 10-12 | 90 seg | |
-| 6 | Extensión cuádriceps | 2 x 12-15 | 60 seg | Remate, apretar arriba |
-| 7 | Pantorrilla de pie | 4 x 12-15 | 60 seg | Pausa arriba y abajo |
-| 8 | Plancha / Ab wheel | 3 x fallo o 12-15 | 60 seg | |
+| 6 | Pantorrilla de pie + Abs (superset) | 4 x 12-15 c/u | 60 seg | Pausa arriba y abajo |
 
-**Total: ~25 series**
+**Total: 20 series**
 
 ---
 
@@ -68,14 +64,12 @@ frecuencia: Lun/Mar/Jue/Vie (~2h por sesión)
 |---|---|---|---|---|
 | 1 | Press militar barra o mancuerna | 4 x 6-8 | 2-3 min | Principal del día |
 | 2 | Remo T o remo polea agarre neutro | 4 x 8-10 | 2 min | Grosor espalda |
-| 3 | Press inclinado mancuerna | 3 x 8-10 | 2 min | Pecho superior |
+| 3 | Press banca o fondos pesados | 3 x 6-10 | 2 min | Pecho, variante del lunes |
 | 4 | Jalón agarre supino / Remo 1 brazo | 3 x 8-12 | 90 seg | Dorsal bajo |
-| 5 | Elevaciones laterales (variante: polea o parciales) | 4 x 12-15 | 60-90 seg | |
-| 6 | Press francés o polea tríceps | 3 x 10-12 | 90 seg | |
-| 7 | Curl martillo + curl inclinado (superset) | 3 x 10-12 c/u | 90 seg | Brazo completo |
-| 8 | Pájaros / Reverse fly | 3 x 12-15 | 60 seg | Posterior |
+| 5 | Elevaciones laterales + Pájaros (superset) | 3 x 12-15 c/u | 60-90 seg | Lateral + posterior |
+| 6 | Press francés + Curl martillo (superset) | 3 x 10-12 c/u | 90 seg | Tríceps + bíceps |
 
-**Total: ~27 series**
+**Total: 20 series**
 
 ---
 
@@ -84,15 +78,13 @@ frecuencia: Lun/Mar/Jue/Vie (~2h por sesión)
 | # | Ejercicio | Series x Reps | Descanso | Notas |
 |---|---|---|---|---|
 | 1 | Peso muerto rumano pesado | 4 x 6-8 | 2-3 min | Principal. Femoral + glúteo |
-| 2 | Sentadilla frontal / Hack / Búlgara | 3 x 8-10 | 2 min | Quad con menos carga axial |
+| 2 | Sentadilla búlgara o hack | 3 x 8-10 | 2 min | Quad con menos carga axial |
 | 3 | Hip thrust pesado | 4 x 8-10 | 2 min | Glúteo principal |
 | 4 | Curl femoral | 3 x 10-12 | 90 seg | |
 | 5 | Desplante caminando o estático | 3 x 10-12 c/pierna | 90 seg | Glúteo + quad |
-| 6 | Extensión cuádriceps | 2 x 12-15 | 60 seg | Remate |
-| 7 | Pantorrilla sentado + de pie (superset) | 3+3 x 12-15 | 60 seg | Sóleo + gastrocnemio |
-| 8 | Crunch polea / Elevación piernas | 3 x 12-15 | 60 seg | |
+| 6 | Pantorrilla sentado + Crunch polea (superset) | 3 x 12-15 c/u | 60 seg | Sóleo + abdomen |
 
-**Total: ~28 series**
+**Total: 20 series**
 
 ---
 
