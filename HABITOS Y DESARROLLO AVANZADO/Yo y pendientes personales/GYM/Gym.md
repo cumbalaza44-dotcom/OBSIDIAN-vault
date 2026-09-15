@@ -75,14 +75,14 @@ frecuencia: Lun/Mar/Jue/Vie (~2h por sesión)
 
 ## VIE — Pierna Full B (foco femoral + glúteo)
 
-| # | Ejercicio | Series x Reps | Descanso | Notas |
-|---|---|---|---|---|
-| 1 | Peso muerto rumano pesado | 4 x 6-8 | 2-3 min | Principal. Femoral + glúteo |
-| 2 | Sentadilla búlgara o hack | 3 x 8-10 | 2 min | Quad con menos carga axial |
-| 3 | Hip thrust pesado | 4 x 8-10 | 2 min | Glúteo principal |
-| 4 | Curl femoral | 3 x 10-12 | 90 seg | |
-| 5 | Desplante caminando o estático | 3 x 10-12 c/pierna | 90 seg | Glúteo + quad |
-| 6 | Pantorrilla sentado + Crunch polea (superset) | 3 x 12-15 c/u | 60 seg | Sóleo + abdomen |
+| # | Ejercicio | Músculo | Series x Reps | Descanso | Notas |
+|---|---|---|---|---|---|
+| 1 | Peso muerto rumano pesado | Femoral + glúteo | 4 x 6-8 | 2-3 min | Principal |
+| 2 | Sentadilla búlgara o hack | Cuádriceps + glúteo | 3 x 8-10 | 2 min | Quad con menos carga axial |
+| 3 | Hip thrust pesado | Glúteo | 4 x 8-10 | 2 min | Glúteo principal |
+| 4 | Curl femoral | Femoral | 3 x 10-12 | 90 seg | |
+| 5 | Desplante caminando o estático | Glúteo + cuádriceps | 3 x 10-12 c/pierna | 90 seg | Glúteo + quad |
+| 6 | Pantorrilla sentado + Crunch polea (superset) | Pantorrilla + abdomen | 3 x 12-15 c/u | 60 seg | Sóleo + abdomen |
 
 **Total: 20 series**
 
