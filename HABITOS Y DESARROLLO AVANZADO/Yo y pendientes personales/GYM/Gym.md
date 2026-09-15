@@ -122,11 +122,11 @@ frecuencia: Lun/Mar/Jue/Vie (~2h por sesión)
 
 | Ejercicio | Peso x Reps |
 |---|---|
-| Press pecho mancuerna (15/09) | 10 kg c/lado x _reps?_ |
-| Jalón / Espalda (15/09) | 40 kg x _reps?_ |
-| Curl bíceps (15/09) | 10 kg x _reps?_ |
-| Press hombro mancuerna (15/09) | 7.5 kg c/lado x _reps?_ |
-| Tríceps polea desmultiplicadora (15/09) | 15 kg x _reps?_ |
+| Press pecho mancuerna (15/09) | 10 kg c/lado x 8 |
+| Jalón / Espalda (15/09) | 40 kg x 8 |
+| Curl bíceps (15/09) | 10 kg x 8 |
+| Press hombro mancuerna (15/09) | 7.5 kg c/lado x 8 |
+| Tríceps polea desmultiplicadora (15/09) | 15 kg x 8 |
 | Sentadilla | _pendiente (Pierna A)_ |
 | RDL | _pendiente (Pierna A)_ |
 | Press banca barra | _pendiente_ |
@@ -135,7 +135,7 @@ frecuencia: Lun/Mar/Jue/Vie (~2h por sesión)
 
 | Semana | Peso | Pecho | Brazo | Cintura | Muslo | PR destacado | Notas |
 |---|---|---|---|---|---|---|---|
-| 0 (15/09) | | | | | | Torso A hecho (excepción): espalda 40kg, pecho 10kg/lado, bíceps 10kg, hombro 7.5kg/lado, tríceps polea 15kg | Base |
+| 0 (15/09) | | | | | | Torso A hecho (excepción): espalda 40kg x8, pecho 10kg/lado x8, bíceps 10kg x8, hombro 7.5kg/lado x8, tríceps polea 15kg x8 | Base |
 | 1 | | | | | | | |
 | 2 | | | | | | | |
 | 4 | | | | | | | Revisión mensual |
