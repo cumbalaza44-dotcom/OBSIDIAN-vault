@@ -48,7 +48,7 @@ frecuencia: Lun/Mar/Jue/Vie (~2h por sesión)
 | # | Ejercicio | Músculo | Series x Reps | Descanso | Notas |
 |---|---|---|---|---|---|
 | 1 | Sentadilla barra o hack | Cuádriceps + glúteo | 4 x 6-8 | 2-3 min | Principal. Profundidad completa |
-| 2 | Peso muerto rumano (RDL) | Femoral + glúteo | 3 x 8-10 | 2 min | Bisagra cadera |
+| 2 | Pull-through en polea (bisagra guiada) | Femoral + glúteo | 3 x 12-15 | 90 seg | Reemplaza RDL temporal. Aprende bisagra sin carga lumbar. Progresión a RDL en 3-4 sem |
 | 3 | Prensa / Leg press | Cuádriceps | 3 x 10-12 | 2 min | Pies medio-bajos, quads |
 | 4 | Hip thrust | Glúteo | 3 x 10-12 | 90 seg | Pausa 2 seg arriba |
 | 5 | Curl femoral tumbado/sentado | Femoral | 3 x 10-12 | 90 seg | |
@@ -77,7 +77,7 @@ frecuencia: Lun/Mar/Jue/Vie (~2h por sesión)
 
 | # | Ejercicio | Músculo | Series x Reps | Descanso | Notas |
 |---|---|---|---|---|---|
-| 1 | Peso muerto rumano pesado | Femoral + glúteo | 4 x 6-8 | 2-3 min | Principal |
+| 1 | Hip thrust pesado (principal) | Glúteo + femoral | 4 x 6-8 | 2-3 min | Sube a principal mientras RDL en pausa. Pausa 2 seg arriba |
 | 2 | Sentadilla búlgara o hack | Cuádriceps + glúteo | 3 x 8-10 | 2 min | Quad con menos carga axial |
 | 3 | Hip thrust pesado | Glúteo | 4 x 8-10 | 2 min | Glúteo principal |
 | 4 | Curl femoral | Femoral | 3 x 10-12 | 90 seg | |
