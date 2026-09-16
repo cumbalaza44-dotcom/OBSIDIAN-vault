@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 TASKS CENTRAL
 
-### Última actualización: `13 Sep 2026 — 20:00`
+### Última actualización: `16 Sep 2026 — 05:13`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -20,26 +20,28 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Lunes 14/09
+## 🔥 HOY — Miércoles 16/09
 
-> Semana 14–20 Sep. Focus: ITM cierre administrativo + Ghost Trader prototipo + Meta Ads nicho.
+> Semana 14–20 Sep. Focus: Ghost Trader prototipo + Prototipo X + retomar Gym.
 
-- [x] 🎓 ITM Mecatrónica — registro + confirmar — 06:00 ✅ (15/09)
-- [ ] 🔍 Consultar pregrados — 07:00
-- [ ] 🧹 Organizar habitación *(arrastre Dom 13)*
+- [ ] 🏋️ Gym — retomar (5:30 AM)
+- [ ] 📏 Medir progreso gym — peso + medidas + fotos (con gym 5:30 AM)
+- [ ] 🔍 Consultar pregrados — 07:00 *(arrastre Lun 14)*
+- [ ] 🧹 Organizar habitación *(arrastre Lun 14)*
+- [ ] 📚 Revisar y ajustar cron lecturas diarias *(arrastre Lun 14)*
+- [ ] investigacion sobre calidad de sueño y recreacion *(arrastre Lun 14)*
+- [ ] 🔧 Prototipo X — sensor ultrasónico + alerta (noche)
 - [ ] 🖥️ Ghost Trader — prototipo funcional (noche, foco principal)
-- [ ] 📚 Revisar y ajustar cron lecturas diarias
-- [ ] investigacion sobre calidad de sueño y recreacion 
+- [ ] 💊 Creatina noche
 
 ---
 
-## 📅 MAÑANA — Martes 15/09
+## 📅 MAÑANA — Jueves 17/09
 
 > Meta Ads día + hábitos base.
 
-- [ ] 📢 Meta Ads — definir nicho específico (noche)
-- [ ] 🏋️ Gym — retomar (5:30 AM)
-- [ ] 📏 Medir progreso gym — peso + medidas + fotos (con gym 5:30 AM)
+- [ ] 🏋️ Gym (5:30 AM)
+- [ ] 📢 Meta Ads — definir nicho específico *(arrastre Mar 15)* + investigar 3 productos (noche)
 - [ ] 💊 Creatina noche
 - [ ] 📚 Lectura diaria ⏸️ pausada — fuera de uso
 
