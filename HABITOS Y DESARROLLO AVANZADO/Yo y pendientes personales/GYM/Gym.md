@@ -140,7 +140,7 @@ frecuencia: Lun/Mar/Jue/Vie (~2h por sesión)
 
 | Semana | Peso | Pecho | Brazo | Cintura | Muslo | PR destacado | Notas |
 |---|---|---|---|---|---|---|---|
-| 0 (15/09) | | | | | | Torso A hecho (excepción): espalda 40kg x8, pecho 10kg/lado x8, bíceps 10kg x8, hombro 7.5kg/lado x8, tríceps polea 15kg x8 | Base |
+| 0 (15/09) | | | | | | Torso A hecho (excepción 15/09): espalda 40kg x8, pecho 10kg/lado x8, bíceps 10kg x8, hombro 7.5kg/lado x8, tríceps polea 15kg x8. Pierna 16/09: prensa 60kg 4x8, ext cuádriceps 60kg 4x8, hip thrust 20kg 4x8, femoral sentado 40kg 4x8, abductores 30kg 4x8 | Base |
 | 1 | | | | | | | |
 | 2 | | | | | | | |
 | 4 | | | | | | | Revisión mensual |

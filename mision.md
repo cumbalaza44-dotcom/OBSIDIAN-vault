@@ -24,7 +24,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 > Semana 14–20 Sep. Focus: Ghost Trader prototipo + Prototipo X + retomar Gym.
 
-- [ ] 🏋️ Gym — retomar (5:30 AM)
+- [x] 🏋️ Gym — pierna hecha 16/09 (prensa 60kg, ext quad 60kg, hip thrust 20kg, femoral sentado 40kg, abductores 30kg — todo 4x8)
 - [ ] 📏 Medir progreso gym — peso + medidas + fotos (con gym 5:30 AM)
 - [ ] 🔍 Consultar pregrados — 07:00 *(arrastre Lun 14)*
 - [ ] 🧹 Organizar habitación *(arrastre Lun 14)*
