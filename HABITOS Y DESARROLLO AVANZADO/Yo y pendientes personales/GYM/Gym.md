@@ -130,6 +130,11 @@ frecuencia: Lun/Mar/Jue/Vie (~2h por sesión)
 | Sentadilla | _pendiente (Pierna A)_ |
 | RDL | _pendiente (Pierna A)_ |
 | Press banca barra | _pendiente_ |
+| Prensa (16/09) | 60 kg x 8 (4 series) |
+| Extensión cuádriceps (16/09) | 60 kg x 8 (4 series) |
+| Hip thrust (16/09) | 20 kg x 8 (4 series) |
+| Femoral sentado (16/09) | 40 kg x 8 (4 series) |
+| Abductores (16/09) | 30 kg x 8 (4 series) |
 
 ### Bitácora semanal
 
