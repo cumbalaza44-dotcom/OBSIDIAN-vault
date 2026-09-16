@@ -79,7 +79,7 @@ frecuencia: Lun/Mar/Jue/Vie (~2h por sesión)
 |---|---|---|---|---|---|
 | 1 | Hip thrust pesado (principal) | Glúteo + femoral | 4 x 6-8 | 2-3 min | Sube a principal mientras RDL en pausa. Pausa 2 seg arriba |
 | 2 | Sentadilla búlgara o hack | Cuádriceps + glúteo | 3 x 8-10 | 2 min | Quad con menos carga axial |
-| 3 | Hip thrust pesado | Glúteo | 4 x 8-10 | 2 min | Glúteo principal |
+| 3 | Hiperextensión en banco | Glúteo + femoral | 3 x 12-15 | 90 seg | Bisagra sin carga, alternativa suave al RDL |
 | 4 | Curl femoral | Femoral | 3 x 10-12 | 90 seg | |
 | 5 | Desplante caminando o estático | Glúteo + cuádriceps | 3 x 10-12 c/pierna | 90 seg | Glúteo + quad |
 | 6 | Pantorrilla sentado + Crunch polea (superset) | Pantorrilla + abdomen | 3 x 12-15 c/u | 60 seg | Sóleo + abdomen |
