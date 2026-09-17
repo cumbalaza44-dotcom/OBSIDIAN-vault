@@ -30,7 +30,7 @@ source: "Mr. Jair — iOS / Telegram"
 - [x] 📚 Revisar y ajustar cron lecturas diarias *(arrastre Lun 14)*
 - [ ] investigacion sobre calidad de sueño y recreacion *(arrastre Lun 14)*
 - [x] 🔧 Prototipo X — sensor ultrasónico + alerta (noche)
-- [ ] 🖥️ Ghost Trader — prototipo funcional (noche, foco principal)
+- [x] 🖥️ Ghost Trader — prototipo funcional (noche, foco principal)
 - [ ] 💊 Creatina noche
 
 ---
