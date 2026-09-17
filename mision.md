@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 MISSIONS
 
-### Última actualización: `16 Sep 2026 — 05:13`
+### Última actualización: `17 Sep 2026 — 05:15`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -19,32 +19,44 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Miércoles 16/09
+## 🔥 HOY — Jueves 17/09
+
+> Meta Ads día + Ghost Trader (libreta) + hábitos base.
+
+- [ ] 🏋️ Gym (5:30 AM)
+- [ ] 📏 Medir progreso gym — peso + medidas + fotos (con gym 5:30 AM)
+- [ ] 🔍 Consultar pregrados — 07:00 *(arrastre Lun 14)*
+- [ ] 📢 Meta Ads — definir nicho específico *(arrastre Mar 15)* + investigar 3 productos (noche)
+- [ ] 🖥️ Ghost Trader — trabajar sobre avances de libreta (noche, foco principal)
+- [ ] 📚 Lectura diaria
+- [ ] 💊 Creatina noche
+
+---
+
+## 📅 MAÑANA — Viernes 18/09
+
+> Revisión semanal + cierre.
+
+- [ ] 🏋️ Gym (5:30 AM)
+- [ ] 📋 Revisión semanal + 💰 Ajustar proyecciones
+- [ ] 🧹 Organizar habitación *(arrastre Lun 14)*
+- [ ] investigacion sobre calidad de sueño y recreacion *(arrastre Lun 14)*
+- [ ] 💊 Creatina noche
+- [ ] 📚 Lectura diaria
+
+---
+
+## 🗂️ Miércoles 16/09 (archivo)
 
 > Semana 14–20 Sep. Focus: Ghost Trader prototipo + Prototipo X + retomar Gym.
 
 - [x] 🏋️ Gym — pierna hecha 16/09 (prensa 60kg, ext quad 60kg, hip thrust 20kg, femoral sentado 40kg, abductores 30kg — todo 4x8)
-
-
 - [ ] 🧹 Organizar habitación *(arrastre Lun 14)*
 - [x] 📚 Revisar y ajustar cron lecturas diarias *(arrastre Lun 14)*
 - [ ] investigacion sobre calidad de sueño y recreacion *(arrastre Lun 14)*
 - [x] 🔧 Prototipo X — sensor ultrasónico + alerta (noche)
 - [x] 🖥️ Ghost Trader — prototipo funcional (noche, foco principal)
 - [ ] 💊 Creatina noche
-
----
-
-## 📅 MAÑANA — Jueves 17/09
-
-> Meta Ads día + hábitos base.
-
-- [ ] 🏋️ Gym (5:30 AM)
-- [ ] 📢 Meta Ads — definir nicho específico *(arrastre Mar 15)* + investigar 3 productos (noche)
-- [ ] 💊 Creatina noche
-- [ ] 📚 Lectura diaria 
-- [ ] - [ ] 📏 Medir progreso gym — peso + medidas + fotos (con gym 5:30 
-- [ ] - [ ] 🔍 Consultar pregrados — 07:00 *(arrastre Lun 14)*
 
 ---
 
