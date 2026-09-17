@@ -87,7 +87,7 @@
 - [ ] Regla de los 2 Minutos — Si toma menos de 2 min, hacelo ahora
 - [ ] Energía vs Tiempo — Por qué gestionar energía es mejor que gestionar horas
 - [ ] Hábitos Atómicos — El sistema de James Clear para construir hábitos que duran
-- [ ] Eliminar, Simplificar, Automatizar, Delegar (ESAD) — Framework de productividad
+- [x] Eliminar, Simplificar, Automatizar, Delegar (ESAD) — Framework de productividad ✅ 2026-09-16
 - [ ] Gestión de Proyectos Personales — Kanban, Scrum, o el sistema que funciona para vos
 - [ ] Decisiones Irreversibles vs Reversibles — Cómo decidir más rápido
 - [ ] Batch Processing — Por qué agrupar tareas similares multiplica tu output
