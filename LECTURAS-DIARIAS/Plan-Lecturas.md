@@ -43,7 +43,7 @@
 - [ ] Embudo de Conversión — De visitas a ventas: dónde se cae el 95%
 - [ ] Retención vs Adquisición — Por qué retener cuesta 5x menos que captar
 - [ ] Pricing Psicológico — Estrategias de precio que aumentan margen sin perder clientes
-- [ ] Social Proof — Cómo reseñas, testimonios y números venden por vos
+- [x] Social Proof — Cómo reseñas, testimonios y números venden por vos ✅ 2026-09-17
 - [ ] Product-Market Fit — Cómo saber si tu producto resuelve un problema real
 - [ ] UGC (User Generated Content) — Por qué el contenido de usuarios vende más que el tuyo
 - [ ] FOMO y Escasez — Cómo usar la urgencia sin perder ética
