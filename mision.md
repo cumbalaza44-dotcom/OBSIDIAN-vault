@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 MISSIONS
 
-### Última actualización: `17 Sep 2026 — 06:09`
+### Última actualización: `17 Sep 2026 — 14:16`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -28,6 +28,7 @@ source: "Mr. Jair — iOS / Telegram"
 - [ ] 📏 Medir progreso gym — peso + medidas + fotos (con gym 5:30 AM)
 - [ ] 🔍 Consultar pregrados — 07:00 *(arrastre Lun 14)*
 - [ ] 📢 Meta Ads — definir nicho específico *(arrastre Mar 15)* + investigar 3 productos (noche)
+- [ ] 📢 Meta Ads — reimplantar tareas por nuevas: ejercicio "agencia de turismo" (noche)
 - [ ] 🖥️ Ghost Trader — trabajar sobre avances de libreta (noche, foco principal)
 - [ ] 📚 Lectura diaria
 - [ ] 💊 Creatina noche
