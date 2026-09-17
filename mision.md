@@ -6,7 +6,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 <div align="center">
 
-# 📋 TASKS CENTRAL
+# 📋 MISSIONS
 
 ### Última actualización: `16 Sep 2026 — 05:13`
 
@@ -16,7 +16,6 @@ source: "Mr. Jair — iOS / Telegram"
 **⚠️ Horario laboral definitivo:** L-V 8 AM – 5 PM
 **Ventanas:** Mañana 5:10-8:00 AM | Noche 6:30-9:30 PM | Fines de semana completo
 
-</div>
 
 ---
 
