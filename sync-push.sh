@@ -1,9 +1,10 @@
 #!/bin/bash
-# Vault Push — add, commit, push for local JARVIS edits
+# Vault Push — add, commit, push for local H.E.L.E.N. edits
 # Called by watcher.sh or manually. Zero token cost.
 
 VAULT_DIR="/root/.openclaw/workspace/obsidian-vault"
-LOG_FILE="/var/log/obsidian-sync.log"
+LOG_FILE="/root/.openclaw/workspace/logs/obsidian-sync.log"
+mkdir -p "$(dirname "$LOG_FILE")" 2>/dev/null
 
 log() {
     echo "[$(date '+%Y-%m-%d %H:%M:%S')] $*" >> "$LOG_FILE"
@@ -22,9 +23,10 @@ CHANGED=$(git status --porcelain | wc -l)
 
 # Add all, commit, push
 git add -A 2>/dev/null
-git commit -m "JARVIS sync: $(date '+%Y-%m-%d %H:%M')" 2>/dev/null
+git commit -m "H.E.L.E.N. sync: $(date '+%Y-%m-%d %H:%M')" 2>/dev/null
 
-if git push --force-with-lease origin HEAD:main 2>/dev/null; then
+git pull --ff-only origin main 2>/dev/null || git pull --rebase origin main 2>/dev/null || true
+if git push origin HEAD:main 2>/dev/null; then
     log "PUSH OK (submodule): $CHANGED file(s) pushed"
 else
     log "PUSH ERROR: push failed for $CHANGED file(s)"
