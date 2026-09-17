@@ -98,6 +98,93 @@ frecuencia: Lun/Mar/Jue/Vie (~2h por sesión)
 
 ---
 
+## ⚖️ Criterios reales de balance — Superior e Inferior
+
+> El desbalance siempre aparece. Esta sección es el checklist para detectarlo y corregirlo antes de que frene el progreso o lesione.
+
+### 🔼 SUPERIOR (torso)
+
+**1. Regla push / pull 1:1 en series semanales**
+- Empuje (pecho + hombro frontal + tríceps) vs Tracción (dorsal + espalda alta + bíceps) deben quedar parejos en series/semana.
+- Si empuja más de lo que jala → hombros adelantados, pecho caído, dolor de manguito. Si jala más → pecho estancado.
+- Medición: sume series de empuje vs tracción del Gym.md. Diferencia máxima tolerada: 2 series/semana.
+
+**2. Jalón vertical vs remo horizontal 1:1**
+- Vertical (dominada / jalón al pecho) = dorsal ancho. Horizontal (remo barra / T / polea) = grosor espalda alta.
+- Solo jalón = espalda angosta sin densidad. Solo remo = espalda gruesa sin amplitud.
+- Criterio: cada semana de torso debe tener mínimo 1 vertical + 1 horizontal por sesión.
+
+**3. Pecho: plano + inclinado, nunca solo uno**
+- Solo plano = clavicular débil (pecho superior vacío). Solo inclinado = porción media sin grosor.
+- Criterio: en el reparto 7+7 semanal, mínimo 3 series inclinadas por semana.
+
+**4. Hombro: frontal / lateral / posterior 1:1:1**
+- El error más común: militar + laterales matan el frontal y lateral, y el posterior queda en 0.
+- Frontal ya recibe estímulo indirecto de todo press de pecho. Por eso el trabajo directo debe priorizar lateral + posterior.
+- Criterio: si hace press militar, el posterior necesita trabajo directo igual (pájaros / face pull). Sin posterior = hombro redondeado hacia adelante + dolor.
+- Señal de alarma: press banca estancado + hombro anterior duele = frontal sobrecargado, posterior débil.
+
+**5. Brazo: tríceps 60% / bíceps 40%**
+- El tríceps es 2/3 del brazo. Si hace igual o más bíceps que tríceps, el brazo no crece y el press se estanca.
+- Criterio: por cada 3 series de bíceps, mínimo 3 de tríceps. Ideal 4 tríceps x 3 bíceps en volumen.
+- Superset brazo solo sirve si ambos van al mismo RIR (1-2). Si uno va sobrado, sepárelos.
+
+**6. Orden manda: compuesto → accesorio → aislamiento**
+- Principal pesado primero (banca / militar / dominada). Laterales, pájaros, curls y francés siempre después.
+- Hacer laterales antes del militar = militar débil = estímulo real perdido.
+- Criterio: si un aislamiento sube pero el compuesto no, el orden está invertido.
+
+**7. Señales de desbalance superior**
+- Un lado sube más peso o hace más reps → meter variante unilateral (mancuerna / remo 1 brazo) 4 semanas.
+- Codos duelen en fondos/francés = tríceps sobrecargado o técnica con codos abiertos. Cierre codos + baje 10%.
+- Hombro chasquea en press = escápulas no retraídas o posterior débil. Priorice remo + pájaros 2 semanas.
+- Pecho no crece pero hombro sí = banca con agarre muy cerrado o codos muy abiertos. Agarre medio + codos 45°.
+
+### 🔽 INFERIOR (pierna)
+
+**1. Regla rodilla-dominante / cadera-dominante 1:1**
+- Rodilla (sentadilla / prensa / extensión) = cuádriceps. Cadera (hip thrust / RDL / pull-through / hiperextensión) = glúteo + femoral.
+- Solo rodilla = quads grandes, glúteo plano, lumbar compensa. Solo cadera = femoral/glúteo fuerte pero rodilla inestable.
+- Criterio: cada sesión de pierna debe tener mínimo 1 de cada patrón. El foco (A=rodilla, B=cadera) solo cambia el principal, no elimina el otro.
+
+**2. Cuádriceps / femoral / glúteo en volumen parejo**
+- Objetivo actual: quad 14 / femoral 12 / glúteo 14 por semana. Diferencia máxima 2 series entre ellos.
+- Quad siempre tiende a dominar porque prensa y sentadilla son cómodas. Femoral se abandona porque el curl quema.
+- Criterio: si el femoral queda >3 series por debajo del quad en la bitácora semanal → la próxima sesión empieza por femoral.
+
+**3. Bilateral + unilateral obligatorio**
+- Bilateral (sentadilla / prensa / hip thrust) = carga máxima. Unilateral (búlgara / desplante / step-up) = corrige asimetrías + glúteo medio.
+- Sin unilateral siempre hay una pierna que empuja más y no se nota hasta que duele la rodilla o cadera.
+- Criterio: mínimo 1 unilateral por semana (búlgara o desplante 3x8-12). Si una pierna hace 2+ reps menos, siga unilateral hasta igualar.
+
+**4. Pantorrilla: de pie + sentado**
+- De pie (rodilla extendida) = gastrocnemio. Sentado (rodilla flexionada) = sóleo.
+- Solo de pie = pantorrilla sin fondo. Solo sentado = sin pico.
+- Criterio: alterne semanal (A=pie, B=sentado) o haga 1+1 si tiene tiempo. Pausa 1 seg arriba y abajo, sin rebote.
+
+**5. Abductores / aductores no son relleno**
+- Glúteo medio (abductores) estabiliza rodilla. Si la rodilla se mete hacia adentro en sentadilla/prensa = glúteo medio débil.
+- Criterio: mantenga abductores mientras la rodilla colapse. Cuando aguante 3x12 sin colapso, puede rotarlo por aductor o glúteo medio con banda.
+
+**6. Core y lumbar se entrenan con la bisagra, no con 100 abs**
+- Hip thrust + hiperextensión + pull-through ya cargan core/lumbar isométrico. El crunch polea es complemento, no base.
+- Criterio: si la lumbar duele al día siguiente de pierna = bisagra con técnica rota (espalda redondea) o glúteo no activa. Baje peso 10% y grave 1 serie en video.
+
+**7. Señales de desbalance inferior**
+- Rodilla duele adelante = quad débil + glúteo medio débil, o pies muy arriba en prensa. Pies medio-bajos + refuerce abductor.
+- Lumbar se lleva todo en RDL/hip thrust = glúteo no dispara primero. Active con 2 series livianas de puente antes.
+- Un muslo mide +1.5 cm más que el otro = priorice unilateral empezando por la débil 4 semanas.
+- Femoral siempre adolorido 4+ días = volumen de más o sin progresión. Baje 1 serie y suba comida/sueño antes de subir peso.
+
+### 🧭 Cómo usar esto cada semana (2 min)
+
+1. Sume series por músculo en la bitácora. ¿Algún músculo quedó ±3 series fuera del objetivo? Ese abre la próxima sesión.
+2. ¿Un compuesto estancado 2 semanas? Revise su antagonista (banca estancada → mire remo/posterior; sentadilla estancada → mire glúteo/femoral).
+3. ¿Dolor articular (no muscular)? Es desbalance o técnica, nunca "falta de fuerza de voluntad". Ajuste orden o variante, no empuje con dolor.
+4. Esquema de hoy 17/09 (5x4x8: jalón + pecho + bíceps + tríceps + hombro) = ejemplo de balance: 20 series, 4 por patrón, mismo rango. Úselo como plantilla cuando el Torso B se sienta cargado al hombro.
+
+---
+
 ## 📏 Registro de progreso
 
 > Medir mismo día, misma hora, ayunas. Fotos misma luz y pose.
