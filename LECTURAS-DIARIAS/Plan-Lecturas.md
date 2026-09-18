@@ -104,7 +104,7 @@
 - [ ] Seguridad Digital — Contraseñas, 2FA, y hábitos que te protegen
 - [ ] API Básicas — Cómo conectan las herramientas (y por qué te importa)
 - [ ] Comparativa Herramientas IA — Qué modelo usar para qué tarea
-- [ ] Web Performance — Velocidad de carga como factor de conversión
+- [x] Web Performance — Velocidad de carga como factor de conversión ✅ 2026-09-18
 
 ### G — 🎬 Video y Contenido
 - [ ] Storytelling para Video — Estructura de guión que engancha (Hook-Story-Offer)
