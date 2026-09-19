@@ -121,7 +121,7 @@
 - [ ] Distribución Multiplataforma — Adaptar contenido sin perder calidad
 
 ### H — 🧭 Mentalidad y Estrategia
-- [ ] Círculo de Control — Enfocarte en lo que podés cambiar (Epicteto actualizado)
+- [x] Círculo de Control — Enfocarte en lo que podés cambiar (Epicteto actualizado) ✅ 2026-09-19
 - [ ] Pensamiento Sistémico — Ver el bosque, no solo los árboles
 - [ ] Antifragilidad — Cómo beneficiarte del caos (Nassim Taleb)
 - [ ] Decisión bajo Incertidumbre — Frameworks para cuando no tenés toda la info
