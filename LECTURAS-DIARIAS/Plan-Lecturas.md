@@ -47,7 +47,7 @@
 - [ ] Product-Market Fit — Cómo saber si tu producto resuelve un problema real
 - [ ] UGC (User Generated Content) — Por qué el contenido de usuarios vende más que el tuyo
 - [ ] FOMO y Escasez — Cómo usar la urgencia sin perder ética
-- [ ] Cross-sell y Upsell — Técnicas de venta adicional que funcionan
+- [x] Cross-sell y Upsell — Técnicas de venta adicional que funcionan ✅ 2026-09-20
 - [ ] Churn Rate — Por qué perder clientes es más grave de lo que parece
 - [ ] A/B Testing — Cómo tomar decisiones con datos, no con intuición
 
