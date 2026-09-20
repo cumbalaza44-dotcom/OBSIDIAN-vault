@@ -1,7 +1,7 @@
 # 🛟 Guía de Recuperación OpenClaw
 
 > Si H.E.L.E.N. deja de responder en Telegram, seguir estos pasos en orden.
-> Última actualización: 2026-09-20 | Versión base: `2026.7.1-2`
+> Última actualización: 2026-09-20 | Versión base: `2026.9.5` (Node 26.9.0)
 
 ---
 
@@ -42,8 +42,8 @@ sudo systemctl restart openclaw.service
 ## 5. Rollback (si una actualización rompió algo)
 
 ```bash
-# Volver a la versión que funciona
-npm install -g openclaw@2026.7.1-2
+# Volver a la versión estable actual
+npm install -g openclaw@2026.9.5
 
 # Restaurar configuración (ajustar fecha al .bak más reciente)
 cp ~/.openclaw/openclaw.json.bak-20260920 ~/.openclaw/openclaw.json
@@ -51,6 +51,10 @@ cp ~/.openclaw/openclaw.json.bak-20260920 ~/.openclaw/openclaw.json
 # Reiniciar
 sudo systemctl restart openclaw.service
 ```
+
+> ⚠️ Requisito: OpenClaw 2026.9.x exige **Node ≥24.16 o ≥26.1**.
+> Si el rollback falla con error de engine, primero:
+> `nvm install 26 && nvm use 26 && nvm alias default 26`
 
 ## 6. Ubicación de respaldos
 
