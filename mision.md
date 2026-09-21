@@ -23,10 +23,10 @@ source: "Mr. Jair — iOS / Telegram"
 
 > Arranque semana 21–27 Sep. Focus: Ghost Trader validación + Meta Ads desbloqueo + Gym medición.
 
-- [ ] 🏋️ Gym (5:30 AM) + 📏 Medir progreso — peso + medidas + fotos
+- [x] 🏋️ Gym (5:30 AM) + 📏 Medir progreso — peso + medidas + fotos
 - [ ] 🖥️ Ghost Trader — validar/testear prototipo funcional (noche, foco principal)
 - [ ] 🔍 Consultar pregrados — 07:00 *(arrastre)*
-- [ ] 📚 Lectura diaria
+- [x] 📚 Lectura diaria
 - [ ] 💊 Creatina noche
 
 ---
