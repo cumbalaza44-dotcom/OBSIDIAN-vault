@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 MISSIONS
 
-### Última actualización: `21 Sep 2026 — 05:13`
+### Última actualización: `21 Sep 2026 — 05:29`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -66,7 +66,7 @@ source: "Mr. Jair — iOS / Telegram"
 | **Lun 21** | 🏋️ Gym + 📏 Medir progreso + 🔍 Pregrados | 🖥️ Ghost Trader: validar prototipo + 💊 Creatina |
 | **Mar 22** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: definir nicho (desbloqueo) + 💊 Creatina |
 | **Mié 23** | 📚 Lectura + 🏋️ Gym | 🔧 Prototipo X: testear sensor + alerta + 💊 Creatina |
-| **Jue 24** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: investigar 3 productos + 💊 Creatina |
+| **Jue 24** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: investigar 3 productos + 🛒 Comprar plantillas + 💊 Creatina |
 | **Vie 25** | 📚 Lectura + 🏋️ Gym | 📋 Revisión semanal + 💰 Ajustar proyecciones + 🧹 Habitación + 🔌 Instalar jev-router (shadow mode) + 💊 Creatina |
 | **Sáb 26** | 📚 Lectura + 🧘 Descanso activo | 🏠 Lavar prendas + 😴 Invest sueño y recreación + 🔧 Go Kart (flex) |
 | **Dom 27** | 📚 Lectura | 🛋️ Descanso + Planificación siguiente semana |
