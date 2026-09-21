@@ -177,6 +177,7 @@ source: "Mr. Jair — iOS / Telegram"
 ### 🏍️ Prototipo X — Copiloto Moto
 > **Objetivo:** Hardware para entender el tráfico — puntos ciegos, ángulos muertos, visibilidad reducida.
 > **Fase 1:** Pi 5 + Coral (~$140 USD) | **Fase 2:** Jetson Orin Nano (~$249 USD)
+> **Hardware en mano (21/09):** ESP32 + antenas ✅
 
 - [x] Investigar sensores + investigación completa
 - [x] Definir plataforma hardware
