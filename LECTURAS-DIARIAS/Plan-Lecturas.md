@@ -35,7 +35,7 @@
 - [ ] Efecto Placebo — Cómo la percepción crea valor real (en fitness, negocios, vida)
 - [x] Teoría de la Prospección — Por qué perder $100 duele más que ganar $100 ✅ 2026-09-08
 - [ ] Sesgo del Supervisor — Por qué los mejor pagados a veces son los peores
-- [ ] Heurística de Representatividad — Por qué juzgas por parecer, no por datos
+- [x] Heurística de Representatividad — Por qué juzgas por parecer, no por datos ✅ 2026-09-21
 
 ### B — 💰 Negocio y E-commerce
 - [ ] Unit Economics — Cómo calcular si tu negocio realmente gana dinero
