@@ -19,32 +19,26 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Jueves 17/09
+## 🔥 HOY — Lunes 21/09
 
-> Meta Ads día + Ghost Trader (libreta) + hábitos base.
+> Arranque semana 21–27 Sep. Focus: Ghost Trader validación + Meta Ads desbloqueo + Gym medición.
 
-- [ ] 🏋️ Gym (5:30 AM)
-- [ ] 🏋️ Balance rutina torso: 2 espalda + 2 hombro + 1 pecho + 1 brazo — todo a fuerza 3 series (propuesta mejora 17/09)
-- [ ] 📏 Medir progreso gym — peso + medidas + fotos (con gym 5:30 AM)
-- [ ] 🔍 Consultar pregrados — 07:00 *(arrastre Lun 14)*
-- [ ] 📢 Meta Ads — definir nicho específico *(arrastre Mar 15)* + investigar 3 productos (noche)
-- [ ] 📢 Meta Ads — reimplantar tareas por nuevas: ejercicio "agencia de turismo" (noche)
-- [ ] 🖥️ Ghost Trader — trabajar sobre avances de libreta (noche, foco principal)
+- [ ] 🏋️ Gym (5:30 AM) + 📏 Medir progreso — peso + medidas + fotos
+- [ ] 🖥️ Ghost Trader — validar/testear prototipo funcional (noche, foco principal)
+- [ ] 🔍 Consultar pregrados — 07:00 *(arrastre)*
 - [ ] 📚 Lectura diaria
 - [ ] 💊 Creatina noche
 
 ---
 
-## 📅 MAÑANA — Viernes 18/09
+## 📅 MAÑANA — Martes 22/09
 
-> Revisión semanal + cierre.
+> Meta Ads día: desbloqueo nicho.
 
 - [ ] 🏋️ Gym (5:30 AM)
-- [ ] 📋 Revisión semanal + 💰 Ajustar proyecciones
-- [ ] 🧹 Organizar habitación *(arrastre Lun 14)*
-- [ ] investigacion sobre calidad de sueño y recreacion *(arrastre Lun 14)*
-- [ ] 💊 Creatina noche
+- [ ] 📢 Meta Ads — definir nicho específico *(prioridad semanal, arrastre)*
 - [ ] 📚 Lectura diaria
+- [ ] 💊 Creatina noche
 
 ---
 
