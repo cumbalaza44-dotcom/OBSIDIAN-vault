@@ -56,6 +56,23 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
+## 📅 SEMANA 21–27 Sep 2026
+
+> Horario: L-V 8 AM-5 PM | Gym: 5:30-8:00 AM | Noche: 6:30-9:30 PM
+> Distribución: Lun arranque | Mar/Jue Meta Ads | Mié Prototipo X | Vie cierre | Sáb flex
+
+| Día | Mañana (5:10-8:00 AM) | Noche (6:30-9:30 PM) |
+|-----|----------------------|----------------------|
+| **Lun 21** | 🏋️ Gym + 📏 Medir progreso + 🔍 Pregrados | 🖥️ Ghost Trader: validar prototipo + 💊 Creatina |
+| **Mar 22** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: definir nicho (desbloqueo) + 💊 Creatina |
+| **Mié 23** | 📚 Lectura + 🏋️ Gym | 🔧 Prototipo X: testear sensor + alerta + 💊 Creatina |
+| **Jue 24** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: investigar 3 productos + 💊 Creatina |
+| **Vie 25** | 📚 Lectura + 🏋️ Gym | 📋 Revisión semanal + 💰 Ajustar proyecciones + 🧹 Habitación + 💊 Creatina |
+| **Sáb 26** | 📚 Lectura + 🧘 Descanso activo | 🏠 Lavar prendas + 😴 Invest sueño y recreación + 🔧 Go Kart (flex) |
+| **Dom 27** | 📚 Lectura | 🛋️ Descanso + Planificación siguiente semana |
+
+---
+
 ## 📅 SEMANA 14–20 Sep 2026
 
 > Horario: L-V 8 AM-5 PM | Gym: 5:30-8:00 AM | Noche: 6:30-9:30 PM
