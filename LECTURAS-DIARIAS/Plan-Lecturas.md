@@ -52,7 +52,7 @@
 - [ ] A/B Testing — Cómo tomar decisiones con datos, no con intuición
 
 ### C — 📈 Finanzas Personales
-- [ ] Interés Compuesto — La octava maravilla del mundo (con calculadora real)
+- [x] Interés Compuesto — La octava maravilla del mundo (con calculadora real) ✅ 2026-09-22
 - [ ] Regla del 50/30/20 — Presupuesto simple que funciona
 - [ ] Fondo de Emergencia — Cuánto necesitas y dónde guardarlo
 - [ ] Diferencia entre deuda "buena" y deuda "mala"
