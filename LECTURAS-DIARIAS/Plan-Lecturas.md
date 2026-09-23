@@ -39,7 +39,7 @@
 
 ### B — 💰 Negocio y E-commerce
 - [ ] Unit Economics — Cómo calcular si tu negocio realmente gana dinero
-- [ ] CAC vs LTV — La métrica que determina si creces o te quemas más
+- [x] CAC vs LTV — La métrica que determina si creces o te quemas más ✅ 2026-09-23
 - [ ] Embudo de Conversión — De visitas a ventas: dónde se cae el 95%
 - [ ] Retención vs Adquisición — Por qué retener cuesta 5x menos que captar
 - [ ] Pricing Psicológico — Estrategias de precio que aumentan margen sin perder clientes
