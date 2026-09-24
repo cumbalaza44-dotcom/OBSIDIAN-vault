@@ -38,7 +38,7 @@
 - [x] Heurística de Representatividad — Por qué juzgas por parecer, no por datos ✅ 2026-09-21
 
 ### B — 💰 Negocio y E-commerce
-- [ ] Unit Economics — Cómo calcular si tu negocio realmente gana dinero
+- [x] Unit Economics — Cómo calcular si tu negocio realmente gana dinero ✅ 2026-09-24
 - [x] CAC vs LTV — La métrica que determina si creces o te quemas más ✅ 2026-09-23
 - [ ] Embudo de Conversión — De visitas a ventas: dónde se cae el 95%
 - [ ] Retención vs Adquisición — Por qué retener cuesta 5x menos que captar
@@ -174,8 +174,8 @@
 - [ ] Diseño Orientado a Eventos — Cómo construir sistemas reactivos
 - [ ] Circuit Breaker Pattern — Por qué tu sistema debe fallar gracefully
 
-**Total pendientes: 136 temas**
+**Total pendientes: 135 temas**
 **Pool estimado: ~4.5 meses de lectura diaria sin repetir**
-**Ley seleccionada hoy: Contenedores (Docker)**
-**Fecha de lectura: 2026-09-09**
+**Ley seleccionada hoy: Unit Economics**
+**Fecha de lectura: 2026-09-24**
 **Estado**: Completada
