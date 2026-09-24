@@ -172,7 +172,7 @@
 - [ ] Performance Optimization — Cómo identificar y eliminar cuellos de botella
 - [ ] Concurrencia vs Paralelismo — Diferencia real y cuándo usar cada uno
 - [ ] Diseño Orientado a Eventos — Cómo construir sistemas reactivos
-- [ ] Circuit Breaker Pattern — Por qué tu sistema debe fallar gracefully
+- [x] Circuit Breaker Pattern — Por qué tu sistema debe fallar gracefully ✅ 2026-09-24
 
 **Total pendientes: 135 temas**
 **Pool estimado: ~4.5 meses de lectura diaria sin repetir**
