@@ -59,7 +59,7 @@
 - [ ] Fondo de Emergencia — Cuánto necesitas y dónde guardarlo
 - [ ] Diferencia entre deuda "buena" y deuda "mala"
 - [ ] Inflación Silenciosa — Cómo perder poder adquisitivo sin darte cuenta
-- [ ] Dollar Cost Averaging — Cómo invertir sin intentar adivinar el mercado
+- [x] Dollar Cost Averaging — Cómo invertir sin intentar adivinar el mercado ✅ 2026-09-26
 - [ ] Cashflow vs Patrimonio — Por qué ser "rico" en papel no es ser rico
 - [ ] Impuestos Legales — Deducciones y estrategias fiscales para emprendedores
 - [ ] Liquidez vs Rentabilidad — El tradeoff que todo inversionista debe entender
@@ -176,6 +176,6 @@
 
 **Total pendientes: 135 temas**
 **Pool estimado: ~4.5 meses de lectura diaria sin repetir**
-**Ley seleccionada hoy: Unit Economics**
-**Fecha de lectura: 2026-09-24**
+**Ley seleccionada hoy: Dollar Cost Averaging**
+**Fecha de lectura: 2026-09-26**
 **Estado**: Completada
