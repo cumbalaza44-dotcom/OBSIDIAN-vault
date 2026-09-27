@@ -176,6 +176,6 @@
 
 **Total pendientes: 135 temas**
 **Pool estimado: ~4.5 meses de lectura diaria sin repetir**
-**Ley seleccionada hoy: Dollar Cost Averaging**
-**Fecha de lectura: 2026-09-26**
+**Ley seleccionada hoy: Ley de Parkinson**
+**Fecha de lectura: 2026-09-27**
 **Estado**: Completada
