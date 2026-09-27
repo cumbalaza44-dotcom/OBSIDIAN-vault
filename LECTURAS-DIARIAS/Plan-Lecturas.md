@@ -131,7 +131,7 @@
 - [ ] Mentalidad de Abundancia vs Escasez — Cómo cambia tu realidad
 - [ ] Regrets Minimization Framework — Cómo decidir mirando hacia atrás desde los 80
 - [ ] Construir en Público — Por qué mostrar el proceso genera más que mostrar el resultado
-- [ ] Ley de Parkinson — El trabajo se expande hasta ocupar el tiempo disponible
+- [x] Ley de Parkinson — El trabajo se expande hasta ocupar el tiempo disponible ✅ 2026-09-27
 - [ ] Amor Fati — Amar el destino, no solo tolerarlo (Nietzsche aplicado)
 
 ### I — 🏗️ Ingeniería y Diseño
