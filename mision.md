@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 MISSIONS
 
-### Última actualización: `21 Sep 2026 — 05:29`
+### Última actualización: `27 Sep 2026 — 20:00`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -19,7 +19,46 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Lunes 21/09
+## 🔥 HOY — Lunes 28/09
+
+> Arranque semana 28 Sep–4 Oct. Focus: desbloquear Meta Ads + validar Ghost Trader + Prototipo X.
+
+- [ ] 🏋️ Gym (5:30 AM) + 📚 Lectura diaria
+- [ ] 🖥️ Ghost Trader — validar prototipo funcional (noche, foco principal)
+- [ ] 🔍 Consultar pregrados — 07:00 *(arrastre 21/09)*
+- [ ] 💊 Creatina noche
+
+---
+
+## 📅 MAÑANA — Martes 29/09
+
+> Meta Ads día: definir nicho (desbloqueo definitivo).
+
+- [ ] 🏋️ Gym (5:30 AM)
+- [ ] 📢 Meta Ads — definir nicho específico *(prioridad semanal)*
+- [ ] 📚 Lectura diaria
+- [ ] 💊 Creatina noche
+
+---
+
+## 📅 SEMANA 28 Sep – 4 Oct 2026
+
+> Horario: L-V 8 AM-5 PM | Gym: 5:30-8:00 AM | Noche: 6:30-9:30 PM
+> Distribución: Lun arranque | Mar/Jue Meta Ads | Mié Prototipo X | Vie cierre | Sáb flex
+
+| Día | Mañana (5:10-8:00 AM) | Noche (6:30-9:30 PM) |
+|-----|----------------------|----------------------|
+| **Lun 28** | 🏋️ Gym + 📚 Lectura + 🔍 Pregrados | 🖥️ Ghost Trader: validar prototipo + 💊 Creatina |
+| **Mar 29** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: definir nicho (desbloqueo) + 💊 Creatina |
+| **Mié 30** | 📚 Lectura + 🏋️ Gym | 🔧 Prototipo X: testear sensor + alerta + 💊 Creatina |
+| **Jue 1** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: investigar 3 productos + 💊 Creatina |
+| **Vie 2** | 📚 Lectura + 🏋️ Gym | 📋 Revisión semanal + 💰 Ajustar proyecciones + 🧹 Habitación + 💊 Creatina |
+| **Sáb 3** | 📚 Lectura + 🧘 Descanso activo | 🏠 Lavar prendas + 😴 Invest sueño y recreación + 🔧 Go Kart (flex) |
+| **Dom 4** | 📚 Lectura | 🛋️ Descanso + Planificación siguiente semana |
+
+---
+
+## 🗂️ Lunes 21/09 (archivo)
 
 > Arranque semana 21–27 Sep. Focus: Ghost Trader validación + Meta Ads desbloqueo + Gym medición.
 
