@@ -8,23 +8,24 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 MISSIONS
 
-### Última actualización: `27 Sep 2026 — 20:00`
+### Última actualización: `28 Sep 2026 — 19:00`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
 
-**⚠️ Horario laboral definitivo:** L-V 8 AM – 5 PM
-**Ventanas:** Mañana 5:10-8:00 AM | Noche 6:30-9:30 PM | Fines de semana completo
+**⚠️ Horario laboral definitivo:** L-V 8 AM – 5 PM (datacenter)
+**Ventanas:** Mañana 5:10-8:00 AM | Noche 6:30-9:30 PM (bloque estudio DC) | Fines de semana completo
 
 
 ---
 
 ## 🔥 HOY — Lunes 28/09
 
-> Arranque semana 28 Sep–4 Oct. Focus: desbloquear Meta Ads + validar Ghost Trader + Prototipo X.
+> Focus: DataCenter estudio (foco principal) + Ghost Trader noche.
 
 - [ ] 🏋️ Gym (5:30 AM) + 📚 Lectura diaria
-- [ ] 🖥️ Ghost Trader — validar prototipo funcional (noche, foco principal)
+- [ ] 🖥️ DataCenter — Semana 1 bloque Lun: rack/PDU/UPS + PDU 22 kW (noche, foco principal)
+- [ ] 🖥️ Ghost Trader — validar prototipo funcional (noche, segundo bloque)
 - [ ] 🔍 Consultar pregrados — 07:00 *(arrastre 21/09)*
 - [ ] 💊 Creatina noche
 
@@ -32,10 +33,10 @@ source: "Mr. Jair — iOS / Telegram"
 
 ## 📅 MAÑANA — Martes 29/09
 
-> Meta Ads día: definir nicho (desbloqueo definitivo).
+> DataCenter día: clima + airflow. Meta Ads en pausa hasta dominar semana 1 DC.
 
 - [ ] 🏋️ Gym (5:30 AM)
-- [ ] 📢 Meta Ads — definir nicho específico *(prioridad semanal)*
+- [ ] 🖥️ DataCenter — Semana 1 bloque Mar: pasillo frío/caliente + sensores + throttling
 - [ ] 📚 Lectura diaria
 - [ ] 💊 Creatina noche
 
@@ -43,18 +44,18 @@ source: "Mr. Jair — iOS / Telegram"
 
 ## 📅 SEMANA 28 Sep – 4 Oct 2026
 
-> Horario: L-V 8 AM-5 PM | Gym: 5:30-8:00 AM | Noche: 6:30-9:30 PM
-> Distribución: Lun arranque | Mar/Jue Meta Ads | Mié Prototipo X | Vie cierre | Sáb flex
+> Horario: L-V 8 AM-5 PM (datacenter) | Gym: 5:30-8:00 AM | Noche: 6:30-9:30 PM (bloque DC)
+> Distribución: Lun-Vie DataCenter intensivo | Sáb simulacro + flex | Dom descanso + plan
 
 | Día | Mañana (5:10-8:00 AM) | Noche (6:30-9:30 PM) |
 |-----|----------------------|----------------------|
-| **Lun 28** | 🏋️ Gym + 📚 Lectura + 🔍 Pregrados | 🖥️ Ghost Trader: validar prototipo + 💊 Creatina |
-| **Mar 29** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: definir nicho (desbloqueo) + 💊 Creatina |
-| **Mié 30** | 📚 Lectura + 🏋️ Gym | 🔧 Prototipo X: testear sensor + alerta + 💊 Creatina |
-| **Jue 1** | 📚 Lectura + 🏋️ Gym | 📢 Meta Ads: investigar 3 productos + 💊 Creatina |
-| **Vie 2** | 📚 Lectura + 🏋️ Gym | 📋 Revisión semanal + 💰 Ajustar proyecciones + 🧹 Habitación + 💊 Creatina |
-| **Sáb 3** | 📚 Lectura + 🧘 Descanso activo | 🏠 Lavar prendas + 😴 Invest sueño y recreación + 🔧 Go Kart (flex) |
-| **Dom 4** | 📚 Lectura | 🛋️ Descanso + Planificación siguiente semana |
+| **Lun 28** | 🏋️ Gym + 📚 Lectura + 🔍 Pregrados | 🖥️ DC S1-Lun: rack/PDU/UPS + 🖥️ Ghost Trader + 💊 Creatina |
+| **Mar 29** | 📚 Lectura + 🏋️ Gym | 🖥️ DC S1-Mar: clima + airflow + 💊 Creatina |
+| **Mié 30** | 📚 Lectura + 🏋️ Gym | 🖥️ DC S1-Mié: cableado cobre/fibra + etiquetado + 💊 Creatina |
+| **Jue 1** | 📚 Lectura + 🏋️ Gym | 🖥️ DC S1-Jue: ESD + seguridad física + SOP/MOP + 💊 Creatina |
+| **Vie 2** | 📚 Lectura + 🏋️ Gym | 🖥️ DC S1-Vie: repaso 20 preguntas + dibujar rack + 📋 Revisión semanal + 💊 Creatina |
+| **Sáb 3** | 📚 Lectura + 🧘 Descanso activo | 🖥️ DC simulacro PDU 22 kW + 🏠 Lavar prendas + 🔧 Go Kart (flex) |
+| **Dom 4** | 📚 Lectura | 🛋️ Descanso + Planificación semana 2 (FRUs) |
 
 ---
 
