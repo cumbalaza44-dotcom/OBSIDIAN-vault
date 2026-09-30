@@ -35,8 +35,9 @@
 - [ ] Dibujar rack completo de memoria (PDU, UPS, ToR, airflow)
 - [ ] Actualizar notas de campo con lo visto en sitio
 
-### Sáb 3 / Dom 4 — Simulacro + lectura
+### Sáb 3 / Dom 4 — Simulacro + SSH + lectura
 - [ ] Simulacro: rack con 2× DGX 8 kW en PDU 22 kW — ¿qué pasa si agregan un tercero?
+- [ ] 🔐 SSH a servidores: conexión, llaves, config/alias, hardening básico
 - [ ] Lectura diaria + planear semana 2
 
 ## Semana 2 (5 – 11 Oct) — FRUs y diagnóstico
