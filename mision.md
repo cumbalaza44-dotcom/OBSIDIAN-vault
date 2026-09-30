@@ -53,7 +53,7 @@ source: "Mr. Jair — iOS / Telegram"
 | **Mié 30** | 📚 Lectura | 🖥️ DC S1-Mié: cableado cobre/fibra + etiquetado + 💊 Creatina |
 | **Jue 1** | 📚 Lectura | 🖥️ DC S1-Jue: ESD + seguridad física + SOP/MOP + 💊 Creatina |
 | **Vie 2** | 📚 Lectura | 🖥️ DC S1-Vie: repaso 20 preguntas + dibujar rack + 📋 Revisión semanal + 💊 Creatina |
-| **Sáb 3** | 📚 Lectura + 🧘 Descanso activo | 🖥️ DC simulacro PDU 22 kW + 🏠 Lavar prendas + 🔧 Go Kart (flex) |
+| **Sáb 3** | 📚 Lectura + 🔐 SSH básico + 🧘 Descanso activo | 🖥️ DC simulacro PDU 22 kW + 🏠 Lavar prendas + 🔧 Go Kart (flex) |
 | **Dom 4** | 📚 Lectura | 🛋️ Descanso + Planificación semana 2 (FRUs) |
 
 ---
