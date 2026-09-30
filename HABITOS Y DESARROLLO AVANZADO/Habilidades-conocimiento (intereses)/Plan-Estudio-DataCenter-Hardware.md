@@ -7,7 +7,7 @@
 
 ## Semana 1 (28 Sep – 4 Oct) — Fundamentos físicos + Energía
 ### Lun 28 — Rack y energía
-- [x] Rack 19": U = 1.75", rack 42U, DGX 8U (visto hoy)
+- [ ] Rack 19": U = 1.75", rack 42U, DGX 8U (visto hoy)
 - [ ] PDU básica vs switched/monitored, UPS, EPO
 - [ ] Monofásica vs trifásica, PDU 22 kW, regla 80% carga
 - Auto-test: ¿cuántos servers 8 kW en PDU 22 kW? ¿por qué no el tercero?
