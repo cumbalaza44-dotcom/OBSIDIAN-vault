@@ -137,20 +137,27 @@ Organiza lecturas de FRUs y prepara herramientas y objetivos para la semana 2.
 - "Server hardware maintenance basics book"
 - "How to study datacenter hardware technician"
 
+#### 18. SSH: comunicación con servidores (conexión, llaves, hardening)
+Aprende a conectarte por SSH a servidores y BMCs: llaves, alias, puertos y buenas prácticas.
+- "SSH connect to Linux server tutorial"
+- "SSH key authentication setup best practices"
+- "SSH config file alias host setup"
+- "SSH hardening server security best practices"
+
 ---
 
 ## Semana 2 (5 – 11 Oct) — FRUs y diagnóstico
 
 ### Lun 5 — Fuentes y ventiladores
 
-#### 18. PSU hot-swap 1+1/2+2, LEDs y validación post-reemplazo
+#### 19. PSU hot-swap 1+1/2+2, LEDs y validación post-reemplazo
 Aprende redundancia de fuentes, significado de LEDs y cómo validar después de un reemplazo en caliente.
 - "Server hot swap power supply replacement"
 - "PSU redundancy 1+1 vs 2+2 explained"
 - "Server PSU LED status meanings Dell HPE"
 - "Power supply failure server troubleshooting"
 
-#### 19. Fans: zonas, reemplazo sin apagado y curvas
+#### 20. Fans: zonas, reemplazo sin apagado y curvas
 Aprende zonas de ventiladores, reemplazo hot-swap y cómo funcionan las curvas de velocidad.
 - "Server hot swap fan replacement procedure"
 - "Server fan failure troubleshooting Dell HPE"
@@ -159,14 +166,14 @@ Aprende zonas de ventiladores, reemplazo hot-swap y cómo funcionan las curvas d
 
 ### Mar 6 — RAM ECC y discos
 
-#### 20. ECC corregible vs no corregible, reseat y canales
+#### 21. ECC corregible vs no corregible, reseat y canales
 Aprende memoria ECC, errores CE vs UE, cómo reasentar DIMMs y reglas de canales.
 - "ECC memory correctable vs uncorrectable error"
 - "Server RAM reseat procedure troubleshooting"
 - "Memory channel population rules server"
 - "ECC memory error server log diagnosis"
 
-#### 21. NVMe/SAS/SATA, hot-swap y RAID 0/1/5/6/10 conceptual
+#### 22. NVMe/SAS/SATA, hot-swap y RAID 0/1/5/6/10 conceptual
 Aprende tipos de disco, reemplazo en caliente y niveles RAID más usados en servidores.
 - "NVMe vs SAS vs SATA server drives explained"
 - "Server hard drive hot swap replacement"
@@ -175,14 +182,14 @@ Aprende tipos de disco, reemplazo en caliente y niveles RAID más usados en serv
 
 ### Mié 7 — NICs, GPUs, DPUs (identificación)
 
-#### 22. NICs 25/100/200/400G, DAC vs transceiver, link/flap
+#### 23. NICs 25/100/200/400G, DAC vs transceiver, link/flap
 Aprende velocidades de tarjetas de red, cables DAC vs ópticos y qué es link flap.
 - "Datacenter NIC 25G 100G 200G 400G explained"
 - "DAC vs fiber transceiver datacenter"
 - "Network link flapping troubleshooting server"
 - "NIC link down server troubleshooting"
 
-#### 23. GPU vs DPU: qué hace cada una e identificación física
+#### 24. GPU vs DPU: qué hace cada una e identificación física
 Aprende a distinguir una GPU de una DPU físicamente y qué función cumple cada una en IA.
 - "GPU vs DPU difference explained datacenter"
 - "NVIDIA BlueField DPU explained identification"
@@ -191,14 +198,14 @@ Aprende a distinguir una GPU de una DPU físicamente y qué función cumple cada
 
 ### Jue 8 — Aislamiento de falla
 
-#### 24. Flujo síntoma → LED/post → SEL → swap mínimo → validar
+#### 25. Flujo síntoma → LED/post → SEL → swap mínimo → validar
 Aprende el flujo de diagnóstico ordenado desde el síntoma hasta validar el reemplazo mínimo.
 - "Server hardware troubleshooting methodology"
 - "Server fault isolation step by step"
 - "Server POST codes LED diagnosis"
 - "Minimum to POST server troubleshooting"
 
-#### 25. BMC: iDRAC/iLO/IPMI, KVM y lectura de logs
+#### 26. BMC: iDRAC/iLO/IPMI, KVM y lectura de logs
 Aprende a entrar al BMC, usar consola KVM remota y leer logs de hardware.
 - "iDRAC vs iLO vs IPMI BMC explained"
 - "Remote KVM server management tutorial"
@@ -207,14 +214,14 @@ Aprende a entrar al BMC, usar consola KVM remota y leer logs de hardware.
 
 ### Vie 9 — Checklist FRU propio + repaso
 
-#### 26. Checklist FRU: apagar, ESD, foto, swap, validar, documentar, DCIM
+#### 27. Checklist FRU: apagar, ESD, foto, swap, validar, documentar, DCIM
 Crea tu checklist personal: ¿apagar?, ESD, foto previa, reemplazo, validación, registro y DCIM.
 - "Server FRU replacement checklist procedure"
 - "Field replaceable unit best practices server"
 - "Server hardware replacement documentation"
 - "ESD photo documentation server repair"
 
-#### 27. Repaso 20 preguntas semana 2
+#### 28. Repaso 20 preguntas semana 2
 Repasa PSUs, fans, RAM, discos, NICs, GPUs y diagnóstico con 20 preguntas.
 - "Server hardware technician quiz FRU"
 - "Server troubleshooting interview questions"
@@ -223,7 +230,7 @@ Repasa PSUs, fans, RAM, discos, NICs, GPUs y diagnóstico con 20 preguntas.
 
 ### Sáb 10 / Dom 11 — Simulacro
 
-#### 28. Simulacro: LED ámbar en PSU + temperatura alta, paso a paso
+#### 29. Simulacro: LED ámbar en PSU + temperatura alta, paso a paso
 Practica el diagnóstico combinado de fuente en falla más sobretemperatura, en orden.
 - "Server amber LED PSU troubleshooting"
 - "Server high temperature alert troubleshooting"
@@ -234,42 +241,42 @@ Practica el diagnóstico combinado de fuente en falla más sobretemperatura, en 
 
 ## Semana 3 (12 – 18 Oct) — Servidores IA a fondo
 
-#### 29. Arquitectura CPU + 8x GPU, NVLink/NVSwitch, PCIe Gen5
+#### 30. Arquitectura CPU + 8x GPU, NVLink/NVSwitch, PCIe Gen5
 Aprende cómo se conectan CPU y 8 GPUs, qué es NVLink/NVSwitch y el rol de PCIe Gen5.
 - "NVIDIA DGX H100 architecture explained NVLink"
 - "NVLink vs NVSwitch AI server explained"
 - "PCIe Gen5 server explained bandwidth"
 - "8 GPU server architecture deep learning"
 
-#### 30. TDP por GPU (700W H100), consumo total y nvidia-smi básico
+#### 31. TDP por GPU (700W H100), consumo total y nvidia-smi básico
 Aprende el TDP de la H100, cómo sumar el consumo del servidor y comandos básicos de nvidia-smi.
 - "NVIDIA H100 TDP power consumption explained"
 - "nvidia-smi commands tutorial GPU monitoring"
 - "GPU power draw monitoring datacenter"
 - "AI server total power consumption calculation"
 
-#### 31. BMC a fondo, SEL logs, firmware y KVM remoto
+#### 32. BMC a fondo, SEL logs, firmware y KVM remoto
 Aprende a exprimir el BMC: leer SEL, actualizar firmware y tomar consola KVM remota.
 - "BMC SEL log analysis server troubleshooting"
 - "Server firmware update iDRAC iLO tutorial"
 - "Remote KVM BMC server console guide"
 - "IPMI commands server management tutorial"
 
-#### 32. Cableado de alta potencia, fases y validación de carga
+#### 33. Cableado de alta potencia, fases y validación de carga
 Aprende a cablear servidores de alto consumo, balancear fases y validar carga con pinza/medición.
 - "High power server rack cabling best practices"
 - "Three phase load balancing datacenter rack"
 - "Server rack power load validation procedure"
 - "High density rack power cable management"
 
-#### 33. Repaso + 20 preguntas servidores IA
+#### 34. Repaso + 20 preguntas servidores IA
 Repasa arquitectura GPU, potencia, BMC y cableado de alta densidad con 20 preguntas.
 - "AI server hardware quiz questions"
 - "GPU server troubleshooting interview questions"
 - "NVIDIA DGX maintenance basics test"
 - "High density server rack quiz"
 
-#### 34. Leer un SEL log real e identificar la causa
+#### 35. Leer un SEL log real e identificar la causa
 Practica abrir un System Event Log real y rastrear la causa raíz del evento.
 - "How to read SEL system event log server"
 - "SEL log error decoding tutorial"
@@ -280,42 +287,42 @@ Practica abrir un System Event Log real y rastrear la causa raíz del evento.
 
 ## Semana 4 (19 – 25 Oct) — RMA y commissioning
 
-#### 35. RMA: apertura, seriales, fotos, empaque y seguimiento
+#### 36. RMA: apertura, seriales, fotos, empaque y seguimiento
 Aprende el flujo RMA completo: abrir el caso, seriales, evidencia fotográfica, empaque y tracking.
 - "Server RMA process explained datacenter"
 - "Hardware RMA request procedure Dell HPE"
 - "How to pack server parts RMA shipping"
 - "RMA tracking warranty claim server hardware"
 
-#### 36. Validación de equipo reparado: burn-in, stress y pre/post
+#### 37. Validación de equipo reparado: burn-in, stress y pre/post
 Aprende a validar un equipo que vuelve de RMA con burn-in, pruebas de estrés y comparativa antes/después.
 - "Server burn in test procedure new hardware"
 - "Server stress test CPU GPU RAM tools"
 - "Post repair server validation checklist"
 - "Memtest Prime95 server burn in tutorial"
 
-#### 37. Commissioning: rack → cablear → energizar → BMC → firmware → test → entrega
+#### 38. Commissioning: rack → cablear → energizar → BMC → firmware → test → entrega
 Aprende la secuencia de puesta en servicio desde el rack vacío hasta la entrega al cliente interno.
 - "Server commissioning process datacenter step by step"
 - "New server rack installation commissioning checklist"
 - "Server provisioning BMC firmware setup guide"
 - "Datacenter server deployment procedure"
 
-#### 38. Checklist de puesta en servicio + documentación obligatoria
+#### 39. Checklist de puesta en servicio + documentación obligatoria
 Crea tu checklist de commissioning y aprende qué documentos son obligatorios al entregar.
 - "Server commissioning checklist template datacenter"
 - "Datacenter handover documentation requirements"
 - "Server installation acceptance test procedure"
 - "Datacenter deployment documentation best practices"
 
-#### 39. Simular un RMA completo en papel
+#### 40. Simular un RMA completo en papel
 Practica en papel un RMA de inicio a fin: ticket, seriales, fotos, empaque y cierre.
 - "RMA ticket example server hardware failure"
 - "Server warranty claim documentation example"
 - "Hardware failure report template datacenter"
 - "RMA packing slip serial number documentation"
 
-#### 40. Simulacro commissioning de un DGX ficticio
+#### 41. Simulacro commissioning de un DGX ficticio
 Practica comisionar un DGX imaginario: rack, energía, red, BMC, firmware y tests.
 - "NVIDIA DGX setup installation guide"
 - "DGX server initial setup BMC network"
@@ -326,42 +333,42 @@ Practica comisionar un DGX imaginario: rack, energía, red, BMC, firmware y test
 
 ## Semana 5 (26 Oct – 1 Nov) — DCIM, inventarios y red física
 
-#### 41. DCIM: altas, bajas, movimientos y ubicación U exacta
+#### 42. DCIM: altas, bajas, movimientos y ubicación U exacta
 Aprende a registrar en DCIM cada alta, baja y movimiento con su posición U exacta.
 - "DCIM software tutorial asset management"
 - "Datacenter asset move add change procedure"
 - "Rack U location tracking DCIM best practices"
 - "What is DCIM datacenter infrastructure management"
 
-#### 42. Inventario: seriales, FRUs, spares y ciclo de vida
+#### 43. Inventario: seriales, FRUs, spares y ciclo de vida
 Aprende a llevar inventario de seriales, repuestos críticos y ciclo de vida del hardware.
 - "Datacenter hardware inventory management best practices"
 - "Server serial number asset tracking"
 - "Spare parts management datacenter FRU stock"
 - "IT hardware lifecycle management process"
 
-#### 43. Red física: ToR, agregación, MPO y OTDR conceptual
+#### 44. Red física: ToR, agregación, MPO y OTDR conceptual
 Aprende switch ToR, capa de agregación, troncales MPO y qué mide un OTDR en fibra.
 - "Top of rack ToR switch explained datacenter"
 - "Datacenter aggregation layer network explained"
 - "MPO trunk fiber datacenter cabling guide"
 - "OTDR fiber testing explained tutorial"
 
-#### 44. Coordinación: Network Ops, Physical Connectivity y Datacenter Ops
+#### 45. Coordinación: Network Ops, Physical Connectivity y Datacenter Ops
 Aprende con quién coordinar cada tarea entre los equipos de red, conectividad física y operaciones.
 - "Datacenter operations team roles explained"
 - "Network operations vs datacenter operations"
 - "Physical connectivity team datacenter role"
 - "Datacenter cross team coordination maintenance"
 
-#### 45. SOP/MOP, ventanas de mantenimiento y rollback
+#### 46. SOP/MOP, ventanas de mantenimiento y rollback
 Aprende a ejecutar SOPs/MOPs en ventana de mantenimiento y cómo hacer rollback si algo falla.
 - "Datacenter maintenance window procedure MOP"
 - "Rollback plan server maintenance example"
 - "Change management datacenter MOP approval"
 - "Datacenter MOP execution step by step"
 
-#### 46. Auditar un rack ficticio y dejarlo cuadrado en formato DCIM
+#### 47. Auditar un rack ficticio y dejarlo cuadrado en formato DCIM
 Practica auditar un rack imaginario: seriales, Us, cables y déjalo registrado como en DCIM.
 - "Server rack audit checklist datacenter"
 - "DCIM rack audit procedure tutorial"
@@ -372,42 +379,42 @@ Practica auditar un rack imaginario: seriales, Us, cables y déjalo registrado c
 
 ## Semana 6 (2 – 8 Nov) — Incidentes críticos y cierre
 
-#### 47. Severidades P1/P2/P3, tiempos y comunicación
+#### 48. Severidades P1/P2/P3, tiempos y comunicación
 Aprende a clasificar incidentes P1/P2/P3, sus SLAs y cómo comunicar cada uno.
 - "P1 P2 P3 incident severity levels explained"
 - "Datacenter incident response SLA priorities"
 - "Incident communication template major outage"
 - "Severity levels IT incident management"
 
-#### 48. Recuperación: aislar, mitigar, reemplazar, validar y post-mortem
+#### 49. Recuperación: aislar, mitigar, reemplazar, validar y post-mortem
 Aprende el ciclo de recuperación: aislar falla, mitigar, reemplazar, validar y hacer post-mortem.
 - "Datacenter incident recovery procedure steps"
 - "IT post mortem template major incident"
 - "Server outage mitigation troubleshooting steps"
 - "Root cause analysis datacenter outage example"
 
-#### 49. Herramientas: multímetro, probador de fibra, etiquetadora y kit ESD
+#### 50. Herramientas: multímetro, probador de fibra, etiquetadora y kit ESD
 Aprende a usar multímetro, VFL/probador de fibra, etiquetadora y kit antiestático en campo.
 - "Multimeter basics server technician tutorial"
 - "Fiber optic tester VFL how to use"
 - "Cable label printer datacenter tutorial"
 - "ESD kit server repair tools list"
 
-#### 50. Repaso 40 preguntas semanas 1-5
+#### 51. Repaso 40 preguntas semanas 1-5
 Repasa todo lo de las semanas 1 a 5 con 40 preguntas integrales antes del simulacro final.
 - "Datacenter technician final exam questions"
 - "Server hardware comprehensive review test"
 - "Datacenter operations interview questions senior"
 - "AI datacenter hardware basics full review"
 
-#### 51. Simulacro final: GPU caída en hora pico, paso a paso
+#### 52. Simulacro final: GPU caída en hora pico, paso a paso
 Practica la respuesta a una GPU caída en producción: detección, aislamiento, reemplazo y validación.
 - "GPU failure troubleshooting datacenter server"
 - "NVIDIA GPU failure diagnosis nvidia-smi"
 - "Failed GPU replacement server procedure"
 - "GPU server emergency maintenance datacenter"
 
-#### 52. Validación final: explicar el flujo completo en voz alta sin notas
+#### 53. Validación final: explicar el flujo completo en voz alta sin notas
 Cierra explicando sin notas el flujo completo: energía, FRU, IA, RMA, DCIM e incidentes.
 - "Datacenter hardware workflow end to end explained"
 - "Server lifecycle datacenter rack to decommission"
