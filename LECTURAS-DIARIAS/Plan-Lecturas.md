@@ -137,7 +137,7 @@
 ### I — 🏗️ Ingeniería y Diseño
 - [ ] Principios SOLID — Las 5 reglas para código que no se rompe al cambiar
 - [ ] DRY vs KISS — Por qué no repetirte y por qué lo simple gana
-- [ ] Acoplamiento vs Cohesión — El equilibrio que define si tu sistema vive o muere
+- [x] Acoplamiento vs Cohesión — El equilibrio que define si tu sistema vive o muere ✅ 2026-09-30
 - [ ] Patrón MVC — Modelo-Vista-Controlador y por qué todo framework lo usa
 - [ ] Refactorización — Cómo mejorar código sin cambiar qué hace
 - [ ] Testing Unitario — Por qué escribir tests te ahorra semanas de debug
