@@ -41,7 +41,7 @@
 - [x] Unit Economics — Cómo calcular si tu negocio realmente gana dinero ✅ 2026-09-24
 - [x] CAC vs LTV — La métrica que determina si creces o te quemas más ✅ 2026-09-23
 - [ ] Embudo de Conversión — De visitas a ventas: dónde se cae el 95%
-- [ ] Retención vs Adquisición — Por qué retener cuesta 5x menos que captar
+- [x] Retención vs Adquisición — Por qué retener cuesta 5x menos que captar ✅ 2026-10-01
 - [ ] Pricing Psicológico — Estrategias de precio que aumentan margen sin perder clientes
 - [x] Social Proof — Cómo reseñas, testimonios y números venden por vos ✅ 2026-09-17
 - [ ] Product-Market Fit — Cómo saber si tu producto resuelve un problema real
