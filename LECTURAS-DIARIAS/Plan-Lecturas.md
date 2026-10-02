@@ -156,7 +156,7 @@
 - [ ] Redes e HTTP — Cómo funciona internet por dentro (TCP, DNS, HTTPS)
 - [ ] Seguridad de Aplicaciones — OWASP Top 10 y cómo proteger tu app
 - [ ] Diseño de Interfaz (UI) — Principios de usabilidad que funcionan
-- [ ] Experiencia de Usuario (UX) — Cómo diseñar pensando en el humano
+- [x] Experiencia de Usuario (UX) — Cómo diseñar pensando en el humano ✅ 2026-10-02
 - [ ] Prototipado Rápido — De idea a prototipo funcional en horas
 - [ ] Design System — Cómo crear y mantener un sistema de diseño consistente
 - [ ] Accesibilidad Web (a11y) — Por qué tu sitio debe funcionar para todos
