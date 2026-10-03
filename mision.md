@@ -19,14 +19,25 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Miércoles 30/09
+## 🔥 HOY — Sábado 03/10
 
-> Focus: DataCenter S1-Mié (cableado) + arrastres.
+> Focus: SSH básico (mañana) + simulacro PDU (noche). Gym suspendido.
 
 - [ ] 📚 Lectura diaria
-- [ ] 🖥️ DataCenter — S1-Mié: cableado cobre/fibra + etiquetado (noche, foco principal)
-- [ ] 🖥️ DataCenter — arrastre S1-Mar: clima + airflow
-- [ ] 🔍 Consultar pregrados 07:00 *(arrastre)*
+- [ ] 🔐 SSH básico — conexión, llaves, alias, hardening (mañana, foco alto)
+- [ ] 🧘 Descanso activo
+- [ ] 🖥️ DC simulacro PDU 22 kW — ¿tercer DGX? (noche, foco principal)
+- [ ] 🏠 Lavar prendas
+- [ ] 💊 Creatina noche
+
+---
+
+## 📅 MAÑANA — Domingo 04/10
+
+> Cierre de semana + planificación Semana 2 (FRUs).
+
+- [ ] 📚 Lectura diaria
+- [ ] 🛋️ Descanso + Planificación semana 2 (FRUs)
 - [ ] 💊 Creatina noche
 
 ---
