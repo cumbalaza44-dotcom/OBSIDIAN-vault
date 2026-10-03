@@ -82,7 +82,7 @@
 ### E — ⚡ Productividad y Sistemas
 - [x] Regla 80/20 — El 20% de acciones genera el 80% de resultados ✅ 2026-09-04
 - [x] Time Blocking — Cómo programar tu día por bloques, no por tareas ✅ 2026-09-05
-- [ ] Deep Work — Bloques de concentración profunda (Cal Newport)
+- [x] Deep Work — Bloques de concentración profunda (Cal Newport) ✅ 2026-10-03
 - [ ] Automatización de Tareas Repetitivas — Qué automatizar primero (y con qué)
 - [ ] Regla de los 2 Minutos — Si toma menos de 2 min, hacelo ahora
 - [ ] Energía vs Tiempo — Por qué gestionar energía es mejor que gestionar horas
