@@ -424,3 +424,4 @@ Cierra explicando sin notas el flujo completo: energía, FRU, IA, RMA, DCIM e in
 ---
 
 *Total: 52 temas · 208 queries · Generado 2026-09-29*
+ fibra mpo  modulos sfp 
