@@ -166,7 +166,7 @@
 - [ ] Arquitectura de Software Limpia — La guía de Robert C. Martin aplicada
 - [ ] Principio de Menor Privilegio — Dar solo el acceso necesario (seguridad)
 - [ ] Load Balancing — Cómo distribuir tráfico sin que todo se caiga
-- [ ] Caché — Por qué guardar datos repetidos acelera todo
+- [x] Caché — Por qué guardar datos repetidos acelera todo ✅ 2026-10-04
 - [ ] Colas de Mensajes — Cómo procesar tareas pesadas sin bloquear
 - [ ] Logging y Monitoreo — Cómo saber qué falla tu app en producción
 - [ ] Performance Optimization — Cómo identificar y eliminar cuellos de botella
