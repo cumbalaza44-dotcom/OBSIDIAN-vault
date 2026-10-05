@@ -123,7 +123,7 @@
 ### H — 🧭 Mentalidad y Estrategia
 - [x] Círculo de Control — Enfocarte en lo que podés cambiar (Epicteto actualizado) ✅ 2026-09-19
 - [ ] Pensamiento Sistémico — Ver el bosque, no solo los árboles
-- [ ] Antifragilidad — Cómo beneficiarte del caos (Nassim Taleb)
+- [x] Antifragilidad — Cómo beneficiarte del caos (Nassim Taleb) ✅ 2026-10-05
 - [ ] Decisión bajo Incertidumbre — Frameworks para cuando no tenés toda la info
 - [ ] Ley del Mínimo Esfuerzo — El camino más corto no siempre es el más fácil
 - [ ] Contrarian Thinking — Por qué pensar al revés da ventaja competitiva
