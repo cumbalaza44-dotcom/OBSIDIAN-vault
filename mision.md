@@ -1,6 +1,6 @@
 ---
 created: 2026-05-25
-updated: 2026-09-12
+updated: 2026-10-04
 source: "Mr. Jair — iOS / Telegram"
 ---
 
@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 MISSIONS
 
-### Última actualización: `28 Sep 2026 — 19:00`
+### Última actualización: `04 Oct 2026 — 20:00`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -19,26 +19,42 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Sábado 03/10
+## 🔥 HOY — Lunes 05/10
 
-> Focus: SSH básico (mañana) + simulacro PDU (noche). Gym suspendido.
+> Arranque Semana 2 (FRUs). Focus: DC S2 + Ghost Trader validación.
 
 - [ ] 📚 Lectura diaria
-- [ ] 🔐 SSH básico — conexión, llaves, alias, hardening (mañana, foco alto)
-- [ ] 🧘 Descanso activo
-- [ ] 🖥️ DC simulacro PDU 22 kW — ¿tercer DGX? (noche, foco principal)
-- [ ] 🏠 Lavar prendas
+- [ ] 🖥️ DC S2-Lun: FRUs (bloque noche 6:30-9:30)
+- [ ] 🖥️ Ghost Trader — validar prototipo funcional (foco principal noche)
 - [ ] 💊 Creatina noche
 
 ---
 
-## 📅 MAÑANA — Domingo 04/10
+## 📅 MAÑANA — Martes 06/10
 
-> Cierre de semana + planificación Semana 2 (FRUs).
+> Meta Ads día: desbloqueo de nicho (arrastre desde 22/09).
 
 - [ ] 📚 Lectura diaria
-- [ ] 🛋️ Descanso + Planificación semana 2 (FRUs)
+- [ ] 📢 Meta Ads — definir nicho específico *(prioridad semanal)*
 - [ ] 💊 Creatina noche
+
+---
+
+## 📅 SEMANA 5–11 Oct 2026 (Semana 2 — FRUs)
+
+> Horario: L-V 8 AM-5 PM (datacenter) | Noche: 6:30-9:30 PM (bloque DC S2 + foco)
+> Distribución: Lun arranque | Mar/Jue Meta Ads | Mié Prototipo X | Vie cierre + hábitos | Sáb flex
+> ⚠️ Gym: confirmar reantración (suspendido hasta 4 Oct)
+
+| Día | Mañana (5:10-8:00 AM) | Noche (6:30-9:30 PM) |
+|-----|----------------------|----------------------|
+| **Lun 5** | 📚 Lectura | 🖥️ DC S2-Lun: FRUs + 🖥️ Ghost Trader: validar prototipo + 💊 Creatina |
+| **Mar 6** | 📚 Lectura | 🖥️ DC S2-Mar: FRUs + 📢 Meta Ads: definir nicho + 💊 Creatina |
+| **Mié 7** | 📚 Lectura | 🖥️ DC S2-Mié: FRUs + 🔧 Prototipo X: UX HUD/app + 💊 Creatina |
+| **Jue 8** | 📚 Lectura | 🖥️ DC S2-Jue: FRUs + 📢 Meta Ads: investigar 10 productos + 💊 Creatina |
+| **Vie 9** | 📚 Lectura | 🖥️ DC S2-Vie: FRUs + 📋 Revisión semanal + 💰 Ajustar proyecciones + 💊 Creatina |
+| **Sáb 10** | 📚 Lectura + 🧘 Descanso activo | 🏠 Lavar prendas + 🔧 Go Kart (flex) + 💊 Creatina |
+| **Dom 11** | 📚 Lectura | 🛋️ Descanso + Planificación siguiente semana |
 
 ---
 
