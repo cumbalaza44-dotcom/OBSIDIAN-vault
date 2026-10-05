@@ -10,14 +10,14 @@
 
 #### 1. Rack 19", unidad U y servidores DGX 8U
 Aprende qué es 1U (1.75"), cómo se mide un rack de 42U y por qué un DGX ocupa 8U.
-- ~~"19 inch server rack units explained"~~
-- ~~"What is rack unit U 42U datacenter"~~
-- ~~"NVIDIA DGX server rack installation 8U"~~
-- ~~"Server rack setup tutorial datacenter"~~ 
+- "~~19 inch server rack units explained~~"
+- "What is rack unit U 42U datacenter"
+- "ve"
+- "Server rack setup tutorial datacenter"
 
 #### 2. PDU básica vs switched/monitored, UPS y EPO
 Aprende tipos de PDU, qué hace un UPS y cuándo se usa el botón de apagado de emergencia EPO.
-- ~~"Basic vs switched vs metered PDU datacenter"~~
+- "Basic vs switched vs metered PDU datacenter"
 - "Datacenter UPS system explained"
 - "EPO emergency power off datacenter"
 - "Server rack PDU installation guide"
@@ -424,4 +424,3 @@ Cierra explicando sin notas el flujo completo: energía, FRU, IA, RMA, DCIM e in
 ---
 
 *Total: 52 temas · 208 queries · Generado 2026-09-29*
- fibra mpo  modulos sfp 
