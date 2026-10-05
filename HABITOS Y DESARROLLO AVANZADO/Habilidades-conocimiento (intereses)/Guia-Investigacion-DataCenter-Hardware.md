@@ -11,15 +11,15 @@
 #### 1. Rack 19", unidad U y servidores DGX 8U
 Aprende qué es 1U (1.75"), cómo se mide un rack de 42U y por qué un DGX ocupa 8U.
 - "~~19 inch server rack units explained~~"
-- "What is rack unit U 42U datacenter"
+- "~~What is rack unit U 42U datacenter~~"
 - "ve"
 - "Server rack setup tutorial datacenter"
 
 #### 2. PDU básica vs switched/monitored, UPS y EPO
 Aprende tipos de PDU, qué hace un UPS y cuándo se usa el botón de apagado de emergencia EPO.
-- "Basic vs switched vs metered PDU datacenter"
-- "Datacenter UPS system explained"
-- "EPO emergency power off datacenter"
+- "~~Basic vs switched vs metered PDU datacenter"~~
+- ~~"Datacenter UPS system explained"~~
+- ~~"EPO emergency power off datacenter~~"
 - "Server rack PDU installation guide"
 
 #### 3. Monofásica vs trifásica, PDU 22 kW y regla del 80%
