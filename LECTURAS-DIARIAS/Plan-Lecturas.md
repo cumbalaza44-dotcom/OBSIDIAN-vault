@@ -147,7 +147,7 @@
 - [ ] SQL vs NoSQL — Qué base de datos elegir y por qué importa
 - [ ] Modelado de Datos — Cómo diseñar esquemas que escalan
 - [ ] Git Flow — Flujo de trabajo con ramas que no genera caos
-- [ ] Code Review — Por qué revisar código ajeno te hace mejor ingeniero
+- [x] Code Review — Por qué revisar código ajeno te hace mejor ingeniero ✅ 2026-10-06
 - [x] Patrones de Diseño — Singleton, Factory, Observer (y cuándo usar cada uno) ✅ 2026-09-28
 - [ ] SOLID en la Práctica — Ejemplos reales de cada principio aplicado
 - [ ] Deuda Técnica — Por qué atajos hoy son dolores de cabeza mañana
