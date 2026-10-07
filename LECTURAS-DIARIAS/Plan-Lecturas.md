@@ -171,7 +171,7 @@
 - [ ] Logging y Monitoreo — Cómo saber qué falla tu app en producción
 - [ ] Performance Optimization — Cómo identificar y eliminar cuellos de botella
 - [x] Concurrencia vs Paralelismo — Diferencia real y cuándo usar cada uno ✅ 2026-09-29
-- [ ] Diseño Orientado a Eventos — Cómo construir sistemas reactivos
+- [x] Diseño Orientado a Eventos — Cómo construir sistemas reactivos ✅ 2026-10-07
 - [x] Circuit Breaker Pattern — Por qué tu sistema debe fallar gracefully ✅ 2026-09-24
 
 **Total pendientes: 135 temas**
