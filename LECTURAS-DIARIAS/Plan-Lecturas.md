@@ -90,7 +90,7 @@
 - [x] Eliminar, Simplificar, Automatizar, Delegar (ESAD) — Framework de productividad ✅ 2026-09-16
 - [ ] Gestión de Proyectos Personales — Kanban, Scrum, o el sistema que funciona para vos
 - [ ] Decisiones Irreversibles vs Reversibles — Cómo decidir más rápido
-- [ ] Batch Processing — Por qué agrupar tareas similares multiplica tu output
+- [x] Batch Processing — Por qué agrupar tareas similares multiplica tu output ✅ 2026-10-11
 
 ### F — 🔧 Tech y Herramientas
 - [ ] IA Generativa para Negocios — Cómo usar ChatGPT/Claude para vender más
