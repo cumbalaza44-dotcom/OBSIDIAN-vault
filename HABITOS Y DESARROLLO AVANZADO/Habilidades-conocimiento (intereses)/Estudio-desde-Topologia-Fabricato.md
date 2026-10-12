@@ -147,3 +147,23 @@
 ## Notas
 - Archivo fuente: Fabricato_Topologia_XIO.zip (en inbound, temporal)
 - Preguntar en sitio: modelo CDU exacto, rol ARS-121GL, potencia real por rack, cuántas GPUs totales.
+
+## 📚 PDFs de estudio — cruce con topología (12/10/2026)
+ZIP drive-download-20261012T12/12 PDFs:
+
+| PDF | Estado | Coincide con |
+|-----|--------|--------------|
+| asg-1115s-ne316r | ✅ exacto | HPS Node ×9 (ASG-1115S-NE316R) |
+| nvidia-Q3400-datasheet | ✅ exacto | GPU Fabric Leaf ×16 + Spine ×8 (Quantum-X800, 800G) |
+| nvidia-SN2201-datasheet | ✅ exacto* | OOB Leaf ×36 de 52 (*16 son variante SSE-MSN2201-CSMRC) |
+| nvidia-SN4700-datasheet | ✅ exacto | OOB Spine ×2 + Border Leaf ×2 |
+| Rack supermicro for B300 | ✅ afín | plataforma B300 de los SYS-422GS ×144 |
+| nvidia-spectrum-sn5600 | ⚠️ DISCREPANCIA | topología tiene **SN5610** ×12, PDF es **SN5600** — pedir datasheet SN5610 |
+| APOP31KCDMD8T (800G OSFP DR8) | 💠 óptica | transceptor p/OSFP 800G → SN5610 / Q3400 |
+| APQPB31HCDMD4F (400G QSFP112 DR4) | 💠 óptica | transceptor 400G |
+| APOP31HCDMD4A (400G OSFP-RHS DR4) | 💠 óptica | transceptor OSFP-RHS 400G |
+| APQD31HCDMD4C (400G QSFP-DD DR4) | 💠 óptica | → puertos QSFP-DD del SN4700 |
+| APQP231ACDL05B (100G QSFP28 DR1) | 💠 óptica | → uplinks QSFP28 del SN2201 (OOB) |
+| APCP40-O4QCxxxA (DAC 400G→4×100G) | 💠 cable | DAC in-rack breakout |
+
+**Siguiente pedido de PDFs (faltantes):** SYS-422GS-NB3RT-LCC (¡el más importante!), ARS-121GL-NB3-LCC, SSE-NVL72SW-N5500, GB300 Power Shelf, CDU LCS-SCDU-250, SYS-122H-TN, **SN5610** (no SN5600), Juniper MX204, UFM, Opengear CM8132, CommScope ODF.
