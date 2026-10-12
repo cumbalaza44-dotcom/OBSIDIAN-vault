@@ -51,6 +51,100 @@
 | Console Server | 2 | Opengear CM8132-10G |
 | Racks | 74 × 48U | GR(24) NR(36) NW(8) MMR(6) |
 
+## 🧠 Diccionario DC — qué es / para qué sirve / cómo funciona (todos los equipos)
+
+### 🟢 CÓMPUTO
+
+**1. GPU Server SYS-422GS ×144 — «la fábrica de IA»**
+- **Qué es:** servidor 4U líquido con 8 GPUs NVIDIA HGX B300 + 2 Xeon 6700.
+- **Para qué:** entrenamiento e inferencia de IA — todo el cálculo pesado vive aquí.
+- **Cómo funciona:** las 8 GPUs se enlazan por NVLink 5 (1.8TB/s) para actuar como una sola; los Xeon reparten tareas y manejan E/S; entrena por 8× OSFP 800G (ConnectX-8); se enfría por cold plate líquido y sus 4 fans solo cubren componentes secundarios.
+
+**2. Server ARS-121GL ×144 — «nodo GB300»** (confirmar rol exacto en sitio)
+- **Qué es:** nodo 1U líquido familia GB300/Blackwell con power delivery por busbar.
+- **Para qué:** cómputo en el rack GB300 — nodo de servidores del sistema NVL72.
+- **Cómo funciona:** recibe 50 VDC por busbar (no cables AC), se enlaza por NVLink C2C con GPUs, arranque desde E1.S.
+
+**3. CPU Node SYS-122H-TN ×12 — «el servidor general»**
+- **Qué es:** servidor 1U dual Xeon, sin GPU dedicada.
+- **Para qué:** servicios de apoyo: virtualización, APIs, orquestación, bases de datos.
+- **Cómo funciona:** CPU + 32 DIMM + 8 discos 2.5" + red por slot AIOM; gestión por BMC → red OOB.
+
+**4. HPS Node ASG-1115S ×9 — «el almacén»**
+- **Qué es:** servidor de storage 1U con 16 NVMe E3.S frontales.
+- **Para qué:** almacenamiento de alta velocidad para datasets y checkpoints (NVMe over Fabrics).
+- **Cómo funciona:** AMD EPYC + 16 NVMe hot-swap en bahías frontales; se conecta al fabric de storage.
+
+### 🔵 RED (4 planos)
+
+**5. NVLink Switch SSE-NVL72SW ×72 — «autopista interna de GPUs»**
+- **Qué es:** switch NVLink del sistema GB300 (1 por rack).
+- **Para qué:** interconectar las 72 GPUs del rack para que trabajen como una sola (gradientes, all-reduce).
+- **Cómo funciona:** conmuta tráfico GPU↔GPU a altísima banda dentro del sistema — NUNCA sale tráfico de red tradicional por aquí.
+
+**6. GPU Fabric Q3400-RA ×24 (16 leaf + 8 spine) — «autopista entre racks»**
+- **Qué es:** switch InfiniBand Quantum-X800, 800G/puerto, 115.2 Tb/s.
+- **Para qué:** enlazar servidores GPU de distintos racks para entrenamiento distribuido multi-nodo.
+- **Cómo funciona:** fat-tree de 2 niveles (leaf ↔ spine); InfiniBand con RDMA (las CPUs no copian datos) y SHARP (sumas dentro del switch).
+
+**7. OOB: SN2201 ×52 leaf + SN4700 ×2 spine — «la red de gestión»**
+- **Qué es:** switch 1G, 48 puertos, totalmente separado del fabric de datos.
+- **Para qué:** transportar BMC/iDRAC/IPMI de TODOS los equipos — es la red del SSH y la que usas cuando los datos se caen.
+- **Cómo funciona:** 48×1GbE a puertos de gestión + uplinks QSFP28 al spine OOB.
+
+**8. SN5610 ×12 (Core/GFE/HPS/CPDL) — «la red de servicio»**
+- **Qué es:** Spectrum-4 Ethernet 800G, 51.2 Tb/s.
+- **Para qué:** Core = columna entre zonas · GFE = tráfico de cara al exterior · HPS = storage · CPDL = control/planificación.
+- **Cómo funciona:** switching/routing Ethernet al máximo rendimiento, agrupados en LAG.
+
+**9. Routers Juniper MX204 / MikroTik ×4 — «la puerta al mundo»**
+- **Qué es:** routers de borde.
+- **Para qué:** enrutamiento DC↔internet u otras redes (BGP), políticas y filtrado.
+- **Cómo funciona:** tablas de rutas + ACL; llegan desde los Border Leaf SN4700.
+
+### 🟡 ENERGÍA Y FRÍO
+
+**10. Power Shelf GB300 33kW ×64 — «el corazón eléctrico»**
+- **Qué es:** estante 1U con 6 fuentes de 5.5kW = 33kW a 50 VDC.
+- **Para qué:** alimentar el rack GB300 directo en corriente continua por busbar (más eficiente que AC por servidor).
+- **Cómo funciona:** convierte AC de planta → 50V DC; 6 módulos redundantes; 32 left + 32 right = los 2 rieles de potencia del rack.
+
+**11. CDU LCS-SCDU-250 ×8 — «la climatización líquida»**
+- **Qué es:** unidad de distribución de refrigerante in-rack, 250kW.
+- **Para qué:** bombear agua fría de planta a los cold plates de GPUs/CPUs y regresar el calor.
+- **Cómo funciona:** 2 circuitos: primario (agua helada de la planta) ↔ secundario (bucle cerrado con inhibitante) + bombas redundantes + sensores de temp/flujo/presión.
+
+### 🟣 FIBRA
+
+**12. ODF CommScope ×84 — «la centralita de fibras»**
+- **Qué es:** panel de distribución óptica (MPO 144 / LC 48).
+- **Para qué:** terminar, ordenar y cruzar fibras — el punto donde saltan los enlaces entre equipos.
+- **Cómo funciona:** la fibra larga llega y termina en el panel; un patch cord de 1-3m puentea puerto↔puerto; todo exige limpieza y medición de potencia óptica.
+
+### ⚫ GESTIÓN Y SOPORTE
+
+**13. UFM MUA9702H ×2 — «el cerebro del fabric»**
+- **Qué es:** appliance de gestión de redes InfiniBand/IO.
+- **Para qué:** configurar, monitorear y diagnosticar todo el fabric — detecta enlaces caídos y topologías rotas.
+- **Cómo funciona:** corre el Subnet Manager (direcciona los nodos del fabric) + telemetría + API para alertas.
+
+**14. Console Server Opengear CM8132 ×2 — «la llave de emergencia»**
+- **Qué es:** servidor con 32 puertos serie RS-232.
+- **Para qué:** acceso serial a switches y BMCs cuando la red completa está caída.
+- **Cómo funciona:** SSH al Opengear → canalizo al puerto console del equipo target — funciona aunque no haya IP en el equipo.
+
+**15. Rack 48U ×74 — «la casa»**
+- **Qué es:** armario estándar 19" de 48 unidades U.
+- **Para qué:** alojar equipos en rieles, distribuir energía y dirigir el aire.
+- **Cómo funciona:** U = 1.75" · frente respira aire frío, atrás expulsa caliente · blanks en U vacíos · PDU/busbar a los lados.
+
+**16. ODF/banda pasiva + cableado (10.049 cables) — «las arterias»**
+- **Qué es:** DAC (cobre, <5m) y óptica transceptor+fibra (≥5m).
+- **Para qué:** transportar todo el tráfico entre los equipos anteriores.
+- **Cómo funciona:** DAC = cobre directo barato intra-rack · óptica = luz, larga distancia · etiqueta SIEMPRE en cada extremo (formato OOB-001 del DC).
+
+---
+
 ## 📋 Fichas técnicas verificadas (búsqueda web)
 
 ### 🟢 SYS-422GS-NB3RT-LCC — GPU Server (144×)
