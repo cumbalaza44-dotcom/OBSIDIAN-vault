@@ -5,6 +5,27 @@
 > Mapeado al Plan-Estudio-DataCenter-Hardware.md (semanas 1-6).
 > Specs verificadas vía web 12/10/2026 (fábricas: supermicro.com, nvidia.com, opengear.com, vertiv.com).
 
+## 🧭 Ruta de dominio — 3 fases (definida por Mr. Jair 12/10/2026)
+> Orden: pieza → cable → gestión. Cada fase valida la siguiente.
+
+### Fase 1 — Equipos: armar y desarmar (Semanas 1-3)
+- Objetivo: abrir, identificar componentes y rearmar cada equipo sin ayuda.
+- Equipos clave: SYS-422GS (PSU 6.6kW, fans, DIMM, E1.S, GPU tray), ARS-121GL, power shelf, CDU, switches 1U/2U/4U.
+- Ejercicio puente: checklist FRU que pase de "leído" a "hecho". Confirmar en sitio: ¿permiten desmontar? ¿hay rack de práctica?
+- Hitos: [ ] armar/desarmar SYS-422GS  [ ] reemplazar PSU en caliente  [ ] FRU checklist sin ayuda
+
+### Fase 2 — Conectividad física y topología (Semanas 4-5)
+- Objetivo: de dónde a dónde va cada cable y por qué esa ruta.
+- Material: 10.049 cables reales, 84 ODF, fat-tree Q3400 (16 leaf + 8 spine), NVLink vs GPU Fabric vs OOB.
+- Ejercicio puente: trazar un link completo: GPU → leaf → spine → otro rack, y su equivalente OOB (SN2201).
+- Hitos: [ ] trazar 3 links punta a punta  [ ] auditar 1 rack  [ ] explicar los 3 planos de red sin notas
+
+### Fase 3 — Gestión (Semana 6+)
+- Objetivo: SSH/BMC, DCIM, incidentes — operar lo que ya conoces físicamente.
+- Material: SN2201 OOB (48×1GbE), Opengear CM8132 (32 serie), UFM, XIO DC con Fabricato.
+- Ejercicio puente: entrar por OOB a un BMC por SSH, registrar en DCIM, cerrar incidente simulado.
+- Hitos: [ ] SSH a BMC vía OOB  [ ] actualizar inventario en XIO DC  [ ] simulacro P1 completo
+
 ## ⚠️ Correcciones vs identificación previa
 - ~~"SYS-422GS trae 4 GPU"~~ → **son 8 GPUs** (HGX B300 8-GPU, verificado en Supermicro).
 - ~~"ARS-121GL = servidor general purpose"~~ → **es plataforma GB300 liquid-cooled** (familia Blackwell); confirmar rol exacto en sitio.
