@@ -29,6 +29,7 @@
 ## ⚠️ Correcciones vs identificación previa
 - ~~"SYS-422GS trae 4 GPU"~~ → **son 8 GPUs** (HGX B300 8-GPU, verificado en Supermicro).
 - ~~"ARS-121GL = servidor general purpose"~~ → **es plataforma GB300 liquid-cooled** (familia Blackwell); confirmar rol exacto en sitio.
+- ~~"SYS-122H = 2U"~~ → **es 1U** (datasheet oficial coincide con u_height=1 en topología).
 
 ## Inventario real (dato base)
 | Rol | Qty | Modelo |
@@ -41,7 +42,7 @@
 | OOB Leaf | 52 | NVIDIA SN2201 |
 | GPU Fabric Leaf/Spine | 16 + 8 | NVIDIA Q3400-RA |
 | CDU | 8 | LCS-SCDU-250LP4002 |
-| CPU Node | 12 | Supermicro SYS-122H-TN (2U) |
+| CPU Node | 12 | Supermicro SYS-122H-TN (1U) |
 | HPS Node | 9 | Supermicro ASG-1115S-NE316R |
 | Switches red (SN5610 Core/GFE/HPS/CPDL) | 12 | NVIDIA SN5610 |
 | Routers | 4 | Juniper MX204 (2) + MikroTik CCR2004 (2) |
@@ -158,6 +159,8 @@ ZIP drive-download-20261012T12/12 PDFs:
 | nvidia-SN2201-datasheet | ✅ exacto* | OOB Leaf ×36 de 52 (*16 son variante SSE-MSN2201-CSMRC) |
 | nvidia-SN4700-datasheet | ✅ exacto | OOB Spine ×2 + Border Leaf ×2 |
 | Rack supermicro for B300 | ✅ afín | plataforma B300 de los SYS-422GS ×144 |
+| **sys-422gs-nb3rt-lcc** (2da tanda) | ✅ EXACTO | GPU Server ×144 — ficha oficial, el equipo #1 |
+| **sys-122h-tn** (2da tanda) | ✅ EXACTO | CPU Node ×12 (confirma 1U) |
 | nvidia-spectrum-sn5600 | ⚠️ DISCREPANCIA | topología tiene **SN5610** ×12, PDF es **SN5600** — pedir datasheet SN5610 |
 | APOP31KCDMD8T (800G OSFP DR8) | 💠 óptica | transceptor p/OSFP 800G → SN5610 / Q3400 |
 | APQPB31HCDMD4F (400G QSFP112 DR4) | 💠 óptica | transceptor 400G |
@@ -166,4 +169,17 @@ ZIP drive-download-20261012T12/12 PDFs:
 | APQP231ACDL05B (100G QSFP28 DR1) | 💠 óptica | → uplinks QSFP28 del SN2201 (OOB) |
 | APCP40-O4QCxxxA (DAC 400G→4×100G) | 💠 cable | DAC in-rack breakout |
 
-**Siguiente pedido de PDFs (faltantes):** SYS-422GS-NB3RT-LCC (¡el más importante!), ARS-121GL-NB3-LCC, SSE-NVL72SW-N5500, GB300 Power Shelf, CDU LCS-SCDU-250, SYS-122H-TN, **SN5610** (no SN5600), Juniper MX204, UFM, Opengear CM8132, CommScope ODF.
+**Siguiente pedido de PDFs (faltantes):** ARS-121GL-NB3-LCC, SSE-NVL72SW-N5500, GB300 Power Shelf, CDU LCS-SCDU-250, **SN5610** (no SN5600), Juniper MX204, UFM, Opengear CM8132, CommScope ODF.
+
+### Ficha SYS-422GS-NB3RT-LCC (datasheet oficial, Fase 1)
+- 4U · 448×174×896.8mm · net 84.6kg (¡requiere 2 personas/rail kit!)
+- 8× HGX B300 SXM (288GB c/u) · NVLink 5ª gen 1.8TB/s
+- **FRUs clave: 4× PSU 6.6kW Titanium (2+2) · 4× ventilador 80mm · 8× E1.S NVMe hot-swap · 32× DIMM DDR5 · GPU tray**
+- Red: 8× OSFP 800G ConnectX-8 + 2× RJ45 10GbE (Intel X710) · BMC por la OOB
+- Refrigeración: D2C cold plate (líquido) — PSU/fans solo para componentes secundarios
+- MB: X14DBG-LC · Chassis: CSE-GP405LTS-R000NP
+
+### Ficha SYS-122H-TN (datasheet oficial)
+- 1U · dual Xeon 6700/6500 (LGA-4710) · 32 DIMM hasta 8TB
+- **FRUs: 2× PSU 1.2kW Titanium (1+1) · 8× ventilador 40×40×56mm · 8× 2.5" hot-swap NVMe/SAS/SATA · 2× M.2**
+- 3× PCIe 5.0 x16 + 1 AIOM (OCP 3.0) · BMC 1GbE dedicado
