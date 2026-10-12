@@ -183,3 +183,27 @@ ZIP drive-download-20261012T12/12 PDFs:
 - 1U · dual Xeon 6700/6500 (LGA-4710) · 32 DIMM hasta 8TB
 - **FRUs: 2× PSU 1.2kW Titanium (1+1) · 8× ventilador 40×40×56mm · 8× 2.5" hot-swap NVMe/SAS/SATA · 2× M.2**
 - 3× PCIe 5.0 x16 + 1 AIOM (OCP 3.0) · BMC 1GbE dedicado
+
+## 🩺 Troubleshooting_plan_APN.xlsx (12/10/2026 — 13 hojas)
+Formato por hoja: **Issue → Causa → Solución → Vista componente**. Dashboard indexa 12 equipos.
+
+**Cruce con topología:**
+- ✅ `SYS-422GS-NB3RT-LCC` → GPU Server ×144 (exacto)
+- ✅ `SYS-122H-TN` → CPU Node ×12 (exacto)
+- ✅ `ASG-1115S-NE316R` → HPS Node ×9 (exacto)
+- ✅ `MSN2201-CB2RC` → OOB Leaf ×52
+- ✅ `MSN4700-WS2RC` → OOB Spine + Border ×4
+- ✅ `MSN5610-WS2RC` → **SN5610 ×12 — ¡RESUELTO!** (este SÍ es el SN5610, no el SN5600 del datasheet suelto)
+- ✅ `SSE-MQM3400-RA` → = Q3400-RA (part number Mellanox MQM3400) ×24
+- ✅ `MUA9702H-2SFS` → UFM Appliance 3.5 ×2 (gestión fabric)
+- ⚠️ `BlueField-3 BF3230` → DPU: va DENTRO de servidores, no es fila de DCIM
+- ⚠️ `ConnectX-7` y `AOC-623106AN` (ConnectX-6) → NICs; tus SYS-422GS llevan **ConnectX-8** (modelo distinto)
+- ❌ `XE9680` → Dell PowerEdge XE9680 — **NO está en la topología Fabricato** (¿otro proyecto/capacitación?)
+
+**Patrones troubleshooting comunes (aplicar a S2 diagnóstico y S6 incidentes):**
+- Servidores (Supermicro): no enciende → cortocircuito/batería CMOS · sin video → DIMM · POST fallido → quitar todo y boot mínimo · errores memoria → reseat + swap entre ranuras
+- Switches (Spectrum): LED sistema parpadea >5min → SO no arrancó, entrar por consola · LED ámbar/rojo → CPU/firmware/temp · LED fan/PSU → FRU swap
+- NICs/DPU: no la detecta → reseat ranura PCIe + drivers + BIOS · LED enlace off → cable/puerto/longitud · LED on sin tráfico → velocidad+dúplex
+- UFM appliance: LED rojo → llamar NVIDIA · SSD ámbar → swap disco · RAID rebuild hasta 48h
+
+**Uso:** material directo del flujo **síntoma → causa → solución** que exige tu cargo. Priorizar hojas: SYS-422GS, MSN5610, MSN2201 (las que más verás).
