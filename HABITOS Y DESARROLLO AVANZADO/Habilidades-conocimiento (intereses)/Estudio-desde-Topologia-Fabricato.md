@@ -53,6 +53,9 @@
 
 ## 🧠 Diccionario DC — qué es / para qué sirve / cómo funciona (todos los equipos)
 
+> **Jerarquía de conteo (verificada 12/10):** 637 unidades físicas → **20 roles** funcionales → **27 SKUs** (part numbers exactos) → **16 entradas** de diccionario (variantes agrupadas: 7 ODF→1, 4 SN5610→1, 2 Power Shelf→1, SN2201+SSE→1, 2 routers→1; + rack y cableado).
+> Estudias 16 · Operas 27 · Registras 637.
+
 ### 🟢 CÓMPUTO
 
 **1. GPU Server SYS-422GS ×144 — «la fábrica de IA»**
