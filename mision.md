@@ -1,6 +1,6 @@
 ---
 created: 2026-05-25
-updated: 2026-10-04
+updated: 2026-10-11
 source: "Mr. Jair — iOS / Telegram"
 ---
 
@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 MISSIONS
 
-### Última actualización: `04 Oct 2026 — 20:00`
+### Última actualización: `11 Oct 2026 — 20:00`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -19,24 +19,43 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Lunes 05/10
+## 🔥 HOY — Lunes 12/10
 
-> Arranque Semana 2 (FRUs). Focus: DC S2 + Ghost Trader validación.
+> Arranque Semana 12–18. Focus: Ghost Trader validación + arrastre Meta Ads nicho.
 
 - [ ] 📚 Lectura diaria
-- [ ] 🖥️ DC S2-Lun: FRUs (bloque noche 6:30-9:30)
-- [ ] 🖥️ Ghost Trader — validar prototipo funcional (foco principal noche)
+- [ ] 🖥️ DC — bloque noche 6:30-9:30
+- [ ] 🖥️ Ghost Trader — validar prototipo funcional *(foco principal noche)*
 - [ ] 💊 Creatina noche
 
 ---
 
-## 📅 MAÑANA — Martes 06/10
+## 📅 MAÑANA — Martes 13/10
 
-> Meta Ads día: desbloqueo de nicho (arrastre desde 22/09).
+> Meta Ads día: desbloqueo de nicho (arrastre desde 22/09 — 3 semanas).
 
 - [ ] 📚 Lectura diaria
+- [ ] 🏋️ Confirmar reantración gym *(rápida)*
 - [ ] 📢 Meta Ads — definir nicho específico *(prioridad semanal)*
 - [ ] 💊 Creatina noche
+
+---
+
+## 📅 SEMANA 12–18 Oct 2026
+
+> Horario: L-V 8 AM-5 PM (datacenter) | Noche: 6:30-9:30 PM (bloque DC + foco)
+> Distribución: Lun arranque | Mar/Jue Meta Ads | Mié Prototipo X | Vie cierre + hábitos | Sáb flex
+> ⚠️ Gym: reantración pendiente de confirmar (suspendido desde Sep)
+
+| Día | Mañana (5:10-8:00 AM) | Noche (6:30-9:30 PM) |
+|-----|----------------------|----------------------|
+| **Lun 12** | 📚 Lectura | 🖥️ DC bloque noche + 🖥️ Ghost Trader: validar prototipo + 💊 Creatina |
+| **Mar 13** | 📚 Lectura + 🏋️ Confirmar reantración gym | 🖥️ DC bloque noche + 📢 Meta Ads: definir nicho + 💊 Creatina |
+| **Mié 14** | 📚 Lectura | 🖥️ DC bloque noche + 🔧 Prototipo X: sensor ultrasónico + alerta + 💊 Creatina |
+| **Jue 15** | 📚 Lectura | 🖥️ DC bloque noche + 📢 Meta Ads: investigar 10 productos + 💊 Creatina |
+| **Vie 16** | 📚 Lectura | 🖥️ DC bloque noche + 📋 Revisión semanal + 💰 Ajustar proyecciones + 💊 Creatina |
+| **Sáb 17** | 📚 Lectura + 🧘 Descanso activo | 🏠 Lavar prendas + 🔧 Go Kart (flex) + 💊 Creatina |
+| **Dom 18** | 📚 Lectura | 🛋️ Descanso + Planificación siguiente semana |
 
 ---
 
@@ -58,7 +77,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 📅 MAÑANA — Jueves 01/10
+## 🗂️ Jueves 01/10 (archivo)
 
 > DC día: ESD + seguridad física + SOP/MOP.
 
