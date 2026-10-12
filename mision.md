@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 MISSIONS
 
-### Última actualización: `11 Oct 2026 — 20:00`
+### Última actualización: `12 Oct 2026 — 18:15`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -21,41 +21,43 @@ source: "Mr. Jair — iOS / Telegram"
 
 ## 🔥 HOY — Lunes 12/10
 
-> Arranque Semana 12–18. Focus: Ghost Trader validación + arrastre Meta Ads nicho.
+> Arranque Semana 12–18. Focus: **Fase 1 DC — equipos y troubleshooting.** ✅ Tarde: SYS-122H aprobado 3/3.
 
 - [ ] 📚 Lectura diaria
-- [ ] 🖥️ DC — bloque noche 6:30-9:30
-- [ ] 🖥️ Ghost Trader — validar prototipo funcional *(foco principal noche)*
+- [ ] 🖥️ DC — SYS-422GS-NB3RT-LCC: ficha oficial + anatomía FRUs *(foco principal noche)*
+- [ ] 🖥️ DC — XLSX hoja SYS-422GS: Issue → Causa → Solución
+- [ ] ⏰ Pago programado 21:07 (recordatorio automático)
 - [ ] 💊 Creatina noche
 
 ---
 
 ## 📅 MAÑANA — Martes 13/10
 
-> Meta Ads día: desbloqueo de nicho (arrastre desde 22/09 — 3 semanas).
+> DC día: troubleshooting servidores Supermicro (formato XLSX).
 
 - [ ] 📚 Lectura diaria
+- [ ] 🖥️ DC — XLSX: SYS-122H + ASG-1115S (POST, DIMM, CMOS, no enciende)
 - [ ] 🏋️ Confirmar reantración gym *(rápida)*
-- [ ] 📢 Meta Ads — definir nicho específico *(prioridad semanal)*
 - [ ] 💊 Creatina noche
 
 ---
 
 ## 📅 SEMANA 12–18 Oct 2026
 
-> Horario: L-V 8 AM-5 PM (datacenter) | Noche: 6:30-9:30 PM (bloque DC + foco)
-> Distribución: Lun arranque | Mar/Jue Meta Ads | Mié Prototipo X | Vie cierre + hábitos | Sáb flex
+> Horario: L-V 8 AM-5 PM (datacenter) | Noche: 6:30-9:30 PM (bloque DC)
+> ⚡ Noches = 100% estudio DC (Fase 1: equipos → armar/desarmar)
+> 📌 Proyectos PAUSADOS (Ghost Trader, Meta Ads, Prototipo X) — prioridad total DC
 > ⚠️ Gym: reantración pendiente de confirmar (suspendido desde Sep)
 
 | Día | Mañana (5:10-8:00 AM) | Noche (6:30-9:30 PM) |
 |-----|----------------------|----------------------|
-| **Lun 12** | 📚 Lectura | 🖥️ DC bloque noche + 🖥️ Ghost Trader: validar prototipo + 💊 Creatina |
-| **Mar 13** | 📚 Lectura + 🏋️ Confirmar reantración gym | 🖥️ DC bloque noche + 📢 Meta Ads: definir nicho + 💊 Creatina |
-| **Mié 14** | 📚 Lectura | 🖥️ DC bloque noche + 🔧 Prototipo X: sensor ultrasónico + alerta + 💊 Creatina |
-| **Jue 15** | 📚 Lectura | 🖥️ DC bloque noche + 📢 Meta Ads: investigar 10 productos + 💊 Creatina |
-| **Vie 16** | 📚 Lectura | 🖥️ DC bloque noche + 📋 Revisión semanal + 💰 Ajustar proyecciones + 💊 Creatina |
-| **Sáb 17** | 📚 Lectura + 🧘 Descanso activo | 🏠 Lavar prendas + 🔧 Go Kart (flex) + 💊 Creatina |
-| **Dom 18** | 📚 Lectura | 🛋️ Descanso + Planificación siguiente semana |
+| **Lun 12** | 📚 Lectura | 🖥️ DC: ficha SYS-422GS + anatomía FRUs + 💊 Creatina |
+| **Mar 13** | 📚 Lectura + 🏋️ Confirmar gym | 🖥️ DC XLSX: troubleshooting servidores (SYS-122H/422GS/ASG) + 💊 Creatina |
+| **Mié 14** | 📚 Lectura | 🖥️ DC XLSX: troubleshooting switches (MSN5610/2201/4700/MQM3400) + 💊 Creatina |
+| **Jue 15** | 📚 Lectura | 🖥️ DC: óptica y cables — 6 PDFs (800G OSFP, 400G, 100G QSFP28, DAC) + 💊 Creatina |
+| **Vie 16** | 📚 Lectura | 🖥️ DC: cálculos topología (2.112kW, 1.152 GPUs, 10.049 cables) + 📋 Revisión semanal + 💊 Creatina |
+| **Sáb 17** | 📚 Lectura + 🔐 SSH básico + 🧘 Descanso | 🖥️ DC: simulacro desmontaje SYS-122H/422GS (orden en papel) + 🏠 Lavar prendas + 💊 Creatina |
+| **Dom 18** | 📚 Lectura | 🛋️ Descanso + Planificación Fase 1 + 📨 Pedir PDFs faltantes (ARS-121GL, NVLink, Power Shelf, CDU) |
 
 ---
 
@@ -258,6 +260,8 @@ source: "Mr. Jair — iOS / Telegram"
 ---
 
 ## 💰 PROYECTOS
+
+> ⏸️ **PAUSADOS — prioridad datacenter (Fase 1).** Retomar después de dominar equipos. Solo tareas marcadas "URGENTE" se reactivan.
 
 ### 🏍️ Prototipo X — Copiloto Moto
 > **Objetivo:** Hardware para entender el tráfico — puntos ciegos, ángulos muertos, visibilidad reducida.
