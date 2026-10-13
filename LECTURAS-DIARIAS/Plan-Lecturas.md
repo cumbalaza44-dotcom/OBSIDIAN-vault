@@ -53,7 +53,7 @@
 
 ### C — 📈 Finanzas Personales
 - [x] Interés Compuesto — La octava maravilla del mundo (con calculadora real) ✅ 2026-09-22
-- [ ] Regla del 50/30/20 — Presupuesto simple que funciona
+- [x] Regla del 50/30/20 — Presupuesto simple que funciona ✅ 2026-10-13
 - [ ] Fondo de Emergencia — Cuánto necesitas y dónde guardarlo
 - [ ] Diferencia entre deuda "buena" y deuda "mala"
 - [ ] Fondo de Emergencia — Cuánto necesitas y dónde guardarlo
