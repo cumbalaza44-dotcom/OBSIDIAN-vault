@@ -23,7 +23,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 > Focus: Fase 1 — XLSX troubleshooting servidores. ✅ Anoche: SYS-422GS 3/3 + ASG-1115S 3/3.
 
-- [ ] 📚 Lectura diaria *(pendiente — ventana AM cerrada)*
+- [x] 📚 Lectura diaria *(pendiente — ventana AM cerrada)*
 - [ ] 🏋️ Confirmar reantración gym *(vencía hoy)*
 - [ ] 🖥️ DC — XLSX: SYS-122H + ASG-1115S (POST, DIMM, CMOS) *(foco noche 6:30-9:30)*
 - [ ] 💊 Creatina noche
