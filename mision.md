@@ -19,25 +19,23 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Lunes 12/10
+## 🔥 HOY — Martes 13/10
 
-> Arranque Semana 12–18. Focus: **Fase 1 DC — equipos y troubleshooting.** ✅ Tarde: SYS-122H aprobado 3/3.
+> Focus: Fase 1 — XLSX troubleshooting servidores. ✅ Anoche: SYS-422GS 3/3 + ASG-1115S 3/3.
 
-- [ ] 📚 Lectura diaria
-- [ ] 🖥️ DC — SYS-422GS-NB3RT-LCC: ficha oficial + anatomía FRUs *(foco principal noche)*
-- [ ] 🖥️ DC — XLSX hoja SYS-422GS: Issue → Causa → Solución
-- [ ] ⏰ Pago programado 21:07 (recordatorio automático)
+- [ ] 📚 Lectura diaria *(pendiente — ventana AM cerrada)*
+- [ ] 🏋️ Confirmar reantración gym *(vencía hoy)*
+- [ ] 🖥️ DC — XLSX: SYS-122H + ASG-1115S (POST, DIMM, CMOS) *(foco noche 6:30-9:30)*
 - [ ] 💊 Creatina noche
 
 ---
 
-## 📅 MAÑANA — Martes 13/10
+## 📅 MAÑANA — Miércoles 14/10
 
-> DC día: troubleshooting servidores Supermicro (formato XLSX).
+> DC día: troubleshooting switches (formato XLSX con Causa).
 
 - [ ] 📚 Lectura diaria
-- [ ] 🖥️ DC — XLSX: SYS-122H + ASG-1115S (POST, DIMM, CMOS, no enciende)
-- [ ] 🏋️ Confirmar reantración gym *(rápida)*
+- [ ] 🖥️ DC — XLSX: MSN5610 + MSN2201 + MSN4700 + MQM3400 (LEDs, consola, FRUs)
 - [ ] 💊 Creatina noche
 
 ---
