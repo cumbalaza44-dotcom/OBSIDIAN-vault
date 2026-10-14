@@ -108,9 +108,31 @@
 - [ ] **XE9680** (fuera de topología — verificar origen)
 - [ ] **Faltan equipos sin hoja:** ARS-121GL, SSE-NVL72SW, Power Shelf, CDU, SN5610 datasheet, Juniper MX204, Opengear
 
+## 🧭 Orden canónico de diagnóstico (bisect)
+
+Cortar el problema a la mitad en cada paso — barato→caro Y remoto→local→invasivo:
+
+1. **Ticket → etiqueta:** verificar activo (rack, U, serial) antes que nada.
+2. **Blast radius:** ¿otros equipos del rack con el mismo síntoma? → Sí = aguas arriba (PDU/switch OOB). No = este nodo.
+3. **Remoto primero:** ¿link del puerto OOB en el switch? UP → BMC vivo → problema en red/monitoreo (IP/ARP/agente). DOWN → lado servidor → bajas al rack.
+4. **Visual no invasivo:** power LED, BMC_HB, PSU LEDs, **velocidad de fans** (máxima = failsafe con BMC muerto; normal = otro escenario).
+5. **Dos pistas en paralelo, sin mezclar:** gestión (BMC) y cómputo (POST/video). BMC muerto no lo explican CPU/RAM (el BMC vive de standby).
+6. **Escalada de acción:** power cycle (60s) → reset standalone BMC → recuperación firmware → escalar/RMA. Un eslabón por vez.
+7. **Validar + documentar** en DCIM/playbook.
+
+---
+
 ## 📋 Reglas transversales (aplican a TODOS)
 1. **Orden de diagnóstico:** lo más barato → lo más caro (cable → FRU → procedimiento fabricante → procedimiento DC).
 2. **Flujo:** síntoma → LED/log → causa → swap mínimo → validar → documentar en DCIM.
 3. **ESD siempre** antes de tocar componentes internos.
 4. **Un solo cambio a la vez** — si cambias dos cosas, no sabes cuál lo arregló.
 5. **Documentar después de cada intervención:** serial, hora, técnico, resultado.
+
+---
+
+## 📝 Registro de casos simulados
+
+**CASO 1 (13/10) — SYS-122H, rack NR-A4, BMC sin heartbeat:** ✅ cerrado.
+- Aciertos: verificar activo, separar dominios (potencia ≠ gestión), blast radius, no tocar nada (remoto→local), sospecha #1 BMC correcta, CPU/RAM descartada con buena lógica (BMC vive de standby).
+- Brecha identificada: el ORDEN de ejecución — de ahí nació el marco "Orden canónico (bisect)" de arriba.
