@@ -102,10 +102,10 @@
 
 ## ⏳ Cola — equipos por revisar (hojas XLSX pendientes)
 
-- [ ] **Switches (Mié 14):** MSN5610-WS2RC · MSN2201-CB2RC · MSN4700-WS2RC · SSE-MQM3400-RA — patrón: LED sistema parpadea >5min → SO caído → consola · LED ámbar/rojo → CPU/firmware/temp · LED fan/PSU → FRU swap
-- [ ] **NICs/DPUs:** BlueField-3 · ConnectX-7 · AOC-623106AN — no detecta → reseat PCIe + drivers + BIOS · LED off → cable/puerto · LED on sin tráfico → velocidad+dúplex
-- [ ] **UFM MUA9702H:** LED rojo → escalar NVIDIA · SSD ámbar → swap · rebuild 48h · power cycle 5 min antes de escalar
-- [ ] **XE9680** (fuera de topología — verificar origen)
+- [x] **Switches (15/10 → Planes-Soporte-Red-UFM-otros.md):** MSN5610-WS2RC · MSN2201-CB2RC · MSN4700-WS2RC · SSE-MQM3400-RA — patrón: LED sistema parpadea >5min → SO caído → consola · LED ámbar/rojo → CPU/firmware/temp · LED fan/PSU → FRU swap
+- [x] **NICs/DPUs (15/10):** BlueField-3 · ConnectX-7 · AOC-623106AN — no detecta → reseat PCIe + drivers + BIOS · LED off → cable/puerto · LED on sin tráfico → velocidad+dúplex
+- [x] **UFM MUA9702H (15/10):** LED rojo → escalar NVIDIA · SSD ámbar sólido → swap · parpadeante = rebuild 48h · power cycle 5 min antes de escalar
+- [x] **XE9680 (15/10):** matriz de 5 indicadores (disco/temp/eléctrico/memoria/PCIe) — fuera de topología, verificar origen en sitio
 - [ ] **Faltan equipos sin hoja:** ARS-121GL, SSE-NVL72SW, Power Shelf, CDU, SN5610 datasheet, Juniper MX204, Opengear
 
 ## 📦 RMA con fabricantes (runbook)
