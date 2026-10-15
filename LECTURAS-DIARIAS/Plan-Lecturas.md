@@ -111,7 +111,7 @@
 - [ ] Edición en Capas — Flujo de trabajo profesional en CapCut/Premiere
 - [ ] Color Grading — Cómo el color cambia la emoción de un video
 - [ ] Sonido > Imagen — Por qué el audio malo arruina el mejor video
-- [ ] Hooks de 3 Segundos — Las primeras palabras que deciden si te ven o scrollan
+- [x] Hooks de 3 Segundos — Las primeras palabras que deciden si te ven o scrollan ✅ 2026-10-15
 - [ ] Repurposing — Cómo convertir 1 video en 10 piezas de contenido
 - [ ] Thumbnail Science — Diseño de miniaturas que generan clics
 - [ ] Métricas de Video — Qué significan watch time, retention, CTR y cómo mejorarlos
