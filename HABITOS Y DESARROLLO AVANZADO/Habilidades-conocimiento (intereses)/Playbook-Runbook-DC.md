@@ -108,6 +108,43 @@
 - [ ] **XE9680** (fuera de topología — verificar origen)
 - [ ] **Faltan equipos sin hoja:** ARS-121GL, SSE-NVL72SW, Power Shelf, CDU, SN5610 datasheet, Juniper MX204, Opengear
 
+## 📦 RMA con fabricantes (runbook)
+1. **Verificar:** modelo, P/N exacto, serial, garantía — diagnosticar tú primero (los fabricantes piden pruebas previas).
+2. **Abrir caso:** evidencias = logs/BMC, foto del LED, índice del componente (serial, U, rack).
+3. **Obtener RMA#** + dirección + P/N de reemplazo autorizado.
+4. **Extraer** el FRU con ESD · empaque antiestático · etiqueta con RMA#.
+5. **Registrar:** activo en estado "en RMA" con guía de envío en DCIM.
+6. **Recibir:** validar P/N vs autorizado, seriales, condición física — NO instalar sin validar.
+7. **Instalar + validar:** POST, enlaces, sensores, burn-in mínimo.
+8. **Cerrar:** actualizar DCIM (alta del repuesto, baja del viejo), ticket con evidencias.
+
+## ✅ Commissioning / validación post-mantenimiento
+Checklist antes de dar por cerrada CUALQUIER intervención:
+- [ ] POST completo + BMC accesible
+- [ ] Enlaces: velocidad negociada = diseño, sin CRC/discards nuevos
+- [ ] Sensores en rango (temp, fans, PSU, caudal si líquido)
+- [ ] Versión firmware vs baseline
+- [ ] Prueba funcional del componente tocado (disco→SMART, DIMM→sin ECC nuevos, PSU→carga OK)
+- [ ] Bitácora: qué, cuándo, quién, resultado
+- [ ] DCIM actualizado: P/N, estado, fecha
+- [ ] Ticket cerrado con evidencia (foto + logs)
+
+## 🤝 Matriz de escalamiento (coordinación de tu cargo)
+| Tú (Hardware) | Network Ops | Physical Connectivity | Datacenter Ops |
+|---|---|---|---|
+| FRU, BIOS/BMC, POST, RAID, swap de componentes | Config switch/fabric, rutas, VLANs, UFM | Cableado, patch, fibra MPO/LC, etiquetado, ODF | Energía PDU/UPS, CDU, clima, ambiente, acceso |
+
+- **Escalas a NetOps:** enlace caído no resuelto con óptica/cable, config, fabric.
+- **Escalas a PhysConn:** cable/fibra dañada, troncales, etiquetado, patch.
+- **Escalas a DCOps:** energía, temperatura de sala, fugas, permisos de rack.
+- **P1:** todos los equipos — tú lideras el hardware; comunicación con severidad y ventana desde el minuto 1.
+
+## 📇 Rutina DCIM / inventario
+Campos vivos por activo: serial · P/N · rack/U exacto · estado (operativo/en RMA/baja) · fecha último mantenimiento · garantía · responsable.
+**Regla: cambio físico = actualización en DCIM en el mismo turno.**
+
+---
+
 ## 🧭 Orden canónico de diagnóstico (bisect)
 
 Cortar el problema a la mitad en cada paso — barato→caro Y remoto→local→invasivo:
