@@ -63,10 +63,6 @@
 - **Para qué:** entrenamiento e inferencia de IA — todo el cálculo pesado vive aquí.
 - **Cómo funciona:** las 8 GPUs se enlazan por NVLink 5 (1.8TB/s) para actuar como una sola; los Xeon reparten tareas y manejan E/S; entrena por 8× OSFP 800G (ConnectX-8); se enfría por cold plate líquido y sus 4 fans solo cubren componentes secundarios.
 
-**2. Server ARS-121GL ×144 — «nodo GB300»** (confirmar rol exacto en sitio)
-- **Qué es:** nodo 1U líquido familia GB300/Blackwell con power delivery por busbar.
-- **Para qué:** cómputo en el rack GB300 — nodo de servidores del sistema NVL72.
-- **Cómo funciona:** recibe 50 VDC por busbar (no cables AC), se enlaza por NVLink C2C con GPUs, arranque desde E1.S.
 
 **3. CPU Node SYS-122H-TN ×12 — «el servidor general»**
 - **Qué es:** servidor 1U dual Xeon, sin GPU dedicada.
