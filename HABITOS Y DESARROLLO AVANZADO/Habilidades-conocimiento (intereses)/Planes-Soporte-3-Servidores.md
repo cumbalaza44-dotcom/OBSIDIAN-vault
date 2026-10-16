@@ -1,4 +1,4 @@
-# 📋 Planes de Soporte — Los 3 Servidores (GPU / CPU / Storage)
+  # 📋 Planes de Soporte — Los 3 Servidores (GPU / CPU / Storage)
 
 > Plantilla: Presentación SYS-122H-TN Plan de Soporte (47 slides, 14/10/2026).
 > Estructura por servidor: Perfil → Subsistemas → Plan de soporte (6 frentes) → Checklist → Puntos de control.
