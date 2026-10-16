@@ -85,7 +85,7 @@ Todo proceso del manual usa estas 8 secciones — sin excepción:
 
 | # | Equipo | Fuente PDF | Estado |
 |---|---|---|---|
-| 1 | SYS-422GS (GPU) | ✅ manual OEM MNL-2917 | **procesos PSU+FAN listos** |
+| 1 | SYS-422GS (GPU) | ✅ manual OEM MNL-2917 | **procesos listos: P-422-PSU-01 · P-422-FAN-02 (notas propias)** |
 | 2 | SYS-122H (CPU) | ✅ PDF local + PPTX 47 slides | pendiente |
 | 3 | ASG-1115S (Storage) | ✅ manual OEM | pendiente |
 | 4 | Switches SN2201/SN4700/MQM3400 | ✅ troubleshooting + Q32xx/Q34xx manual | pendiente |
