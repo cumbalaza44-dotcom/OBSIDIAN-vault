@@ -48,7 +48,7 @@
 - [ ] UGC (User Generated Content) — Por qué el contenido de usuarios vende más que el tuyo
 - [x] FOMO y Escasez — Cómo usar la urgencia sin perder ética ✅ 2026-10-14
 - [x] Cross-sell y Upsell — Técnicas de venta adicional que funcionan ✅ 2026-09-20
-- [ ] Churn Rate — Por qué perder clientes es más grave de lo que parece
+- [x] Churn Rate — Por qué perder clientes es más grave de lo que parece ✅ 2026-10-16
 - [ ] A/B Testing — Cómo tomar decisiones con datos, no con intuición
 
 ### C — 📈 Finanzas Personales
@@ -176,6 +176,6 @@
 
 **Total pendientes: 135 temas**
 **Pool estimado: ~4.5 meses de lectura diaria sin repetir**
-**Ley seleccionada hoy: Patrones de Diseño — Singleton, Factory, Observer**
-**Fecha de lectura: 2026-09-28**
+**Ley seleccionada hoy: Churn Rate — Por qué perder clientes es más grave de lo que parece**
+**Fecha de lectura: 2026-10-16**
 **Estado**: Completada
