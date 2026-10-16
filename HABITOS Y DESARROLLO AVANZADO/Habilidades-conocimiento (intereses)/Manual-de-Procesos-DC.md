@@ -1,0 +1,97 @@
+# 📘 Manual de Procesos DC — Playbook Operativo
+
+> Misión: **manual (playbook) de los 16 equipos** — observar equipo → definir proceso → redactar cómo hacerlo.
+> Fuentes: 10 PDFs OEM (16/10/2026) + Estándar de Etiquetado SOMOS-DC-EST-001 + XLSX Troubleshooting_plan_APN.
+> Complementa: Playbook-Runbook-DC.md (troubleshooting R/M/G) · Planes-Soporte-*.md (operación).
+> Creado: 16/10/2026.
+
+---
+
+## 🧩 Estructura canónica de todo proceso (plantilla SOP)
+
+Todo proceso del manual usa estas 8 secciones — sin excepción:
+
+1. **IDENTIFICACIÓN** — equipo + modelo/SKU · ID (`P-<equipo>-<componente>-<nn>`) · versión · fecha.
+2. **OBJETIVO Y ALCANCE** — qué logra (1 frase) · cuándo aplica · cuándo NO.
+3. **PREREQUISITOS** — ticket/ventana · ESD · herramientas · repuesto validado (P/N vs autorizado).
+4. **RIESGO Y SEGURIDAD** — severidad (P1-P4) · blast radius · peligros del equipo (líquido, 240VAC, 84 kg).
+5. **PROCEDIMIENTO** — pasos numerados, 1 acción por paso, con checkpoint ✅ verificable.
+6. **VALIDACIÓN** — checklist de cierre (POST, enlaces, sensores, firmware, prueba funcional).
+7. **ROLLBACK** — cómo volver atrás o "no aplica".
+8. **REGISTRO** — bitácora + DCIM + ticket con evidencia. **Cambio físico = DCIM en el mismo turno.**
+
+---
+
+## 📋 Procesos por equipo
+
+### 🟢 P-422 — SYS-422GS-NB3RT-LCC (GPU ×144) — EQUIPO 1 ✅
+
+#### P-422-PSU-01 — Reemplazo de PSU 6.6kW en caliente (2+2)
+1. **IDENTIFICACIÓN:** SYS-422GS-NB3RT-LCC · PSU 6.6kW Titanium · v1 · 16/10/2026 · fuente: manual OEM §3.9.
+2. **OBJETIVO:** sustituir una PSU fallida sin apagar el equipo. **NO aplica** si hay 2+ PSU caídas o alarma de sobrecarga → escalar.
+3. **PREREQUISITOS:** ticket + ventana · ESD · repuesto P/N validado vs DCIM · PSU fallida identificada (Power Fail LED o Information LED 0.25 Hz parpadeando rojo).
+4. **RIESGO:** P3 aislada · P1 si cae el mismo lado dos veces. **240VAC** — extraer/enrutar cable en la otra mano, nunca jalar del conector.
+5. **PROCEDIMIENTO:**
+   1. Confirmar en BMC que solo 1 PSU falla (4→3, sin voltaje alterado en el otro lado).
+   2. Validar repuesto: P/N, seriales, condición física, mismo airflow C2P.
+   3. Soltar el retén; extraer la PSU en línea recta, sin forzar.
+   4. Insertar repuesto hasta el clic del retén; fijar cable retainer.
+   5. ✅ **Checkpoint:** LED repuesto verde sólido en <30 s · BMC 4/4 PSU · Power Fail LED apagado.
+   6. Etiquetar la PSU extraída con RMA/ticket.
+6. **VALIDACIÓN:** 4/4 verde · sin alarmas nuevas · sin caída de enlaces · sin throttle GPU.
+7. **ROLLBACK:** si el repuesto no enciende, reinsertar la original (si el equipo sigue estable) y escalar.
+8. **REGISTRO:** bitácora · DCIM (vieja = "en RMA", nueva con P/N/serial) · ticket con foto del LED.
+
+> ⚠️ **NO** cerrar el turno con 3 PSU — la pendiente se repara el mismo turno.
+
+#### P-422-FAN-02 — Reemplazo de fan externo (4× hot-swap)
+1. **IDENTIFICACIÓN:** SYS-422GS · fans 80mm hot-swap ×4 · v1 · fuente: manual OEM §3.8.
+2. **OBJETIVO:** cambiar el fan fallido (Information LED rojo parpadeante 1 Hz) sin apagar.
+3. **PREREQUISITOS:** ticket · ESD · fan repuesto mismo P/N/airflow.
+4. **RIESGO:** P3 — pero **NO confundir con temperatura de GPU**: si el loop de líquido está mal, cambiar fans no arregla nada (primero CDU/caudal).
+5. **PROCEDIMIENTO:**
+   1. Identificar fan caído en BMC (RPM = 0 o LED 1 Hz).
+   2. Verificar que nada bloquea el airflow (blanks, cables).
+   3. Extraer el módulo por el retén; insertar repuesto hasta el clic.
+   4. ✅ **Checkpoint:** RPM del fan repuesto en rango · LED 1 Hz apagado · sin alertas térmicas nuevas.
+6. **VALIDACIÓN:** temps GPU/CPU estables 10 min · todos los fans con RPM visible.
+7. **ROLLBACK:** reinsertar el original si el repuesto no arranca → escalar.
+8. **REGISTRO:** bitácora · DCIM fan FRU · ticket.
+
+*(Siguientes P-422: DIMM §3.4 · E1.S §3.6 · GPU drawer — confirmar MOP de líquido en sitio antes de redactar.)*
+
+---
+
+### 📎 Proceso transversal — Etiquetado (SOMOS-DC-EST-001 v3.2)
+
+#### P-TRX-LBL-01 — Etiquetado de cable nuevo / reparcheo
+1. **IDENTIFICACIÓN:** todos los equipos · estándar SOMOS-DC-EST-001 v3.2 · TIA-606-C / ISO-IEC 14763-2.
+2. **OBJETIVO:** que con solo leer la etiqueta se sepa dónde está cada punta y a qué circuito (CTO) pertenece.
+3. **PREREQUISITOS:** registro de circuitos actualizado · Panduit Easy-Mark Plus · sala conocida (G/F/N/E).
+4. **RIESGO:** P4 directo; etiqueta equivocada = P2 futuro (troubleshooting ciego).
+5. **PROCEDIMIENTO:**
+   1. Determinar sala+rack+U+puerto de AMBAS puntas: `SALA/RACK/POSICIÓN_U/PUERTO` (ej. `G01/R01/U05-08/IB0`).
+   2. Etiqueta por posición (origen/destino por posición, sin prefijos F:/T:) — 3 líneas con ID de circuito si pasa por ODF.
+   3. Troncales: `TR-<sala><rack>_<sala><rack>-nn`; lectura de la bandera de adentro hacia afuera.
+   4. Imprimir desde el Registro; verificar rango U del chasis (ej. U05-08) y nombres de puerto por equipo (BMC desde 0, twin-port = P01.1/P01.2).
+   5. ✅ **Checkpoint:** ambas puntas legibles desde el pasillo · coincide con el Registro de circuitos.
+6. **VALIDACIÓN:** revisión visual cruzada etiqueta ↔ registro ↔ DCIM.
+7. **ROLLBACK:** reetiquetar (nunca "dejar para después").
+8. **REGISTRO:** Registro de circuitos + DCIM actualizados el mismo turno.
+
+---
+
+## 🗺️ Ruta — 16 equipos → manual completo
+
+| # | Equipo | Fuente PDF | Estado |
+|---|---|---|---|
+| 1 | SYS-422GS (GPU) | ✅ manual OEM MNL-2917 | **procesos PSU+FAN listos** |
+| 2 | SYS-122H (CPU) | ❌ sin PDF aún | pendiente |
+| 3 | ASG-1115S (Storage) | ✅ manual OEM | pendiente |
+| 4 | Switches SN2201/SN4700/MQM3400 | ✅ troubleshooting + Q32xx/Q34xx manual | pendiente |
+| 5 | NICs/DPU (BF3/CX-7/CX-8/CX-6Dx) | ✅ 4 PDFs NVIDIA | pendiente |
+| 6 | UFM MUA9702H | ✅ manual Gen 3.5 | pendiente |
+| 7 | XE9680 | ✅ (indicadores) | pendiente |
+| 8-16 | NVL72SW, Power Shelf, CDU, ODF, Opengear, routers, rack | ❌ sin datasheets | esperando docs |
+
+**Dinámica por sesión:** observar 1 equipo (qué es/FRUs/LEDs) → elegir 1-2 procesos críticos → redactar SOP 8 secciones con fuente OEM → auto-test → siguiente.
