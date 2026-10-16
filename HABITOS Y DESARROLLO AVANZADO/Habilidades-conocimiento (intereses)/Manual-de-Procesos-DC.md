@@ -26,39 +26,10 @@ Todo proceso del manual usa estas 8 secciones — sin excepción:
 
 ### 🟢 P-422 — SYS-422GS-NB3RT-LCC (GPU ×144) — EQUIPO 1 ✅
 
-#### P-422-PSU-01 — Reemplazo de PSU 6.6kW en caliente (2+2)
-1. **IDENTIFICACIÓN:** SYS-422GS-NB3RT-LCC · PSU 6.6kW Titanium · v1 · 16/10/2026 · fuente: manual OEM §3.9.
-2. **OBJETIVO:** sustituir una PSU fallida sin apagar el equipo. **NO aplica** si hay 2+ PSU caídas o alarma de sobrecarga → escalar.
-3. **PREREQUISITOS:** ticket + ventana · ESD · repuesto P/N validado vs DCIM · PSU fallida identificada (Power Fail LED o Information LED 0.25 Hz parpadeando rojo).
-4. **RIESGO:** P3 aislada · P1 si cae el mismo lado dos veces. **240VAC** — extraer/enrutar cable en la otra mano, nunca jalar del conector.
-5. **PROCEDIMIENTO:**
-   1. Confirmar en BMC que solo 1 PSU falla (4→3, sin voltaje alterado en el otro lado).
-   2. Validar repuesto: P/N, seriales, condición física, mismo airflow C2P.
-   3. Soltar el retén; extraer la PSU en línea recta, sin forzar.
-   4. Insertar repuesto hasta el clic del retén; fijar cable retainer.
-   5. ✅ **Checkpoint:** LED repuesto verde sólido en <30 s · BMC 4/4 PSU · Power Fail LED apagado.
-   6. Etiquetar la PSU extraída con RMA/ticket.
-6. **VALIDACIÓN:** 4/4 verde · sin alarmas nuevas · sin caída de enlaces · sin throttle GPU.
-7. **ROLLBACK:** si el repuesto no enciende, reinsertar la original (si el equipo sigue estable) y escalar.
-8. **REGISTRO:** bitácora · DCIM (vieja = "en RMA", nueva con P/N/serial) · ticket con foto del LED.
-
-> ⚠️ **NO** cerrar el turno con 3 PSU — la pendiente se repara el mismo turno.
-
-#### P-422-FAN-02 — Reemplazo de fan externo (4× hot-swap)
-1. **IDENTIFICACIÓN:** SYS-422GS · fans 80mm hot-swap ×4 · v1 · fuente: manual OEM §3.8.
-2. **OBJETIVO:** cambiar el fan fallido (Information LED rojo parpadeante 1 Hz) sin apagar.
-3. **PREREQUISITOS:** ticket · ESD · fan repuesto mismo P/N/airflow.
-4. **RIESGO:** P3 — pero **NO confundir con temperatura de GPU**: si el loop de líquido está mal, cambiar fans no arregla nada (primero CDU/caudal).
-5. **PROCEDIMIENTO:**
-   1. Identificar fan caído en BMC (RPM = 0 o LED 1 Hz).
-   2. Verificar que nada bloquea el airflow (blanks, cables).
-   3. Extraer el módulo por el retén; insertar repuesto hasta el clic.
-   4. ✅ **Checkpoint:** RPM del fan repuesto en rango · LED 1 Hz apagado · sin alertas térmicas nuevas.
-6. **VALIDACIÓN:** temps GPU/CPU estables 10 min · todos los fans con RPM visible.
-7. **ROLLBACK:** reinsertar el original si el repuesto no arranca → escalar.
-8. **REGISTRO:** bitácora · DCIM fan FRU · ticket.
-
-*(Siguientes P-422: DIMM §3.4 · E1.S §3.6 · GPU drawer — confirmar MOP de líquido en sitio antes de redactar.)*
+#### Procesos detallados (notas propias)
+- **P-422-PSU-01 — Reemplazo de PSU 6.6kW en caliente (2+2)** → ver `P-422-PSU-01.md`
+- **P-422-FAN-02 — Reemplazo de fan externo (4× hot-swap)** → ver `P-422-FAN-02.md`
+- *(Siguientes P-422: DIMM §3.4 · E1.S §3.6 · GPU drawer — confirmar MOP de líquido en sitio antes de redactar.)*
 
 ---
 
