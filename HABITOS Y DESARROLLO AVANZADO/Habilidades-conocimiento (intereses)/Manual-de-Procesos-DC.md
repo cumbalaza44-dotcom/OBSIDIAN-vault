@@ -31,6 +31,16 @@ Todo proceso del manual usa estas 8 secciones — sin excepción:
 - **P-422-FAN-02 — Reemplazo de fan externo (4× hot-swap)** → ver `P-422-FAN-02.md`
 - *(Siguientes P-422: DIMM §3.4 · E1.S §3.6 · GPU drawer — confirmar MOP de líquido en sitio antes de redactar.)*
 
+#### 🗺️ Ruta P-422 — los 20 procesos extraíbles del manual OEM MNL-2917
+**Hechos:** ✅ 01 PSU §3.9 · ✅ 02 FAN §3.8
+- **A. Desmontaje (3):** 03 rails/rack §2.3-2.4 (2 personas) · 04 retiro de energía §3.1 · 05 acceso/chasis §3.2
+- **B. FRU (6):** 06 DIMM §3.4 · 07 E1.S §3.6 · 08 M.2 §3.6 · 09 PCIe/risers §3.7 · 10 batería §3.5 · 11 GPU drawer ⚠️ (requiere MOP líquido en sitio — NO redactar aún)
+- **C. Configuración (4):** 12 CMOS clear §4.2/7.4 · 13 VROC RAID §6.3 · 14 update BIOS/BMC §8 · 15 TPM §6.1
+- **D. Troubleshooting (3):** 16 árbol §7.3 + beep codes Anexo A · 17 crash dump BMC §7.4 · 18 interpretación Information LED §1.2
+- **E. Operación (2):** 19 checklist diario · 20 commissioning (→ vive en Playbook-Runbook-DC, solo enlazar)
+
+**Prioridad sugerida:** B (FRUs que toca a diario) → D (diagnóstico) → A → C → E.
+
 ---
 
 ### 📎 Proceso transversal — Etiquetado (SOMOS-DC-EST-001 v3.2)
