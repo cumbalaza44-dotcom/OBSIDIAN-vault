@@ -29,7 +29,7 @@
 - [ ] Sesgo de Confirmación — Cómo tu cerebro filtra la realidad para tener razón
 - [x] Paradoja de la Elección — Menos opciones = más ventas, más felicidad ✅ 2026-09-07
 - [x] Anclaje (Anchoring) — El truco mental detrás de los precios terminados en .99 ✅ 2026-09-03
-- [ ] Efecto Halo — Por qué un buen packaging vende más que un buen producto
+- [x] Efecto Halo — Por qué un buen packaging vende más que un buen producto ✅ 2026-10-17
 - [ ] Disonancia Cognitiva — Por qué el cliente se justifica después de comprar
 - [ ] Sesgo de Disponibilidad — Por qué confundes lo frecuente con lo probable
 - [ ] Efecto Placebo — Cómo la percepción crea valor real (en fitness, negocios, vida)
@@ -176,6 +176,6 @@
 
 **Total pendientes: 135 temas**
 **Pool estimado: ~4.5 meses de lectura diaria sin repetir**
-**Ley seleccionada hoy: Churn Rate — Por qué perder clientes es más grave de lo que parece**
-**Fecha de lectura: 2026-10-16**
+**Ley seleccionada hoy: Efecto Halo — Por qué un buen packaging vende más que un buen producto**
+**Fecha de lectura: 2026-10-17**
 **Estado**: Completada
