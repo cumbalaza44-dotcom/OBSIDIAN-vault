@@ -176,6 +176,6 @@
 
 **Total pendientes: 135 temas**
 **Pool estimado: ~4.5 meses de lectura diaria sin repetir**
-**Ley seleccionada hoy: Efecto Halo — Por qué un buen packaging vende más que un buen producto**
-**Fecha de lectura: 2026-10-17**
+**Ley seleccionada hoy: Pricing Psicológico — Estrategias de precio que aumentan margen sin perder clientes**
+**Fecha de lectura: 2026-10-18**
 **Estado**: Completada
