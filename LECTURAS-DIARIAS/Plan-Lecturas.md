@@ -176,6 +176,6 @@
 
 **Total pendientes: 135 temas**
 **Pool estimado: ~4.5 meses de lectura diaria sin repetir**
-**Ley seleccionada hoy: Pricing Psicológico — Estrategias de precio que aumentan margen sin perder clientes**
-**Fecha de lectura: 2026-10-18**
+**Ley seleccionada hoy: Regla de los 2 Minutos — Si toma menos de 2 min, hacelo ahora**
+**Fecha de lectura: 2026-10-19**
 **Estado**: Completada
