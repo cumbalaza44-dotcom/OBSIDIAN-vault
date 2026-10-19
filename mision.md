@@ -1,6 +1,6 @@
 ---
 created: 2026-05-25
-updated: 2026-10-11
+updated: 2026-10-18
 source: "Mr. Jair — iOS / Telegram"
 ---
 
@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 MISSIONS
 
-### Última actualización: `12 Oct 2026 — 18:15`
+### Última actualización: `18 Oct 2026 — 20:00`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -19,24 +19,43 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Martes 13/10
+## 🔥 HOY — Lunes 19/10
 
-> Focus: Fase 1 — XLSX troubleshooting servidores. ✅ Anoche: SYS-422GS 3/3 + ASG-1115S 3/3.
+> Focus: Arranque semana — consolidación DC Fase 1 + arrastre PDFs (rápida).
 
-- [x] 📚 Lectura diaria *(pendiente — ventana AM cerrada)*
-- [ ] 🏋️ Confirmar reantración gym *(vencía hoy)*
-- [ ] 🖥️ DC — XLSX: SYS-122H + ASG-1115S (POST, DIMM, CMOS) *(foco noche 6:30-9:30)*
+- [ ] 📚 Lectura diaria
+- [ ] 📨 Pedir PDFs faltantes DC — ARS-121GL, NVLink, Power Shelf, CDU *(arrastre Dom — rápida)*
+- [ ] 🖥️ DC — repaso XLSX: servidores + switches *(foco noche 6:30-9:30)*
 - [ ] 💊 Creatina noche
 
 ---
 
-## 📅 MAÑANA — Miércoles 14/10
+## 📅 MAÑANA — Martes 20/10
 
-> DC día: troubleshooting switches (formato XLSX con Causa).
+> Meta Ads día: desbloqueo de nicho (reactivación ligera).
 
 - [ ] 📚 Lectura diaria
-- [ ] 🖥️ DC — XLSX: MSN5610 + MSN2201 + MSN4700 + MQM3400 (LEDs, consola, FRUs)
+- [ ] 📢 Meta Ads — definir nicho específico *(prioridad semanal)*
+- [ ] 🖥️ DC — continuidad Fase 1 *(noche)*
 - [ ] 💊 Creatina noche
+
+---
+
+## 📅 SEMANA 19–25 Oct 2026
+
+> Horario: L-V 8 AM-5 PM (datacenter) | Noche: 6:30-9:30 PM (bloque DC)
+> 📌 DC sigue como base nocturna; proyectos reactivan ligero (máx 2 tareas/sección)
+> ⚠️ Gym: confirmar reanudación el Vie (suspendido desde Sep)
+
+| Día | Mañana (5:10-8:00 AM) | Noche (6:30-9:30 PM) |
+|-----|----------------------|----------------------|
+| **Lun 19** | 📚 Lectura + 📨 Pedir PDFs faltantes DC (rápida) | 🖥️ DC: repaso XLSX servidores+switches + 💊 Creatina |
+| **Mar 20** | 📚 Lectura | 📢 Meta Ads: definir nicho + 🖥️ DC continuidad + 💊 Creatina |
+| **Mié 21** | 📚 Lectura | 🔧 Prototipo X: sensor ultrasónico + alerta + 🖥️ DC + 💊 Creatina |
+| **Jue 22** | 📚 Lectura | 📢 Meta Ads: investigar 3 productos + 🖥️ DC + 💊 Creatina |
+| **Vie 23** | 📚 Lectura | 📋 Revisión semanal + 💰 Ajustar proyecciones + 🏋️ Confirmar reanudación gym + 💊 Creatina |
+| **Sáb 24** | 📚 Lectura + 🧘 Descanso | 🏠 Lavar prendas + 🔧 Go Kart (flex) + 💊 Creatina |
+| **Dom 25** | 📚 Lectura | 🛋️ Descanso + Planificación siguiente semana |
 
 ---
 
