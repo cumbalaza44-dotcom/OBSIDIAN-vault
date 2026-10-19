@@ -84,7 +84,7 @@
 - [x] Time Blocking — Cómo programar tu día por bloques, no por tareas ✅ 2026-09-05
 - [x] Deep Work — Bloques de concentración profunda (Cal Newport) ✅ 2026-10-03
 - [x] Automatización de Tareas Repetitivas — Qué automatizar primero (y con qué) ✅ 2026-10-12
-- [ ] Regla de los 2 Minutos — Si toma menos de 2 min, hacelo ahora
+- [x] Regla de los 2 Minutos — Si toma menos de 2 min, hacelo ahora ✅ 2026-10-19
 - [ ] Energía vs Tiempo — Por qué gestionar energía es mejor que gestionar horas
 - [ ] Hábitos Atómicos — El sistema de James Clear para construir hábitos que duran
 - [x] Eliminar, Simplificar, Automatizar, Delegar (ESAD) — Framework de productividad ✅ 2026-09-16
