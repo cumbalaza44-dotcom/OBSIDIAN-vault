@@ -1,6 +1,6 @@
 ---
 created: 2026-05-25
-updated: 2026-10-18
+updated: 2026-10-25
 source: "Mr. Jair — iOS / Telegram"
 ---
 
@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 MISSIONS
 
-### Última actualización: `18 Oct 2026 — 20:00`
+### Última actualización: `25 Oct 2026 — 20:00`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -19,18 +19,18 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Lunes 19/10
+## 🔥 HOY — Lunes 26/10
 
-> Focus: Arranque semana — consolidación DC Fase 1 + arrastre PDFs (rápida).
+> Focus: Arranque semana — DC Fase 1 + arrastre PDFs + nicho Meta Ads.
 
 - [ ] 📚 Lectura diaria
-- [ ] 📨 Pedir PDFs faltantes DC — ARS-121GL, NVLink, Power Shelf, CDU *(arrastre Dom — rápida)*
-- [ ] 🖥️ DC — repaso XLSX: servidores + switches *(foco noche 6:30-9:30)*
+- [ ] 📨 Pedir PDFs faltantes DC — ARS-121GL, NVLink, Power Shelf, CDU *(arrastre — rápida)*
+- [ ] 🖥️ DC — continuidad Fase 1 *(noche)*
 - [ ] 💊 Creatina noche
 
 ---
 
-## 📅 MAÑANA — Martes 20/10
+## 📅 MAÑANA — Martes 27/10
 
 > Meta Ads día: desbloqueo de nicho (reactivación ligera).
 
@@ -38,6 +38,24 @@ source: "Mr. Jair — iOS / Telegram"
 - [ ] 📢 Meta Ads — definir nicho específico *(prioridad semanal)*
 - [ ] 🖥️ DC — continuidad Fase 1 *(noche)*
 - [ ] 💊 Creatina noche
+
+---
+
+## 📅 SEMANA 26 Oct – 1 Nov 2026
+
+> Horario: L-V 8 AM-5 PM (datacenter) | Noche: 6:30-9:30 PM (bloque DC)
+> 📌 DC sigue como base nocturna; proyectos reactivan ligero (máx 2 tareas/sección)
+> ⚠️ Gym: reanudar progresivamente (suspendido desde Sep)
+
+| Día | Mañana (5:10-8:00 AM) | Noche (6:30-9:30 PM) |
+|-----|----------------------|----------------------|
+| **Lun 26** | 📚 Lectura + 📨 Pedir PDFs faltantes DC (rápida) | 🖥️ DC: continuidad Fase 1 + 💊 Creatina |
+| **Mar 27** | 📚 Lectura | 📢 Meta Ads: definir nicho + 🖥️ DC + 💊 Creatina |
+| **Mié 28** | 📚 Lectura | 🔧 Prototipo X: sensor ultrasónico + alerta + 🖥️ DC + 💊 Creatina |
+| **Jue 29** | 📚 Lectura | 📢 Meta Ads: investigar 3 productos + 🖥️ DC + 💊 Creatina |
+| **Vie 30** | 📚 Lectura | 📋 Revisión semanal + 💰 Ajustar proyecciones + 🏋️ Confirmar reanudación gym + 💊 Creatina |
+| **Sáb 31** | 📚 Lectura + 🧘 Descanso | 🏠 Lavar prendas + 🔧 Go Kart (flex) + 💊 Creatina |
+| **Dom 1** | 📚 Lectura | 🛋️ Descanso + Planificación siguiente semana |
 
 ---
 
