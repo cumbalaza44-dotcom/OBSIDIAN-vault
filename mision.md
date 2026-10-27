@@ -44,18 +44,18 @@ source: "Mr. Jair — iOS / Telegram"
 ## 📅 SEMANA 26 Oct – 1 Nov 2026
 
 > Horario: L-V 8 AM-5 PM (datacenter) | Noche: 6:30-9:30 PM (bloque DC)
-> 📌 DC sigue como base nocturna; proyectos reactivan ligero (máx 2 tareas/sección)
-> ⚠️ Gym: reanudar progresivamente (suspendido desde Sep)
+> 🎯 **100% DATA CENTER** — Ghost Trader, Meta Ads, Prototipo X y gym: PAUSADOS hasta el 1 de noviembre.
+> Base: Plan de Estudio S5 (DCIM + inventario + red física) · mañanas = S3 servidores IA + huecos de S1
 
 | Día | Mañana (5:10-8:00 AM) | Noche (6:30-9:30 PM) |
 |-----|----------------------|----------------------|
-| **Lun 26** | 📚 Lectura + 📨 Pedir PDFs faltantes DC (rápida) | 🖥️ DC: continuidad Fase 1 + 💊 Creatina |
-| **Mar 27** | 📚 Lectura | 📢 Meta Ads: definir nicho + 🖥️ DC + 💊 Creatina |
-| **Mié 28** | 📚 Lectura | 🔧 Prototipo X: sensor ultrasónico + alerta + 🖥️ DC + 💊 Creatina |
-| **Jue 29** | 📚 Lectura | 📢 Meta Ads: investigar 3 productos + 🖥️ DC + 💊 Creatina |
-| **Vie 30** | 📚 Lectura | 📋 Revisión semanal + 💰 Ajustar proyecciones + 🏋️ Confirmar reanudación gym + 💊 Creatina |
-| **Sáb 31** | 📚 Lectura + 🧘 Descanso | 🏠 Lavar prendas + 🔧 Go Kart (flex) + 💊 Creatina |
-| **Dom 1** | 📚 Lectura | 🛋️ Descanso + Planificación siguiente semana |
+| **Lun 26** ✅ | 📚 Lectura + 📨 PDFs DC | 🖥️ DC Fase 1 + 💊 Creatina |
+| **Mar 27** | 📚 Lectura | 🖥️ S5-Mar: inventario (seriales/FRUs/spares) + XLSX troubleshooting + 💊 Creatina |
+| **Mié 28** | 📚 Lectura + 🔍 S1 huecos: sensores ASHRAE | 🖥️ S5-Mié: red física equipo real (E3248P/S5232F/Z9664F) + 💊 Creatina |
+| **Jue 29** | 📚 Lectura + 🔍 S1 huecos: throttling GPU | 🖥️ S5-Jue: coordinación Network Ops / Physical Connectivity / DC Ops + 💊 Creatina |
+| **Vie 30** | 📚 Lectura + 🔍 S1 huecos: etiquetado TIA-606 | 🖥️ S5-Vie: SOP/MOP + ventanas de mantenimiento + 📋 Revisión semanal + 💊 Creatina |
+| **Sáb 31** | 📚 Lectura + 🧘 Descanso | 🖥️ S5 cierre: auditoría de rack ficticio (formato DCIM) + 🏠 Lavar prendas + 💊 Creatina |
+| **Dom 1** | 📚 Lectura | 🛋️ Descanso + Planificación semana 2 (S6 Incidentes) |
 
 ---
 
@@ -79,6 +79,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 ## 📅 SEMANA 12–18 Oct 2026
 
+<<<<<<< HEAD
 > Horario: L-V 8 AM-5 PM (datacenter) | Noche: 6:30-9:30 PM (bloque DC)
 > ⚡ Noches = 100% estudio DC (Fase 1: equipos → armar/desarmar)
 > 📌 Proyectos PAUSADOS (Ghost Trader, Meta Ads, Prototipo X) — prioridad total DC
@@ -270,6 +271,14 @@ source: "Mr. Jair — iOS / Telegram"
 </details>
 
 ---
+=======
+| Hábito | Frecuencia | Último registro |
+|--------|------------|-----------------|
+| 📚 Lectura diaria | Diario | Hoy 27/10 ⏳ |
+| 💊 Creatina 3-5g | Diario (noche) | Hoy 27/10 ✅ |
+| 🏋️ Gym | ⏸️ pausado | Pausado desde Sep — reevaluar después de la semana DC |
+| 🔬 Prototipo X | ⏸️ pausado | Pausado — prioridad DC |
+>>>>>>> f6faad9 (H.E.L.E.N. sync: 2026-10-27 14:48)
 
 ### 📊 En Progreso
 - [ ] Aumentar presupuesto alimentario personal
