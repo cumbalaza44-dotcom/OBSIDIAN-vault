@@ -25,9 +25,9 @@ source: "Mr. Jair — iOS / Telegram"
 > Focus hoy: romper el arrastre de PDFs + continuidad Fase 1.
 
 - [ ] 📚 Lectura diaria
-- [ ] 📨 Pedir PDFs faltantes DC — ARS-121GL, NVLink, Power Shelf, CDU *(arrastre 3 días — romperlo hoy)*
+- [x] 📨 Pedir PDFs faltantes DC — ARS-121GL, NVLink, Power Shelf, CDU *(arrastre 3 días — romperlo hoy)*
 - [ ] 🖥️ DC — S5-Mar: inventario (seriales/FRUs/spares) + XLSX troubleshooting servidores *(noche)*
-- [ ] 💊 Creatina noche
+- [x] 💊 Creatina noche
 
 ---
 
