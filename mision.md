@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 MISSIONS
 
-### Última actualización: `25 Oct 2026 — 20:00`
+### Última actualización: `27 Oct 2026 — 08:00`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -19,24 +19,24 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Lunes 26/10
+## 🔥 HOY — Martes 27/10
 
-> Focus: Arranque semana — DC Fase 1 + arrastre PDFs + nicho Meta Ads.
+> 🎯 **OBJETIVO SEMANA 27 Oct – 1 Nov: 100% DATA CENTER.** Ghost Trader, Meta Ads y Prototipo X pausados — sin tareas nuevas en ellos esta semana.
+> Focus hoy: romper el arrastre de PDFs + continuidad Fase 1.
 
 - [ ] 📚 Lectura diaria
-- [ ] 📨 Pedir PDFs faltantes DC — ARS-121GL, NVLink, Power Shelf, CDU *(arrastre — rápida)*
-- [ ] 🖥️ DC — continuidad Fase 1 *(noche)*
+- [ ] 📨 Pedir PDFs faltantes DC — ARS-121GL, NVLink, Power Shelf, CDU *(arrastre 3 días — romperlo hoy)*
+- [ ] 🖥️ DC — Fase 1: XLSX troubleshooting servidores *(noche)*
 - [ ] 💊 Creatina noche
 
 ---
 
-## 📅 MAÑANA — Martes 27/10
+## 📅 MAÑANA — Miércoles 28/10
 
-> Meta Ads día: desbloqueo de nicho (reactivación ligera).
+> Focus DC: anatomía FRUs + simulacro en papel.
 
 - [ ] 📚 Lectura diaria
-- [ ] 📢 Meta Ads — definir nicho específico *(prioridad semanal)*
-- [ ] 🖥️ DC — continuidad Fase 1 *(noche)*
+- [ ] 🖥️ DC — ficha/anatomía + simulacro desmontaje SYS-422GS/122H *(noche)*
 - [ ] 💊 Creatina noche
 
 ---
