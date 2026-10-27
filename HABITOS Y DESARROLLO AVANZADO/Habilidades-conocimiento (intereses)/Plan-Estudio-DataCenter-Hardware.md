@@ -125,7 +125,7 @@
 ## Progreso (checkpoint 27/10 — estado declarado por Mr. Jair)
 | Semana | Foco | Estado | Detalle |
 |--------|------|--------|---------|
-| 1 (28 Sep–4 Oct) | Físico + energía | 🟡 parcial | ✅ Rack/U · PDU · UPS · pasillo frío/caliente · cableado Cat6A/OM4/OS2/MPO · ESD · SOP/MOP — ❌ pendientes: **EPO** · sensores ASHRAE · throttling térmico GPU · etiquetado TIA-606 · regla 80% / trifásica |
+| 1 (28 Sep–4 Oct) | Físico + energía | 🟡 parcial (27/10) | ✅ Rack/U · PDU/UPS/**EPO** · mono/trifásica + regla 80% (auto-test ✔) · pasillo frío/caliente/CFM/blanks · cableado Cat6A/OM4/OS2/MPO · ESD · SOP/MOP — ❌ pendientes: sensores ASHRAE · throttling térmico GPU · etiquetado TIA-606 · cierre: 20 preguntas + dibujar rack |
 | 2 (5–11 Oct) | FRUs | 🟡 parcial | Cubierto vía runbooks (PSU 422GS/XE9680, fan, memoria, disco, iDRAC) — falta: RAID conceptual, identificación NICs/DPU, BMC/iLO/IPMI amplio |
 | 3 (12–18 Oct) | Servidores IA | 🔄 en revisión | Visto superficial → a profundizar: arquitectura CPU+8×GPU, NVLink/NVSwitch, PCIe Gen5, TDP 700W H100, nvidia-smi, SEL/firmware/KVM, cableado alta potencia |
 | 4 (19–25 Oct) | RMA + commissioning | ⬜ no iniciado | |
