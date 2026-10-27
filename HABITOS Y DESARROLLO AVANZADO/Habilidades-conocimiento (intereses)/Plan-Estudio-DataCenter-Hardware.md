@@ -5,6 +5,31 @@
 > Ventanas: Mañana 5:10-8:00 AM (lectura + repaso) | Noche 6:30-9:30 PM (bloque principal 2-3h) | Finde (simulacros + validación)
 > Regla: teoría 30% + práctica/checklist 70%. Cada día cierra con 3 preguntas de auto-test.
 
+---
+
+## 🖥️ Equipo real del sitio (checkpoint 27/10)
+
+> Contexto: Mr. Jair opera un DC más pequeño de lo habitual. Su rol exige de cada equipo: **qué es, cómo funciona, cómo se mantiene, cómo lo usa.**
+
+**Compute**
+
+| Equipo | Formato | Qué es / rol | Aprender |
+|---|---|---|---|
+| PowerEdge **XE9680** | 6U | Servidor IA insignia — 8× GPU HGX (H100/H200/H20, A100, MI300X, Gaudi 3) | anatomía GPU tray, PSU, NVLink, thermals, iDRAC |
+| PowerEdge **R660** | 1U | Servidor general 2-socket (Xeon 4ª/5ª gen), 32 DIMM DDR5, hasta 10×2.5" | FRUs comunes, RAID, BMC |
+
+**Red — topología leaf-spine real del sitio**
+
+| Equipo | Formato | Puertos | Rol |
+|---|---|---|---|
+| PowerSwitch **E3248P-ON** (anotado ×2) | 1U | 48×1GbE PoE+ · 4×10G SFP+ · 2×100G QSFP28 | acceso/edge (APs, cámaras, phones) |
+| PowerSwitch **S5232F-ON** | 1U | 32×100GbE QSFP28 · 2×10G SFP+ · 6.4 Tbps | leaf / ToR / agregación |
+| PowerSwitch **Z9664F-ON** | 2U | 64×400GbE QSFP56-DD (o 256×100G breakout) · 25.6 Tbps · <850 ns | spine / super-spine |
+
+**Cierre S5-Mié:** dibujar la topología de memoria: E3248P (acceso) → S5232F (leaf) → Z9664F (spine) ↔ compute (XE9680 IA + R660 general), con qué cable va en cada tramo (cobre vs fibra vs DAC).
+
+---
+
 ## Semana 1 (28 Sep – 4 Oct) — Fundamentos físicos + Energía
 ### Lun 28 — Rack y energía
 - [ ] Rack 19": U = 1.75", rack 42U, DGX 8U (visto hoy)
@@ -96,19 +121,22 @@
 - [ ] Vie: simulacro final — GPU caída en hora pico, paso a paso
 - [ ] Finde: validación final — explicar flujo completo en voz alta sin notas
 
-## Progreso
-| Semana | Foco | Estado | Cierre |
-|--------|------|--------|--------|
-| 1 (28 Sep–4 Oct) | Físico + energía | 🔄 en curso | |
-| 2 (5–11 Oct) | FRUs | ⬜ | |
-| 3 (12–18 Oct) | Servidores IA | ⬜ | |
-| 4 (19–25 Oct) | RMA + commissioning | ⬜ | |
-| 5 (26 Oct–1 Nov) | DCIM + red | ⬜ | |
+## Progreso (checkpoint 27/10 — estado declarado por Mr. Jair)
+| Semana | Foco | Estado | Detalle |
+|--------|------|--------|---------|
+| 1 (28 Sep–4 Oct) | Físico + energía | 🟡 parcial | ✅ Rack/U · PDU · UPS · pasillo frío/caliente · cableado Cat6A/OM4/OS2/MPO · ESD · SOP/MOP — ❌ pendientes: **EPO** · sensores ASHRAE · throttling térmico GPU · etiquetado TIA-606 · regla 80% / trifásica |
+| 2 (5–11 Oct) | FRUs | 🟡 parcial | Cubierto vía runbooks (PSU 422GS/XE9680, fan, memoria, disco, iDRAC) — falta: RAID conceptual, identificación NICs/DPU, BMC/iLO/IPMI amplio |
+| 3 (12–18 Oct) | Servidores IA | 🔄 en revisión | Visto superficial → a profundizar: arquitectura CPU+8×GPU, NVLink/NVSwitch, PCIe Gen5, TDP 700W H100, nvidia-smi, SEL/firmware/KVM, cableado alta potencia |
+| 4 (19–25 Oct) | RMA + commissioning | ⬜ no iniciado | |
+| 5 (26 Oct–1 Nov) | DCIM + red | 🎯 esta semana | anclado al equipo real del sitio |
 | 6 (2–8 Nov) | Incidentes + cierre | ⬜ | |
+
+**Distribución semana 27 Oct–1 Nov:** noches = S5 (DCIM/inventario/red física/coordinación/SOP-MOP/auditoría) · mañanas = S3 a profundidad (servidores IA) + huecos de S1 (EPO, sensores, throttling, TIA-606).
 
 ## Notas de campo
 - Marcas vistas en sitio: _
-- Modelo de servidor más común: _
+- Modelo de servidor más común: XE9680 (IA) + R660 (general)
+- Switches en sitio: E3248P-ON ×2 (acceso), S5232F-ON (leaf), Z9664F-ON (spine)
 - Sistema DCIM usado: _
 - Contacto RMA principal: _
 - PDU estándar del sitio: _

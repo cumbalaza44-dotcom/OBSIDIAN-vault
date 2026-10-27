@@ -26,7 +26,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 - [ ] 📚 Lectura diaria
 - [ ] 📨 Pedir PDFs faltantes DC — ARS-121GL, NVLink, Power Shelf, CDU *(arrastre 3 días — romperlo hoy)*
-- [ ] 🖥️ DC — Fase 1: XLSX troubleshooting servidores *(noche)*
+- [ ] 🖥️ DC — S5-Mar: inventario (seriales/FRUs/spares) + XLSX troubleshooting servidores *(noche)*
 - [ ] 💊 Creatina noche
 
 ---
@@ -36,7 +36,7 @@ source: "Mr. Jair — iOS / Telegram"
 > Focus DC: anatomía FRUs + simulacro en papel.
 
 - [ ] 📚 Lectura diaria
-- [ ] 🖥️ DC — ficha/anatomía + simulacro desmontaje SYS-422GS/122H *(noche)*
+- [ ] 🖥️ DC — S5-Mié: red física con equipo real (E3248P/S5232F/Z9664F) + ficha/anatomía *(noche)*
 - [ ] 💊 Creatina noche
 
 ---
