@@ -33,13 +33,13 @@
 ## Semana 1 (28 Sep – 4 Oct) — Fundamentos físicos + Energía
 ### Lun 28 — Rack y energía
 - [x] Rack 19": U = 1.75", rack 42U, DGX 8U (visto hoy)
-- [ ] PDU básica vs switched/monitored, UPS, EPO
-- [ ] Monofásica vs trifásica, PDU 22 kW, regla 80% carga
+- [x] PDU básica vs switched/monitored, UPS, EPO
+- [x] Monofásica vs trifásica, PDU 22 kW, regla 80% carga
 - Auto-test: ¿cuántos servers 8 kW en PDU 22 kW? ¿por qué no el tercero?
 -  respuesta, sobrepasa el la rega del 80%
 
 ### Mar 29 — Clima y airflow
-- [ ] Pasillo frío/caliente, CFM, blanks en U vacíos
+- [x] Pasillo frío/caliente, CFM, blanks en U vacíos
 - [ ] Sensores temp/humedad, umbrales, alertas
 - [ ] Throttling térmico en GPU, consecuencias
 - Auto-test: dibujar flujo de aire de memoria
