@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 MISSIONS
 
-### Última actualización: `27 Oct 2026 — 08:00`
+### Última actualización: `28 Oct 2026 — 12:38`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -19,25 +19,24 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Martes 27/10
+## 🔥 HOY — Miércoles 28/10
 
 > 🎯 **OBJETIVO SEMANA 27 Oct – 1 Nov: 100% DATA CENTER.** Ghost Trader, Meta Ads y Prototipo X pausados — sin tareas nuevas en ellos esta semana.
-> Focus hoy: romper el arrastre de PDFs + continuidad Fase 1.
+> Focus hoy: inventario S5 (arrastre 2 días — prioridad) + red física con equipo real.
 
-- [x] 📚 Lectura diaria
-- [x] 📨 Pedir PDFs faltantes DC — ARS-121GL, NVLink, Power Shelf, CDU *(arrastre 3 días — romperlo hoy)*
-- [ ] 🖥️ DC — S5-Mar: inventario → **movido a mañana 28/10** *(no hecho hoy)*
-- [x] 💊 Creatina noche
+- [ ] 📚 Lectura diaria + 🔍 S1 huecos: sensores ASHRAE
+- [ ] 🖥️ DC — S5: **inventario (seriales/FRUs/spares) + XLSX troubleshooting** *(movido de ayer — prioridad)*
+- [ ] 🖥️ DC — S5-Mié: red física con equipo real (E3248P/S5232F/Z9664F) + ficha/anatomía *(si queda energía)*
+- [ ] 💊 Creatina noche
 
 ---
 
-## 📅 MAÑANA — Miércoles 28/10
+## 📅 MAÑANA — Jueves 29/10
 
-> Focus: inventario (movido de hoy) + red física con equipo real.
+> Focus: S1 throttling GPU + coordinación con equipos del DC.
 
-- [ ] 📚 Lectura diaria + 🔍 S1 huecos: sensores ASHRAE
-- [ ] 🖥️ DC — S5: **inventario (seriales/FRUs/spares) + XLSX troubleshooting** *(movido de hoy — prioridad)*
-- [ ] 🖥️ DC — S5-Mié: red física con equipo real (E3248P/S5232F/Z9664F) + ficha/anatomía *(si queda energía)*
+- [ ] 📚 Lectura diaria + 🔍 S1 huecos: throttling GPU
+- [ ] 🖥️ DC — S5-Jue: coordinación Network Ops / Physical Connectivity / DC Ops
 - [ ] 💊 Creatina noche
 
 ---
@@ -51,8 +50,8 @@ source: "Mr. Jair — iOS / Telegram"
 | Día | Mañana (5:10-8:00 AM) | Noche (6:30-9:30 PM) |
 |-----|----------------------|----------------------|
 | **Lun 26** ✅ | 📚 Lectura + 📨 PDFs DC | 🖥️ DC Fase 1 + 💊 Creatina |
-| **Mar 27** | 📚 Lectura | 🖥️ S5-Mar: inventario → movido a Mié 28 + 💊 Creatina |
-| **Mié 28** | 📚 Lectura + 🔍 S1 huecos: sensores ASHRAE | 🖥️ S5: inventario (movido de hoy) + red física equipo real (si queda energía) + 💊 Creatina |
+| **Mar 27** ✅ | 📚 Lectura + 📨 PDFs DC ✅ | 🖥️ S5-Mar: inventario → movido a Mié 28 + 💊 Creatina ✅ |
+| **Mié 28** | 📚 Lectura + 🔍 S1 huecos: sensores ASHRAE | 🖥️ S5: inventario (prioridad) + red física equipo real (si queda energía) + 💊 Creatina |
 | **Jue 29** | 📚 Lectura + 🔍 S1 huecos: throttling GPU | 🖥️ S5-Jue: coordinación Network Ops / Physical Connectivity / DC Ops + 💊 Creatina |
 | **Vie 30** | 📚 Lectura + 🔍 S1 huecos: etiquetado TIA-606 | 🖥️ S5-Vie: SOP/MOP + ventanas de mantenimiento + 📋 Revisión semanal + 💊 Creatina |
 | **Sáb 31** | 📚 Lectura + 🧘 Descanso | 🖥️ S5 cierre: auditoría de rack ficticio (formato DCIM) + 🏠 Lavar prendas + 💊 Creatina |
@@ -64,7 +63,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 | Hábito | Frecuencia | Último registro |
 |--------|------------|-----------------|
-| 📚 Lectura diaria | Diario | Hoy 27/10 ⏳ |
+| 📚 Lectura diaria | Diario | Ayer 27/10 ✅ |
 | 💊 Creatina 3-5g | Diario (noche) | Hoy 27/10 ✅ |
 | 🏋️ Gym | ⏸️ pausado | Pausado desde Sep — reevaluar después de la semana DC |
 | 🔬 Prototipo X | ⏸️ pausado | Pausado — prioridad DC |
