@@ -106,6 +106,13 @@
 - [ ] Vie: repaso + simular RMA completo en papel
 - [ ] Finde: simulacro commissioning de un DGX ficticio
 
+> **✅ Checkpoint 27/10 — aprendido hoy (declarado por Mr. Jair):**
+> - **NICs de compute:** el SYS-422GS y el XE9680 (8 GPUs / 8 puertos) — los puertos de GPU son **ConnectX-7 / ConnectX-8** (NIC de compute, RDMA GPU↔GPU). **NO confundir con BlueField-3** — es otro tipo de NIC/DPU de **frontend** (norte-sur: red del centro de datos, offload de storage/red).
+> - **Topología rail-optimized:** comunicación de las GPUs de los nodos hacia los leafs — GPU *i* de todos los nodos → leaf *i* (un "rail" por GPU).
+> - **Sincronización de gradientes** en entrenamiento multi-nodo (all-reduce).
+> - **NCCL** (NVIDIA Communication Collectives Library) — biblioteca de comunicación que ejecuta esa sincronización sobre los ConnectX.
+> - ⚠️ Pendiente de confirmar con inventario real (28/10): qué SKU exacto trae cada sistema — CX-7 vs CX-8 varía por configuración; verificar por iDRAC/seriales.
+
 ## Semana 5 (26 Oct – 1 Nov) — DCIM, inventarios y red física
 - [ ] Lun: DCIM — altas/bajas/movimientos, ubicación U exacta
 - [ ] Mar: inventario — seriales, FRUs, spares, ciclo de vida
