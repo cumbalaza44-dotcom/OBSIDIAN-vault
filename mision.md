@@ -26,17 +26,18 @@ source: "Mr. Jair — iOS / Telegram"
 
 - [x] 📚 Lectura diaria
 - [x] 📨 Pedir PDFs faltantes DC — ARS-121GL, NVLink, Power Shelf, CDU *(arrastre 3 días — romperlo hoy)*
-- [ ] 🖥️ DC — S5-Mar: inventario (seriales/FRUs/spares) + XLSX troubleshooting servidores *(noche)*
+- [ ] 🖥️ DC — S5-Mar: inventario → **movido a mañana 28/10** *(no hecho hoy)*
 - [x] 💊 Creatina noche
 
 ---
 
 ## 📅 MAÑANA — Miércoles 28/10
 
-> Focus DC: anatomía FRUs + simulacro en papel.
+> Focus: inventario (movido de hoy) + red física con equipo real.
 
-- [ ] 📚 Lectura diaria
-- [ ] 🖥️ DC — S5-Mié: red física con equipo real (E3248P/S5232F/Z9664F) + ficha/anatomía *(noche)*
+- [ ] 📚 Lectura diaria + 🔍 S1 huecos: sensores ASHRAE
+- [ ] 🖥️ DC — S5: **inventario (seriales/FRUs/spares) + XLSX troubleshooting** *(movido de hoy — prioridad)*
+- [ ] 🖥️ DC — S5-Mié: red física con equipo real (E3248P/S5232F/Z9664F) + ficha/anatomía *(si queda energía)*
 - [ ] 💊 Creatina noche
 
 ---
@@ -50,8 +51,8 @@ source: "Mr. Jair — iOS / Telegram"
 | Día | Mañana (5:10-8:00 AM) | Noche (6:30-9:30 PM) |
 |-----|----------------------|----------------------|
 | **Lun 26** ✅ | 📚 Lectura + 📨 PDFs DC | 🖥️ DC Fase 1 + 💊 Creatina |
-| **Mar 27** | 📚 Lectura | 🖥️ S5-Mar: inventario (seriales/FRUs/spares) + XLSX troubleshooting + 💊 Creatina |
-| **Mié 28** | 📚 Lectura + 🔍 S1 huecos: sensores ASHRAE | 🖥️ S5-Mié: red física equipo real (E3248P/S5232F/Z9664F) + 💊 Creatina |
+| **Mar 27** | 📚 Lectura | 🖥️ S5-Mar: inventario → movido a Mié 28 + 💊 Creatina |
+| **Mié 28** | 📚 Lectura + 🔍 S1 huecos: sensores ASHRAE | 🖥️ S5: inventario (movido de hoy) + red física equipo real (si queda energía) + 💊 Creatina |
 | **Jue 29** | 📚 Lectura + 🔍 S1 huecos: throttling GPU | 🖥️ S5-Jue: coordinación Network Ops / Physical Connectivity / DC Ops + 💊 Creatina |
 | **Vie 30** | 📚 Lectura + 🔍 S1 huecos: etiquetado TIA-606 | 🖥️ S5-Vie: SOP/MOP + ventanas de mantenimiento + 📋 Revisión semanal + 💊 Creatina |
 | **Sáb 31** | 📚 Lectura + 🧘 Descanso | 🖥️ S5 cierre: auditoría de rack ficticio (formato DCIM) + 🏠 Lavar prendas + 💊 Creatina |
