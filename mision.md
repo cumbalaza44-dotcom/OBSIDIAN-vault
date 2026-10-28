@@ -156,6 +156,7 @@ source: "Mr. Jair — iOS / Telegram"
 - [ ] Psicología de control de masas
 - [ ] Meta Ads (ver también: PROYECTOS)
 - [ ] Estrategia de ahorro (corto, mediano, largo plazo)
+- [ ] 🗣️ Clases de comunicación verbal
 
 ---
 
