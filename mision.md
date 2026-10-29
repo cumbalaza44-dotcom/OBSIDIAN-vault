@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 MISSIONS
 
-### Última actualización: `28 Oct 2026 — 12:38`
+### Última actualización: `29 Oct 2026 — 12:30`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -19,24 +19,25 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Miércoles 28/10
+## 🔥 HOY — Jueves 29/10
 
 > 🎯 **OBJETIVO SEMANA 27 Oct – 1 Nov: 100% DATA CENTER.** Ghost Trader, Meta Ads y Prototipo X pausados — sin tareas nuevas en ellos esta semana.
-> Focus hoy: inventario S5 (arrastre 2 días — prioridad) + red física con equipo real.
+> Focus hoy: coordinación Network Ops / Physical Connectivity / DC Ops + cerrar arrastre de inventario S5.
 
-- [ ] 📚 Lectura diaria + 🔍 S1 huecos: sensores ASHRAE
+- [ ] 📚 Lectura diaria + 🔍 S1 huecos: throttling GPU
+- [ ] 🖥️ DC — S5-Jue: coordinación Network Ops / Physical Connectivity / DC Ops
 - [ ] 🖥️ DC — S5: **inventario (seriales/FRUs/spares) + XLSX troubleshooting** *(movido de ayer — prioridad)*
-- [ ] 🖥️ DC — S5-Mié: red física con equipo real (E3248P/S5232F/Z9664F) + ficha/anatomía *(si queda energía)*
+- [ ] 🖥️ DC — S5-Mié: red física con equipo real (E3248P/S5232F/Z9664F) + ficha/anatomía *(movido de ayer)*
 - [ ] 💊 Creatina noche
 
 ---
 
-## 📅 MAÑANA — Jueves 29/10
+## 📅 MAÑANA — Viernes 30/10
 
-> Focus: S1 throttling GPU + coordinación con equipos del DC.
+> Focus: SOP/MOP + ventanas de mantenimiento y revisión semanal.
 
-- [ ] 📚 Lectura diaria + 🔍 S1 huecos: throttling GPU
-- [ ] 🖥️ DC — S5-Jue: coordinación Network Ops / Physical Connectivity / DC Ops
+- [ ] 📚 Lectura diaria + 🔍 S1 huecos: etiquetado TIA-606
+- [ ] 🖥️ DC — S5-Vie: SOP/MOP + ventanas de mantenimiento + 📋 Revisión semanal
 - [ ] 💊 Creatina noche
 
 ---
@@ -63,8 +64,8 @@ source: "Mr. Jair — iOS / Telegram"
 
 | Hábito | Frecuencia | Último registro |
 |--------|------------|-----------------|
-| 📚 Lectura diaria | Diario | Ayer 27/10 ✅ |
-| 💊 Creatina 3-5g | Diario (noche) | Hoy 27/10 ✅ |
+| 📚 Lectura diaria | Diario | 27/10 ✅ |
+| 💊 Creatina 3-5g | Diario (noche) | 27/10 ✅ |
 | 🏋️ Gym | ⏸️ pausado | Pausado desde Sep — reevaluar después de la semana DC |
 | 🔬 Prototipo X | ⏸️ pausado | Pausado — prioridad DC |
 
