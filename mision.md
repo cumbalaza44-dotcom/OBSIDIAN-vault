@@ -22,22 +22,24 @@ source: "Mr. Jair — iOS / Telegram"
 ## 🔥 HOY — Jueves 29/10
 
 > 🎯 **OBJETIVO SEMANA 27 Oct – 1 Nov: 100% DATA CENTER.** Ghost Trader, Meta Ads y Prototipo X pausados — sin tareas nuevas en ellos esta semana.
-> Focus hoy: coordinación Network Ops / Physical Connectivity / DC Ops + cerrar arrastre de inventario S5.
+> ⚠️ Día 100% obra física en datacenter (construcción) — sin bloque oficina.
 
 - [ ] 📚 Lectura diaria + 🔍 S1 huecos: throttling GPU
-- [ ] 🖥️ DC — S5-Jue: coordinación Network Ops / Physical Connectivity / DC Ops
-- [ ] 🖥️ DC — S5: **inventario (seriales/FRUs/spares) + XLSX troubleshooting** *(movido de ayer — prioridad)*
-- [ ] 🖥️ DC — S5-Mié: red física con equipo real (E3248P/S5232F/Z9664F) + ficha/anatomía *(movido de ayer)*
+- [ ] 🖥️ DC — S5-Jue: coordinación Network Ops / Physical Connectivity / DC Ops → **movido a Vie 30 (noche)**
+- [ ] 🖥️ DC — S5: **inventario (seriales/FRUs/spares) + XLSX troubleshooting** → **movido a Vie 30 (noche) — prioridad**
+- [ ] 🖥️ DC — S5-Mié: red física con equipo real (E3248P/S5232F/Z9664F) + ficha/anatomía → **movido a Vie 30 (noche)**
 - [ ] 💊 Creatina noche
 
 ---
 
 ## 📅 MAÑANA — Viernes 30/10
 
-> Focus: SOP/MOP + ventanas de mantenimiento y revisión semanal.
+> ⚠️ Día 100% obra física en datacenter (construcción) — sin bloque oficina.
+> Focus noche (6:30-9:30): SOP/MOP + ventanas de mantenimiento + revisión semanal + arrastre S5.
 
 - [ ] 📚 Lectura diaria + 🔍 S1 huecos: etiquetado TIA-606
 - [ ] 🖥️ DC — S5-Vie: SOP/MOP + ventanas de mantenimiento + 📋 Revisión semanal
+- [ ] 🖥️ DC — arrastre: inventario S5 + red física equipo real + coordinación Network Ops *(desde Jue)*
 - [ ] 💊 Creatina noche
 
 ---
