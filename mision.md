@@ -1,6 +1,6 @@
 ---
 created: 2026-05-25
-updated: 2026-10-25
+updated: 2026-11-01
 source: "Mr. Jair — iOS / Telegram"
 ---
 
@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 MISSIONS
 
-### Última actualización: `29 Oct 2026 — 12:30`
+### Última actualización: `1 Nov 2026 — 09:26`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -19,27 +19,26 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Jueves 29/10
+## 🔥 HOY — Domingo 1/11
 
-> 🎯 **OBJETIVO SEMANA 27 Oct – 1 Nov: 100% DATA CENTER.** Ghost Trader, Meta Ads y Prototipo X pausados — sin tareas nuevas en ellos esta semana.
-> ⚠️ Día 100% obra física en datacenter (construcción) — sin bloque oficina.
+> 🎯 **Cierre semana 100% DATA CENTER (27 Oct – 1 Nov).** La pausa de Ghost Trader, Meta Ads, Prototipo X y gym **vence hoy** — reevaluar en la planificación.
+> 🛋️ Finde → ventana completa; tarde libre.
 
-- [ ] 📚 Lectura diaria + 🔍 S1 huecos: throttling GPU
-- [ ] 🖥️ DC — S5-Jue: coordinación Network Ops / Physical Connectivity / DC Ops → **movido a Vie 30 (noche)**
-- [ ] 🖥️ DC — S5: **inventario (seriales/FRUs/spares) + XLSX troubleshooting** → **movido a Vie 30 (noche) — prioridad**
-- [ ] 🖥️ DC — S5-Mié: red física con equipo real (E3248P/S5232F/Z9664F) + ficha/anatomía → **movido a Vie 30 (noche)**
+- [ ] 📚 Lectura diaria + 🔍 S1 huecos: etiquetado TIA-606 *(arrastrado desde Vie)*
+- [ ] 🖥️ DC — confirmar arrastre Vie 30: inventario S5 + red física equipo real + coordinación Network Ops + SOP/MOP *(¿se cerró?)*
+- [ ] 📋 Planificar semana 2 (S6 Incidentes) + reevaluar gym y proyectos pausados
+- [ ] 🛋️ Descanso
 - [ ] 💊 Creatina noche
 
 ---
 
-## 📅 MAÑANA — Viernes 30/10
+## 📅 MAÑANA — Lunes 2/11
 
-> ⚠️ Día 100% obra física en datacenter (construcción) — sin bloque oficina.
-> Focus noche (6:30-9:30): SOP/MOP + ventanas de mantenimiento + revisión semanal + arrastre S5.
+> Semana 2 — tema propuesto: **S6 Incidentes**. Horario L-V 8 AM-5 PM (datacenter).
+> Focus noche (6:30-9:30): bloque DC semana 2 *(a confirmar en la planificación de hoy)*.
 
-- [ ] 📚 Lectura diaria + 🔍 S1 huecos: etiquetado TIA-606
-- [ ] 🖥️ DC — S5-Vie: SOP/MOP + ventanas de mantenimiento + 📋 Revisión semanal
-- [ ] 🖥️ DC — arrastre: inventario S5 + red física equipo real + coordinación Network Ops *(desde Jue)*
+- [ ] 📚 Lectura diaria
+- [ ] 🖥️ DC — S6 Incidentes: iniciar bloque *(plan a cerrar hoy)*
 - [ ] 💊 Creatina noche
 
 ---
@@ -68,7 +67,7 @@ source: "Mr. Jair — iOS / Telegram"
 |--------|------------|-----------------|
 | 📚 Lectura diaria | Diario | 27/10 ✅ |
 | 💊 Creatina 3-5g | Diario (noche) | 27/10 ✅ |
-| 🏋️ Gym | ⏸️ pausado | Pausado desde Sep — reevaluar después de la semana DC |
+| 🏋️ Gym | ⏸️ pausado | Pausado desde Sep — **reevaluar hoy 1/11** (fin pausa DC) |
 | 🔬 Prototipo X | ⏸️ pausado | Pausado — prioridad DC |
 
 ### 📊 En Progreso
