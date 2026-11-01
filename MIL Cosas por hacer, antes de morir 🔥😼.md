@@ -1,3 +1,10 @@
+---
+created: 2026-11-01
+updated: 2026-11-01
+tags: []
+estado: activo
+---
+
 # 🔥 MIL Cosas por hacer, antes de morir 😼
 
 > *"La vida es corta. La lista, también debería serlo... pero no lo es."*
