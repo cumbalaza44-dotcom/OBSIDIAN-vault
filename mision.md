@@ -1,6 +1,6 @@
 ---
 created: 2026-05-25
-updated: 2026-11-01
+updated: 2026-11-02
 source: "Mr. Jair — iOS / Telegram"
 ---
 
@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 MISSIONS
 
-### Última actualización: `1 Nov 2026 — 09:26`
+### Última actualización: `1 Nov 2026 — 20:00 (Planificación Semanal)`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -19,27 +19,40 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Domingo 1/11
+## 🔥 HOY — Lunes 2/11
 
-> 🎯 **Cierre semana 100% DATA CENTER (27 Oct – 1 Nov).** La pausa de Ghost Trader, Meta Ads, Prototipo X y gym **vence hoy** — reevaluar en la planificación.
-> 🛋️ Finde → ventana completa; tarde libre.
+> 🎯 **Arranque Semana 2 — S6 Incidentes.** Horario L-V 8 AM-5 PM (datacenter).
+> 📋 Planificación semanal cerrada ayer — ver prioridades abajo.
 
-- [ ] 📚 Lectura diaria + 🔍 S1 huecos: etiquetado TIA-606 *(arrastrado desde Vie)*
-- [ ] 🖥️ DC — confirmar arrastre Vie 30: inventario S5 + red física equipo real + coordinación Network Ops + SOP/MOP *(¿se cerró?)*
-- [ ] 📋 Planificar semana 2 (S6 Incidentes) + reevaluar gym y proyectos pausados
-- [ ] 🛋️ Descanso
+- [ ] 📚 Lectura diaria *(5 min)*
+- [ ] 🖥️ DC — S6 Incidentes: iniciar bloque noche (6:30-9:30)
 - [ ] 💊 Creatina noche
 
 ---
 
-## 📅 MAÑANA — Lunes 2/11
+## 📅 MAÑANA — Martes 3/11
 
-> Semana 2 — tema propuesto: **S6 Incidentes**. Horario L-V 8 AM-5 PM (datacenter).
-> Focus noche (6:30-9:30): bloque DC semana 2 *(a confirmar en la planificación de hoy)*.
+> Día Meta Ads según plan semanal.
 
 - [ ] 📚 Lectura diaria
-- [ ] 🖥️ DC — S6 Incidentes: iniciar bloque *(plan a cerrar hoy)*
+- [ ] 📢 Meta Ads — definir nicho específico *(prioridad 4)*
 - [ ] 💊 Creatina noche
+
+---
+
+## 📋 PRIORIDADES SEMANA 2 (2–8 Nov)
+
+| # | Prioridad | Día | Proyecto |
+|---|-----------|-----|----------|
+| 1 | 🖥️ Cierre arrastre S5: inventario + red física + coordinación Network Ops + SOP/MOP *(¿confirmar cierre Dom?)* | Lun 2 | Datacenter |
+| 2 | 🖥️ S6 Incidentes: iniciar bloque noche | Lun 2 | Datacenter |
+| 3 | 📚 Lectura diaria + 🔍 S1 huecos: etiquetado TIA-606 *(arrastrado)* | Mar 3 | Hábitos |
+| 4 | 📢 Meta Ads — definir nicho específico | Mar 3 | Meta Ads |
+| 5 | 🔬 Prototipo X — retomar: prototipar sensor ultrasónico *(reevaluado 1/11)* | Mié 4 | Prototipo X |
+| 6 | 💰 Ingresos — distribuir $1.050.000 restantes | Jue 5 | Ingresos |
+| 7 | 🏠🏠 Hogar — comprar empaque culatín *(rápida)* | Sáb 7 | Hogar |
+
+> ⏸️ Gym y E-Commerce siguen pausados — reevaluar en próxima planificación.
 
 ---
 
