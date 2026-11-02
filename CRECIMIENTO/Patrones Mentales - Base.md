@@ -91,15 +91,18 @@ Regla del gap: entre disparador y respuesta hay ~1–3 s. El objetivo **no** es 
 
 **Componentes del menú y su fase correcta (no eliminar — darles turno):**
 
+> Corrección 16:19 — "Mañana" **no** es parte del patrón (dato de Mr. Jair), eliminado. Fases ampliadas: no solo revisión nocturna (petición explícita: funcional en la vida real). Ver §9.
+
 | Componente | Función | Fase donde corre |
 |------------|---------|------------------|
-| Despertar | scan: "hay otro hilo" | **En vivo** (1 de 2 ítems) |
-| Causa→efecto | combustible: actúo ahora | **En vivo** (2 de 2 ítems) |
-| Cómo | corrección en vuelo | **Durante la acción** — nunca antes |
-| Para qué | dirección | **Revisión nocturna / selección** |
-| Por qué | origen/motivo | **Revisión nocturna** |
-| Mañana | ancla de vuelta a la acción | Recordatorio puntual |
-| Increíble + Propiedad | identidad/expresión (validados por otros) | **Siempre, automático** — no deliberar |
+| Observador (cielo/nubes) | testigo: pensamiento = fenómeno, no orden | **Sustrato, siempre activo** |
+| Presencia | ancla sensorial al ahora | **Sustrato, siempre activo** |
+| Increíble + Propiedad | identidad/expresión (validados por otros) | **Sustrato, siempre activo** — no deliberar |
+| Despertar | scan: "hay otro hilo" | **Evento: en vivo**, 1 disparo |
+| Causa→efecto | motor: actúo ahora | **Evento: en vivo**, antes de moverse |
+| Cómo | corrección en vuelo | **Evento: durante la acción** — nunca antes |
+| Para qué | dirección | **Ventanas: arranque de día, bifurcaciones, cierre** |
+| Por qué | raíz/motivo | **Ventanas: cierre, rutinas caídas, explicar a otros** |
 
 **Requisitos duros:**
 - R1: en vivo corren **máx. 2 componentes**, ≤2 s. Lo demás, su turno.
