@@ -36,8 +36,11 @@ Regla: **un patrón no se borra, se sobrescribe.** La vía gastada queda; gana l
 | P2 | Desfase temporal (cuenta-late) | F6 | Decisión en vivo | Preguntar en fase equivocada; oportunidad no tirada | Hilos vistos solo después | #3 = 2 |
 | P3 | Rutina rota sin tocar | F3/F5 | Rutina que falla | Dejarla como está | Gym caído desde sep | #10 = 2 |
 | P4 | Análisis-como-demora | F3 | Duda ante una acción | Repetir ¿por qué?/¿cómo? en vez de actuar | Demora disfrazada de prudencia | Bloque 3 |
+| P5 | Bucle de comprensión en interacción social | F3/F1 | Mensaje/compra/interacción con alguien que le gusta | Menú completo (cómo/para qué/por qué) ANTES de actuar | No responde, no pregunta, no compra; oportunidades sociales no tiradas | Chat: vueltas en vez de "escribir y ver qué pasa"; compra: no sabe cómo explicar |
+| P6 | Deriva de complejidad (patrón hinchado) | F3 | Éxito del patrón original | Acumular componentes (hoy 8: Increíble, Propiedad, Cómo, Para qué, Por qué, Causa, Mañana, Despertar) | "Poco sostenible" — no cabe en el momento | Su propio diagnóstico textual (16:09) |
+| P7 | Acción como residuo | F3/F4 | Toda decisión | Procesar primero, actuar con lo que sobra | "Proyección en la acción donde más corto me quedo"; otros tangibilizan, yo pienso | #3=2 · gym caído · registro caído · su testimonio |
 
-**Pendiente:** casos reales traídos por Mr. Jair → P5, P6, … (ver §7).
+**Pendiente:** casos reales traídos por Mr. Jair → P8, P9, … (ver §7).
 
 ## 4. Detección en vivo — "ya lo conozco"
 
@@ -76,6 +79,33 @@ Regla del gap: entre disparador y respuesta hay ~1–3 s. El objetivo **no** es 
 
 | # | Caso | Patrón detectado |
 |---|------|------------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
+| 1 | Chat con alguien que le gusta → bucle cómo/para qué/por qué antes de responder | P5 |
+| 2 | Comprar/averiguar algo → no sabe cómo explicarse, no actúa | P5 |
+| 3 | Destornillador: le piden uno y da el manual habiendo uno a baterías al lado (origen del patrón: era "el que solo sigue instrucciones") | motivo de construcción de todo el sistema |
+
+---
+
+## 8. Requisitos del rediseño (de las 21 preguntas — Bloque 1, 2026-11-02)
+
+**Origen confirmado:** el patrón se construyó para dejar de ser "el que solo sigue instrucciones" (caso 3). Funcionó: criterio valorado, tono validado por otros, acoplamiento en el trabajo. **No está roto — está desbalanceado ~80/20 hacia procesamiento.** Su narrativa confirma el 45/75: radar fuerte, transmisión débil.
+
+**Componentes del menú y su fase correcta (no eliminar — darles turno):**
+
+| Componente | Función | Fase donde corre |
+|------------|---------|------------------|
+| Despertar | scan: "hay otro hilo" | **En vivo** (1 de 2 ítems) |
+| Causa→efecto | combustible: actúo ahora | **En vivo** (2 de 2 ítems) |
+| Cómo | corrección en vuelo | **Durante la acción** — nunca antes |
+| Para qué | dirección | **Revisión nocturna / selección** |
+| Por qué | origen/motivo | **Revisión nocturna** |
+| Mañana | ancla de vuelta a la acción | Recordatorio puntual |
+| Increíble + Propiedad | identidad/expresión (validados por otros) | **Siempre, automático** — no deliberar |
+
+**Requisitos duros:**
+- R1: en vivo corren **máx. 2 componentes**, ≤2 s. Lo demás, su turno.
+- R2: umbral de acción — acción barata por defecto: *"escribir y ver qué pasa"* < bucle.
+- R3: nada nuevo que no sea ejecutable en el momento; lo abstracto se vive en la revisión.
+- R4: preservar activos: observador (cielo/nubes), tono (Increíble+Propiedad), presencia sensorial.
+- R5: su pedido explícito — orientación profesional hacia conducta más funcional.
+
+**Evaluación de su propuesta ("eliminar el cómo, meter la causa, mantener para qué/por qué"):** diagnóstico a medias. "Cómo" es el único componente **operativo** del menú — eliminarlo deja sin corrección en vuelo. El problema no es el componente, es **cuándo corre**: cómo disparado antes de actuar = parálisis; cómo disparado durante = flujo. Veredicto: no se elimina, se reubica.
