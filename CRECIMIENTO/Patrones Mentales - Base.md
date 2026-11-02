@@ -186,3 +186,54 @@ Regla del gap: entre disparador y respuesta hay ~1–3 s. El objetivo **no** es 
 - **Ventanas:** Para qué y Por qué viven en momentos fijos del día (arranque, bifurcaciones, cierre), no en el medio del chat ni de la compra.
 - **Identidad (Increíble+Propiedad):** siempre, sin manufactura.
 - Todo lo que no cabe en estas capas → P6 (deriva): se archiva, no se carga.
+
+---
+
+## 10. PATRÓN EVOLUCIONADO — "CICLO VIVO" (objetivo del día, 2026-11-02)
+
+> Objetivo explícito de Mr. Jair: una estructura mental nueva/diferente que abarque sus 2 pilares fundamentales: **COMPRENDER** y **HACER (al máximo, hasta la última gota de tiempo)**.
+
+### Diagnóstico de por qué los 2 pilares pelean hoy
+
+El patrón viejo pone a comprender ANTES de hacer y le da 80% del presupuesto → comprender se vuelve requisito de entrada (P5: no actúa hasta "entender") y el hacer queda como residuo (P7). La evolución no es "hacer más" ni "comprender menos": es **invertir la proporción según el momento**.
+
+### Ley rectora
+
+> **Antes de actuar: comprender mínimo vital (≤2 s). Después de actuar: comprender máximo (con datos reales).**
+> El comprender existe para servir al hacer — nunca al revés.
+
+### Los 2 pilares
+
+**PILAR 1 — COMPRENDER (3 modos, 3 momentos)**
+1. **Mínimo vital (en vivo, ≤2 s):** solo lo necesario para nombrar el siguiente movimiento físico. Umbral de salida: *"¿puedo nombrar el próximo paso con el cuerpo?"* — sí → ya se acabó comprender. No → acción barata igual (probar es comprender).
+2. **En vuelo (durante la acción):** componente "cómo" — corregir el método mientras corre, nunca antes.
+3. **Profundo (ventana de cierre):** por qué/para qué con **datos que la acción devolvió** — comprender profundo sin acción previa = especulación (bucle).
+
+**PILAR 2 — HACER (al máximo, hasta la última gota)**
+1. **Acción barata por defecto:** si dudas entre actuar o pensar → actuar (escribir, preguntar, ir, probar). Cuesta menos que un bucle y genera el material que el Pilar 1 necesita.
+2. **Motor:** frase de causa antes de moverse — *"si no lo hago ahora, el efecto es otro"* → cuerpo en movimiento.
+3. **Densidad, no cantidad:** "última gota" ≠ ocupar todo el día — es que cada día produzca **≥1 efecto tangible** (algo existió mañana que no existía hoy: un mensaje enviado, una decisión tomada, una nota, un arreglo).
+
+### El ciclo (4 tiempos, se repite en cada micro-decisión)
+
+**UMBRAL → IMPULSO → CORRECCIÓN → INTEGRAR**
+
+1. **UMBRAL** (comprender mínimo): scan de Despertar (¿qué hilo no veo?) + umbral: ¿puedo nombrar el siguiente paso? ≤2 s total.
+2. **IMPULSO** (hacer): frase motor → movimiento. Si hay duda → acción barata.
+3. **CORRECCIÓN** (comprender en vuelo): "cómo" ajusta mientras actúa. Si no hay acción, no hay "cómo" que correr.
+4. **INTEGRAR** (comprender profundo): en la ventana de cierre — qué me devolvió la acción, qué causa puse hoy, qué ajusto mañana.
+
+### Reglas del ciclo
+
+- R-C1: **el umbral es duro** — comprender más de 2 s antes de actuar = P5, se corta con acción barata.
+- R-C2: **sin acción no hay "cómo"** — si no te mueviste, no hay vuelo que corregir; solo hay bucle.
+- R-C3: **comprender profundo solo con datos de acción propia** — primero la gota, luego el análisis.
+- R-C4: **métrica diaria del pilar Hacer:** ≥1 efecto tangible registrado en `mision.md` (reemplaza el "día perdido": un día con 1 efecto = día vivido).
+- R-C5: el sustrato (Observador/Presencia/Increíble+Propiedad) corre de fondo — no participa del ciclo, lo sostiene.
+
+### Mapa de conversión (patrón viejo → Ciclo Vivo)
+
+- "¿Cómo/para qué/por qué antes de responder?" → UMBRAL 2 s → IMPULSO
+- "Necesito entender bien para empezar" → umbral: siguiente paso nombrado = suficiente
+- "Al final del día no hice" → R-C4: 1 efecto tangible
+- Revisión nocturna como casa del análisis → INTEGRAR (confirmado, con datos de acción)
