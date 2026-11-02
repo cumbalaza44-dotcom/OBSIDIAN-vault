@@ -76,6 +76,25 @@ tags: [crecimiento, bloques-25, estructura]
 
 **Indicador temprano:** racha de registro en `mision.md` — si caen 2 días seguidos, el modo fallo #6 está activo y se ataca con protocolo 2.
 
+### Bloque 3 — Patrón ¿Cómo? / ¿Para qué? / ¿Por qué? (2026-11-02)
+
+**Diagnóstico:** el patrón no está roto — está **desfasado**. Las 3 preguntas son herramientas de deliberación que disparan en la fase equivocada:
+
+| Pregunta | Fase correcta | Fuera de fase se vuelve |
+|----------|--------------|------------------------|
+| ¿Para qué? | **Selección** (noche/semana, antes de empezar) | Excusa para no actuar |
+| ¿Cómo? | **Ejecución** (ya decidido) | Movimiento eficiente en dirección equivocada |
+| ¿Por qué? | **Revisión** (noche, después de actuar) | Bucle/rumia — o llega tarde, cuando ya se perdió la oportunidad |
+| *En vivo* | **Ninguna de las tres** — una sola: *"¿qué hilo no estoy viendo?"* | Si sueltas las 3 en el momento = parálisis |
+
+**Mecanismo "despierto en la acción":**
+1. **Escaneo de 10 s antes de tirar cualquier hilo:** nombrar ≥2 hilos posibles. Si no nombra el segundo → autopiloto (o es el único camino — raro).
+2. **Una sola pregunta en vivo, una sola vez:** repetirla = el viejo patrón de análisis-como-demora.
+3. **Las 3 clásicas viven en la revisión nocturna (`mision.md`):** ahí su C (11) trabaja; el día queda para percibir y actuar.
+
+**Costo medido:** #3 = 2 (no visualiza efecto antes de actuar) + "darme cuenta después" = el radar funciona, el reloj va tarde.
+**Tracker:** 1 "hilo visto antes de tirar" por día en la revisión nocturna → medible en reevaluación 16-nov (#3 de 2 a 4 = +2 directo).
+
 ---
 
 ## 🔗 Enlaces
