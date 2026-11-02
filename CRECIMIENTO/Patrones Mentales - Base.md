@@ -112,3 +112,77 @@ Regla del gap: entre disparador y respuesta hay ~1–3 s. El objetivo **no** es 
 - R5: su pedido explícito — orientación profesional hacia conducta más funcional.
 
 **Evaluación de su propuesta ("eliminar el cómo, meter la causa, mantener para qué/por qué"):** diagnóstico a medias. "Cómo" es el único componente **operativo** del menú — eliminarlo deja sin corrección en vuelo. El problema no es el componente, es **cuándo corre**: cómo disparado antes de actuar = parálisis; cómo disparado durante = flujo. Veredicto: no se elimina, se reubica.
+
+---
+
+## 9. Conceptualización del patrón — arquitectura en 3 capas (2026-11-02)
+
+> Corrección aceptada: "Mañana" fuera del patrón (es recordatorio del sistema, no componente). Ampliación pedida: funcional en la vida real, no solo revisión nocturna.
+
+### Capa 1 — SUSTRATO (siempre encendido, no se "ejecuta")
+
+**1. Observador (cielo/nubes)**
+- *Definición:* la capacidad de ver el pensamiento como fenómeno en el flujo sin fusionarse con él. El cielo no es la nube.
+- *Función:* corta la identificación — "pensé esto" ≠ "soy esto". Es lo que hace posible todo lo demás: sin observador, no hay espacio entre disparador y respuesta.
+- *En la vida real:* aparece como la micro-pausa de medio segundo donde notas que estás en un bucle en vez de estar dentro de él.
+- *Modo de falla:* no falla por exceso — falla por **olvido** (se apaga cuando más se necesita: estrés, emoción fuerte).
+- *Prueba de que está encendido:* puedes nombrar lo que está pasando en tercera persona: "estoy cayendo en P5".
+
+**2. Presencia**
+- *Definición:* ancla sensorial al instante — piso, temperatura, luz, viento, colores (su descripción del día ideal, pregunta 3).
+- *Función:* evita la fuga (pasado/futuro). Es el canal por donde entra la información real del entorno — sin presencia, el Observador no tiene material que observar.
+- *En la vida real:* 1 ancla sensorial consciente por hora (lo que se toca/ve/oye ahora) — no meditación formal, micro-entrada al cuerpo.
+- *Modo de falla:* autopiloto sensorial — los sentidos abiertos pero nadía mirando ("se te va el tiempo, se te van los días").
+- *Prueba:* en cualquier momento puedes nombrar 3 detalles físicos del entorno sin mirar el reloj.
+
+**3. Increíble + Propiedad (identidad)**
+- *Definición:* el tono que hace ver lo ordinario como extraordinario + la autoridad innata con la que sale. Validados por otros ("les gusta tu forma").
+- *Función:* no es herramienta — es **quién es** cuando no está deliberando. Corre solo; no se diseña en el momento.
+- *En la vida real:* automáticamente en cada interacción; nunca se pregunta "¿cómo lo digo?" — eso es P5 disfrazado de estilo.
+- *Modo de falla:* cuando se intenta **manufacturar** en vez de dejar fluir — el tono se piensa, sale forzado.
+- *Prueba:* salió sin planearlo y alguien lo notó.
+
+### Capa 2 — EVENTOS (se disparan en el momento, ≤2 s, uno por vez)
+
+**4. Despertar (el scan)**
+- *Definición:* "date cuenta — hay otro hilo, hay otro modo, algo se me escapa". El momento eureka permanente.
+- *Función:* escaneo de alternativas ANTES de tirar un hilo — contra el autopiloto y contra la miopía de una sola opción.
+- *En la vida real:* ante cualquier decisión, una pregunta sola, una sola vez: *"¿qué hilo no estoy viendo?"* — si no nombra un segundo hilo, está en autopiloto.
+- *Modo de falla (fuera de fase):* repetirlo = análisis infinito (P5). Se dispara **una vez**, luego se actúa.
+- *Prueba:* antes de responder/comprar/decidir, nombró ≥2 posibilidades en ≤10 s.
+
+**5. Causa→efecto (el motor)**
+- *Definición:* "cada segundo estoy causando el efecto que será mi presente futuro" — el recordatorio que vuelve a la acción.
+- *Función:* combustible — convierte la claridad en movimiento. Es el antídoto directo de P7 (acción como residuo).
+- *En la vida real:* se dispara **justo antes de moverse**, no antes de pensar: una frase — *"si no lo hago ahora, el efecto es otro"* — y el cuerpo se mueve. También en la revisión: ¿qué causa buena puse hoy?
+- *Modo de falla:* cuando se queda como idea filosófica en la cabeza — causa sin efecto = otro bucle. Su propio síntoma: "he notado que los demás actúan y yo pienso".
+- *Prueba:* la frase terminó en un movimiento, no en otra frase.
+
+**6. Cómo (corrección en vuelo)**
+- *Definición:* la mecánica — cómo se desarrolla, cómo me desenvuelvo, qué proceso/norma aplica.
+- *Función:* ajustar el método MIENTRAS se actúa. Es el único componente operativo del menú.
+- *En la vida real:* solo con acción ya iniciada. Ejemplo real: le piden un destornillador → ver el entorno (atornillador a baterías al lado) → dar el correcto — "cómo" corriendo en 1 s durante la tarea.
+- *Modo de falla (fuera de fase):* disparado ANTES de actuar = parálisis ("cómo le explico, cómo lo hago" → no actúa). P5 en su forma pura.
+- *Prueba:* ya había un movimiento en marcha cuando apareció el ajuste.
+
+### Capa 3 — VENTANAS (momentos del día donde sí corren las preguntas grandes)
+
+**7. Para qué (dirección)**
+- *Definición:* hacia dónde apunta — la brújula, propia y ajena.
+- *Función:* elegir y priorizar — no resolver.
+- *Ventanas:* **arranque del día** (¿hoy qué importa?) · **bifurcaciones** (¿este hilo vale la pena?) · **al explicar a otros** (ayudarlos a ver su dirección).
+- *Modo de falla:* en medio de una acción = excusa para no actuar.
+
+**8. Por qué (raíz)**
+- *Definición:* la causa inicial — de dónde nace esto, el motivo.
+- *Función:* dar sentido y evitar repetir errores con la misma raíz. Es memoria viva, no instrumento en vivo.
+- *Ventanas:* **cierre del día** (¿por qué me pasó lo de hoy?) · **rutinas caídas** (¿por qué se cayó? — raíz, no culpa) · **decisiones importantes** (antes de comprometerse, no antes de responder un mensaje).
+- *Modo de falla:* en plena interacción = bucle tardío — "cuando lo preguntas, el hilo ya se cerró".
+
+### Regla de arquitectura (resumen operativo)
+
+- **Sustrato:** no se invoca, se cultiva (se apaga solo con estrés → el Observador es el primero que se recuerda re-encender).
+- **En vivo: máx. 2 eventos, ≤2 s, uno por vez** — Despertar decide, Causa mueve; Cómo corre si ya hay acción.
+- **Ventanas:** Para qué y Por qué viven en momentos fijos del día (arranque, bifurcaciones, cierre), no en el medio del chat ni de la compra.
+- **Identidad (Increíble+Propiedad):** siempre, sin manufactura.
+- Todo lo que no cabe en estas capas → P6 (deriva): se archiva, no se carga.
