@@ -54,6 +54,12 @@ tags: [crecimiento, bloques-25, estructura]
 | Fecha | Bloque | Pilar | Qué se hizo | Nota (autoevaluación 1-10) |
 |-------|--------|-------|-------------|---------------------------|
 | 2026-11-01 | — | estructura | Nota creada | — |
+| 2026-11-02 | 1 | Mentalidad | Evaluación inicial 15 ítems (A-E) → **45/75 (60%)** | 6 |
+
+**Resultado Bloque 1 (2026-11-02):**
+- Dimensión: A 8 · B 9 · **C 11** · D 8 · E 9
+- Fortaleza: chipset (auto-diagnóstico) · Piso: A (corrección en vuelo) + D (cambios de rutina)
+- Ítem más bajo: #6 abruma → paraliza (1) · Dirección: protocolo causa→corrección + reanclar racha mínima diaria
 
 ---
 
