@@ -63,6 +63,21 @@ tags: [crecimiento, bloques-25, estructura]
 
 ---
 
+## 🧭 Dirección — Mentalidad (2026-11-02)
+
+**Norte (90 días):** pasar de *radar fuerte / transmisión débil* a radar + transmisión.
+- Meta: A y D de 8 → 12 (+8 pts = **53/75**) · Aspiración: las cinco dimensiones en 4 = **59/75**
+- Fecha tiro: reevaluación de los 15 ítems el **16-nov-2026** (misma escala)
+
+**3 protocolos de ejecución (el "cómo") :**
+1. **Vuelo (A):** al fallar → frase antes de actuar: *"causa X → corrijo Z"*. Sin frase, no se actúa.
+2. **Antiparálisis (#6):** si algo abruma → máx. **3 pasos escritos en <2 min**. Prohibido quedarse mirando.
+3. **Cambio semanal (D):** 1 rutina real por semana. Semana 2: ✅ racha mision reanclada (2-nov) · ⏳ reevaluar gym → nota única Gym.md con Mr. Jair.
+
+**Indicador temprano:** racha de registro en `mision.md` — si caen 2 días seguidos, el modo fallo #6 está activo y se ataca con protocolo 2.
+
+---
+
 ## 🔗 Enlaces
 - [[Habilidades y conocimientos (intereses)]]
 - Registro diario → `registro de progreso diario/`
