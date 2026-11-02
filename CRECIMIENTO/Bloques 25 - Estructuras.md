@@ -98,6 +98,7 @@ tags: [crecimiento, bloques-25, estructura]
 ---
 
 ## 🔗 Enlaces
+- [[Patrones Mentales - Base]] — base sólida de patrones (sesión profunda 2026-11-02)
 - [[Habilidades y conocimientos (intereses)]]
 - Registro diario → `registro de progreso diario/`
 - Tareas → `mision.md`
