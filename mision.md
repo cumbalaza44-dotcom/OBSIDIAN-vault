@@ -1,6 +1,6 @@
 ---
 created: 2026-05-25
-updated: 2026-11-02
+updated: 2026-11-05
 source: "Mr. Jair — iOS / Telegram"
 ---
 
@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 MISSIONS
 
-### Última actualización: `1 Nov 2026 — 20:00 (Planificación Semanal)`
+### Última actualización: `5 Nov 2026 — 01:00 (Rollo automático)`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -19,38 +19,43 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Lunes 2/11
+## 🔥 HOY — Jueves 5/11
 
-> 🎯 **Arranque Semana 2 — S6 Incidentes.** Horario L-V 8 AM-5 PM (datacenter).
-> 📋 Planificación semanal cerrada ayer — ver prioridades abajo.
+> 🎯 **Prioridad del día: 💰 Ingresos — distribuir $1.050.000** (Jue 5, #6).
+> 🔄 Rollo automático 5/11 — arrastres de Lun 2 → Mié 4 consolidados abajo (`[>]` = no hecha, con fecha).
 
+- [>] 🖥️ DC — S6 Incidentes: iniciar bloque noche *(no hecha 2/11 — #2)*
+- [>] 📢 Meta Ads — definir nicho específico *(no hecha 3/11 — prioridad 4)*
+- [>] 🔬 Prototipo X — prototipar sensor ultrasónico *(no hecha 4/11 — prioridad 5)*
 - [ ] 📚 Lectura diaria *(5 min)*
-- [ ] 🖥️ DC — S6 Incidentes: iniciar bloque noche (6:30-9:30)
+- [ ] 💰 Ingresos — distribuir $1.050.000 restantes
 - [ ] 💊 Creatina noche
 
 ---
 
-## 📅 MAÑANA — Martes 3/11
+## 📅 MAÑANA — Viernes 6/11
 
-> Día Meta Ads según plan semanal.
+> Sin prioridad semanal fijada para Vie 6 — día de arrastres + hábitos.
 
 - [ ] 📚 Lectura diaria
-- [ ] 📢 Meta Ads — definir nicho específico *(prioridad 4)*
 - [ ] 💊 Creatina noche
+- [>] 🖥️ DC — S6 Incidentes: iniciar bloque noche *(arrastra si no se completa hoy)*
+- [>] 📢 Meta Ads — definir nicho específico *(arrastra si no se completa hoy)*
+- [>] 🔬 Prototipo X — prototipar sensor ultrasónico *(arrastra si no se completa hoy)*
 
 ---
 
 ## 📋 PRIORIDADES SEMANA 2 (2–8 Nov)
 
-| # | Prioridad | Día | Proyecto |
-|---|-----------|-----|----------|
-| 1 | 🖥️ Cierre arrastre S5: inventario + red física + coordinación Network Ops + SOP/MOP *(¿confirmar cierre Dom?)* | Lun 2 | Datacenter |
-| 2 | 🖥️ S6 Incidentes: iniciar bloque noche | Lun 2 | Datacenter |
-| 3 | 📚 Lectura diaria + 🔍 S1 huecos: etiquetado TIA-606 *(arrastrado)* | Mar 3 | Hábitos |
-| 4 | 📢 Meta Ads — definir nicho específico | Mar 3 | Meta Ads |
-| 5 | 🔬 Prototipo X — retomar: prototipar sensor ultrasónico *(reevaluado 1/11)* | Mié 4 | Prototipo X |
-| 6 | 💰 Ingresos — distribuir $1.050.000 restantes | Jue 5 | Ingresos |
-| 7 | 🏠🏠 Hogar — comprar empaque culatín *(rápida)* | Sáb 7 | Hogar |
+| # | Prioridad | Día | Proyecto | Estado |
+|---|-----------|-----|----------|--------|
+| 1 | 🖥️ Cierre arrastre S5: inventario + red física + coordinación Network Ops + SOP/MOP *(¿confirmar cierre Dom?)* | Lun 2 | Datacenter | ⏳ pendiente (atrasada 3d) |
+| 2 | 🖥️ S6 Incidentes: iniciar bloque noche | Lun 2 | Datacenter | ⏳ pendiente (arrastrada a hoy) |
+| 3 | 📚 Lectura diaria + 🔍 S1 huecos: etiquetado TIA-606 *(arrastrado)* | Mar 3 | Hábitos | ⏳ pendiente (arrastrada) |
+| 4 | 📢 Meta Ads — definir nicho específico | Mar 3 | Meta Ads | ⏳ pendiente (arrastrada a hoy) |
+| 5 | 🔬 Prototipo X — retomar: prototipar sensor ultrasónico *(reevaluado 1/11)* | Mié 4 | Prototipo X | ⏳ pendiente (arrastrada a hoy) |
+| 6 | 💰 Ingresos — distribuir $1.050.000 restantes | Jue 5 | Ingresos | 🔄 hoy |
+| 7 | 🏠🏠 Hogar — comprar empaque culatín *(rápida)* | Sáb 7 | Hogar | ⏳ pendiente |
 
 > ⏸️ Gym y E-Commerce siguen pausados — reevaluar en próxima planificación.
 
@@ -78,9 +83,9 @@ source: "Mr. Jair — iOS / Telegram"
 
 | Hábito | Frecuencia | Último registro |
 |--------|------------|-----------------|
-| 📚 Lectura diaria | Diario | 27/10 ✅ |
-| 💊 Creatina 3-5g | Diario (noche) | 27/10 ✅ |
-| 🏋️ Gym | ⏸️ pausado | Pausado desde Sep — **reevaluar hoy 1/11** (fin pausa DC) |
+| 📚 Lectura diaria | Diario | 27/10 ✅ *(sin registro 28/10–4/11; hoy 5/11 pendiente)* |
+| 💊 Creatina 3-5g | Diario (noche) | 27/10 ✅ *(sin registro 28/10–4/11; hoy 5/11 pendiente)* |
+| 🏋️ Gym | ⏸️ pausado | Pausado desde Sep — reevaluación **pendiente desde 1/11** |
 | 🔬 Prototipo X | ⏸️ pausado | Pausado — prioridad DC |
 
 ### 📊 En Progreso
