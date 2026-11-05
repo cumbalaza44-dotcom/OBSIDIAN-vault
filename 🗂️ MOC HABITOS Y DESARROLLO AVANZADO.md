@@ -1,0 +1,107 @@
+# 🗂️ MOC — HABITOS Y DESARROLLO AVANZADO
+
+> Map of Content generado automáticamente. Conecta cada nota de esta área al grafo.
+> Notas: 82
+
+
+### Habilidades-conocimiento (intereses)
+- [[HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Carburador Moto 150cc OHV|Carburador Moto 150cc OHV]]
+- [[HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Estudio-desde-Topologia-Fabricato|Estudio-desde-Topologia-Fabricato]]
+- [[HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Guia-Investigacion-DataCenter-Hardware|Guia-Investigacion-DataCenter-Hardware]]
+- [[HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Habilidades y conocimientos ( intereses)|Habilidades y conocimientos ( intereses)]]
+- [[HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Manual-de-Procesos-DC|Manual-de-Procesos-DC]]
+- [[HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Motor DOHC|Motor DOHC]]
+- [[HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Plan-Estudio-DataCenter-Hardware|Plan-Estudio-DataCenter-Hardware]]
+- [[HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Planes-Soporte-Red-UFM-otros|Planes-Soporte-Red-UFM-otros]]
+- [[HABITOS Y DESARROLLO AVANZADO/Habilidades-conocimiento (intereses)/Playbook-Runbook-DC|Playbook-Runbook-DC]]
+
+### MODO FANTASMA
+- [[HABITOS Y DESARROLLO AVANZADO/MODO FANTASMA/MOC|MOC]]
+- [[HABITOS Y DESARROLLO AVANZADO/MODO FANTASMA/README|README]]
+
+### MODO FANTASMA/2026-07
+- [[HABITOS Y DESARROLLO AVANZADO/MODO FANTASMA/2026-07/2026-07-07|2026-07-07]]
+- [[HABITOS Y DESARROLLO AVANZADO/MODO FANTASMA/2026-07/2026-07-08|2026-07-08]]
+- [[HABITOS Y DESARROLLO AVANZADO/MODO FANTASMA/2026-07/2026-07-09|2026-07-09]]
+- [[HABITOS Y DESARROLLO AVANZADO/MODO FANTASMA/2026-07/2026-07-10|2026-07-10]]
+- [[HABITOS Y DESARROLLO AVANZADO/MODO FANTASMA/2026-07/2026-07-11|2026-07-11]]
+- [[HABITOS Y DESARROLLO AVANZADO/MODO FANTASMA/2026-07/2026-07-12|2026-07-12]]
+- [[HABITOS Y DESARROLLO AVANZADO/MODO FANTASMA/2026-07/2026-07-13|2026-07-13]]
+- [[HABITOS Y DESARROLLO AVANZADO/MODO FANTASMA/2026-07/2026-07-14|2026-07-14]]
+- [[HABITOS Y DESARROLLO AVANZADO/MODO FANTASMA/2026-07/2026-07-15|2026-07-15]]
+- [[HABITOS Y DESARROLLO AVANZADO/MODO FANTASMA/2026-07/2026-07-16|2026-07-16]]
+- [[HABITOS Y DESARROLLO AVANZADO/MODO FANTASMA/2026-07/2026-07-17|2026-07-17]]
+- [[HABITOS Y DESARROLLO AVANZADO/MODO FANTASMA/2026-07/2026-07-18|2026-07-18]]
+- [[HABITOS Y DESARROLLO AVANZADO/MODO FANTASMA/2026-07/2026-07-19|2026-07-19]]
+- [[HABITOS Y DESARROLLO AVANZADO/MODO FANTASMA/2026-07/2026-07-20|2026-07-20]]
+- [[HABITOS Y DESARROLLO AVANZADO/MODO FANTASMA/2026-07/2026-07-21|2026-07-21]]
+- [[HABITOS Y DESARROLLO AVANZADO/MODO FANTASMA/2026-07/2026-07-22|2026-07-22]]
+- [[HABITOS Y DESARROLLO AVANZADO/MODO FANTASMA/2026-07/2026-07-23|2026-07-23]]
+- [[HABITOS Y DESARROLLO AVANZADO/MODO FANTASMA/2026-07/2026-07-24|2026-07-24]]
+- [[HABITOS Y DESARROLLO AVANZADO/MODO FANTASMA/2026-07/2026-07-25|2026-07-25]]
+- [[HABITOS Y DESARROLLO AVANZADO/MODO FANTASMA/2026-07/2026-07-26|2026-07-26]]
+
+### MODO FANTASMA/Habilidades
+- [[HABITOS Y DESARROLLO AVANZADO/MODO FANTASMA/Habilidades/comunicacion|comunicacion]]
+- [[HABITOS Y DESARROLLO AVANZADO/MODO FANTASMA/Habilidades/fotografia|fotografia]]
+- [[HABITOS Y DESARROLLO AVANZADO/MODO FANTASMA/Habilidades/storytelling|storytelling]]
+- [[HABITOS Y DESARROLLO AVANZADO/MODO FANTASMA/Habilidades/video|video]]
+
+### Mente (ser)
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/FLUJO 3 P|FLUJO 3 P]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/Habilidad (mentales)|Habilidad (mentales)]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/Hábitos mente|Hábitos mente]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/Mente|Mente]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/Notas mentales|Notas mentales]]
+
+### Mente (ser)/habito -lectura
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/README|README]]
+
+### Mente (ser)/habito -lectura/2026-06
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-06/2026-06-01|2026-06-01]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-06/2026-06-02|2026-06-02]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-06/2026-06-03|2026-06-03]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-06/2026-06-04|2026-06-04]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-06/2026-06-05|2026-06-05]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-06/2026-06-06|2026-06-06]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-06/2026-06-07|2026-06-07]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-06/2026-06-08|2026-06-08]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-06/2026-06-09|2026-06-09]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-06/2026-06-10|2026-06-10]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-06/2026-06-11|2026-06-11]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-06/2026-06-12|2026-06-12]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-06/2026-06-13|2026-06-13]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-06/2026-06-14|2026-06-14]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-06/2026-06-15|2026-06-15]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-06/2026-06-16|2026-06-16]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-06/2026-06-17|2026-06-17]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-06/2026-06-18|2026-06-18]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-06/2026-06-19|2026-06-19]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-06/2026-06-20|2026-06-20]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-06/2026-06-21|2026-06-21]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-06/2026-06-22|2026-06-22]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-06/2026-06-23|2026-06-23]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-06/2026-06-24|2026-06-24]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-06/2026-06-25|2026-06-25]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-06/2026-06-26|2026-06-26]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-06/2026-06-27|2026-06-27]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-06/2026-06-28|2026-06-28]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-06/2026-06-29|2026-06-29]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-06/2026-06-30|2026-06-30]]
+
+### Mente (ser)/habito -lectura/2026-07
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-07/2026-07-01|2026-07-01]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-07/2026-07-02|2026-07-02]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-07/2026-07-03|2026-07-03]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-07/2026-07-04|2026-07-04]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-07/2026-07-05|2026-07-05]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-07/2026-07-06|2026-07-06]]
+- [[HABITOS Y DESARROLLO AVANZADO/Mente (ser)/habito -lectura/2026-07/2026-07-07|2026-07-07]]
+
+### Yo y pendientes personales
+- [[HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/Cuidado personal|Cuidado personal]]
+- [[HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/Hábitos|Hábitos]]
+- [[HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/Objetivo Personal corto|Objetivo Personal corto]]
+
+### Yo y pendientes personales/GYM
+- [[HABITOS Y DESARROLLO AVANZADO/Yo y pendientes personales/GYM/Gym|Gym]]

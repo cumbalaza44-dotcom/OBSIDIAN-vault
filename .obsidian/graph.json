@@ -1,0 +1,101 @@
+{
+  "collapse-filter": false,
+  "match-tags-only": false,
+  "show-tags": true,
+  "show-attachments": false,
+  "hide-unresolved": false,
+  "show-orphans": true,
+  "collapse-color-groups": false,
+  "color-groups": [
+    {
+      "query": "path:\"LECTURAS-DIARIAS\"",
+      "color": {
+        "a": 1,
+        "rgb": 5227511
+      }
+    },
+    {
+      "query": "path:\"HABITOS Y DESARROLLO AVANZADO\"",
+      "color": {
+        "a": 1,
+        "rgb": 8505220
+      }
+    },
+    {
+      "query": "path:\"FINANZAS Y PROYECTOS\"",
+      "color": {
+        "a": 1,
+        "rgb": 16758605
+      }
+    },
+    {
+      "query": "path:\"registro de progreso diario\"",
+      "color": {
+        "a": 1,
+        "rgb": 9795021
+      }
+    },
+    {
+      "query": "path:\"System\"",
+      "color": {
+        "a": 1,
+        "rgb": 9479342
+      }
+    },
+    {
+      "query": "path:\"CRECIMIENTO\"",
+      "color": {
+        "a": 1,
+        "rgb": 15753874
+      }
+    },
+    {
+      "query": "path:\"HOGAR\"",
+      "color": {
+        "a": 1,
+        "rgb": 10586239
+      }
+    },
+    {
+      "query": "path:\"HELENA\"",
+      "color": {
+        "a": 1,
+        "rgb": 15037299
+      }
+    },
+    {
+      "query": "path:\"auditorias\"",
+      "color": {
+        "a": 1,
+        "rgb": 5093036
+      }
+    },
+    {
+      "query": "path:\"00-INBOX\"",
+      "color": {
+        "a": 1,
+        "rgb": 16766287
+      }
+    },
+    {
+      "query": "path:\"archivo\"",
+      "color": {
+        "a": 1,
+        "rgb": 11583173
+      }
+    },
+    {
+      "query": "path:/MAPA|MOC/",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
+    }
+  ],
+  "collapse-display": false,
+  "show-arrow": true,
+  "text-fade-multiplier": 0,
+  "node-size-multiplier": 1.2,
+  "link-opacity": 0.45,
+  "font-size": 12
+}
