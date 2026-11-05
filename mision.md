@@ -21,14 +21,14 @@ source: "Mr. Jair — iOS / Telegram"
 
 ## 🔥 HOY — Jueves 5/11
 
-> 🎯 **Prioridad del día: 💰 Ingresos — distribuir $1.050.000** (Jue 5, #6).
+> 🎯 **Prioridad del día: 📚 Lectura + arrastres DC**
 > 🔄 Rollo automático 5/11 — arrastres de Lun 2 → Mié 4 consolidados abajo (`[>]` = no hecha, con fecha).
+> 📌 Ingresos — distribuir $1.050.000 → **programada Jue 25/11** (movida por Mr. Jair).
 
 - [>] 🖥️ DC — S6 Incidentes: iniciar bloque noche *(no hecha 2/11 — #2)*
 - [>] 📢 Meta Ads — definir nicho específico *(no hecha 3/11 — prioridad 4)*
 - [>] 🔬 Prototipo X — prototipar sensor ultrasónico *(no hecha 4/11 — prioridad 5)*
 - [ ] 📚 Lectura diaria *(5 min)*
-- [ ] 💰 Ingresos — distribuir $1.050.000 restantes
 - [ ] 💊 Creatina noche
 
 ---
@@ -54,7 +54,7 @@ source: "Mr. Jair — iOS / Telegram"
 | 3 | 📚 Lectura diaria + 🔍 S1 huecos: etiquetado TIA-606 *(arrastrado)* | Mar 3 | Hábitos | ⏳ pendiente (arrastrada) |
 | 4 | 📢 Meta Ads — definir nicho específico | Mar 3 | Meta Ads | ⏳ pendiente (arrastrada a hoy) |
 | 5 | 🔬 Prototipo X — retomar: prototipar sensor ultrasónico *(reevaluado 1/11)* | Mié 4 | Prototipo X | ⏳ pendiente (arrastrada a hoy) |
-| 6 | 💰 Ingresos — distribuir $1.050.000 restantes | Jue 5 | Ingresos | 🔄 hoy |
+| 6 | 💰 Ingresos — distribuir $1.050.000 restantes | **Jue 25** | Ingresos | 📅 programada |
 | 7 | 🏠🏠 Hogar — comprar empaque culatín *(rápida)* | Sáb 7 | Hogar | ⏳ pendiente |
 
 > ⏸️ Gym y E-Commerce siguen pausados — reevaluar en próxima planificación.
