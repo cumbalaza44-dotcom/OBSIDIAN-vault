@@ -1,58 +1,59 @@
-# Comparativa OpenRouter vs Muse Spark 1.3 — 2026-11-06
+# Comparativa 4 candidatos OpenClaw — 2026-11-06
 
-Fuente de precios: `https://openrouter.ai/api/v1/models` (consultado 2026-11-06). Precios convertidos a **$/M tokens** (API da $/1k → ×1000). Blended = (3×in + out)/4.
+Precios frescos: `https://openrouter.ai/api/v1/models` (2026-11-06). Blended 3:1 = (3×in+out)/4. Blended 1:1 = (in+out)/2. Turno típico agente = 10k in + 3k out.
 
-## 0. Modelo actual
+## 1. Tabla comparativa
 
-| Modelo | $/M in | $/M out | Blended 3:1 | Ctx | Tools | Reasoning |
-|---|---|---|---|---|---|---|
-| `meta/muse-spark-1.3-contributor` | **0.10** | **0.20** | **0.125** | 1M | ✅ | ✅ nativo |
-| `meta/muse-spark-1.3` (tier normal) | 1.25 | 4.25 | 2.00 | 1M | ✅ | ✅ nativo |
+| # | Modelo | $/M in | $/M out | Blend 3:1 | Blend 1:1 | Turno 10k+3k | Ctx | Tools | Reasoning |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | `meta/muse-spark-1.3-contributor` | 0.10 | 0.20 | 0.125 | 0.150 | **$0.00160** | 1M | ✅ | ✅ nativo |
+| 2 | `deepseek/deepseek-v4-flash` (0423) | 0.091 | 0.182 | 0.114 | 0.137 | **$0.00146** | 1M | ✅ | ✅ |
+| 3 | `deepseek/deepseek-v4-flash-0731` | 0.0434 | 0.30 | 0.108 | 0.172 | **$0.00133** | 1M | ✅ | ✅ |
+| 4 | `xiaomi/mimo-v2.6-flash` | 0.14 | 0.28 | 0.175 | 0.210 | **$0.00224** | 1M | ✅ | ✅ |
 
-Benchmarks Spark 1.3 (reporte oficial Meta): DeepSWE v1.1 **75.4%**, Terminal-Bench 2.1 **88.8%**, SWE-Atlas QnA 59.4%. Sin score público SWE-bench Verified.
-⚠️ El tier **contributor es ~16× más barato** que el normal: es precio subsidiado/experimental. Todo el análisis se hace contra este precio.
+## 2. Inteligencia (benchmarks públicos)
 
-## 1. Candidatos (precios frescos OpenRouter)
+| Modelo | SWE-bench Ver. | Agente (DeepSWE / T-Bench) | Tool calling | Español |
+|---|---|---|---|---|
+| Spark 1.3 | s/d público (DeepSWE v1.1 75.4%, T-Bench 2.1 88.8% reporte Meta) | ✅ flagship | ✅ | ✅ bueno |
+| V4 Flash 0423 | ~73.7–79.0 (preview, según esfuerzo) | DeepSWE 7.3, T-Bench 61.8, Toolathlon 49.7 | ✅ (V4.1-Flash BFCL ~77%) | ✅ bueno |
+| V4 Flash 0731 | s/d SWE-bench aislado (release oficial, supera al preview) | **DeepSWE 54.4, T-Bench 82.7, Toolathlon 70.3** | ✅ | ✅ bueno |
+| Mimo 2.6 Flash | s/d SWE-bench público | DeepSWE v1.1 ~66–73 (datos Xiaomi) | ✅ | ✅ muy bueno |
 
-| # | Modelo (id exacto) | $/M in | $/M out | Blended | Ctx | Tools | Reasoning | vs Spark |
-|---|---|---|---|---|---|---|---|---|
-| 1 | `deepseek/deepseek-v4-flash` | 0.091 | 0.182 | **0.114** | 1M | ✅ | ✅ | ~igual, levemente más barato; SWE-b Verified ~80% (fam. V4 Pro 80.6%) |
-| 2 | `openai/gpt-oss-120b` | 0.02 | 0.075 | **0.034** | 128K | ✅ | ✅ | **más débil** en código/agente general; imbatible en precio |
-| 3 | `xiaomi/mimo-v2.6-flash` | 0.14 | 0.28 | 0.175 | 1M | ✅ | ✅ | nivel medio-alto, bueno en ES/código; un poco más caro |
-| 4 | `z-ai/glm-5.3-flash` | 0.15 | 0.50 | 0.24 | 1M | ✅ | ✅ | buen agente/código; ~2× el precio |
-| 5 | `z-ai/glm-5.3` | 0.07 | 1.40 | 0.40 | 1M | ✅ | ✅ | flagship Z.ai, SWE-b Ver. 77.8%; output caro |
-| 6 | `qwen/qwen3.8-flash` | 0.15 | 0.47 | 0.23 | 1M | ✅ | ✅ | sólido código/herramientas; ~2× precio |
-| 7 | `xiaomi/mimo-v2.6-pro` | 0.435 | 0.87 | 0.54 | 1M | ✅ | ✅ | flagship Xiaomi >1T; ~4× precio, posible upgrade real |
-| 8 | `deepseek/deepseek-v4-pro` | 0.79 | 1.58 | 0.99 | 1M | ✅ | ✅ | 1.6T MoE, SWE-b Ver. 80.6%; ~8× precio |
-| 9 | `moonshotai/kimi-k2.5` | 0.50 | 2.50 | 1.00 | 256K | ✅ | ✅ | gran coding visual/agente; ~8× precio, ctx menor |
-| 10 | `moonshotai/kimi-k3.1-pro` | 2.00 | 10.00 | 4.00 | 1M | ✅ | ✅ | flagship Moonshot; ~32× precio |
-| 11 | `qwen/qwen3-coder-next` | 0.12 | 0.80 | 0.29 | 256K | ✅ | parcial | especialista código, barato; no generalista |
-| 12 | `mistralai/devstral-2512` | 0.40 | 2.00 | 0.80 | 256K | ✅ | — | especialista código 123B; ~6× precio |
-| 13 | `meta-llama/llama-4-maverick` | 0.35 | 1.00 | 0.51 | 512K | ✅ | — | buen open, sin reasoning nativo; ~4× precio |
+Fuentes: model cards DeepSeek/HF, release Xiaomi mimo-v2-6, Artificial Analysis / Vals.ai (nov-2026).
 
-Benchmarks de terceros (SWE-bench Verified / BFCL v4, nov-2026): DeepSeek V4 Pro **80.6%**, GLM-5 **77.8%**, Kimi K2.5 76.8%, Qwen3.8 Max BFCL 77.2%, DeepSeek V4.1-Flash BFCL 77.0%.
+## 3. 0423 vs 0731: el duelo clave
 
-## 2. Filtro: igualan o superan a Spark Y cuestan igual o menos (blended ≤ $0.125/M)
+- **0731 es el release oficial** que reemplaza al preview 0423: muy superior en agenticidad (DeepSWE 54.4 vs 7.3, T-Bench 82.7 vs 61.8).
+- **Precio invertido:** 0731 input ~2× más barato ($0.0434 vs $0.091) pero output ~65% más caro ($0.30 vs $0.182).
+- **Punto de corte:** 0731 sale más barato solo si ratio in/out > ~2.5:1. Turno típico OpenClaw (10k+3k = 3.3:1) → gana 0731 ($0.00133 vs $0.00146).
+- **Pero:** OpenClaw genera MUCHO output (tool calls, reasoning, respuestas largas). En sesiones con output pesado (ratio <2.5:1) el 0423 es más barato. Y el output caro del 0731 penaliza justo lo que un agente más hace.
+- **Veredicto duelo:** 0731 = más inteligente y más barato en turnos input-heavy típicos. 0423 = más predecible/económico si tu sesión genera muchísimo output. A igualdad de precio, 0731 rinde más por dólar por ser mejor modelo.
 
-| Pasa el filtro | Blended | Veredicto capacidad |
-|---|---|---|
-| `deepseek/deepseek-v4-flash` (0.114) | ✅ más barato | ✅ Igual: 1M ctx, tools, reasoning, benchmarks V4 ≥ Spark |
-| `openai/gpt-oss-120b` (0.034) | ✅ 4× más barato | ⚠️ Casi: reasoning+tools OK, pero un escalón abajo en código/agente y ctx 128K |
-| `qwen/qwen3-coder-next` (0.29) | ❌ 2.3× más caro | Solo código; no pasa precio |
-| Todo flagship (GLM-5.3, Kimi, Qwen Max, V4 Pro, Mimo Pro) | ❌ 2–32× más caro | Superan a Spark pero NO a igual/menor precio |
+## 4. Costo por turno OpenClaw (10k in + 3k out)
 
-**Conclusión del filtro: solo `deepseek-v4-flash` iguala capacidad a menor precio. `gpt-oss-120b` es el único dramáticamente más barato con capacidad aceptable (concesión real).**
+| Modelo | Costo/turno | 100 turnos/día | 3000 turnos/mes |
+|---|---|---|---|
+| 0731 | $0.00133 | $0.13 | ~$4.00 |
+| 0423 | $0.00146 | $0.15 | ~$4.37 |
+| Spark contrib | $0.00160 | $0.16 | ~$4.80 |
+| Mimo 2.6 Flash | $0.00224 | $0.22 | ~$6.72 |
 
-## 3. Ranking top 5 y recomendación
+Todos ridículamente baratos (<$7/mes uso intensivo). El precio NO decide; decide la inteligencia.
 
-1. **`meta/muse-spark-1.3-contributor` — SEGUIR como principal.** $0.125 blended, flagship con reasoning, 1M ctx. Nada lo supera a este precio; el precio es subsidiado, aprovéchalo mientras exista.
-2. **`deepseek/deepseek-v4-flash` — alterno principal / failover.** Prácticamente mismo precio ($0.114), benchmarks V4 de 80% en SWE-bench, 1M ctx. Úsalo si el contributor rate-limitea o se acaba el subsidio.
-3. **`openai/gpt-oss-120b` — rutinario barato (reemplaza dsv4 si quieres).** $0.034 blended (~4× más barato que spark-contrib). Para lecturas, sync, búsquedas, tareas simples. No para reasoning pesado (ctx 128K, un escalón abajo).
-4. **`xiaomi/mimo-v2.6-flash` — rutinario alternativo.** $0.175 blended, 1M ctx, buen español (Xiaomi), reasoning. Un poco más caro que spark-contrib; solo tiene sentido si buscas variedad.
-5. **`xiaomi/mimo-v2.6-pro` — upgrade pago cuando el precio no importe.** $0.54 blended (~4×), flagship >1T. Candidato a principal premium si el contributor sube de precio.
+## 5. Economía: tokens útiles por dólar
 
-### Configuración sugerida
-- Principal: `spark` (contributor) — sin cambio.
-- Rutinario: cambiar `dsv4` → `openai/gpt-oss-120b` para lo trivial ($0.034/M), o mantener `deepseek-v4-flash` como rutinario "casi gratis pero capaz".
-- Failover principal: `deepseek/deepseek-v4-flash`.
-- Vigilar: si `muse-spark-1.3-contributor` pierde el subsidio (salta a $2.00 blended del tier normal), el reemplazo principal pasa a ser `deepseek-v4-flash` y el premium `mimo-v2.6-pro`/`glm-5.3`.
+- **(a) Principal reasoning:** Spark 1.3-contrib (flagship, T-Bench 88.8%) o 0731 (T-Bench 82.7, input baratísimo). Empate técnico; Spark tiene mejor techo.
+- **(b) Rutinario barato:** 0731 — input a $0.0434/M es imbatible para lecturas/sync con contexto grande. 0423 segundo.
+- **(c) Failover:** 0423 — precio output estable y barato, modelo maduro; si el contributor rate-limitea, este sostiene sin sustos en factura.
+
+Mimo 2.6 Flash: el más caro de los 4 (+40% vs Spark) sin ventaja demostrada en benchmarks públicos de agente. Solo tendría sentido por español/código específico Xiaomi. No recomendado como default.
+
+## 6. Ranking final y recomendación
+
+1. **`meta/muse-spark-1.3-contributor` — PRINCIPAL.** Mejor techo (T-Bench 88.8%), precio subsidiado $0.125 blended. Aprovéchalo mientras exista.
+2. **`deepseek/deepseek-v4-flash-0731` — RUTINARIO + alterno principal.** Input más barato del mercado ($0.0434), agenticidad muy superior al 0423. Ideal para dsv4/rutinario y sesiones largas input-heavy.
+3. **`deepseek/deepseek-v4-flash` (0423) — FAILOVER.** Output barato y estable ($0.182). Red de seguridad si contributor o 0731 fallan o si la sesión genera output extremo.
+4. **`xiaomi/mimo-v2.6-flash` — descartado por ahora.** +40% precio sin evidencia de superioridad. Re-evaluar si salen SWE-bench/BFCL independientes.
+
+**Configuración concreta:** principal `spark`, rutinario `0731` (reemplaza al 0423 actual en alias dsv4), failover `0423`.
