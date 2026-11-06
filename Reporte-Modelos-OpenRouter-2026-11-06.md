@@ -57,3 +57,22 @@ Mimo 2.6 Flash: el más caro de los 4 (+40% vs Spark) sin ventaja demostrada en 
 4. **`xiaomi/mimo-v2.6-flash` — descartado por ahora.** +40% precio sin evidencia de superioridad. Re-evaluar si salen SWE-bench/BFCL independientes.
 
 **Configuración concreta:** principal `spark`, rutinario `0731` (reemplaza al 0423 actual en alias dsv4), failover `0423`.
+
+## 7. Anexo: Artificial Analysis + veredicto proveedores 0731 (2026-11-06)
+
+Fuente: artificialanalysis.ai (consultado 2026-11-06). Si el modelo exacto no existe en AA, se usa el más cercano y se anota.
+
+| Modelo (AA) | Intelligence Index | Output speed AA | Precio AA ref | Nota |
+|---|---|---|---|---|
+| Muse Spark 1.3 (Max) | 37 (artículo 1.3: xhigh 61 / max 62) | ~12.7 min/tarea | $2.39/tarea | AA mide costo por tarea, no por token; el tier contributor de OpenRouter ($0.125 blended) es subsidio aparte |
+| DeepSeek V3.2 (Reasoning, proxy de v4-flash) | 42 | 34 tok/s | ~$0.10/M ref | V4 Pro sube a 52; v4-flash hereda esa familia |
+| DeepSeek V4 Flash (0423) | ~40-42 (familia V3.2/V4) | ~33 tok/s | ~$0.30/M ref | Modelo maduro, precio estable |
+| Xiaomi MiMo-V2.6-Pro | 30 | 44.7 min/tarea (más rápido Xiaomi) | — | MiMo-V2.6-Flash: $0.13/tarea (el más barato Xiaomi) |
+
+**Veredicto proveedor 0731 (screenshot usuario):**
+- Baidu 90% off: $0.04576 in / $0.1373 out, 100 tok/s, latencia 0.75s → más barato en output.
+- Wafer: $0.0448 in / $0.30 out, 173 tok/s, latencia 0.34s → más rápido (casi 2x) y menor latencia.
+- Resto: $0.09–$0.44 in → fuera de competencia.
+- Regla: sesiones output-heavy → Baidu; interactivas/latencia → Wafer.
+
+**Confirmación economía spark-contributor:** ningún proveedor del 0731 ni ningún dato AA lo desbanca. Spark-contrib a $0.125 blended con T-Bench 88.8% sigue siendo rey económico: más inteligente que todo lo comparado y más barato que Mimo (+40%) y que cualquier 0731 con output caro. Veredicto del reporte (secciones 1–6) se mantiene.
