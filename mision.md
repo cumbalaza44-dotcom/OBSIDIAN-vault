@@ -29,8 +29,8 @@ source: "Mr. Jair — iOS / Telegram"
 - [>] 📢 Meta Ads — definir nicho específico *(no hecha 3/11 — prioridad 4)*
 - [>] 🔬 Prototipo X — prototipar sensor ultrasónico *(no hecha 4/11 — prioridad 5)*
 - [ ] 📚 Lectura diaria *(5 min)*
-- [ ] 🌐 Gestionar instalación de internet
-- [ ] 💊 Creatina noche
+- [x] 🌐 Gestionar instalación de internet (mañana Vie 6: gestión dirección de instalación)
+- [x] 💊 Creatina noche
 
 ---
 
