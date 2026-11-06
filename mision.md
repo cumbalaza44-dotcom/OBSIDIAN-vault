@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 MISSIONS
 
-### Última actualización: `5 Nov 2026 — 01:00 (Rollo automático)`
+### Última actualización: `6 Nov 2026 — 01:00 (Rollo automático)`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -19,29 +19,29 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Jueves 5/11
+## 🔥 HOY — Viernes 6/11
 
-> 🎯 **Prioridad del día: 📚 Lectura + arrastres DC**
-> 🔄 Rollo automático 5/11 — arrastres de Lun 2 → Mié 4 consolidados abajo (`[>]` = no hecha, con fecha).
+> 🎯 **Prioridad del día: arrastres + hábitos + 🌐 gestión internet**
+> 🔄 Rollo automático 6/11 — HOY←MAÑANA del 5/11; lectura 5/11 no hecha (`[>]`).
 > 📌 Ingresos — distribuir $1.050.000 → **programada Jue 25/11** (movida por Mr. Jair).
 
-- [>] 🖥️ DC — S6 Incidentes: iniciar bloque noche *(no hecha 2/11 — #2)*
-- [>] 📢 Meta Ads — definir nicho específico *(no hecha 3/11 — prioridad 4)*
-- [>] 🔬 Prototipo X — prototipar sensor ultrasónico *(no hecha 4/11 — prioridad 5)*
-- [ ] 📚 Lectura diaria *(5 min)*
-- [x] 🌐 Gestionar instalación de internet (mañana Vie 6: gestión dirección de instalación)
-- [x] 💊 Creatina noche
+- [>] 📚 Lectura diaria *(no hecha 5/11)*
+- [>] 🖥️ DC — S6 Incidentes: iniciar bloque noche *(no hecha 5/11 — #2)*
+- [>] 📢 Meta Ads — definir nicho específico *(no hecha 5/11 — prioridad 4)*
+- [>] 🔬 Prototipo X — prototipar sensor ultrasónico *(no hecha 5/11 — prioridad 5)*
+- [ ] 💊 Creatina noche
+- [ ] 🌐 Gestión dirección de instalación de internet
 
 ---
 
-## 📅 MAÑANA — Viernes 6/11
+## 📅 MAÑANA — Sábado 7/11
 
-> Sin prioridad semanal fijada para Vie 6 — día de arrastres + hábitos.
+> 🎯 Prioridad semanal #7: 🏠🏠 comprar empaque culatín *(rápida)*.
 
+- [ ] 🏠🏠 Hogar — comprar empaque culatín *(prioridad semanal #7)*
 - [ ] 📚 Lectura diaria
 - [ ] 💊 Creatina noche
-- [ ] 🌐 Gestión dirección de instalación de internet
-- [>] 🖥️ DC — S6 Incidentes: iniciar bloque noche *(arrastra si no se completa hoy)*
+- [>] 🖥️ DC — S6 Incidentes *(arrastra si no se completa hoy)*
 - [>] 📢 Meta Ads — definir nicho específico *(arrastra si no se completa hoy)*
 - [>] 🔬 Prototipo X — prototipar sensor ultrasónico *(arrastra si no se completa hoy)*
 
@@ -52,10 +52,10 @@ source: "Mr. Jair — iOS / Telegram"
 | # | Prioridad | Día | Proyecto | Estado |
 |---|-----------|-----|----------|--------|
 | 1 | 🖥️ Cierre arrastre S5: inventario + red física + coordinación Network Ops + SOP/MOP *(¿confirmar cierre Dom?)* | Lun 2 | Datacenter | ⏳ pendiente (atrasada 3d) |
-| 2 | 🖥️ S6 Incidentes: iniciar bloque noche | Lun 2 | Datacenter | ⏳ pendiente (arrastrada a hoy) |
-| 3 | 📚 Lectura diaria + 🔍 S1 huecos: etiquetado TIA-606 *(arrastrado)* | Mar 3 | Hábitos | ⏳ pendiente (arrastrada) |
-| 4 | 📢 Meta Ads — definir nicho específico | Mar 3 | Meta Ads | ⏳ pendiente (arrastrada a hoy) |
-| 5 | 🔬 Prototipo X — retomar: prototipar sensor ultrasónico *(reevaluado 1/11)* | Mié 4 | Prototipo X | ⏳ pendiente (arrastrada a hoy) |
+| 2 | 🖥️ S6 Incidentes: iniciar bloque noche | Lun 2 | Datacenter | ⏳ pendiente (arrastrada al 6/11) |
+| 3 | 📚 Lectura diaria + 🔍 S1 huecos: etiquetado TIA-606 *(arrastrado)* | Mar 3 | Hábitos | ⏳ pendiente (lectura 5/11 no hecha; al 6/11) |
+| 4 | 📢 Meta Ads — definir nicho específico | Mar 3 | Meta Ads | ⏳ pendiente (arrastrada al 6/11) |
+| 5 | 🔬 Prototipo X — retomar: prototipar sensor ultrasónico *(reevaluado 1/11)* | Mié 4 | Prototipo X | ⏳ pendiente (arrastrada al 6/11) |
 | 6 | 💰 Ingresos — distribuir $1.050.000 restantes | **Jue 25** | Ingresos | 📅 programada |
 | 7 | 🏠🏠 Hogar — comprar empaque culatín *(rápida)* | Sáb 7 | Hogar | ⏳ pendiente |
 
@@ -85,8 +85,8 @@ source: "Mr. Jair — iOS / Telegram"
 
 | Hábito | Frecuencia | Último registro |
 |--------|------------|-----------------|
-| 📚 Lectura diaria | Diario | 27/10 ✅ *(sin registro 28/10–4/11; hoy 5/11 pendiente)* |
-| 💊 Creatina 3-5g | Diario (noche) | 27/10 ✅ *(sin registro 28/10–4/11; hoy 5/11 pendiente)* |
+| 📚 Lectura diaria | Diario | 5/11 ❌ *(sin registro 28/10–4/11; hoy 6/11 pendiente)* |
+| 💊 Creatina 3-5g | Diario (noche) | 5/11 ✅ *(sin registro 28/10–4/11; hoy 6/11 pendiente)* |
 | 🏋️ Gym | ⏸️ pausado | Pausado desde Sep — reevaluación **pendiente desde 1/11** |
 | 🔬 Prototipo X | ⏸️ pausado | Pausado — prioridad DC |
 
