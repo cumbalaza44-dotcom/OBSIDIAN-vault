@@ -40,6 +40,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 - [ ] 📚 Lectura diaria
 - [ ] 💊 Creatina noche
+- [ ] 🌐 Gestión dirección de instalación de internet
 - [>] 🖥️ DC — S6 Incidentes: iniciar bloque noche *(arrastra si no se completa hoy)*
 - [>] 📢 Meta Ads — definir nicho específico *(arrastra si no se completa hoy)*
 - [>] 🔬 Prototipo X — prototipar sensor ultrasónico *(arrastra si no se completa hoy)*
