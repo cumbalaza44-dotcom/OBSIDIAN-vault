@@ -28,7 +28,7 @@ source: "Mr. Jair — iOS / Telegram"
 - [>] 📚 Lectura diaria *(no hecha 5/11)*
 - [>] 🖥️ DC — S6 Incidentes: iniciar bloque noche *(no hecha 5/11 — #2)*
 - [>] 📢 Meta Ads — definir nicho específico *(no hecha 5/11 — prioridad 4)*
-- [>] 🔬 Prototipo X — prototipar sensor ultrasónico *(no hecha 5/11 — prioridad 5)*
+- [ ] 🔬 Prototipo X — prototipar sensor ultrasónico *(no hecha 5/11 — prioridad 5)*
 - [ ] 💊 Creatina noche
 - [ ] 🌐 Gestión dirección de instalación de internet
 
