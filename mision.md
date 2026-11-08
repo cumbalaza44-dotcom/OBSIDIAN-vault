@@ -27,7 +27,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 - [ ] 📚 Lectura diaria
 - [ ] 💊 Creatina noche
-- [>] 🏠🏠 Hogar — comprar empaque culatín *(no hecha 7/11 — #7)*
+- [x] 🏠🏠 Hogar — comprar empaque culatín ✅ *(completada 8/11 — #7)*
 - [>] 🖥️ DC — S6 Incidentes *(no hecha 7/11 — #2)*
 - [>] 📢 Meta Ads — definir nicho específico *(no hecha 7/11 — prioridad 4)*
 - [>] 🔬 Prototipo X — prototipar sensor ultrasónico *(no hecha 7/11 — prioridad 5)*
@@ -41,7 +41,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 - [ ] 📚 Lectura diaria
 - [ ] 💊 Creatina noche
-- [>] 🏠🏠 Hogar — comprar empaque culatín *(arrastra si no se completa hoy)*
+
 - [>] 🖥️ DC — S6 Incidentes *(arrastra si no se completa hoy)*
 - [>] 📢 Meta Ads — definir nicho específico *(arrastra si no se completa hoy)*
 - [>] 🔬 Prototipo X — prototipar sensor ultrasónico *(arrastra si no se completa hoy)*
@@ -58,7 +58,7 @@ source: "Mr. Jair — iOS / Telegram"
 | 4 | 📢 Meta Ads — definir nicho específico | Mar 3 | Meta Ads | ⏳ pendiente (arrastrada al 8/11) |
 | 5 | 🔬 Prototipo X — retomar: prototipar sensor ultrasónico *(reevaluado 1/11)* | Mié 4 | Prototipo X | ⏳ pendiente (arrastrada al 8/11) |
 | 6 | 💰 Ingresos — distribuir $1.050.000 restantes | **Jue 25** | Ingresos | 📅 programada |
-| 7 | 🏠🏠 Hogar — comprar empaque culatín *(rápida)* | Sáb 7 | Hogar | ⏳ pendiente |
+| 7 | 🏠🏠 Hogar — comprar empaque culatín *(rápida)* | Sáb 7 | Hogar | ✅ completada 8/11 |
 
 > ⏸️ Gym y E-Commerce siguen pausados — reevaluar en próxima planificación.
 
@@ -150,7 +150,7 @@ source: "Mr. Jair — iOS / Telegram"
 - [x] Lavado y mantenimiento (27/06)
 - [x] Revisar bujía (semana 27/07)
 - [x] Cambio de aceite (semana 27/07)
-- [ ] Comprar empaque culatín
+- [x] Comprar empaque culatín ✅ (8/11)
 - [ ] Documentar relación de distancia para alineamiento eje trasero
 
 ### 🏠 Hogar
