@@ -126,7 +126,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 - [x] Investigar sensores + investigación completa
 - [x] Definir plataforma hardware
-- [ ] Prototipar sensor ultrasónico + alerta
+- [ ] Prototipar sensor ultrasónico + alerta *(ESP32 en mano 8/11 ✅ — falta prototipar)*
 - [ ] Diseñar UX del HUD/app
 
 ### 📢 META ADS — Fase 1: Fundamentos
