@@ -1,4 +1,6 @@
-# Patrones Mentales — Base
+# Patrón del Ser — Base
+
+> Evolución: antes "Patrones Mentales" — renombrado 8/11 porque lo mental se observa, lo del ser se habita. El Ciclo Vivo no es algo que piensas, es algo que eres cuando actúas.
 
 > Principio rector: *Apuntar a la perfección en acción — un 10 apuntado, un 8 logrado.*
 > Creado: 2026-11-02 · Sesión profunda (sin límite de bloque) · Dueño: Mr. Jair
@@ -6,7 +8,7 @@
 
 ## 1. Qué es un patrón — estructura atómica
 
-Todo patrón mental es un loop de 4 eslabones que se auto-refuerza:
+Todo patrón del ser es un loop de 4 eslabones que se auto-refuerza (el patrón mental es solo su sombra en la cabeza):
 
 **Disparador → Interpretación → Respuesta → Consecuencia**
 
