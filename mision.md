@@ -103,7 +103,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 | Hábito | Frecuencia | Último registro |
 |--------|------------|-----------------|
-| 📚 Lectura diaria | Diario | 7/11 ❌ *(sin registro 28/10–4/11; hoy 8/11 pendiente)* |
+| 📚 Lectura diaria | Diario | 8/11 ✅ *(cursos CommScope)* |
 | 💊 Creatina 3-5g | Diario (noche) | 7/11 ❌ *(5/11 ✅; hoy 8/11 pendiente)* |
 | 🏋️ Gym | ⏸️ pausado | Pausado desde Sep — reevaluación **pendiente desde 1/11** |
 | 🔬 Prototipo X | ⏸️ pausado | Pausado — prioridad DC |
