@@ -26,7 +26,7 @@ source: "Mr. Jair — iOS / Telegram"
 > 📌 Ingresos — distribuir $1.050.000 → **programada Jue 25/11** (movida por Mr. Jair).
 
 - [x] 📚 Lectura diaria ✅ *(cursos CommScope 8/11)*
-- [ ] 💊 Creatina noche
+- [ ] 💊 Creatina noche ⏸️ *(pausada — se acabó, retoma 25/11 con compra)*
 - [x] 🏠🏠 Hogar — comprar empaque culatín ✅ *(completada 8/11 — #7)*
 - [>] 🖥️ DC — S6 Incidentes *(no hecha 7/11 — #2)*
 - [>] 📢 Meta Ads — definir nicho específico *(no hecha 7/11 — prioridad 4)*
@@ -41,7 +41,7 @@ source: "Mr. Jair — iOS / Telegram"
 > 📋 Plan semanal activo: ver PRIORIDADES SEMANA 3 (9–15 Nov).
 
 - [ ] 📚 Lectura diaria
-- [ ] 💊 Creatina noche
+- [ ] 💊 Creatina noche ⏸️ *(pausada hasta 25/11)*
 - [ ] 🗂️ DC — DCIM + inventarios + documentación al día (día a día real) ← **prioridad 1**
 - [ ] 🚨 DC — Incidentes + coordinación Network Ops / DC Ops (bloque noche 30 min)
 
@@ -58,7 +58,7 @@ source: "Mr. Jair — iOS / Telegram"
 | 4 | 📦 RMA + commissioning: tracking con fabricantes, validar reparados, checklist post-mantenimiento | Jue 12 | Datacenter | ⏳ nueva |
 | 5 | 📊 Disponibilidad operativa: monitoreo, reportes, qué mirar sin tocar máquinas | Vie 13 | Datacenter | ⏳ nueva |
 | 6 | 🔧 Fierros 20%: FRUs + diagnóstico + desensamble/ensamble (solo cuando toca) | Sáb 14 (bloque) | Datacenter | ⏳ nueva |
-| 7 | 📚 Lectura diaria ×5 + 💊 Creatina noche ×5 (racha semanal) | Lun–Vie | Hábitos | ⏳ nueva |
+| 7 | 📚 Lectura diaria ×5 (racha semanal) + 💊 Creatina ⏸️ *(retoma 25/11)* | Lun–Vie | Hábitos | ⏳ nueva |
 
 > 📊 Semana 2: 1/7 (solo Hogar ✅). Semana 3 = gestión del cargo, no teoría general. Meta Ads / Prototipo X / Hogar en pausa hasta cerrar capacitación.
 > ⏸️ Gym y E-Commerce siguen pausados. 💰 Ingresos: distribuir $1.050.000 → **Jue 25/11**.
@@ -104,7 +104,7 @@ source: "Mr. Jair — iOS / Telegram"
 | Hábito | Frecuencia | Último registro |
 |--------|------------|-----------------|
 | 📚 Lectura diaria | Diario | 8/11 ✅ *(cursos CommScope)* |
-| 💊 Creatina 3-5g | Diario (noche) | 7/11 ❌ *(5/11 ✅; hoy 8/11 pendiente)* |
+| 💊 Creatina 3-5g | Diario (noche) | ⏸️ pausada 8–25/11 *(se acabó, retoma con compra 25/11)* |
 | 🏋️ Gym | ⏸️ pausado | Pausado desde Sep — reevaluación **pendiente desde 1/11** |
 | 🔬 Prototipo X | ⏸️ pausado | Pausado — prioridad DC |
 
