@@ -42,8 +42,8 @@ source: "Mr. Jair — iOS / Telegram"
 
 - [ ] 📚 Lectura diaria
 - [ ] 💊 Creatina noche
-- [ ] 🖥️ DC — S6 Incidentes: abrir bloque noche (30 min mínimo) ← **prioridad 1**
-- [ ] 📢 Meta Ads — definir nicho específico (1 sesión, sin perfección) ← **prioridad 3**
+- [ ] 🔧 DC — FRUs: instalar / reemplazar / validar (fuentes, ventiladores, discos, memoria, NICs, GPUs) ← **prioridad 1**
+- [ ] 🚨 DC — Incidentes críticos + SOP/MOP (bloque noche 30 min) ← **prioridad 6**
 
 ---
 
