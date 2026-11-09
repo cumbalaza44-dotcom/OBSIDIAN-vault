@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 MISSIONS
 
-### Última actualización: `8 Nov 2026 — 20:00 (Planificación semanal)`
+### Última actualización: `9 Nov 2026 — 01:00 (Rollo automático)`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -19,30 +19,30 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Domingo 8/11
+## 🔥 HOY — Lunes 9/11
 
-> 🎯 **Prioridad del día: cierre semanal + planificación semana 3**
-> 🔄 Rollo automático 8/11 — HOY←MAÑANA del 7/11; nada completado el 7/11 (todo arrastra).
+> 🎯 **Prioridad del día: 🗂️ DCIM + inventarios + documentación al día (prioridad 1 semana 3)**
+> 🔄 Rollo automático 9/11 — HOY←MAÑANA del 8/11. Completado 8/11: lectura ✅, hogar empaque culatín ✅. Arrastra: S6 Incidentes, Meta Ads nicho, Prototipo X sensor, gestión internet.
 > 📌 Ingresos — distribuir $1.050.000 → **programada Jue 25/11** (movida por Mr. Jair).
 
-- [x] 📚 Lectura diaria ✅ *(cursos CommScope 8/11)*
+- [ ] 📚 Lectura diaria
 - [ ] 💊 Creatina noche ⏸️ *(pausada — se acabó, retoma 25/11 con compra)*
-- [x] 🏠🏠 Hogar — comprar empaque culatín ✅ *(completada 8/11 — #7)*
-- [>] 🖥️ DC — S6 Incidentes *(no hecha 7/11 — #2)*
-- [>] 📢 Meta Ads — definir nicho específico *(no hecha 7/11 — prioridad 4)*
-- [>] 🔬 Prototipo X — prototipar sensor ultrasónico *(no hecha 7/11 — prioridad 5)*
-- [>] 🌐 Gestión dirección de instalación de internet *(no hecha 7/11)*
+- [ ] 🗂️ DC — DCIM + inventarios + documentación al día (día a día real) ← **prioridad 1**
+- [ ] 🚨 DC — Incidentes + coordinación Network Ops / DC Ops (bloque noche 30 min)
+- [>] 🖥️ DC — S6 Incidentes *(no hecha 8/11 — #2 sem2)*
+- [>] 📢 Meta Ads — definir nicho específico *(no hecha 8/11 — prioridad 4 sem2)*
+- [>] 🔬 Prototipo X — prototipar sensor ultrasónico *(no hecha 8/11 — prioridad 5 sem2)*
+- [>] 🌐 Gestión dirección de instalación de internet *(no hecha 8/11)*
 
 ---
 
-## 📅 MAÑANA — Lunes 9/11
+## 📅 MAÑANA — Martes 10/11
 
-> 🎯 Inicio semana 3 — bloque DC noche + jornada datacenter L-V 8 AM–5 PM.
-> 📋 Plan semanal activo: ver PRIORIDADES SEMANA 3 (9–15 Nov).
+> 🎯 Prioridad 2 semana 3 — SOP/MOP + ventanas + seguridad.
 
 - [ ] 📚 Lectura diaria
 - [ ] 💊 Creatina noche ⏸️ *(pausada hasta 25/11)*
-- [ ] 🗂️ DC — DCIM + inventarios + documentación al día (día a día real) ← **prioridad 1**
+- [ ] 📋 DC — SOP/MOP + ventanas + seguridad: leer, entender y saber ejecutar procedimientos ← **prioridad 2**
 - [ ] 🚨 DC — Incidentes + coordinación Network Ops / DC Ops (bloque noche 30 min)
 
 ---
@@ -70,10 +70,10 @@ source: "Mr. Jair — iOS / Telegram"
 | # | Prioridad | Día | Proyecto | Estado |
 |---|-----------|-----|----------|--------|
 | 1 | 🖥️ Cierre arrastre S5: inventario + red física + coordinación Network Ops + SOP/MOP *(¿confirmar cierre Dom?)* | Lun 2 | Datacenter | ⏳ pendiente (atrasada 3d) |
-| 2 | 🖥️ S6 Incidentes: iniciar bloque noche | Lun 2 | Datacenter | ⏳ pendiente (arrastrada al 8/11) |
+| 2 | 🖥️ S6 Incidentes: iniciar bloque noche | Lun 2 | Datacenter | ⏳ pendiente (no hecha 8/11, arrastra al 9/11) |
 | 3 | 📚 Lectura diaria + 🔍 S1 huecos: etiquetado TIA-606 *(arrastrado)* | Mar 3 | Hábitos | ⏳ pendiente (lectura 7/11 no hecha; al 8/11) |
-| 4 | 📢 Meta Ads — definir nicho específico | Mar 3 | Meta Ads | ⏳ pendiente (arrastrada al 8/11) |
-| 5 | 🔬 Prototipo X — retomar: prototipar sensor ultrasónico *(reevaluado 1/11)* | Mié 4 | Prototipo X | ⏳ pendiente (arrastrada al 8/11) |
+| 4 | 📢 Meta Ads — definir nicho específico | Mar 3 | Meta Ads | ⏳ pendiente (no hecha 8/11, arrastra al 9/11) |
+| 5 | 🔬 Prototipo X — retomar: prototipar sensor ultrasónico *(reevaluado 1/11)* | Mié 4 | Prototipo X | ⏳ pendiente (no hecha 8/11, arrastra al 9/11) |
 | 6 | 💰 Ingresos — distribuir $1.050.000 restantes | **Jue 25** | Ingresos | 📅 programada |
 | 7 | 🏠🏠 Hogar — comprar empaque culatín *(rápida)* | Sáb 7 | Hogar | ✅ completada 8/11 |
 
