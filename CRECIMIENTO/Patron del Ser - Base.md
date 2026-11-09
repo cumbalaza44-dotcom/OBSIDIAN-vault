@@ -3,6 +3,7 @@
 > Evolución: antes "Patrones Mentales" — renombrado 8/11 porque lo mental se observa, lo del ser se habita. El Ciclo Vivo no es algo que piensas, es algo que eres cuando actúas.
 
 > Principio rector: *Apuntar a la perfección en acción — un 10 apuntado, un 8 logrado.*
+> Actitud base: **Propiedad** — *esto es mío: lo que causo, lo respondo. Sin delegar, sin excusa, sin limbo.* (fijado 8/11)
 > Creado: 2026-11-02 · Sesión profunda (sin límite de bloque) · Dueño: Mr. Jair
 > Enlace: [[Bloques 25 - Estructuras]]
 
