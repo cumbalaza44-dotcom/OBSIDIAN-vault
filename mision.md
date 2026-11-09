@@ -52,9 +52,9 @@ source: "Mr. Jair — iOS / Telegram"
 
 | # | Prioridad (80% gestión / 20% fierros) | Día | Proyecto | Estado |
 |---|-----------|-----|----------|--------|
-| 1 | 🗂️ DCIM + inventarios + activos + documentación al día (el día a día real) | Lun 9 | Datacenter | ⏳ nueva |
+| 1 | 🗂️ DCIM + inventarios + documentación + 🖥️ CLI base: PuTTY/SSH, IPMI/iDRAC/iLO, comandos Linux de consulta (sin tocar fierros) | Lun 9 | Datacenter | ⏳ nueva |
 | 2 | 📋 SOP/MOP + ventanas + seguridad: leer, entender y saber ejecutar procedimientos | Mar 10 | Datacenter | ⏳ nueva |
-| 3 | 🎫 Gestión de incidentes y tickets: priorizar, escalar, coordinar Network Ops / Physical Connectivity / DC Ops | Mié 11 | Datacenter | ⏳ nueva |
+| 3 | 🎫 Gestión de incidentes y tickets + 🖥️ CLI intermedio: logs, estado de servicios, salud de hardware por consola | Mié 11 | Datacenter | ⏳ nueva |
 | 4 | 📦 RMA + commissioning: tracking con fabricantes, validar reparados, checklist post-mantenimiento | Jue 12 | Datacenter | ⏳ nueva |
 | 5 | 📊 Disponibilidad operativa: monitoreo, reportes, qué mirar sin tocar máquinas | Vie 13 | Datacenter | ⏳ nueva |
 | 6 | 🔧 Fierros 20%: FRUs + diagnóstico + desensamble/ensamble (solo cuando toca) | Sáb 14 (bloque) | Datacenter | ⏳ nueva |
