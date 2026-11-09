@@ -182,6 +182,17 @@ Regla del gap: entre disparador y respuesta hay ~1–3 s. El objetivo **no** es 
 - *Ventanas:* **cierre del día** (¿por qué me pasó lo de hoy?) · **rutinas caídas** (¿por qué se cayó? — raíz, no culpa) · **decisiones importantes** (antes de comprometerse, no antes de responder un mensaje).
 - *Modo de falla:* en plena interacción = bucle tardío — "cuando lo preguntas, el hilo ya se cerró".
 
+### Propiedad — actitud base del Patrón del Ser (fijado 8/11)
+
+> *Esto es mío: lo que causo, lo respondo. Sin delegar, sin excusa, sin limbo.*
+
+- **Qué es:** la porción de actitud que convierte el ciclo en tuyo. No es un tiempo — atraviesa los 4.
+- **En UMBRAL:** elijo mi causa (no espero que me digan qué hacer).
+- **En IMPULSO:** pongo mi mano (no delego el gesto).
+- **En CORRECCIÓN:** sostengo el ajuste (no abandono cuando incomoda).
+- **En INTEGRAR:** respondo por lo causado (registro honesto, sin excusa).
+- **Antídoto directo:** el limbo del cargo ("no sé qué haré") y P7 (acción como residuo). La propiedad no espera claridad total — causa con lo que hay.
+
 ### Regla de arquitectura (resumen operativo)
 
 - **Sustrato:** no se invoca, se cultiva (se apaga solo con estrés → el Observador es el primero que se recuerda re-encender).
