@@ -47,20 +47,20 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 📋 PRIORIDADES SEMANA 3 (9–15 Nov) — ENFOQUE CARGO: Técnico Especialista DC Hardware
-> 🎯 Cierre de capacitación: de temas generales → funciones del cargo. Fuente: `Técnico Especialista Data Center Hardware.pdf`.
+## 📋 PRIORIDADES SEMANA 3 (9–15 Nov) — ENFOQUE REAL: 80% gestión / 20% fierros
+> 🎯 Cierre de capacitación. Realidad del cargo: la mayoría del tiempo NO se tocan máquinas — se gestiona. Fuente: `Técnico Especialista Data Center Hardware.pdf` + día real de Mr. Jair.
 
-| # | Prioridad (función del cargo) | Día | Proyecto | Estado |
+| # | Prioridad (80% gestión / 20% fierros) | Día | Proyecto | Estado |
 |---|-----------|-----|----------|--------|
-| 1 | 🔧 FRUs: instalar / reemplazar / validar — fuentes, ventiladores, discos, memoria, NICs, GPUs, DPUs | Lun 9 + Mié 11 | Datacenter | ⏳ nueva |
-| 2 | 🔍 Diagnóstico de fallas: aislar componente defectuoso + commissioning y validación post-mantenimiento | Mar 10 | Datacenter | ⏳ nueva |
-| 3 | 🛠️ Mantenimiento preventivo y correctivo + instalación / desensamble / ensamble / puesta en servicio | Mié 11 | Datacenter | ⏳ nueva |
-| 4 | 📦 RMA con fabricantes + validar equipos reparados | Jue 12 | Datacenter | ⏳ nueva |
-| 5 | 🗂️ Inventarios + activos + documentación + DCIM actualizados | Vie 13 | Datacenter | ⏳ nueva |
-| 6 | 🚨 Incidentes críticos + coordinación Network Ops / Physical Connectivity / DC Ops + SOP/MOP y seguridad | Lun–Vie (bloque noche) | Datacenter | ⏳ nueva |
+| 1 | 🗂️ DCIM + inventarios + activos + documentación al día (el día a día real) | Lun 9 | Datacenter | ⏳ nueva |
+| 2 | 📋 SOP/MOP + ventanas + seguridad: leer, entender y saber ejecutar procedimientos | Mar 10 | Datacenter | ⏳ nueva |
+| 3 | 🎫 Gestión de incidentes y tickets: priorizar, escalar, coordinar Network Ops / Physical Connectivity / DC Ops | Mié 11 | Datacenter | ⏳ nueva |
+| 4 | 📦 RMA + commissioning: tracking con fabricantes, validar reparados, checklist post-mantenimiento | Jue 12 | Datacenter | ⏳ nueva |
+| 5 | 📊 Disponibilidad operativa: monitoreo, reportes, qué mirar sin tocar máquinas | Vie 13 | Datacenter | ⏳ nueva |
+| 6 | 🔧 Fierros 20%: FRUs + diagnóstico + desensamble/ensamble (solo cuando toca) | Sáb 14 (bloque) | Datacenter | ⏳ nueva |
 | 7 | 📚 Lectura diaria ×5 + 💊 Creatina noche ×5 (racha semanal) | Lun–Vie | Hábitos | ⏳ nueva |
 
-> 📊 Semana 2: 1/7 (solo Hogar ✅). Semana 3 = 100% cargo hardware. Meta Ads / Prototipo X / Hogar quedan en pausa hasta cerrar capacitación.
+> 📊 Semana 2: 1/7 (solo Hogar ✅). Semana 3 = gestión del cargo, no teoría general. Meta Ads / Prototipo X / Hogar en pausa hasta cerrar capacitación.
 > ⏸️ Gym y E-Commerce siguen pausados. 💰 Ingresos: distribuir $1.050.000 → **Jue 25/11**.
 
 ---
