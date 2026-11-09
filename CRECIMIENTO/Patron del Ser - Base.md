@@ -232,10 +232,10 @@ El patrón viejo pone a comprender ANTES de hacer y le da 80% del presupuesto �
 
 **UMBRAL → IMPULSO → CORRECCIÓN → INTEGRAR**
 
-1. **UMBRAL** (comprender mínimo): scan de Despertar (¿qué hilo no veo?) + umbral: ¿puedo nombrar el siguiente paso? ≤2 s total.
-2. **IMPULSO** (hacer): frase motor → movimiento. Si hay duda → acción barata.
-3. **CORRECCIÓN** (comprender en vuelo): "cómo" ajusta mientras actúa. Si no hay acción, no hay "cómo" que correr.
-4. **INTEGRAR** (comprender profundo): en la ventana de cierre — qué me devolvió la acción, qué causa puse hoy, qué ajusto mañana.
+1. **UMBRAL** (comprender mínimo + propiedad): scan de Despertar (¿qué hilo no veo?) + umbral: ¿puedo nombrar el siguiente paso? ≤2 s total. *Propiedad aquí: elijo MI causa — no espero que me la asignen.*
+2. **IMPULSO** (hacer + propiedad): frase motor → movimiento. Si hay duda → acción barata. *Propiedad aquí: pongo MI mano — no delego el gesto.*
+3. **CORRECCIÓN** (comprender en vuelo + propiedad): "cómo" ajusta mientras actúa. Si no hay acción, no hay "cómo" que correr. *Propiedad aquí: sostengo MI ajuste — no abandono cuando incomoda.*
+4. **INTEGRAR** (comprender profundo + propiedad): en la ventana de cierre — qué me devolvió la acción, qué causa puse hoy, qué ajusto mañana. *Propiedad aquí: respondo por lo causado — registro honesto, sin excusa.*
 
 ### Reglas del ciclo
 
