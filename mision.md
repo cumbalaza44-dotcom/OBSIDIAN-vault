@@ -47,19 +47,20 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 📋 PRIORIDADES SEMANA 3 (9–15 Nov)
+## 📋 PRIORIDADES SEMANA 3 (9–15 Nov) — ENFOQUE CARGO: Técnico Especialista DC Hardware
+> 🎯 Cierre de capacitación: de temas generales → funciones del cargo. Fuente: `Técnico Especialista Data Center Hardware.pdf`.
 
-| # | Prioridad | Día | Proyecto | Estado |
+| # | Prioridad (función del cargo) | Día | Proyecto | Estado |
 |---|-----------|-----|----------|--------|
-| 1 | 🖥️ S6 Incidentes: abrir bloque noche (30 min mínimo, Lun–Vie) | Lun 9 | Datacenter | ⏳ nueva |
-| 2 | 🖥️ Cierre arrastre S5: inventario + red física + SOP/MOP (bloque Sáb) | Sáb 14 | Datacenter | ⏳ arrastra sem 2 |
-| 3 | 📢 Meta Ads — definir nicho específico (1 sesión, sin perfección) | Mar 10 | Meta Ads | ⏳ arrastra sem 2 |
-| 4 | 🔬 Prototipo X — prototipar sensor ultrasónico (bloque 1h) | Mié 11 | Prototipo X | ⏳ arrastra sem 2 |
-| 5 | 📚 Lectura diaria ×5 + 💊 Creatina noche ×5 (racha semanal) | Lun–Vie | Hábitos | ⏳ nueva |
-| 6 | 🌐 Gestión dirección instalación de internet | Jue 12 | Hogar | ⏳ arrastra 8/11 |
-| 7 | 🏠 Lavar prendas *(rápida)* | Sáb 14 | Hogar | ⏳ pendiente |
+| 1 | 🔧 FRUs: instalar / reemplazar / validar — fuentes, ventiladores, discos, memoria, NICs, GPUs, DPUs | Lun 9 + Mié 11 | Datacenter | ⏳ nueva |
+| 2 | 🔍 Diagnóstico de fallas: aislar componente defectuoso + commissioning y validación post-mantenimiento | Mar 10 | Datacenter | ⏳ nueva |
+| 3 | 🛠️ Mantenimiento preventivo y correctivo + instalación / desensamble / ensamble / puesta en servicio | Mié 11 | Datacenter | ⏳ nueva |
+| 4 | 📦 RMA con fabricantes + validar equipos reparados | Jue 12 | Datacenter | ⏳ nueva |
+| 5 | 🗂️ Inventarios + activos + documentación + DCIM actualizados | Vie 13 | Datacenter | ⏳ nueva |
+| 6 | 🚨 Incidentes críticos + coordinación Network Ops / Physical Connectivity / DC Ops + SOP/MOP y seguridad | Lun–Vie (bloque noche) | Datacenter | ⏳ nueva |
+| 7 | 📚 Lectura diaria ×5 + 💊 Creatina noche ×5 (racha semanal) | Lun–Vie | Hábitos | ⏳ nueva |
 
-> 📊 Semana 2: 1/7 (solo Hogar ✅). Patrón: arrastre total en DC/Meta/Proto. Semana 3 reduce carga: 1 bloque mínimo diario en vez de sesiones largas.
+> 📊 Semana 2: 1/7 (solo Hogar ✅). Semana 3 = 100% cargo hardware. Meta Ads / Prototipo X / Hogar quedan en pausa hasta cerrar capacitación.
 > ⏸️ Gym y E-Commerce siguen pausados. 💰 Ingresos: distribuir $1.050.000 → **Jue 25/11**.
 
 ---
