@@ -42,8 +42,8 @@ source: "Mr. Jair — iOS / Telegram"
 
 - [ ] 📚 Lectura diaria
 - [ ] 💊 Creatina noche
-- [ ] 🔧 DC — FRUs: instalar / reemplazar / validar (fuentes, ventiladores, discos, memoria, NICs, GPUs) ← **prioridad 1**
-- [ ] 🚨 DC — Incidentes críticos + SOP/MOP (bloque noche 30 min) ← **prioridad 6**
+- [ ] 🗂️ DC — DCIM + inventarios + documentación al día (día a día real) ← **prioridad 1**
+- [ ] 🚨 DC — Incidentes + coordinación Network Ops / DC Ops (bloque noche 30 min)
 
 ---
 
