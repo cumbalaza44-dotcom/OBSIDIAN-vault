@@ -25,7 +25,7 @@ source: "Mr. Jair — iOS / Telegram"
 > 🔄 Rollo automático 8/11 — HOY←MAÑANA del 7/11; nada completado el 7/11 (todo arrastra).
 > 📌 Ingresos — distribuir $1.050.000 → **programada Jue 25/11** (movida por Mr. Jair).
 
-- [ ] 📚 Lectura diaria
+- [x] 📚 Lectura diaria ✅ *(cursos CommScope 8/11)*
 - [ ] 💊 Creatina noche
 - [x] 🏠🏠 Hogar — comprar empaque culatín ✅ *(completada 8/11 — #7)*
 - [>] 🖥️ DC — S6 Incidentes *(no hecha 7/11 — #2)*
