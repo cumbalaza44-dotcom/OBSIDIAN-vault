@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 MISSIONS
 
-### Última actualización: `8 Nov 2026 — 01:00 (Rollo automático)`
+### Última actualización: `8 Nov 2026 — 20:00 (Planificación semanal)`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -38,13 +38,29 @@ source: "Mr. Jair — iOS / Telegram"
 ## 📅 MAÑANA — Lunes 9/11
 
 > 🎯 Inicio semana 3 — bloque DC noche + jornada datacenter L-V 8 AM–5 PM.
+> 📋 Plan semanal activo: ver PRIORIDADES SEMANA 3 (9–15 Nov).
 
 - [ ] 📚 Lectura diaria
 - [ ] 💊 Creatina noche
+- [ ] 🖥️ DC — S6 Incidentes: abrir bloque noche (30 min mínimo) ← **prioridad 1**
+- [ ] 📢 Meta Ads — definir nicho específico (1 sesión, sin perfección) ← **prioridad 3**
 
-- [>] 🖥️ DC — S6 Incidentes *(arrastra si no se completa hoy)*
-- [>] 📢 Meta Ads — definir nicho específico *(arrastra si no se completa hoy)*
-- [>] 🔬 Prototipo X — prototipar sensor ultrasónico *(arrastra si no se completa hoy)*
+---
+
+## 📋 PRIORIDADES SEMANA 3 (9–15 Nov)
+
+| # | Prioridad | Día | Proyecto | Estado |
+|---|-----------|-----|----------|--------|
+| 1 | 🖥️ S6 Incidentes: abrir bloque noche (30 min mínimo, Lun–Vie) | Lun 9 | Datacenter | ⏳ nueva |
+| 2 | 🖥️ Cierre arrastre S5: inventario + red física + SOP/MOP (bloque Sáb) | Sáb 14 | Datacenter | ⏳ arrastra sem 2 |
+| 3 | 📢 Meta Ads — definir nicho específico (1 sesión, sin perfección) | Mar 10 | Meta Ads | ⏳ arrastra sem 2 |
+| 4 | 🔬 Prototipo X — prototipar sensor ultrasónico (bloque 1h) | Mié 11 | Prototipo X | ⏳ arrastra sem 2 |
+| 5 | 📚 Lectura diaria ×5 + 💊 Creatina noche ×5 (racha semanal) | Lun–Vie | Hábitos | ⏳ nueva |
+| 6 | 🌐 Gestión dirección instalación de internet | Jue 12 | Hogar | ⏳ arrastra 8/11 |
+| 7 | 🏠 Lavar prendas *(rápida)* | Sáb 14 | Hogar | ⏳ pendiente |
+
+> 📊 Semana 2: 1/7 (solo Hogar ✅). Patrón: arrastre total en DC/Meta/Proto. Semana 3 reduce carga: 1 bloque mínimo diario en vez de sesiones largas.
+> ⏸️ Gym y E-Commerce siguen pausados. 💰 Ingresos: distribuir $1.050.000 → **Jue 25/11**.
 
 ---
 
