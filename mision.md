@@ -1,6 +1,6 @@
 ---
 created: 2026-05-25
-updated: 2026-11-05
+updated: 2026-11-10
 source: "Mr. Jair — iOS / Telegram"
 ---
 
@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 MISSIONS
 
-### Última actualización: `9 Nov 2026 — 01:00 (Rollo automático)`
+### Última actualización: `10 Nov 2026 — 01:00 (Rollo automático)`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -19,30 +19,31 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Lunes 9/11
+## 🔥 HOY — Martes 10/11
 
-> 🎯 **Prioridad del día: 🗂️ DCIM + inventarios + documentación al día (prioridad 1 semana 3)**
-> 🔄 Rollo automático 9/11 — HOY←MAÑANA del 8/11. Completado 8/11: lectura ✅, hogar empaque culatín ✅. Arrastra: S6 Incidentes, Meta Ads nicho, Prototipo X sensor, gestión internet.
+> 🎯 **Prioridad del día: 📋 SOP/MOP + ventanas + seguridad (prioridad 2 semana 3)**
+> 🔄 Rollo automático 10/11 — HOY←MAÑANA del 9/11. Completado 9/11: nada (0/4). Arrastra: DCIM prioridad 1, S6 Incidentes, Meta Ads nicho, Prototipo X sensor, gestión internet, lectura diaria.
 > 📌 Ingresos — distribuir $1.050.000 → **programada Jue 25/11** (movida por Mr. Jair).
 
 - [ ] 📚 Lectura diaria
 - [ ] 💊 Creatina noche ⏸️ *(pausada — se acabó, retoma 25/11 con compra)*
-- [ ] 🗂️ DC — DCIM + inventarios + documentación al día (día a día real) ← **prioridad 1**
+- [ ] 📋 DC — SOP/MOP + ventanas + seguridad: leer, entender y saber ejecutar procedimientos ← **prioridad 2**
 - [ ] 🚨 DC — Incidentes + coordinación Network Ops / DC Ops (bloque noche 30 min)
-- [>] 🖥️ DC — S6 Incidentes *(no hecha 8/11 — #2 sem2)*
-- [>] 📢 Meta Ads — definir nicho específico *(no hecha 8/11 — prioridad 4 sem2)*
-- [>] 🔬 Prototipo X — prototipar sensor ultrasónico *(no hecha 8/11 — prioridad 5 sem2)*
-- [>] 🌐 Gestión dirección de instalación de internet *(no hecha 8/11)*
+- [>] 🗂️ DC — DCIM + inventarios + documentación al día *(no hecha 9/11 — #1 sem3)*
+- [>] 🖥️ DC — S6 Incidentes *(no hecha 9/11 — #2 sem2)*
+- [>] 📢 Meta Ads — definir nicho específico *(no hecha 9/11 — prioridad 4 sem2)*
+- [>] 🔬 Prototipo X — prototipar sensor ultrasónico *(no hecha 9/11 — prioridad 5 sem2)*
+- [>] 🌐 Gestión dirección de instalación de internet *(no hecha 9/11)*
 
 ---
 
-## 📅 MAÑANA — Martes 10/11
+## 📅 MAÑANA — Miércoles 11/11
 
-> 🎯 Prioridad 2 semana 3 — SOP/MOP + ventanas + seguridad.
+> 🎯 Prioridad 3 semana 3 — Gestión de incidentes y tickets + CLI intermedio.
 
 - [ ] 📚 Lectura diaria
 - [ ] 💊 Creatina noche ⏸️ *(pausada hasta 25/11)*
-- [ ] 📋 DC — SOP/MOP + ventanas + seguridad: leer, entender y saber ejecutar procedimientos ← **prioridad 2**
+- [ ] 🎫 DC — Gestión de incidentes y tickets + 🖥️ CLI intermedio: logs, estado de servicios, salud de hardware por consola ← **prioridad 3**
 - [ ] 🚨 DC — Incidentes + coordinación Network Ops / DC Ops (bloque noche 30 min)
 
 ---
@@ -52,8 +53,8 @@ source: "Mr. Jair — iOS / Telegram"
 
 | # | Prioridad (80% gestión / 20% fierros) | Día | Proyecto | Estado |
 |---|-----------|-----|----------|--------|
-| 1 | 🗂️ DCIM + inventarios + documentación + 🖥️ CLI base: PuTTY/SSH, IPMI/iDRAC/iLO, comandos Linux de consulta (sin tocar fierros) | Lun 9 | Datacenter | ⏳ nueva |
-| 2 | 📋 SOP/MOP + ventanas + seguridad: leer, entender y saber ejecutar procedimientos | Mar 10 | Datacenter | ⏳ nueva |
+| 1 | 🗂️ DCIM + inventarios + documentación + 🖥️ CLI base: PuTTY/SSH, IPMI/iDRAC/iLO, comandos Linux de consulta (sin tocar fierros) | Lun 9 | Datacenter | ⏳ pendiente (no hecha 9/11, arrastra al 10/11) |
+| 2 | 📋 SOP/MOP + ventanas + seguridad: leer, entender y saber ejecutar procedimientos | Mar 10 | Datacenter | 🎯 hoy |
 | 3 | 🎫 Gestión de incidentes y tickets + 🖥️ CLI intermedio: logs, estado de servicios, salud de hardware por consola | Mié 11 | Datacenter | ⏳ nueva |
 | 4 | 📦 RMA + commissioning: tracking con fabricantes, validar reparados, checklist post-mantenimiento | Jue 12 | Datacenter | ⏳ nueva |
 | 5 | 📊 Disponibilidad operativa: monitoreo, reportes, qué mirar sin tocar máquinas | Vie 13 | Datacenter | ⏳ nueva |
@@ -103,7 +104,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 | Hábito | Frecuencia | Último registro |
 |--------|------------|-----------------|
-| 📚 Lectura diaria | Diario | 8/11 ✅ *(cursos CommScope)* |
+| 📚 Lectura diaria | Diario | 9/11 ❌ *(no hecha — arrastra al 10/11; última ✅ 8/11 cursos CommScope)* |
 | 💊 Creatina 3-5g | Diario (noche) | ⏸️ pausada 8–25/11 *(se acabó, retoma con compra 25/11)* |
 | 🏋️ Gym | ⏸️ pausado | Pausado desde Sep — reevaluación **pendiente desde 1/11** |
 | 🔬 Prototipo X | ⏸️ pausado | Pausado — prioridad DC |
