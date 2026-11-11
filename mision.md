@@ -13,8 +13,8 @@ source: "Mr. Jair — iOS / Telegram"
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
 
-**⚠️ Horario laboral definitivo:** L-V 8 AM – 5 PM (datacenter)
-**Ventanas:** Mañana 5:10-8:00 AM | Noche 6:30-9:30 PM (bloque estudio DC) | Fines de semana completo
+**⚠️ Horario laboral real (malla Nov 2026–Ene 2027):** turnos 7x24 — M 06:00–14:00 · T 14:00–22:00 · N 22:00–06:00. Semana actual: Tardes 11–17/11, libre 18/11, descanso 19–20/11, noches 21–25/11 aprox.
+**Ventanas de estudio:** según turno — en tardes: mañanas libres (bloque estudio AM) | en noches: tardes libres | descansos: bloque completo
 
 
 ---
