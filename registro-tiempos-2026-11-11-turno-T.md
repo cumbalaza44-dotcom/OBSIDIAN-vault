@@ -4,8 +4,8 @@
 
 ## Trayecto ida
 - 12:50 — Salida casa (hora pico, ~50 min estimado)
-- ___ — Llegada DC (anotar real)
-- Ventaja antes de las 14:00: ___ min
+- ~13:24 — Llegada DC (real: 32.5–35 min, promedio ~34 min, cerca estaciones industriales)
+- Ventaja antes de las 14:00: ~36 min
 
 ## Turno (dictado por Mr. Jair)
 | Hora | Actividad | Duración |
