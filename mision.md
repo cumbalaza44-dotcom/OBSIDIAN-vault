@@ -36,6 +36,7 @@ source: "Mr. Jair — iOS / Telegram"
 - [>] 📢 Meta Ads — definir nicho específico *(no hecha 10/11 — prioridad 4 sem2)*
 - [>] 🔬 Prototipo X — prototipar sensor ultrasónico *(no hecha 10/11 — prioridad 5 sem2)*
 - [>] 🌐 Gestión dirección de instalación de internet *(no hecha 10/11)*
+- [ ] 📱 Limpiar teléfono — liberar memoria para grabación (evidencia/incidentes) — ⏰ hoy
 
 ---
 
