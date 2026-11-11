@@ -28,8 +28,8 @@ source: "Mr. Jair — iOS / Telegram"
 
 - [ ] 📚 Lectura diaria
 - [ ] 💊 Creatina noche ⏸️ *(pausada — se acabó, retoma 25/11 con compra)*
-- [ ] 🎫 DC — Gestión de incidentes y tickets + 🖥️ CLI intermedio: logs, estado de servicios, salud de hardware por consola ← **prioridad 3**
-- [ ] 🚨 DC — Incidentes + coordinación Network Ops / DC Ops (bloque noche 30 min)
+- [x] 🎫 DC — Gestión de incidentes y tickets + 🖥️ CLI intermedio: logs, estado de servicios, salud de hardware por consola ← **prioridad 3** ✅ (estudio CLI switches/servidores + INC-001 + INC-002 fibra real 11/11 AM)
+- [x] 🚨 DC — Incidentes + coordinación Network Ops / DC Ops (bloque noche 30 min) ✅ (análisis caso real fibra fracturada + rol + ruta vault 11/11)
 - [>] 📋 DC — SOP/MOP + ventanas + seguridad *(no hecha 10/11 — #2 sem3)*
 - [>] 🗂️ DC — DCIM + inventarios + documentación al día *(no hecha 10/11 — #1 sem3)*
 - [>] 🖥️ DC — S6 Incidentes *(no hecha 10/11 — #2 sem2)*
