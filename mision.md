@@ -22,6 +22,7 @@ source: "Mr. Jair — iOS / Telegram"
 ## 🔥 HOY — Martes 10/11
 
 > 🎯 **Prioridad del día: 📋 SOP/MOP + ventanas + seguridad (prioridad 2 semana 3)**
+> 🛌 HOY DESCANSA (malla real) — día de estudio/bloque completo disponible.
 > 🔄 Rollo automático 10/11 — HOY←MAÑANA del 9/11. Completado 9/11: nada (0/4). Arrastra: DCIM prioridad 1, S6 Incidentes, Meta Ads nicho, Prototipo X sensor, gestión internet, lectura diaria.
 > 📌 Ingresos — distribuir $1.050.000 → **programada Jue 25/11** (movida por Mr. Jair).
 
@@ -39,7 +40,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 ## 📅 MAÑANA — Miércoles 11/11
 
-> 🎯 Prioridad 3 semana 3 — Gestión de incidentes y tickets + CLI intermedio.
+> 🎯 Prioridad 3 semana 3 — Gestión de incidentes y tickets + CLI intermedio. ⚠️ Entra turno TARDE 14:00–22:00 (malla real).
 
 - [ ] 📚 Lectura diaria
 - [ ] 💊 Creatina noche ⏸️ *(pausada hasta 25/11)*
