@@ -4,4 +4,5 @@ desde que usted se paso aqui duermo bien ,() cuenstiona del despues.) comodidad 
 
 
 custiona la salud 
-que hacef
+que hacer [ definir 
+hacia que, tiempo 
