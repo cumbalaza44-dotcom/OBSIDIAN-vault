@@ -39,6 +39,7 @@ source: "Mr. Jair — iOS / Telegram"
 - [ ] 📱 Limpiar teléfono — liberar memoria para grabación (evidencia/incidentes) — ⏰ hoy
 - [ ] 📄 Certificado EP Sura — generar y enviar al personal correspondiente — ⏰ hoy
 - [ ] ⏱️ Medición y registro de tiempos turno T (14:00–22:00) — experimento piloto: cronometrar tareas del día para distribuir mallas — ⏰ hoy
+- [ ] 🔌 Conexión + lectura switches (S4048/Z9664) — práctica en campo turno T — ⏰ hoy
 
 ---
 
