@@ -37,6 +37,7 @@ source: "Mr. Jair — iOS / Telegram"
 - [>] 🔬 Prototipo X — prototipar sensor ultrasónico *(no hecha 10/11 — prioridad 5 sem2)*
 - [>] 🌐 Gestión dirección de instalación de internet *(no hecha 10/11)*
 - [ ] 📱 Limpiar teléfono — liberar memoria para grabación (evidencia/incidentes) — ⏰ hoy
+- [ ] 📄 Certificado EP Sura — generar y enviar al personal correspondiente — ⏰ hoy
 
 ---
 
