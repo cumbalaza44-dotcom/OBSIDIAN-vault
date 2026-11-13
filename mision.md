@@ -26,7 +26,7 @@ source: "Mr. Jair — iOS / Telegram"
 > 🔄 Rollo automático 12/11 — HOY←MAÑANA del 11/11. Completado 11/11: 2/14 (DC tickets+CLI ✅, DC Incidentes ✅). Arrastra: lectura diaria, SOP/MOP, DCIM, S6, Meta Ads nicho, Prototipo X sensor, gestión internet, limpiar teléfono, certificado EP Sura, medición tiempos T, conexión switches.
 > 📌 Ingresos — distribuir $1.050.000 → **programada Jue 25/11**.
 
-- [ ] 📚 Lectura diaria — INGENIERÍA SOCIAL *(ajuste 12/11: solo temas ingeniería social)*
+- [ ] 📚 Lectura diaria — VARIADA 20min ~5000 palabras (ing. social + mentalidad + naturaleza humana)
 - [ ] 💊 Creatina noche ⏸️ *(pausada — se acabó, retoma 25/11 con compra)*
 - [ ] 📦 DC — RMA + commissioning: tracking con fabricantes, validar reparados, checklist post-mantenimiento ← **prioridad 4**
 - [ ] 🚨 DC — Incidentes + coordinación Network Ops / DC Ops (bloque noche 30 min)
