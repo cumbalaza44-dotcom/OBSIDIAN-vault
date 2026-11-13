@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 MISSIONS
 
-### Última actualización: `12 Nov 2026 — 01:00 (Rollo automático)`
+### Última actualización: `13 Nov 2026 — 12:00 (Rollo a Vie 13/11)`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -19,39 +19,38 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Jueves 12/11
+## 🔥 HOY — Viernes 13/11
 
-> 🎯 **Prioridad del día: 📦 RMA + commissioning (prioridad 4 semana 3)**
+> 🎯 **Prioridad del día: 📊 Disponibilidad operativa (prioridad 5 semana 3)**
 > ⚠️ Turno TARDE 14:00–22:00 (malla real) — bloque estudio AM disponible.
-> 🔄 Rollo automático 12/11 — HOY←MAÑANA del 11/11. Completado 11/11: 2/14 (DC tickets+CLI ✅, DC Incidentes ✅). Arrastra: lectura diaria, SOP/MOP, DCIM, S6, Meta Ads nicho, Prototipo X sensor, gestión internet, limpiar teléfono, certificado EP Sura, medición tiempos T, conexión switches.
+> 🔄 Rollo 13/11 — MAÑANA del 12/11 promovida. Completado 12/11: internet ✅, medición tiempos T ✅. Arrastra: lectura (¡doble hoy!), SOP/MOP, DCIM, S6, RMA, Meta Ads, Prototipo X, limpiar teléfono, certificado Sura, switches.
 > 📌 Ingresos — distribuir $1.050.000 → **programada Jue 25/11**.
 
-- [ ] 📚 Lectura diaria — VARIADA 20min ~5000 palabras (ing. social + mentalidad + naturaleza humana)
-- [ ] 💊 Creatina noche ⏸️ *(pausada — se acabó, retoma 25/11 con compra)*
-- [ ] 📦 DC — RMA + commissioning: tracking con fabricantes, validar reparados, checklist post-mantenimiento ← **prioridad 4**
-- [ ] 🚨 DC — Incidentes + coordinación Network Ops / DC Ops (bloque noche 30 min)
-- [>] 📋 DC — SOP/MOP + ventanas + seguridad *(no hecha 11/11 — #2 sem3)*
-- [>] 🗂️ DC — DCIM + inventarios + documentación al día *(no hecha 11/11 — #1 sem3)*
-- [>] 🖥️ DC — S6 Incidentes *(no hecha 11/11 — #2 sem2)*
-- [>] 📢 Meta Ads — RESET + contextualización *(cambio 12/11: objetivo = aprender habilidades para hacer campañas, no definir nicho todavía)*
-- [>] 🔬 Prototipo X — prototipar sensor ultrasónico *(no hecha 11/11 — prioridad 5 sem2)*
-- [x] 🌐 Gestión dirección de instalación de internet ✅ 12/11 *(conexión lista en casa)*
-- [>] 📚 Lectura diaria *(no hecha 11/11)*
-- [>] 📱 Limpiar teléfono — liberar memoria para grabación (evidencia/incidentes) *(no hecho 11/11)*
-- [>] 📄 Certificado EP Sura — generar y enviar al personal correspondiente *(no hecho 11/11)*
-- [x] ⏱️ Medición y registro de tiempos turno T ✅ 12/11 *(entra 14:00 → sale 22:50 promedio)*
-- [>] 🔌 Conexión + lectura switches (S4048/Z9664) — práctica en campo *(no hecho 11/11)*
-
----
-
-## 📅 MAÑANA — Viernes 13/11
-
-> 🎯 Prioridad 5 semana 3 — Disponibilidad operativa: monitoreo, reportes, qué mirar sin tocar máquinas. ⚠️ Turno TARDE 14:00–22:00 (malla real).
-
-- [ ] 📚 Lectura diaria
+- [x] 📚 Lectura 1 — Mentalidad constructor y ejecutor ✅ 13/11 (~5000 palabras, vault)
+- [x] 📚 Lectura 2 — El cómo y el despertar ✅ 13/11 (~4200 palabras, vault)
 - [ ] 💊 Creatina noche ⏸️ *(pausada hasta 25/11)*
 - [ ] 📊 DC — Disponibilidad operativa: monitoreo, reportes, qué mirar sin tocar máquinas ← **prioridad 5**
 - [ ] 🚨 DC — Incidentes + coordinación Network Ops / DC Ops (bloque noche 30 min)
+- [>] 📦 DC — RMA + commissioning *(no hecha 12/11 — #4 sem3, movido de ayer)*
+- [>] 📋 DC — SOP/MOP + ventanas + seguridad *(no hecha 12/11 — #2 sem3)*
+- [>] 🗂️ DC — DCIM + inventarios + documentación *(no hecha 12/11 — #1 sem3)*
+- [>] 🖥️ DC — S6 Incidentes *(no hecha 12/11 — #2 sem2)*
+- [>] 📢 Meta Ads — aprender habilidades campañas *(movido de ayer)*
+- [>] 🔬 Prototipo X — sensor ultrasónico *(movido de ayer)*
+- [>] 📱 Limpiar teléfono *(movido de ayer)*
+- [>] 📄 Certificado EP Sura *(movido de ayer)*
+- [>] 🔌 Conexión + lectura switches S4048/Z9664 *(movido de ayer)*
+
+---
+
+## 📅 MAÑANA — Sábado 14/11
+
+> 🎯 Fierros 20%: FRUs + diagnóstico + desensamble/ensamble (bloque). ⚠️ Revisar malla — posible turno o libre.
+
+- [ ] 📚 Lectura diaria
+- [ ] 💊 Creatina noche ⏸️ *(pausada hasta 25/11)*
+- [ ] 🔧 DC — Fierros 20%: FRUs + diagnóstico + desensamble/ensamble ← **prioridad 6**
+- [ ] 🚨 DC — Incidentes + coordinación (30 min)
 
 ---
 
@@ -63,8 +62,8 @@ source: "Mr. Jair — iOS / Telegram"
 | 1 | 🗂️ DCIM + inventarios + documentación + 🖥️ CLI base: PuTTY/SSH, IPMI/iDRAC/iLO, comandos Linux de consulta (sin tocar fierros) | Lun 9 | Datacenter | ⏳ pendiente (no hecha 9/11, arrastra al 10/11) |
 | 2 | 📋 SOP/MOP + ventanas + seguridad: leer, entender y saber ejecutar procedimientos | Mar 10 | Datacenter | ⏳ pendiente (no hecha 10/11, arrastra al 11/11) |
 | 3 | 🎫 Gestión de incidentes y tickets + 🖥️ CLI intermedio: logs, estado de servicios, salud de hardware por consola | Mié 11 | Datacenter | ✅ completada 11/11 (INC-001 + INC-002 fibra real) |
-| 4 | 📦 RMA + commissioning: tracking con fabricantes, validar reparados, checklist post-mantenimiento | Jue 12 | Datacenter | 🎯 hoy |
-| 5 | 📊 Disponibilidad operativa: monitoreo, reportes, qué mirar sin tocar máquinas | Vie 13 | Datacenter | ⏳ nueva |
+| 4 | 📦 RMA + commissioning: tracking con fabricantes, validar reparados, checklist post-mantenimiento | Jue 12 | Datacenter | ⏳ pendiente (no hecha 12/11, arrastra) |
+| 5 | 📊 Disponibilidad operativa: monitoreo, reportes, qué mirar sin tocar máquinas | Vie 13 | Datacenter | 🎯 hoy |
 | 6 | 🔧 Fierros 20%: FRUs + diagnóstico + desensamble/ensamble (solo cuando toca) | Sáb 14 (bloque) | Datacenter | ⏳ nueva |
 | 7 | 📚 Lectura diaria ×5 (racha semanal) + 💊 Creatina ⏸️ *(retoma 25/11)* | Lun–Vie | Hábitos | ⏳ nueva |
 
@@ -111,7 +110,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 | Hábito | Frecuencia | Último registro |
 |--------|------------|-----------------|
-| 📚 Lectura diaria | Diario | 11/11 ❌ *(no hecha — arrastra al 12/11; última ✅ 8/11 cursos CommScope)* |
+| 📚 Lectura diaria | Diario | 13/11 ✅✅ *(doble: constructor + cómo/despertar)* |
 | 💊 Creatina 3-5g | Diario (noche) | ⏸️ pausada 8–25/11 *(se acabó, retoma con compra 25/11)* |
 | 🏋️ Gym | ⏸️ pausado | Pausado desde Sep — reevaluación **pendiente desde 1/11** |
 | 🔬 Prototipo X | ⏸️ pausado | Pausado — prioridad DC |
