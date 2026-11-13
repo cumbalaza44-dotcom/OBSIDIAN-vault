@@ -26,20 +26,20 @@ source: "Mr. Jair — iOS / Telegram"
 > 🔄 Rollo automático 12/11 — HOY←MAÑANA del 11/11. Completado 11/11: 2/14 (DC tickets+CLI ✅, DC Incidentes ✅). Arrastra: lectura diaria, SOP/MOP, DCIM, S6, Meta Ads nicho, Prototipo X sensor, gestión internet, limpiar teléfono, certificado EP Sura, medición tiempos T, conexión switches.
 > 📌 Ingresos — distribuir $1.050.000 → **programada Jue 25/11**.
 
-- [ ] 📚 Lectura diaria
+- [ ] 📚 Lectura diaria — INGENIERÍA SOCIAL *(ajuste 12/11: solo temas ingeniería social)*
 - [ ] 💊 Creatina noche ⏸️ *(pausada — se acabó, retoma 25/11 con compra)*
 - [ ] 📦 DC — RMA + commissioning: tracking con fabricantes, validar reparados, checklist post-mantenimiento ← **prioridad 4**
 - [ ] 🚨 DC — Incidentes + coordinación Network Ops / DC Ops (bloque noche 30 min)
 - [>] 📋 DC — SOP/MOP + ventanas + seguridad *(no hecha 11/11 — #2 sem3)*
 - [>] 🗂️ DC — DCIM + inventarios + documentación al día *(no hecha 11/11 — #1 sem3)*
 - [>] 🖥️ DC — S6 Incidentes *(no hecha 11/11 — #2 sem2)*
-- [>] 📢 Meta Ads — definir nicho específico *(no hecha 11/11 — prioridad 4 sem2)*
+- [>] 📢 Meta Ads — RESET + contextualización *(cambio 12/11: objetivo = aprender habilidades para hacer campañas, no definir nicho todavía)*
 - [>] 🔬 Prototipo X — prototipar sensor ultrasónico *(no hecha 11/11 — prioridad 5 sem2)*
-- [>] 🌐 Gestión dirección de instalación de internet *(no hecha 11/11)*
+- [x] 🌐 Gestión dirección de instalación de internet ✅ 12/11 *(conexión lista en casa)*
 - [>] 📚 Lectura diaria *(no hecha 11/11)*
 - [>] 📱 Limpiar teléfono — liberar memoria para grabación (evidencia/incidentes) *(no hecho 11/11)*
 - [>] 📄 Certificado EP Sura — generar y enviar al personal correspondiente *(no hecho 11/11)*
-- [>] ⏱️ Medición y registro de tiempos turno T — experimento piloto mallas *(no hecho 11/11)*
+- [x] ⏱️ Medición y registro de tiempos turno T ✅ 12/11 *(entra 14:00 → sale 22:50 promedio)*
 - [>] 🔌 Conexión + lectura switches (S4048/Z9664) — práctica en campo *(no hecho 11/11)*
 
 ---
