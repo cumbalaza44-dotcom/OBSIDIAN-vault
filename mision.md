@@ -31,15 +31,15 @@ source: "Mr. Jair — iOS / Telegram"
 - [ ] 💊 Creatina noche ⏸️ *(pausada hasta 25/11)*
 - [ ] 📊 DC — Disponibilidad operativa: monitoreo, reportes, qué mirar sin tocar máquinas ← **prioridad 5**
 - [ ] 🚨 DC — Incidentes + coordinación Network Ops / DC Ops (bloque noche 30 min)
-- [>] 📦 DC — RMA + commissioning *(no hecha 12/11 — #4 sem3, movido de ayer)*
-- [>] 📋 DC — SOP/MOP + ventanas + seguridad *(no hecha 12/11 — #2 sem3)*
-- [>] 🗂️ DC — DCIM + inventarios + documentación *(no hecha 12/11 — #1 sem3)*
-- [>] 🖥️ DC — S6 Incidentes *(no hecha 12/11 — #2 sem2)*
-- [>] 📢 Meta Ads — aprender habilidades campañas *(movido de ayer)*
-- [>] 🔬 Prototipo X — sensor ultrasónico *(movido de ayer)*
-- [>] 📱 Limpiar teléfono *(movido de ayer)*
-- [>] 📄 Certificado EP Sura *(movido de ayer)*
-- [>] 🔌 Conexión + lectura switches S4048/Z9664 *(movido de ayer)*
+- [ ] 📦 DC — RMA + commissioning *(no hecha 12/11 — #4 sem3, movido de ayer)*
+- [ ] 📋 DC — SOP/MOP + ventanas + seguridad *(no hecha 12/11 — #2 sem3)*
+- [ ] 🗂️ DC — DCIM + inventarios + documentación *(no hecha 12/11 — #1 sem3)*
+- [ ] 🖥️ DC — S6 Incidentes *(no hecha 12/11 — #2 sem2)*
+- [ ] 📢 Meta Ads — aprender habilidades campañas *(movido de ayer)*
+- [ ] 🔬 Prototipo X — sensor ultrasónico *(movido de ayer)*
+- [ ] 📱 Limpiar teléfono *(movido de ayer)*
+- [ ] 📄 Certificado EP Sura *(movido de ayer)*
+- [ ] 🔌 Conexión + lectura switches S4048/Z9664 *(movido de ayer)*
 
 ---
 
