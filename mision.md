@@ -28,19 +28,6 @@ source: "Mr. Jair — iOS / Telegram"
 
 - [ ] 📚 Lectura diaria
 - [ ] 💊 Creatina noche ⏸️ *(pausada hasta 25/11)*
-<<<<<<< HEAD
-- [ ] 📊 DC — Disponibilidad operativa: monitoreo, reportes, qué mirar sin tocar máquinas ← **prioridad 5**
-- [ ] 🚨 DC — Incidentes + coordinación Network Ops / DC Ops (bloque noche 30 min)
-- [ ] 📦 DC — RMA + commissioning *(no hecha 12/11 — #4 sem3, movido de ayer)*
-- [ ] 📋 DC — SOP/MOP + ventanas + seguridad *(no hecha 12/11 — #2 sem3)*
-- [ ] 🗂️ DC — DCIM + inventarios + documentación *(no hecha 12/11 — #1 sem3)*
-- [ ] 🖥️ DC — S6 Incidentes *(no hecha 12/11 — #2 sem2)*
-- [ ] 📢 Meta Ads — aprender habilidades campañas *(movido de ayer)*
-- [ ] 🔬 Prototipo X — sensor ultrasónico *(movido de ayer)*
-- [ ] 📱 Limpiar teléfono *(movido de ayer)*
-- [ ] 📄 Certificado EP Sura *(movido de ayer)*
-- [ ] 🔌 Conexión + lectura switches S4048/Z9664 *(movido de ayer)*
-=======
 - [ ] 🔧 DC — Fierros 20%: FRUs + diagnóstico + desensamble/ensamble ← **prioridad 6**
 - [ ] 🚨 DC — Incidentes + coordinación (30 min)
 - [>] 📊 DC — Disponibilidad operativa: monitoreo, reportes *(no hecha 13/11 — #5 sem3)*
@@ -54,7 +41,6 @@ source: "Mr. Jair — iOS / Telegram"
 - [>] 📱 Limpiar teléfono *(movido de ayer)*
 - [>] 📄 Certificado EP Sura *(movido de ayer)*
 - [>] 🔌 Conexión + lectura switches S4048/Z9664 *(movido de ayer)*
->>>>>>> e7ac0e4 (H.E.L.E.N. sync: 2026-11-14 01:00)
 
 ---
 
