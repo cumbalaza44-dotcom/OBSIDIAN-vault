@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 MISSIONS
 
-### Última actualización: `14 Nov 2026 — 20:32 (Limpieza Sáb 14/11 → Dom 15/11)`
+### Última actualización: `15 Nov 2026 — 01:05 (Rollo Sáb 14/11 → Dom 15/11)`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -19,45 +19,34 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Sábado 14/11
+## 🔥 HOY — Domingo 15/11
 
-> 🎯 **Prioridad del día: 🔧 Fierros 20%: FRUs + diagnóstico + desensamble/ensamble (prioridad 6 semana 3)**
-> ⚠️ Revisar malla — posible turno o libre.
-> 🔄 Rollo 14/11 — MAÑANA del 13/11 promovida. Completado 13/11: lectura doble ✅✅. Arrastra 13/11: disponibilidad operativa, incidentes, RMA, SOP/MOP, DCIM, S6, Meta Ads, Prototipo X, limpiar teléfono, certificado Sura, switches.
+> 🎯 **Cierre semana 3: revisión semanal + pendientes limpios. ⚠️ Revisar malla para semana 4.**
+> 🔄 Rollo 15/11 — MAÑANA del 14/11 promovida. Completado 14/11: certificado EPS Sura ✅, SOP/MOP ✅, S6 ✅. Arrastra 14/11: lectura, fierros, RMA, Meta Ads, Prototipo X, limpiar teléfono, switches + info EPS Francy (Mar 17/11).
 > 📌 Ingresos — distribuir $1.050.000 → **programada Jue 25/11**.
 
-- [ ] 📚 Lectura diaria 14/11
+- [ ] 📚 Lectura diaria 15/11
 - [ ] 💊 Creatina noche ⏸️ *(pausada hasta 25/11)*
-- [ ] 🔧 DC — Fierros 20%: FRUs + diagnóstico *(no hecho 14/11 — día en capacitación ops, pasa a Dom)*
-- [x] 🚨 DC — Incidentes + coordinación ✅ *(runbooks + entregas turno 13/11)*
-- [x] 📊 DC — Disponibilidad operativa ✅ *(MPO + breakout + figurado + power-cycle total 13/11 — #5 sem3)*
-- [x] 🚨 DC — Incidentes + coordinación Network Ops / DC Ops ✅ *(campo 13/11)*
-- [ ] 📦 DC — RMA + commissioning *(no hecha 13/11 ni 14/11 — pasa a Dom)*
-- [x] 📋 DC — SOP/MOP + ventanas + seguridad ✅ *(capacitación centro operaciones 14/11 — #2 sem3)*
-- [x] 🗂️ DC — DCIM + inventarios + documentación ✅ *(runbooks + entregas 13/11 — #1 sem3)*
-- [x] 🖥️ DC — S6 Incidentes ✅ *(capacitación ops 14/11 — #2 sem2)*
-- [ ] 📢 Meta Ads — aprender habilidades campañas *(no hecha — pasa a Dom)*
-- [ ] 🔬 Prototipo X — sensor ultrasónico *(no hecho — pasa a Dom)*
-- [ ] 📱 Limpiar teléfono *(no hecho — pasa a Dom)*
-- [x] 📄 Certificado EPS Sura ✅ *(obtenido 14/11)*
-- [ ] 📄 Enviar info EPS Sura a Francy — **Mar 17/11**
-- [ ] 🔌 Conexión + lectura switches S4048/Z9664 *(no hecha — pasa a Dom)*
+- [ ] 📋 Revisión semanal semana 3 (qué cerró, qué arrastra a semana 4)
+- [ ] 🔧 DC — Fierros 20%: FRUs + diagnóstico *(no hecho 14/11 — día en capacitación ops)*
+- [ ] 📦 DC — RMA + commissioning *(no hecha 13/11 ni 14/11)*
+- [ ] 📢 Meta Ads — aprender habilidades campañas *(no hecha — en pausa hasta cerrar capacitación)*
+- [ ] 🔬 Prototipo X — sensor ultrasónico *(no hecho — en pausa hasta cerrar capacitación)*
+- [ ] 📱 Limpiar teléfono *(no hecho 14/11)*
+- [ ] 🔌 Conexión + lectura switches S4048/Z9664 *(no hecha 14/11)*
+- [ ] 📄 Enviar info EPS Sura a Francy — **Mar 17/11** *(movido de ayer)*
 
 ---
 
-## 📅 MAÑANA — Domingo 15/11
+## 📅 MAÑANA — Lunes 16/11
 
-> 🎯 Cierre semana 3: revisión semanal + pendientes limpios. ⚠️ Revisar malla para semana 4.
+> 🎯 Inicio semana 4: definir prioridades según malla y cierre de semana 3.
 
 - [ ] 📚 Lectura diaria
 - [ ] 💊 Creatina noche ⏸️ *(pausada hasta 25/11)*
-- [ ] 📋 Revisión semanal semana 3 (qué cerró, qué arrastra a semana 4)
-- [ ] 🔧 DC — Fierros 20%: FRUs + diagnóstico
-- [ ] 📦 DC — RMA + commissioning
-- [ ] 📢 Meta Ads — aprender habilidades campañas
-- [ ] 🔬 Prototipo X — sensor ultrasónico
-- [ ] 📱 Limpiar teléfono
-- [ ] 🔌 Conexión + lectura switches S4048/Z9664
+- [ ] 📋 Definir prioridades semana 4 (según revisión semanal Dom 15/11)
+- [ ] 📦 DC — RMA + commissioning *(si arrastra)*
+- [ ] 🔧 DC — Fierros 20%: FRUs + diagnóstico *(si arrastra)*
 
 ---
 
@@ -66,12 +55,12 @@ source: "Mr. Jair — iOS / Telegram"
 
 | # | Prioridad (80% gestión / 20% fierros) | Día | Proyecto | Estado |
 |---|-----------|-----|----------|--------|
-| 1 | 🗂️ DCIM + inventarios + documentación + 🖥️ CLI base: PuTTY/SSH, IPMI/iDRAC/iLO, comandos Linux de consulta (sin tocar fierros) | Lun 9 | Datacenter | ⏳ pendiente (no hecha 9/11, arrastra al 10/11) |
-| 2 | 📋 SOP/MOP + ventanas + seguridad: leer, entender y saber ejecutar procedimientos | Mar 10 | Datacenter | ⏳ pendiente (no hecha 10/11, arrastra al 11/11) |
+| 1 | 🗂️ DCIM + inventarios + documentación + 🖥️ CLI base: PuTTY/SSH, IPMI/iDRAC/iLO, comandos Linux de consulta (sin tocar fierros) | Lun 9 | Datacenter | ✅ completada 13/11 (runbooks + entregas) |
+| 2 | 📋 SOP/MOP + ventanas + seguridad: leer, entender y saber ejecutar procedimientos | Mar 10 | Datacenter | ✅ completada 14/11 (capacitación centro operaciones) |
 | 3 | 🎫 Gestión de incidentes y tickets + 🖥️ CLI intermedio: logs, estado de servicios, salud de hardware por consola | Mié 11 | Datacenter | ✅ completada 11/11 (INC-001 + INC-002 fibra real) |
 | 4 | 📦 RMA + commissioning: tracking con fabricantes, validar reparados, checklist post-mantenimiento | Jue 12 | Datacenter | ⏳ pendiente (no hecha 12/11, arrastra) |
-| 5 | 📊 Disponibilidad operativa: monitoreo, reportes, qué mirar sin tocar máquinas | Vie 13 | Datacenter | ⏳ pendiente (no hecha 13/11, solo lectura ✅✅ — arrastra) |
-| 6 | 🔧 Fierros 20%: FRUs + diagnóstico + desensamble/ensamble (solo cuando toca) | Sáb 14 (bloque) | Datacenter | 🎯 hoy |
+| 5 | 📊 Disponibilidad operativa: monitoreo, reportes, qué mirar sin tocar máquinas | Vie 13 | Datacenter | ✅ completada 13/11 (MPO + breakout + figurado + power-cycle total) |
+| 6 | 🔧 Fierros 20%: FRUs + diagnóstico + desensamble/ensamble (solo cuando toca) | Sáb 14 (bloque) | Datacenter | ⏳ pendiente (no hecha 14/11 — día en capacitación ops, arrastra al 15/11) |
 | 7 | 📚 Lectura diaria ×5 (racha semanal) + 💊 Creatina ⏸️ *(retoma 25/11)* | Lun–Vie | Hábitos | ⏳ nueva |
 
 > 📊 Semana 2: 1/7 (solo Hogar ✅). Semana 3 = gestión del cargo, no teoría general. Meta Ads / Prototipo X / Hogar en pausa hasta cerrar capacitación.
