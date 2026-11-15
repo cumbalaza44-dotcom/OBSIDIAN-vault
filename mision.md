@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 MISSIONS
 
-### Última actualización: `14 Nov 2026 — 01:00 (Rollo a Sáb 14/11)`
+### Última actualización: `14 Nov 2026 — 20:32 (Limpieza Sáb 14/11 → Dom 15/11)`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -26,33 +26,38 @@ source: "Mr. Jair — iOS / Telegram"
 > 🔄 Rollo 14/11 — MAÑANA del 13/11 promovida. Completado 13/11: lectura doble ✅✅. Arrastra 13/11: disponibilidad operativa, incidentes, RMA, SOP/MOP, DCIM, S6, Meta Ads, Prototipo X, limpiar teléfono, certificado Sura, switches.
 > 📌 Ingresos — distribuir $1.050.000 → **programada Jue 25/11**.
 
-- [ ] 📚 Lectura diaria
+- [ ] 📚 Lectura diaria 14/11
 - [ ] 💊 Creatina noche ⏸️ *(pausada hasta 25/11)*
-- [ ] 🔧 DC — Fierros 20%: FRUs + diagnóstico + desensamble/ensamble ← **prioridad 6**
-- [ ] 🚨 DC — Incidentes + coordinación (30 min)
-- [>] 📊 DC — Disponibilidad operativa: monitoreo, reportes *(no hecha 13/11 — #5 sem3)*
-- [>] 🚨 DC — Incidentes + coordinación Network Ops / DC Ops *(no hecha 13/11)*
-- [>] 📦 DC — RMA + commissioning *(no hecha 13/11 — #4 sem3)*
-- [>] 📋 DC — SOP/MOP + ventanas + seguridad *(no hecha 13/11 — #2 sem3)*
-- [>] 🗂️ DC — DCIM + inventarios + documentación *(no hecha 13/11 — #1 sem3)*
-- [>] 🖥️ DC — S6 Incidentes *(no hecha 13/11 — #2 sem2)*
-- [>] 📢 Meta Ads — aprender habilidades campañas *(movido de ayer)*
-- [>] 🔬 Prototipo X — sensor ultrasónico *(movido de ayer)*
-- [>] 📱 Limpiar teléfono *(movido de ayer)*
+- [ ] 🔧 DC — Fierros 20%: FRUs + diagnóstico *(no hecho 14/11 — día en capacitación ops, pasa a Dom)*
+- [x] 🚨 DC — Incidentes + coordinación ✅ *(runbooks + entregas turno 13/11)*
+- [x] 📊 DC — Disponibilidad operativa ✅ *(MPO + breakout + figurado + power-cycle total 13/11 — #5 sem3)*
+- [x] 🚨 DC — Incidentes + coordinación Network Ops / DC Ops ✅ *(campo 13/11)*
+- [ ] 📦 DC — RMA + commissioning *(no hecha 13/11 ni 14/11 — pasa a Dom)*
+- [x] 📋 DC — SOP/MOP + ventanas + seguridad ✅ *(capacitación centro operaciones 14/11 — #2 sem3)*
+- [x] 🗂️ DC — DCIM + inventarios + documentación ✅ *(runbooks + entregas 13/11 — #1 sem3)*
+- [x] 🖥️ DC — S6 Incidentes ✅ *(capacitación ops 14/11 — #2 sem2)*
+- [ ] 📢 Meta Ads — aprender habilidades campañas *(no hecha — pasa a Dom)*
+- [ ] 🔬 Prototipo X — sensor ultrasónico *(no hecho — pasa a Dom)*
+- [ ] 📱 Limpiar teléfono *(no hecho — pasa a Dom)*
 - [x] 📄 Certificado EPS Sura ✅ *(obtenido 14/11)*
 - [ ] 📄 Enviar info EPS Sura a Francy — **Mar 17/11**
-- [>] 🔌 Conexión + lectura switches S4048/Z9664 *(movido de ayer)*
+- [ ] 🔌 Conexión + lectura switches S4048/Z9664 *(no hecha — pasa a Dom)*
 
 ---
 
 ## 📅 MAÑANA — Domingo 15/11
 
-> 🎯 Cierre semana 3: revisión semanal + pendientes. ⚠️ Revisar malla para semana 4.
+> 🎯 Cierre semana 3: revisión semanal + pendientes limpios. ⚠️ Revisar malla para semana 4.
 
 - [ ] 📚 Lectura diaria
 - [ ] 💊 Creatina noche ⏸️ *(pausada hasta 25/11)*
 - [ ] 📋 Revisión semanal semana 3 (qué cerró, qué arrastra a semana 4)
-- [ ] 🗂️ Pendientes de arrastre (ver HOY Sáb 14/11)
+- [ ] 🔧 DC — Fierros 20%: FRUs + diagnóstico
+- [ ] 📦 DC — RMA + commissioning
+- [ ] 📢 Meta Ads — aprender habilidades campañas
+- [ ] 🔬 Prototipo X — sensor ultrasónico
+- [ ] 📱 Limpiar teléfono
+- [ ] 🔌 Conexión + lectura switches S4048/Z9664
 
 ---
 
