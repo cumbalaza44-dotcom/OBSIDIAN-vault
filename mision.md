@@ -39,7 +39,8 @@ source: "Mr. Jair — iOS / Telegram"
 - [>] 📢 Meta Ads — aprender habilidades campañas *(movido de ayer)*
 - [>] 🔬 Prototipo X — sensor ultrasónico *(movido de ayer)*
 - [>] 📱 Limpiar teléfono *(movido de ayer)*
-- [>] 📄 Certificado EP Sura *(movido de ayer)*
+- [x] 📄 Certificado EPS Sura ✅ *(obtenido 14/11)*
+- [ ] 📄 Enviar info EPS Sura a Francy — **Mar 17/11**
 - [>] 🔌 Conexión + lectura switches S4048/Z9664 *(movido de ayer)*
 
 ---
