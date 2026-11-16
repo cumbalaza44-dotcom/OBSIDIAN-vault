@@ -34,6 +34,7 @@ source: "Mr. Jair — iOS / Telegram"
 - [ ] 📢 Meta Ads — aprender habilidades campañas *(movido de ayer — en pausa hasta cerrar capacitación)*
 - [ ] 🔬 Prototipo X — sensor ultrasónico *(movido de ayer — en pausa hasta cerrar RMA/fierros)*
 - [ ] 📱 Limpiar teléfono *(movido de ayer)*
+- [ ] 🧩 Crear estándar mínimo de operatividad del cargo (RMA + commissioning + fierros + gestión)
 
 ---
 
