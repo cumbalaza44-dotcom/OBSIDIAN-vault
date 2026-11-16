@@ -26,7 +26,7 @@ source: "Mr. Jair — iOS / Telegram"
 > 📌 Ingresos — distribuir $1.050.000 → **programada Jue 25/11**.
 
 - [ ] 📚 Lectura diaria 16/11
-- [ ] 📦 DC — RMA + commissioning *(arrastre crítico semana 3)*
+- [x] 📦 DC — RMA + commissioning *(cerrado 16/11: sin RMAs abiertos — plantilla + checklist creados)*
 - [ ] 🔧 DC — Fierros 20%: FRUs + diagnóstico *(si no cierra hoy, bloque Mié 18)*
 - [ ] 🔌 Conexión + lectura switches S4048/Z9664 *(arrastre — Mar 17 AM)*
 - [ ] 📄 Enviar info EPS Sura a Francy — **Mar 17/11**
@@ -34,7 +34,7 @@ source: "Mr. Jair — iOS / Telegram"
 - [ ] 📢 Meta Ads — aprender habilidades campañas *(movido de ayer — en pausa hasta cerrar capacitación)*
 - [ ] 🔬 Prototipo X — sensor ultrasónico *(movido de ayer — en pausa hasta cerrar RMA/fierros)*
 - [ ] 📱 Limpiar teléfono *(movido de ayer)*
-- [ ] 🧩 Crear estándar mínimo de operatividad del cargo (RMA + commissioning + fierros + gestión)
+- [x] 🧩 Crear estándar mínimo de operatividad del cargo *(cerrado 16/11: `DC-Incidentes/Estandar-Operatividad-DC.md v1.0`)*
 
 ---
 
