@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 MISSIONS
 
-### Última actualización: `15 Nov 2026 — 01:05 (Rollo Sáb 14/11 → Dom 15/11)`
+### Última actualización: `15 Nov 2026 — 20:00 (Planificación Semanal semana 4)`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -40,13 +40,30 @@ source: "Mr. Jair — iOS / Telegram"
 
 ## 📅 MAÑANA — Lunes 16/11
 
-> 🎯 Inicio semana 4: definir prioridades según malla y cierre de semana 3.
+> 🎯 Inicio semana 4 (16–22/11): cerrar arrastres DC + reactivar 1 bloque Meta Ads. Malla: Lun–Mar tardes (estudio AM) · Mié 18 libre · Jue–Vie descanso · Sáb 21 arranca noches.
 
 - [ ] 📚 Lectura diaria
-- [ ] 💊 Creatina noche ⏸️ *(pausada hasta 25/11)*
-- [ ] 📋 Definir prioridades semana 4 (según revisión semanal Dom 15/11)
-- [ ] 📦 DC — RMA + commissioning *(si arrastra)*
-- [ ] 🔧 DC — Fierros 20%: FRUs + diagnóstico *(si arrastra)*
+- [ ] 📦 DC — RMA + commissioning *(arrastre crítico semana 3)*
+- [ ] 🔧 DC — Fierros 20%: FRUs + diagnóstico *(si no cierra Dom 15, bloque Mié 18)*
+- [ ] 🔌 Conexión + lectura switches S4048/Z9664 *(arrastre — Mar 17 AM)*
+- [ ] 📄 Enviar info EPS Sura a Francy — **Mar 17/11**
+
+---
+
+## 📋 PRIORIDADES SEMANA 4 (16–22 Nov) — CIERRE ARRASTRES + REACTIVACIÓN LIGERA
+> Malla: Lun–Mar tardes · Mié libre · Jue–Vie descanso · Sáb noche. Semana 3 cerró 4/7 (gestión ✅, fierros/RMA ⏳).
+
+| # | Prioridad | Día | Proyecto | Estado |
+|---|-----------|-----|----------|--------|
+| 1 | 📦 DC — RMA + commissioning (cerrar de una vez) | Lun 16 | Datacenter | ⏳ |
+| 2 | 🔌 Switches S4048/Z9664: conexión + lectura | Mar 17 AM | Datacenter | ⏳ |
+| 3 | 📄 Enviar info EPS Sura a Francy (fecha fija) | Mar 17 | Hogar/Admin | 📅 |
+| 4 | 🔧 Fierros 20%: FRUs + diagnóstico (bloque) | Mié 18 (libre) | Datacenter | ⏳ |
+| 5 | 📱 Limpiar teléfono (rápida ≤30 min) | Jue 19 | Hábitos | ⏳ |
+| 6 | 📢 Meta Ads — definir nicho (1 bloque, reactivación) | Vie 20 | Meta Ads | ⏳ |
+| 7 | 📚 Lectura diaria ×5 + racha semanal | Lun–Vie | Hábitos | ⏳ |
+
+> 💰 Ingresos: distribuir $1.050.000 → **Jue 25/11** (programada). 💊 Creatina ⏸️ hasta 25/11. Prototipo X sigue en pausa hasta cerrar RMA/fierros.
 
 ---
 
