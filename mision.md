@@ -26,7 +26,7 @@ source: "Mr. Jair — iOS / Telegram"
 > 📌 Ingresos — distribuir $1.050.000 → **programada Jue 25/11**.
 
 - [ ] 📚 Lectura diaria 17/11
-- [ ] 🔌 Switches S4048/Z9664: conexión + lectura *(bloque AM)*
+- [x] 🔌 Switches S4048/Z9664: conexión + lectura *(bloque AM — 17/11 gestión por PuTTY/CLI ✅)
 - [ ] 📄 Enviar info EPS Sura a Francy *(fecha fija — hoy)*
 - [ ] 🔧 DC — Fierros 20%: FRUs + diagnóstico *(si no cierra hoy, bloque Mié 18)*
 - [ ] 📦 DC — RMA + commissioning *(si quedó algo abierto Lun 16)*
