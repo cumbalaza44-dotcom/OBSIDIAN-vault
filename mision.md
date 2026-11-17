@@ -32,7 +32,7 @@ source: "Mr. Jair — iOS / Telegram"
 - [ ] 📦 DC — RMA + commissioning *(si quedó algo abierto Lun 16)*
 - [ ] 📋 Revisión semanal semana 3 (qué cerró, qué arrastra a semana 4) *[>] (movido de ayer 16/11)*
 - [ ] 📢 Meta Ads — aprender habilidades campañas *[>] (movido de ayer 16/11 — en pausa hasta cerrar capacitación)*
-- [ ] 🔬 Prototipo X — sensor ultrasónico *[>] (movido de ayer 16/11 — en pausa hasta cerrar RMA/fierros)*
+- [ ] 🔬 Prototipo X — decidir sensor HC-SR04 vs LD2410 + lista compra *(base ESP32-ETH 17/11 ✅ — desarrollo pausado hasta cerrar RMA/fierros)*
 - [ ] 📱 Limpiar teléfono *[>] (movido de ayer 16/11)*
 
 ---
@@ -62,7 +62,7 @@ source: "Mr. Jair — iOS / Telegram"
 | 6 | 📢 Meta Ads — definir nicho (1 bloque, reactivación) | Vie 20 | Meta Ads | ⏳ |
 | 7 | 📚 Lectura diaria ×5 + racha semanal | Lun–Vie | Hábitos | ⏳ |
 
-> 💰 Ingresos: distribuir $1.050.000 → **Jue 25/11** (programada). 💊 Creatina ⏸️ hasta 25/11. Prototipo X sigue en pausa hasta cerrar RMA/fierros.
+> 💰 Ingresos: distribuir $1.050.000 → **Jue 25/11** (programada). 💊 Creatina ⏸️ hasta 25/11. Prototipo X: base ESP32-ETH lista 17/11, desarrollo pausado hasta cerrar RMA/fierros.
 
 ---
 
