@@ -138,14 +138,15 @@ source: "Mr. Jair — iOS / Telegram"
 
 > ⏸️ **PAUSADOS — prioridad datacenter (Fase 1).** Retomar después de dominar equipos. Solo tareas marcadas "URGENTE" se reactivan.
 
-### 🏍️ Prototipo X — Copiloto Moto
-> **Objetivo:** Hardware para entender el tráfico — puntos ciegos, ángulos muertos, visibilidad reducida.
-> **Fase 1:** Pi 5 + Coral (~$140 USD) | **Fase 2:** Jetson Orin Nano (~$249 USD)
-> **Hardware en mano (21/09):** ESP32 + antenas ✅
+### 🏍️ Prototipo X — Copiloto Moto / Nodo sensor Ethernet
+> **Objetivo:** Hardware para entender el tráfico — puntos ciegos, ángulos muertos, visibilidad reducida. Reorientado 17/11: nodo sensor por Ethernet (estable, apto DC).
+> **Fase 1:** ESP32-ETH (WT32-ETH01/LAN8720) + USB-TTL ✅ en mano 17/11 | **Alternativas a evaluar:** Pi 5 + Coral vs Jetson Orin Nano (solo si se necesita visión)
+> **Hardware en mano (17/11):** ESP32-ETH + USB-TTL + Dupont ✅ — falta HC-SR04 / sensor
 
 - [x] Investigar sensores + investigación completa
-- [x] Definir plataforma hardware
-- [ ] Prototipar sensor ultrasónico + alerta *(ESP32 en mano 8/11 ✅ — falta prototipar)*
+- [x] Definir plataforma hardware (reevaluada 17/11 → ESP32-ETH base)
+- [ ] Decidir sensor: HC-SR04 vs LD2410 / alternativas + lista compra
+- [ ] Prototipar sensor + alerta por Ethernet (MQTT/HTTP) *(pausado hasta cerrar RMA/fierros)*
 - [ ] Diseñar UX del HUD/app
 
 ### 📢 META ADS — Fase 1: Fundamentos
