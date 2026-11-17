@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 MISSIONS
 
-### Última actualización: `16 Nov 2026 — 01:00 (Rollo automático)`
+### Última actualización: `17 Nov 2026 — 01:00 (Rollo automático)`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -19,34 +19,33 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Lunes 16/11
+## 🔥 HOY — Martes 17/11
 
-> 🎯 **Inicio semana 4 (16–22/11): cerrar arrastres DC + reactivar 1 bloque Meta Ads.** Malla: Lun–Mar tardes (estudio AM) · Mié 18 libre · Jue–Vie descanso · Sáb 21 arranca noches.
-> 🔄 Rollo 16/11 — MAÑANA del 15/11 promovida. Completado 15/11: sin cierres verificados (todo [ ]). Arrastra 15/11: revisión semanal, Meta Ads, Prototipo X, limpiar teléfono.
+> 🎯 **Malla: Mar tarde (estudio AM).** Fecha fija: enviar info EPS Sura a Francy. Semana 4: cerrar arrastres DC.
+> 🔄 Rollo 17/11 — MAÑANA del 16/11 promovida. Completado 16/11: 📦 RMA + commissioning ✅, 🧩 estándar operatividad ✅. Arrastra 16/11: lectura diaria, fierros, switches, revisión semanal, Meta Ads, Prototipo X, limpiar teléfono.
 > 📌 Ingresos — distribuir $1.050.000 → **programada Jue 25/11**.
 
-- [ ] 📚 Lectura diaria 16/11
-- [x] 📦 DC — RMA + commissioning *(cerrado 16/11: sin RMAs abiertos — plantilla + checklist creados)*
+- [ ] 📚 Lectura diaria 17/11
+- [ ] 🔌 Switches S4048/Z9664: conexión + lectura *(bloque AM)*
+- [ ] 📄 Enviar info EPS Sura a Francy *(fecha fija — hoy)*
 - [ ] 🔧 DC — Fierros 20%: FRUs + diagnóstico *(si no cierra hoy, bloque Mié 18)*
-- [ ] 🔌 Conexión + lectura switches S4048/Z9664 *(arrastre — Mar 17 AM)*
-- [ ] 📄 Enviar info EPS Sura a Francy — **Mar 17/11**
-- [ ] 📋 Revisión semanal semana 3 (qué cerró, qué arrastra a semana 4) *(movido de ayer)*
-- [ ] 📢 Meta Ads — aprender habilidades campañas *(movido de ayer — en pausa hasta cerrar capacitación)*
-- [ ] 🔬 Prototipo X — sensor ultrasónico *(movido de ayer — en pausa hasta cerrar RMA/fierros)*
-- [ ] 📱 Limpiar teléfono *(movido de ayer)*
-- [x] 🧩 Crear estándar mínimo de operatividad del cargo *(cerrado 16/11: `DC-Incidentes/Estandar-Operatividad-DC.md v1.0`)*
+- [ ] 📦 DC — RMA + commissioning *(si quedó algo abierto Lun 16)*
+- [ ] 📋 Revisión semanal semana 3 (qué cerró, qué arrastra a semana 4) *[>] (movido de ayer 16/11)*
+- [ ] 📢 Meta Ads — aprender habilidades campañas *[>] (movido de ayer 16/11 — en pausa hasta cerrar capacitación)*
+- [ ] 🔬 Prototipo X — sensor ultrasónico *[>] (movido de ayer 16/11 — en pausa hasta cerrar RMA/fierros)*
+- [ ] 📱 Limpiar teléfono *[>] (movido de ayer 16/11)*
 
 ---
 
-## 📅 MAÑANA — Martes 17/11
+## 📅 MAÑANA — Miércoles 18/11
 
-> 🎯 Malla: Mar tarde (estudio AM). Fecha fija: enviar info EPS Sura a Francy.
+> 🎯 Malla: Mié 18 libre — bloque completo disponible. Prioridad: fierros (si no cerró Mar 17).
 
 - [ ] 📚 Lectura diaria
-- [ ] 🔌 Switches S4048/Z9664: conexión + lectura *(bloque AM)*
-- [ ] 📄 Enviar info EPS Sura a Francy *(fecha fija — hoy)*
-- [ ] 🔧 DC — Fierros 20%: FRUs + diagnóstico *(si no cierra Lun 16)*
-- [ ] 📦 DC — RMA + commissioning *(si no cierra Lun 16)*
+- [ ] 🔧 DC — Fierros 20%: FRUs + diagnóstico *(bloque día libre)*
+- [ ] 🔌 Switches S4048/Z9664 *(si no cierra Mar 17)*
+- [ ] 📋 Revisión semanal semana 3 *(si no cierra Mar 17)*
+- [ ] 📱 Limpiar teléfono *(rápida ≤30 min — día libre)*
 
 ---
 
@@ -55,7 +54,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 | # | Prioridad | Día | Proyecto | Estado |
 |---|-----------|-----|----------|--------|
-| 1 | 📦 DC — RMA + commissioning (cerrar de una vez) | Lun 16 | Datacenter | ⏳ |
+| 1 | 📦 DC — RMA + commissioning (cerrar de una vez) | Lun 16 | Datacenter | ✅ completada 16/11 (sin RMAs abiertos — plantilla + checklist) |
 | 2 | 🔌 Switches S4048/Z9664: conexión + lectura | Mar 17 AM | Datacenter | ⏳ |
 | 3 | 📄 Enviar info EPS Sura a Francy (fecha fija) | Mar 17 | Hogar/Admin | 📅 |
 | 4 | 🔧 Fierros 20%: FRUs + diagnóstico (bloque) | Mié 18 (libre) | Datacenter | ⏳ |
