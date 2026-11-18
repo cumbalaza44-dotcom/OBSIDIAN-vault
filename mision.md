@@ -25,12 +25,11 @@ source: "Mr. Jair — iOS / Telegram"
 > 🔄 Rollo 18/11 — MAÑANA del 17/11 promovida. Completado 17/11: 🔌 Switches S4048/Z9664 ✅ (bloque AM gestión PuTTY/CLI). Arrastra 17/11: lectura diaria, EPS Sura (fecha fija vencida), fierros, RMA, revisión semanal, Meta Ads, Prototipo X, limpiar teléfono.
 > 📌 Ingresos — distribuir $1.050.000 → **programada Jue 25/11**.
 
-- [ ] 📚 Lectura diaria 18/11
-- [ ] 🔧 DC — Fierros 20%: FRUs + diagnóstico *(bloque día libre)*
-- [ ] 🔌 Switches S4048/Z9664 *(si quedó algo abierto Mar 17)*
+- [x] 📚 Lectura diaria 18/11 ✅ completada 18/11
+- [ ] 🔧 DC — Fierros 20%: FRUs + diagnóstico + 🔌 Switches S4048/Z9664 *(bloque combinado día libre)*
 - [ ] 📋 Revisión semanal semana 3 *(si no cierra — arrastre)*
 - [ ] 📱 Limpiar teléfono *(rápida ≤30 min — día libre)*
-- [ ] 📄 Enviar info EPS Sura a Francy *(fecha fija era Mar 17 — vencida, enviar hoy)* [>] (movido de ayer 17/11)
+- [~] 📄 Enviar info EPS Sura a Francy — intento 18/11: página falló, soporte web sin respuesta tangible → se cambia vía a WhatsApp (en curso)
 - [ ] 📦 DC — RMA + commissioning *(si quedó algo abierto)* [>] (movido de ayer 17/11)
 - [ ] 📢 Meta Ads — aprender habilidades campañas *[>] (movido de ayer 17/11 — en pausa hasta cerrar capacitación)*
 - [ ] 🔬 Prototipo X — decidir sensor HC-SR04 vs LD2410 + lista compra *(desarrollo pausado hasta cerrar RMA/fierros)* [>] (movido de ayer 17/11)
