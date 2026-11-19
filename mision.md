@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 MISSIONS
 
-### Última actualización: `18 Nov 2026 — 01:00 (Rollo automático)`
+### Última actualización: `19 Nov 2026 — 01:00 (Rollo automático)`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -19,31 +19,31 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Miércoles 18/11
+## 🔥 HOY — Jueves 19/11
 
-> 🎯 **Malla: Mié 18 libre — bloque completo disponible.** Prioridad: fierros (si no cerró Mar 17).
-> 🔄 Rollo 18/11 — MAÑANA del 17/11 promovida. Completado 17/11: 🔌 Switches S4048/Z9664 ✅ (bloque AM gestión PuTTY/CLI). Arrastra 17/11: lectura diaria, EPS Sura (fecha fija vencida), fierros, RMA, revisión semanal, Meta Ads, Prototipo X, limpiar teléfono.
+> 🎯 **Malla: Jue 19 descanso — bloque completo disponible.** Prioridad: lo que arrastra del Mié 18 (fierros si no cerró, EPS Sura vía WhatsApp).
+> 🔄 Rollo 19/11 — MAÑANA del 18/11 promovida. Completado 18/11: 📚 Lectura diaria ✅. Arrastra 18/11: fierros, revisión semanal, limpiar teléfono, EPS Sura (intento web fallido → vía WhatsApp), RMA, Meta Ads, Prototipo X.
 > 📌 Ingresos — distribuir $1.050.000 → **programada Jue 25/11**.
 
-- [x] 📚 Lectura diaria 18/11 ✅ completada 18/11
-- [ ] 🔧 DC — Fierros 20%: FRUs + diagnóstico + 🔌 Switches S4048/Z9664 *(bloque combinado día libre)*
-- [ ] 📋 Revisión semanal semana 3 *(si no cierra — arrastre)*
-- [ ] 📱 Limpiar teléfono *(rápida ≤30 min — día libre)*
-- [~] 📄 Enviar info EPS Sura a Francy — intento 18/11: página falló, soporte web sin respuesta tangible → se cambia vía a WhatsApp (en curso)
-- [ ] 📦 DC — RMA + commissioning *(si quedó algo abierto)* [>] (movido de ayer 17/11)
-- [ ] 📢 Meta Ads — aprender habilidades campañas *[>] (movido de ayer 17/11 — en pausa hasta cerrar capacitación)*
-- [ ] 🔬 Prototipo X — decidir sensor HC-SR04 vs LD2410 + lista compra *(desarrollo pausado hasta cerrar RMA/fierros)* [>] (movido de ayer 17/11)
+- [ ] 📚 Lectura diaria 19/11
+- [ ] 🔧 DC — Fierros 20%: FRUs + diagnóstico + 🔌 Switches S4048/Z9664 *(bloque combinado día descanso)* [>] (movido de ayer 18/11)
+- [ ] 📋 Revisión semanal semana 3 *(si no cierra — arrastre)* [>] (movido de ayer 18/11)
+- [ ] 📱 Limpiar teléfono *(rápida ≤30 min — día descanso)* [>] (movido de ayer 18/11)
+- [~] 📄 Enviar info EPS Sura a Francy — intento 18/11: página falló → vía WhatsApp (en curso) [>] (movido de ayer 18/11)
+- [ ] 📦 DC — RMA + commissioning *(si quedó algo abierto)* [>] (movido de ayer 18/11, orig. 17/11)
+- [ ] 📢 Meta Ads — aprender habilidades campañas *[>] (movido de ayer 18/11, orig. 17/11 — en pausa hasta cerrar capacitación)*
+- [ ] 🔬 Prototipo X — decidir sensor HC-SR04 vs LD2410 + lista compra *(desarrollo pausado hasta cerrar RMA/fierros)* [>] (movido de ayer 18/11, orig. 17/11)
 
 ---
 
-## 📅 MAÑANA — Jueves 19/11
+## 📅 MAÑANA — Viernes 20/11
 
-> 🎯 Malla: Jue 19 descanso — bloque completo disponible. Prioridad: lo que arrastre del Mié 18.
+> 🎯 Malla: Vie 20 descanso — bloque completo disponible. Prioridad: lo que arrastre del Jue 19 + reactivación Meta Ads.
 
 - [ ] 📚 Lectura diaria
-- [ ] 🔧 DC — Fierros 20% *(si no cierra Mié 18)*
-- [ ] 📋 Revisión semanal semana 3 *(si no cierra Mié 18)*
-- [ ] 📱 Limpiar teléfono *(si no cierra Mié 18)*
+- [ ] 🔧 DC — Fierros 20% *(si no cierra Jue 19)*
+- [ ] 📋 Revisión semanal semana 3 *(si no cierra Jue 19)*
+- [ ] 📱 Limpiar teléfono *(si no cierra Jue 19)*
 - [ ] 📢 Meta Ads — definir nicho (1 bloque, reactivación)
 
 ---
@@ -55,11 +55,11 @@ source: "Mr. Jair — iOS / Telegram"
 |---|-----------|-----|----------|--------|
 | 1 | 📦 DC — RMA + commissioning (cerrar de una vez) | Lun 16 | Datacenter | ✅ completada 16/11 (sin RMAs abiertos — plantilla + checklist) |
 | 2 | 🔌 Switches S4048/Z9664: conexión + lectura | Mar 17 AM | Datacenter | ✅ completada 17/11 (bloque AM gestión PuTTY/CLI) |
-| 3 | 📄 Enviar info EPS Sura a Francy (fecha fija) | Mar 17 | Hogar/Admin | ⚠️ vencida (no hecha 17/11, arrastra a Mié 18) |
-| 4 | 🔧 Fierros 20%: FRUs + diagnóstico (bloque) | Mié 18 (libre) | Datacenter | ⏳ |
+| 3 | 📄 Enviar info EPS Sura a Francy (fecha fija) | Mar 17 | Hogar/Admin | ⚠️ vencida (no hecha 17–18/11, intento web 18/11 fallido → vía WhatsApp, arrastra a Jue 19) |
+| 4 | 🔧 Fierros 20%: FRUs + diagnóstico (bloque) | Mié 18 (libre) | Datacenter | ⏳ pendiente (no hecha 18/11, arrastra a Jue 19) |
 | 5 | 📱 Limpiar teléfono (rápida ≤30 min) | Jue 19 | Hábitos | ⏳ |
 | 6 | 📢 Meta Ads — definir nicho (1 bloque, reactivación) | Vie 20 | Meta Ads | ⏳ |
-| 7 | 📚 Lectura diaria ×5 + racha semanal | Lun–Vie | Hábitos | ⏳ |
+| 7 | 📚 Lectura diaria ×5 + racha semanal | Lun–Vie | Hábitos | ✅ 18/11 hecha (racha: retoma tras 13/11) |
 
 > 💰 Ingresos: distribuir $1.050.000 → **Jue 25/11** (programada). 💊 Creatina ⏸️ hasta 25/11. Prototipo X: base ESP32-ETH lista 17/11, desarrollo pausado hasta cerrar RMA/fierros.
 
@@ -121,7 +121,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 | Hábito | Frecuencia | Último registro |
 |--------|------------|-----------------|
-| 📚 Lectura diaria | Diario | 13/11 ✅✅ *(doble: constructor + cómo/despertar)* |
+| 📚 Lectura diaria | Diario | 18/11 ✅ *(racha retoma tras 13/11)* |
 | 💊 Creatina 3-5g | Diario (noche) | ⏸️ pausada 8–25/11 *(se acabó, retoma con compra 25/11)* |
 | 🏋️ Gym | ⏸️ pausado | Pausado desde Sep — reevaluación **pendiente desde 1/11** |
 | 🔬 Prototipo X | ⏸️ pausado | Pausado — prioridad DC |
