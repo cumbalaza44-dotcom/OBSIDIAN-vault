@@ -14,6 +14,7 @@ tags: [crecimiento, bloques-25, estructura]
 ## 🧱 Los 8 pilares
 
 ### 1. 🧠 Mentalidad
+> Firmware vigente: [[Patron del Ser - Base]] §11 (fusiones 19/11: nombrar-al-detectar + GESTO ÚNICO, ciclo UMBRAL → GESTO ÚNICO → INTEGRAR). Esta sección no duplica: referencia.
 - Comprensión **(pensar) en acción** — pensar mientras se hace, no antes ni después
 - Objetivo primordial: **aumentar capacidad cognitiva**
 - Evaluación de chipset — auditar y actualizar el "sistema operativo" propio
