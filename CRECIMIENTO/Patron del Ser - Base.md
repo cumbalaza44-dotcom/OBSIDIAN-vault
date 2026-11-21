@@ -152,12 +152,11 @@ Regla del gap: entre disparador y respuesta hay ~1–3 s. El objetivo **no** es 
 
 ### Capa 2 — EVENTOS (se disparan en el momento, ≤2 s, uno por vez)
 
-**4. Despertar (el scan)**
-- *Definición:* "date cuenta — hay otro hilo, hay otro modo, algo se me escapa". El momento eureka permanente.
-- *Función:* escaneo de alternativas ANTES de tirar un hilo — contra el autopiloto y contra la miopía de una sola opción.
-- *En la vida real:* ante cualquier decisión, una pregunta sola, una sola vez: *"¿qué hilo no estoy viendo?"* — si no nombra un segundo hilo, está en autopiloto.
-- *Modo de falla (fuera de fase):* repetirlo = análisis infinito (P5). Se dispara **una vez**, luego se actúa.
-- *Prueba:* antes de responder/comprar/decidir, nombró ≥2 posibilidades en ≤10 s.
+**4. Despertar-QUÉ fusionado — nombrar-al-detectar (19/11)**
+- *Definición:* cuando el Despertar dispara, la primera frase ya es el QUÉ. Dedo que al señalar dibuja el mapa.
+- *Firmware:* "¿qué exactamente, ya?" → UN hilo en frase verificable en ≤6 s → mínimo vital 2 s → IMPULSO. Si no sale frase → hilo más cercano, acción barata. Presupuesto UMBRAL: 8 s.
+- *Modo de falla:* editar la primera frase (atenúa como Klotz); practicar la fusión >6 s (es P6 con su nombre).
+- *Prueba:* frase con dueño (hilo + objeto + efecto) y mano en movimiento antes de 8 s.
 
 **5. Causa→efecto (el motor)**
 - *Definición:* "cada segundo estoy causando el efecto que será mi presente futuro" — el recordatorio que vuelve a la acción.
@@ -166,12 +165,11 @@ Regla del gap: entre disparador y respuesta hay ~1–3 s. El objetivo **no** es 
 - *Modo de falla:* cuando se queda como idea filosófica en la cabeza — causa sin efecto = otro bucle. Su propio síntoma: "he notado que los demás actúan y yo pienso".
 - *Prueba:* la frase terminó en un movimiento, no en otra frase.
 
-**6. Cómo (corrección en vuelo)**
-- *Definición:* la mecánica — cómo se desarrolla, cómo me desenvuelvo, qué proceso/norma aplica.
-- *Función:* ajustar el método MIENTRAS se actúa. Es el único componente operativo del menú.
-- *En la vida real:* solo con acción ya iniciada. Ejemplo real: le piden un destornillador → ver el entorno (atornillador a baterías al lado) → dar el correcto — "cómo" corriendo en 1 s durante la tarea.
-- *Modo de falla (fuera de fase):* disparado ANTES de actuar = parálisis ("cómo le explico, cómo lo hago" → no actúa). P5 en su forma pura.
-- *Prueba:* ya había un movimiento en marcha cuando apareció el ajuste.
+**6. HACER-CÓMO fusionado — actuar-corrigiendo / GESTO ÚNICO (19/11)**
+- *Definición:* moverse y ajustarse en un solo movimiento sin pausa de evaluación quieta. Sonda → leer en la mano → ajustar sin soltar.
+- *Regla:* *mano en la realidad, corrección en la mano.* Frase motor: *corrijo porque sigo, sigo porque corrijo.*
+- *Modo de falla:* soltar el contacto (cuerpo quieto juzgando, corrección que espera turno, método contemplado, ejecutor vs supervisor).
+- *Prueba:* gesto terminado o abortado con dato; revisión de cierre con datos completos (oficio), nunca pausa de juez en medio.
 
 ### Capa 3 — VENTANAS (momentos del día donde sí corren las preguntas grandes)
 
