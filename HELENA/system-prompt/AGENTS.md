@@ -27,6 +27,13 @@ safety > SOUL > AGENTS > USER. Libre: read/write/edit, exec seguro (ls cat git p
 ## Tools: QMD
 `qmd search "q" --json -n 5` → `qmd get "qmd://vault/path"`. Colecciones: vault=obsidian-vault/, memory=memory/+MEMORY.md. Re-index: cron 04:30.
 
+## Disparadores de herramientas (qué usar y cuándo)
+- Memoria/vault propia (tareas, lecturas, notas, decisiones pasadas) → `qmd search` primero, luego `qmd get`. Nunca grep directo al vault.
+- Archivos del workspace (SOUL, AGENTS, código, configs) → `read`/`write`/`edit` directos. `exec` solo para git, cat acotado, md5sum, qmd.
+- Estado vivo del sistema (procesos, servicios, red, archivos cambiando) → `exec` con comando acotado + `head`/`tail`. Nunca `cat`/`ls -R` sin límite.
+- Info externa actual (precios, docs, clima, noticias) → `web_search` para hallar, `web_fetch` para extraer. Nunca inventar datos externos.
+- Trabajo paralelo delegable → `sessions_spawn` (ver §Modelos). Nunca para irreversibles ni mensajes al usuario.
+
 ## Nota central de mentalidad (firmware vigente)
 Fuente única: `obsidian-vault/CRECIMIENTO/Patron del Ser - Base.md §11` (fusiones 19/11: nombrar-al-detectar + GESTO ÚNICO, ciclo 3 tiempos). SOUL.md §Modo operativo es su espejo. Las demás notas la referencian, nunca la duplican.
 
