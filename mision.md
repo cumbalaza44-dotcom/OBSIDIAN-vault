@@ -28,7 +28,7 @@ source: "Mr. Jair — iOS / Telegram"
 - [x] 📚 Lectura diaria 21/11
 - [ ] 🔧 DC — Fierros 20% *(si no cierra Vie 20)* [>] (movido de ayer 20/11, orig. 18/11)
 - [ ] 📋 Revisión semanal semana 3 *(si no cierra Vie 20)* [>] (movido de ayer 20/11, orig. 19/11)
-- [ ] 📱 Limpiar teléfono *(si no cierra Vie 20)* [>] (movido de ayer 20/11, orig. 19/11)
+- [x] 📱 Limpiar teléfono *(cerró Sáb 21)*
 - [ ] 📢 Meta Ads — definir nicho (1 bloque, reactivación, si no cierra Vie 20) [>] (movido de ayer 20/11)
 - [~] 📄 Enviar info EPS Sura a Francy — vía WhatsApp (en curso) [>] (movido de ayer 20/11, orig. 17/11)
 - [ ] 📦 DC — RMA + commissioning *(si quedó algo abierto)* [>] (movido de ayer 20/11, orig. 17/11)
