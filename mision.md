@@ -25,7 +25,7 @@ source: "Mr. Jair — iOS / Telegram"
 > 🔄 Rollo 21/11 — MAÑANA del 20/11 promovida. Completado 20/11: nada verificado (todo sin marcar). Arrastra 20/11: EPS Sura (vía WhatsApp, en curso), RMA, Prototipo X, Meta Ads nicho.
 > 📌 Ingresos — distribuir $1.050.000 → **programada Jue 25/11**.
 
-- [ ] 📚 Lectura diaria 21/11
+- [x] 📚 Lectura diaria 21/11
 - [ ] 🔧 DC — Fierros 20% *(si no cierra Vie 20)* [>] (movido de ayer 20/11, orig. 18/11)
 - [ ] 📋 Revisión semanal semana 3 *(si no cierra Vie 20)* [>] (movido de ayer 20/11, orig. 19/11)
 - [ ] 📱 Limpiar teléfono *(si no cierra Vie 20)* [>] (movido de ayer 20/11, orig. 19/11)
