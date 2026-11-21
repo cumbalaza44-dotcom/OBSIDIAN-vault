@@ -1,6 +1,6 @@
 # Patrón del Ser — Base
 
-> Evolución: antes "Patrones Mentales" — renombrado 8/11 porque lo mental se observa, lo del ser se habita. El Ciclo Vivo no es algo que piensas, es algo que eres cuando actúas.
+> Evolución: antes "Patrones Mentales" — renombrado 8/11 porque lo mental se observa, lo del ser se habita. Fusiones 19/11: Despertar+QUÉ = nombrar-al-detectar; HACER+CÓMO = actuar-corrigiendo (GESTO ÚNICO). Ciclo Vivo pasa a 3 tiempos: UMBRAL → GESTO ÚNICO → INTEGRAR. Detalle completo en §11.
 
 > Principio rector: *Apuntar a la perfección en acción — un 10 apuntado, un 8 logrado.*
 > Actitud base: **Propiedad** — *esto es mío: lo que causo, lo respondo. Sin delegar, sin excusa, sin limbo.* (fijado 8/11)
