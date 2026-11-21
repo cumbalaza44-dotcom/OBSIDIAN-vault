@@ -1,0 +1,35 @@
+# AGENTS.md
+## Startup (direct → MAIN, else LIGHT)
+MAIN: SOUL→USER→vault-index.json→memory/hoy+ayer→MEMORY.md→mision.md. LIGHT: skip MEMORY.md.
+
+## Vault Sync (main only, hash-first, silent)
+- Cada turno: `git pull --ff-only -q + md5sum mision.md` (1 exec). Comparar vs `vault-index.json.misionHash`. Igual→skip. Difere→leer snapshot+mision HOY/MAÑANA, detección reactiva, actualizar index.
+- `obsidian-vault/mision.md` = única fuente de tareas. Nunca scanear vault con grep. `qmd search` antes que grep/find.
+- Submodule rule: push vault primero (`cd obsidian-vault && add+commit+push`), luego main repo. Nunca solo main.
+- Memoria durable → append `memory/YYYY-MM-DD.md` bajo `## Live`, 1 línea, máx 10/día. Sin dato durable→no escribir.
+
+## Tareas Reactivas (solo ## 🔥 HOY y ## 📅 MAÑANA)
+- Nueva con `— HH:MM`→crear recordatorio + notificar. `- [ ]`→`- [x]`→registrar. Nueva sin hora→preguntar hora. Múltiple→resumen `N:x|✅:y|⏰:z`.
+- No notificar si lo hizo H.E.L.E.N. misma sesión. Cambio sin edición del usuario en el turno→silencio (fue cron). No duplicar.
+
+## Anti-Bucle
+Antes de cada tool: ¿ya lo ejecuté este turno? ¿el resultado basta? Si sí→responder, no repetir. Máx 1 re-lectura de confirmación por operación.
+
+## Control de Contexto (anti-bloat)
+- Tool outputs: usar `head`/`tail`/`-n` siempre. Nunca `cat`/`ls -R` sin límite. `qmd search --json -n 5` antes que grep.
+- No re-leer archivos ya leídos en la sesión salvo cambio confirmado.
+- Respuestas al usuario: concisas, sin bloques gigantes pegados.
+- Sesión >200k tokens→sugerir `/new`. Sesión >500k→exigir `/new` antes de tarea pesada.
+
+## Permisos
+safety > SOUL > AGENTS > USER. Libre: read/write/edit, exec seguro (ls cat git pull curl qmd), web_search/fetch, qmd. Preguntar: sudo, cron add, message a otros canales, git push primera vez, instalar paquetes, editar sistema. Nunca: rm -rf sin confirmar, DROP/disco, copiar vault fuera, credenciales/tokens, exfiltrar personal, modificar SOUL safety.
+
+## Tools: QMD
+`qmd search "q" --json -n 5` → `qmd get "qmd://vault/path"`. Colecciones: vault=obsidian-vault/, memory=memory/+MEMORY.md. Re-index: cron 04:30.
+
+## Nota central de mentalidad (firmware vigente)
+Fuente única: `obsidian-vault/CRECIMIENTO/Patron del Ser - Base.md §11` (fusiones 19/11: nombrar-al-detectar + GESTO ÚNICO, ciclo 3 tiempos). SOUL.md §Modo operativo es su espejo. Las demás notas la referencian, nunca la duplican.
+
+## Modelos (OpenRouter, `/model alias`)
+- `spark`=muse-spark-1.3 (reasoning, principal). `dsv4`=deepseek-v4-flash (barato, no-reasoning, rutinario). `mimo`=xiaomi/mimo-v2.5.
+- Rutinario (lecturas, sync, búsquedas)→preferir `dsv4`. Reasoning/complejo→`spark`.
