@@ -55,17 +55,22 @@ Señales de que un patrón está corriendo:
 
 Regla del gap: entre disparador y respuesta hay ~1–3 s. El objetivo **no** es pensar más rápido — es llegar con la respuesta nueva ya ensayada a ese gap.
 
-## 5. Reemplazo — protocolo R3 (Reconocer → Reemplazar → Repetir)
+## 5. Reemplazo — protocolo R3 (Reconocer → Reemplazar → Repetir) · firmware 19/11
 
-1. **Nombrar:** *"ese es P1"* — ponerle el ID corta el piloto automático (el observador no es el involucrado).
+1. **Nombrar:** *"ese es P1"* — ponerle el ID corta el piloto automático. Primer auxilio (19/11): ante bucle en plena acción pregúntate primero "¿solté el contacto?" — si sí, vuelve al contacto (mueve algo, toca, escribe) antes del ID. Contacto primero, etiqueta después.
 2. **Aplicar el if-then pre-ensayado:**
 
 | Patrón | Si (disparador) | Entonces (respuesta nueva) |
 |--------|-----------------|---------------------------|
-| P1 | abruma → no sé por dónde empezar | ≤3 pasos escritos en <2 min |
-| P2 | voy a decidir/tirar un hilo | escaneo 10 s: ¿≥2 hilos? (una sola vez) |
-| P3 | una rutina lleva >1 semana caída | reevaluación formal: reparar / agendar / retirar — nada en limbo |
-| P4 | me atrapa repitiendo la pregunta | frase ancla: *"decidido → actúo; reviso esta noche"* |
+| * | ante cualquier micro-decisión sin objeto | gesto fusionado primero: "¿qué exactamente, ya?" → frase verificable en 6 s → mínimo vital 2 s → GESTO ÚNICO |
+| * | en plena acción noto que solté (cuerpo quieto, juez sin datos) | vuelvo al contacto ya: muevo/toco/escribo la siguiente línea. *Corrijo porque sigo* |
+| P1 | abruma → no sé por dónde empezar | ≤3 pasos escritos en <2 min, cada paso con su QUÉ; ejecuto el primero en gesto único |
+| P2 | voy a decidir/tirar un hilo | nombrar-al-detectar cubre el scan; si un solo hilo, lo nombro y me muevo — sonda barata, corrección en vuelo |
+| P3 | una rutina lleva >1 semana caída | reevaluación formal: reparar / agendar / retirar — la reparación se nombra en concreto ("entrenar 40 min mañana 6am") y se ejecuta en gesto único |
+| P4 | me atrapa repitiendo la pregunta | frase ancla: *"decidido → actúo; reviso esta noche"* + verificación: ¿salió frase verificable? Si no, gesto de 6 s primero |
+| P5 | menú completo antes de actuar en interacción | corte directo al gesto: objeto en 6 s, mensaje/movimiento en 2 min — sonda, lectura, ajuste sin soltar |
+| P6 | sistema pesado, demasiadas piezas | archivo, no cargo: ¿qué corre fuera de fase? + anti-deriva: ¿"practicando la fusión" >6 s? → es deriva con su nombre: nombra 1 frase, muévete |
+| P7 | acción como residuo de procesar | invierto: objeto nombrado primero, gesto único después, proceso solo con datos del gesto |
 
 3. **Registrar 1 línea** en la revisión nocturna (`mision.md`): ¿patrón nombrado hoy? ¿cuál?
 4. **Repetir** — la vía nueva gana por uso. Mínimo 14 días → reevaluación 16-nov.
