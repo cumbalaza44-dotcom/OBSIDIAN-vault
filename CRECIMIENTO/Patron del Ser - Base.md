@@ -228,14 +228,15 @@ El patrón viejo pone a comprender ANTES de hacer y le da 80% del presupuesto �
 2. **Motor:** frase de causa antes de moverse — *"si no lo hago ahora, el efecto es otro"* → cuerpo en movimiento.
 3. **Densidad, no cantidad:** "última gota" ≠ ocupar todo el día — es que cada día produzca **≥1 efecto tangible** (algo existió mañana que no existía hoy: un mensaje enviado, una decisión tomada, una nota, un arreglo).
 
-### El ciclo (4 tiempos, se repite en cada micro-decisión)
+### El ciclo (3 tiempos, firmware 19/11 — se repite en cada micro-decisión)
 
-**UMBRAL → IMPULSO → CORRECCIÓN → INTEGRAR**
+**UMBRAL → GESTO ÚNICO → INTEGRAR**
 
-1. **UMBRAL** (comprender mínimo + propiedad): scan de Despertar (¿qué hilo no veo?) + umbral: ¿puedo nombrar el siguiente paso? ≤2 s total. *Propiedad aquí: elijo MI causa — no espero que me la asignen.*
-2. **IMPULSO** (hacer + propiedad): frase motor → movimiento. Si hay duda → acción barata. *Propiedad aquí: pongo MI mano — no delego el gesto.*
-3. **CORRECCIÓN** (comprender en vuelo + propiedad): "cómo" ajusta mientras actúa. Si no hay acción, no hay "cómo" que correr. *Propiedad aquí: sostengo MI ajuste — no abandono cuando incomoda.*
-4. **INTEGRAR** (comprender profundo + propiedad): en la ventana de cierre — qué me devolvió la acción, qué causa puse hoy, qué ajusto mañana. *Propiedad aquí: respondo por lo causado — registro honesto, sin excusa.*
+1. **UMBRAL** (nombrar-al-detectar, 8 s): disparo Despertar-QUÉ fusionado — "¿qué exactamente, ya?" → UN hilo en frase verificable (6 s) + mínimo vital: ¿próximo paso con el cuerpo? (2 s) → IMPULSO. Si no sale frase en 6 s → hilo más cercano, acción barata, nombrado se completa en vuelo. *Propiedad aquí: elijo MI causa — no espero que me la asignen.* Fuente: [[2026-11-19-que-despertar-fusion]].
+2. **GESTO ÚNICO** (actuar-corrigiendo, dura lo que dure la acción): entrar tocando (sonda barata) → leer en la mano (sensor, no juez) → ajustar sin soltar. Regla: *mano en la realidad, corrección en la mano.* Frase motor: *corrijo porque sigo, sigo porque corrijo.* Única evaluación quieta legítima: la de cierre, con gesto terminado y datos completos. *Propiedad aquí: pongo MI mano y sostengo MI ajuste — no delego, no abandono.* Fuente: [[2026-11-19-hacer-como-fusion]].
+3. **INTEGRAR** (comprender profundo + propiedad): en la ventana de cierre — ¿nombré al detectar? ¿sonda/sensación/ajuste/resultado? ¿qué causa puse hoy? *Propiedad aquí: respondo por lo causado — registro honesto, sin excusa.* Registro crece 1 línea de telemetría: gesto ejecutado (sí/no), frase, segundos, efecto.
+
+> Nota de migración: el esquema viejo de 4 tiempos (UMBRAL → IMPULSO → CORRECCIÓN → INTEGRAR) queda archivado. IMPULSO y CORRECCIÓN no se coordinan: se sustituyen por la pregunta binaria ¿solté o sigo agarrado? PARA QUÉ visita el GESTO solo como veto de aborto; POR QUÉ vive en INTEGRAR.
 
 ### Reglas del ciclo
 
