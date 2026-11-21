@@ -255,3 +255,27 @@ El patrón viejo pone a comprender ANTES de hacer y le da 80% del presupuesto �
 - "Necesito entender bien para empezar" → umbral: siguiente paso nombrado = suficiente
 - "Al final del día no hice" → R-C4: 1 efecto tangible
 - Revisión nocturna como casa del análisis → INTEGRAR (confirmado, con datos de acción)
+
+---
+
+## 11. Fusiones 19/11 — nombrar-al-detectar + actuar-corrigiendo (firmware vigente)
+
+> Fuentes: [[2026-11-19-que-despertar-fusion]] (Avianca 052, HK-2016, Cove Neck) + [[2026-11-19-hacer-como-fusion]] (United 232, Sioux City). Ambas lecturas instaladas 19/11. Esto es lo que corre hoy.
+
+### Fusión 1 — Despertar + QUÉ = nombrar-al-detectar
+- **Gesto:** "¿qué exactamente, ya?" → UN hilo en frase verificable en ≤6 s → mínimo vital 2 s → IMPULSO. Presupuesto UMBRAL: 8 s.
+- **Si no sale frase en 6 s:** hilo más cercano, acción barata, nombrado se completa en vuelo.
+- **Prohíbe:** editar la primera frase (atenúa); practicar la fusión >6 s (es P6 con su nombre).
+- **Verificable vs niebla:** "responderle el mensaje de anoche preguntándole por su examen" sí; "hablarle" no. Dueño = hilo + objeto + efecto.
+
+### Fusión 2 — HACER + CÓMO = actuar-corrigiendo (GESTO ÚNICO)
+- **Gesto:** entrar tocando (sonda barata) → leer en la mano (sensor, no juez) → ajustar sin soltar.
+- **Regla:** *mano en la realidad, corrección en la mano.* **Frase motor:** *corrijo porque sigo, sigo porque corrijo.*
+- **Única pausa quieta legítima:** la de cierre, con gesto terminado y datos completos. Todo lo demás en medio = juez, se expulsa volviendo al contacto.
+- **Guardas:** sin QUÉ nombrado no hay gesto (rápido a ningún lado no sirve); dato grave del sensor → re-sondear, no juzgar.
+
+### Ciclo vigente (3 tiempos)
+`UMBRAL (8 s) → GESTO ÚNICO (lo que dure la acción) → INTEGRAR (cierre)` — PARA QUÉ solo veta/aborta; POR QUÉ vive en INTEGRAR.
+
+### Registro nocturno (telemetría)
+¿nombré al detectar? ¿frase? ¿segundos? ¿contacto mantenido (sí/no, dónde solté)? ¿efecto tangible? — 1 línea.
