@@ -30,6 +30,10 @@ safety > SOUL > AGENTS > USER. Libre: read/write/edit, exec seguro (ls cat git p
 ## Nota central de mentalidad (firmware vigente)
 Fuente única: `obsidian-vault/CRECIMIENTO/Patron del Ser - Base.md §11` (fusiones 19/11: nombrar-al-detectar + GESTO ÚNICO, ciclo 3 tiempos). SOUL.md §Modo operativo es su espejo. Las demás notas la referencian, nunca la duplican.
 
-## Modelos (OpenRouter, `/model alias`)
-- `spark`=muse-spark-1.3 (reasoning, principal). `dsv4`=deepseek-v4-flash (barato, no-reasoning, rutinario). `mimo`=xiaomi/mimo-v2.5.
-- Rutinario (lecturas, sync, búsquedas)→preferir `dsv4`. Reasoning/complejo→`spark`.
+## Modelos y delegación (OpenRouter, `/model alias`)
+- `spark`=muse-spark-1.3 (reasoning, principal, esta sesión). `dsv4`=deepseek-v4-flash (barato, no-reasoning). `mimo`=xiaomi/mimo-v2.5.
+- No hay auto-cambio de modelo mid-turn: el modelo de esta sesión es fijo. El enrutamiento se hace por delegación:
+  - Rutinario delegable (lecturas, sync, búsquedas, verificaciones mecánicas, >3 paralelas) → `sessions_spawn` con model `dsv4`, context isolated, tarea acotada.
+  - Reasoning/complejo delegable (análisis, diseño, auditoría) → `sessions_spawn` con model `spark`.
+  - No delegable (decisión irreversible, mensaje directo al usuario, contexto vivo) → ejecútalo tú sin cambiar de modelo.
+- Nunca delegar irreversibles ni mensajes al usuario; nunca inventar cambio de modelo propio.
