@@ -9,7 +9,7 @@ servidores gpu xe 9680 dell  rack
 | equipos      | cantidad |
 | ------------ | -------- |
 | DELL XE 9680 | 4        |
-| r660         |          |
+| r660         | 4        |
 |              |          |
 | odf          |          |
 
