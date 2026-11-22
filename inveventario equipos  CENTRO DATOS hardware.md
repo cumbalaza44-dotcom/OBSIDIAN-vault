@@ -15,3 +15,4 @@ servidores gpu xe 9680 dell  rack
 
 
 
+Bitacora de trabajo 21/11/201
