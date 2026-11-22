@@ -22,3 +22,4 @@ Bitacora de trabajo 21/11/2026
  segunda hora 11-12 alimentacion, videos de camaras y motos
  tercera hora    12- 1 socializacion de anecdotas donde mueren personas
 cuarta hora      1-2  inventario equipos dc hard 
+quinta hora     2-3  reconocimiento en mantemi
