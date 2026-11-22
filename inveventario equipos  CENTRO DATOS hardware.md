@@ -6,12 +6,13 @@ objetivo reconocer hasta el ultimo tornillo equipos y como estan conectados
 equipos 
 servidores gpu xe 9680 dell  rack
 
-| equipos      | cantidad |
-| ------------ | -------- |
-| DELL XE 9680 | 4        |
-| r660         | 4        |
-|              |          |
-| odf          |          |
+| equipos          | cantidad |
+| ---------------- | -------- |
+| DELL XE 9680     | 4        |
+| r660             | 4        |
+| DELL E 3248p- ON | 2        |
+| odf              | 2        |
+| DELL             |          |
 
 
 
