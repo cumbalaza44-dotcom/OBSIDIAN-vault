@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 MISSIONS
 
-### Última actualización: `21 Nov 2026 — 01:00 (Rollo automático)`
+### Última actualización: `22 Nov 2026 — 01:00 (Rollo automático)`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -19,9 +19,9 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Sábado 21/11
+## 🔥 HOY — Domingo 22/11
 
-> 🎯 **Turno N 22:00–06:00 — 2 bloques, orden de prioridad, como resulte.**
+> 🎯 Malla: Dom 22 noche (turno N 22:00–06:00) — tarde libre disponible. Prioridad: arrastres del Sáb 21 + sostener arranque nocturno.
 > 📌 Ingresos — distribuir $1.050.000 → **programada Jue 25/11**.
 >
 > **B1 (22:00–02:00) — Disciplina operativa:**
@@ -30,28 +30,27 @@ source: "Mr. Jair — iOS / Telegram"
 > 4. CLI intermedio 5. Fierros 20% / RMA
 > **Personal por proyectos:** Meta Ads nicho · EPS Sura (WhatsApp en curso) · Prototipo X (pausado)
 
-- [x] 📚 Lectura diaria 21/11
-- [x] 📱 Limpiar teléfono *(cerró Sáb 21)*
-- [ ] 🧱 B1 — SOP/MOP (disciplina operativa)
-- [ ] 🧱 B1 — DCIM (disciplina operativa)
-- [ ] 🧱 B1 — Revisión semanal semana 3
-- [ ] 🧱 B2 — CLI intermedio (habilidad función)
-- [ ] 🧱 B2 — Fierros 20% / RMA (habilidad función)
-- [ ] 📢 Meta Ads — definir nicho (1 bloque, personal)
-- [~] 📄 EPS Sura a Francy — vía WhatsApp (en curso)
+- [ ] 📚 Lectura diaria 22/11
+- [>] 🧱 B1 — SOP/MOP (disciplina operativa) *(arrastra Sáb 21)*
+- [>] 🧱 B1 — DCIM (disciplina operativa) *(arrastra Sáb 21)*
+- [>] 🧱 B1 — Revisión semanal semana 3 *(arrastra Sáb 21)*
+- [>] 🧱 B2 — CLI intermedio (habilidad función) *(arrastra Sáb 21)*
+- [>] 🧱 B2 — Fierros 20% / RMA (habilidad función) *(arrastra Sáb 21)*
+- [>] 📢 Meta Ads — definir nicho (1 bloque, personal) *(arrastra Sáb 21)*
+- [~] 📄 EPS Sura a Francy — vía WhatsApp (en curso, arrastra Sáb 21)
 - [ ] 🔬 Prototipo X — sensor HC-SR04 vs LD2410 *(pausado hasta cerrar RMA/fierros)*
 
 ---
 
-## 📅 MAÑANA — Domingo 22/11
+## 📅 MAÑANA — Lunes 23/11
 
-> 🎯 Malla: Dom 22 noche (turno N 22:00–06:00) — tarde libre disponible. Prioridad: lo que arrastre del Sáb 21 + sostener arranque nocturno.
+> 🎯 Malla: Lun 23 noche (turno N 22:00–06:00) — tarde libre disponible. Prioridad: lo que arrastre del Dom 22 + sostener ritmo nocturno.
 
 - [ ] 📚 Lectura diaria
-- [ ] 🔧 DC — Fierros 20% *(si no cierra Sáb 21)*
-- [ ] 📋 Revisión semanal semana 3 *(si no cierra Sáb 21)*
-- [ ] 📱 Limpiar teléfono *(si no cierra Sáb 21)*
-- [ ] 📢 Meta Ads — definir nicho (1 bloque, reactivación, si no cierra Sáb 21)
+- [ ] 🧱 B1 — SOP/MOP + DCIM + Revisión semanal *(si no cierran Dom 22)*
+- [ ] 🧱 B2 — CLI intermedio + Fierros 20% / RMA *(si no cierran Dom 22)*
+- [ ] 📢 Meta Ads — definir nicho (1 bloque, si no cierra Dom 22)
+- [ ] 📄 EPS Sura a Francy — vía WhatsApp (cierre, si sigue en curso)
 
 ---
 
@@ -62,11 +61,11 @@ source: "Mr. Jair — iOS / Telegram"
 |---|-----------|-----|----------|--------|
 | 1 | 📦 DC — RMA + commissioning (cerrar de una vez) | Lun 16 | Datacenter | ✅ completada 16/11 (sin RMAs abiertos — plantilla + checklist) |
 | 2 | 🔌 Switches S4048/Z9664: conexión + lectura | Mar 17 AM | Datacenter | ✅ completada 17/11 (bloque AM gestión PuTTY/CLI) |
-| 3 | 📄 Enviar info EPS Sura a Francy (fecha fija) | Mar 17 | Hogar/Admin | ⚠️ vencida (no hecha 17–20/11, vía WhatsApp en curso, arrastra a Sáb 21) |
-| 4 | 🔧 Fierros 20%: FRUs + diagnóstico (bloque) | Mié 18 (libre) | Datacenter | ⏳ pendiente (no hecha 18–20/11, arrastra a Sáb 21) |
-| 5 | 📱 Limpiar teléfono (rápida ≤30 min) | Jue 19 | Hábitos | ⏳ pendiente (no hecha 19–20/11, arrastra a Sáb 21) |
-| 6 | 📢 Meta Ads — definir nicho (1 bloque, reactivación) | Vie 20 | Meta Ads | ⏳ pendiente (no hecha 20/11, arrastra a Sáb 21) |
-| 7 | 📚 Lectura diaria ×5 + racha semanal | Lun–Vie | Hábitos | ✅ 18/11 hecha (racha: retoma tras 13/11; 19–20/11 no verificadas) |
+| 3 | 📄 Enviar info EPS Sura a Francy (fecha fija) | Mar 17 | Hogar/Admin | ⚠️ vencida (no hecha 17–21/11, vía WhatsApp en curso, arrastra a Dom 22) |
+| 4 | 🔧 Fierros 20%: FRUs + diagnóstico (bloque) | Mié 18 (libre) | Datacenter | ⏳ pendiente (no hecha 18–21/11, arrastra a Dom 22) |
+| 5 | 📱 Limpiar teléfono (rápida ≤30 min) | Jue 19 | Hábitos | ✅ completada 21/11 |
+| 6 | 📢 Meta Ads — definir nicho (1 bloque, reactivación) | Vie 20 | Meta Ads | ⏳ pendiente (no hecha 20–21/11, arrastra a Dom 22) |
+| 7 | 📚 Lectura diaria ×5 + racha semanal | Lun–Vie | Hábitos | ✅ 18/11 + 21/11 hechas (19–20/11 no verificadas) |
 
 > 💰 Ingresos: distribuir $1.050.000 → **Jue 25/11** (programada). 💊 Creatina ⏸️ hasta 25/11. Prototipo X: base ESP32-ETH lista 17/11, desarrollo pausado hasta cerrar RMA/fierros.
 
@@ -128,7 +127,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 | Hábito | Frecuencia | Último registro |
 |--------|------------|-----------------|
-| 📚 Lectura diaria | Diario | 18/11 ✅ *(racha retoma tras 13/11; 19–20/11 no verificadas)* |
+| 📚 Lectura diaria | Diario | 21/11 ✅ *(19–20/11 no verificadas)* |
 | 💊 Creatina 3-5g | Diario (noche) | ⏸️ pausada 8–25/11 *(se acabó, retoma con compra 25/11)* |
 | 🏋️ Gym | ⏸️ pausado | Pausado desde Sep — reevaluación **pendiente desde 1/11** |
 | 🔬 Prototipo X | ⏸️ pausado | Pausado — prioridad DC |
