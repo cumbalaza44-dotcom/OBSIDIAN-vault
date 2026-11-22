@@ -21,18 +21,25 @@ source: "Mr. Jair — iOS / Telegram"
 
 ## 🔥 HOY — Sábado 21/11
 
-> 🎯 **Malla: Sáb 21 noche (inicio turno N 22:00–06:00) — tarde libre disponible.** Prioridad: lo que arrastra del Vie 20 + preparar arranque nocturno.
-> 🔄 Rollo 21/11 — MAÑANA del 20/11 promovida. Completado 20/11: nada verificado (todo sin marcar). Arrastra 20/11: EPS Sura (vía WhatsApp, en curso), RMA, Prototipo X, Meta Ads nicho.
+> 🎯 **Turno N 22:00–06:00 — 2 bloques, orden de prioridad, como resulte.**
 > 📌 Ingresos — distribuir $1.050.000 → **programada Jue 25/11**.
+>
+> **B1 (22:00–02:00) — Disciplina operativa:**
+> 1. SOP/MOP 2. DCIM 3. Revisión semanal semana 3
+> **B2 (02:00–06:00) — Habilidades función:**
+> 4. CLI intermedio 5. Fierros 20% / RMA
+> **Personal por proyectos:** Meta Ads nicho · EPS Sura (WhatsApp en curso) · Prototipo X (pausado)
 
 - [x] 📚 Lectura diaria 21/11
-- [ ] 🔧 DC — Fierros 20% *(si no cierra Vie 20)* [>] (movido de ayer 20/11, orig. 18/11)
-- [ ] 📋 Revisión semanal semana 3 *(si no cierra Vie 20)* [>] (movido de ayer 20/11, orig. 19/11)
 - [x] 📱 Limpiar teléfono *(cerró Sáb 21)*
-- [ ] 📢 Meta Ads — definir nicho (1 bloque, reactivación, si no cierra Vie 20) [>] (movido de ayer 20/11)
-- [~] 📄 Enviar info EPS Sura a Francy — vía WhatsApp (en curso) [>] (movido de ayer 20/11, orig. 17/11)
-- [ ] 📦 DC — RMA + commissioning *(si quedó algo abierto)* [>] (movido de ayer 20/11, orig. 17/11)
-- [ ] 🔬 Prototipo X — decidir sensor HC-SR04 vs LD2410 + lista compra *(pausado hasta cerrar RMA/fierros)* [>] (movido de ayer 20/11, orig. 17/11)
+- [ ] 🧱 B1 — SOP/MOP (disciplina operativa)
+- [ ] 🧱 B1 — DCIM (disciplina operativa)
+- [ ] 🧱 B1 — Revisión semanal semana 3
+- [ ] 🧱 B2 — CLI intermedio (habilidad función)
+- [ ] 🧱 B2 — Fierros 20% / RMA (habilidad función)
+- [ ] 📢 Meta Ads — definir nicho (1 bloque, personal)
+- [~] 📄 EPS Sura a Francy — vía WhatsApp (en curso)
+- [ ] 🔬 Prototipo X — sensor HC-SR04 vs LD2410 *(pausado hasta cerrar RMA/fierros)*
 
 ---
 
