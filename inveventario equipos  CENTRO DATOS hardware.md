@@ -12,8 +12,8 @@ servidores gpu xe 9680 dell  rack
 | r660             | 4              | 2      | 2      |
 | DELL E 3248p- ON | 2              | 1      | 1      |
 | odf              | 2              | 1      | 1      |
-| DELL  9664F- ON  |                |        |        |
-| DELL 5232F- ON   | 1              |        | 1      |
+| DELL  9664F- ON  | 2              | 1      | 1      |
+| DELL 5232F- ON   | 2              | 1      | 1      |
 
 
 
