@@ -72,6 +72,26 @@ Ningún benchmark público reporta calidad de español para estos 3 modelos flas
 - **InclusionAI Ling 3.2 Flash `:free` → rutinario/delegable (costo cero).** Primera opción de delegación (rol actual de dsv4): lecturas, sync, búsquedas. Thinking conmutable lo hace dual rápido/análisis. Riesgo: rate limits; siempre con fallback a Hy4.
 - **Z.ai GLM 5.3 Flash → reasoning/complejo (estándar) + batch/no-urgente (`:batch`).** El único apto para delegación compleja: agentic, coding, reasoning graduado, mejor español. Variante `:batch` solo para evaluaciones masivas/reindexado, jamás interactivo.
 
+## Spark 1.3 Contributor vs GLM 5.3 Flash (estándar)
+
+| | `meta/muse-spark-1.3-contributor` | `z-ai/glm-5.3-flash` (estándar) |
+|---|---|---|
+| Precio in / out (×1M) | $0.10 / $0.20 (Meta directo, sin markup) | $0.15 / $0.50 oficial Z.ai; desde $0.0475 / $0.0729 (Relace) |
+| Tipo | Frontera, reasoning nativo | Flash eficiente, reasoning con `reasoning_effort` |
+| Tools | ✅ `tools` + `tool_choice` | ✅ `tools` + `tool_choice` + paralelas agentic |
+| Multimodal | Texto (foco reasoning/agentic) | Texto+imagen+video in |
+| Español | ✅ bueno (familia Meta, mejor probado) | ✅ apuesta segura (mejor multilingüe de los flash) |
+| Rol H.E.L.E.N. | Principal: sesión viva, tool calling intensivo, Telegram rápido, reasoning DC | Mejor fallback complejo: delegación con análisis, coding, agentic |
+| Veredicto | Spark sigue siendo el cerebro: reasoning + tools + español en una sola sesión. GLM estándar es su relevo natural cuando spark falla o para delegar análisis pesado (~mitad de precio en providers baratos). |
+
+## ¿Qué es "contributor"? ¿Hay equivalente en otros fabricantes?
+
+- **Contributor = tier de oferta del fabricante (Meta).** No es regla de OpenRouter (ellos pasan precio sin markup). Meta lo describe como "cost-efficient contributor tier" para experimentación, aprendizaje y workflows agenticos tempranos. En números: $0.10/$0.20 vs el Spark estándar que cuesta varias veces más.
+- **¿Otros fabricantes tienen lo mismo?** No con ese nombre. Cada uno usa su propio mecanismo de descuento:
+  - Z.ai / otros: variante `:batch` (~50% off, alta latencia), variante `:free` ($0 con rate limits), providers terceros baratos (Relace, Novita, etc.).
+  - Meta es el único con la etiqueta "contributor" como tier oficial de oferta.
+- **Referencia práctica:** contributor ≈ precio flash ($0.10/$0.20) pero con calidad de frontera. Por eso spark-contributor es tan difícil de reemplazar: cobra como flash y rinde como grande. Los flash (Hy4, Ling, GLM) compiten en precio, no en razonamiento sostenido.
+
 ## Orden fallback recomendado
 
 1. **spark** (principal, reasoning, esta sesión)
