@@ -39,6 +39,7 @@ source: "Mr. Jair — iOS / Telegram"
 - [ ] 📢 Meta Ads — definir nicho (1 bloque, cierre)
 - [ ] 🧱 Repaso B1/B2 pendiente (si algo arrastra del Lun 23)
 - [ ] 🔬 Prototipo X — decidir sensor HC-SR04 vs LD2410 (adelanto si hay energía, si no → Mié 25)
+- [ ] 📕 Playbooks DC hard con manuales de equipos — 22:00
 
 ---
 
