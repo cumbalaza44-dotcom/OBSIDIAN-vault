@@ -1,7 +1,7 @@
 ---
 created: 2026-11-16
 updated: 2026-11-23
-version: v2.0
+version: v2.1
 estado: plantilla viva — mejorar con cada turno
 tags: [datacenter, operatividad, RMA, commissioning, disciplina]
 ---
@@ -14,21 +14,63 @@ tags: [datacenter, operatividad, RMA, commissioning, disciplina]
 
 ## 0. Disciplina operativa — toda maniobra
 
-### 7 pasos obligatorios
-1. Autorización — ticket / quién autoriza / ventana hora inicio-fin
-2. Impacto — qué se afecta si sale mal, quién debe saber (NetOps, cómputo)
-3. Pre-check — LEDs, link, errores, foto + captura monitoreo real
-4. Maniobra — solo lo autorizado, un cambio a la vez, paso a paso escrito
-5. Verificación — link UP, velocidad, CRC/flaps 5 min, lado remoto confirma + monitoreo valida dato real
-6. Registro — ticket, DCIM, fotos antes/después, seriales/PNs, repuestos a bodega con acta
-7. Lección — qué falló en el orden, no solo en el fierro
+> Caso base: MPO NIC → leaf 15/11 + hallazgo 17/11. La falla técnica se resolvió bien (peinado MPO, fracturas fuera, radios corregidos). Lo que falló fue el orden. Esta sección existe para que el orden nunca falle.
 
-### 5 prohibidos
-1. Apagar desde PDU sin shutdown controlado confirmado
-2. Mezclar UTP en organizadores de potencia
-3. Dejar repuestos tirados
-4. Basura/comida en rack
-5. Cerrar turno sin entrega escrita
+### 7 pasos obligatorios — desglose operativo
+
+**1. Autorización — nadie toca sin papel**
+- Qué pedir: # ticket, quién autoriza (nombre + rol), ventana con hora inicio-fin exacta.
+- Verbal no vale. Si el líder dice "hágale" de palabra → pedir que lo escriba en el ticket o chat del turno.
+- Sin ventana fija no hay maniobra. "Cuando se pueda" no es ventana.
+- Caso real: 15/11 se operó con autorización verbal → apagado desde PDU sin shutdown confirmado, encendido desde PDU. Eso no vuelve a pasar.
+
+**2. Impacto — pensar antes de tocar**
+- Preguntas obligatorias: ¿qué servicio cuelga de este fierro? ¿qué pasa si lo tumbo 5 min? ¿a quién le duele?
+- Avisar a: NetOps (dueños del enlace), cómputo (si hay GPUs/entrenamiento), DC Ops (dueños de ventana).
+- Si el impacto toca entrenamiento distribuido (NICs XE2 o similar) → prioridad alta, MOP formal obligatorio.
+- Regla INC-002: 4 cables en riesgo = mazo completo. El impacto no es 1 cable, es todo lo que pasa por ese punto físico.
+
+**3. Pre-check — foto del antes**
+- LEDs del puerto/equipo (color + estado) + foto.
+- Link: `show interfaces status` en switch / `ethtool <iface>` en servidor → captura.
+- Errores base: `show interfaces counters errors` / `ethtool -S <iface> | grep -i "err\|crc\|drop"` → anotar valores. Sin baseline no hay forma de probar que la maniobra no empeoró nada.
+- Monitoreo: captura Zabbix del puerto/equipo (valor + timestamp). Si Zabbix dice algo distinto al CLI → desconfiar de Zabbix (lección 15/11: Zabbix ciego).
+- Etiquetas: leer ambos extremos del cable. Si no hay etiqueta → anotarlo como hallazgo, no improvisar.
+
+**4. Maniobra — un cambio a la vez**
+- Solo lo autorizado. Si en campo ves algo más roto → lo anotas, no lo tocas. Otro ticket, otra ventana.
+- Un cambio a la vez: si reemplazas 4 cables (caso INC-002), es uno por uno con validación entre cada uno. Nunca los 4 a la vez.
+- Paso a paso escrito ANTES de empezar, no durante. Si no lo escribiste, no lo tienes claro.
+- Fibra: no halar del cable, usar seguro del conector. Respetar radio curvatura (OM3/OM4 ≈ 3 cm mínimo). Velcro, no bridas plásticas apretadas.
+- Energía: shutdown controlado confirmado ANTES de tocar PDU. Encendido desde botón/interruptor del equipo, no desde PDU.
+
+**5. Verificación — probar que quedó bien**
+- Link UP + velocidad negociada correcta (comparar con pre-check).
+- CRC/flaps en 0 o no creciendo durante 5 min mínimo.
+- Lado remoto confirma: el vecino (servidor/switch) ve el link UP también. Un solo lado no es verificación.
+- Monitoreo valida dato real: Zabbix/DCIM muestra el estado correcto DESPUÉS de la maniobra. Si sigue mostrando lo viejo → actualizar, no ignorar.
+- Regla de oro: todo cambio físico de puerto exige validación lógica + monitoreo/DCIM el mismo día. Sin excepción.
+
+**6. Registro — si no está escrito, no pasó**
+- Ticket: qué se hizo, serial/PN viejo + nuevo, hora inicio-fin real, responsable.
+- DCIM: ubicación, estado, serial actualizados el mismo día.
+- Fotos antes/después cargadas (no en el celular, en el ticket o repo).
+- Repuestos retirados → a bodega con acta, no al piso ni encima del rack. Cable dañado de evidencia → embolsado y etiquetado, no a la basura hasta cierre del caso.
+- Etiquetado TIA-606 en ambos extremos del cable nuevo: `ORIGEN-RACK/U/PTO → DESTINO-RACK/U/PTO + fecha`.
+
+**7. Lección — qué falló en el orden**
+- Pregunta obligatoria al cerrar: ¿qué parte de los pasos 1-6 se saltó o se hizo a medias?
+- No es "el cable estaba malo". Es "no validamos Zabbix antes" o "no pedimos ventana escrita".
+- Cada lección alimenta este estándar (sección Mejoras pendientes) o un SOP específico.
+- Métrica personal: si repites la misma lección 2 veces → el paso correspondiente necesita checklist propio.
+
+### 5 prohibidos — por qué existen
+
+1. **Apagar desde PDU sin shutdown controlado confirmado** — *Por qué:* corrompe filesystem, mata RAID en escritura, deja GPUs en estado inconsistente. *Caso:* 15/11 apagado total desde PDU. *Correcto:* shutdown por OS/iDRAC → confirmar apagado → recién ahí tocar PDU si es necesario.
+2. **Mezclar UTP en organizadores de potencia** — *Por qué:* inducción electromagnética degrada señal, riesgo de calentamiento, imposible hacer tracing limpio. *Caso:* 15/11 UTP en potencia. *Correcto:* potencia por un lado, datos por otro. Siempre.
+3. **Dejar repuestos tirados** — *Por qué:* se pierden seriales, se dañan conectores, nadie sabe si sirve o es basura. *Caso:* 15/11 repuestos sin gestión. *Correcto:* a bodega con acta el mismo turno, o embolsado + etiquetado como evidencia.
+4. **Basura/comida en rack** — *Por qué:* atrae plagas, obstruye flujo de aire, riesgo de corto. *Caso:* servilletas dentro del rack 15/11. *Correcto:* nada que no sea fierro/cable dentro del rack. Punto.
+5. **Cerrar turno sin entrega escrita** — *Por qué:* el siguiente turno opera a ciegas, repite diagnósticos, puede revertir tu fix. *Correcto:* hecho / pendiente / qué monitorear. Siempre, aunque "no pasó nada" (la ronda + entrega cuentan como evidencia).
 
 ### Mínimo medible por turno
 - Inicio 15 min: leer entrega anterior + tickets + ronda visual (LEDs, ruido, temp, basura, cables) — foto si hay hallazgo
