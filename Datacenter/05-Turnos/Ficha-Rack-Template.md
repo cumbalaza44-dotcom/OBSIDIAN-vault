@@ -9,11 +9,11 @@
 
 ## Equipos (de arriba hacia abajo, por U)
 
-| U | Equipo | Modelo | Serial | Estado LED | Observación |
-|---|--------|--------|--------|------------|-------------|
-| | | | | | |
-| | | | | | |
-| | | | | | |
+| U   | Equipo | Modelo | Serial | Estado LED | Observación |
+| --- | ------ | ------ | ------ | ---------- | ----------- |
+|     |        |        |        |            |             |
+|     |        |        |        |            |             |
+|     |        |        |        |            |             |
 
 ## Energía
 
