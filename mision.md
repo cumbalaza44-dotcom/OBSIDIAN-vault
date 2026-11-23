@@ -39,7 +39,7 @@ source: "Mr. Jair — iOS / Telegram"
 - [ ] 📢 Meta Ads — definir nicho (1 bloque, cierre)
 - [ ] 🧱 Repaso B1/B2 pendiente (si algo arrastra del Lun 23)
 - [ ] 🔬 Prototipo X — decidir sensor HC-SR04 vs LD2410 (adelanto si hay energía, si no → Mié 25)
-- [ ] 📕 Playbooks DC hard Fabricato (74 racks · 637 eq · 10.049 cables) — 22:00: playbook x rol con manual en mano (FRU + LED + consola + escalamiento) — orden: 1) GPU Server SYS-422GS ×144 + NVLink ×72, 2) GPU Fabric Q3400 fat-tree 16+8, 3) OOB SN2201 ×52 + SN4700 ×2 (tu red SSH/BMC), 4) Power Shelf 33kW ×64 + CDU ×8, 5) SN5610 ×12 + routers + UFM + Opengear + ODF ×84 — cada playbook: síntoma→causa→solución + vista componente + qué validar en campo vs topología
+- [ ] 📕 Playbooks FABRICATO (nuevo, 74 racks · 637 eq · 10.049 cables) — 22:00: playbook x rol con manual en mano (FRU + LED + consola + escalamiento) — orden: 1) GPU Server SYS-422GS ×144 + NVLink ×72, 2) GPU Fabric Q3400 fat-tree 16+8, 3) OOB SN2201 ×52 + SN4700 ×2, 4) Power Shelf 33kW ×64 + CDU ×8, 5) SN5610 ×12 + routers + UFM + Opengear + ODF ×84 — cada playbook: síntoma→causa→solución + checklist handover (¿qué exigir en la entrega: seriales, ubicaciones, puertos?) — HARD (actual) se opera con M1–M8, no con estos playbooks
 
 ---
 
