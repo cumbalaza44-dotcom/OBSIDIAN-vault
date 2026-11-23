@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 MISSIONS
 
-### Última actualización: `22 Nov 2026 — 01:00 (Rollo automático)`
+### Última actualización: `23 Nov 2026 — 08:00 (Planificación Semanal — Semana 5)`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -19,38 +19,43 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Domingo 22/11
+## 🔥 HOY — Lunes 23/11
 
-> 🎯 Malla: Dom 22 noche (turno N 22:00–06:00) — tarde libre disponible. Prioridad: arrastres del Sáb 21 + sostener arranque nocturno.
-> 📌 Ingresos — distribuir $1.050.000 → **programada Jue 25/11**.
->
-> **B1 (22:00–02:00) — Disciplina operativa:**
-> 1. SOP/MOP 2. DCIM 3. Revisión semanal semana 3
-> **B2 (02:00–06:00) — Habilidades función:**
-> 4. CLI intermedio 5. Fierros 20% / RMA
-> **Personal por proyectos:** Meta Ads nicho · EPS Sura (WhatsApp en curso) · Prototipo X (pausado)
+> 🎯 Malla: Lun 23 noche (turno N 22:00–06:00) — tarde libre disponible. Semana 5: cerrar arrastres + fecha fija Ingresos 25/11.
+> 📌 Ingresos — distribuir $1.050.000 → **Mié 25/11 (fecha fija)**. 💊 Creatina retoma 25/11.
 
-- [ ] 📚 Lectura diaria 22/11
-- [>] 🧱 B1 — SOP/MOP (disciplina operativa) *(arrastra Sáb 21)*
-- [>] 🧱 B1 — DCIM (disciplina operativa) *(arrastra Sáb 21)*
-- [>] 🧱 B1 — Revisión semanal semana 3 *(arrastra Sáb 21)*
-- [>] 🧱 B2 — CLI intermedio (habilidad función) *(arrastra Sáb 21)*
-- [>] 🧱 B2 — Fierros 20% / RMA (habilidad función) *(arrastra Sáb 21)*
-- [>] 📢 Meta Ads — definir nicho (1 bloque, personal) *(arrastra Sáb 21)*
-- [~] 📄 EPS Sura a Francy — vía WhatsApp (en curso, arrastra Sáb 21)
-- [ ] 🔬 Prototipo X — sensor HC-SR04 vs LD2410 *(pausado hasta cerrar RMA/fierros)*
+- [ ] 📚 Lectura diaria 23/11
+- [ ] 🧱 B1+B2 — cerrar arrastres: SOP/MOP + DCIM + CLI intermedio + Fierros 20%/RMA *(prioridad #1 semana 5)*
+- [ ] 📄 EPS Sura a Francy — vía WhatsApp (cierre definitivo, rápida)
+- [ ] 📢 Meta Ads — definir nicho (si queda bloque, si no → Mar 24)
 
 ---
 
-## 📅 MAÑANA — Lunes 23/11
+## 📅 MAÑANA — Martes 24/11
 
-> 🎯 Malla: Lun 23 noche (turno N 22:00–06:00) — tarde libre disponible. Prioridad: lo que arrastre del Dom 22 + sostener ritmo nocturno.
+> 🎯 Malla: Mar 24 noche (turno N 22:00–06:00) — tarde libre disponible.
 
 - [ ] 📚 Lectura diaria
-- [ ] 🧱 B1 — SOP/MOP + DCIM + Revisión semanal *(si no cierran Dom 22)*
-- [ ] 🧱 B2 — CLI intermedio + Fierros 20% / RMA *(si no cierran Dom 22)*
-- [ ] 📢 Meta Ads — definir nicho (1 bloque, si no cierra Dom 22)
-- [ ] 📄 EPS Sura a Francy — vía WhatsApp (cierre, si sigue en curso)
+- [ ] 📢 Meta Ads — definir nicho (1 bloque, cierre)
+- [ ] 🧱 Repaso B1/B2 pendiente (si algo arrastra del Lun 23)
+- [ ] 🔬 Prototipo X — decidir sensor HC-SR04 vs LD2410 (adelanto si hay energía, si no → Mié 25)
+
+---
+
+## 📋 PRIORIDADES SEMANA 5 (23–29 Nov) — CERRAR ARRASTRES + FECHA FIJA INGRESOS
+> Malla: Lun–Mié noches (N 22:00–06:00, tardes libres) · Jue 26 transición · Vie–Sáb por confirmar. Semana 4 cerró 3/7 (RMA ✅, switches ✅, limpieza teléfono ✅; EPS Sura ⚠️, fierros ⏳, nicho ⏳).
+
+| # | Prioridad | Día | Proyecto | Estado |
+|---|-----------|-----|----------|--------|
+| 1 | 🧱 B1+B2 — cerrar arrastres: SOP/MOP + DCIM + CLI + Fierros/RMA | Lun 23 | Datacenter | ⏳ pendiente |
+| 2 | 📄 EPS Sura a Francy — cierre definitivo (rápida ≤30 min) | Lun 23 | Hogar/Admin | ⏳ pendiente |
+| 3 | 📢 Meta Ads — definir nicho (1 bloque, cierre o se reprograma) | Mar 24 | Meta Ads | ⏳ pendiente |
+| 4 | 🔬 Prototipo X — decidir sensor HC-SR04 vs LD2410 + lista compra | Mié 25 | Prototipo X | ⏳ pendiente |
+| 5 | 💰 Ingresos — distribuir $1.050.000 **(fecha fija)** | Mié 25 | Ingresos | 📅 programada |
+| 6 | 💊 Creatina — retomar (compra + reinicio racha) | Mié 25 | Hábitos | 📅 programada |
+| 7 | 📚 Lectura diaria ×5 + revisión semanal semana 4 | Lun–Vie | Hábitos | ⏳ pendiente |
+
+> 💡 Patrón: EPS Sura y nicho arrastran 2 semanas — regla nueva: lo que arrastre 2 semanas se hace en bloque Lun o se descarta. Prototipo X se reactiva solo si fierros/RMA cierran Lun 23.
 
 ---
 
