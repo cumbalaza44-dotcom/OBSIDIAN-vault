@@ -1,15 +1,40 @@
 ---
 created: 2026-11-16
-updated: 2026-11-16
-version: v1.0
+updated: 2026-11-23
+version: v2.0
 estado: plantilla viva — mejorar con cada turno
-tags: [datacenter, operatividad, RMA, commissioning]
+tags: [datacenter, operatividad, RMA, commissioning, disciplina]
 ---
 
 # 🧩 Estándar Mínimo de Operatividad — Técnico DC
 
 > Plantilla viva. Cada turno que aprendas algo, se agrega aquí.
 > Si está aquí, está priorizado.
+> v2.0 (23/11): Disciplina Operativa integrada como sección 0.
+
+## 0. Disciplina operativa — toda maniobra
+
+### 7 pasos obligatorios
+1. Autorización — ticket / quién autoriza / ventana hora inicio-fin
+2. Impacto — qué se afecta si sale mal, quién debe saber (NetOps, cómputo)
+3. Pre-check — LEDs, link, errores, foto + captura monitoreo real
+4. Maniobra — solo lo autorizado, un cambio a la vez, paso a paso escrito
+5. Verificación — link UP, velocidad, CRC/flaps 5 min, lado remoto confirma + monitoreo valida dato real
+6. Registro — ticket, DCIM, fotos antes/después, seriales/PNs, repuestos a bodega con acta
+7. Lección — qué falló en el orden, no solo en el fierro
+
+### 5 prohibidos
+1. Apagar desde PDU sin shutdown controlado confirmado
+2. Mezclar UTP en organizadores de potencia
+3. Dejar repuestos tirados
+4. Basura/comida en rack
+5. Cerrar turno sin entrega escrita
+
+### Mínimo medible por turno
+- Inicio 15 min: leer entrega anterior + tickets + ronda visual (LEDs, ruido, temp, basura, cables) — foto si hay hallazgo
+- Durante: 7 pasos siempre. Sin autorización escrita no se toca
+- Cierre 15 min: tickets + DCIM al día, repuestos a bodega, fotos cargadas, entrega escrita (hecho / pendiente / monitorear)
+- Métrica: turno perfecto = 0 prohibidos + 100% maniobras con 7 pasos + entrega escrita
 
 ## 1. Gestión (80% del cargo)
 
@@ -89,6 +114,14 @@ Usar cada vez que un equipo vuelve de RMA o se interviene.
 - [ ] Ticket cerrado: qué se hizo, serial, hora, responsable
 - [ ] Inventario marcado como OPERATIVO
 - [ ] Evidencia guardada (fotos/logs si aplica)
+
+---
+
+## 📌 Anexo: Lección 15/11 → 17/11 (MPO leaf)
+
+Reportados puertos 5 y 7 caídos → falsos, estaban OK. Real: puertos 3-17 movidos antes sin gestión en switch → Zabbix ciego. Fierro quedó bien (peinado MPO, fracturas fuera, radios corregidos). Falló orden: PDU sin shutdown confirmado, sin ventana fija, repuestos tirados, UTP en potencia, sin paso a paso, entrega sin detalle, servilletas en rack.
+Regla: todo cambio físico de puerto exige validación lógica + monitoreo/DCIM el mismo día.
+Caso base de la disciplina operativa (origen 17/11, integrada 23/11).
 
 ---
 
