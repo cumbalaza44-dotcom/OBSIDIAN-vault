@@ -11,8 +11,37 @@ tags: [datacenter, operatividad, RMA, commissioning, disciplina]
 > Plantilla viva. Cada turno que aprendas algo, se agrega aquí.
 > Si está aquí, está priorizado.
 > v2.0 (23/11): Disciplina Operativa integrada como sección 0.
+> v2.2 (23/11): Objetivos permanentes + formato entrega general de turno.
 
-## 0. Disciplina operativa — toda maniobra
+## 0.1 Objetivos permanentes — el norte de cada turno
+
+> Estos 4 objetivos aplican SIEMPRE, incluso en el turno más tranquilo. Son lo que convierte "estar de turno" en "hacerse cargo del DC".
+
+**1. Trazabilidad — si no está escrito, no pasó**
+- Todo lo que toques, veas o decidas deja rastro: ticket, DCIM, foto, entrega.
+- Nada vive solo en tu cabeza o en tu celular. El siguiente turno debe poder reconstruir tu noche sin llamarte.
+- Regla: al cerrar, cualquiera que lea tu entrega sabe qué hiciste, qué viste, qué dejaste pendiente y qué hay que vigilar.
+
+**2. Validación cruzada — desconfía del monitor**
+- Ningún dato de Zabbix/DCIM se da por cierto hasta validarlo en campo (CLI + LED + serial físico).
+- Cada turno: al menos 1 validación. ¿Dice UP? Míralo. ¿Dice tal serial en tal U? Confírmalo.
+- Cada discrepancia encontrada = un punto ciego menos. Se registra como hallazgo, no como queja.
+- Origen: lección 15/11 (Zabbix ciego) + INC-002 (umbral 2.26 dB real vs reportado).
+
+**3. Proactividad — el turno tranquilo produce**
+- Turno sin incidentes NO es turno vacío. Es turno de levantar línea base.
+- Mínimo por noche tranquila: 1 rack documentado + 1 validación cruzada + ronda con foto.
+- En 15 turnos el DC queda mapeado. Nadie más lo está haciendo. Ese es tu diferencial.
+- Lo que hoy documentas es lo que mañana te hace rápido diagnosticando.
+
+**4. Dinamismo en equipo — resuelve el dolor ajeno**
+- Cómputo, facility y fibra son tus aliados, no tus vecinos. Pregunta qué les duele.
+- Cómputo: ¿qué racks les fallan más? ¿qué info les falta? Te vuelves su fuente.
+- Facility: energía y clima mandan. Avisar antes + registrar después = respaldo.
+- Fibra: tu aliado técnico. Lo que te enseñe se documenta y se devuelve en formato útil.
+- Regla: cada hallazgo que sirva a otro equipo se comparte en la entrega general. Así nace la autoridad: siendo útil, no pidiendo permiso.
+
+## 0.2 Disciplina operativa — toda maniobra
 
 > Caso base: MPO NIC → leaf 15/11 + hallazgo 17/11. La falla técnica se resolvió bien (peinado MPO, fracturas fuera, radios corregidos). Lo que falló fue el orden. Esta sección existe para que el orden nunca falle.
 
