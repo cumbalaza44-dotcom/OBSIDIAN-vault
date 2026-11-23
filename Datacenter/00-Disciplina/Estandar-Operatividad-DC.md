@@ -1,7 +1,7 @@
 ---
 created: 2026-11-16
 updated: 2026-11-23
-version: v2.1
+version: v2.2
 estado: plantilla viva — mejorar con cada turno
 tags: [datacenter, operatividad, RMA, commissioning, disciplina]
 ---
