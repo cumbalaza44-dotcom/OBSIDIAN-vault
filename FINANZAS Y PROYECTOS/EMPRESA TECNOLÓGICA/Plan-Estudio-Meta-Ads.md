@@ -13,13 +13,13 @@ tags: [meta-ads, plan-estudio, e-commerce, marketing]
 
 ## Semana 1 — Fundamentos (cómo funciona la máquina)
 
-| Día | Bloque (30 min) | Tema | Fuente | Práctica |
-|-----|----------------|------|--------|----------|
-| Lun | 1 | Cómo funciona la subasta de Meta (por qué un anuncio gana y otro no) | Meta Blueprint: Fundamentos | Abrir Ad Library, buscar "fitness Colombia", mirar 10 anuncios |
-| Mar | 2 | Estructura: Campaña → Conjunto → Anuncio (qué va en cada nivel) | Meta Blueprint: Estructura | Dibujar en papel tu estructura para 1 producto |
-| Mié | 3 | Segmentación: intereses, demográficos, lookalike, broad vs detallado | Meta Blueprint: Públicos | En Ad Library: ¿a quién le hablan 3 anuncios? (edad, tono, dolor) |
-| Jue | 4 | Presupuesto y puja: diario vs total, CBO vs ABO, cuánto invertir | Meta Blueprint: Presupuesto | Calcular tu presupuesto testing: $15k-30k/día × 7 días |
-| Vie | 5 | El Pixel: qué es, qué mide, por qué importa desde el día 1 | Meta Blueprint: Pixel | Instalar Meta Pixel Helper (extensión Chrome), visitar 3 tiendas y ver si tienen pixel |
+| Día | Bloque (30 min) | Tema                                                                 | Fuente                      | Práctica                                                                               |
+| --- | --------------- | -------------------------------------------------------------------- | --------------------------- | -------------------------------------------------------------------------------------- |
+| Lun | 1               | Cómo funciona la subasta de Meta (por qué un anuncio gana y otro no) | Meta Blueprint: Fundamentos | Abrir Ad Library, buscar "fitness Colombia", mirar 10 anuncios                         |
+| Mar | 2               | Estructura: Campaña → Conjunto → Anuncio (qué va en cada nivel)      | Meta Blueprint: Estructura  | Dibujar en papel tu estructura para 1 producto                                         |
+| Mié | 3               | Segmentación: intereses, demográficos, lookalike, broad vs detallado | Meta Blueprint: Públicos    | En Ad Library: ¿a quién le hablan 3 anuncios? (edad, tono, dolor)                      |
+| Jue | 4               | Presupuesto y puja: diario vs total, CBO vs ABO, cuánto invertir     | Meta Blueprint: Presupuesto | Calcular tu presupuesto testing: $15k-30k/día × 7 días                                 |
+| Vie | 5               | El Pixel: qué es, qué mide, por qué importa desde el día 1           | Meta Blueprint: Pixel       | Instalar Meta Pixel Helper (extensión Chrome), visitar 3 tiendas y ver si tienen pixel |
 
 **Entregable semana 1:** Entiendes la máquina. Sabes qué es cada pieza y por qué existe.
 
