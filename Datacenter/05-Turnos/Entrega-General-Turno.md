@@ -37,7 +37,36 @@ _Si no hubo maniobras: "Sin maniobras — turno de línea base (ver §3-4)."_
 - Validación campo (CLI/LED/serial): ___
 - ¿Coincide? Sí / No → Hallazgo: ___
 
-## 5. Hallazgos para otros equipos
+## 5. Estado de infraestructura (semáforo NOC)
+
+> Inspirado en formato oficial NOC Infraestructura Cómputo 23/11/2026.
+> Marcar estado de cada dominio. Si no es Normal → detallar en observaciones.
+
+| Dominio | Estado | Observaciones |
+|---------|--------|---------------|
+| Infraestructura general | Normal / Alerta / Crítico | ___ |
+| Servidores / cómputo | Normal / Alerta / Crítico | ___ |
+| Red / conectividad | Normal / Alerta / Crítico | ___ |
+| Almacenamiento | Normal / Alerta / Crítico | ___ |
+| Energía (PSU/PDU/UPS) | Normal / Alerta / Crítico | ___ |
+| Temperatura / ambiente | Normal / Alerta / Crítico | ___ |
+| GPU / aceleradores | Normal / Alerta / Crítico | ___ |
+| Monitoreo Zabbix | Normal / Alerta / Crítico | ___ |
+
+## 5b. Validaciones técnicas realizadas
+
+| Componente | Validación | Resultado |
+|------------|------------|----------|
+| Servidores cómputo | Estado operativo / hardware / sensores | ___ |
+| NIC / HCA | Link, errores, flaps, puertos | ___ |
+| GPU / aceleradores | Disponibilidad, temp, errores | ___ |
+| Almacenamiento | Capacidad, latencia, I/O | ___ |
+| Red | Conectividad, interfaces, pérdida | ___ |
+| Energía | PSU, PDU, UPS / alarmas | ___ |
+| Temperatura | Sensores, ambiente | ___ |
+| Zabbix | Triggers, hosts, agentes | ___ |
+
+## 5c. Hallazgos para otros equipos
 
 - Cómputo: ___
 - Facility: ___
