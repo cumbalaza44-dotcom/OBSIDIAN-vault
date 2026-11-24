@@ -25,7 +25,7 @@ source: "Mr. Jair — iOS / Telegram"
 > 📌 Ingresos — distribuir $1.050.000 → **Mié 25/11 (fecha fija)**. 💊 Creatina retoma 25/11.
 
 - [ ] 📚 Lectura diaria 24/11
-- [ ] 🧱 B1+B2 — cerrar arrastres: SOP/MOP + DCIM + CLI intermedio + Fierros 20%/RMA *(prioridad #1 semana 5 — [>] no hecha Lun 23)*
+- [ ] 🧱 B1+B2 — cerrar arrastres: SOP/MOP ✅ + DCIM ✅ + Fierros 20%/RMA ✅ + CLI intermedio ⏳ *(prioridad #1 semana 5 — 3/4 cerradas 24/11, falta solo CLI)*
 - [ ] 📄 EPS Sura a Francy — vía WhatsApp (cierre definitivo, rápida — [>] no hecha Lun 23)
 - [ ] 📢 Meta Ads — definir nicho (1 bloque, cierre — [>] no hecha Lun 23)
 - [ ] 🔬 Prototipo X — decidir sensor HC-SR04 vs LD2410 (adelanto si hay energía, si no → Mié 25)
@@ -50,7 +50,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 | # | Prioridad | Día | Proyecto | Estado |
 |---|-----------|-----|----------|--------|
-| 1 | 🧱 B1+B2 — cerrar arrastres: SOP/MOP + DCIM + CLI + Fierros/RMA | Lun 23 | Datacenter | ⏳ pendiente (no hecha 23/11, arrastra a Mar 24) |
+| 1 | 🧱 B1+B2 — cerrar arrastres: SOP/MOP ✅ + DCIM ✅ + Fierros/RMA ✅ + CLI ⏳ | Lun 23 | Datacenter | 🟡 3/4 cerradas 24/11 (falta CLI intermedio) |
 | 2 | 📄 EPS Sura a Francy — cierre definitivo (rápida ≤30 min) | Lun 23 | Hogar/Admin | ⏳ pendiente (no hecha 23/11, arrastra a Mar 24) |
 | 3 | 📢 Meta Ads — definir nicho (1 bloque, cierre o se reprograma) | Mar 24 | Meta Ads | ⏳ pendiente (no hecha 23/11, cierre Mar 24) |
 | 4 | 🔬 Prototipo X — decidir sensor HC-SR04 vs LD2410 + lista compra | Mié 25 | Prototipo X | ⏳ pendiente |
