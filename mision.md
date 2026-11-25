@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 MISSIONS
 
-### Última actualización: `24 Nov 2026 — 01:00 (Rollo automático — Semana 5)`
+### Última actualización: `25 Nov 2026 — 01:00 (Rollo automático — Semana 5)`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -19,29 +19,31 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Martes 24/11
+## 🔥 HOY — Miércoles 25/11
 
-> 🎯 Malla: Mar 24 noche (turno N 22:00–06:00) — tarde libre disponible. Semana 5: cerrar arrastres + fecha fija Ingresos 25/11.
-> 📌 Ingresos — distribuir $1.050.000 → **Mié 25/11 (fecha fija)**. 💊 Creatina retoma 25/11.
+> 🎯 Malla: Mié 25 noche (turno N 22:00–06:00) — tarde libre disponible. Fecha fija: Ingresos + Creatina.
+> 📌 Ingresos — distribuir $1.050.000 → **HOY 25/11 (fecha fija)**. 💊 Creatina retoma HOY 25/11.
 
-- [ ] 📚 Lectura diaria 24/11
-- [ ] 🧱 B1+B2 — cerrar arrastres: SOP/MOP ✅ + DCIM ✅ + Fierros 20%/RMA ✅ + CLI intermedio ⏳ *(prioridad #1 semana 5 — 3/4 cerradas 24/11, falta solo CLI)*
-- [ ] 📄 EPS Sura a Francy — vía WhatsApp (cierre definitivo, rápida — [>] no hecha Lun 23)
-- [ ] 📢 Meta Ads — definir nicho (1 bloque, cierre — [>] no hecha Lun 23)
-- [ ] 🔬 Prototipo X — decidir sensor HC-SR04 vs LD2410 (adelanto si hay energía, si no → Mié 25)
-- [ ] 📕 Playbooks FABRICATO (nuevo, 74 racks · 637 eq · 10.049 cables) — 22:00: playbook x rol con manual en mano (FRU + LED + consola + escalamiento) — orden: 1) GPU Server SYS-422GS ×144 + NVLink ×72, 2) GPU Fabric Q3400 fat-tree 16+8, 3) OOB SN2201 ×52 + SN4700 ×2, 4) Power Shelf 33kW ×64 + CDU ×8, 5) SN5610 ×12 + routers + UFM + Opengear + ODF ×84 — cada playbook: síntoma→causa→solución + checklist handover (¿qué exigir en la entrega: seriales, ubicaciones, puertos?) — HARD (actual) se opera con M1–M8, no con estos playbooks
+- [ ] 📚 Lectura diaria 25/11
+- [ ] 💰 Ingresos — distribuir $1.050.000 **(fecha fija HOY)**
+- [ ] 💊 Creatina — retomar (compra + reinicio racha)
+- [ ] 🧱 B1+B2 — CLI intermedio (arrastre — [>] no hecho Mar 24)
+- [ ] 📄 EPS Sura a Francy — vía WhatsApp (cierre definitivo — [>] no hecha Mar 24, arrastra Lun 23)
+- [ ] 📢 Meta Ads — definir nicho (1 bloque, cierre — [>] no hecha Mar 24, arrastra Lun 23)
+- [ ] 🔬 Prototipo X — decidir sensor HC-SR04 vs LD2410 + lista compra (arrastre — [>] no hecho Mar 24)
+- [ ] 📕 Playbooks FABRICATO (74 racks · 637 eq · 10.049 cables) — playbook x rol (arrastre — [>] no hecho Mar 24)
 
 ---
 
-## 📅 MAÑANA — Miércoles 25/11
+## 📅 MAÑANA — Jueves 26/11
 
-> 🎯 Malla: Mié 25 noche (turno N 22:00–06:00) — tarde libre disponible. Fecha fija: Ingresos + Creatina.
+> 🎯 Malla: Jue 26 transición — por confirmar. Cierre semana 5.
 
 - [ ] 📚 Lectura diaria
-- [ ] 💰 Ingresos — distribuir $1.050.000 **(fecha fija)**
-- [ ] 💊 Creatina — retomar (compra + reinicio racha)
-- [ ] 🧱 Repaso B1/B2 pendiente (si algo arrastra del Mar 24)
-- [ ] 🔬 Prototipo X — lista de compra sensor + prototipar (si se decidió el 24, si no → cierre)
+- [ ] 🧱 Repaso B1/B2 pendiente (si algo arrastra del Mié 25)
+- [ ] 📄 EPS Sura — cierre definitivo (si arrastra del 25)
+- [ ] 📢 Meta Ads — definir nicho o reprogramar (regla 2 semanas)
+- [ ] 🔬 Prototipo X — prototipar (si se decidió el 25)
 
 ---
 
@@ -50,10 +52,10 @@ source: "Mr. Jair — iOS / Telegram"
 
 | # | Prioridad | Día | Proyecto | Estado |
 |---|-----------|-----|----------|--------|
-| 1 | 🧱 B1+B2 — cerrar arrastres: SOP/MOP ✅ + DCIM ✅ + Fierros/RMA ✅ + CLI ⏳ | Lun 23 | Datacenter | 🟡 3/4 cerradas 24/11 (falta CLI intermedio) |
-| 2 | 📄 EPS Sura a Francy — cierre definitivo (rápida ≤30 min) | Lun 23 | Hogar/Admin | ⏳ pendiente (no hecha 23/11, arrastra a Mar 24) |
-| 3 | 📢 Meta Ads — definir nicho (1 bloque, cierre o se reprograma) | Mar 24 | Meta Ads | ⏳ pendiente (no hecha 23/11, cierre Mar 24) |
-| 4 | 🔬 Prototipo X — decidir sensor HC-SR04 vs LD2410 + lista compra | Mié 25 | Prototipo X | ⏳ pendiente |
+| 1 | 🧱 B1+B2 — cerrar arrastres: SOP/MOP ✅ + DCIM ✅ + Fierros/RMA ✅ + CLI ⏳ | Lun 23 | Datacenter | 🟡 3/4 cerradas 24/11 (falta CLI intermedio, arrastra a Mié 25) |
+| 2 | 📄 EPS Sura a Francy — cierre definitivo (rápida ≤30 min) | Lun 23 | Hogar/Admin | ⏳ pendiente (no hecha 23–24/11, arrastra a Mié 25) |
+| 3 | 📢 Meta Ads — definir nicho (1 bloque, cierre o se reprograma) | Mar 24 | Meta Ads | ⏳ pendiente (no hecha 23–24/11, cierre Mié 25) |
+| 4 | 🔬 Prototipo X — decidir sensor HC-SR04 vs LD2410 + lista compra | Mié 25 | Prototipo X | ⏳ pendiente (no decidido 24/11, cierre Mié 25) |
 | 5 | 💰 Ingresos — distribuir $1.050.000 **(fecha fija)** | Mié 25 | Ingresos | 📅 programada |
 | 6 | 💊 Creatina — retomar (compra + reinicio racha) | Mié 25 | Hábitos | 📅 programada |
 | 7 | 📚 Lectura diaria ×5 + revisión semanal semana 4 | Lun–Vie | Hábitos | ⏳ pendiente |
@@ -135,7 +137,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 | Hábito | Frecuencia | Último registro |
 |--------|------------|-----------------|
-| 📚 Lectura diaria | Diario | 21/11 ✅ *(23/11 no hecha, retoma 24/11)* |
+| 📚 Lectura diaria | Diario | 21/11 ✅ *(23–24/11 no hechas, retoma 25/11)* |
 | 💊 Creatina 3-5g | Diario (noche) | ⏸️ pausada 8–25/11 *(se acabó, retoma con compra 25/11)* |
 | 🏋️ Gym | ⏸️ pausado | Pausado desde Sep — reevaluación **pendiente desde 1/11** |
 | 🔬 Prototipo X | ⏸️ pausado | Pausado — prioridad DC |
