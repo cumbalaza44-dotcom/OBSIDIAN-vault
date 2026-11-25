@@ -31,7 +31,9 @@ source: "Mr. Jair — iOS / Telegram"
 - [ ] 📄 EPS Sura a Francy — vía WhatsApp (cierre definitivo — [>] no hecha Mar 24, arrastra Lun 23)
 - [ ] 📢 Meta Ads — definir nicho (1 bloque, cierre — [>] no hecha Mar 24, arrastra Lun 23)
 - [ ] 🔬 Prototipo X — decidir sensor HC-SR04 vs LD2410 + lista compra (arrastre — [>] no hecho Mar 24)
+- [x] 📕 Runbooks DC Hardware R660 — 9 runbooks generados (disco, PSU, fan, memoria, CPU, boot/PERC, expansión, board, POST) ✅ 25/11 madrugada
 - [ ] 📕 Playbooks FABRICATO (74 racks · 637 eq · 10.049 cables) — playbook x rol (arrastre — [>] no hecho Mar 24)
+- [ ] 📕 Runbooks otros equipos (XE9680, switches, etc.) — continuar Jue 26
 
 ---
 
