@@ -18,6 +18,7 @@ estado: activo
 - [ ] Conocer un submarino
 - [ ] Conocer el aeropuerto mejor diseñado del mundo
 - [ ] Observar pulpos 🐙
+- [ ] visitar muchos moteles de medellin 
 - [ ] 
 - [ ] 
 - [ ] 
