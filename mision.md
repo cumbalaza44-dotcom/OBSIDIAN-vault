@@ -70,15 +70,35 @@ source: "Mr. Jair — iOS / Telegram"
 ## 📋 PRIORIDADES SEMANA 5 (23–29 Nov) — CERRAR ARRASTRES + FECHA FIJA INGRESOS
 > Malla: Lun–Mié noches (N 22:00–06:00, tardes libres) · Jue 26 transición · Vie–Sáb por confirmar. Semana 4 cerró 3/7 (RMA ✅, switches ✅, limpieza teléfono ✅; EPS Sura ⚠️, fierros ⏳, nicho ⏳).
 
-| # | Prioridad | Día | Proyecto | Estado |
-|---|-----------|-----|----------|--------|
-| 1 | 🧱 B1+B2 — cerrar arrastres: SOP/MOP ✅ + DCIM ✅ + Fierros/RMA ✅ + CLI ⏳ | Lun 23 | Datacenter | 🟡 3/4 cerradas 24/11 (falta CLI intermedio, arrastra a Mié 25) |
-| 2 | 📄 EPS Sura a Francy — cierre definitivo (rápida ≤30 min) | Lun 23 | Hogar/Admin | ⏳ pendiente (no hecha 23–24/11, arrastra a Mié 25) |
-| 3 | 📢 Meta Ads — definir nicho (1 bloque, cierre o se reprograma) | Mar 24 | Meta Ads | ⏳ pendiente (no hecha 23–24/11, cierre Mié 25) |
-| 4 | 🔬 Prototipo X — decidir sensor HC-SR04 vs LD2410 + lista compra | Mié 25 | Prototipo X | ⏳ pendiente (no decidido 24/11, cierre Mié 25) |
-| 5 | 💰 Ingresos — distribuir $1.050.000 **(fecha fija)** | Mié 25 | Ingresos | 📅 programada |
-| 6 | 💊 Creatina — retomar (compra + reinicio racha) | Mié 25 | Hábitos | 📅 programada |
-| 7 | 📚 Lectura diaria ×5 + revisión semanal semana 4 | Lun–Vie | Hábitos | ⏳ pendiente |
+### 🧱 DATACENTER
+| # | Prioridad | Día | Estado |
+|---|-----------|-----|--------|
+| 1 | B1+B2 — cerrar arrastres: SOP/MOP ✅ + DCIM ✅ + Fierros/RMA ✅ + CLI ⏳ | Lun 23 | 🟡 3/4 cerradas 24/11 (falta CLI, arrastra a Mié 25) |
+| 2 | Runbooks R660 ×9 (disco, PSU, fan, memoria, CPU, boot/PERC, expansión, board, POST) | Mar 25 | ✅ cerrados 25/11 madrugada |
+| 3 | Runbooks otros equipos (XE9680, switches) | Jue 26 | 📅 programado |
+| 4 | Playbooks FABRICATO (74 racks · 637 eq) | — | ⏳ pendiente |
+
+### 📢 META ADS
+| # | Prioridad | Día | Estado |
+|---|-----------|-----|--------|
+| 1 | Definir nicho (1 bloque, cierre o se reprograma) | Mar 24 | ⏳ pendiente (no hecha 23–24/11, cierre Mié 25) |
+
+### 🔬 PROTOTIPO X
+| # | Prioridad | Día | Estado |
+|---|-----------|-----|--------|
+| 1 | Decidir sensor HC-SR04 vs LD2410 + lista compra | Mié 25 | ⏳ pendiente (no decidido 24/11, cierre Mié 25) |
+
+### 🏠 HOGAR / ADMIN
+| # | Prioridad | Día | Estado |
+|---|-----------|-----|--------|
+| 1 | 📄 EPS Sura a Francy — cierre definitivo (rápida ≤30 min) | Lun 23 | ⏳ pendiente (no hecha 23–24/11, arrastra a Mié 25) |
+| 2 | 💰 Ingresos — distribuir $1.050.000 **(fecha fija)** | Mié 25 | 📅 programada |
+
+### 🌱 HÁBITOS
+| # | Prioridad | Día | Estado |
+|---|-----------|-----|--------|
+| 1 | 💊 Creatina — retomar (compra + reinicio racha) | Mié 25 | 📅 programada |
+| 2 | 📚 Lectura diaria ×5 + revisión semanal semana 4 | Lun–Vie | ⏳ pendiente |
 
 > 💡 Patrón: EPS Sura y nicho arrastran 2 semanas — regla nueva: lo que arrastre 2 semanas se hace en bloque Lun o se descarta. Prototipo X se reactiva solo si fierros/RMA cierran Lun 23.
 
