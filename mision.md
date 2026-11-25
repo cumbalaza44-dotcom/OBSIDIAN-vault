@@ -50,11 +50,20 @@ source: "Mr. Jair — iOS / Telegram"
 
 > 🎯 Malla: Jue 26 transición — por confirmar. Cierre semana 5.
 
-- [ ] 📚 Lectura diaria
-- [ ] 🧱 Repaso B1/B2 pendiente (si algo arrastra del Mié 25)
+### 🧱 DATACENTER
+- [ ] Repaso B1/B2 pendiente (si algo arrastra del Mié 25)
+
+### 📢 META ADS
+- [ ] Definir nicho o reprogramar (regla 2 semanas)
+
+### 🔬 PROTOTIPO X
+- [ ] Prototipar (si se decidió el 25)
+
+### 🏠 HOGAR / ADMIN
 - [ ] 📄 EPS Sura — cierre definitivo (si arrastra del 25)
-- [ ] 📢 Meta Ads — definir nicho o reprogramar (regla 2 semanas)
-- [ ] 🔬 Prototipo X — prototipar (si se decidió el 25)
+
+### 🌱 HÁBITOS
+- [ ] 📚 Lectura diaria
 
 ---
 
