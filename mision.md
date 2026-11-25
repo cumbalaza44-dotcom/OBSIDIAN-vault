@@ -24,16 +24,25 @@ source: "Mr. Jair — iOS / Telegram"
 > 🎯 Malla: Mié 25 noche (turno N 22:00–06:00) — tarde libre disponible. Fecha fija: Ingresos + Creatina.
 > 📌 Ingresos — distribuir $1.050.000 → **HOY 25/11 (fecha fija)**. 💊 Creatina retoma HOY 25/11.
 
-- [ ] 📚 Lectura diaria 25/11
+### 🧱 DATACENTER
+- [ ] B1+B2 — CLI intermedio (arrastre — [>] no hecho Mar 24)
+- [x] Runbooks R660 — 9 generados (disco, PSU, fan, memoria, CPU, boot/PERC, expansión, board, POST) ✅ 25/11 madrugada
+- [ ] Playbooks FABRICATO (74 racks · 637 eq · 10.049 cables) — playbook x rol (arrastre — [>] no hecho Mar 24)
+- [ ] Runbooks otros equipos (XE9680, switches, etc.) — continuar Jue 26
+
+### 📢 META ADS
+- [ ] Definir nicho (1 bloque, cierre — [>] no hecha Mar 24, arrastra Lun 23)
+
+### 🔬 PROTOTIPO X
+- [ ] Decidir sensor HC-SR04 vs LD2410 + lista compra (arrastre — [>] no hecho Mar 24)
+
+### 🏠 HOGAR / ADMIN
 - [ ] 💰 Ingresos — distribuir $1.050.000 **(fecha fija HOY)**
-- [ ] 💊 Creatina — retomar (compra + reinicio racha)
-- [ ] 🧱 B1+B2 — CLI intermedio (arrastre — [>] no hecho Mar 24)
 - [ ] 📄 EPS Sura a Francy — vía WhatsApp (cierre definitivo — [>] no hecha Mar 24, arrastra Lun 23)
-- [ ] 📢 Meta Ads — definir nicho (1 bloque, cierre — [>] no hecha Mar 24, arrastra Lun 23)
-- [ ] 🔬 Prototipo X — decidir sensor HC-SR04 vs LD2410 + lista compra (arrastre — [>] no hecho Mar 24)
-- [x] 📕 Runbooks DC Hardware R660 — 9 runbooks generados (disco, PSU, fan, memoria, CPU, boot/PERC, expansión, board, POST) ✅ 25/11 madrugada
-- [ ] 📕 Playbooks FABRICATO (74 racks · 637 eq · 10.049 cables) — playbook x rol (arrastre — [>] no hecho Mar 24)
-- [ ] 📕 Runbooks otros equipos (XE9680, switches, etc.) — continuar Jue 26
+
+### 🌱 HÁBITOS
+- [ ] 📚 Lectura diaria 25/11
+- [ ] 💊 Creatina — retomar (compra + reinicio racha)
 
 ---
 
