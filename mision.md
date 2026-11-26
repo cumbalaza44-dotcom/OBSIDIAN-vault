@@ -8,7 +8,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 # 📋 MISSIONS
 
-### Última actualización: `25 Nov 2026 — 01:00 (Rollo automático — Semana 5)`
+### Última actualización: `26 Nov 2026 — 01:00 (Rollo automático — Semana 5)`
 
 > **Regla de oro:** Editar aquí = editar la tarea.
 > Yo sincronizo los cambios con las notas originales.
@@ -19,48 +19,49 @@ source: "Mr. Jair — iOS / Telegram"
 
 ---
 
-## 🔥 HOY — Miércoles 25/11
-
-> 🎯 Malla: Mié 25 noche (turno N 22:00–06:00) — tarde libre disponible. Fecha fija: Ingresos + Creatina.
-> 📌 Ingresos — distribuir $1.050.000 → **HOY 25/11 (fecha fija)**. 💊 Creatina retoma HOY 25/11.
-
-### 🧱 DATACENTER
-- [ ] B1+B2 — CLI intermedio (arrastre — [>] no hecho Mar 24)
-- [x] Runbooks R660 — 9 generados (disco, PSU, fan, memoria, CPU, boot/PERC, expansión, board, POST) ✅ 25/11 madrugada
-- [ ] Playbooks FABRICATO (74 racks · 637 eq · 10.049 cables) — playbook x rol (arrastre — [>] no hecho Mar 24)
-- [ ] Runbooks otros equipos (XE9680, switches, etc.) — continuar Jue 26
-
-### 📢 META ADS
-- [ ] Definir nicho (1 bloque, cierre — [>] no hecha Mar 24, arrastra Lun 23)
-
-### 🔬 PROTOTIPO X
-- [ ] Decidir sensor HC-SR04 vs LD2410 + lista compra (arrastre — [>] no hecho Mar 24)
-
-### 🏠 HOGAR / ADMIN
-- [ ] 💰 Ingresos — distribuir $1.050.000 **(fecha fija HOY)**
-- [ ] 📄 EPS Sura a Francy — vía WhatsApp (cierre definitivo — [>] no hecha Mar 24, arrastra Lun 23)
-
-### 🌱 HÁBITOS
-- [ ] 📚 Lectura diaria 25/11
-- [ ] 💊 Creatina — retomar (compra + reinicio racha)
-
----
-
-## 📅 MAÑANA — Jueves 26/11
+## 🔥 HOY — Jueves 26/11
 
 > 🎯 Malla: Jue 26 transición — por confirmar. Cierre semana 5.
+> ⚠️ Arrastre Mié 25: solo Runbooks R660 ✅ — resto no hecho.
 
 ### 🧱 DATACENTER
+- [ ] B1+B2 — CLI intermedio (arrastre — [>] no hecho Mié 25, arrastra Mar 24)
+- [ ] Playbooks FABRICATO (74 racks · 637 eq · 10.049 cables) — playbook x rol (arrastre — [>] no hecho Mié 25, arrastra Mar 24)
+- [ ] Runbooks otros equipos (XE9680, switches, etc.) (programado Jue 26)
 - [ ] Repaso B1/B2 pendiente (si algo arrastra del Mié 25)
 
 ### 📢 META ADS
-- [ ] Definir nicho o reprogramar (regla 2 semanas)
+- [ ] Definir nicho o reprogramar — 1 bloque cierre (arrastre — [>] no hecha Mié 25, arrastra Lun 23 · regla 2 semanas)
 
 ### 🔬 PROTOTIPO X
-- [ ] Prototipar (si se decidió el 25)
+- [ ] Decidir sensor HC-SR04 vs LD2410 + lista compra (arrastre — [>] no hecho Mié 25, arrastra Mar 24) → prototipar si se decide
 
 ### 🏠 HOGAR / ADMIN
-- [ ] 📄 EPS Sura — cierre definitivo (si arrastra del 25)
+- [ ] 💰 Ingresos — distribuir $1.050.000 **(⚠️ vencida fecha fija 25/11 — [>] no hecha Mié 25)**
+- [ ] 📄 EPS Sura a Francy — vía WhatsApp, cierre definitivo (arrastre — [>] no hecha Mié 25, arrastra Lun 23)
+
+### 🌱 HÁBITOS
+- [ ] 📚 Lectura diaria 26/11 ([>] no hecha Mié 25)
+- [ ] 💊 Creatina — retomar compra + reinicio racha ([>] no hecha Mié 25)
+
+---
+
+## 📅 MAÑANA — Viernes 27/11
+
+> 🎯 Malla: Vie 27 por confirmar. Cierre semana 5.
+
+### 🧱 DATACENTER
+- [ ] Cierre arrastres B1/B2 + FABRICATO + otros equipos (según avance Jue 26)
+
+### 📢 META ADS
+- [ ] Definir nicho o descartar (regla 2 semanas — decisión final)
+
+### 🔬 PROTOTIPO X
+- [ ] Prototipar o pausar (según decisión Jue 26)
+
+### 🏠 HOGAR / ADMIN
+- [ ] 💰 Ingresos — cierre definitivo si arrastra del 26
+- [ ] 📄 EPS Sura — cierre definitivo si arrastra del 26
 
 ### 🌱 HÁBITOS
 - [ ] 📚 Lectura diaria
@@ -73,32 +74,32 @@ source: "Mr. Jair — iOS / Telegram"
 ### 🧱 DATACENTER
 | # | Prioridad | Día | Estado |
 |---|-----------|-----|--------|
-| 1 | B1+B2 — cerrar arrastres: SOP/MOP ✅ + DCIM ✅ + Fierros/RMA ✅ + CLI ⏳ | Lun 23 | 🟡 3/4 cerradas 24/11 (falta CLI, arrastra a Mié 25) |
+| 1 | B1+B2 — cerrar arrastres: SOP/MOP ✅ + DCIM ✅ + Fierros/RMA ✅ + CLI ⏳ | Lun 23 | 🟡 3/4 cerradas 24/11 (falta CLI, arrastra a Jue 26 — [>] no hecho Mié 25) |
 | 2 | Runbooks R660 ×9 (disco, PSU, fan, memoria, CPU, boot/PERC, expansión, board, POST) | Mar 25 | ✅ cerrados 25/11 madrugada |
-| 3 | Runbooks otros equipos (XE9680, switches) | Jue 26 | 📅 programado |
-| 4 | Playbooks FABRICATO (74 racks · 637 eq) | — | ⏳ pendiente |
+| 3 | Runbooks otros equipos (XE9680, switches) | Jue 26 | 📅 programado (arrastra — [>] no hecho Mié 25) |
+| 4 | Playbooks FABRICATO (74 racks · 637 eq) | — | ⏳ pendiente ([>] no hecho Mié 25) |
 
 ### 📢 META ADS
 | # | Prioridad | Día | Estado |
 |---|-----------|-----|--------|
-| 1 | Definir nicho (1 bloque, cierre o se reprograma) | Mar 24 | ⏳ pendiente (no hecha 23–24/11, cierre Mié 25) |
+| 1 | Definir nicho (1 bloque, cierre o se reprograma) | Mar 24 | ⏳ pendiente ([>] no hecha Mié 25, arrastra Lun 23 — decisión Vie 27) |
 
 ### 🔬 PROTOTIPO X
 | # | Prioridad | Día | Estado |
 |---|-----------|-----|--------|
-| 1 | Decidir sensor HC-SR04 vs LD2410 + lista compra | Mié 25 | ⏳ pendiente (no decidido 24/11, cierre Mié 25) |
+| 1 | Decidir sensor HC-SR04 vs LD2410 + lista compra | Mié 25 | ⏳ pendiente ([>] no decidido Mié 25, arrastra Mar 24) |
 
 ### 🏠 HOGAR / ADMIN
 | # | Prioridad | Día | Estado |
 |---|-----------|-----|--------|
-| 1 | 📄 EPS Sura a Francy — cierre definitivo (rápida ≤30 min) | Lun 23 | ⏳ pendiente (no hecha 23–24/11, arrastra a Mié 25) |
-| 2 | 💰 Ingresos — distribuir $1.050.000 **(fecha fija)** | Mié 25 | 📅 programada |
+| 1 | 📄 EPS Sura a Francy — cierre definitivo (rápida ≤30 min) | Lun 23 | ⏳ pendiente ([>] no hecha Mié 25, arrastra Lun 23) |
+| 2 | 💰 Ingresos — distribuir $1.050.000 **(fecha fija)** | Mié 25 | ⚠️ vencida 25/11 ([>] no hecha Mié 25 — cierre Jue 26) |
 
 ### 🌱 HÁBITOS
 | # | Prioridad | Día | Estado |
 |---|-----------|-----|--------|
-| 1 | 💊 Creatina — retomar (compra + reinicio racha) | Mié 25 | 📅 programada |
-| 2 | 📚 Lectura diaria ×5 + revisión semanal semana 4 | Lun–Vie | ⏳ pendiente |
+| 1 | 💊 Creatina — retomar (compra + reinicio racha) | Mié 25 | ⏳ pendiente ([>] no hecha Mié 25 — retoma Jue 26) |
+| 2 | 📚 Lectura diaria ×5 + revisión semanal semana 4 | Lun–Vie | ⏳ pendiente ([>] no hecha Mié 25) |
 
 > 💡 Patrón: EPS Sura y nicho arrastran 2 semanas — regla nueva: lo que arrastre 2 semanas se hace en bloque Lun o se descarta. Prototipo X se reactiva solo si fierros/RMA cierran Lun 23.
 
@@ -177,8 +178,8 @@ source: "Mr. Jair — iOS / Telegram"
 
 | Hábito | Frecuencia | Último registro |
 |--------|------------|-----------------|
-| 📚 Lectura diaria | Diario | 21/11 ✅ *(23–24/11 no hechas, retoma 25/11)* |
-| 💊 Creatina 3-5g | Diario (noche) | ⏸️ pausada 8–25/11 *(se acabó, retoma con compra 25/11)* |
+| 📚 Lectura diaria | Diario | 21/11 ✅ *(23–25/11 [>] no hechas, retoma 26/11)* |
+| 💊 Creatina 3-5g | Diario (noche) | ⏸️ pausada 8–25/11 *([>] no retomada 25/11, retoma 26/11)* |
 | 🏋️ Gym | ⏸️ pausado | Pausado desde Sep — reevaluación **pendiente desde 1/11** |
 | 🔬 Prototipo X | ⏸️ pausado | Pausado — prioridad DC |
 
