@@ -8,6 +8,8 @@ tags: [datacenter, operatividad, RMA, commissioning, disciplina]
 
 # 🧩 Estándar Mínimo de Operatividad — Técnico DC
 
+PLAN DE REVISIONES PERIODICAS 
+
 > Plantilla viva. Cada turno que aprendas algo, se agrega aquí.
 > Si está aquí, está priorizado.
 > v2.0 (23/11): Disciplina Operativa integrada como sección 0.
