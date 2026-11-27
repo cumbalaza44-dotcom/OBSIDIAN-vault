@@ -61,10 +61,12 @@
 
 | Fecha | Concepto | Categoría | Monto |
 |-------|----------|-----------|-------|
-| | | | |
+| 27/11 | Pago deuda madre | Deuda | $150.000 |
+| 27/11 | Pago moto | Deuda | $300.000 |
 
-**Gastado fijos Nov:** $0 / $1.925.000
+**Gastado fijos Nov:** $450.000 / $1.925.000
 **Gastado libre Nov:** $0 / $1.375.000
+**Pendiente:** Don Iván (monto por confirmar)
 
 ## 📅 Dic 2026
 
