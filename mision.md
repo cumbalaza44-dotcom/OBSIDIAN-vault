@@ -38,7 +38,7 @@ source: "Mr. Jair — iOS / Telegram"
 
 ### 🏠 HOGAR / ADMIN
 - [ ] 💰 Ingresos — distribuir $1.050.000 **(⚠️ vencida fecha fija 25/11 — [>] no hecha Jue 26, arrastra Mié 25)**
-- [ ] 📄 EPS Sura a Francy — vía WhatsApp, cierre definitivo (arrastre — [>] no hecha Jue 26, arrastra Lun 23)
+- [x] 📄 EPS Sura a Francy — vía WhatsApp, cierre definitivo ✅ cerrada 27/11
 
 ### 🌱 HÁBITOS
 - [ ] 📚 Lectura diaria 27/11 ([>] no hecha Jue 26)
