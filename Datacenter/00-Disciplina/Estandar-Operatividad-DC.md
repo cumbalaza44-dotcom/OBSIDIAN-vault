@@ -8,7 +8,8 @@ tags: [datacenter, operatividad, RMA, commissioning, disciplina]
 
 # 🧩 Estándar Mínimo de Operatividad — Técnico DC
 
-PLAN DE REVISIONES PERIODICAS 
+-PLAN DE REVISIONES PERIODICAS POR TODOS LOS SERVIDORES 
+-estamos operando solo por lo que nos muestra zabbix? que revisiones estamos haciendo o simplemente esperamos que tengamos una falla?
 
 > Plantilla viva. Cada turno que aprendas algo, se agrega aquí.
 > Si está aquí, está priorizado.
