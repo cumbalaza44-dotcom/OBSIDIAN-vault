@@ -65,10 +65,11 @@
 | 27/11 | Pago moto | Deuda | $300.000 |
 | 27/11 | Postre | Variables / ocio | $10.000 |
 | 27/11 | Pollo | Variables / ocio | $10.000 |
+| 27/11 | Pago Don Iván | Deuda | $180.000 |
 
-**Gastado fijos Nov:** $450.000 / $1.925.000
+**Gastado fijos Nov:** $630.000 / $1.925.000
 **Gastado libre Nov:** $20.000 / $1.375.000 (Variables: $20.000 / $250.000)
-**Pendiente:** Don Iván (monto por confirmar)
+**Pendiente:** — (Don Iván pagado 27/11)
 
 ## 📅 Dic 2026
 
