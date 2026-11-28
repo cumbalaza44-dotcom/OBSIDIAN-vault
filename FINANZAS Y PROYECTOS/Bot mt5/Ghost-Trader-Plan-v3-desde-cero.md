@@ -47,12 +47,13 @@ Deriv WS público (ticks/velas, sin auth)
 
 ## 📅 Fases
 
-### FASE 1 — Conector + Data (semana 1)
+### FASE 1 — Conector + Data (semana 1) — 🟡 en curso
 > Resuelve: interpretación — ver el mercado sin estar pegado.
-- [ ] `deriv_connector.py`: público (ticks) + OTP demo, ping, reconnect, req_id
-- [ ] `data_engine.py`: ticks_history → velas, RSI/EMA/ATR en Polars
-- [ ] Test: 500 velas R_100 en demo, indicadores calculados
-- [ ] Validar schemas contra MCP Deriv
+- [x] `deriv_connector.py`: WS público v1 (velas + ticks push), ping 30s, reconnect, req_id, resubscribe
+- [x] Test: 500 velas R_100 + EMA/RSI/ATR validados (`scripts/phase1_smoke.py`)
+- [ ] OTP demo/real (requiere PAT + account_id) + `balance` / `portfolio`
+- [ ] `data_engine.py`: buffer de ticks → velas en vivo + indicadores (pandas)
+- [ ] Validar schemas contra MCP Deriv (schemas oficiales ya consultados)
 - [ ] Pipeline base con pasos obligatorios (ningún dato salta de capa)
 
 ### FASE 2 — Estrategia + Risk (semana 2)
@@ -121,6 +122,59 @@ ghost-trader/
 
 **5. Innegociable — nunca saltarse normas de seguridad ni pasos de ejecución.** Pipeline obligatorio, sin bypass. Risk Engine como único aprobador.
 
+## ✅ Estado real del repositorio (28/11, verificado)
+
+### Lo que ya existe y funciona (prototipo v2)
+- `src/data/deriv_client.py`: cliente WS legacy con failover y sondeo.
+- `src/data/indicators.py`: EMA, RSI, MACD, ATR, ADX, Bollinger, estocástico (pandas).
+- `src/ai/`: 29 features, `HistGradientBoostingClassifier`, agente, estrategia de reglas.
+- `src/trading/`: `PaperBroker` + `RiskManager` + persistencia (`state.json`, `trades.jsonl`).
+- `src/backtest/backtester.py`, `train.py`, `backtest.py`, `main.py`, dashboard Streamlit.
+- Modelo entrenado: `data/models/model_R_75_60.joblib`.
+
+### Nuevo (v3) construido hoy
+- `src/data/deriv_connector.py`: conector **Options API v1** (REST + WS público/cuenta, OTP, `req_id`, ping 30 s, backoff, resubscribe automático).
+- `scripts/phase1_smoke.py`: **FASE 1 verde** → 500 velas R_100 en 0.29 s, 5 ticks por push, EMA/RSI/ATR válidos.
+
+### API v1 verificada (no asumida)
+
+| Pieza | Valor real |
+|---|---|
+| REST base | `https://api.derivws.com` |
+| Cuentas | `GET /trading/v1/options/accounts` |
+| OTP | `POST /trading/v1/options/accounts/{id}/otp` → `data.url` (120 s, un solo uso) |
+| WS público | `wss://api.derivws.com/trading/v1/options/ws/public` |
+| WS demo/real | la URL que devuelve el OTP |
+| Auth | `Authorization: Bearer`; PAT exige header `Deriv-App-ID` |
+| Campo símbolo | `underlying_symbol` (nunca `symbol`) |
+| Cuenta (schema) | `account_id`, `balance`, `currency`, `group`, `status`, `account_type` |
+| Símbolos activos | 95; sintéticos R_10/25/50/75/100 + 1HZ* disponibles |
+
+### Mecánica real de R_100 (medida hoy)
+- CALL/PUT (RISE/FALL) 5 ticks, stake 10 USD → **payout 19.54**.
+- Ganar: **+9.54**; perder: **−10.00**. **Break-even ≈ 51.2%** de aciertos.
+- Stake mínimo 0.35 USD; payout máximo 1000 USD.
+- Duraciones: tick (1–10 t), intradía (15 s–1 d), diario (1–365 d).
+- MULTUP/MULTDOWN existen, pero no devolvieron propuesta con los parámetros probados.
+
+### ⚠️ Hallazgos que cambian el diseño
+1. **Riesgo binario mal modelado en v2.** `RiskManager.stake_size()` dimensiona por distancia entry→SL (lógica CFD). En binarios se pierde **todo el stake**. Con balance 1000 y tope 5%, un stop de 1 ATR produjo stake 50 → primera pérdida = −5% = límite diario. El `state.json` actual está detenido exactamente por eso (modo offline). En v3: `stake = balance × risk_per_trade` (2%), con tope absoluto, sin distancia.
+2. **TP/SL de precio no existen en CALL/PUT binario.** El contrato liquida en expiry (o se vende antes al bid). El `PaperBroker` actual cierra por precio y marca PnL no realizado, lo que no representa a Deriv. v3 debe simular **liquidación por expiry**: `win = close_expiry > entry` (CALL); PnL = `payout − stake` o `−stake`.
+3. **El label del ML no coincide con el horizonte del contrato.** `make_labels(horizon=1)` predice la siguiente vela; un contrato de 5 ticks o 1 minuto necesita `horizon` = duración. Alinear label ↔ expiry antes de backtestear.
+4. **Backtest no representativo.** Usa TP/SL y no payout/expiry reales. Debe reescribirse sobre la mecánica binaria y usar el payout real de `proposal`.
+5. **Polars vs pandas.** El plan pide Polars; el código funciona con pandas. Para 500–5000 velas no hay ganancia medible. Recomendación: mantener pandas en v3 y migrar solo si el volumen lo exige.
+
+## 🧭 Decisiones abiertas (bloquean Fase 2/3)
+
+- [ ] **Estructura:** ¿reescribir en la estructura plana del plan o evolucionar `src/` reutilizando datos/ML/backtest? → Recomendado: evolucionar `src/`.
+- [ ] **Contrato v3:** ¿CALL/PUT binario (coherente con RISE/FALL y $2) o MULTUP/MULTDOWN (TP/SL nativo)? → Recomendado: CALL/PUT.
+- [ ] **Auth inicial:** ¿PAT (desktop, simple) u OAuth2 PKCE? → Recomendado: PAT ahora, OAuth después.
+- [ ] **Duración base:** ¿5 ticks, 1 min o 5 min? Afecta label, backtest y frecuencia.
+
 ## ⏭️ Siguiente acción
 
-- [ ] FASE 1: conector público + 500 velas R_100
+1. [x] FASE 1: conector público + 500 velas R_100
+2. [ ] Cerrar decisiones abiertas (estructura, contrato, auth, duración)
+3. [ ] `data_engine.py`: ticks → velas en vivo + indicadores, con buffer y tests
+4. [ ] Conectar cuenta demo vía PAT + OTP y leer `balance` / `portfolio`
+5. [ ] Reescribir `risk_engine.py` y `backtester.py` con mecánica binaria real (stake, payout, expiry)
